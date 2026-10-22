@@ -567,6 +567,11 @@
      "credited": false,
      "relation": "studied",
      "repo": "steelbrain/reims-vgpu"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "Jakiewbe/honor-hackintosh-lab"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
@@ -703,6 +708,21 @@
       "releases",
       "commits"
      ]
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "kitsuneislife/nmx-intel"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "cheseecake/i3-1220p-macos-gpu"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "pongpan-bk/First-Custom-iGPU-Driver-for-Intel-Core-5-120U-on-macOS"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"

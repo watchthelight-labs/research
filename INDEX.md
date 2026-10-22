@@ -205,3 +205,7 @@
 | 2026-10-14 | N-03 | project-legion | boot | [1 file(s)](logs/watchthelight/lenovo-legion-5-15iax10/2026-10-14-n-03-boot) |
 | 2026-10-14 | N-02 | project-legion | boot | [1 file(s)](logs/watchthelight/lenovo-legion-5-15iax10/2026-10-14-n-02-boot) |
 | 2026-10-14 | N-01 | project-legion | boot | [2 file(s)](logs/watchthelight/lenovo-legion-5-15iax10/2026-10-14-n-01-boot) |
+
+## Upstream scout reports
+
+- [2026-10-22](scout/reports/2026-10-22.md)
