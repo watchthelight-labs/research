@@ -16,15 +16,15 @@ Tokens are numbered per machine and kind (`MAC-1`, `MAC-2`) and stored in a priv
 
 ## Ingest (`tools/ingest.py`)
 
-- **From an issue:** it reads the issue and every comment through `gh api`. Fenced code blocks of five lines or more (or shorter ones that are clearly an ioreg, panic, OpenCore or kernel log) and attached `.txt`/`.log`/`.panic` files become one log set per post. The set is filed under the post's author.
-- **From local files:** it takes a list of files plus `--user`, `--machine` and `--source`.
-- **Redaction:** every file is redacted, and file names too, since they can carry a host name. If one file is refused, nothing from that post is written.
-- **Bookkeeping:** `logs/ingested.json` remembers each post URL and each local file's hash, so running it twice adds nothing. `machines.json` gets the model, the chips and every macOS build seen. The build is only read next to a label ("macOS", "Build", "ProductBuildVersion") or as "26.7.1 (25G241)", so hex dumps don't count.
+Given an issue, it reads the issue and every comment through `gh api`. Fenced code blocks of five lines or more (or shorter ones that are clearly an ioreg, panic, OpenCore or kernel log) and attached `.txt`/`.log`/`.panic` files become one log set per post, filed under the post's author. Given local files, it takes the list plus `--user`, `--machine` and `--source`.
+
+Every file is redacted, and so are file names, since they can carry a host name. If one file is refused, nothing from that post is written.
+
+`logs/ingested.json` remembers each post URL and each local file's hash, so running it twice adds nothing. `machines.json` gets the model, the chips and every macOS build seen. The build is only read next to a label ("macOS", "Build", "ProductBuildVersion") or as "26.7.1 (25G241)", so hex dumps don't count.
 
 ## The privacy check (`tools/privacy_check.py`)
 
-- **On every push (CI):** it scans each tracked file with `leftovers()`.
-- **Locally with the private map:** it also checks that no original value from the map appears anywhere. `--fix` runs the redactor again over every log first. That matters because a value learned from a later log (a network name, say) wasn't known yet when an earlier log of the same machine was redacted.
+CI runs it on every push, and it scans each tracked file with `leftovers()`. Run locally with the private map, it also checks that no original value from the map appears anywhere. `--fix` runs the redactor again over every log first, because a value learned from a later log (a network name, say) wasn't known yet when an earlier log of the same machine was redacted.
 
 ## The index (`tools/index.py`)
 
@@ -32,9 +32,6 @@ Tokens are numbered per machine and kind (`MAC-1`, `MAC-2`) and stored in a priv
 
 ## The scout
 
-The scout itself runs from the private project repo. It reads the watchlist, collects what changed in each related repository since its last run, searches for new related projects, and has the findings read and judged. What lands here:
-- the write-ups in `scout/<project>/`;
-- the run reports in `scout/reports/`;
-- the public copy of the watchlist (`scout/watchlist.json`).
+The scout itself runs from the private project repo. It reads the watchlist, collects what changed in each related repository since its last run, searches for new related projects, and has the findings read and judged. What lands here is the write-ups in `scout/<project>/`, the run reports in `scout/reports/` and the public copy of the watchlist (`scout/watchlist.json`).
 
 The `related-watch` workflow in this repo posts a short digest of new releases and commits to Discord every few hours, so nothing big waits for the next daily run.
