@@ -1,8 +1,6 @@
 <!-- <wtl> project: research | file: README.md | author: watchthelight </wtl> -->
 # research
 
-> **Heads up:** a good portion of this code is AI generated. I do understand how it works, and I'm happy to explain any of it. If something looks wrong or you have a question, open an issue or ping me on Discord (`watchthelight`).
-
 Every log behind the [watchthelight-labs](https://github.com/watchthelight-labs) Hackintosh projects, ours and the ones people send in, plus a running record of what related projects are doing. If you're debugging an MT7925, an Arrow Lake laptop, NullMoth on Blackwell or an Intel Xe iGPU on macOS, there's a good chance someone already hit your problem and the log is here.
 
 Everything is redacted before it lands (see below). Start with [INDEX.md](INDEX.md).
