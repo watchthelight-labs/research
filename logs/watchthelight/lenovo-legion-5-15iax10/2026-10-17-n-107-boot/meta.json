@@ -3,10 +3,10 @@
  "component": "native",
  "files": {
   "n107-summary.md": "557838db10e79ee13da585e3757550b694b0d0131c91778a9f9fcf42e01cb5c4",
-  "pass-draw1-46x24-fmt30.json": "02c978ac6119d1cea8267b6652114c762dfb077b536fa9b823c40d0a05fc2607",
-  "pass-draw2-4x24-fmt30.json": "ef7c21f1ba2ddf0c17112ddb580f8b7bdb84c9e6cc9201cabc8a3425f12802b2",
-  "pass-draw3-22x28-fmt80.json": "d8efde09e6bcaa1b22474bcbd25e7685cd18d666eec04a9645107cf7daff55ed",
-  "pass-draw4-22x28-fmt80.json": "e4d9f1bd5b947af297257f45bd35eeade030819ad131c9475fbd6024a0cfaec8"
+  "pass-draw1-46x24-fmt30.json": "72f862158ed1705ce144737b77295cd4b87f9906ce926d5967e2389baf9d51a4",
+  "pass-draw2-4x24-fmt30.json": "26bce64e8eda663aa9341a89705de204594436c9fcf1d413dbe760ad14af77c7",
+  "pass-draw3-22x28-fmt80.json": "3eb0d9663f05d283a2763057e0ab7bec387492fa62373b839ed41e2ad66de612",
+  "pass-draw4-22x28-fmt80.json": "2a4a7cbbd4dd45de886a1840afc3508daa262ae8840400e4d1fa93d7d4bf2c4a"
  },
  "kexts": {},
  "machine": "lenovo-legion-5-15iax10",

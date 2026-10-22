@@ -2,7 +2,7 @@
  "collected": "2026-10-21",
  "component": "native",
  "files": {
-  "Kernel-2026-10-21-114820.panic": "551d5847ba01ccc10bd7066017908dc42ed9dac5bbcf536ad9245a3a451ad4c4",
+  "Kernel-2026-10-21-114820.panic": "505606dd7121496d3a9f605aa16aaad00c26a6b94b166bc7465f22f7d2e3e5a1",
   "README.md": "346b3dadbbbf2d472657b0327c90cda05d1d1d313650bb2969ede15fae744920",
   "ioreg.txt": "6926ff28215b7d237bbb32218f4b6ad826f8ecfae5726d600c48f07600578a4d",
   "kernel-log.txt": "dcb0f47ed5af6f0b06ce56db410d31989d71f17f4d9dbc66e88bcd625a23315f",

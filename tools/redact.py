@@ -177,7 +177,7 @@ def _ssid_blocks(text: str, tok: Tokens, hits: dict) -> str:
 
 def redact(text: str, machine: str, mapping: dict):
     """Returns (redacted text, {kind: count})."""
-    text = text.replace("\0", "")
+    text = text.replace("\0", "").replace("\r\n", "\n")   # stored with LF, so the hashes in meta.json hold everywhere
     tok = Tokens(mapping, machine)
     hits = {}
     text = _keyed(text, tok, hits)

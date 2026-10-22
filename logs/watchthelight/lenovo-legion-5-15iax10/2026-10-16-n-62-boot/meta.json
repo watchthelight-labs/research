@@ -3,7 +3,7 @@
  "component": "native",
  "files": {
   "ioreg-voodooi2c.txt": "f078805aa780cc052ee6470270c8d433a7146a35c35789735d79a4d36b39bd5c",
-  "opencore-2026-10-16-145741.txt": "e4d99e65e37fa358972bcef4d49c3ba5707cec34bd82afefdb3cbe9d54205af3",
+  "opencore-2026-10-16-145741.txt": "1003dcb037d79309245bad470662fe8f0fe9694b46d220a73e6567d21a570c8a",
   "voodooi2c-dmesg.txt": "c63e31fe43fc753718e3a9d1f07245e6c01cfd9b52167fd270edf73659fa7dd8"
  },
  "kexts": {},

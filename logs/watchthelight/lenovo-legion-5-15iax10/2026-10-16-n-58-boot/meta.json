@@ -4,8 +4,8 @@
  "files": {
   "camera.txt": "3a06919c14e194babf909e49444c5054a1ee6496cfc647aa63178b6d00dabdbf",
   "nullmoth-sentinel.txt": "ce230342a36e8ce984c870b4400a2f8306dc63c486104fc37ffc78633566d09e",
-  "opencore-2026-10-16-134026.txt": "8cd808a041c280d518ca7e3882bb1511953ae582a36071026fd93b6e8d173b2f",
-  "panic-2026-10-16-0630-previous-boot.panic": "fe33a6c99f391dd52b727be6fa434e30f897a95a24c5223607c68959969768d3",
+  "opencore-2026-10-16-134026.txt": "3aeee63ed67c12f2959926e3320bad2d40b7abfc93eaa2e038fda4dd9f6b4527",
+  "panic-2026-10-16-0630-previous-boot.panic": "b18841f4625dc7fb6c4a28863b2ecd263db8ab83faa33a28fd0e262ed2eb3b18",
   "usb-devices.txt": "c452b4e596be502d0c1f52f0ff45ed22444bcc79e7e3220806f924f792ec8d6c"
  },
  "kexts": {},

@@ -4,7 +4,7 @@
  "files": {
   "bluetooth-controller.txt": "e559b02e8034048fbfa7c88c1a8a75ebaf552842bdb2c4e358b93db6b9ce3451",
   "mtkbt-registry.txt": "832b70243032e88ea2f6357c5b476df1fb800d68baccb93997fee2e309668d2f",
-  "opencore-2026-10-16-135910.txt": "934069b4a4ecd6d8a10d231f03287bc579c7e2a82b5d57e4cb70b951fb90c058"
+  "opencore-2026-10-16-135910.txt": "6fcf7618a76492787234a3082550f31ace6e70720c33c155ea4cb2abe814315f"
  },
  "kexts": {},
  "machine": "lenovo-legion-5-15iax10",

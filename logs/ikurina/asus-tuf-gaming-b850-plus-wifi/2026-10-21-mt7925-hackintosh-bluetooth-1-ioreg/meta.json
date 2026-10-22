@@ -2,7 +2,7 @@
  "collected": "2026-10-21",
  "component": "",
  "files": {
-  "issue-1-ioreg.txt": "3bf545f9235c2cddc0c7cce3a0e94e9a9cff58fb551f330caffc60c314ab6e59"
+  "issue-1-ioreg.txt": "07e196cdf94caa117d46db857ee5abea10003fc0666e9a0774a2f17cea48b1e5"
  },
  "issue_title": "bluetooth turnoff in few second",
  "kexts": {},

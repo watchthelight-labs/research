@@ -7,7 +7,7 @@
   "i2c1.txt": "3cc1ff62d2912f66a0fe13480c46c6e2607196a39b4e3101d00e1bd4cf65f6a3",
   "io-apic.txt": "455d8b593dfa53445fa230cbf0922b707ccc6d96faa2f02ef661af91c9acc7a1",
   "kexts.txt": "1a58da85d37d36ad8ca1c86e1feb16caa1ce1ec1df1d909f9aeb35a1d63b71ea",
-  "opencore-2026-10-15-124544.txt": "9022e8d2ea00436ceec62aa56e59dc78dc6d1f55b13fc7a0d66761c4481485c1",
+  "opencore-2026-10-15-124544.txt": "a3df914cba42cd411f960c11656390d6f706033a04febeaf220f26d5a23ab83d",
   "touchpad-acpi.txt": "693a1b0fc29dbf20cf4e3c1eefea38a741b7d22f3dbf36cf38775485065b5467"
  },
  "kexts": {},

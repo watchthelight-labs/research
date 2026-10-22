@@ -3,8 +3,8 @@
  "component": "native",
  "files": {
   "gop-per-boot.txt": "0ce6bfa72da530a3b8beff3b70630ff3d73ee3a4134aae9f51ccfcb2860b3aa0",
-  "opencore-2026-10-16-010128.txt": "f96df9f8d56c699b5bd20657a6f62108ba4410744589e9578334e265f7f901fd",
-  "unified-display-excerpt.txt": "cb4b07b16c45a83bfaa207de3c34b904fbca4f850e80e442ef1107d965e99b05"
+  "opencore-2026-10-16-010128.txt": "17922c478ad4d77a9e9982554e84fc03748e5f8d09d821f8618f3a9dff1426f1",
+  "unified-display-excerpt.txt": "bbbef498b06457027775c5056f7dc26bbdf2bd7726c0083c121964970c5eec2e"
  },
  "kexts": {},
  "machine": "lenovo-legion-5-15iax10",

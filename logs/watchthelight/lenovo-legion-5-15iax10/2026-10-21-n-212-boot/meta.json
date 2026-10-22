@@ -3,8 +3,8 @@
  "component": "native",
  "files": {
   "README.md": "dcf377bd6231b0a5ac56665b1eeec68d6c1bf579b6b32d1fefc6e0927328bae9",
-  "opencore-2026-10-21-095342.txt": "4702480ffe958b0855e19a3cdd0f59782a559aedb8d92f3980ea16076edc3afb",
-  "panic-2026-10-21-060500.txt": "ab4594ef0184aa51759ea51a7c26c678ab44970db44291fef631dba3f0836584"
+  "opencore-2026-10-21-095342.txt": "10b000509c4fa5af74b3ddd58d41c3cd2f5c51e4164d2a983c3ed996fc6156cf",
+  "panic-2026-10-21-060500.txt": "0f625a7e31890ee2af945a8acb99c73b97e849c40a4482ade24b756ad7b956bc"
  },
  "kexts": {},
  "machine": "lenovo-legion-5-15iax10",

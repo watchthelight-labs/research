@@ -3,7 +3,7 @@
  "component": "native",
  "files": {
   "ioreg-mtknative.txt": "0219bad830f57273392520e292897b8776a913f37e9bb843fa20e05f06a478b5",
-  "opencore-2026-10-17-165353.txt": "f769f2da79c28cf5164df0c97f3797c5bdcdb5ed5f44d4bc945c7e2b0452bf18",
+  "opencore-2026-10-17-165353.txt": "229a5ad9ba39b6829932f0dcf90f60954470d700d9ca04e7a4824cb2004b446d",
   "wifi-summary.md": "1a085ef19748fc868e28324df3e93530d69ad32faceef04621ba283bcb1f526b"
  },
  "kexts": {},

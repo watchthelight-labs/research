@@ -8,8 +8,8 @@
   "geekbench6-metal-test001.txt": "f992babb2747dbcba6152e43d250217054fe3764bce7d23c1d89ed40baf5f6e2",
   "metal-devices.txt": "c9f4bcce6de82239d99c332501ae3f19a7dde64b2a7f6d4bef737d2d01b95810",
   "nvrm-dmesg-excerpt.txt": "59309d5b755be02e9955f21c49043cf59d7d47b2361d618ef2f48c482333ffe8",
-  "opencore-2026-10-16-113738.txt": "28e28427ec6204bb7690714685f36c5b4dfed846d504a0886bef632f01517f59",
-  "opencore-ocefi-2026-10-16-115539.txt": "2b7e94b76da61e15f67ba8f66cf535dc1ad8ef7ef8879c91349dbc66ec114aeb",
+  "opencore-2026-10-16-113738.txt": "713d57bad1065a1f919c8f6e70aa1fb71b8237eb29b6529acace5c1df4ee2d0e",
+  "opencore-ocefi-2026-10-16-115539.txt": "0321204fe71fa865f610b03661600781a087c007e8d93010cb5d9c8a67cf9c8d",
   "sysctl-nv-live.txt": "965a7d2c42dab1b83bbe41e273a86beb2f6d17a4a26243bf7b2ced603f8319cc"
  },
  "kexts": {},

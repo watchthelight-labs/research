@@ -2,8 +2,8 @@
  "collected": "2026-10-14",
  "component": "native",
  "files": {
-  "opencore-2026-10-14-193003.txt": "891231f5fa2fe8a91b40166e5833c0ba2b1a4749419fcedb92787231f0b9e97f",
-  "opencore-2026-10-14-193123.txt": "c2a22dd67a7ce74413a2562aa8087593c522167e836e63226d3249275ab41c79"
+  "opencore-2026-10-14-193003.txt": "6cd3413b81ea7ff1ea2a7e597043f83d15cefbc9f04a80702196828ae33741f6",
+  "opencore-2026-10-14-193123.txt": "d3b4ca5dfad664b90d8ae1d48217e9a4be679fb4191eb4d2f9c326f52de68b49"
  },
  "kexts": {},
  "machine": "lenovo-legion-5-15iax10",

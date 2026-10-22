@@ -2,8 +2,8 @@
  "collected": "2026-10-14",
  "component": "native",
  "files": {
-  "opencore-2026-10-14-215014.txt": "6be37482c7c457a05c187bf43c7922ee3666a22f5923147ce9bc552c21509a3b",
-  "opencore-2026-10-14-215527-picker-after-panic.txt": "1eabdcc51c4ceda4127467ec588180093899d81560dc9ec6350f7c87725de5ad"
+  "opencore-2026-10-14-215014.txt": "1afbbbe6d5a74f8aa9a207807cf050ea201084848228719524e916c492c443ad",
+  "opencore-2026-10-14-215527-picker-after-panic.txt": "ed812b52b351efc4cb7237fe325f850b3b0dcb6ccbf4e66e983f4495efc80f81"
  },
  "kexts": {},
  "machine": "lenovo-legion-5-15iax10",

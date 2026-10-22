@@ -2,11 +2,11 @@
  "collected": "2026-10-17",
  "component": "native",
  "files": {
-  "badge-digit.json": "6885250f38864498eeb6f8d4b8781d4dcc1b4b784ed886afe06aa3d2c4b8290b",
+  "badge-digit.json": "c5c233d67a67c301c34ac79dfec9759174ff59a2e9975bbe9fca6bacaf409140",
   "inproc-glass-trace.txt": "4004afb6e576c23237facfba5e5378ccb6dd7956ea2d0a9acecbe518ddf88a52",
   "inproc-text-trace.txt": "006fa550442a430526fc6746d82afd70dcfad52b5527427e3e06d39e8068a597",
   "n101-summary.md": "6b2355c6b995949037508b72d71a8c45cc0276d59962ab6c20ede7fcfb80e710",
-  "text-inproc.json": "dfea26c632495293b2224211d9865a47a281f6a91cf94b1dccdb8d8d5dcebdff"
+  "text-inproc.json": "958de700769868d0e0de11955993f4b9e42ba79af5b052329c38a4829800bef7"
  },
  "kexts": {},
  "machine": "lenovo-legion-5-15iax10",
