@@ -158,6 +158,16 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "wsjj-official/EFI-2025Y9000P"
+    },
+    {
+     "credited": false,
+     "relation": "VoodooGPIO fork with per-community GPI_IS and an Alder Lake-S personality; interrupt-mode touchpad on a Legion Pro 5 (lead for leaving polling mode; no Arrow Lake personality yet) (GPL-3.0)",
+     "repo": "victorwitkamp/VoodooGPIO",
+     "watch": [
+      "releases",
+      "commits",
+      "issues"
+     ]
     }
    ],
    "title": "Arrow Lake I2C touchpad (LegionI2CArrowLake)"
