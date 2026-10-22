@@ -637,6 +637,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "BelikPePe-UA/legion5-15irx10-hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "parallel",
+     "repo": "mickys/kvm-tahoe-nvidia"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
