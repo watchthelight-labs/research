@@ -1,0 +1,16 @@
+# <wtl> project: research | file: .github/workflows/privacy.yml | author: watchthelight </wtl>
+# Every push and pull request: nothing identifying may be in the repo, and the redactor's own tests pass.
+name: privacy
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tests/test_redact.py > /dev/null
+      - run: python3 tools/privacy_check.py

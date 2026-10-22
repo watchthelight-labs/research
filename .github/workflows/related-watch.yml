@@ -1,0 +1,43 @@
+# <wtl> project: research | file: .github/workflows/related-watch.yml | author: watchthelight </wtl>
+# Every 3 hours: one Discord digest of new releases and commits in the projects scout/watchlist.json follows,
+# and new comments from other people on watchthelight-labs issues. The daily scout run does the reading.
+name: related-watch
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: "look back this many hours instead of to the last run"
+        default: ""
+      test:
+        description: "post even when nothing is new"
+        type: boolean
+        default: false
+permissions:
+  contents: read
+  actions: read
+concurrency: related-watch
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: since the last successful run
+        id: since
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HOURS: ${{ inputs.hours }}
+        run: |
+          if [ -n "$HOURS" ]; then s=$(date -u -d "-$HOURS hours" +%Y-%m-%dT%H:%M:%SZ)
+          else s=$(gh run list -R "$GITHUB_REPOSITORY" -w related-watch -s success -L 1 --json createdAt --jq '.[0].createdAt // empty')
+               [ -n "$s" ] || s=$(date -u -d '-3 hours' +%Y-%m-%dT%H:%M:%SZ); fi
+          echo "since=$s" >> "$GITHUB_OUTPUT"; echo "since $s"
+      - name: post to Discord
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          SINCE: ${{ steps.since.outputs.since }}
+          TEST: ${{ inputs.test && '1' || '0' }}
+        run: python3 tools/related_watch.py

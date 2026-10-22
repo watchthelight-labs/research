@@ -1,0 +1,55 @@
+name: Submit logs
+description: Send logs from your machine. They're published here redacted, under CC BY 4.0.
+title: "Logs: <machine> <what>"
+labels: ["logs"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Serials, MACs, network names, IPs and similar are replaced before anything is published here; you don't have to remove them yourself. Paste text where you can.
+  - type: input
+    id: machine
+    attributes:
+      label: Machine
+      description: Vendor and model, or the board for a desktop
+      placeholder: Lenovo Legion 5 15IAX10 / ASUS TUF Gaming B850-Plus WiFi
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: CPU, GPU, Wi-Fi / Bluetooth card
+      placeholder: Core Ultra 9 275HX, RTX 5070 Laptop, MT7925
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and build, OpenCore version
+      placeholder: 26.7.1 (25G241), OpenCore 1.0.8
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Which project is this about?
+      placeholder: mt7925-hackintosh-bluetooth 0.2.4
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste them here (each in its own code block) or attach .txt files
+      render: text
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Publishing
+      options:
+        - label: I agree that these logs are published in this repository, redacted, under CC BY 4.0
+          required: true
