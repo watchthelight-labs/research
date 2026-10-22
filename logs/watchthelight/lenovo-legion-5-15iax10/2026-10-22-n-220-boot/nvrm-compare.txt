@@ -1,0 +1,61 @@
+file size: shipped 17541952  ours 17566448  delta 24496
+load commands: identical
+sections (shipped / ours / delta):
+  __DATA,__bss                0xe8d60    0xe8d8e +46
+  __DATA,__common              0x1192     0x1184 -14
+  __DATA,__const              0x57ba0    0x57b88 -24
+  __DATA,__data               0x11521    0x116c0 +415
+  __DATA,__got                  0xd08      0xd08 +0
+  __DATA,__mod_init_func          0x8        0x8 +0
+  __DATA,__mod_term_func          0x8        0x8 +0
+  __TEXT,__const             0x873910   0x873940 +48
+  __TEXT,__cstring            0xe5178    0xe5541 +969
+  __TEXT,__text              0x4bdae0   0x4bea30 +3920
+  __TEXT,__ustring                0xc        0xc +0
+undefined: shipped 477 ours 480  only-shipped []  only-ours ['__ZN15IORegistryEntry8getPlaneEPKc', '_ml_get_interrupts_enabled', '_sysctl_handle_int']
+exported (global defined): shipped 18669 ours 18680  only-shipped 0  only-ours 11
+  only-ours export _nv_xnu_platpower_enabled
+  only-ours export _nv_xnu_power_battery_present
+  only-ours export _nv_xnu_power_is_notebook
+  only-ours export _nvgfx_power_start
+  only-ours export _nvgfx_power_stop
+  only-ours export _rm_nvgfx_phys_control
+  only-ours export _sysctl__debug_nvgfx_tgp_ac
+  only-ours export _sysctl__debug_nvgfx_tgp_applies
+  only-ours export _sysctl__debug_nvgfx_tgp_enable
+  only-ours export _sysctl__debug_nvgfx_tgp_last_status
+  only-ours export _sysctl__debug_nvgfx_tgp_state
+all defined symbols (with multiplicity): shipped 35626 ours 35662  only-shipped 0  only-ours 36
+  only-ours x1 __ZL10gTgpEnable
+  only-ours x1 __ZL11gTgpApplies
+  only-ours x1 __ZL11gTgpRunning
+  only-ours x1 __ZL12gTgpStopping
+  only-ours x1 __ZL14gTgpLastStatus
+  only-ours x1 __ZL14nv_xnu_bat_dev
+  only-ours x1 __ZL14nvgfx_tgp_tickPvS_
+  only-ours x1 __ZL15nv_xnu_gps_guid
+  only-ours x1 __ZL15nv_xnu_npcf_dev
+  only-ours x1 __ZL16nv_xnu_gps_cache
+  only-ours x1 __ZL16nv_xnu_tgp_cache
+  only-ours x1 __ZL17nv_xnu_nvpcf_guid
+  only-ours x1 __ZL18nv_xnu_nvpcf_cache
+  only-ours x1 __ZL19nv_xnu_platpower_onv
+  only-ours x1 __ZL22nv_xnu_acpi_cached_getP18nv_xnu_acpi_cachedPKcS2_
+  only-ours x1 __ZL6gTgpAc
+  only-ours x1 __ZL6gTgpNv
+  only-ours x1 __ZL8gTgpCall
+  only-ours x1 __ZL9gTgpFails
+  only-ours x1 __ZL9gTgpState
+  only-ours x1 __ZZ17nvgfx_power_startE9sysctlsUp
+  only-ours x1 __ZZ18nv_acpi_dsm_methodE4nGps
+  only-ours x1 __ZZ18nv_acpi_dsm_methodE4nPcf
+  only-ours x1 __ZZ28nv_xnu_power_battery_presentE7present
+  only-ours x1 __ZZN14NVRMUserClient3escEjPvjE2on
+functions with a unique name in both: 30884  same size 30877  different size 7  total delta +944 B
+     -16 shipped     64 _nvrm_kapi_dev_handles
+     -16 shipped     32 _nvrm_kapi_mem_handle
+     +16 shipped   2032 __ZN4NVRM2goEj
+     +32 shipped     80 _nv_acpi_is_battery_present
+     +32 shipped     80 _nv_is_chassis_notebook
+    +416 shipped    800 __ZN14NVRMUserClient3escEjPvj
+    +480 shipped    800 _nv_acpi_dsm_method

@@ -1,0 +1,28 @@
+{
+ "collected": "2026-10-22",
+ "component": "native",
+ "files": {
+  "README.md": "afa0dba5158df2b951032026f9dc41378fafefd323b7fa18559aa33f16d58c4d",
+  "dmesg-nvidia.txt": "edca5a50ef8e9cbf2f092f034941068a5372ae0789599b22c13069e3f03c6cf5",
+  "driver-sums.txt": "ba961fd3d07e35c1d659596b146e799130fe14c829631ad7f640b3bfed5ef4bd",
+  "kextstat.txt": "ab7862caac5b6546ee9f54aa14d55d20430875701ae6d11b16065bc81c74245a",
+  "nvrm-compare.txt": "7f6b01f0ba86dfed6a4938dc2235f7329b39fb34edb5005c00fde49aa099218e",
+  "nvrm-props.txt": "8209b65e1a3b2f3327220a5adf79fb8494c0027275a0e0d3f4ad806fda00ccd6",
+  "opencore-2026-10-22-152354.txt": "8b07b24393c73bdb87f4d4bbf346da9772c3bf27390512fbbb77a8646177ba3e",
+  "sysctl.txt": "978dacc7d17dba3cc18eeec0d5230ac49e1c4668a921c6b416576292207af026",
+  "windowserver.txt": "b4722cc6f1c341eb27c3f9014e2e83063f386d59121cc56f47a9cc213e80764f"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 186
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-220",
+ "username": "watchthelight"
+}
