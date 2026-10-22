@@ -1,0 +1,711 @@
+{
+ "about": "What the upstream scout follows for each watchthelight-labs project. Generated from the private watchlist; edit there.",
+ "targets": {
+  "audio": {
+   "discovery": {
+    "github": [
+     "voodoohda tahoe",
+     "alc287 hackintosh",
+     "arrow lake audio hackintosh"
+    ],
+    "web": [
+     "ALC287 Hackintosh Tahoe",
+     "VoodooHDA Tahoe"
+    ]
+   },
+   "keywords": [
+    "voodoohda",
+    "applealc",
+    "alc287",
+    "alc",
+    "realtek",
+    "arrow lake",
+    "hda",
+    "sof",
+    "smart amp",
+    "tas2781"
+   ],
+   "labs_repo": "watchthelight-labs/VoodooHDA-Legion",
+   "related": [
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "CloverHackyColor/VoodooHDA"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "acidanthera/AppleALC",
+     "watch": [
+      "releases"
+     ]
+    }
+   ],
+   "title": "Legion audio (VoodooHDA-Legion)"
+  },
+  "cbmr": {
+   "discovery": {
+    "github": [],
+    "web": []
+   },
+   "keywords": [
+    "cbmr",
+    "lenovo",
+    "bootorder",
+    "boot option",
+    "nvram"
+   ],
+   "labs_repo": "watchthelight-labs/LegionCbmrFix",
+   "related": [
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/OpenCorePkg",
+     "watch": [
+      "releases"
+     ]
+    }
+   ],
+   "title": "Lenovo CBMR boot fix (LegionCbmrFix)"
+  },
+  "cpu-power": {
+   "discovery": {
+    "github": [
+     "arrow lake macos power management",
+     "cpufriend arrow lake",
+     "core ultra hackintosh cpu"
+    ],
+    "web": [
+     "Arrow Lake XCPM Hackintosh",
+     "Core Ultra power management macOS"
+    ]
+   },
+   "keywords": [
+    "arrow lake",
+    "hwp",
+    "speed shift",
+    "p-state",
+    "cpufriend",
+    "xcpm",
+    "power management",
+    "core ultra",
+    "hybrid",
+    "e-core",
+    "thread director"
+   ],
+   "labs_repo": "watchthelight-labs/LegionCpuPower",
+   "related": [
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "acidanthera/CPUFriend",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "b00t0x/CpuTopologyRebuild",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    }
+   ],
+   "title": "Arrow Lake CPU power management (LegionCpuPower)"
+  },
+  "i2c": {
+   "discovery": {
+    "github": [
+     "voodooi2c arrow lake",
+     "arrow lake i2c hackintosh"
+    ],
+    "web": [
+     "VoodooI2C Arrow Lake",
+     "Core Ultra touchpad Hackintosh"
+    ]
+   },
+   "keywords": [
+    "voodooi2c",
+    "i2c",
+    "touchpad",
+    "elan",
+    "arrow lake",
+    "lpss",
+    "gpio",
+    "ptp"
+   ],
+   "labs_repo": "watchthelight-labs/LegionI2CArrowLake",
+   "related": [
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "VoodooI2C/VoodooI2C",
+     "watch": [
+      "releases",
+      "commits",
+      "issues"
+     ]
+    }
+   ],
+   "title": "Arrow Lake I2C touchpad (LegionI2CArrowLake)"
+  },
+  "ite-kbd": {
+   "discovery": {
+    "github": [
+     "ite keyboard hackintosh",
+     "legion keyboard macos"
+    ],
+    "web": [
+     "ITE keyboard Legion Hackintosh"
+    ]
+   },
+   "keywords": [
+    "ite",
+    "keyboard",
+    "legion",
+    "8910",
+    "hid",
+    "backlight"
+   ],
+   "labs_repo": "watchthelight-labs/LegionITEKbdFix",
+   "related": [
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "Ammarrrrrrr/legion-pro5-hackintosh"
+    }
+   ],
+   "title": "ITE keyboard fix (LegionITEKbdFix)"
+  },
+  "legion-efi": {
+   "discovery": {
+    "github": [
+     "legion 5 hackintosh",
+     "15iax10",
+     "arrow lake hackintosh",
+     "core ultra 9 275hx hackintosh",
+     "legion pro 5 hackintosh"
+    ],
+    "web": [
+     "Legion 5 15IAX10 Hackintosh",
+     "Arrow Lake HX Hackintosh laptop",
+     "Core Ultra 200HX macOS"
+    ]
+   },
+   "keywords": [
+    "arrow lake",
+    "15iax10",
+    "legion",
+    "core ultra 200",
+    "275hx",
+    "lenovo",
+    "opencore 1.0",
+    "tahoe",
+    "usb map",
+    "nvram",
+    "sleep",
+    "ec",
+    "battery"
+   ],
+   "labs_repo": "watchthelight-labs/Legion-5-15IAX10-OpenCore",
+   "related": [
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/OpenCorePkg",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/Lilu",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/VirtualSMC",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/RestrictEvents",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/NVMeFix",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/VoodooPS2",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/VoodooInput",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "1Revenger1/ECEnabler",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "b00t0x/CpuTopologyRebuild",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "USBToolBox/kext",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "dortania/OpenCore-Legacy-Patcher",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "Ammarrrrrrr/legion-pro5-hackintosh"
+    }
+   ],
+   "title": "Legion 5 15IAX10 OpenCore EFI"
+  },
+  "mt7925-bt": {
+   "discovery": {
+    "github": [
+     "mt7925 bluetooth macos",
+     "mediatek bluetooth kext",
+     "btmtk macos"
+    ],
+    "web": [
+     "MT7925 Bluetooth Hackintosh",
+     "MediaTek Bluetooth macOS kext"
+    ]
+   },
+   "keywords": [
+    "mt7925",
+    "btmtk",
+    "btusb",
+    "mediatek bluetooth",
+    "bluetoothd",
+    "bluetoolfixup",
+    "brcmpatchram",
+    "a2dp",
+    "airpods",
+    "le audio",
+    "0717",
+    "e111",
+    "sleep protection",
+    "wmt"
+   ],
+   "labs_repo": "watchthelight-labs/mt7925-hackintosh-bluetooth",
+   "related": [
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "acidanthera/BrcmPatchRAM",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "thanhnndev/ga403wm-hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "OpenIntelWireless/IntelBluetoothFirmware",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    }
+   ],
+   "title": "MT7925 Bluetooth (MtkBt + LegionBtFix)"
+  },
+  "mt7925-wifi": {
+   "discovery": {
+    "github": [
+     "mt7925 macos",
+     "mt7925 hackintosh",
+     "mediatek wifi kext",
+     "mt7921 macos",
+     "mt76 macos"
+    ],
+    "web": [
+     "MT7925 Hackintosh Wi-Fi",
+     "MediaTek Wi-Fi macOS kext",
+     "RZ717 Hackintosh"
+    ]
+   },
+   "keywords": [
+    "mt7925",
+    "mt7921",
+    "mt7922",
+    "rz616",
+    "rz717",
+    "rz608",
+    "filogic",
+    "mediatek",
+    "mt76",
+    "wifi 7",
+    "wpa2",
+    "wpa3",
+    "sae",
+    "io80211",
+    "skywalk",
+    "airportitlwm",
+    "warm reboot",
+    "firmware"
+   ],
+   "labs_repo": "watchthelight-labs/mt7925-hackintosh-wifi",
+   "related": [
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "thanhnndev/ga403wm-hackintosh"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "laobamac/SimpleMtkWlan"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "mnnobre/AirportMtkWlan"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "OpenIntelWireless/itlwm",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    },
+    {
+     "credited": true,
+     "paths": [
+      "mt7925"
+     ],
+     "relation": "upstream",
+     "repo": "openwrt/mt76",
+     "watch": [
+      "commits"
+     ]
+    }
+   ],
+   "title": "MT7925 Wi-Fi driver (MtkWlan)"
+  },
+  "mt7925-wifi-native": {
+   "discovery": {
+    "github": [
+     "io80211 tahoe kext",
+     "airportitlwm tahoe",
+     "skywalk wifi kext"
+    ],
+    "web": [
+     "AirportItlwm Tahoe",
+     "IO80211 skywalk Hackintosh Wi-Fi menu"
+    ]
+   },
+   "keywords": [
+    "io80211",
+    "skywalk",
+    "airportitlwm",
+    "awdl",
+    "airdrop",
+    "continuity",
+    "wifi menu",
+    "tahoe",
+    "25g241",
+    "channel width"
+   ],
+   "labs_repo": "watchthelight-labs/mt7925-hackintosh-wifi-native",
+   "related": [
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "mnnobre/AirportMtkWlan"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "thanhnndev/ga403wm-hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "OpenIntelWireless/itlwm",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    }
+   ],
+   "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
+  },
+  "nvgfx": {
+   "discovery": {
+    "github": [
+     "nvidia macos driver blackwell",
+     "rtx 50 hackintosh",
+     "nullmoth fork",
+     "nvidia metal driver macos"
+    ],
+    "web": [
+     "NullMoth NVIDIA macOS driver",
+     "RTX 5070 laptop Hackintosh",
+     "Blackwell macOS acceleration"
+    ]
+   },
+   "keywords": [
+    "blackwell",
+    "gb206",
+    "gb205",
+    "5070",
+    "5080",
+    "5060",
+    "rtx 50",
+    "laptop",
+    "optimus",
+    "edp",
+    "internal panel",
+    "backlight",
+    "brightness",
+    "nvrm",
+    "gsp",
+    "flip",
+    "windowserver",
+    "metal",
+    "tahoe",
+    "freeze",
+    "panic",
+    "frame rate boost",
+    "ddc"
+   ],
+   "labs_repo": "watchthelight-labs/NvGfx",
+   "related": [
+    {
+     "credited": true,
+     "relation": "upstream",
+     "repo": "nullmoth/nvidia-macos-driver"
+    },
+    {
+     "credited": false,
+     "relation": "upstream",
+     "repo": "nullmoth/1401",
+     "watch": [
+      "releases",
+      "commits",
+      "issues"
+     ]
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "nullmoth/1401-probe"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "thanhnndev/nvidia-macos-driver"
+    },
+    {
+     "credited": false,
+     "relation": "upstream",
+     "repo": "NVIDIA/open-gpu-kernel-modules",
+     "watch": [
+      "releases"
+     ]
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "steelbrain/reims-vgpu"
+    }
+   ],
+   "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
+  },
+  "xe": {
+   "discovery": {
+    "github": [
+     "meteor lake macos",
+     "arrow lake igpu hackintosh",
+     "intel xe macos driver",
+     "i915 macos kext",
+     "lunar lake hackintosh",
+     "iris xe tahoe",
+     "core ultra igpu hackintosh",
+     "xe lpg metal"
+    ],
+    "web": [
+     "Intel Xe iGPU macOS Tahoe acceleration",
+     "Meteor Lake Hackintosh graphics",
+     "Arrow Lake iGPU Hackintosh",
+     "WhateverXe internal display",
+     "i915 XNU port"
+    ]
+   },
+   "keywords": [
+    "xe",
+    "i915",
+    "meteor lake",
+    "arrow lake",
+    "lunar lake",
+    "tiger lake",
+    "alder lake",
+    "7d67",
+    "7d45",
+    "7dd5",
+    "guc",
+    "huc",
+    "gsc",
+    "edp",
+    "internal display",
+    "framebuffer",
+    "linuxkpi",
+    "drm",
+    "anv",
+    "mesa",
+    "metal",
+    "vulkan",
+    "igpu",
+    "iris",
+    "tahoe",
+    "sequoia"
+   ],
+   "labs_repo": "watchthelight-labs/XeGfx",
+   "related": [
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "b00t0x/WhateverXe"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "b00t0x/WhateverXe-Graphics"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "b00t0x/OpenCore-Legacy-Patcher",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "sgiammori/NootedGreen"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "JulioNectar/Hackintosh-XPS13Plus-IrisXe-Tahoe"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "m4j2rpf766-crypto/IntelIGPU-Tahoe"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "VedCloud/Meteor-Lake-Xe-LPG-Metal-Graphics"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "VedCloud2/CoreUltraGraphics"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "IT-EXPRESS-Bayern/LunarBridge-Hackintosh"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "wallali77666-cyber/iris-xe-macos-driver"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "lutzbichler/drm-kmod"
+    },
+    {
+     "credited": true,
+     "relation": "built-on",
+     "repo": "freebsd/drm-kmod",
+     "watch": [
+      "releases",
+      "prs",
+      "issues"
+     ]
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "steelbrain/metal2vulkan"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "acidanthera/WhateverGreen",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    }
+   ],
+   "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"
+  }
+ }
+}
