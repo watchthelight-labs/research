@@ -1,0 +1,830 @@
+me property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOGUIDPartitionScheme property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOGUIDPartitionScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOBlockStorageDriver property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOBlockStorageDriver property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeBlockStorageDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeBlockStorageDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeController property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeController property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCI2PCIBridge property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCI2PCIBridge property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPCI property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPCI property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOACPIPlatformDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOACPIPlatformDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPlatformExpert property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPlatformExpert property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IORegistryEntry property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IORegistryEntry property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSVolume property:Protocol CharacteristicsSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSVolume property:IOMediaIconSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSVolume property:EjectableSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSVolume property:RemovableSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainer property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainerScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOGUIDPartitionScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOBlockStorageDriver property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeBlockStorageDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeController property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCI2PCIBridge property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPCI property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOACPIPlatformDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPlatformExpert property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IORegistryEntry property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainer property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainerScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOGUIDPartitionScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOBlockStorageDriver property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeBlockStorageDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeController property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCI2PCIBridge property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPCI property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOACPIPlatformDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPlatformExpert property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IORegistryEntry property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainer property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainerScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOGUIDPartitionScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOBlockStorageDriver property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeBlockStorageDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeController property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCI2PCIBridge property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPCI property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOACPIPlatformDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPlatformExpert property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IORegistryEntry property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSVolume property:IOClassNameOverride1 duplicate report for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSVolume property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainer property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainer property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSMedia property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainerScheme property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleAPFSContainerScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOGUIDPartitionScheme property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOGUIDPartitionScheme property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverride2 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOMedia property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOBlockStorageDriver property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOBlockStorageDriver property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeBlockStorageDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeBlockStorageDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeController property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IONVMeController property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCI2PCIBridge property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCI2PCIBridge property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPCIDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPCI property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPCI property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOACPIPlatformDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOACPIPlatformDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPlatformExpert property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:AppleACPIPlatformExpert property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IORegistryEntry property:IOClassNameOverride4 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IORegistryEntry property:IOClassNameOverrideSandbox: managedcorespotlightd(1068) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox: managedcorespotlightd(1068) deny(1) mach-lookup com.apple.spotlight.IndexAgentSandbox: managedcorespotlightd(1068) deny(1) file-read-data /Users/USER/Library/Metadata/CoreSpotlight/dataMapRollout5 duplicate reports for Sandbox: managedcorespotlightd(1068) deny(1) file-read-data /Users/USER/Library/Metadata/CoreSpotlight/dataMapRolloutSandbox: managedcorespotlightd(1068) deny(1) mach-lookup com.apple.duetactivityschedulerSandbox: managedcorespotlightd(1068) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:region-infoSandbox: managedcorespotlightd(1068) deny(1) mach-lookup com.apple.contacts.poster.apiNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  175.730962]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  175.796515]: NVRM-xnu: os_lock_user_pages(0x10cd0f000, 2 pages) prepare -> 0x2
+[  175.796678]: NVRM-xnu: os_lock_user_pages(0x10cd11000, 2 pages) prepare -> 0x2
+[  175.796952]: NVRM-xnu: os_lock_user_pages(0x10cd13000, 2 pages) prepare -> 0x2
+[  175.797098]: NVRM-xnu: os_lock_user_pages(0x10cd15000, 2 pages) prepare -> 0x2
+[  175.797177]: NVRM-xnu: os_lock_user_pages(0x10cd17000, 2 pages) prepare -> 0x2
+[  175.797369]: NVRM-xnu: os_lock_user_pages(0x10cd19000, 2 pages) prepare -> 0x2
+[  175.805748]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  175.805764]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  175.812845]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  175.812863]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  175.817818]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  175.817832]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  175.834010]: NVAccel: newResource -> <ptr>
+[  175.834016]: NVAccel: newResource -> <ptr>
+[  175.834022]: NVAccel: newSysMemory -> <ptr>
+[  175.834023]: NVAccel: newSysMemory -> <ptr>
+[  175.834028]: NVAccel: newVidMemory -> <ptr>
+[  175.834028]: NVAccel: newVidMemory -> <ptr>
+[  175.834160]: NVRM-xnu: >os_map_kernel_space start=0x3fc1a200000 size=0x1790000 mode=2
+[  175.834345]: NVRM-xnu:   mapped -> 0x<ptr> (slot 52, high water 246/8192)
+[  175.837299]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 24707072 bytes of REAL VRAM -- phys 0x3fc1a200000 kva <ptr> [BAR1 308477952]
+[  175.837303]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 24707072 bytes of REAL VRAM -- phys 0x3fc1a200000 kva <ptr> [BAR1 308477952]
+[  175.843565]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.843571]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.876100]: NVAccel: newResource -> <ptr>
+[  175.876106]: NVAccel: newResource -> <ptr>
+[  175.876111]: NVAccel: newSysMemory -> <ptr>
+[  175.876112]: NVAccel: newSysMemory -> <ptr>
+[  175.876116]: NVAccel: newVidMemory -> <ptr>
+[  175.876116]: NVAccel: newVidMemory -> <ptr>
+[  175.876206]: NVRM-xnu: >os_map_kernel_space start=0x3fc1ba00000 size=0x1790000 mode=2
+[  175.876401]: NVRM-xnu:   mapped -> 0x<ptr> (slot 76, high water 246/8192)
+[  175.879330]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 24707072 bytes of REAL VRAM -- phys 0x3fc1ba00000 kva <ptr> [BAR1 333185024]
+[  175.879333]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 24707072 bytes of REAL VRAM -- phys 0x3fc1ba00000 kva <ptr> [BAR1 333185024]
+[  175.885497]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.885502]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.887137]: NVRM-xnu: os_lock_user_pages(0x10cd00000, 2 pages) prepare -> 0x2
+[  175.887232]: NVRM-xnu: os_lock_user_pages(0x10cd0f000, 2 pages) prepare -> 0x2
+[  175.887797]: NVRM-xnu: os_lock_user_pages(0x10cd11000, 3 pages) prepare -> 0x2
+[  175.893573]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  175.893587]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  175.915874]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  175.915886]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  175.991228]: tx_flush:1344: disk1 xid 434975 tx stats: # 440 owait 52 1022us finish 439 bar2 440 f 90 enter 16 fq 50 375 466us close 0us prep 159us flush 387us
+[  176.030300]: Sandbox apply: com.apple.Safari.SafeBrowsing.Se[1069] <bytes>Sandbox: donotdisturbd(624) deny(1) file-read-data /Users/USER/Library/Daemon Containers/UUID-362/Data/database/linkd.metadatastore.sqlite3udp connect: [<IPv4-redacted>:64051<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 4986 so_state: 0x0102 process: searchpartyusera:692 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8ed0fd61Sandbox: linkd(567) deny(1) file-read-data /usr/libexecSandbox apply: dataaccessd[1070] <bytes>com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  176.103180]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  176.103385]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  176.103929]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  176.103978]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  176.117022]: memorystatus: Denying dirty-tracking opt-in for managed CalendarIntentsExtension [1073]
+[  176.125913]: Sandbox apply: CalendarIntentsExtension[1073] <bytes>SK[4]: flow_entry_alloc               fe "0 proc kernel_task(0)searchpartyusera nx_port 1 flow_uuid UUID-363 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49331,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0xf2b3c114 tp_proto=0x06"
+[  176.164049]: tcp connect outgoing: [<IPv4-redacted>:49331<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4992 t_state: SYN_SENT process: searchpartyusera:692 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 29 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xaf539bb3_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.275470]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.279628]: memorystatus: Denying dirty-tracking opt-in for managed SafariLinkExtension [1074]
+[  176.289899]: Sandbox apply: SafariLinkExtension[1074] <bytes>_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.294348]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.299850]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  176.299864]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  176.303846]: udp connect: [<IPv4-redacted>:53973<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 4993 so_state: 0x0102 process: searchpartyusera:692 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x93692274_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.312576]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.313283]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  176.313294]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  176.322659]: Sandbox apply: SafariBookmarksSyncAgent[1071] <bytes>tcp connected: [<IPv4-redacted>:49331<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4992 t_state: ESTABLISHED process: searchpartyusera:692 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 29 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xaf539bb3udp connect: [<IPv4-redacted>:55591<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 4998 so_state: 0x0102 process: com.apple.Safari:1069 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xa250baf1_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.344421]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.348877]: udp connect: [<IPv4-redacted>:53115<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5006 so_state: 0x0102 process: searchpartyusera:692 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x9d6bcfd2AMFI: [non-fatal] unable to accelerate context: com.apple.MobileSMS.MessagesActionExtension | 65285
+[  176.350067]: tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49331<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4992 t_state: FIN_WAIT_1 process: searchpartyusera:692 Duration: 0.187 sec Conn_Time: 0.178 sec bytes in/out: 0/1549 pkts in/out: 0/2 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 178.000 ms rttvar: 89.000 ms base rtt: 29 ms so_error: 0 svc/tc: 0 flow: 0xaf539bb3tcp_connection_summary [<IPv4-redacted>:49331<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4992 t_state: FIN_WAIT_1 process: searchpartyusera:692 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  176.350249]: udp_connection_summary [<IPv4-redacted>:64051<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4986 so_state: 0x0102 process: searchpartyusera:692 Duration: 0.287 sec Conn_Time: 0.287 sec bytes in/out: 10800/6040 pkts in/out: 11/8 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8ed0fd61 flowctl: 0us (0x) memorystatus: Denying dirty-tracking opt-in for managed MessagesActionExtension [1076]
+[  176.362531]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.362546]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.370919]: Sandbox apply: MessagesActionExtension[1076] <bytes>NVAccel: newResource -> <ptr>
+[  176.372320]: NVAccel: newResource -> <ptr>
+[  176.372326]: NVAccel: newSysMemory -> <ptr>
+[  176.372327]: NVAccel: newSysMemory -> <ptr>
+[  176.372332]: NVAccel: newVidMemory -> <ptr>
+[  176.372332]: NVAccel: newVidMemory -> <ptr>
+[  176.372466]: NVRM-xnu: >os_map_kernel_space start=0x3fc08800000 size=0x690000 mode=2
+[  176.372529]: NVRM-xnu:   mapped -> 0x<ptr> (slot 38, high water 246/8192)
+[  176.373438]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc08800000 kva <ptr> [BAR1 314638336]
+[  176.373439]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc08800000 kva <ptr> [BAR1 314638336]
+[  176.375364]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.375367]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.380734]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.380737]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.381004]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.381006]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.383357]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.383374]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.387708]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  176.387720]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  176.395268]: 1 duplicate report for Sandbox: linkd(567) deny(1) file-read-data /usr/libexecSandbox: donotdisturbd(624) deny(1) mach-lookup com.apple.ProgressReporting_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.411598]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.418611]: Sandbox: linkd(567) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.418945]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.419230]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.419400]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.420137]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.420340]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.420517]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.420730]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.421546]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.421759]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.425860]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.426135]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.428098]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.428318]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.428511]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.428677]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.429452]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.429642]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.429868]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.430039]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.432391]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.432407]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.447325]: NVAccel: newResource -> <ptr>
+[  176.447331]: NVAccel: newResource -> <ptr>
+[  176.447338]: NVAccel: newSysMemory -> <ptr>
+[  176.447338]: NVAccel: newSysMemory -> <ptr>
+[  176.447343]: NVAccel: newVidMemory -> <ptr>
+[  176.447343]: NVAccel: newVidMemory -> <ptr>
+[  176.447450]: NVRM-xnu: >os_map_kernel_space start=0x3fc09400000 size=0x690000 mode=2
+[  176.447522]: NVRM-xnu:   mapped -> 0x<ptr> (slot 77, high water 246/8192)
+[  176.448476]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc09400000 kva <ptr> [BAR1 321519616]
+[  176.448479]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc09400000 kva <ptr> [BAR1 321519616]
+[  176.450595]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.450600]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.452797]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.452814]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  176.454185]: memorystatus: Denying dirty-tracking opt-in for managed CalendarWidgetExtension [1077]
+[  176.456759]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.456765]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.462199]: Sandbox apply: CalendarWidgetExtension[1077] <bytes>NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  176.467482]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  176.472278]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  176.472290]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  176.497774]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.498113]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.499281]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.499526]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.500460]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.500637]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.500894]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.501091]: IOUC AppleKeyStoreUserClient failed MACF in process pid 567, linkd
+[  176.541691]: apfs_is_valid_class:2313: disk1s7 rejecting class open (class 6) because we're not content protected
+[  176.551271]: NVAccel: newResource -> <ptr>
+[  176.551276]: NVAccel: newResource -> <ptr>
+[  176.551283]: NVAccel: newSysMemory -> <ptr>
+[  176.551283]: NVAccel: newSysMemory -> <ptr>
+[  176.551288]: NVAccel: newVidMemory -> <ptr>
+[  176.551288]: NVAccel: newVidMemory -> <ptr>
+[  176.551403]: NVRM-xnu: >os_map_kernel_space start=0x3fc09c00000 size=0x690000 mode=2
+[  176.551476]: NVRM-xnu:   mapped -> 0x<ptr> (slot 80, high water 246/8192)
+[  176.552331]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc09c00000 kva <ptr> [BAR1 321519616]
+[  176.552334]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc09c00000 kva <ptr> [BAR1 321519616]
+[  176.554349]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.554352]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.559410]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.559417]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.559611]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.559613]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.559768]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.559769]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.571254]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  176.571270]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  176.572962]: 27 duplicate reports for Sandbox: linkd(567) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: ContextStoreAgent(595) allow file-read-data /Applications/Spotify.appSandbox: ContextStoreAgent(595) allow file-read-data /Applications/Spotify.app/ContentsSandbox: ContextStoreAgent(595) allow file-read-data /Applications/Spotify.app/Contents/Info.plistSandbox: ContextStoreAgent(595) allow file-read-data /Applications/Spotify.appSandbox: ContextStoreAgent(595) allow file-read-data /Applications/Spotify.app/Contents/MacOS/Spotify1 duplicate report for Sandbox: ContextStoreAgent(595) allow file-read-data /Applications/Spotify.app/Contents/MacOS/SpotifySandbox: ContextStoreAgent(595) allow file-read-xattr /Applications/Spotify.app/Contents/MacOS/SpotifySandbox: ContextStoreAgent(595) allow file-read-data /Applications/Spotify.app/Contents/Info.plistNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  176.582912]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  176.681299]: udp_connection_summary [<IPv4-redacted>:63790<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4515 so_state: 0x0102 process: cloudd:578 Duration: 9.491 sec Conn_Time: 9.491 sec bytes in/out: 6443/9925 pkts in/out: 20/21 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8205b8f1 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:64997<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4523 so_state: 0x0102 process: cloudd:578 Duration: 9.465 sec Conn_Time: 9.465 sec bytes in/out: 9746/8935 pkts in/out: 28/35 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb52bb3f7 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:50234<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5025 so_state: 0x0102 process: nsurlsessiond:584 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x9b1c1d96udp connect: [<IPv4-redacted>:58620<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5033 so_state: 0x0102 process: nsurlsessiond:584 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x88074f30NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  176.785846]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  176.954277]: Sandbox: dataaccessd(1070) deny(1) file-read-data /private/var/db/mds/messages/501/se_SecurityMessagesNVAccel: newResource -> <ptr>
+[  177.024949]: NVAccel: newResource -> <ptr>
+[  177.024955]: NVAccel: newSysMemory -> <ptr>
+[  177.024956]: NVAccel: newSysMemory -> <ptr>
+[  177.024960]: NVAccel: newVidMemory -> <ptr>
+[  177.024961]: NVAccel: newVidMemory -> <ptr>
+[  177.025085]: NVRM-xnu: >os_map_kernel_space start=0x3fc0a700000 size=0x100000 mode=2
+[  177.025109]: NVRM-xnu:   mapped -> 0x<ptr> (slot 84, high water 246/8192)
+[  177.025259]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc0a700000 kva <ptr> [BAR1 322371584]
+[  177.025260]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc0a700000 kva <ptr> [BAR1 322371584]
+[  177.035116]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  177.035131]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  177.160135]: tx_flush:1344: disk1 xid 434995 tx stats: # 460 owait 52 1022us finish 459 bar2 460 f 90 enter 19 fq 60 69 399us close 0us prep 92us flush 347us
+[  177.178444]: Sandbox apply: proactived[1082] <bytes>Sandbox: proactived(1082) deny(1) user-preference-read com.apple.duetexpertcenter.apppredictionexpert1 duplicate report for Sandbox: proactived(1082) deny(1) user-preference-read com.apple.duetexpertcenter.apppredictionexpertSandbox: proactived(1082) deny(1) mach-lookup com.apple.donotdisturb.service.non-launchingSandbox apply: peopled[1081] <bytes>com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  177.192448]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  177.192582]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  177.193017]: Sandbox: proactived(1082) deny(1) mach-lookup com.apple.CoreLocation.agentSandbox: proactived(1082) deny(1) mach-lookup com.apple.locationd.desktop.registrationNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  177.229384]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  177.318233]: Sandbox: dataaccessd(1070) deny(1) file-write-create /Users/USER/Library/HTTPStorages/com.apple.dataaccess.dataaccessd[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  177.491137]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  177.553262]: udp connect: [<IPv4-redacted>:51628<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5126 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xb4e3bde2udp connect: [<IPv4-redacted>:58422<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5134 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xb7467cf4udp_connection_summary [<IPv4-redacted>:58422<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5134 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.304 sec Conn_Time: 0.303 sec bytes in/out: 5597/2531 pkts in/out: 9/5 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb7467cf4 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:51628<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5126 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.395 sec Conn_Time: 0.395 sec bytes in/out: 7836/5651 pkts in/out: 8/10 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb4e3bde2 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:61113<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5143 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xbef9bc61udp connect: [<IPv4-redacted>:56305<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5151 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8cabb09eudp_connection_summary [<IPv4-redacted>:56305<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5151 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.039 sec Conn_Time: 0.039 sec bytes in/out: 2063/1335 pkts in/out: 3/4 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8cabb09e flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:61113<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5143 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.080 sec Conn_Time: 0.080 sec bytes in/out: 7859/5939 pkts in/out: 9/9 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xbef9bc61 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:63314<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5160 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xbd8f9544[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  178.094584]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  178.094596]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  178.201115]: Sandbox: imagent(631) deny(1) mach-lookup com.apple.contactsd.persistencecom.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  178.297225]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  178.297383]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  178.297460]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  178.308498]: NVRM-fb: present stats head 0: 176 flips in 10060 ms (17/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6337 us
+[  178.308504]: NVRM-fb: present stats head 0: 176 flips in 10060 ms (17/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6337 us
+[  178.352581]: udp connect: [<IPv4-redacted>:61825<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5168 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x96b46f26udp_connection_summary [<IPv4-redacted>:61825<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5168 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.042 sec Conn_Time: 0.042 sec bytes in/out: 1973/1337 pkts in/out: 4/4 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x96b46f26 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:63314<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5160 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.360 sec Conn_Time: 0.360 sec bytes in/out: 7836/6315 pkts in/out: 8/10 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xbd8f9544 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:61869<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5177 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xaa931d2dudp connect: [<IPv4-redacted>:57222<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5185 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x912c98b9udp_connection_summary [<IPv4-redacted>:57222<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5185 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.318 sec Conn_Time: 0.318 sec bytes in/out: 4988/2576 pkts in/out: 9/6 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x912c98b9 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:61869<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5177 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.358 sec Conn_Time: 0.358 sec bytes in/out: 7836/6389 pkts in/out: 8/10 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xaa931d2d flowctl: 0us (0x) udp connect: [<IPv4-redacted>:49361<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5284 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x97f6a28eudp connect: [<IPv4-redacted>:60575<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5292 so_state: 0x0102 process: dataaccessd:1070 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xa59508f2udp_connection_summary [<IPv4-redacted>:49361<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5284 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.388 sec Conn_Time: 0.388 sec bytes in/out: 7837/4300 pkts in/out: 8/7 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x97f6a28e flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60575<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5292 so_state: 0x0102 process: dataaccessd:1070 Duration: 0.349 sec Conn_Time: 0.349 sec bytes in/out: 6009/2781 pkts in/out: 10/8 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa59508f2 flowctl: 0us (0x) com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  179.400269]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  179.400634]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  179.400847]: udp_connection_summary [<IPv4-redacted>:50234<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5025 so_state: 0x0102 process: nsurlsessiond:584 Duration: 2.712 sec Conn_Time: 2.711 sec bytes in/out: 5939/10431 pkts in/out: 7/20 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x9b1c1d96 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:58620<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5033 so_state: 0x0102 process: nsurlsessiond:584 Duration: 2.657 sec Conn_Time: 2.657 sec bytes in/out: 12041/9414 pkts in/out: 44/38 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x88074f30 flowctl: 0us (0x) tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49160<-><IPv4-redacted>:5223] interface: en1 (skipped: 0)
+so_gencnt: 1097 t_state: FIN_WAIT_1 process: apsd:140 Duration: 52.830 sec Conn_Time: 0.033 sec bytes in/out: 8115/305689 pkts in/out: 23/171 pkt rxmit: 8 ooo pkts: 0 dup bytes in: 2151 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 158.937 ms rttvar: 83.937 ms base rtt: 30 ms so_error: 0 svc/tc: 300 flow: 0x81276featcp_connection_summary [<IPv4-redacted>:49160<-><IPv4-redacted>:5223] interface: en1 (skipped: 0)
+so_gencnt: 1097 t_state: FIN_WAIT_1 process: apsd:140 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  179.582588]: SK[0]: flow_entry_alloc               fe "0 proc kernel_task(0)apsd nx_port 1 flow_uuid UUID-364 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49332,dst=<IPv4-redacted>.5223,proto=0x06 mask=0x0000003f,hash=0x2e414a28 tp_proto=0x06"
+[  179.582810]: tcp connect outgoing: [<IPv4-redacted>:49332<-><IPv4-redacted>:5223] interface: en1 (skipped: 0)
+so_gencnt: 5311 t_state: SYN_SENT process: apsd:140 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 300 flow: 0x89abb508tcp connected: [<IPv4-redacted>:49332<-><IPv4-redacted>:5223] interface: en1 (skipped: 0)
+so_gencnt: 5311 t_state: ESTABLISHED process: apsd:140 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 300 flow: 0x89abb508Sandbox: apsd(140) deny(1) user-preference-write com.apple.apsdIO80211PeerMonitor::checkForDPS()  Enter
+[  180.301425]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  180.301430]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  180.301433]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  180.301435]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  180.301436]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  180.301439]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  180.301448]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  180.301449]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  180.301453]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  180.301454]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  180.301456]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  180.501368]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  180.501518]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  180.501706]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  180.502278]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  180.502321]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  180.725477]: tx_flush:1344: disk1 xid 435015 tx stats: # 480 owait 59 1053us finish 480 bar2 480 f 90 enter 15 fq 46 60 261us close 41us prep 105us flush 904us
+[  180.746207]: udp_connection_summary [<IPv4-redacted>:60456<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1701 so_state: 0x0102 process: FeatureAccessAge:662 Duration: 30.176 sec Conn_Time: 30.176 sec bytes in/out: 6823/6243 pkts in/out: 7/9 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x9ae511a1 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:51781<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1714 so_state: 0x0102 process: FeatureAccessAge:662 Duration: 30.130 sec Conn_Time: 30.130 sec bytes in/out: 6010/1418 pkts in/out: 9/6 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xac2469a9 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:56269<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1696 so_state: 0x0102 process: appleaccountd:678 Duration: 30.201 sec Conn_Time: 30.201 sec bytes in/out: 7505/5653 pkts in/out: 8/9 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb9ba7347 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:56371<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1732 so_state: 0x0102 process: appleaccountd:678 Duration: 30.082 sec Conn_Time: 30.082 sec bytes in/out: 9080/1418 pkts in/out: 15/6 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xbe7b4e58 flowctl: 0us (0x) 8 duplicate reports for Sandbox: apsd(140) deny(1) user-preference-write com.apple.apsdSandbox: mdbulkimport(923) deny(1) mach-lookup com.apple.FileProvider3 duplicate reports for Sandbox: mdbulkimport(923) deny(1) mach-lookup com.apple.FileProviderSandbox: imagent(631) deny(1) mach-lookup com.apple.contactsd.persistence{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s[IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SET_SCAN_HOME_AWAY_TIME> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.269025]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:5:0x5> handler=1 
+[  181.269063]: ClientMemoryForType[0x1]
+[  181.269076]: getRingMD: enter : pipe count 5
+[  181.269088]: ClientMemoryForType[0x2]
+[  181.269088]: getRingMD: enter : pipe count 5
+[  181.269095]: extEventMonitorExit: enter
+[  181.269096]: IO80211APIUserClient::destroyEventPipe(2232) _onWLANQueue(0)
+[  181.269097]: destroyEventPipe: enter : pipe count 5
+[  181.269098]: IO80211IOUCEventPipe::free
+[  181.269192]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.269265]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.269314]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  181.269940]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.270204]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.270428]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.270885]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.270941]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.270999]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  181.271046]: extEventMonitorInit: enter
+[  181.271047]: createEventPipe: enter: pipe count: 4
+[  181.271065]: ClientMemoryForType[0x1]
+[  181.271066]: getRingMD: enter : pipe count 5
+[  181.271072]: ClientMemoryForType[0x2]
+[  181.271072]: getRingMD: enter : pipe count 5
+[  181.271077]: extSubscribeEvent: enter
+[  181.271099]: IO80211ScanManager::startScan: scanType = 1
+[  181.271129]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.271136]:  Active scan
+[  181.271136]: Scan type to FW 1
+ [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.271147]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.304269]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.304542]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_RSSI> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.304791]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.451720]: tx_flush:1344: disk1 xid 435035 tx stats: # 500 owait 64 1003us finish 511 bar2 500 f 90 enter 20 fq 21 22 109us close 261us prep 178us flush 479us
+[  181.555101]: udp_connection_summary [<IPv4-redacted>:52023<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1746 so_state: 0x0102 process: networkservicepr:633 Duration: 30.854 sec Conn_Time: 30.854 sec bytes in/out: 5826/18048 pkts in/out: 7/19 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x89e4b495 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:53405<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1760 so_state: 0x0102 process: networkservicepr:633 Duration: 30.808 sec Conn_Time: 30.808 sec bytes in/out: 65842/55467 pkts in/out: 79/60 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xad91af00 flowctl: 0us (0x) com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  181.597338]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.597521]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  181.598010]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  181.598077]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  182.518368]: tx_flush:1344: disk1 xid 435055 tx stats: # 520 owait 74 999us finish 533 bar2 520 f 90 enter 23 fq 66 75 287us close 386us prep 310us flush 1222us
+[  182.592402]: tx_flush:1344: disk1 xid 435075 tx stats: # 540 owait 87 1061us finish 554 bar2 540 f 90 enter 27 fq 110 120 440us close 16us prep 157us flush 1376us
+[  182.667128]: Sandbox: parsecd(778) deny(1) mach-lookup com.apple.apsdcom.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  182.690752]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  182.690963]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  182.691448]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  182.691510]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.094965]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.094991]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.095005]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.195759]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49171<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2566 t_state: LAST_ACK process: mobileassetd:251 Duration: 30.110 sec Conn_Time: 0.035 sec bytes in/out: 19692/5421 pkts in/out: 19/8 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 1689 ACKs delayed: 2 delayed ACKs sent: 0
+rtt: 100.687 ms rttvar: 121.250 ms base rtt: 30 ms so_error: 0 svc/tc: 0 flow: 0x86a2c0betcp_connection_summary [<IPv4-redacted>:49171<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2566 t_state: LAST_ACK process: mobileassetd:251 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  183.237324]: tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49168<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2556 t_state: FIN_WAIT_1 process: com.apple.geod:649 Duration: 30.296 sec Conn_Time: 0.149 sec bytes in/out: 6003/2115 pkts in/out: 5/5 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 109.156 ms rttvar: 91.500 ms base rtt: 26 ms so_error: 0 svc/tc: 0 flow: 0x8cb813aatcp_connection_summary [<IPv4-redacted>:49168<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2556 t_state: FIN_WAIT_1 process: com.apple.geod:649 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  183.499122]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.499435]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.571220]: tx_flush:1344: disk1 xid 435095 tx stats: # 560 owait 91 1065us finish 572 bar2 559 f 90 enter 84 fq 31 34 155us close 0us prep 181us flush 885us
+[  183.610770]: udp_connection_summary [<IPv4-redacted>:62631<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2645 so_state: 0x0102 process: amsaccountsd:743 Duration: 30.126 sec Conn_Time: 30.126 sec bytes in/out: 7218/5717 pkts in/out: 11/14 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb66b10e1 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:53381<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2678 so_state: 0x0182 process: cloudd:282 Duration: 30.145 sec Conn_Time: 30.144 sec bytes in/out: 5938/4448 pkts in/out: 7/7 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x83293ce0 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:64898<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2825 so_state: 0x0182 process: cloudd:282 Duration: 30.103 sec Conn_Time: 30.103 sec bytes in/out: 5849/1512 pkts in/out: 13/8 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb84beb0e flowctl: 0us (0x) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.721654]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.732131]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.788334]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  183.788616]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.788692]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  183.788798]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.789393]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  183.789436]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  184.012219]: Sandbox: assistantd(769) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.012370]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.012467]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.012811]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.013393]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.013492]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.013578]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.013625]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.022155]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.022216]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.022519]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.022584]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.023098]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.023159]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.023572]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.023644]: IOUC AppleKeyStoreUserClient failed MACF in process pid 769, assistantd
+[  184.201839]: 15 duplicate reports for Sandbox: assistantd(769) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: imagent(631) deny(1) mach-lookup com.apple.contactsd.persistenceudp_connection_summary [<IPv4-redacted>:54777<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2867 so_state: 0x0102 process: FeatureAccessAge:662 Duration: 30.148 sec Conn_Time: 30.147 sec bytes in/out: 7752/5993 pkts in/out: 8/9 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x99ee9a1b flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:58382<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2925 so_state: 0x0102 process: FeatureAccessAge:662 Duration: 30.046 sec Conn_Time: 30.046 sec bytes in/out: 6887/2663 pkts in/out: 13/8 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa43daf71 flowctl: 0us (0x) com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  184.882155]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  184.882378]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  184.882915]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  184.882986]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  185.097551]: tx_flush:1344: disk1 xid 435115 tx stats: # 580 owait 93 1050us finish 592 bar2 579 f 90 enter 16 fq 40 71 258us close 0us prep 154us flush 850us
+[  185.166214]: tx_flush:1344: disk1 xid 435135 tx stats: # 600 owait 97 1013us finish 612 bar2 599 f 90 enter 16 fq 31 34 156us close 0us prep 160us flush 576us
+[  185.302062]: IO80211PeerMonitor::checkForDPS()  Enter
+[  185.302072]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  185.302075]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  185.302077]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  185.302079]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  185.302080]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  185.302082]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  185.302089]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  185.302090]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  185.302091]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  185.302092]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  185.302093]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  185.357587]: Client connected (pid 122 cdhash 0f748ca675463b3c786138d3d8bf13fc124473c6)
+[  185.358090]: Client disconnected (pid 122, watchdogd)
+[  185.768014]: tx_flush:1344: disk1 xid 435155 tx stats: # 620 owait 99 997us finish 631 bar2 618 f 90 enter 224 fq 36 42 159us close 0us prep 202us flush 642us
+[  185.852468]: NVRM-xnu: nv_post_event #98304 hEvent 0xcaf00004 index 12 -> connection woken | matched 98304, waits 5297, slept 2629
+[  185.911849]: tx_flush:1344: disk1 xid 435175 tx stats: # 640 owait 103 971us finish 651 bar2 638 f 90 enter 15 fq 49 71 228us close 0us prep 191us flush 1371us
+[  185.961009]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  185.961172]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  185.961350]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  186.076574]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  186.076590]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  186.191823]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  186.191837]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  186.243927]: tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49159<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 979 t_state: FIN_WAIT_1 process: com.apple.geod:390 Duration: 60.072 sec Conn_Time: 0.026 sec bytes in/out: 5126/2656 pkts in/out: 4/6 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 61.218 ms rttvar: 75.750 ms base rtt: 26 ms so_error: 0 svc/tc: 0 flow: 0xa8cc6f02tcp_connection_summary [<IPv4-redacted>:49159<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 979 t_state: FIN_WAIT_1 process: com.apple.geod:390 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  186.314584]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  186.314600]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  186.445805]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  186.445822]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  186.634708]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  186.634732]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  186.742984]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  186.742999]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  186.989574]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  186.989716]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  186.989911]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  187.102108]: udp_connection_summary [<IPv4-redacted>:60259<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4642 so_state: 0x0102 process: cloudd:578 Duration: 17.255 sec Conn_Time: 17.255 sec bytes in/out: 5939/5490 pkts in/out: 7/10 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa3b5f8da flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:52057<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4779 so_state: 0x0102 process: cloudd:578 Duration: 16.229 sec Conn_Time: 16.229 sec bytes in/out: 5939/5507 pkts in/out: 7/10 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa5c21fe1 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:62153<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4655 so_state: 0x0102 process: cloudd:578 Duration: 17.231 sec Conn_Time: 17.231 sec bytes in/out: 7382/3628 pkts in/out: 20/16 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xbb0d71c7 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:61355<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4787 so_state: 0x0102 process: cloudd:578 Duration: 16.042 sec Conn_Time: 16.042 sec bytes in/out: 7366/3239 pkts in/out: 21/13 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x9869f5ac flowctl: 0us (0x) udp connect: [<IPv4-redacted>:49836<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5417 so_state: 0x0102 process: cloudd:578 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8bf9ac31udp connect: [<IPv4-redacted>:49888<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5425 so_state: 0x0102 process: cloudd:578 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xbeabe4aaNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  187.314604]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  187.403898]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  187.403921]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  187.421966]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  187.421985]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  187.536065]: NVRM-xnu: post #100000 caller chain (nv_post_event at 0xffffff7fa9bef080, isr-thread 1)
+Backtrace 0xffffff7f96e7e252 0xffffff7f96e7e328 0xffffff7f9709b575 0xffffff7f96f7af15 0xffffff7f96fa5b8f 0xffffff7f96fa2573 0xffffff7f96fa226e
+[  187.536076]:       Kernel Extensions in backtrace:
+[  187.536078]:          com.nullmoth.NVRM(0.1)[UUID-365]@0xffffff7f96dde000->0xffffff7f97b5efff
+[  187.536081]:             dependency: com.apple.iokit.IOACPIFamily(1.4)[UUID-366]@0xffffff800249d000->0xffffff800249efff
+[  187.536084]:             dependency: com.apple.iokit.IOPCIFamily(2.9)[UUID-367]@0xffffff80029e5000->0xffffff8002a38fff
+[  187.597493]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49181<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3110 t_state: LAST_ACK process: mobileassetd:251 Duration: 31.410 sec Conn_Time: 0.153 sec bytes in/out: 25036/13067 pkts in/out: 24/17 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 6 delayed ACKs sent: 0
+rtt: 220.875 ms rttvar: 138.125 ms base rtt: 30 ms so_error: 0 svc/tc: 0 flow: 0x8f661dfftcp_connection_summary [<IPv4-redacted>:49181<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3110 t_state: LAST_ACK process: mobileassetd:251 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  187.652165]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  187.652181]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  187.768191]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  187.768210]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  188.020081]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -49 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  188.020299]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.020499]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  188.021184]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.021258]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.076371]: SK[5]: flow_entry_alloc               fe "0 proc kernel_task(0)cloudd nx_port 1 flow_uuid UUID-368 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49333,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x95e35a30 tp_proto=0x06"
+[  188.076609]: tcp connect outgoing: [<IPv4-redacted>:49333<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5469 t_state: SYN_SENT process: cloudd:578 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x8ad3ef0b[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.095309]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.095326]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.105417]: tcp connected: [<IPv4-redacted>:49333<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5469 t_state: ESTABLISHED process: cloudd:578 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x8ad3ef0budp_connection_summary [<IPv4-redacted>:64977<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3286 so_state: 0x0102 process: parsecd:778 Duration: 30.157 sec Conn_Time: 30.157 sec bytes in/out: 6558/5308 pkts in/out: 10/13 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa00f77de flowctl: 0us (0x) NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  188.316027]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  188.320498]: NVRM-fb: present stats head 0: 115 flips in 10005 ms (11/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6309 us
+[  188.320504]: NVRM-fb: present stats head 0: 115 flips in 10005 ms (11/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6309 us
+[  188.366597]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  188.366612]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  188.396977]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  188.396989]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  188.458156]: udp_connection_summary [<IPv4-redacted>:57037<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3240 so_state: 0x0102 process: assistantd:769 Duration: 31.269 sec Conn_Time: 31.268 sec bytes in/out: 7820/5356 pkts in/out: 12/14 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb06ff635 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:56576<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3483 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.361 sec Conn_Time: 29.361 sec bytes in/out: 10677/5301 pkts in/out: 20/17 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x83630cd2 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60543<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3489 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.361 sec Conn_Time: 29.361 sec bytes in/out: 10690/5214 pkts in/out: 18/15 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb8c5e269 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:55943<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3468 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.392 sec Conn_Time: 29.392 sec bytes in/out: 10550/5137 pkts in/out: 18/17 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa55b00c7 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:56917<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3457 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.401 sec Conn_Time: 29.401 sec bytes in/out: 10735/5178 pkts in/out: 19/18 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa28dc5e2 flowctl: 0us (0x) udp connect: [<IPv6-redacted>:0<-><IPv6-redacted>:0] interface:  (skipped: 0)
+so_gencnt: 5470 so_state: 0x0100 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 65 so_error: 0 svc/tc: 0 flow: 0x0udp_connection_summary [<IPv6-redacted>:0<-><IPv6-redacted>:0] interface:  (skipped: 0)
+so_gencnt: 5470 so_state: 0x0100 process: Spotify Helper:825 Duration: 0.000 sec Conn_Time: 0.000 sec bytes in/out: 0/0 pkts in/out: 0/0 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x0 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:62242<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5471 so_state: 0x0102 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x9a929ae2udp connect: [<IPv4-redacted>:53992<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5472 so_state: 0x0102 process: cloudd:578 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xac4ec96eudp connect: [<IPv4-redacted>:60795<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5488 so_state: 0x0102 process: cloudd:578 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x9828425cNVAccel: newResource -> <ptr>
+[  188.926525]: NVAccel: newResource -> <ptr>
+[  188.926536]: NVAccel: newSysMemory -> <ptr>
+[  188.926537]: NVAccel: newSysMemory -> <ptr>
+[  188.926544]: NVAccel: newVidMemory -> <ptr>
+[  188.926544]: NVAccel: newVidMemory -> <ptr>
+[  188.926723]: NVRM-xnu: >os_map_kernel_space start=0x3fc0f600000 size=0xc40000 mode=2
+[  188.926842]: NVRM-xnu:   mapped -> 0x<ptr> (slot 29, high water 246/8192)
+[  188.928821]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 12845056 bytes of REAL VRAM -- phys 0x3fc0f600000 kva <ptr> [BAR1 302579712]
+[  188.928825]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 12845056 bytes of REAL VRAM -- phys 0x3fc0f600000 kva <ptr> [BAR1 302579712]
+[  188.939168]: {public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s[IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SET_SCAN_HOME_AWAY_TIME> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.939316]: {public}s{public}s[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.941203]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.941307]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.941397]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.941502]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.941603]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.941682]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.941785]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.941863]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.942013]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:5:0x5> handler=1 
+[  188.942061]: ClientMemoryForType[0x1]
+[  188.942063]: getRingMD: enter : pipe count 5
+[  188.942077]: ClientMemoryForType[0x2]
+[  188.942078]: getRingMD: enter : pipe count 5
+[  188.942090]: extEventMonitorExit: enter
+[  188.942092]: IO80211APIUserClient::destroyEventPipe(2232) _onWLANQueue(0)
+[  188.942093]: destroyEventPipe: enter : pipe count 5
+[  188.942094]: IO80211IOUCEventPipe::free
+[  188.942266]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.942329]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.942418]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  188.943503]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.943820]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.944084]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.944694]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.944777]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.944858]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  188.944934]: extEventMonitorInit: enter
+[  188.944936]: createEventPipe: enter: pipe count: 4
+[  188.944960]: ClientMemoryForType[0x1]
+[  188.944961]: getRingMD: enter : pipe count 5
+[  188.944970]: ClientMemoryForType[0x2]
+[  188.944971]: getRingMD: enter : pipe count 5
+[  188.944978]: extSubscribeEvent: enter
+[  188.945006]: IO80211ScanManager::startScan: scanType = 1
+[  188.945027]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.945037]:  Active scan
+[  188.945038]: Scan type to FW 1
+ [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.945054]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.962344]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.962426]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.962770]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.962832]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.963143]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.963469]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.963737]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_RSSI> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.963991]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.964045]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  188.998989]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  188.999004]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  189.004551]: udp connect: [<IPv4-redacted>:51803<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5510 so_state: 0x0102 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xa02cea96com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  189.052826]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  189.053010]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  189.053014]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  189.053582]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  189.053655]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  189.107015]: NVAccel: newResource -> <ptr>
+[  189.107018]: NVAccel: newResource -> <ptr>
+[  189.107023]: NVAccel: newSysMemory -> <ptr>
+[  189.107024]: NVAccel: newSysMemory -> <ptr>
+[  189.107028]: NVAccel: newVidMemory -> <ptr>
+[  189.107029]: NVAccel: newVidMemory -> <ptr>
+[  189.107125]: NVRM-xnu: >os_map_kernel_space start=0x3fc09400000 size=0x390000 mode=2
+[  189.107164]: NVRM-xnu:   mapped -> 0x<ptr> (slot 29, high water 246/8192)
+[  189.107672]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3735552 bytes of REAL VRAM -- phys 0x3fc09400000 kva <ptr> [BAR1 293470208]
+[  189.107673]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3735552 bytes of REAL VRAM -- phys 0x3fc09400000 kva <ptr> [BAR1 293470208]
+[  189.210164]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  189.210182]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  189.314813]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  189.314828]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  189.320524]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  189.320538]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  189.326732]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  189.326745]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  189.434731]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  189.434749]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  189.507433]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  189.507927]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  189.593719]: udp_connection_summary [<IPv4-redacted>:59479<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3423 so_state: 0x0102 process: promotedcontentd:794 Duration: 30.568 sec Conn_Time: 30.568 sec bytes in/out: 19571/5719 pkts in/out: 19/14 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x80847035 flowctl: 0us (0x) com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  190.124539]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  190.124739]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  190.125307]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  190.125362]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  190.261078]: udp_connection_summary [<IPv4-redacted>:60904<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3787 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.806 sec Conn_Time: 29.806 sec bytes in/out: 5457/9426 pkts in/out: 16/15 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa1a169f0 flowctl: 0us (0x) IO80211PeerMonitor::checkForDPS()  Enter
+[  190.302309]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  190.302313]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  190.302315]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  190.302316]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  190.302321]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  190.302323]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  190.302331]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  190.302332]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  190.302333]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  190.302333]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  190.302334]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  190.567065]: tx_flush:1344: disk1 xid 435195 tx stats: # 660 owait 104 971us finish 668 bar2 655 f 93 enter 3 fq 52 57 258us close 0us prep 82us flush 379us
+[  190.611962]: udp_connection_summary [<IPv4-redacted>:62861<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3891 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.573 sec Conn_Time: 29.573 sec bytes in/out: 6964/4715 pkts in/out: 18/16 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x80d5ec5a flowctl: 0us (0x) 2 duplicate reports for Sandbox: imagent(631) deny(1) mach-lookup com.apple.contactsd.persistenceSandbox: dasd(150) deny(1) user-preference-write com.apple.dasd.dailyperiodiccom.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -55 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  191.180311]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.180531]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  191.181229]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.181302]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.448342]: udp_connection_summary [<IPv4-redacted>:49525<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4229 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.176 sec Conn_Time: 29.176 sec bytes in/out: 4545/3272 pkts in/out: 12/9 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb61abfb4 flowctl: 0us (0x) tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49250<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3848 t_state: LAST_ACK process: promotedcontentd:794 Duration: 31.141 sec Conn_Time: 0.036 sec bytes in/out: 21910/6277 pkts in/out: 27/12 pkt rxmit: 2 ooo pkts: 0 dup bytes in: 986 ACKs delayed: 2 delayed ACKs sent: 0
+rtt: 104.156 ms rttvar: 116.125 ms base rtt: 33 ms so_error: 0 svc/tc: 0 flow: 0x833c6628tcp_connection_summary [<IPv4-redacted>:49250<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3848 t_state: LAST_ACK process: promotedcontentd:794 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  192.097796]: udp_connection_summary [<IPv4-redacted>:59024<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2841 so_state: 0x0182 process: cloudd:282 Duration: 38.116 sec Conn_Time: 38.115 sec bytes in/out: 14823/10982 pkts in/out: 16/19 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xbbe3908f flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:56193<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2875 so_state: 0x0182 process: cloudd:282 Duration: 37.796 sec Conn_Time: 37.796 sec bytes in/out: 50133/5365 pkts in/out: 59/27 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xbf1e833a flowctl: 0us (0x) com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  192.210972]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.211145]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  192.211847]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.211923]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.672490]: udp_connection_summary [<IPv4-redacted>:49893<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3806 so_state: 0x0102 process: Spotify Helper:825 Duration: 32.172 sec Conn_Time: 32.172 sec bytes in/out: 69102/11564 pkts in/out: 82/60 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa4866137 flowctl: 0us (0x) tx_flush:1344: disk1 xid 435215 tx stats: # 680 owait 110 935us finish 686 bar2 673 f 94 enter 39 fq 107 547 973us close 2us prep 166us flush 614us
+[  192.801477]: udp connect: [<IPv6-redacted>:0<-><IPv6-redacted>:0] interface:  (skipped: 0)
+so_gencnt: 5604 so_state: 0x0100 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 65 so_error: 0 svc/tc: 0 flow: 0x0udp_connection_summary [<IPv6-redacted>:0<-><IPv6-redacted>:0] interface:  (skipped: 0)
+so_gencnt: 5604 so_state: 0x0100 process: Spotify Helper:825 Duration: 0.000 sec Conn_Time: 0.000 sec bytes in/out: 0/0 pkts in/out: 0/0 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x0 flowctl: 0us (0x) tx_flush:1344: disk1 xid 435235 tx stats: # 700 owait 111 928us finish 706 bar2 693 f 94 enter 41 fq 57 101 314us close 0us prep 114us flush 490us
+[  193.088975]: tx_flush:1344: disk1 xid 435255 tx stats: # 720 owait 114 908us finish 726 bar2 713 f 94 enter 129 fq 29 33 202us close 0us prep 174us flush 751us
+[  193.095413]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.095438]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.095470]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.233379]: tx_flush:1344: disk1 xid 435275 tx stats: # 740 owait 117 890us finish 746 bar2 733 f 94 enter 13 fq 58 64 266us close 0us prep 175us flush 529us
+[  193.261451]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  193.261606]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.261766]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  193.262556]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.262626]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.286584]: udp connect: [<IPv4-redacted>:62348<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5610 so_state: 0x0102 process: nsurlsessiond:584 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x849c2b13Sandbox: imagent(631) deny(1) mach-lookup com.apple.contactsd.persistence3 duplicate reports for Sandbox: imagent(631) deny(1) mach-lookup com.apple.contactsd.persistenceSandbox: imagent(631) deny(1) mach-lookup com.apple.contacts.account-cachingSandbox: imagent(631) deny(1) file-map-executable /System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/MacOS/LocalSourcedisallowing unsupported code signature page shift: 14
+[  193.495066]: unable to create a validated cs_blob object: 85
+[  193.496049]: disallowing unsupported code signature page shift: 14
+[  193.496055]: unable to create a validated cs_blob object: 85
+[  193.496414]: disallowing unsupported code signature page shift: 14
+[  193.496423]: unable to create a validated cs_blob object: 85
+[  193.496695]: 5 duplicate reports for Sandbox: imagent(631) deny(1) file-map-executable /System/Library/Address Book Plug-Ins/LocalSource.sourcebundle/Contents/MacOS/LocalSourceSandbox: imagent(631) deny(1) file-map-executable /System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/MacOS/DirectoryServicesdisallowing unsupported code signature page shift: 14
+[  193.496986]: unable to create a validated cs_blob object: 85
+[  193.540430]: udp connect: [<IPv4-redacted>:54728<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5614 so_state: 0x0102 process: nsurlsessiond:584 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x8a86efeeudp connect: [<IPv4-redacted>:61558<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5623 so_state: 0x0102 process: nsurlsessiond:584 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x9855cfa3udp_connection_summary [<IPv4-redacted>:54728<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5614 so_state: 0x0102 process: nsurlsessiond:584 Duration: 0.024 sec Conn_Time: 0.024 sec bytes in/out: 5087/3802 pkts in/out: 6/6 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x8a86efee flowctl: 0us (0x) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.939773]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.939811]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  193.939873]: IO80211ScanManager::startScan: scanType = 3
+[  193.939896]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.939927]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.939976]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940024]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940066]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940124]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940163]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940199]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940234]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940268]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940307]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940340]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940378]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940413]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940446]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940479]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940513]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940575]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940614]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940656]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940692]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940726]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940764]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940797]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940829]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940860]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940893]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.940931]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941040]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941095]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941141]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941187]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941238]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941281]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941322]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941363]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941405]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941445]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941484]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941524]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941564]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941602]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941666]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941880]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941929]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.941974]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942025]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942068]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942114]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942197]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942246]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942315]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942411]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942470]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942526]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.942580]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:5:0x5> handler=1 
+[  193.943084]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.943122]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.943233]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  193.961013]: tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49333<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5469 t_state: FIN_WAIT_1 process: cloudd:578 Duration: 5.885 sec Conn_Time: 0.029 sec bytes in/out: 7071/12914 pkts in/out: 7/8 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 1541 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 61.468 ms rttvar: 64.375 ms base rtt: 28 ms so_error: 0 svc/tc: 0 flow: 0x8ad3ef0btcp_connection_summary [<IPv4-redacted>:49333<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5469 t_state: FIN_WAIT_1 process: cloudd:578 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  193.966289]: udp connect: [<IPv4-redacted>:52773<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5638 so_state: 0x0102 process: nsurlsessiond:584 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x941cd5aeudp_connection_summary [<IPv4-redacted>:49836<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5417 so_state: 0x0102 process: cloudd:578 Duration: 6.957 sec Conn_Time: 6.957 sec bytes in/out: 5985/6771 pkts in/out: 9/11 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8bf9ac31 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:53992<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5472 so_state: 0x0102 process: cloudd:578 Duration: 5.280 sec Conn_Time: 5.280 sec bytes in/out: 5939/17602 pkts in/out: 7/19 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xac4ec96e flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:49888<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5425 so_state: 0x0102 process: cloudd:578 Duration: 6.849 sec Conn_Time: 6.849 sec bytes in/out: 30032/14639 pkts in/out: 52/37 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xbeabe4aa flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60795<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5488 so_state: 0x0102 process: cloudd:578 Duration: 5.254 sec Conn_Time: 5.254 sec bytes in/out: 4097/4273 pkts in/out: 17/10 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x9828425c flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:64975<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4298 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.762 sec Conn_Time: 29.762 sec bytes in/out: 5431/19971 pkts in/out: 24/29 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x9a298c1e flowctl: 0us (0x) udp connect: [<IPv4-redacted>:49963<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 5684 so_state: 0x0102 process: nsurlsessiond:584 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xae220668com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  194.363362]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.363548]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.363561]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  194.364079]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.364119]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.385999]: udp connect: [<IPv4-redacted>:60630<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5692 so_state: 0x0102 process: nsurlsessiond:584 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xbf37b2fdtx_flush:1344: disk1 xid 435295 tx stats: # 760 owait 117 890us finish 766 bar2 753 f 95 enter 14 fq 16 18 82us close 0us prep 171us flush 560us
+[  194.892097]: tx_flush:1344: disk1 xid 435315 tx stats: # 780 owait 120 871us finish 787 bar2 773 f 95 enter 17 fq 31 42 153us close 0us prep 150us flush 1011us
+[  195.049656]: udp_connection_summary [<IPv4-redacted>:62348<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5610 so_state: 0x0102 process: nsurlsessiond:584 Duration: 1.763 sec Conn_Time: 1.763 sec bytes in/out: 21452/9710 pkts in/out: 26/17 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x849c2b13 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:61558<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5623 so_state: 0x0102 process: nsurlsessiond:584 Duration: 1.485 sec Conn_Time: 1.485 sec bytes in/out: 1269/2574 pkts in/out: 4/6 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x9855cfa3 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:52773<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5638 so_state: 0x0102 process: nsurlsessiond:584 Duration: 1.083 sec Conn_Time: 1.083 sec bytes in/out: 47373/6766 pkts in/out: 47/14 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x941cd5ae flowctl: 0us (0x) IO80211PeerMonitor::checkForDPS()  Enter
+[  195.302184]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  195.302189]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  195.302191]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  195.302193]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  195.302195]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  195.302197]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  195.302205]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  195.302207]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  195.302207]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  195.302208]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  195.302210]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  195.302873]: Starting poll type 1
+[  195.302877]: Restarting poll type 1
+[  195.302881]: Transaction triggered Starting poll type 1
+[  195.417853]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  195.418050]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  195.418254]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  195.418964]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  195.419057]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  195.502827]: udp_connection_summary [<IPv4-redacted>:52076<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4389 so_state: 0x0102 process: Spotify Helper:825 Duration: 29.067 sec Conn_Time: 29.067 sec bytes in/out: 3269/2693 pkts in/out: 6/4 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xba299bbd flowctl: 0us (0x) 1 duplicate report for Sandbox: imagent(631) deny(1) file-map-executable /System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/MacOS/DirectoryServicesSandbox: imagent(631) deny(1) mach-lookup com.apple.system.opendirectoryd.apiSMC read called for cmd 0x120a wih no-op key
+[  195.821211]: SmartBattery: finished polling type 1
+[  195.821317]: priorityCalculationInputs en1 isWiFiInterface:0Sandbox: dasd(150) deny(1) iokit-get-properties iokit-class:AppleSmartBattery property:SkipperNEIgnoreAtCriticaludp_connection_summary [<IPv4-redacted>:49963<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5684 so_state: 0x0102 process: nsurlsessiond:584 Duration: 1.526 sec Conn_Time: 1.526 sec bytes in/out: 7915/6534 pkts in/out: 8/9 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xae220668 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60630<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 5692 so_state: 0x0102 process: nsurlsessiond:584 Duration: 1.487 sec Conn_Time: 1.487 sec bytes in/out: 6344/1505 pkts in/out: 14/8 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xbf37b2fd flowctl: 0us (0x) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  195.880145]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  195.997487]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49323<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4329 t_state: LAST_ACK process: appstoreagent:767 Duration: 30.709 sec Conn_Time: 0.303 sec bytes in/out: 11052/5136 pkts in/out: 16/9 pkt rxmit: 0 ooo pkts: 1 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 182.468 ms rttvar: 140.687 ms base rtt: 75 ms so_error: 0 svc/tc: 0 flow: 0xb873e180tcp_connection_summary [<IPv4-redacted>:49323<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4329 t_state: LAST_ACK process: appstoreagent:767 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  196.074901]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49324<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4355 t_state: LAST_ACK process: appstoreagent:767 Duration: 30.262 sec Conn_Time: 0.077 sec bytes in/out: 11052/5078 pkts in/out: 16/10 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 1 delayed ACKs sent: 0
+rtt: 112.875 ms rttvar: 81.500 ms base rtt: 75 ms so_error: 0 svc/tc: 0 flow: 0x959d278dtcp_connection_summary [<IPv4-redacted>:49324<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4355 t_state: LAST_ACK process: appstoreagent:767 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  196.449142]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -46 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  196.449464]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.449623]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  196.450357]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.450441]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.480347]: {public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s[IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SET_SCAN_HOME_AWAY_TIME> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.480603]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.480707]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.480777]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.480861]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.480957]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481059]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481064]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481168]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481233]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481301]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481385]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481444]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481527]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481596]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481660]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481735]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481790]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481854]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481932]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.481996]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.482081]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.482140]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.482231]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.482291]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.482367]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.482448]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:5:0x5> handler=1 
+[  196.482492]: ClientMemoryForType[0x1]
+[  196.482494]: getRingMD: enter : pipe count 5
+[  196.482508]: ClientMemoryForType[0x2]
+[  196.482509]: getRingMD: enter : pipe count 5
+[  196.482517]: extEventMonitorExit: enter
+[  196.482518]: IO80211APIUserClient::destroyEventPipe(2232) _onWLANQueue(0)
+[  196.482519]: destroyEventPipe: enter : pipe count 5
+[  196.482520]: IO80211IOUCEventPipe::free
+[  196.483044]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.483110]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.483214]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  196.485506]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.485817]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.486123]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.486736]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.486794]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.486865]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  196.486946]: extEventMonitorInit: enter
+[  196.486948]: createEventPipe: enter: pipe count: 4
+[  196.486974]: ClientMemoryForType[0x1]
+[  196.486975]: getRingMD: enter : pipe count 5
+[  196.486985]: ClientMemoryForType[0x2]
+[  196.486985]: getRingMD: enter : pipe count 5
+[  196.486993]: extSubscribeEvent: enter
+[  196.487031]: IO80211ScanManager::startScan: scanType = 1
+[  196.487047]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.487056]:  Active scan
+[  196.487057]: Scan type to FW 1
+ [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.487070]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.494372]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.494446]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.494757]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.494822]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.495147]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.495449]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.495739]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_RSSI> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.495996]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  196.496065]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 

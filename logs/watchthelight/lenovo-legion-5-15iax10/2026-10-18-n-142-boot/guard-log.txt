@@ -1,0 +1,23 @@
+2026-10-18 00:20:03 rollback (no IPv4 lease on en9): /private/tmp/claude-501/-Users-bash-Hackintosh/UUID-343/scratchpad/guard-dry/lastgood -> /tmp/wifi-guard-dry.dk81/EFI/OC
+2026-10-18 00:28:23 rollback (no default route (lease IP-10)): /Volumes/OCEFI/EFI/OC/wifi-lastgood -> /Volumes/OCEFI/EFI/OC
+2026-10-18 00:35:37 ROLLBACK IMPOSSIBLE: no /private/tmp/claude-501/-Users-bash-Hackintosh/UUID-343/scratchpad/guard-dry/lastgood
+2026-10-18 00:35:52 rollback (no IPv4 lease on en9): /tmp/claude-501/gd-1404/lastgood -> /tmp/wifi-guard-dry.GcEY/EFI/OC
+2026-10-18 00:36:12 rollback (no IPv4 lease on en9): /tmp/claude-501/gd-1493/lastgood -> /tmp/wifi-guard-dry.fQbT/EFI/OC
+2026-10-18 00:41:58 rollback (no default route (lease IP-12)): /Volumes/OCEFI/EFI/OC/wifi-lastgood -> /Volumes/OCEFI/EFI/OC
+2026-10-18 00:59:55 rollback (no default route (lease IP-87)): /Volumes/OCEFI/EFI/OC/wifi-lastgood -> /Volumes/OCEFI/EFI/OC
+2026-10-18 01:46:59 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:47:37 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:48:19 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:48:57 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:49:36 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:50:15 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:50:54 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:51:01 rollback (no IPv4 lease on en1): /Volumes/OCEFI/EFI/OC/wifi-lastgood -> /Volumes/OCEFI/EFI/OC
+2026-10-18 01:59:32 guard start: attempt=N-142 stage=D iface=en1 boot=1792303119 started_boot=none result=none auto_reboots=0 dry=0
+2026-10-18 02:00:40 join request 'SSID-1' on en1: ok
+2026-10-18 02:00:47 PASS N-142 stage D: lease IP-185, gateway IP-6 answers
+2026-10-18 02:01:19 captured pass -> /Users/USER/.cache/legion/wifi/N-142-pass
+2026-10-18 02:01:22 lastgood refreshed from the passing set
+2026-10-18 07:04:51 guard start: attempt=N-142 stage=D iface=en1 boot=1792321418 started_boot=1792303119 result=pass auto_reboots=0 dry=0
+2026-10-18 07:09:17 guard start: attempt=N-142 stage=D iface=en1 boot=1792321714 started_boot=1792303119 result=pass auto_reboots=0 dry=0
+2026-10-18 07:18:52 guard start: attempt=N-142 stage=D iface=en1 boot=1792322288 started_boot=1792303119 result=pass auto_reboots=0 dry=0

@@ -1,0 +1,2 @@
+      "IOClass" = "AppleBacklightDisplay"
+      "IODisplayParameters" = {"fade-time3"={"min"=0,"max"=10000,"value"=500},"brightness"={"min"=0,"max"=100,"value"=100},"fade-time2"={"min"=0,"max"=10000,"value"=4000},"fade-style"={"min"=0,"max"=10,"value"=0},"ownr"=4294968877,"fade-time1"={"min"=0,"max"=10000,"value"=500},"linear-brightness"={"min"=0,"max"=100,"value"=35}}

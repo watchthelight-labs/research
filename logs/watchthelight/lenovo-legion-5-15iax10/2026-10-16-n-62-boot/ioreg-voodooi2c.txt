@@ -1,0 +1,10 @@
+    | |   | +-o VoodooI2CPCILakeController  
+    | |   |   +-o VoodooI2CControllerNub  
+    | |   |     +-o VoodooI2CControllerDriver  
+    | |   | +-o VoodooI2CPCILakeController  
+    | |   |   +-o VoodooI2CControllerNub  
+    | |   |     +-o VoodooI2CControllerDriver  
+    | |   |         +-o VoodooI2CHIDDevice  
+    | |   |             +-o VoodooI2CPrecisionTouchpadHIDEventDriver  
+    | |   |               +-o VoodooI2CMultitouchInterface  
+    | |   |               | +-o VoodooI2CNativeEngine  

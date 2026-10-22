@@ -1,0 +1,8 @@
+      | | +-o PS2K  <class IOACPIPlatformDevice, id 0x1000001ff, registered, matched, active, busy 0 (31127 ms), retain 9>
+      | +-o I2C0@150000  <class IOACPIPlatformDevice, id 0x10000027e, !registered, !matched, active, busy 0, retain 7>
+      | +-o I2C1@150001  <class IOACPIPlatformDevice, id 0x10000027f, !registered, !matched, active, busy 0, retain 8>
+      | | +-o TPD0  <class IOACPIPlatformDevice, id 0x100000280, registered, matched, active, busy 0 (15 ms), retain 7>
+      | +-o I2C2@150002  <class IOACPIPlatformDevice, id 0x100000281, !registered, !matched, active, busy 0, retain 6>
+      | +-o I2C3@150003  <class IOACPIPlatformDevice, id 0x100000282, !registered, !matched, active, busy 0, retain 6>
+      | +-o I2C4@190000  <class IOACPIPlatformDevice, id 0x100000283, !registered, !matched, active, busy 0, retain 8>
+      | +-o I2C5@190001  <class IOACPIPlatformDevice, id 0x100000284, !registered, !matched, active, busy 0, retain 6>

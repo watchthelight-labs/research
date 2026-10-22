@@ -1,0 +1,23 @@
+op = BOOTREPLY
+htype = 1
+flags = 0x0
+hlen = 6
+hops = 0
+xid = 0xf97a17fd
+secs = 2
+ciaddr = 0.0.0.0
+yiaddr = 100.x.x.x
+siaddr = 100.x.x.x
+giaddr = 0.0.0.0
+chaddr = REDACTED-MAC
+sname = 
+file = 
+options:
+Options count is 7
+dhcp_message_type (uint8): ACK 0x5
+server_identifier (ip): 100.x.x.x
+lease_time (uint32): 0xa8c0
+subnet_mask (ip): IP-7
+router (ip_mult): {100.x.x.x}
+domain_name_server (ip_mult): {100.x.x.x, 100.x.x.x}
+end (none): 

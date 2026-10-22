@@ -1,0 +1,45 @@
+{
+ "collected": "2026-10-15",
+ "component": "native",
+ "files": {
+  "00-clock.txt": "7e51aa9645dd8c7e00f2d14e561e87e94b9b6783ab143bab9beffd4191f47180",
+  "01-system.txt": "779d29a0c6cb1a247f8a8c9407a80c4a6ccebea3fe55e405008a6f153eff2d91",
+  "acpi-buttons.txt": "60461a4758d98f2493364677df0f6acf56250e0ebb0bcb2bfb4cb8fcd6057584",
+  "audio-hdas.txt": "df4ffa848ede9fcc26ff4b7bd54eeb0a7a4e114376c1832b53468e2bd24dbedd",
+  "battery.txt": "cfef1a95a94721a840dcea6eecded1097b537e71d69af58fdcb5936ac3979a43",
+  "bootargs.txt": "0b74118de03972c927d945a070b644b7c0bcc393369ad218915dddb9217cb91d",
+  "clock-rtc.txt": "52d8d1c0813f143a90a8cd8b194b038ff90d9075726d56accdf2d101c6c45a2a",
+  "cpu.txt": "e722a446724d9cdc8d085d6b2eb01319d98a20422b573356748d5f3ef43bb7e4",
+  "diskutil-list.txt": "a34739e63f15a8340bbf3bd2e383264af7da1075d6212cddda6c14ecc3793f61",
+  "displays.txt": "b9bcd4033ddfb99468b1e6f422a264e376bf5559198e897f92c823cea0ffd450",
+  "ec.txt": "2993bb59e955a9b3b57fa6063d9a99f8e0c0927f78cba9268bfbc8e2c8be0e51",
+  "ethernet.txt": "181e11c9d3ef2ce5e4cc1f5feb30eed2c1818a19454b99a094cd11c954badeab",
+  "framebuffers.txt": "122095f25c9bfe7444914eedbbf2902164eefd3131dbbef7b8b361afafd3b773",
+  "gfx0.txt": "9580c4b0029afe06feeb255db8d8cfca1e2cbcee58b11422f30c4436f6a54793",
+  "i2c0.txt": "e1ab55f6dc1f545c88c49ee5439b5ad8e3141e14c65551e73a811c2562e17b4c",
+  "i2c1.txt": "038a0461d331c3a616ed011f5313228cefe156a8934246611ad27c5bd3354fca",
+  "ifconfig.txt": "a005c0a684450427aea38e7622b4d91c6468f4621eb2563b4932d25de0a5eed8",
+  "kexts.txt": "9ec75a01d914ffd7395b2a7bd5ef2e65f6d41b70af8ac01de72601bf17b1106c",
+  "missing.txt": "5d704369ec83f13c782ca4bf965195fa29fe09243a53efd2cb211855412d72fa",
+  "opencore-2026-10-15-122834.txt": "0e6fc6cc6ff664073d9d478f465164282cdd36cfba40371500ac98d16562c2a8",
+  "touchpad-acpi.txt": "0865029dd1c0788a3f81880237bc1395955adecdf8ba6d3681d06896cfac429a",
+  "usb-tree.txt": "2f0580ed939884eab704f64f30264c8a8fae25a72b64b1984b41a7ffb46e0f0f"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "24E263",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 1,
+   "MLB": 2,
+   "ROM": 2,
+   "SERIAL": 6,
+   "UUID": 185
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-24",
+ "username": "watchthelight"
+}

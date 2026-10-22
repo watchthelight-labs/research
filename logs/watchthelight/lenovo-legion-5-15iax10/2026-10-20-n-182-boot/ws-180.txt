@@ -1,0 +1,1 @@
+204 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon

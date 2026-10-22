@@ -1,0 +1,6 @@
+nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0
+nvrm: b72 host-pointer import ON (probe NV_STATUS 0)
+Failed to create /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/nvmtl-mesa for shader cache (Permission denied)---disabling.
+nvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8151 MB, default)
+NVIDIA GeForce RTX 5070 Laptop GPU (NVMTL over NVIDIA GeForce RTX 5070 Laptop GPU (NVK GB206-A)) lowPower: false headless: false recommendedMaxWorkingSet MB: 5823 registryID: 10000055c
+default: NVIDIA GeForce RTX 5070 Laptop GPU (NVMTL over NVIDIA GeForce RTX 5070 Laptop GPU (NVK GB206-A))

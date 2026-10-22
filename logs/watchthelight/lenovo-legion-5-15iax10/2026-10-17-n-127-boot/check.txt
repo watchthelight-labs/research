@@ -1,0 +1,4 @@
+n-127 check 2026-10-17 20:59 EDT, boot Sat Oct 17 20:57:04 2026
+plugin: 6ffd9c1e608a (expect 6ffd9c1e608a)
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 

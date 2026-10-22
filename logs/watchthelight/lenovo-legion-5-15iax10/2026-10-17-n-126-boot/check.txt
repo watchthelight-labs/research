@@ -1,0 +1,4 @@
+n-126 check 2026-10-17 20:49 EDT, boot Sat Oct 17 20:46:47 2026
+plugin: b22ee7107625 (expect b22ee7107625)
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 

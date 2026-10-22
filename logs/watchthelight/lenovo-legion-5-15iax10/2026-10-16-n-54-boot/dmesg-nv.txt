@@ -1,0 +1,600 @@
+[  255.463322]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.463324]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.463325]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.508451]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.508459]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.508463]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.508466]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.508479]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.508481]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.508484]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.508485]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.558108]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.558120]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.558125]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.558130]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.558148]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.558153]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.558157]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.558159]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.607821]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.607829]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.607833]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.607835]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.607846]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.607849]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.607851]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.607852]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.859268]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.859277]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.859280]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.859282]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.859294]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.859296]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.859298]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.859300]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.905710]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.905716]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.905717]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.905719]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.905727]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.905729]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.905730]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.905731]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.940670]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.940675]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.940677]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.940679]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.940687]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.940689]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.940690]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.940691]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.992405]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.992417]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.992422]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.992425]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.992441]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.992445]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  255.992449]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  255.992451]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.479292]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.479301]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.479303]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.479305]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.479316]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.479321]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.479323]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.479324]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.526274]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.526286]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.526291]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.526294]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.526312]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.526316]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.526319]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.526322]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.573259]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.573264]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.573266]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.573267]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.573274]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.573276]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.573277]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.573278]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.626704]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.626714]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.626718]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.626720]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.626732]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.626735]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.626737]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.626739]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.858672]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.858680]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.858682]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.858684]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.858697]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.858699]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.858700]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.858701]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.907289]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.907295]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.907297]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.907298]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.907306]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.907308]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.907309]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.907310]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.958449]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.958456]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.958458]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.958460]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.958468]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.958469]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  256.958471]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  256.958472]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.005872]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.005880]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.005883]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.005885]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.005895]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.005898]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.005900]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.005902]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.479269]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.479277]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.479280]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.479282]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.479300]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.479302]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.479304]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.479305]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.526085]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.526094]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.526097]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.526100]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.526112]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.526114]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.526117]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.526119]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.572024]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.572031]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.572034]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.572036]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.572047]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.572049]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.572052]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.572053]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.623339]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.623349]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.623355]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.623358]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.623373]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.623377]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.623380]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.623382]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.859903]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.859917]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.859920]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.859923]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.859934]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.859936]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.859937]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.859938]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.908580]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.908592]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.908597]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.908601]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.908618]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.908622]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.908626]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.908628]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.957926]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.957936]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.957939]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.957942]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.957954]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.957956]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  257.957958]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  257.957960]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.009168]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.009179]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.009183]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.009186]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.009200]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.009203]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.009206]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.009207]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.481541]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.481551]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.481554]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.481556]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.481568]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.481570]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.481573]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.481574]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+so_gencnt: 1737 t_state: SYN_SENT process: nsurlsessiond:201 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xa9e91f83NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.529281]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.529287]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.529290]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.529307]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.529311]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.529315]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.529317]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.575343]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.575349]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.575351]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.575352]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.575360]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.575362]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.575364]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.575364]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.627717]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.627726]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.627730]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.627733]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.627746]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.627755]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.627758]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.627760]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.859352]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.859365]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.859371]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.859375]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.859393]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.859398]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.859401]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.859404]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.907307]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.907315]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.907319]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.907321]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.907335]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.907338]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.907341]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.907342]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.956912]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.956920]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.956924]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.956927]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.956939]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.956942]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.956945]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.956947]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.993386]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.993393]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.993396]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.993398]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.993414]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.993417]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  258.993419]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  258.993421]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.152418]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.152428]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.152431]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.152434]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.152449]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.152452]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.152454]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.152456]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.202387]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.202399]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.202404]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.202408]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.202521]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.202526]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.202531]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.202533]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.485488]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.485497]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.485501]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.485503]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.485558]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.485561]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.485564]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.485565]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+so_gencnt: 1737 t_state: ESTABLISHED process: nsurlsessiond:201 SYN in/out: 1/2 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xa9e91f83NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.535648]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.535651]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.535653]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.535664]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.535666]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.535668]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.535669]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.585652]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.585663]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.585667]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.585670]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.585686]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.585689]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.585692]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.585694]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.635429]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.635437]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.635441]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.635443]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.635512]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.635517]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.635520]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.635522]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.685654]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.685661]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.685663]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.685665]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.685677]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.685679]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.685684]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.685686]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.882903]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.882912]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.882915]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.882917]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.882929]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.882931]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.882933]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.882934]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.929905]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.929916]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.929921]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.929926]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.929942]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.929947]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.929951]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.929953]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.978596]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.978609]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.978614]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.978618]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.978637]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.978642]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  259.978646]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  259.978648]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.026298]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.026307]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.026311]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.026313]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.026333]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.026336]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.026339]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.026340]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.493753]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.493763]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.493767]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.493770]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.493784]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.493786]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.493789]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.493790]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.541977]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.541986]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.541990]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.541993]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.542007]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.542011]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.542014]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.542016]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.590991]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.591005]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.591010]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.591014]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.591033]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.591037]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.591042]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.591044]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.640081]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.640087]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.640089]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.640090]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.640101]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.640103]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.640104]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.640105]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.676350]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.676359]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.676362]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.676365]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.676375]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.676378]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.676380]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.676381]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.891580]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.891591]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.891597]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.891600]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.891615]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.891619]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.891623]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.891625]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.942191]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.942198]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.942202]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.942204]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.942215]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.942217]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.942219]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.942220]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.992341]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.992360]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.992366]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.992370]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.992388]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.992392]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  260.992396]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.992399]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  260.993236]: NVRM-xnu: >nv_alloc_pages count=4000 page_size=0x1000 contig=0 cache=0 zeroed=1 (16000 KB)
+[  260.998204]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x71b65c000
+[  260.998840]: NVRM-xnu: client fd 39 opened (ctl)
+[  260.998843]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[  260.998851]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  260.998852]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  260.998910]: NVRM-xnu: client 39 bound to pid 156 fd 7
+[  260.998927]: NVRM-xnu: mapping context on fd 7: sysmem page_index=0 ranges=0 access=0x0+0x0 caching=6 prot=0x3
+[  260.998935]: NVRM-xnu: map fd 39: sysmem +0x0 len 0xfa0000 cache 0
+[  260.998980]: NVRM-xnu: client 39 bound to pid 156 fd -2
+[  261.043922]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  261.043934]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  261.043940]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  261.043944]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  261.043963]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  261.043968]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  261.043972]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  261.043975]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  261.101947]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  261.101956]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  261.101960]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  261.101963]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  261.101977]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  261.101980]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  261.101982]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  261.101984]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  262.139495]: NVRM-fb: cursor apply 1000: ok 1 rc 0 at 650,1036 visible 1
+[  262.139502]: NVRM-fb: cursor apply 1000: ok 1 rc 0 at 650,1036 visible 1
+[  265.151686]: NVRM-fb: cursor apply 2000: ok 1 rc 0 at 1124,1146 visible 1
+[  265.151693]: NVRM-fb: cursor apply 2000: ok 1 rc 0 at 1124,1146 visible 1
+[  265.244500]: NVRM-xnu: map fd 100: sysmem +0x0 len 0xfa0000 cache 0
+[  265.244828]: NVRM-xnu: client fd 100 closed
+[  265.287504]: NVRM-xnu: map fd 34: sysmem +0x0 len 0xfa0000 cache 0
+[  265.287763]: NVRM-xnu: client fd 34 closed
+[  265.398716]: NVRM-xnu: map fd 103: sysmem +0x0 len 0xfa0000 cache 0
+[  265.398923]: NVRM-xnu: client fd 103 closed
+[  265.400343]: NVRM-xnu: map fd 107: sysmem +0x0 len 0xfa0000 cache 0
+[  265.400617]: NVRM-xnu: client fd 107 closed
+[  265.476507]: NVRM-xnu: map fd 97: sysmem +0x0 len 0xfa0000 cache 0
+[  265.476811]: NVRM-xnu: client fd 97 closed
+[  265.478206]: NVRM-xnu: map fd 133: sysmem +0x0 len 0xfa0000 cache 0
+[  265.478488]: NVRM-xnu: client fd 133 closed
+[  265.560498]: NVRM-xnu: map fd 77: sysmem +0x0 len 0xfa0000 cache 0
+[  265.560784]: NVRM-xnu: client fd 77 closed
+[  265.562266]: NVRM-xnu: map fd 108: sysmem +0x0 len 0xfa0000 cache 0
+[  265.562551]: NVRM-xnu: client fd 108 closed
+[  265.643473]: NVRM-xnu: map fd 111: sysmem +0x0 len 0xfa0000 cache 0
+[  265.643693]: NVRM-xnu: client fd 111 closed
+[  265.644902]: NVRM-xnu: map fd 138: sysmem +0x0 len 0xfa0000 cache 0
+[  265.645111]: NVRM-xnu: client fd 138 closed
+[  265.696508]: NVRM-xnu: map fd 139: sysmem +0x0 len 0xfa0000 cache 0
+[  265.696792]: NVRM-xnu: client fd 139 closed
+[  265.768451]: NVRM-xnu: map fd 136: sysmem +0x0 len 0xfa0000 cache 0
+[  265.768737]: NVRM-xnu: client fd 136 closed
+[  265.769927]: NVRM-xnu: map fd 39: sysmem +0x0 len 0xfa0000 cache 0
+[  265.770221]: NVRM-xnu: client fd 39 closed
+[  265.852467]: NVRM-xnu: map fd 110: sysmem +0x0 len 0xfa0000 cache 0
+[  265.852755]: NVRM-xnu: client fd 110 closed
+[  265.854043]: NVRM-xnu: map fd 102: sysmem +0x0 len 0xfa0000 cache 0
+[  265.854336]: NVRM-xnu: client fd 102 closed
+[  265.935470]: NVRM-xnu: map fd 99: sysmem +0x0 len 0xfa0000 cache 0
+[  265.935796]: NVRM-xnu: client fd 99 closed
+[  265.937152]: NVRM-xnu: map fd 105: sysmem +0x0 len 0xfa0000 cache 0
+[  265.937420]: NVRM-xnu: client fd 105 closed
+[  266.018465]: NVRM-xnu: map fd 98: sysmem +0x0 len 0xfa0000 cache 0
+[  266.785778]: NVRM-fb: cursor apply 3000: ok 1 rc 0 at 1606,828 visible 1
+[  266.785787]: NVRM-fb: cursor apply 3000: ok 1 rc 0 at 1606,828 visible 1
+[  267.885673]: NVRM-fb: cursor apply 4000: ok 1 rc 0 at 1280,666 visible 1
+[  267.885683]: NVRM-fb: cursor apply 4000: ok 1 rc 0 at 1280,666 visible 1
+[  273.264008]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  273.264019]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  273.264023]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  273.264026]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  273.264041]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  273.264044]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  273.264046]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  273.264048]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  273.271897]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  273.271902]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  273.312043]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  273.312051]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  273.312054]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  273.312057]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  273.312069]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  273.312071]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  273.312074]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  273.312075]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.669575]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  297.669586]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  297.669590]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.669593]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.669668]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  297.669671]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  297.669674]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.669675]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.676923]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  297.676931]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  297.734718]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  297.734731]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  297.734737]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.734741]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.734864]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  297.734866]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  297.734868]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.734869]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  297.741793]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  297.741798]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  298.117086]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  298.117094]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  298.152057]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  298.152071]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  298.152084]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  298.152089]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  298.152110]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  298.152114]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  298.152119]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  298.152121]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  298.157688]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  298.157694]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  298.485565]: NVRM-fb: cursor apply 5000: ok 1 rc 0 at 926,810 visible 1
+[  298.485575]: NVRM-fb: cursor apply 5000: ok 1 rc 0 at 926,810 visible 1
+[  299.619436]: NVRM-fb: cursor apply 6000: ok 1 rc 0 at 1238,964 visible 1
+[  299.619444]: NVRM-fb: cursor apply 6000: ok 1 rc 0 at 1238,964 visible 1
+[  300.684882]: NVRM-fb: cursor apply 7000: ok 1 rc 0 at 1564,932 visible 1
+[  300.684893]: NVRM-fb: cursor apply 7000: ok 1 rc 0 at 1564,932 visible 1
+[  305.105268]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.105277]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.142843]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.142850]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.142852]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.142854]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.142865]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.142866]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.142868]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.142869]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.148447]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.148452]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.170069]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.170077]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.204330]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.204342]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.204347]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.204351]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.204370]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.204374]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.204378]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.204380]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.212172]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.212177]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.252910]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.252921]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.252924]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.252927]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.252943]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.252946]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.252948]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.252950]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.259111]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.259115]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.284001]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.284006]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.323577]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.323585]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.323589]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.323592]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.323605]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.323607]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.323609]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.323611]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.357704]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.357710]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  305.393412]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.393419]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.393422]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.393423]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.393434]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.393435]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  305.393437]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  305.393438]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  306.043506]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  306.043513]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  306.043516]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  306.043518]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  306.043534]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  306.043536]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  306.043537]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  306.043538]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  306.054363]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  306.054369]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  306.099372]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  306.099381]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  306.099384]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  306.099387]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  306.099399]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  306.099402]: NVRM-fb: nvAllocVram(16384000): REFUSED \M-b\M^@\M^T BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+[  306.099404]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+[  306.099406]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)

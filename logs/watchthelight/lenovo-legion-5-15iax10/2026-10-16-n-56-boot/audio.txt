@@ -1,0 +1,38 @@
+Fri Oct 16 12:28:03 UTC 2026
+Audio:
+
+    Devices:
+
+        Built-in Input:
+
+          Default Input Device: Yes
+          Input Channels: 2
+          Manufacturer: Apple Inc.
+          Current SampleRate: 44100
+          Transport: Built-in
+          Input Source: Internal Microphone
+
+        Built-in Output:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: Built-in
+          Output Source: Internal Speakers
+
+
+# HDA codec
+  |   "IOHDACodecVendorID" = 283902551
+  |   "IOHDACodecRevisionID" = 1048577
+  |   "IOHDACodecAddress" = 0
+          | |   "IOAudioEngineDeviceDescription" = {"num-internal-mics"=1,"driver digital input gain"=0,"layout-id"=7,"post-processing input gain"=25,"VP-pregain"=25}
+
+# controller
++-o AppleHDAController@1F,3  <class AppleHDAController, id 0x100000590, registered, matched, active, busy 0 (265 ms), retain 9>
+    {
+      "IOClass" = "AppleHDAController"
+
+# SMBIOS processor type (N-56)
+0x0905

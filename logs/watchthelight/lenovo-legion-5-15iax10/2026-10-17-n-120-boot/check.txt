@@ -1,0 +1,4 @@
+n-120 check 2026-10-17 19:31 EDT, boot Sat Oct 17 19:28:45 2026
+plugin: efbf2dce8082 (expect efbf2dce8082)
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 

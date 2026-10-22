@@ -1,0 +1,33 @@
+{
+ "collected": "2026-10-15",
+ "component": "native",
+ "files": {
+  "00-clock.txt": "cdf2cff38dae4fd4efc651956ad4b5c4e2812ccb8379369e3b2dc7fccc0935bf",
+  "captive-follow.txt": "9a2fdd9cbaa62cf429c997b31e36932ca623c6c568389a58fb963520f41b6a97",
+  "captive-headers.txt": "ce7f175ba2448fd0900bc3b288420a601a5e77040247030af4291f8e39d2d12f",
+  "captive.txt": "12d2e8f1641a5bca4d9e53ad9cda2f7bf49201e74cf3d0be2f0a5ed04189f095",
+  "mtkwlan-after.txt": "30aaaede6aef9662e765789c73a560c33bef48ce4e3b111c225353304f27e8b2",
+  "mtkwlan.txt": "45857c8a17d52da29cb93285caed7d61b954fee4f7acc98f61e21ba9b4257cf0",
+  "opencore-2026-10-15-160006.txt": "6e5f022e0a38819d9bb96ab04f91bad76ec8452a8c8409866c9208612588560a",
+  "ping.txt": "ab369859f97d65b7d623169ef411746baab501be2b787a90548c383cb4debd88",
+  "routes.txt": "5b23e5b83e1b70447a3c440915dbb94e0bddc1cc5ac8f9ce97ae665df07c1852",
+  "speedtest.txt": "f87468646c1cf4465ee7ecd5d5a2805bcf3aa647f223439301ee60dc21c5a4aa",
+  "w6.txt": "674973e08bf01ef1692dd1df6fc63c80f001c880c451d534bcecc10dca96f517"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "MLB": 2,
+   "ROM": 2,
+   "SERIAL": 2,
+   "UUID": 38
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-33",
+ "username": "watchthelight"
+}

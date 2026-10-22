@@ -1,0 +1,26 @@
++-o I2C0@15  <class IOPCIDevice, id 0x1000003d3, registered, matched, active, busy 0 (0 ms), retain 8>
+    {
+      "assigned-addresses" = <10a8808200000000009040b80000000000100000>
+      "class-code" = <00800c00>
+      "IODeviceMemory" = (({"address"=3091238912,"length"=4096}))
+      "IOPowerManagement" = {"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+      "subsystem-vendor-id" = <aa170000>
+      "built-in" = <00>
+      "acpi-device" = "IOACPIPlatformDevice is not serializable"
+      "vendor-id" = <86800000>
+      "name" = <"pci8086,7f4c">
+      "device-id" = <4c7f0000>
+      "IOPCIResourced" = Yes
+      "compatible" = <"pci17aa,3e17","pci8086,7f4c","pciclass,0c8000","I2C0">
+      "iommu-selection" = <00000000>
+      "IOPCIExpressLinkCapabilities" = 0
+      "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci"))
+      "acpi-path" = "IOACPIPlane:/_SB/PC02/I2C0@150000"
+      "subsystem-id" = <173e0000>
+      "revision-id" = <10000000>
+      "pcidebug" = "128:21:0"
+      "IOName" = "pci8086,7f4c"
+      "reg" = <00a880000000000000000000000000000000000010a8800200000000000000000000000000100000>
+    }
+    
+

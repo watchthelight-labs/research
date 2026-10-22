@@ -1,0 +1,99 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-20 13:10:37.873 Df kernel[0:a05] (NVRMFB) NVRM-fb: fb0 sink: digital, 10 bpc, colorimetry block yes 0x80/0x00 (BT.2020 yes), HDR block yes eotf 0x05 (PQ+type1 yes) lum codes 139/107/2
+2026-10-20 13:10:37.873 Df kernel[0:a05] (NVRMFB) NVRM-fb: fb0 sink: nvrmhdr=1 -> advertise the sink's depth/BT.2020/HDR10, log what CoreDisplay does
+2026-10-20 13:10:37.878 Df kernel[0:a05] (NVRMFB) NVRM-fb: fbmodes: boot raster 2560x1600 pitch 10240; scanout allocation sized for 5120x3200 (64000 KB, boot needs 16000 KB)
+2026-10-20 13:10:37.906 Df kernel[0:a05] (NVRMFB) NVRM-fb: fbmodes: published IOFBScalerInfo (up+down, max 5120x3200) + IOFBTimingRange (25 MHz..1.2 GHz, 23..500 Hz, bpc 0x6 colorimetry 0x303 dynamic range 0x3)
+2026-10-20 13:11:18.445 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #1 id 0x1 2560x1600 desktop 1280x800 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.448 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #2 id 0x1 2560x1600 desktop 2560x1600 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.450 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #3 id 0x1 2560x1600 desktop 2880x1800 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.453 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #4 id 0x1 2560x1600 desktop 3024x1890 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.456 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #5 id 0x1 2560x1600 desktop 3200x2000 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.459 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #6 id 0x1 2560x1600 desktop 3360x2100 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.461 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #7 id 0x1 2560x1600 desktop 3600x2250 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.464 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #8 id 0x1 2560x1600 desktop 3840x2400 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.467 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #9 id 0x1 2560x1600 desktop 4096x2560 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.470 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #10 id 0x1 2560x1600 desktop 640x480 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.472 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #11 id 0x1 2560x1600 desktop 800x600 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.476 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #12 id 0x1 2560x1600 desktop 800x500 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.478 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #13 id 0x1 2560x1600 desktop 1024x768 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.481 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #14 id 0x1 2560x1600 desktop 1024x640 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.484 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #15 id 0x1 2560x1600 desktop 1280x720 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.486 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #16 id 0x1 2560x1600 desktop 1280x960 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.489 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #17 id 0x1 2560x1600 desktop 1344x1008 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.492 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #18 id 0x1 2560x1600 desktop 1344x840 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.495 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #19 id 0x1 2560x1600 desktop 1440x900 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.498 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #20 id 0x1 2560x1600 desktop 1680x1050 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.501 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #21 id 0x1 2560x1600 desktop 1600x1200 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.504 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #22 id 0x1 2560x1600 desktop 1600x1000 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.507 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #23 id 0x1 2560x1600 desktop 1920x1080 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.509 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #24 id 0x1 2560x1600 desktop 1920x1200 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.512 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #25 id 0x1 2560x1600 desktop 1920x1200 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.515 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #26 id 0x1 2560x1600 desktop 2048x1280 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.518 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #27 id 0x1 2560x1600 desktop 2560x1440 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.521 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #28 id 0x1 2560x1600 desktop 2560x1600 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.523 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #29 id 0x1 2560x1600 desktop 2560x1440 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.525 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #30 id 0x10000 2560x1600 desktop 1280x800 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.526 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #31 id 0x10000 2560x1600 desktop 2560x1600 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.527 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #32 id 0x10000 2560x1600 desktop 2880x1800 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.529 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #33 id 0x10000 2560x1600 desktop 3024x1890 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.530 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #34 id 0x10000 2560x1600 desktop 3200x2000 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.532 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #35 id 0x10000 2560x1600 desktop 3360x2100 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.533 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #36 id 0x10000 2560x1600 desktop 3600x2250 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.534 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #37 id 0x10000 2560x1600 desktop 3840x2400 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.536 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #38 id 0x10000 2560x1600 desktop 4096x2560 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.537 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #39 id 0x10000 2560x1600 desktop 640x480 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.538 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #40 id 0x10000 2560x1600 desktop 800x600 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.540 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #41 id 0x10000 2560x1600 desktop 800x500 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.542 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #42 id 0x10000 2560x1600 desktop 1024x768 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.543 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #43 id 0x10000 2560x1600 desktop 1024x640 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.545 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #44 id 0x10000 2560x1600 desktop 1280x720 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.546 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #45 id 0x10000 2560x1600 desktop 1280x960 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.547 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #46 id 0x10000 2560x1600 desktop 1344x1008 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.549 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #47 id 0x10000 2560x1600 desktop 1344x840 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.550 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #48 id 0x10000 2560x1600 desktop 1440x900 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.551 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #49 id 0x10000 2560x1600 desktop 1680x1050 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.553 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #50 id 0x10000 2560x1600 desktop 1600x1200 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.554 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #51 id 0x10000 2560x1600 desktop 1600x1000 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.556 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #52 id 0x10000 2560x1600 desktop 1920x1080 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.557 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #53 id 0x10000 2560x1600 desktop 1920x1200 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.558 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #54 id 0x10000 2560x1600 desktop 1920x1200 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.560 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #55 id 0x10000 2560x1600 desktop 2048x1280 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.561 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #56 id 0x10000 2560x1600 desktop 2560x1440 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.562 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #57 id 0x10000 2560x1600 desktop 2560x1600 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.564 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 validateDetailedTiming #58 id 0x10000 2560x1600 desktop 2560x1440 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0 -> OK
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb: setDetailedTimings: boot raster 2560x1600@165 is dt 0x80001001 -- that is the current mode now (no modeset)
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 setDetailedTimings: 52 timing(s) installed (52 from macOS, 0 refresh rates from NVKMS; 0 malformed, 52 offered), current 0x80001001, EDID matches so far 58
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001000 raster 2560x1600 desktop 1280x800 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001001 raster 2560x1600 desktop 0x0 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001002 raster 2560x1600 desktop 2880x1800 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001003 raster 2560x1600 desktop 3024x1890 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001004 raster 2560x1600 desktop 3200x2000 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001005 raster 2560x1600 desktop 3360x2100 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001006 raster 2560x1600 desktop 3600x2250 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001007 raster 2560x1600 desktop 3840x2400 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001008 raster 2560x1600 desktop 4096x2560 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001009 raster 2560x1600 desktop 640x480 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x8000100a raster 2560x1600 desktop 800x600 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x8000100b raster 2560x1600 desktop 800x500 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x8000100c raster 2560x1600 desktop 1024x768 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x8000100d raster 2560x1600 desktop 1024x640 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x8000100e raster 2560x1600 desktop 1280x720 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x8000100f raster 2560x1600 desktop 1280x960 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001010 raster 2560x1600 desktop 1344x1008 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001011 raster 2560x1600 desktop 1344x840 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001012 raster 2560x1600 desktop 1440x900 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001013 raster 2560x1600 desktop 1680x1050 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001014 raster 2560x1600 desktop 1600x1200 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001015 raster 2560x1600 desktop 1600x1000 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001016 raster 2560x1600 desktop 1920x1080 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.567 Df kernel[0:430] (NVRMFB) NVRM-fb:   dt 0x80001017 raster 2560x1600 desktop 1920x1200 pclk 782710000 enc 0x0 bpc 0x0 col 0x0 dr 0x0
+2026-10-20 13:11:18.571 Df kernel[0:430] (NVRMFB) NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+2026-10-20 13:11:18.571 Df kernel[0:430] (NVRMFB) NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+2026-10-20 13:11:18.571 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 setDisplayMode 0x1 depth 0 (current 0x80001001)
+2026-10-20 13:11:18.587 Df kernel[0:430] (NVRMFB) NVRM-fb: switchMode 0x1: test 2560x1600 -> raster 2560x1600 @165000 mHz pclk 782710000 -> 1 (flipResult 0)
+2026-10-20 13:11:19.530 Df kernel[0:430] (NVRMFB) NVRM-fb: switchMode 0x1: COMMIT 2560x1600 -> raster 2560x1600 @165000 mHz pclk 782710000 -> 1 (flipResult 0)
+2026-10-20 13:11:20.563 Df kernel[0:430] (NVRMFB) NVRM-fb: setAttribute 'capd' value 0 -> 0x0
+2026-10-20 13:11:25.836 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 setDisplayMode 0x80001005 depth 0 (current 0x1)
+2026-10-20 13:11:25.840 Df kernel[0:430] (NVRMFB) NVRM-fb: switchMode 0x80001005: test 3360x2100 -> raster 2560x1600 @165000 mHz pclk 782710000 -> 1 (flipResult 0)
+2026-10-20 13:11:26.740 Df kernel[0:430] (NVRMFB) NVRM-fb: switchMode 0x80001005: COMMIT 3360x2100 -> raster 2560x1600 @165000 mHz pclk 782710000 -> 1 (flipResult 0)
+2026-10-20 13:17:26.972 Df kernel[0:430] (NVRMFB) NVRM-fb: fb0 setDisplayMode 0x1 depth 0 (current 0x80001005)

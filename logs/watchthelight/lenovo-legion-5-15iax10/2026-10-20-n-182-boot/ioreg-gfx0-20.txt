@@ -1,0 +1,45 @@
++-o GFX0@0  <class IOPCIDevice, id 0x1000003ea, registered, matched, active, busy 0 (4 ms), retain 15>
+    {
+      "acpi-device" = "IOACPIPlatformDevice is not serializable"
+      "@0,connector-type" = <00080000>
+      "assigned-addresses" = <1000028200000000000000800000000000000004140002c2600000000000001800000000000000041c0002c2600000000000001c000000000000000224000281000000000090000000000000800000003000028200000000000008840000000000000800>
+      "vendor-id" = <de100000>
+      "class-code" = <00000300>
+      "subsystem-vendor-id" = <aa170000>
+      "IOPCIExpressLinkCapabilities" = 4716805
+      "hda-gfx" = <"onboard-2">
+      "IOName" = "display"
+      "@5,connector-type" = <00080000>
+      "pcidebug" = "2:0:0"
+      "IOChildIndex" = 1
+      "@4,connector-type" = <00080000>
+      "IOPCIExpressLinkStatus" = 4229
+      "IOPCIExpressCapabilities" = 18
+      "Capability Offsets" = {"PowerManagementCapability"=64,"PCIExpressCapability"=96,"SPCIe"=256,"LaneMarginingRx"=512,"PL32GTs"=392,"LatencyToleranceReportingCapability"=300,"PL16GTs"=344,"VendorSpecificCapability"=156,"DataLinkFeature"=332,"AlternativeRoutingID"=584,"PowerBudgetCapability"=700,"VSEC"=676,"MSIXCapability"=176,"MSICapability"=72,"ResizableBAR"=308,"DeviceSerialNumberCapability"=756,"ErrorReportingCapability"=440}
+      "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci"))
+      "@3,connector-type" = <00080000>
+      "built-in" = <00>
+      "IOBusyInterest" = "IOCommand is not serializable"
+      "IOPowerManagement" = {"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+      "IOPCIResourced" = Yes
+      "IODeviceMemory" = (({"address"=2147483648,"length"=67108864}),({"address"=412719513600,"length"=67108864}),({"address"=412786622464,"length"=33554432}),"IOSubMemoryDescriptor is not serializable",({"address"=2215116800,"length"=524288}))
+      "IOPCIMSIMessageControl" = 904
+      "name" = <"display">
+      "subsystem-id" = <383e0000>
+      "acpi-pmcap-offset" = 64
+      "AAPL,slot-name" = <"Slot-1">
+      "@2,connector-type" = <00080000>
+      "compatible" = <"pci17aa,3e38","pci10de,2d18","pciclass,030000","PXSX","GFX0">
+      "IOPCIExpressDeviceCapabilities2" = 461203
+      "@1,connector-type" = <00080000>
+      "IOPCIExpressDeviceCapabilities" = 288132641
+      "reg" = <0000020000000000000000000000000000000000100002020000000000000000000000000000000414000242000000000000000000000000000000041c0002420000000000000000000000000000000224000201000000000000000000000000800000003000020200000000000000000000000000000800>
+      "IOPCIPowerManagementCapabilities" = 1209223169
+      "device-id" = <182d0000>
+      "revision-id" = <a1000000>
+      "IOPCIAERCapabilities" = 160
+      "IOPCIExpressLinkCapabilities2" = 25165886
+      "acpi-path" = "IOACPIPlane:/_SB/PC00/RP01@60000/PXSX@0"
+    }
+    
+

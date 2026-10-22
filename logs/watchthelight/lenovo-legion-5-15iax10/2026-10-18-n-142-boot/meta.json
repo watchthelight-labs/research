@@ -1,0 +1,41 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "Kernel-2026-10-18-070423.panic.txt": "52dcb8c463f6225bd14f97158f44239eb3b1a286889281216f06ed576adc324d",
+  "Kernel-2026-10-18-070914.panic.txt": "262d70aa65e424ae05c644be95477a02f73710a89b52c1a04c40730c2f15bd5f",
+  "README.md": "847e2c6c30d2cd7dac28a72b45acf4b868baf13498fed22125eec1050bcef4e2",
+  "airport-profile.txt": "ac7864b8ed4e111f6277b2ea8bb7bd4bdc980df3209ae7ce2a5a847f07daf956",
+  "configd-captive.txt": "b6d36cacea5d0a645023dc19f0c8700921e66464034b847cf33bfce44982b166",
+  "configd-en1.txt": "8134a4669c9d7f8d4554668f401c01f1bd2767537c2d7e885ad6cfe006d9e42c",
+  "guard-log.txt": "d97d00cf28a564b15dafd86041012845f78befc7bf4163210136d00a51326dd3",
+  "guard-pending.json": "6a45046997f238afae7f7d389ec2f6218b0f31a2895e8a6bd93ea232ab984580",
+  "ifconfig.txt": "fc659e054927481d9d367e9dfdff1c612e69d47b67a86d4d17093b37716453c6",
+  "kextstat.txt": "507bd4a423d92c558562bdd95071f7e3112494c4a6c67ea9d6d97cd6d7360e5d",
+  "n142-freeze-summary.md": "8a9ac7d20290a6f7ddfeeabd26ec43b43f5348e713855c1c12458939ddf98a4e",
+  "netstat-rn.txt": "79f6c9dd28d1e91e14fc8a82368e6a9fa8670b275c935388d7ab2d12d32f2e5d",
+  "opencore-2026-10-18-055828.txt": "9d61361d00731a6316f97272f3faa312bc8f0c82af58369597e004233b1992db",
+  "opencore-2026-10-18-110320.txt": "40b8209442c52a32fa1e4d8d3d4144e4d01093c4cc48ca7f4dcad643f1bf1437",
+  "opencore-2026-10-18-110812.txt": "a64b8eca9c9d61bea3b459b42bf8975bbb1c25b3a528c597cf14742a36e0acaf",
+  "pcap-summary.txt": "35137f4a3350510dc14d7438ff46c8e91dc1ed681b27932afab17d709c26a9f4",
+  "staged-builds.txt": "1ae201ecb1f8c00acd0a807581176ebcc21e134d2ca267d427ff502f84feae2c",
+  "wdutil-info.txt": "1e4f125fc094276d6f7ea946747351776bf6d9aa2d8d5e5170392c5a95caa335",
+  "wifi-daemons-join.txt": "0d938456818ed706109bffa8dad353ff73fde369270fc32dc23b1572719ffde8"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "25G241",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 119,
+   "MAC": 18,
+   "SSID": 1,
+   "UUID": 838
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-142",
+ "username": "watchthelight"
+}

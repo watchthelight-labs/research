@@ -1,0 +1,14 @@
+W7 speedtest, 2026-10-15 ~16:12 EDT, same boot as N-33 (MtkWlan 0.5.0), macOS 15.4.1 Recovery, Safari
+Network: SSID-1 (open, ch 36), interface en1, no portal login needed
+Ookla result 19794022318, server Spectrum (Durham, NC), connections Multi, provider Segra (public IP redacted)
+  download 19.42 Mb/s, upload 9.57 Mb/s
+  latency idle 351 ms, loaded download 227 ms, loaded upload 1215 ms
+Source: photos IMG_4360 (apple.com in Safari) and IMG_4361 (result), transcribed in watchthelight note bfb8ce0a
+
+Windows baseline, same laptop, card, network, server, ~16:20 EDT (vendor driver)
+Ookla result ~19794036641 (photo blurred)
+  download 207.75 Mb/s, upload 211.35 Mb/s
+  latency idle 23 ms, loaded download 64 ms, loaded upload 49 ms
+Source: watchthelight note de049dd3
+
+wifi.sh N-33 (20:09 UTC): DHCP lease after 4 s, router ping 5/5 avg 2.3 ms, captive.apple.com 200 "Success"

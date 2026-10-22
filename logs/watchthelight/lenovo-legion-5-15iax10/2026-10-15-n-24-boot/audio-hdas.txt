@@ -1,0 +1,27 @@
++-o HDAS@1F,3  <class IOPCIDevice, id 0x1000003db, registered, matched, active, busy 0 (101 ms), retain 9>
+    {
+      "assigned-addresses" = <10fb808200000000004040b8000000000040000020fb808200000000000060b80000000000002000>
+      "class-code" = <00010400>
+      "IODeviceMemory" = (({"address"=3091218432,"length"=16384}),({"address"=3093299200,"length"=2097152}))
+      "IOPowerManagement" = {"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+      "subsystem-vendor-id" = <aa170000>
+      "built-in" = <00>
+      "acpi-device" = "IOACPIPlatformDevice is not serializable"
+      "vendor-id" = <86800000>
+      "name" = <"pci8086,7f50">
+      "device-id" = <507f0000>
+      "acpi-pmcap-offset" = 80
+      "IOPCIResourced" = Yes
+      "compatible" = <"pci17aa,3e17","pci8086,7f50","pciclass,040100","HDAS">
+      "iommu-selection" = <00000000>
+      "IOPCIExpressLinkCapabilities" = 0
+      "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci"))
+      "acpi-path" = "IOACPIPlane:/_SB/PC02/HDAS@1f0003"
+      "subsystem-id" = <173e0000>
+      "revision-id" = <10000000>
+      "pcidebug" = "128:31:3"
+      "IOName" = "pci8086,7f50"
+      "reg" = <00fb80000000000000000000000000000000000010fb80020000000000000000000000000040000020fb800200000000000000000000000000002000>
+    }
+    
+

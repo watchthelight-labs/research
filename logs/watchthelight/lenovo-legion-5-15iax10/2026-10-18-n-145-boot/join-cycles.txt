@@ -1,0 +1,19 @@
+2026-10-18 08:10:19.324 Df airportd[229:801] [com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss=no, cc=US, rssi=-
+2026-10-18 08:10:19.371 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_SET_MAC_ADDRESS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:10:19.371 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:10:24.760 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:10:24.762 Df airportd[229:801] [com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=(null), channel=(channel=52, width=20), ibss=no, cc=(null), rssi=-
+2026-10-18 08:10:24.775 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_SET_MAC_ADDRESS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:10:24.892 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:11:30.001 Df kernel[0:1928] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:11:45.695 Df airportd[229:287c] [com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=11, width=20), ibss=no, cc=US, rssi=
+2026-10-18 08:11:45.731 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_SET_MAC_ADDRESS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:11:45.731 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:12:01.009 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:12:01.057 Df airportd[229:25cb] [com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=11, width=20), ibss=no, cc=US, rssi=
+2026-10-18 08:12:01.095 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_SET_MAC_ADDRESS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:12:01.095 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:12:15.973 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:12:16.020 Df airportd[229:2c84] [com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=108, width=20), ibss=no, cc=US, rssi
+2026-10-18 08:12:16.074 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_SET_MAC_ADDRESS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:12:16.074 Df kernel[0:27b] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1

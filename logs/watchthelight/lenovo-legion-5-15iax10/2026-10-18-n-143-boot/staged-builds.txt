@@ -1,0 +1,2 @@
+MtkWlan 0.11.0 7c28683322bc (unchanged; published as release 0.11.0)
+MtkWlanNative 0.4.2 0dee33d54317

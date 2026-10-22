@@ -1,0 +1,20 @@
+before drag:
+debug.nvaccel_vm_parked: 164
+debug.nvgfx_present_latched: 483
+debug.nvgfx_dirty_ref_nores: 0
+debug.nvgfx_dirty_unpark: 1
+debug.nvgfx_dirty_unpark_ok: 13
+debug.nvgfx_dirty_unpark_miss: 0
+debug.nvgfx_dirty_nores_parked: 0
+after drag:
+debug.nvaccel_vm_parked: 164
+debug.nvgfx_present_latched: 4024
+debug.nvgfx_present_dropped: 0
+debug.nvgfx_dirty_ref_nores: 0
+debug.nvgfx_dirty_unpark: 1
+debug.nvgfx_dirty_unpark_ok: 13
+debug.nvgfx_dirty_unpark_miss: 0
+debug.nvgfx_fb_timeouts: 0
+timed drag 12 s: 1786 frames latched -> 148 fps, avg latch 2464 us, dropped 0, nores 0
+WindowServer copy-outs since boot: 13 (was ~3000 per drag)
+compare: N-68 58 fps (depth 2) / 63 (depth 1), N-69 81 fps

@@ -1,0 +1,43 @@
+n-112 check 2026-10-17 17:38 EDT, boot Sat Oct 17 17:35:24 2026
+driver-version: 2.3.5; restored: none
+--- kexts loaded:
+as.vit9696.WhateverGreen (1.7.1)
+com.nullmoth.NVRMFB (2.3.5)
+com.nullmoth.NVRM (2.3.5)
+com.nullmoth.NVAccel (2.3.5)
+com.nullmoth.NVRMAGDC (2.3.5)
+--- installed vs package:
+NVRM 001e77004b43 same
+NVRMFB 01fd20d1a068 same
+NVRMAGDC 223a327f0b94 same
+NVAccel a9bae265ed1e same
+plugin dd50681dfe21 same
+--- ioreg version: "2.3.5"
+--- nvram: nullmoth-nv-ok=1 
+--- lastgood: /Library/LaunchDaemons/com.nullmoth.lastgood.plist /Library/NullMoth/lastgood.sh 
+--- crash reports since boot: 0
+shutdown_stall_2026-10-17-173453_HOST-1.shutdownStall
+shutdown_stall_2026-10-17-134646_HOST-1.shutdownStall
+shutdown_stall_2026-10-17-133602_HOST-1.shutdownStall
+--- power:
+debug.nvrmfb_guard_cleared: 1
+debug.nvgfx_tgp_enable: 1
+debug.nvgfx_tgp_state: 1
+debug.nvgfx_tgp_ac: 1
+debug.nvgfx_tgp_last_status: 0
+debug.nvgfx_tgp_applies: 1
+(eval):1: permission denied: /Users/USER/src/NvGfx/tools/nvgfx-smi
+--- conf knobs read:
+2026-10-17 17:36:29.314867-0400 0xae7      Error       0x0                  201    0    WindowServer: (HSTouchHIDService) [com.apple.Multitouch:Plugin] Failed to fetch device published actuation limit
+2026-10-17T21:41:42Z scroll-terminal mode=flip seconds=10 flips/s=35 copies/s=0 misses=0 avg_flip_us=3623
+2026-10-17 17:41:37.765904-0400 0x2a3      Default     0x0                  0      0    kernel: (NVRMFB) NVRM-fb: present stats head 0: 363 flips in 10018 ms (36/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for
+2026-10-17 17:41:43.047458-0400 0x554a     Default     0x0                  2931   0    log: [com.apple.log:] log run noninteractively, parent: 2032 (zsh), args: '/usr/bin/log' 'show' '--last' '1m' '--predicate' 'eventMessage CONTAINS "present stats"'
+--- nvgfx-smi: power limit enforced 115000 mW, P0 2475 MHz, draw 35 W idle, 66.7 C
+--- capture (I-056): legacy Terminal best PASS, noframe PASS, screen-rect PASS, sck PASS
+--- a8rt 3/3 ok; metal_selftest 16 ran 0 failed 1 skipped; cartext red 1600/1600 white text px 1318
+--- badge 71: white circle, no digit (sck-dock-3x.png); minimized Spotify tile shows the window (sck-minimized-3x.png)
+--- lastgood plist still present (decided at RunAtLoad before nv-ok was set; removes itself next boot)
+--- kext start log: 'NVRM kext 2.3.5 (com.nullmoth.NVRM) starting', boot guard start 1, cleared 17:36:28, TGP mode on (AC) -> 0x0
+2026-10-17T21:42:49Z drag-textedit mode=flip seconds=10 flips/s=37 copies/s=0 misses=0 avg_flip_us=3562
+present stats head 0: 381 flips in 10006 ms (38/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6437 us
+2026-10-17 17:42:53.028450-0400 0x5eab     Default     0x0                  3399   0    log: [com.apple.log:] log run noninteractively, parent: 3376 (zsh), args: '/usr/bin/log' 'show' '--last' '1m' '-

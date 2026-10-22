@@ -1,0 +1,23 @@
+{
+ "collected": "2026-10-20",
+ "component": "native",
+ "files": {
+  "README.md": "ea2de4dd1c91d67482c5e4e1fd3952e46edad30b3ecc495067591dd1ab1d46ee",
+  "coredisplay-debug-modeswitch-13-17.log": "c8420d82d6680af9e53af3abe532bb44706ae8a6248456448d8e789c7ebbec76",
+  "nvrmfb-hdr0-boot.log": "b8b065c7151c195154399f1919e7e38b1e400ea36b85b1e8fbe76fa259e005dd",
+  "opencore-2026-10-20-170841.txt": "3fb077518d1b898abbfe0e38ef177d3d786a56c32e8279e1c7846a6c3aace3ed"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 154
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-187",
+ "username": "watchthelight"
+}

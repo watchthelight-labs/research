@@ -1,0 +1,5 @@
+2026-10-18 00:55:53 guard start: attempt=N-138 stage=B iface=en1 boot=1792299304 started_boot=none result=none auto_reboots=0 dry=0
+2026-10-18 00:59:54 FAIL N-138 stage B after 240s: no default route (lease IP-87)
+2026-10-18 00:59:58 captured rollback -> /Users/USER/.cache/legion/wifi/N-138-rollback
+2026-10-18 00:59:59 restarting after rollback (N-138)
+2026-10-18 01:01:12 guard start: attempt=N-138 stage=B iface=en1 boot=1792299633 started_boot=1792299304 result=rolled-back auto_reboots=1 dry=0

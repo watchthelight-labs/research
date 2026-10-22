@@ -1,0 +1,27 @@
+
+Name                            Id                LocationInfo         LocationPaths
+----                            --                ------------         -------------
+USB Composite Device            VID_1532&PID_00C7 Port_#0001.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(1) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS01)
+USB Composite Device            VID_04F2&PID_B83E Port_#0011.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(11) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS11)
+USB Composite Device            VID_1532&PID_0565 Port_#0013.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(13) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS13)
+USB Composite Device            VID_0489&PID_E111 Port_#0014.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(14) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS14)
+USB Mass Storage Device         VID_0781&PID_5581 Port_#0017.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(17) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(SS01)
+USB Composite Device            VID_17EF&PID_F006 Port_#0002.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(2) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS02)
+USB Composite Device            VID_1532&PID_0099 Port_#0004.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(4) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS04)
+USB Composite Device            VID_048D&PID_C195 Port_#0005.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(5) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS05)
+Alcorlink USB Smart Card Reader VID_2CE3&PID_9563 Port_#0006.Hub_#0001 PCIROOT(80)#PCI(1400)#USBROOT(0)#USB(6) | ACPI(_SB_)#ACPI(PC02)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS06)
+
+
+
+Device names and physical ports (Bash, 2026-10-15):
+HS01  1532:00C7 Razer Pro Click V2 Vertical Edition   USB-C port (via USB 2 lane)
+HS02  17EF:F006 Lenovo device                         USB-A
+HS04  1532:0099 Razer Basilisk V3                     USB-A
+HS05  048D:C195 ITE 8258 internal keyboard            internal
+HS06  2CE3:9563 Alcorlink smart card reader           USB-C port (via USB 2 lane)
+HS11  04F2:B83E Chicony webcam                        internal
+HS13  1532:0565 Razer BlackShark V2 HS 2.4 dongle     USB-A
+HS14  0489:E111 MediaTek MT7925 Bluetooth             internal
+SS01  0781:5581 SanDisk stick (OPENCORE)              USB-A (USB 3 lane)
+Both USB-C ports carry their USB 2 lane on PCH XHCI (PC02), not on the CPU TCSS controller.
+Both Razer mice are composite HID devices with keyboard interfaces too.

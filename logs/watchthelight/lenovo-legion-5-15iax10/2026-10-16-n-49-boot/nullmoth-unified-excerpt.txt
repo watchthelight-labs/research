@@ -1,0 +1,49 @@
+# N-49 (boot D41D2CBA, 03:51 UTC) NullMoth stage B, installed unified log read from Windows
+# (apfs-read.py + unifiedlog_iterator windows build). First 3 repeats of each WindowServer retry only.
+
+03:51:54.285 kernel/IOGraphicsFamily: IOG flags 0x3 (0x51) | 
+03:51:54.432 kernel/kernel: Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvrmnoflip
+03:51:54.436 kernel/NVRMFB: NVRMFB: NVRMFBClaim holds the IOFramebuffer match category on GFX0 - IONDRVFramebuffer blocked | 
+03:51:54.463 kernel/kernel: Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvrmnoflip
+03:51:55.248 kernel/AppleGraphicsPowerMa: [AGPM][INFO ][CONTROLLER  ][start                   ] Entered AGPMController::start()  | 
+03:51:55.248 kernel/AppleGraphicsPowerMa: [AGPM][INFO ][CONTROLLER  ][start                   ] init fSlotControl, fSlotControl = 0 | 
+03:51:55.248 kernel/AppleGraphicsPowerMa: [AGPM][INFO ][CONTROLLER  ][createAGPMClass         ] machines_dict->getObject(modelName MacBookPro16,1) | 
+03:51:55.248 kernel/AppleGraphicsPowerMa: [AGPM][INFO ][CONTROLLER  ][createAGPMClass         ] gpuDict IGPU | 
+03:51:55.248 kernel/AppleGraphicsPowerMa: [AGPM][INFO ][CONTROLLER  ][createAGPMClass         ] build gpuDict by GPU IGPU. | 
+03:51:55.248 kernel/AppleGraphicsPowerMa: [AGPM][INFO ][CONTROLLER  ][start                   ] fIsExternalGPU 0 | 
+03:51:55.248 kernel/IOPlatformPluginFami: X86PlatformPlugin::cgRegisterCallbackHandler - entered, type gpu-internal-plimit-notification, target AGPM | 
+03:51:55.248 kernel/IOPlatformPluginFami: X86PlatformPlugin::cgRegisterCallbackHandler - entered, type gpu-internal-plimit-notification, target AGPM | 
+03:51:55.248 kernel/IOPlatformPluginFami: X86PlatformPlugin::cgRegisterPLimitCallbackHandler - There are 0 entries in the linked list before target name AGPM | 
+03:51:55.248 kernel/IOPlatformPluginFami: X86PlatformPlugin::cgRegisterPLimitCallbackHandler - There are 0 entries in the linked list before target name AGPM | 
+03:51:55.248 kernel/IOPlatformPluginFami: HE2N_Key Does Not Exist, use kSMCPStatesIGPU for Internal GPU | 
+03:51:55.248 kernel/IOPlatformPluginFami: HE2N_Key Does Not Exist, use kSMCPStatesIGPU for Internal GPU | 
+03:51:55.248 kernel/AppleGraphicsPowerMa: [AGPM][INFO ][CONTROLLER  ][start                   ] GPU = IGPU Initialized, Control ID 16 | 
+03:51:55.248 kernel/AppleGraphicsPowerMa: [AGPM][INFO ][CONTROLLER  ][start                   ] Exited AGPMController::start() | 
+03:51:59.726 kernel/kernel: [   60.265166]: NVRM: _sysCreateOs: RM Access Sys Cap creation failed: 0x56 | 
+03:52:00.000 kernel/IONDRVSupport: IGPU: Not usable | 
+03:52:00.000 kernel/IOGraphicsFamily: IGPU-0x3b2-A: newUserClient failed: 0 0xFFFFFFFFE00002BE 0x100000561 IONDRVFramebuffer | 
+03:52:00.015 kernel/IOGraphicsFamily: IGPU-0x3b2-A: newUserClient failed: 0 0xFFFFFFFFE00002BE 0x100000561 IONDRVFramebuffer | 
+03:52:00.361 ReportCrash/ReportCrash: ASI found [CoreDisplay] (sensitive) ' | CoreDisplay: | Thu Oct 15 20:52:00 2026: IOFramebufferOpen failed: service 0xc203 (IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/IGPU@2/IONDRVFramebuffer) error 0xe00002c7 | Thu Oct 15 20:52:00 2026: IOFramebufferOpen: Failed to open framebuffer server for service 0xc203 and type 0x0Thu Oct 15 20:52:00 2026: IOFramebufferOpen: Failed to open service 0xc203 
+03:52:01.619 ReportCrash/ReportCrash: ASI found [libsystem_c.dylib] (sensitive) 'Assertion failed: (false - Driver Error: FB: 0 of 1 opened, succeeded 0 times, failed 1 times; WS: 1st PID 156, is not on installer | Can't get value for key 'AppleIntelFramebuffer' | Can't get value for key 'AMDFramebuffer' | Can't get value for key 'AppleParavirtFramebuffer' | IOFramebufferUserClient = 0 | No property 'FB_Triage', or property isn't a string | LER:I
+03:52:02.166 kernel/IOGraphicsFamily: IGPU-0x3b2-A: newUserClient failed: 0 0xFFFFFFFFE00002BE 0x100000561 IONDRVFramebuffer | 
+03:53:03.091 WindowServer/NVMTLDriver: NVMTL: NVMTLDevice +load in pid 376 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T20:53:03-0700
+03:53:03.092 WindowServer/NVMTLDriver: NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+03:53:03.092 WindowServer/NVMTLDriver: NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+03:53:03.093 WindowServer/NVMTLDriver: NVMTL: -[NVMTLDevice initWithAcceleratorPort:61471] in WindowServer
+03:53:03.095 WindowServer/NVMTLDriver: NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+03:53:03.095 WindowServer/NVMTLDriver: NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+03:53:03.095 WindowServer/NVMTLDriver: NVMTL:   not allow-listed: no device for WindowServer
+03:53:13.260 WindowServer/NVMTLDriver: NVMTL: NVMTLDevice +load in pid 381 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T20:53:13-0700
+03:53:13.260 WindowServer/NVMTLDriver: NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+03:53:13.261 WindowServer/NVMTLDriver: NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+03:53:13.261 WindowServer/NVMTLDriver: NVMTL: -[NVMTLDevice initWithAcceleratorPort:45087] in WindowServer
+03:53:13.261 WindowServer/NVMTLDriver: NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+03:53:13.261 WindowServer/NVMTLDriver: NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+03:53:13.262 WindowServer/NVMTLDriver: NVMTL:   not allow-listed: no device for WindowServer
+03:53:23.438 WindowServer/NVMTLDriver: NVMTL: NVMTLDevice +load in pid 383 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T20:53:23-0700
+03:53:23.439 WindowServer/NVMTLDriver: NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+03:53:23.439 WindowServer/NVMTLDriver: NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+03:53:23.439 WindowServer/NVMTLDriver: NVMTL: -[NVMTLDevice initWithAcceleratorPort:45599] in WindowServer
+03:53:23.440 WindowServer/NVMTLDriver: NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+03:53:23.440 WindowServer/NVMTLDriver: NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+03:53:23.440 WindowServer/NVMTLDriver: NVMTL:   not allow-listed: no device for WindowServer

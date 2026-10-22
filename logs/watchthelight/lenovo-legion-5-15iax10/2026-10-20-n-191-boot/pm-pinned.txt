@@ -1,0 +1,4 @@
+0000:02:00.0 power/control=on runtime_status=active
+0000:00:06.0 power/control=on runtime_status=active
+0000:02:00.1 power/control=on runtime_status=active
+0000:00:06.0 power/control=on runtime_status=active

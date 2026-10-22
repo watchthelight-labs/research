@@ -1,0 +1,35 @@
+Fri Oct 16 11:42:57 UTC 2026
+Graphics/Displays:
+
+    Display:
+
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 
+      Vendor: Intel
+      Device ID: 0x7d67
+      Revision ID: 0x0006
+      Kernel Extension Info: No Kext Loaded
+
+    NVIDIA GeForce RTX 5070 Laptop GPU:
+
+      Chipset Model: NVIDIA GeForce RTX 5070 Laptop GPU
+      Type: GPU
+      Bus: PCIe
+      Slot: Slot-1
+      PCIe Lane Width: x8
+      VRAM (Total): 8 GB
+      Vendor: NVIDIA (0x10de)
+      Device ID: 0x2d18
+      Revision ID: 0x00a1
+      Metal Support: Metal 3
+      Displays:
+        EF10QBC64.C:
+          Resolution: 2560 x 1600
+          UI Looks like: 1280 x 800 @ 165.00Hz
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Connection Type: Internal
+

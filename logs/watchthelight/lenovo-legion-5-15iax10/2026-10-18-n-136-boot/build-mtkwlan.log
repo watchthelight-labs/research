@@ -1,0 +1,54 @@
+MtkWlan.cpp:70:50: warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+   70 |         len += snprintf(buf + len, sizeof(buf) - len, "%s%d:%s", i ? " " : "", i,
+      |                                                ~ ^~~
+1 warning generated.
+MtkRegs.cpp:148:17: warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  148 |         IOSleep(tickMs);
+      |         ~~~~~~~ ^~~~~~
+1 warning generated.
+MtkFw.cpp:330:70: warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  330 |             uint32_t mode = DL_MODE_NEED_RSP | (((feature >> 1) & 3) << 1);   // mt76_connac_mcu_gen_dl_mode
+      |                                              ~  ~~~~~~~~~~~~~~~~~~~~~^~~~
+MtkFw.cpp:379:94: warning: implicit conversion changes signedness: 'int' to 'uint64_t' (aka 'unsigned long long') [-Wsign-conversion]
+  379 |     if ((e = ringAlloc(txData, false, TXQ_BAND0, 256, 2048)))  { setNum("MtkW2RingFail", 100 + e); step("W2 fail: ring alloc"); return -3; }
+      |                                                                  ~~~~~~                  ~~~~^~~
+MtkFw.cpp:381:93: warning: implicit conversion changes signedness: 'int' to 'uint64_t' (aka 'unsigned long long') [-Wsign-conversion]
+  381 |     if ((e = ringAlloc(txMcu, false, TXQ_MCU_WM, 32, 2048)))  { setNum("MtkW2RingFail", 200 + e); step("W2 fail: ring alloc"); return -3; }
+      |                                                                 ~~~~~~                  ~~~~^~~
+MtkFw.cpp:382:93: warning: implicit conversion changes signedness: 'int' to 'uint64_t' (aka 'unsigned long long') [-Wsign-conversion]
+  382 |     if ((e = ringAlloc(txFwdl, false, TXQ_FWDL, 32, 4096)))   { setNum("MtkW2RingFail", 300 + e); step("W2 fail: ring alloc"); return -3; }
+      |                                                                 ~~~~~~                  ~~~~^~~
+MtkFw.cpp:383:94: warning: implicit conversion changes signedness: 'int' to 'uint64_t' (aka 'unsigned long long') [-Wsign-conversion]
+  383 |     if ((e = ringAlloc(rxMcu, true, RXQ_MCU_WM, 128, 2048)))   { setNum("MtkW2RingFail", 400 + e); step("W2 fail: ring alloc"); return -3; }
+      |                                                                  ~~~~~~                  ~~~~^~~
+MtkFw.cpp:384:94: warning: implicit conversion changes signedness: 'int' to 'uint64_t' (aka 'unsigned long long') [-Wsign-conversion]
+  384 |     if ((e = ringAlloc(rxData, true, RXQ_BAND0, 512, 2048)))   { setNum("MtkW2RingFail", 500 + e); step("W2 fail: ring alloc"); return -3; }
+      |                                                                  ~~~~~~                  ~~~~^~~
+MtkFw.cpp:67:78: warning: unused variable 'CMD_FW_SCATTER' [-Wunused-const-variable]
+   67 |                   CMD_PATCH_FINISH_REQ = 0x07, CMD_PATCH_SEM_CONTROL = 0x10, CMD_FW_SCATTER = 0xee;
+      |                                                                              ^~~~~~~~~~~~~~
+7 warnings generated.
+MtkScan.cpp:142:47: warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  142 |         for (uint32_t i = 0; i < n; i++) k += snprintf(hex + k, sizeof(hex) - k, "%02x", p[i]);
+      |                                            ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MtkScan.cpp:396:14: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long') [-Wsign-conversion]
+  396 |         n += snprintf(list + n, sizeof(list) - n, "%s%s/%u/%d/%s%s", i ? "; " : "", b.ssidLen ? ssid : "(hidden)", b.ch,
+      |           ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  397 |                       b.rssi, secName[b.sec & 3], (b.flags & MTK_BSS_JOINABLE) ? "" : "!");
+      |                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+MtkNet.cpp:179:64: warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+  179 |             for (int i = 5; i >= 0; i--) pn = pn << 8 | p[g1 + i];
+      |                                                              ~ ^
+MtkNet.cpp:496:30: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long') [-Wsign-conversion]
+  496 |         if (rxTypes[t]) k += snprintf(s + k, sizeof(s) - k, "%s%d:%u", k ? " " : "", t, rxTypes[t]);
+      |                           ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MtkNet.cpp:501:30: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long') [-Wsign-conversion]
+  501 |         if (evCount[e]) k += snprintf(s + k, sizeof(s) - k, "%s%02x:%u", k ? " " : "", e, evCount[e]);
+      |                           ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3 warnings generated.
+filetype: MH_KEXT_BUNDLE
+kmod_info: present
+undefined symbols: 500 (out/undefined.txt)
+kmutil libraries: out/libraries.txt
+built org.watchthelight.MtkWlan 0.11.0: out/MtkWlan.kext/Contents/MacOS/MtkWlan (1753128 bytes)

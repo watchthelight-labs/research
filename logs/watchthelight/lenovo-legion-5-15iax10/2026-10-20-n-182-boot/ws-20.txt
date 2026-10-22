@@ -1,0 +1,2 @@
+204 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+337 pgrep -x WindowServer

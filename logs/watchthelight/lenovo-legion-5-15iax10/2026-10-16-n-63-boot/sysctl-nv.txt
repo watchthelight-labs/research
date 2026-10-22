@@ -1,0 +1,15 @@
+debug.nvaccel_iop_flip: 1
+debug.nvaccel_iop_flips: 4438
+debug.nvaccel_iop_flip_home: 0
+debug.nvaccel_iop_flip_lock: 0
+debug.nvaccel_iop_flip_novram: 0
+debug.nvaccel_iop_flip_stale: 0
+debug.nvaccel_iop_flip_refused: 0
+debug.nvaccel_iop_flip_hit: 4434
+debug.nvaccel_iop_flip_miss: 4
+debug.nvaccel_surface_gpu: 0
+debug.nvaccel_surface_gpu_on: 0
+debug.nvaccel_surface_gpu_marks: 6514
+debug.nvaccel_surface_gpu_waits: 1038
+debug.nvaccel_surface_gpu_timeouts: 2
+debug.nvaccel_surface_gpu_wait_max_us: 100277

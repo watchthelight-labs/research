@@ -1,0 +1,28 @@
+N-74 (2026-10-16 12:05, NvGfx 2.1.0-nvgfx.9, boot-arg nvrmtgp=1)
+2026-10-16 12:04:10.687 Df kernel[0:99d] (NVRM) NVRM-xnu: nvgfx TGP mode manager armed (nvrmtgp=1), first check in 2000 ms
+2026-10-16 12:04:12.695 Df kernel[0:23b] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC, enable 1) -> 0x0
+2026-10-16 12:04:12.695 Df kernel[0:23b] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC) -> 0x0
+2026-10-16 12:05:57.710 Df kernel[0:199] (NVRM) NVRM-xnu: nvgfx TGP mode off (AC, enable 0) -> 0x0
+2026-10-16 12:05:57.710 Df kernel[0:199] (NVRM) NVRM-xnu: nvgfx TGP mode off (AC) -> 0x0
+2026-10-16 12:06:07.720 Df kernel[0:199] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC, enable 1) -> 0x0
+2026-10-16 12:06:07.720 Df kernel[0:199] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC) -> 0x0
+debug.nvgfx_tgp_enable: 1
+debug.nvgfx_tgp_state: 1
+debug.nvgfx_tgp_ac: 1
+debug.nvgfx_tgp_last_status: 0
+debug.nvgfx_tgp_applies: 3
+burn 15 s at auto 115 W: 17894 GFLOP/s, P0 avg gpc 2378 MHz, avg 95.5 W, max 116.3 W, 69.2 C, throttle none
+live: sysctl debug.nvgfx_tgp_enable=0 -> limit 50000 mW within 7 s; =1 -> enforced 115000 mW
+
+AC follow test (2026-10-16):
+2026-10-16 12:04:10.687 Df kernel[0:99d] (NVRM) NVRM-xnu: nvgfx TGP mode manager armed (nvrmtgp=1), first check in 2000 ms
+2026-10-16 12:04:12.695 Df kernel[0:23b] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC, enable 1) -> 0x0
+2026-10-16 12:04:12.695 Df kernel[0:23b] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC) -> 0x0
+2026-10-16 12:05:57.710 Df kernel[0:199] (NVRM) NVRM-xnu: nvgfx TGP mode off (AC, enable 0) -> 0x0
+2026-10-16 12:05:57.710 Df kernel[0:199] (NVRM) NVRM-xnu: nvgfx TGP mode off (AC) -> 0x0
+2026-10-16 12:06:07.720 Df kernel[0:199] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC, enable 1) -> 0x0
+2026-10-16 12:06:07.720 Df kernel[0:199] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC) -> 0x0
+2026-10-16 12:06:57.730 Df kernel[0:23b] (NVRM) NVRM-xnu: nvgfx TGP mode off (battery, enable 1) -> 0x0
+2026-10-16 12:06:57.730 Df kernel[0:23b] (NVRM) NVRM-xnu: nvgfx TGP mode off (battery) -> 0x0
+2026-10-16 12:07:37.741 Df kernel[0:23b] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC, enable 1) -> 0x0
+2026-10-16 12:07:37.741 Df kernel[0:23b] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC) -> 0x0

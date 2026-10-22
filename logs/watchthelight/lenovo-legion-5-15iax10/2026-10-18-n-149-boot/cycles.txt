@@ -1,0 +1,104 @@
+2026-10-18 09:48:33.940INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 7;
+    WiFiDisconnectReasonControlCenter = 10;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+2026-10-18 09:51:34.081INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:51:34.557INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:51:34.678INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonControlCenter = 1;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+    WiFiDisconnectReasonControlCenter = 1;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+2026-10-18 09:52:35.369(corecapture) CoreCapture errorCodeStr for fault missed beacons  timeout
+2026-10-18 09:52:40.370INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:53:34.046INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 1;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 09:54:39.583INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:55:19.863INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 2;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 09:56:25.052INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:57:09.645INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 3;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 09:58:14.741INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:58:59.350INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 4;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 10:00:04.692INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 10:00:49.958INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 5;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 10:01:55.255INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 10:02:41.106INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 6;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 10:03:46.324INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 10:04:31.567INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 7;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 10:05:36.755INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 10:06:06.688INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 8;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 10:07:11.879INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 10:07:55.748INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 9;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 10:09:00.933INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 10:09:46.344INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 10;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 10:10:51.497INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 10:11:37.707INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 11;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 10:12:42.893INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 10:13:17.502INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+    WiFiDisconnectReasonBeaconLoss = 12;
+    WiFiDisconnectReasonControlCenter = 2;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;

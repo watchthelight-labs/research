@@ -1,0 +1,19 @@
++-o NVRM  <class NVRM, id 0x100000569, registered, matched, active, busy 0 (101041 ms), retain 5>
+    {
+      "IOClass" = "NVRM"
+      "CFBundleIdentifier" = "com.nullmoth.NVRM"
+      "IOProviderClass" = "IOPCIDevice"
+      "nvrm-bars" = ""
+      "IOPCIClassMatch" = "0x03000000&0xff000000"
+      "IOUserClientClass" = "NVRMUserClient"
+      "nvrm-boot-hold" = "go(2) failed"
+      "IOProbeScore" = 1000
+      "nvrm-autogo-settle-ms" = 100000
+      "IOMatchCategory" = "IODefaultMatchCategory"
+      "IOPersonalityPublisher" = "com.nullmoth.NVRM"
+      "IOPCIPrimaryMatch" = "0x000010de&0x0000ffff"
+      "CFBundleIdentifierKernel" = "com.nullmoth.NVRM"
+      "nvrm-autogo" = "go(2) failed"
+    }
+    
+

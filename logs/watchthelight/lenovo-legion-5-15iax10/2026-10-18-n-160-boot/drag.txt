@@ -1,0 +1,8 @@
+N-160 stock+plugin run1 flips/s=147 presents/s=147
+N-160 stock+plugin run2 flips/s=4 presents/s=4
+N-160 stock+plugin run3 flips/s=4 presents/s=4
+N-160 stock+plugin run4 flips/s=14 presents/s=14
+N-160 stock+plugin run5 flips/s=12 presents/s=12
+N-160 stock+plugin run6 flips/s=6 presents/s=6
+N-160 stock+plugin run7 flips/s=4 presents/s=4
+N-160 stock+plugin run8 flips/s=4 presents/s=4

@@ -1,0 +1,2 @@
+date -u: Thu Oct 15 14:54:32 UTC 2026
+kern.boottime: { sec = 1792075799, usec = 0 } Thu Oct 15 14:49:59 2026

@@ -1,0 +1,380 @@
+[  137.868288]: NVAccel: newResource -> <ptr>
+[  137.868293]: NVAccel: newResource -> <ptr>
+[  137.868299]: NVAccel: newSysMemory -> <ptr>
+[  137.868300]: NVAccel: newSysMemory -> <ptr>
+[  137.868304]: NVAccel: newVidMemory -> <ptr>
+[  137.868305]: NVAccel: newVidMemory -> <ptr>
+[  137.868386]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e4b0000 size=0x30000 mode=2
+[  137.868405]: NVRM-xnu:   mapped -> 0x<ptr> (slot 55, high water 76/8192)
+[  137.868449]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0e4b0000 kva <ptr> [BAR1 203096064]
+[  137.868451]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0e4b0000 kva <ptr> [BAR1 203096064]
+[  137.871361]: NVAccel: newResource -> <ptr>
+[  137.871365]: NVAccel: newResource -> <ptr>
+[  137.871369]: NVAccel: newSysMemory -> <ptr>
+[  137.871370]: NVAccel: newSysMemory -> <ptr>
+[  137.871373]: NVAccel: newVidMemory -> <ptr>
+[  137.871374]: NVAccel: newVidMemory -> <ptr>
+[  137.871513]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ec00000 size=0x30000 mode=2
+[  137.871535]: NVRM-xnu:   mapped -> 0x<ptr> (slot 63, high water 76/8192)
+[  137.871578]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0ec00000 kva <ptr> [BAR1 203292672]
+[  137.871580]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0ec00000 kva <ptr> [BAR1 203292672]
+[  137.873657]: NVAccel: newResource -> <ptr>
+[  137.873661]: NVAccel: newResource -> <ptr>
+[  137.873666]: NVAccel: newSysMemory -> <ptr>
+[  137.873667]: NVAccel: newSysMemory -> <ptr>
+[  137.873671]: NVAccel: newVidMemory -> <ptr>
+[  137.873672]: NVAccel: newVidMemory -> <ptr>
+[  137.880143]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ecc0000 size=0x30000 mode=2
+[  137.880167]: NVRM-xnu:   mapped -> 0x<ptr> (slot 72, high water 76/8192)
+[  137.880210]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0ecc0000 kva <ptr> [BAR1 203489280]
+[  137.880212]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0ecc0000 kva <ptr> [BAR1 203489280]
+[  137.923566]: NVAccel: newResource -> <ptr>
+[  137.923575]: NVAccel: newResource -> <ptr>
+[  137.923586]: NVAccel: newSysMemory -> <ptr>
+[  137.923588]: NVAccel: newSysMemory -> <ptr>
+[  137.923595]: NVAccel: newVidMemory -> <ptr>
+[  137.923597]: NVAccel: newVidMemory -> <ptr>
+[  137.923744]: NVRM-xnu: >os_map_kernel_space start=0x3fc0eb80000 size=0x50000 mode=2
+[  137.923789]: NVRM-xnu:   mapped -> 0x<ptr> (slot 59, high water 76/8192)
+[  137.923922]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 327680 bytes of REAL VRAM -- phys 0x3fc0eb80000 kva <ptr> [BAR1 202506240]
+[  137.923927]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 327680 bytes of REAL VRAM -- phys 0x3fc0eb80000 kva <ptr> [BAR1 202506240]
+[  137.928123]: NVAccel: newResource -> <ptr>
+[  137.928130]: NVAccel: newResource -> <ptr>
+[  137.928136]: NVAccel: newSysMemory -> <ptr>
+[  137.928137]: NVAccel: newSysMemory -> <ptr>
+[  137.928142]: NVAccel: newVidMemory -> <ptr>
+[  137.928142]: NVAccel: newVidMemory -> <ptr>
+[  137.934806]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e600000 size=0x10000 mode=2
+[  137.934840]: NVRM-xnu:   mapped -> 0x<ptr> (slot 64, high water 76/8192)
+[  137.934871]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e600000 kva <ptr> [BAR1 202571776]
+[  137.934874]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e600000 kva <ptr> [BAR1 202571776]
+[  137.940906]: NVAccel: newResource -> <ptr>
+[  137.940912]: NVAccel: newResource -> <ptr>
+[  137.940919]: NVAccel: newSysMemory -> <ptr>
+[  137.940920]: NVAccel: newSysMemory -> <ptr>
+[  137.940925]: NVAccel: newVidMemory -> <ptr>
+[  137.940925]: NVAccel: newVidMemory -> <ptr>
+[  137.941039]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e610000 size=0x20000 mode=2
+[  137.941065]: NVRM-xnu:   mapped -> 0x<ptr> (slot 70, high water 76/8192)
+[  137.941103]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 131072 bytes of REAL VRAM -- phys 0x3fc0e610000 kva <ptr> [BAR1 202702848]
+[  137.941105]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 131072 bytes of REAL VRAM -- phys 0x3fc0e610000 kva <ptr> [BAR1 202702848]
+[  137.954691]: NVAccel: newResource -> <ptr>
+[  137.954696]: NVAccel: newResource -> <ptr>
+[  137.954702]: NVAccel: newSysMemory -> <ptr>
+[  137.954703]: NVAccel: newSysMemory -> <ptr>
+[  137.954708]: NVAccel: newVidMemory -> <ptr>
+[  137.954708]: NVAccel: newVidMemory -> <ptr>
+[  137.954789]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e630000 size=0x10000 mode=2
+[  137.954814]: NVRM-xnu:   mapped -> 0x<ptr> (slot 71, high water 76/8192)
+[  137.954840]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e630000 kva <ptr> [BAR1 202768384]
+[  137.954842]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e630000 kva <ptr> [BAR1 202768384]
+[  137.963288]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.963295]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.963698]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.963701]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.965163]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.965168]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.965493]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.965496]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.967579]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.967584]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.967883]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  137.967886]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.073686]: NVAccel: newResource -> <ptr>
+[  138.073691]: NVAccel: newResource -> <ptr>
+[  138.073697]: NVAccel: newSysMemory -> <ptr>
+[  138.073698]: NVAccel: newSysMemory -> <ptr>
+[  138.073703]: NVAccel: newVidMemory -> <ptr>
+[  138.073704]: NVAccel: newVidMemory -> <ptr>
+[  138.073925]: NVRM-xnu: >os_map_kernel_space start=0x3fc0eb00000 size=0x70000 mode=2
+[  138.073955]: NVRM-xnu:   mapped -> 0x<ptr> (slot 55, high water 76/8192)
+[  138.074060]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 458752 bytes of REAL VRAM -- phys 0x3fc0eb00000 kva <ptr> [BAR1 202113024]
+[  138.074063]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 458752 bytes of REAL VRAM -- phys 0x3fc0eb00000 kva <ptr> [BAR1 202113024]
+[  138.085064]: 2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/e20908f8ec276cb327f7125ad8e90aad59c2628bf8cbb45cb339f66cac08f561.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d1e838bfd90271490025d6387ee51948bf6f58eee2a67edbe3c37ef631a5fd98.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  138.085458]: NVAccel: newResource -> <ptr>
+[  138.085464]: NVAccel: newSysMemory -> <ptr>
+[  138.085465]: NVAccel: newSysMemory -> <ptr>
+[  138.085469]: NVAccel: newVidMemory -> <ptr>
+[  138.085470]: NVAccel: newVidMemory -> <ptr>
+[  138.086163]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e4b0000 size=0x10000 mode=2
+[  138.086184]: NVRM-xnu:   mapped -> 0x<ptr> (slot 56, high water 76/8192)
+[  138.086208]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e4b0000 kva <ptr> [BAR1 202178560]
+[  138.086210]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e4b0000 kva <ptr> [BAR1 202178560]
+[  138.091481]: NVAccel: newResource -> <ptr>
+[  138.091485]: NVAccel: newResource -> <ptr>
+[  138.091490]: NVAccel: newSysMemory -> <ptr>
+[  138.091491]: NVAccel: newSysMemory -> <ptr>
+[  138.091494]: NVAccel: newVidMemory -> <ptr>
+[  138.091495]: NVAccel: newVidMemory -> <ptr>
+[  138.092279]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e4c0000 size=0x10000 mode=2
+[  138.092302]: NVRM-xnu:   mapped -> 0x<ptr> (slot 59, high water 76/8192)
+[  138.092326]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e4c0000 kva <ptr> [BAR1 201719808]
+[  138.092329]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e4c0000 kva <ptr> [BAR1 201719808]
+[  138.095508]: NVAccel: newResource -> <ptr>
+[  138.095513]: NVAccel: newResource -> <ptr>
+[  138.095518]: NVAccel: newSysMemory -> <ptr>
+[  138.095519]: NVAccel: newSysMemory -> <ptr>
+[  138.095523]: NVAccel: newVidMemory -> <ptr>
+[  138.095524]: NVAccel: newVidMemory -> <ptr>
+[  138.095643]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e4d0000 size=0x10000 mode=2
+[  138.095660]: NVRM-xnu:   mapped -> 0x<ptr> (slot 63, high water 76/8192)
+[  138.095686]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e4d0000 kva <ptr> [BAR1 201785344]
+[  138.095688]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e4d0000 kva <ptr> [BAR1 201785344]
+[  138.098374]: NVAccel: newResource -> <ptr>
+[  138.098379]: NVAccel: newResource -> <ptr>
+[  138.098383]: NVAccel: newSysMemory -> <ptr>
+[  138.098384]: NVAccel: newSysMemory -> <ptr>
+[  138.098388]: NVAccel: newVidMemory -> <ptr>
+[  138.098388]: NVAccel: newVidMemory -> <ptr>
+[  138.098461]: NVRM-xnu: >os_map_kernel_space start=0x3fc0eb70000 size=0x80000 mode=2
+[  138.098484]: NVRM-xnu:   mapped -> 0x<ptr> (slot 64, high water 76/8192)
+[  138.098578]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc0eb70000 kva <ptr> [BAR1 202309632]
+[  138.098581]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc0eb70000 kva <ptr> [BAR1 202309632]
+[  138.152157]: process_is_plugin_host: running binary "Spotify Helper" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validation1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d1e838bfd90271490025d6387ee51948bf6f58eee2a67edbe3c37ef631a5fd98.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/pt_PT.lproj/ReadMeSummary.htmlNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.160072]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.160633]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.160635]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.162045]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.162050]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+so_gencnt: 3981 t_state: SYN_SENT process: 2.1.302:912 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 17 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xa06e8ab6process_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashNVAccel: newResource -> <ptr>
+[  138.176505]: NVAccel: newResource -> <ptr>
+[  138.176513]: NVAccel: newSysMemory -> <ptr>
+[  138.176513]: NVAccel: newSysMemory -> <ptr>
+[  138.176519]: NVAccel: newVidMemory -> <ptr>
+[  138.176520]: NVAccel: newVidMemory -> <ptr>
+[  138.176626]: process_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashNVRM-xnu: >os_map_kernel_space start=0x3fc0e600000 size=0x20000 mode=2
+[  138.177005]: NVRM-xnu:   mapped -> 0x<ptr> (slot 70, high water 76/8192)
+[  138.177043]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 131072 bytes of REAL VRAM -- phys 0x3fc0e600000 kva <ptr> [BAR1 202440704]
+[  138.177046]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 131072 bytes of REAL VRAM -- phys 0x3fc0e600000 kva <ptr> [BAR1 202440704]
+[  138.184854]: 2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/cab0930c01fce27ae762a0f8bb42721f01e75ebd6612e0c6f72336f82fd27049.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/cab0930c01fce27ae762a0f8bb42721f01e75ebd6612e0c6f72336f82fd27049.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/54474f8b01d8db38268de9024391857ea699dd929a66f8726af5ce2c7b6f3b2f.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/1dee69b42dd80103d6bb38dfb9430a07ce0c79bb2323e0c70980d3526efaa80c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.187542]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.187604]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.187609]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.187938]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.187942]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.191874]: 2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/1dee69b42dd80103d6bb38dfb9430a07ce0c79bb2323e0c70980d3526efaa80c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/1dee69b42dd80103d6bb38dfb9430a07ce0c79bb2323e0c70980d3526efaa80c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/06b85e18558fba5f53cea1b50e396dd22c0607b46ffc4731f99c478157afbcc3.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/0ba6f5741a4d2331bf4776ed2cc6533bbe0d597a400227c74e958412abe8943f.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/0ba6f5741a4d2331bf4776ed2cc6533bbe0d597a400227c74e958412abe8943f.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  138.202414]: NVAccel: newResource -> <ptr>
+[  138.202421]: NVAccel: newSysMemory -> <ptr>
+[  138.202422]: NVAccel: newSysMemory -> <ptr>
+[  138.202427]: NVAccel: newVidMemory -> <ptr>
+[  138.202428]: NVAccel: newVidMemory -> <ptr>
+[  138.202588]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ebf0000 size=0x70000 mode=2
+[  138.202616]: NVRM-xnu:   mapped -> 0x<ptr> (slot 72, high water 76/8192)
+[  138.202701]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 458752 bytes of REAL VRAM -- phys 0x3fc0ebf0000 kva <ptr> [BAR1 202899456]
+[  138.202704]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 458752 bytes of REAL VRAM -- phys 0x3fc0ebf0000 kva <ptr> [BAR1 202899456]
+[  138.206774]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.206781]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.207152]: NVAccel: newResource -> <ptr>
+[  138.207155]: NVAccel: newResource -> <ptr>
+[  138.207161]: NVAccel: newSysMemory -> <ptr>
+[  138.207162]: NVAccel: newSysMemory -> <ptr>
+[  138.207166]: NVAccel: newVidMemory -> <ptr>
+[  138.207167]: NVAccel: newVidMemory -> <ptr>
+[  138.207251]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e620000 size=0x10000 mode=2
+[  138.207270]: NVRM-xnu:   mapped -> 0x<ptr> (slot 75, high water 76/8192)
+[  138.207294]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e620000 kva <ptr> [BAR1 202964992]
+[  138.207296]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e620000 kva <ptr> [BAR1 202964992]
+[  138.208686]: NVAccel: newResource -> <ptr>
+[  138.208689]: NVAccel: newResource -> <ptr>
+[  138.208693]: NVAccel: newSysMemory -> <ptr>
+[  138.208694]: NVAccel: newSysMemory -> <ptr>
+[  138.208698]: NVAccel: newVidMemory -> <ptr>
+[  138.208698]: NVAccel: newVidMemory -> <ptr>
+[  138.208772]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ec60000 size=0x10000 mode=2
+[  138.208793]: NVRM-xnu:   mapped -> 0x<ptr> (slot 76, high water 77/8192)
+[  138.208817]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ec60000 kva <ptr> [BAR1 203030528]
+[  138.208819]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ec60000 kva <ptr> [BAR1 203030528]
+so_gencnt: 4029 so_state: 0x0102 process: Spotify Helper:884 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xa680b7a11 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d8a106f8a588dc9fd8f1c78214dfd990c31a2da21acafa12ce8df8a2d7fda16f.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: sirittsd(750) deny(1) user-preference-read com.apple.internal.ckNVAccel: newResource -> <ptr>
+[  138.227463]: NVAccel: newResource -> <ptr>
+[  138.227473]: NVAccel: newSysMemory -> <ptr>
+[  138.227474]: NVAccel: newSysMemory -> <ptr>
+[  138.227478]: NVAccel: newVidMemory -> <ptr>
+[  138.227479]: NVAccel: newVidMemory -> <ptr>
+[  138.227577]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ec70000 size=0x40000 mode=2
+so_gencnt: 3962 so_state: 0x0102 process: Spotify Helper:884 Duration: 0.202 sec Conn_Time: 0.201 sec bytes in/out: 106/49 pkts in/out: 1/1 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xba4d0693 flowctl: 0us (0x) NVRM-xnu:   mapped -> 0x<ptr> (slot 77, high water 78/8192)
+[  138.227681]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 262144 bytes of REAL VRAM -- phys 0x3fc0ec70000 kva <ptr> [BAR1 203292672]
+[  138.227683]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 262144 bytes of REAL VRAM -- phys 0x3fc0ec70000 kva <ptr> [BAR1 203292672]
+[  138.245004]: NVAccel: newResource -> <ptr>
+[  138.245009]: NVAccel: newResource -> <ptr>
+[  138.245016]: NVAccel: newSysMemory -> <ptr>
+[  138.245017]: NVAccel: newSysMemory -> <ptr>
+[  138.245022]: NVAccel: newVidMemory -> <ptr>
+[  138.245022]: NVAccel: newVidMemory -> <ptr>
+[  138.249912]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ee00000 size=0x260000 mode=2
+[  138.249972]: NVRM-xnu:   mapped -> 0x<ptr> (slot 78, high water 79/8192)
+[  138.250416]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2490368 bytes of REAL VRAM -- phys 0x3fc0ee00000 kva <ptr> [BAR1 205783040]
+[  138.250420]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2490368 bytes of REAL VRAM -- phys 0x3fc0ee00000 kva <ptr> [BAR1 205783040]
+so_gencnt: 4031 t_state: ESTABLISHED process: commerce:909 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 16 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x87d20fafNVAccel: newResource -> <ptr>
+[  138.310807]: NVAccel: newResource -> <ptr>
+[  138.310817]: NVAccel: newSysMemory -> <ptr>
+[  138.310817]: NVAccel: newSysMemory -> <ptr>
+[  138.310822]: NVAccel: newVidMemory -> <ptr>
+[  138.310823]: NVAccel: newVidMemory -> <ptr>
+[  138.310923]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ecb0000 size=0x80000 mode=2
+[  138.310947]: NVRM-xnu:   mapped -> 0x<ptr> (slot 79, high water 80/8192)
+[  138.311075]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc0ecb0000 kva <ptr> [BAR1 206307328]
+[  138.311077]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc0ecb0000 kva <ptr> [BAR1 206307328]
+[  138.311880]: NVAccel: newResource -> <ptr>
+[  138.311883]: NVAccel: newResource -> <ptr>
+[  138.311887]: NVAccel: newSysMemory -> <ptr>
+[  138.311887]: NVAccel: newSysMemory -> <ptr>
+[  138.311890]: NVAccel: newVidMemory -> <ptr>
+[  138.311891]: NVAccel: newVidMemory -> <ptr>
+[  138.311951]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ed30000 size=0x10000 mode=2
+[  138.311966]: NVRM-xnu:   mapped -> 0x<ptr> (slot 80, high water 81/8192)
+[  138.311989]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ed30000 kva <ptr> [BAR1 206372864]
+[  138.311991]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ed30000 kva <ptr> [BAR1 206372864]
+[  138.313446]: NVAccel: newResource -> <ptr>
+[  138.313450]: NVAccel: newResource -> <ptr>
+[  138.313453]: NVAccel: newSysMemory -> <ptr>
+[  138.313454]: NVAccel: newSysMemory -> <ptr>
+[  138.313456]: NVAccel: newVidMemory -> <ptr>
+[  138.313457]: NVAccel: newVidMemory -> <ptr>
+[  138.313519]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ed40000 size=0x10000 mode=2
+[  138.313534]: NVRM-xnu:   mapped -> 0x<ptr> (slot 81, high water 82/8192)
+[  138.313559]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ed40000 kva <ptr> [BAR1 206438400]
+[  138.313561]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ed40000 kva <ptr> [BAR1 206438400]
+[  138.314782]: NVAccel: newResource -> <ptr>
+[  138.314787]: NVAccel: newResource -> <ptr>
+[  138.314792]: NVAccel: newSysMemory -> <ptr>
+[  138.314792]: NVAccel: newSysMemory -> <ptr>
+[  138.314796]: NVAccel: newVidMemory -> <ptr>
+[  138.314797]: NVAccel: newVidMemory -> <ptr>
+[  138.314886]: NVRM-xnu: >os_map_kernel_space start=0x3fc11200000 size=0x260000 mode=2
+[  138.314947]: NVRM-xnu:   mapped -> 0x<ptr> (slot 82, high water 83/8192)
+[  138.315588]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2490368 bytes of REAL VRAM -- phys 0x3fc11200000 kva <ptr> [BAR1 208928768]
+[  138.315590]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2490368 bytes of REAL VRAM -- phys 0x3fc11200000 kva <ptr> [BAR1 208928768]
+[  138.322826]: NVAccel: newResource -> <ptr>
+[  138.322834]: NVAccel: newResource -> <ptr>
+[  138.322846]: NVAccel: newSysMemory -> <ptr>
+[  138.322847]: NVAccel: newSysMemory -> <ptr>
+[  138.322852]: NVAccel: newVidMemory -> <ptr>
+[  138.322853]: NVAccel: newVidMemory -> <ptr>
+[  138.322984]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ed50000 size=0x10000 mode=2
+[  138.323008]: NVRM-xnu:   mapped -> 0x<ptr> (slot 83, high water 84/8192)
+[  138.323034]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ed50000 kva <ptr> [BAR1 208994304]
+[  138.323036]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ed50000 kva <ptr> [BAR1 208994304]
+[  138.324443]: NVAccel: newResource -> <ptr>
+[  138.324447]: NVAccel: newResource -> <ptr>
+[  138.324452]: NVAccel: newSysMemory -> <ptr>
+[  138.324453]: NVAccel: newSysMemory -> <ptr>
+[  138.324457]: NVAccel: newVidMemory -> <ptr>
+[  138.324457]: NVAccel: newVidMemory -> <ptr>
+[  138.324544]: NVRM-xnu: >os_map_kernel_space start=0x3fc11600000 size=0x260000 mode=2
+[  138.324591]: NVRM-xnu:   mapped -> 0x<ptr> (slot 84, high water 85/8192)
+[  138.325044]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2490368 bytes of REAL VRAM -- phys 0x3fc11600000 kva <ptr> [BAR1 211484672]
+[  138.325053]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2490368 bytes of REAL VRAM -- phys 0x3fc11600000 kva <ptr> [BAR1 211484672]
+[  138.326017]: NVAccel: newResource -> <ptr>
+[  138.326021]: NVAccel: newResource -> <ptr>
+[  138.326025]: NVAccel: newSysMemory -> <ptr>
+[  138.326026]: NVAccel: newSysMemory -> <ptr>
+[  138.326030]: NVAccel: newVidMemory -> <ptr>
+[  138.326030]: NVAccel: newVidMemory -> <ptr>
+[  138.326110]: NVRM-xnu: >os_map_kernel_space start=0x3fc11a00000 size=0x260000 mode=2
+[  138.326160]: NVRM-xnu:   mapped -> 0x<ptr> (slot 55, high water 85/8192)
+[  138.326600]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2490368 bytes of REAL VRAM -- phys 0x3fc11a00000 kva <ptr> [BAR1 213516288]
+[  138.326602]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2490368 bytes of REAL VRAM -- phys 0x3fc11a00000 kva <ptr> [BAR1 213516288]
+[  138.328482]: NVAccel: newResource -> <ptr>
+[  138.328486]: NVAccel: newResource -> <ptr>
+[  138.328491]: NVAccel: newSysMemory -> <ptr>
+[  138.328492]: NVAccel: newSysMemory -> <ptr>
+[  138.328495]: NVAccel: newVidMemory -> <ptr>
+[  138.328496]: NVAccel: newVidMemory -> <ptr>
+[  138.328555]: NVRM-xnu: >os_map_kernel_space start=0x3fc0eb00000 size=0x10000 mode=2
+[  138.328577]: NVRM-xnu:   mapped -> 0x<ptr> (slot 85, high water 86/8192)
+[  138.328600]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0eb00000 kva <ptr> [BAR1 213581824]
+[  138.328602]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0eb00000 kva <ptr> [BAR1 213581824]
+[  138.385569]: NVAccel: newResource -> <ptr>
+[  138.385577]: NVAccel: newResource -> <ptr>
+[  138.385586]: NVAccel: newSysMemory -> <ptr>
+[  138.385587]: NVAccel: newSysMemory -> <ptr>
+[  138.385593]: NVAccel: newVidMemory -> <ptr>
+[  138.385594]: NVAccel: newVidMemory -> <ptr>
+[  138.385708]: NVRM-xnu: >os_map_kernel_space start=0x3fc0eb10000 size=0x40000 mode=2
+[  138.385738]: NVRM-xnu:   mapped -> 0x<ptr> (slot 56, high water 86/8192)
+[  138.385819]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 262144 bytes of REAL VRAM -- phys 0x3fc0eb10000 kva <ptr> [BAR1 213647360]
+[  138.385822]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 262144 bytes of REAL VRAM -- phys 0x3fc0eb10000 kva <ptr> [BAR1 213647360]
+[  138.431103]: NVAccel: newResource -> <ptr>
+[  138.431110]: NVAccel: newResource -> <ptr>
+[  138.431118]: NVAccel: newSysMemory -> <ptr>
+[  138.431119]: NVAccel: newSysMemory -> <ptr>
+[  138.431125]: NVAccel: newVidMemory -> <ptr>
+[  138.431126]: NVAccel: newVidMemory -> <ptr>
+[  138.431249]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e4b0000 size=0x10000 mode=2
+[  138.431273]: NVRM-xnu:   mapped -> 0x<ptr> (slot 59, high water 86/8192)
+[  138.431307]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e4b0000 kva <ptr> [BAR1 212860928]
+[  138.431310]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0e4b0000 kva <ptr> [BAR1 212860928]
+[  138.434787]: NVAccel: newResource -> <ptr>
+[  138.434793]: NVAccel: newResource -> <ptr>
+[  138.434799]: NVAccel: newSysMemory -> <ptr>
+[  138.434799]: NVAccel: newSysMemory -> <ptr>
+[  138.434803]: NVAccel: newVidMemory -> <ptr>
+[  138.434804]: NVAccel: newVidMemory -> <ptr>
+[  138.434895]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ebf0000 size=0x30000 mode=2
+[  138.434912]: NVRM-xnu:   mapped -> 0x<ptr> (slot 63, high water 86/8192)
+[  138.434965]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0ebf0000 kva <ptr> [BAR1 213057536]
+[  138.434966]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0ebf0000 kva <ptr> [BAR1 213057536]
+so_gencnt: 4068 so_state: 0x0102 process: Spotify Helper:884 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x85cc91991 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/ca7cbaf365f1afe1b8cd437bb6735d4c3b855fabc6b0d5127e15f8cff8e9fba3.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7c5d9773d2d156cb40020724871cdbb058f4707c489850d555bf9128c1621361.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f3c2fd5c91d45ae37769874e5e11d31c71cd103396123f135a142719913e0ebf.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f3c2fd5c91d45ae37769874e5e11d31c71cd103396123f135a142719913e0ebf.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f3c2fd5c91d45ae37769874e5e11d31c71cd103396123f135a142719913e0ebf.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/22a423d3aac7ebf6afaef20aa8ba3b59fc4d93425f4e1fa2beaef76643d6158c.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/827f12f050c6ace4ff32e520ef3dbeec8595dad9cda9b7ebc578b15f5b000a6c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3fe5404505c0ca2bca9463fde87c08459d947ba2c994b7c84f4a7e8a3fd5c085.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/827f12f050c6ace4ff32e520ef3dbeec8595dad9cda9b7ebc578b15f5b000a6c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/827f12f050c6ace4ff32e520ef3dbeec8595dad9cda9b7ebc578b15f5b000a6c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/89ce6dcb2940ca573ee60189d30d883dfd08293e1290c81ccf1ceb63f621c2fc.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d5766d0d57e10cc7b7e74a3b78e16452f531f7c6f240398677d1e5c0d14f85b3.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d86a870b61ba56a25e7a0ca020365aa23d96dbcaac6f5229ca3bcb0eff379874.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/a5f3073c7971070b50d7a17328d2f8e9a29081eae918034b63965c587dc333a1.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/a5f3073c7971070b50d7a17328d2f8e9a29081eae918034b63965c587dc333a1.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d86a870b61ba56a25e7a0ca020365aa23d96dbcaac6f5229ca3bcb0eff379874.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  138.594011]: NVAccel: newResource -> <ptr>
+[  138.594020]: NVAccel: newSysMemory -> <ptr>
+[  138.594028]: NVAccel: newSysMemory -> <ptr>
+[  138.594035]: NVAccel: newVidMemory -> <ptr>
+[  138.594036]: NVAccel: newVidMemory -> <ptr>
+[  138.594184]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e4c0000 size=0x20000 mode=2
+[  138.594212]: NVRM-xnu:   mapped -> 0x<ptr> (slot 56, high water 86/8192)
+[  138.594259]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 131072 bytes of REAL VRAM -- phys 0x3fc0e4c0000 kva <ptr> [BAR1 212926464]
+[  138.594261]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 131072 bytes of REAL VRAM -- phys 0x3fc0e4c0000 kva <ptr> [BAR1 212926464]
+[  138.595519]: 1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d86a870b61ba56a25e7a0ca020365aa23d96dbcaac6f5229ca3bcb0eff379874.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/9a4d844dba29074116e1dadd5632e64a3a4e16cb9f7f508a62c8759af2831ed7.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/4ef466b26c7409cb91ae17f08d27f7ec9e51954f8a2a535431346558cc3e9fa2.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/116bde4e4489df9b58dcf16d9abbf1d9291c65c509369c515704a73315769683.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/116bde4e4489df9b58dcf16d9abbf1d9291c65c509369c515704a73315769683.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/4ef466b26c7409cb91ae17f08d27f7ec9e51954f8a2a535431346558cc3e9fa2.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  138.620098]: NVAccel: newResource -> <ptr>
+[  138.620105]: NVAccel: newSysMemory -> <ptr>
+[  138.620106]: NVAccel: newSysMemory -> <ptr>
+[  138.620110]: NVAccel: newVidMemory -> <ptr>
+[  138.620111]: NVAccel: newVidMemory -> <ptr>
+[  138.620190]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e600000 size=0x20000 mode=2
+[  138.620214]: NVRM-xnu:   mapped -> 0x<ptr> (slot 70, high water 86/8192)
+[  138.620249]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 131072 bytes of REAL VRAM -- phys 0x3fc0e600000 kva <ptr> [BAR1 213057536]
+[  138.620251]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 131072 bytes of REAL VRAM -- phys 0x3fc0e600000 kva <ptr> [BAR1 213057536]
+so_gencnt: 4039 so_state: 0x0102 process: Spotify Helper:884 Duration: 0.118 sec Conn_Time: 0.118 sec bytes in/out: 1250/1250 pkts in/out: 1/1 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8eba4d44 flowctl: 0us (0x) 2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/116bde4e4489df9b58dcf16d9abbf1d9291c65c509369c515704a73315769683.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/9325e3bbbdcabec5baf71357ba17a608af5d67d682ff84edd24cc474ea1ce95b.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  138.643491]: NVAccel: newResource -> <ptr>
+[  138.643500]: NVAccel: newSysMemory -> <ptr>
+[  138.643501]: NVAccel: newSysMemory -> <ptr>
+[  138.643507]: NVAccel: newVidMemory -> <ptr>
+[  138.643508]: NVAccel: newVidMemory -> <ptr>
+[  138.643644]: NVRM-xnu: >os_map_kernel_space start=0x3fc0eb10000 size=0x10000 mode=2
+[  138.643677]: NVRM-xnu:   mapped -> 0x<ptr> (slot 72, high water 86/8192)
+[  138.643709]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0eb10000 kva <ptr> [BAR1 213123072]
+[  138.643712]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0eb10000 kva <ptr> [BAR1 213123072]
+[  138.648193]: NVAccel: newResource -> <ptr>
+[  138.648202]: NVAccel: newResource -> <ptr>
+[  138.648210]: NVAccel: newSysMemory -> <ptr>
+[  138.648212]: NVAccel: newSysMemory -> <ptr>
+[  138.648218]: NVAccel: newVidMemory -> <ptr>
+[  138.648219]: NVAccel: newVidMemory -> <ptr>
+[  138.648308]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ed60000 size=0x80000 mode=2
+[  138.648351]: NVRM-xnu:   mapped -> 0x<ptr> (slot 77, high water 86/8192)
+[  138.648471]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc0ed60000 kva <ptr> [BAR1 213647360]
+[  138.648475]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc0ed60000 kva <ptr> [BAR1 213647360]
+[  138.650691]: 1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/9325e3bbbdcabec5baf71357ba17a608af5d67d682ff84edd24cc474ea1ce95b.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/9f9369fd22c6742e538a1bb285e6059887338216f1f1ee0585fb9f4418341493.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/71c83775cb5a5b1390f2f1f013f7b1a1387779ba479fa7867d15f0b43391cedd.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/71a1a269c4071249a97ab8f779d95ed367a633673d4bbe18ab3dedb3e032766e.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/2c04912185bf6a0aadef60fcce138bab840d6f5eb4c9a47202ac9c15cdb8f5e4.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/2c04912185bf6a0aadef60fcce138bab840d6f5eb4c9a47202ac9c15cdb8f5e4.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/71a1a269c4071249a97ab8f779d95ed367a633673d4bbe18ab3dedb3e032766e.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/71a1a269c4071249a97ab8f779d95ed367a633673d4bbe18ab3dedb3e032766e.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/27dbd5080f728394b5b8b29387c0171aa66a3a894c98f8c693e588ebb9f1930f.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/8af3ec1e6166b4c4f676cbe05eba29927649dfa9fa9f903e9f63e29aa4f31ba2.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/0603aeb31dab9c540749a7adf7c9a3761188fd9996d9b8a51de6b247ee6d622f.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d524e7f35e1855f6ec3437d6a281882b1251a989bca553a07bd3812d70851f8a.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d524e7f35e1855f6ec3437d6a281882b1251a989bca553a07bd3812d70851f8a.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/0603aeb31dab9c540749a7adf7c9a3761188fd9996d9b8a51de6b247ee6d622f.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.691543]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.736562]: 1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/0603aeb31dab9c540749a7adf7c9a3761188fd9996d9b8a51de6b247ee6d622f.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/OSBadge.icnsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lprojSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lprojSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/OSBadge.icnsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/OSBadge.icnsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/OSBadge.icnsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/sv.lprojSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/sv.lprojSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(938) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ms.lproj/documentation.stringsprocess_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashprocess_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashNVAccel: newResource -> <ptr>
+[  138.801451]: NVAccel: newResource -> <ptr>
+[  138.801459]: NVAccel: newSysMemory -> <ptr>
+[  138.801460]: NVAccel: newSysMemory -> <ptr>
+[  138.801465]: NVAccel: newVidMemory -> <ptr>
+[  138.801466]: NVAccel: newVidMemory -> <ptr>
+[  138.801648]: NVRM-xnu: >os_map_kernel_space start=0x3fc0eb20000 size=0x30000 mode=2
+[  138.801673]: NVRM-xnu:   mapped -> 0x<ptr> (slot 59, high water 86/8192)
+[  138.801723]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0eb20000 kva <ptr> [BAR1 213581824]
+[  138.801726]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc0eb20000 kva <ptr> [BAR1 213581824]
+[  138.802666]: Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/cd90223550116313323a3c96e52663bbd19ea4685fa2dd7178df53373d6bf273.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/67ebe7f4b3958f19ad4a7f657674959907058fa44039a407460f9c35a60024b0.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/67ebe7f4b3958f19ad4a7f657674959907058fa44039a407460f9c35a60024b0.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/89910e9177720e37ed02a2196721b13c4aded3b26a9ba70c7a4ab80b8b267a8f.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d1e838bfd90271490025d6387ee51948bf6f58eee2a67edbe3c37ef631a5fd98.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/4f7fc89addb92dd6291e7a9e35c098490463f1e060323ce9b19e2df4bc29baa4.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/4f7fc89addb92dd6291e7a9e35c098490463f1e060323ce9b19e2df4bc29baa4.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d1e838bfd90271490025d6387ee51948bf6f58eee2a67edbe3c37ef631a5fd98.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  138.813450]: NVAccel: newResource -> <ptr>
+[  138.813458]: NVAccel: newSysMemory -> <ptr>
+[  138.813459]: NVAccel: newSysMemory -> <ptr>
+[  138.813463]: NVAccel: newVidMemory -> <ptr>
+[  138.813464]: NVAccel: newVidMemory -> <ptr>
+[  138.813619]: NVRM-xnu: >os_map_kernel_space start=0x3fc09400000 size=0x30000 mode=2
+[  138.813644]: NVRM-xnu:   mapped -> 0x<ptr> (slot 33, high water 86/8192)
+[  138.813698]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc09400000 kva <ptr> [BAR1 147390464]
+[  138.813700]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc09400000 kva <ptr> [BAR1 147390464]
+[  138.815017]: 1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d1e838bfd90271490025d6387ee51948bf6f58eee2a67edbe3c37ef631a5fd98.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/a4fdb5444d83e989e1d483d7f0d7d0802fc65b6498052f0bd3dab17b0c5a70c3.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/1cb42113fc5a48970ebf3ac46a2281925d9429fe89135e61eaca14855af2f971.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/116bde4e4489df9b58dcf16d9abbf1d9291c65c509369c515704a73315769683.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/116bde4e4489df9b58dcf16d9abbf1d9291c65c509369c515704a73315769683.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/1cb42113fc5a48970ebf3ac46a2281925d9429fe89135e61eaca14855af2f971.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/1cb42113fc5a48970ebf3ac46a2281925d9429fe89135e61eaca14855af2f971.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/af7122a46e32e93bb8939c88b3f5482ab76db2754b2e017d0f53a134ba6470f1.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d476748f1811d2f1fdbbc6bb1c5d274592aa457ca6acc6b2af6454d02027dce1.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/116bde4e4489df9b58dcf16d9abbf1d9291c65c509369c515704a73315769683.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/116bde4e4489df9b58dcf16d9abbf1d9291c65c509369c515704a73315769683.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d476748f1811d2f1fdbbc6bb1c5d274592aa457ca6acc6b2af6454d02027dce1.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d476748f1811d2f1fdbbc6bb1c5d274592aa457ca6acc6b2af6454d02027dce1.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: imagent(650) deny(1) mach-lookup com.apple.contactsd.persistenceSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/5dce02e866ad3d2c6a1b3cda2eb3d665af50926f6d2c832b70f479687d4f6dd1.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/78dbbc1381740b74b862655dab356fca931456a91c2f96affa36d551e06ca3aa.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d148fc9495e250d7c3a8b5718eb51b677875afbe468cc7f12f07879b2dd9feee.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d148fc9495e250d7c3a8b5718eb51b677875afbe468cc7f12f07879b2dd9feee.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(644) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/78dbbc1381740b74b862655dab356fca931456a91c2f96affa36d551e06ca3aa.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  138.875196]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)

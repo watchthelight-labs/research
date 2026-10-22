@@ -1,0 +1,29 @@
+{
+ "collected": "2026-10-15",
+ "component": "native",
+ "files": {
+  "00-clock.txt": "e6400e59a6ebec609b1ecfc70d538f35a1157e8e53ad6bd3c7a7f21db0454210",
+  "i2c0.txt": "e1ff7b1a496a7d48e24088e0d585c0ba3c842780be6538b8aaa7b3b220211e5b",
+  "i2c1.txt": "3cc1ff62d2912f66a0fe13480c46c6e2607196a39b4e3101d00e1bd4cf65f6a3",
+  "io-apic.txt": "455d8b593dfa53445fa230cbf0922b707ccc6d96faa2f02ef661af91c9acc7a1",
+  "kexts.txt": "1a58da85d37d36ad8ca1c86e1feb16caa1ce1ec1df1d909f9aeb35a1d63b71ea",
+  "opencore-2026-10-15-124544.txt": "9022e8d2ea00436ceec62aa56e59dc78dc6d1f55b13fc7a0d66761c4481485c1",
+  "touchpad-acpi.txt": "693a1b0fc29dbf20cf4e3c1eefea38a741b7d22f3dbf36cf38775485065b5467"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "MLB": 2,
+   "ROM": 2,
+   "SERIAL": 2,
+   "UUID": 186
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-25",
+ "username": "watchthelight"
+}

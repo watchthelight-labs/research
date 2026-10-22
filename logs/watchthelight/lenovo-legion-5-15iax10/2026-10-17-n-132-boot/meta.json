@@ -1,0 +1,27 @@
+{
+ "collected": "2026-10-17",
+ "component": "native",
+ "files": {
+  "baseline-modes.txt": "49b2aaf68d0962a01c34920f48dbe2c594d25cbe279ab46401730e70ae8825f0",
+  "check.txt": "8e31c5badc8a9fc2b9cfb6e4c8e0595001d94735f78448c501c3f1cd51d34d66",
+  "codediff.txt": "91da8f94bf0db947e52bf5960cdf38e629731ee6e598daec14453e89b1bba974",
+  "compare.txt": "8cf93ebb3239035be50de22d991877f4f11020e97e44abf398605010c26af120",
+  "install.log": "cd789901b44901491739590d18f82cd9659fafeeb0084f0224863f08d69627be",
+  "keep-1680x1050-hidpi.txt": "5da70f128538f4a03a9f5712442a3e9d62dda73c8d789f3a09726468182299d1",
+  "modes-after.txt": "975bce22dd05fbaf9e8b07e835f53e3f65b6beccbd560753e44e53d4d86c67f5",
+  "set-1600x1000.txt": "48a43f0eb719e45fa1ff26280ab8ffef64f0c2c4e763ead442955fe416d6d7a9",
+  "set-1680x1050-hidpi.txt": "559c49c96d8742213b079a235063318c829708f06fcf29c4598dcf2c6f7c718b",
+  "set-2048x1280.txt": "58a6812263e5ee7e8930610d84b0e65c081b8b28ef239c4aaf5286f06aafa656"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-132",
+ "username": "watchthelight"
+}

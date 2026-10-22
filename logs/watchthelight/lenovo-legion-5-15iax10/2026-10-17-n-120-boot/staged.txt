@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 2254a38, sha efbf2dce8082: composite vertex0 mapped through the mvp to screen pixels (COMP line 'screen x y'), Dock test on screen y > 1100, DISP region around the screen position, TGT readback also for RGBA16Float targets, TGT FLAG / TGT SCHED debug lines; conf unchanged

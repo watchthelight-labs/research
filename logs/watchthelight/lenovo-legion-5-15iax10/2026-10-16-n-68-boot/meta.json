@@ -1,0 +1,20 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "fps.txt": "be4f16e792eab1ffd454a2234a51a1c6ac26c66438e8835f8e3f2f3d070d77f3",
+  "spindump-ws-main.txt": "d8cefc89074f69286612395508146634bb6410d4ff2cb628624fafa45989a9cc",
+  "spindump-ws-nvmtl-exec.txt": "01de518526bd42f656f421252d0182af15401050c40b4564addbfc540bec9736"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-68",
+ "username": "watchthelight"
+}

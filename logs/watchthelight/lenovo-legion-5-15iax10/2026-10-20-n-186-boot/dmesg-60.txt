@@ -1,0 +1,1045 @@
+
+[   19.640969]: CCLogPipe::initWithOwnerNameCapacity() IOReporters setup for ControlPath
+[   19.640994]: Created CCLogPipe (Owner: com.apple.iokit.IO80211Family - Name: ControlPath)
+[   19.640995]: withOwnerNameCapacity:158 Pipe Owner:com.apple.iokit.IO80211Family Name:ControlPath LogIdentifier:ControlPathCCLogStream::createReportSet() fCoreCaptureReporter 0xfc6ffa1055d62163
+[   19.641006]: CCLogStream::createReportersAndLegend() streamName IO80211 IOCTL Stream
+[   19.641016]: Created CCLogStream (Name: IO80211 IOCTL Stream)
+[   19.641017]:  CCFlags: 0x3, CCLevel: 5 ConsoleFlags: 0x0, ConsoleLevel: -1
+[   19.641026]: CCLogStream::createReportSet() fCoreCaptureReporter 0x775529c16c6741fb
+[   19.641027]: CCLogStream::createReportersAndLegend() streamName IO80211 Event Stream
+[   19.641042]: Created CCLogStream (Name: IO80211 Event Stream)
+[   19.641042]:  CCFlags: 0x4, CCLevel: 5 ConsoleFlags: 0x0, ConsoleLevel: -1
+[   19.641062]: CCPipe::withOwnerNameCapacity pipeOwner com.apple.iokit.IO80211Family pipeName LQMLogging
+[   19.641072]: CCLogPipe::createReportersAndLegend() Done Creating Legend for owner: com.apple.iokit.IO80211Family pipe LQMLogging
+[   19.641073]: CCLogPipe::initWithOwnerNameCapacity() IOReporters setup for LQMLogging
+[   19.641108]: Created CCLogPipe (Owner: com.apple.iokit.IO80211Family - Name: LQMLogging)
+[   19.641110]: withOwnerNameCapacity:158 Pipe Owner:com.apple.iokit.IO80211Family Name:LQMLogging LogIdentifier:LQMLoggingCCLogStream::createReportSet() fCoreCaptureReporter 0xa73bc4486b1be0f8
+[   19.641118]: CCLogStream::createReportersAndLegend() streamName LQMLogging
+[   19.641145]: Created CCLogStream (Name: LQMLogging)
+[   19.641146]: [PCIe:0 19641146270 ns] [childPublished()] child CCLogStream(0x1000004a6) published
+[   19.641146]: [PCIe:0 19641146353 ns] [childPublished()] child CCLogStream(0x1000004a7) published
+[   19.641151]: IO80211Controller::findAndAttachToFaultReporter found matching faultReporter
+[   19.641156]: IO80211Controller::start, disabling IOCTL logic
+[   19.641158]: IO80211Controller::start _controller is 0x193d82738adb3530, provider is 0xba79e4b717cf6199
+[   19.641164]: {WiFiTimeSync} controller common start done. this=0x<ptr>
+[   19.641165]: MtkWlanNative: ctl:base start ok
+[   19.641173]: MtkWlanNative: ctl:media auto=1
+[   19.641195]: [PCIe:0 19641195555 ns] [childPublished()] child CCLogStream(0x1000004a9) published
+[   19.641197]: IO80211SkywalkInterface::init start
+[   19.641198]: [PCIe:0 19641198596 ns] [childPublished()] child CCPipe(0x1000004a8) published
+[   19.641195]: [PCIe:0 19641195296 ns] [childPublished()] child CCPipe(0x1000004a5) published
+[   19.641203]: IO80211SkywalkInterface::initIvars complete
+[   19.641211]: [PCIe:0 19641211503 ns] [childPublished()] child MtkWlanNative(0x10000049f) published
+[   19.641213]: IO80211SkywalkInterface::init with controller start
+[   19.641214]: initIvars: ivars already allocated, re-use
+[   19.641215]: IO80211SkywalkInterface::initIvars complete
+[   19.641216]: IO80211SkywalkInterface::init complete
+[   19.641222]: MtkWlanNative: mk:withController=ok
+[   19.641233]: MtkWlanNative: mk:attachInterface=1
+[   19.641239]: MtkWlanNative: sw:deferBSDAttach=0
+[   19.641243]: CCPipe::withOwnerNameCapacity pipeOwner com.apple.iokit.IO80211Family pipeName Interface_Infrastructure_0
+[   19.641267]: CCLogPipe::createReportersAndLegend() Done Creating Legend for owner: com.apple.iokit.IO80211Family pipe Interface_Infrastructure_0
+[   19.641268]: CCLogPipe::initWithOwnerNameCapacity() IOReporters setup for Interface_Infrastructure_0
+[   19.641292]: Created CCLogPipe (Owner: com.apple.iokit.IO80211Family - Name: Interface_Infrastructure_0)
+[   19.641294]: withOwnerNameCapacity:158 Pipe Owner:com.apple.iokit.IO80211Family Name:Interface_Infrastructure_0 LogIdentifier:InterfaceLogsCCLogStream::createReportSet() fCoreCaptureReporter 0x8d05cb106e21979a
+[   19.641310]: CCLogStream::createReportersAndLegend() streamName Interface_Infrastructure_0
+[   19.641327]: Created CCLogStream (Name: Interface_Infrastructure_0)
+[   19.641359]: IO80211PeerManager::initInterfaceConfigPeerReporters(6335) fPeerManagerReporters == NULL , skipping init
+[   19.641383]: [PCIe:0 19641383212 ns] [childPublished()] child CCPipe(0x1000004ab) published
+[   19.641391]: [PCIe:0 19641390723 ns] [childPublished()] child CCLogStream(0x1000004ac) published
+[   20.020559]: spaceman_scan_free_blocks:4431: disk1 scan took 1.714868 s, trims took 1.651848 s
+[   20.020564]: spaceman_scan_free_blocks:4435: disk1 21525667 blocks free in 74964 extents, avg 287.14
+[   20.020566]: spaceman_scan_free_blocks:4444: disk1 21525667 blocks trimmed in 74964 extents (22 us/trim, 45381 trims/s)
+[   20.020568]: spaceman_scan_free_blocks:4447: disk1 trim distribution 1:30007 2+:12581 4+:17158 16+:8901 64+:4687 256+:1630
+[   20.020569]: spaceman_scan_free_blocks:4455: disk1 trims dropped: 10714 blocks 9415 extents, avg 1.13 
+[   33.575891]: XHC20: attached
+[   33.575988]: ifclassq instance <ptr> createdigmp_domifattach: called for ifp XHC
+[   33.576011]: igmp_domifattach: allocated igmp_ifinfo for ifp XHC
+[   33.576014]: mld_domifattach: called for ifp XHC13
+[   33.576016]: mld_domifattach: allocated mld_ifinfo for ifp XHC13
+[   33.576018]: ifnet_attach: Waiting for all kernel threads created for interface XHC13 to get scheduled at least once.
+[   33.576030]: ifnet_attach: All kernel threads created for interface XHC13 have been scheduled at least once. Proceeding.
+[   33.576036]: XHC13: attached
+[   33.576586]: PMRD: power event 7 args 0x755e0463b82235d1 0x0
+[   33.576597]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x210064
+[   33.576611]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.576642]: [PCIe:0 33576642539 ns] [childPublished()] child HS01(0x1000004b2) published
+[   33.576701]: PMRD: power event 7 args 0x755e0463b8223671 0x0
+[   33.576704]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x220064
+[   33.576710]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.576734]: [PCIe:0 33576734473 ns] [childPublished()] child HS02(0x1000004b4) published
+[   33.576849]: PMRD: power event 7 args 0x755e0463b8223851 0x0
+[   33.576860]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x230064
+[   33.576880]: [PCIe:0 33576880262 ns] [childPublished()] child HS03(0x1000004b6) published
+[   33.576883]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.576957]: PMRD: power event 7 args 0x755e0463b82238f1 0x0
+[   33.576965]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x240064
+[   33.576983]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.576982]: [PCIe:0 33576982836 ns] [childPublished()] child HS04(0x1000004b8) published
+[   33.577081]: PMRD: power event 7 args 0x755e0463b8223991 0x0
+[   33.577090]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x250064
+[   33.577101]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.577129]: [PCIe:0 33577128782 ns] [childPublished()] child HS05(0x1000004ba) published
+[   33.577217]: PMRD: power event 7 args 0x755e0463b8221a51 0x0
+[   33.577225]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x260064
+[   33.577234]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.577259]: [PCIe:0 33577258907 ns] [childPublished()] child HS06(0x1000004bc) published
+[   33.577610]: PMRD: power event 7 args 0x755e045a1ebb2af1 0x0
+[   33.577621]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x270064
+[   33.577633]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.577663]: [PCIe:0 33577663092 ns] [childPublished()] child HS11(0x1000004be) published
+[   33.577807]: PMRD: power event 7 args 0x755e045a1ebb2b91 0x0
+[   33.577816]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x280064
+[   33.577832]: [PCIe:0 33577832315 ns] [childPublished()] child HS13(0x1000004c0) published
+[   33.577835]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.577889]: PMRD: power event 7 args 0x755e045a1ebb2c31 0x0
+[   33.577895]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x290064
+[   33.577907]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   33.577938]: [PCIe:0 33577937597 ns] [childPublished()] child HS14(0x1000004c2) published
+[   33.577969]: XHCI@14000000: AppleUSBXHCI::createPorts: speed index 4 has inconsistent speed IDs (5 and 6)
+[   33.578097]: [PCIe:0 33578097132 ns] [childPublished()] child SS01(0x1000004c4) published
+[   33.578233]: [PCIe:0 33578233088 ns] [childPublished()] child SS02(0x1000004c6) published
+[   33.578460]: [PCIe:0 33578460148 ns] [childPublished()] child SS05(0x1000004c8) published
+[   33.578701]: [PCIe:0 33578701768 ns] [childPublished()] child SS08(0x1000004ca) published
+[   33.578898]: HS01@14100000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.578929]: HS02@14200000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.578993]: HS03@14300000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.578999]: HS04@14400000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579000]: HS05@14500000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579004]: HS06@14600000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579020]: HS11@14700000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579045]: HS13@14800000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579055]: HS14@14900000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579057]: SS01@14a00000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579058]: SS05@14c00000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579059]: SS08@14d00000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.579058]: SS02@14b00000: AppleUSBHostPort::cableChangeOccurred: powering on
+[   33.774668]: HS11@14700000: AppleUSBHostPort::enumerateDeviceComplete_block_invoke: enumerated 0x04f2/b83e/0406 (Integrated Camera / 1) at 480 Mbps
+[   33.774828]: [PCIe:0 33774828595 ns] [childPublished()] child Integrated Camera(0x1000004cc) published
+[   33.775987]: Integrated Camera(0x1000004cc): matching deferred by AppleUSBCDCCompositeDevice
+[   33.850647]: HS14@14900000: AppleUSBHostPort::enumerateDeviceComplete_block_invoke: enumerated 0x0489/e111/0100 (Wireless_Device / 2) at 480 Mbps
+[   33.850778]: [PCIe:0 33850778641 ns] [childPublished()] child Wireless_Device(0x1000004d0) published
+[   33.850935]: Wireless_Device(0x1000004d0): matching deferred by AppleUSBCDCCompositeDevice
+[   33.926163]: HS03@14300000: AppleUSBHostPort::enumerateDeviceComplete_block_invoke: enumerated 0x1532/0099/0200 (Razer Basilisk V3 / 3) at 12 Mbps
+[   33.926301]: [PCIe:0 33926301054 ns] [childPublished()] child Razer Basilisk V3(0x1000004d4) published
+[   33.926517]: Razer Basilisk V3@14300000: IOUSBHostDevice::setConfigurationGated: AppleUSBHostCompositeDevice selected configuration 1
+[   33.927109]: [PCIe:0 33927109498 ns] [childPublished()] child IOUSBHostInterface(0x1000004d8) published
+[   33.927110]: [PCIe:0 33927110338 ns] [childPublished()] child IOUSBHostInterface(0x1000004da) published
+[   33.927111]: [PCIe:0 33927111033 ns] [childPublished()] child IOUSBHostInterface(0x1000004db) published
+[   33.927190]: [PCIe:0 33927190155 ns] [childPublished()] child IOUSBHostInterface(0x1000004d9) published
+[   34.100585]: HS05@14500000: AppleUSBHostPort::enumerateDeviceComplete_block_invoke: enumerated 0x048d/c195/0016 (ITE Device(8258) / 4) at 12 Mbps
+[   34.100723]: [PCIe:0 34100722944 ns] [childPublished()] child ITE Device(8258)(0x1000004dc) published
+[   34.100919]: ITE Device(8258)@14500000: IOUSBHostDevice::setConfigurationGated: AppleUSBHostCompositeDevice selected configuration 1
+[   34.101719]: [PCIe:0 34101718952 ns] [childPublished()] child IOUSBHostInterface(0x1000004e0) published
+[   34.101850]: [PCIe:0 34101849856 ns] [childPublished()] child IOUSBHostInterface(0x1000004e1) published
+[   34.102340]: IOUSBHostInterface(0x1000004e0): matching deferred by IOUSBHostHIDDevice
+[   34.182870]: HS02@14200000: AppleUSBHostPort::enumerateDeviceComplete_block_invoke: enumerated 0x17ef/f006/0078 (Idea5003 / 5) at 12 Mbps
+[   34.183144]: [PCIe:0 34183144465 ns] [childPublished()] child Idea5003(0x1000004e4) published
+[   34.183495]: Idea5003@14200000: IOUSBHostDevice::setConfigurationGated: AppleUSBHostCompositeDevice selected configuration 1
+[   34.185350]: [PCIe:0 34185350726 ns] [childPublished()] child IOUSBHostInterface(0x1000004e8) published
+[   34.185359]: [PCIe:0 34185359442 ns] [childPublished()] child IOUSBHostInterface(0x1000004e9) published
+[   43.216078]: IO80211PeerManager::addPeerOperation(6401) fInterfacePeerCounters not yet present, storing operation for later 
+[   43.216093]: IO80211PeerManager::initInterfaceConfigPeerReporters(6335) fPeerManagerReporters == NULL , skipping init
+[   43.216095]: IO80211PeerManager::addPeerOperation(6401) fInterfacePeerCounters not yet present, storing operation for later 
+[   43.216103]: Skywalk Interface added monitor timers
+[   43.216107]: Finding ivars->_faultReporter
+[   43.216227]: com.apple.p2p: IO80211SkywalkInterface::setPowerState: interface[0x6016013dc72cbad2], role[1] powerStateOrdinal[1] fPowerState[2]
+[   43.216254]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_PLATFORM_CONFIG> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[   43.216295]: Override Adaptive Roaming support: 1
+[   43.216296]: Adaptive Roaming support: 0
+ Adaptive roam is not supported 
+[   43.216331]: 000043.216331 InterfaceLogs.E[1] [ik] updateMacAddress@288:role<Infrastructure> init<1> informSkywalk=<0> isInterfaceEnabled=<0> client<3> mac address changed =<00:00:00:00:00:00>-><MAC-3>IO80211PeerManager::initInterfaceDatapathEventsReporters(6847) fPeerManagerReporters == NULL, skipping init
+[   43.216348]: com.apple.stats.p2p: Family Skywalk Interface start done
+[   43.216350]: IO80211InfraInterface:setDebugFlags:3176: debugFlags=0x880226080400004 settingOpts=0x0
+[   43.216353]: com.apple.p2p: setPeerManagerLogFlags[7344] logflags: 880226080400004
+[   43.216355]: com.apple.p2p: setPeerManagerLogFlags[7351] fPcapLogStream is NULL
+[   43.216398]: Exit : IO80211ScanManager::initWithControllerAndSkywalkInterface()
+[   43.216415]: MtkWlanNative: sw:IO80211InfraInterface::start=1
+[   43.216419]: MtkWlanNative: sw:getWorkQueue=ok
+[   43.217172]: MtkWlanNative: sw:pool=ok
+[   43.217207]: MtkWlanNative: sw:queues rxSub=1 txComp=1 rxComp=1
+[   43.217211]: MtkWlanNative: sw:addEventSource x6 ok
+[   43.217240]: MtkWlanNative: dp:bound, set_mode=0
+[   43.217249]: MtkWlanNative: sw:registerInfraEthernetInterface=0
+[   43.217260]: 0
+[   43.217261]: MtkWlanNative: sw:published, running state false
+[   43.217267]: MtkWlanNative: mk:startWithInfo ok
+[   43.217278]: MtkWlanNative: cc:log pipe start=1
+[   43.217286]: MtkWlanNative: cc:fault pipe start=1
+[   43.217294]: MtkWlanNative: cc:fault stream start=1
+[   43.217299]: MtkWlanNative: mk:deferBSDAttach(false)=0
+[   43.217329]: [PCIe:0 43217329638 ns] [childPublished()] child CCPipe(0x1000004a0) published
+[   43.217414]: [PCIe:0 43217414126 ns] [childPublished()] child MtkWlanNativeIf(0x1000004aa) published
+[   43.217414]: [PCIe:0 43217414243 ns] [childPublished()] child CCPipe(0x1000004a2) published
+[   43.217465]: [PCIe:0 43217465073 ns] [childPublished()] child CCDataStream(0x1000004a3) published
+[   43.217491]: SK[3]: nxdom_prov_ext_init            initializing IOSkywalkNetworkNexusDomainProvider
+[   43.217493]: SK[3]: nxdom_prov_add                 nxdom_prov 0 (IOSkywalkNetworkNexusDomainProvider) dom netif
+[   43.217502]: MtkWlanNative: if:hardware assists=0
+[   43.217513]: classNameOverride: 0x6016013dc72cbad2 IO80211Controller[PCIe:0 43217558708 ns] [childPublished()] child IOSkywalkLegacyEthernetInterface(0x1000004ee) published
+[   45.929049]: root_hash_execution_cb:3417: img4_firmware_execute: successfully validated the payload and the manifest
+[   46.009479]: apfs_graft:721: disk1s2 Grafting on an UNENCRYPTED volume
+[   46.082585]: apfs_graft:849: disk1s2 Grafting a clone, share blockmap lut with os.dmg
+[   46.157486]: graft_dev_init:439: disk1 os.clone.dmg GRAFT (compiled @ Aug 18 2026 16:33:34)
+[   46.233621]: graft_dev_init:443: disk1 os.clone.dmg device_handle block size 4096 real block size 4096 block count 616448 features 0 internal  
+[   46.317116]: nx_mount:1230: os.clone.dmg initializing cache w/hash_size 512 and cache size 2048
+[   46.395357]: nx_mount:1548: os.clone.dmg checkpoint search: largest xid 24, best xid 24 @ 9
+[   46.469532]: nx_mount:1575: os.clone.dmg stable checkpoint indices: desc 8 data 19
+[   46.543695]: er_state_obj_get_for_recovery:8432: os.clone.dmgs1 No ER state object for volume CheerSecurityFizz25G241.x86_64SystemCryptex - rolling is not happening, nothing to recover.
+[   46.628658]: apfs_log_op_with_proc:3197: os.clone.dmgs1 grafting volume CheerSecurityFizz25G241.x86_64SystemCryptex, requested by: launchd (pid 1); parent: kernel_task (pid 0)
+[   46.713391]: is_root_hash_authentication_required_osx:444: os.clone.dmgs1 Release kext with internal build: 0, ARV disabled: 1, booting xid: 0
+[   46.794026]: is_root_hash_authentication_required:614: os.clone.dmgs1 RSR Graft, root hash authentication is required
+[   46.871768]: authenticate_root_hash:699: os.clone.dmgs1 successfully validated on-disk root hash
+[   46.946430]: apfs_lookup_ge_jobj_id:5060: disk1s2 Found OBJID 0x12176 type 3
+[   47.018698]: apfs_graft:1035: disk1s2 Graft ino 42879, jobj_id range 61530+12572
+[   47.093607]: apfs_graft:1128: disk1s2 successfully grafted ino 42879 on dir 525, dev_name [os.clone.dmg]
+[   48.033683]: shared_region: 0x755e045a1e9b19b9 [1(launchd)] check_np(0x7ff7b10b4c88) vm_shared_region_start_address() returned 0x1
+[   48.151533]: ASP: AMFI pointer initialized
+[   48.377658]: shared_region: 0x755e045a1e9b19b9 [1(launchd)]: vnode_lookup(/System/Library/dyld/) failed (error=2)
+[   48.463103]: shared_region: 0x755e045a1e9b19b9 [1(launchd)]: vnode_lookup(/System/Library/dyld/) failed (error=2)
+[   48.548973]: shared_region: 0x755e045a1e9b19b9 [1(launchd)]: vnode_lookup(/System/Library/dyld/) failed (error=2)
+[   48.634221]: shared_region: 0x755e045a1e9b19b9 [1(launchd)]: vnode_lookup(/System/Library/dyld/) failed (error=2)
+[   48.719075]: shared_region: 0x755e045a1e9b19b9 [1(launchd)]: vnode_lookup(/System/Library/dyld/) failed (error=2)
+[   48.803196]: shared_region: 0x755e045a1e9b19b9 [1(launchd)]: vnode_lookup(/System/Library/dyld/) failed (error=2)
+[   48.874381]: shared_region: 0x755e045a1e9b19b9 [1(launchd)]: vnode_lookup(/System/Library/dyld/) failed (error=2)
+[   49.206290]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   49.295672]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   49.382582]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   49.485358]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   49.563873]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   49.647724]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   49.732306]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   49.834964]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   50.005357]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   50.201280]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   50.201467]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   50.201602]: release type: Userskip attaching fsw to lo0 using legacy TX model
+[   50.201721]: Reinit'd ND information for interface lo0
+[   50.201740]: Reinit'd ND information for interface lo0
+[   50.201787]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   50.201948]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   51.386576]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   51.472597]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   51.560836]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   51.729130]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   51.813153]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   51.900245]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   51.984070]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.066494]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.147869]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.254122]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.328822]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.404699]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.479346]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.552742]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.625826]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.698612]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.770504]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.841319]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.911462]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   52.981009]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.050216]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.119291]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.188039]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.260002]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.331625]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.402298]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.474329]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.544339]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.614084]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.683548]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   53.791968]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   53.855024]: vnode_create_internal: alias vnode (vid = 250699611) is in state of change (start) v_flags = 0x820 v_numoutput = 0
+[   53.923676]: vnode_create_internal: alias vnode (vid = 250699611), is in state of change (end) v_flags = 0x820 v_numoutput = 0
+[   54.001782]: vnode_create_internal: alias vnode (vid = 264764160) is in state of change (start) v_flags = 0x820 v_numoutput = 0
+[   54.080157]: vnode_create_internal: alias vnode (vid = 264764160), is in state of change (end) v_flags = 0x820 v_numoutput = 0
+[   54.168368]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   54.230193]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   54.303385]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   54.376896]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.450624]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.523114]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.593026]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.655629]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.714591]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.778539]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.842933]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.905551]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   54.967693]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.028336]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.090107]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.151791]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.210456]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.266860]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.321168]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.375151]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.430046]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.482227]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.533665]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.584310]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.632604]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.678407]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.724984]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.769270]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.813261]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.856830]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.899555]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   55.951077]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   55.992669]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   56.043972]: sendIONotification:3072: Sending notification about e0084006 for APFS snapshot 1.13
+[   56.073619]: sendIONotification:3078: Sending additional notification about e0084006 for the parent of APFS snapshot 1.13
+[   56.359656]: sendIONotification:3072: Sending notification about e0084007 for APFS snapshot 1.13
+[   56.402170]: sendIONotification:3078: Sending additional notification about e0084007 for the parent of APFS snapshot 1.13
+[   56.469022]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   56.560599]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   56.596757]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   56.642003]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   56.688173]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   56.733752]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   56.779296]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   56.823909]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   56.867143]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   56.908388]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   56.948362]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   56.987113]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.024441]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.061061]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.097551]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.131258]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.161709]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.192064]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.222219]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.251859]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.280503]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.309335]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.338138]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.366859]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.395214]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.423836]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.452358]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.480917]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.509583]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.538031]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.566697]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.595320]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.629236]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   57.657458]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   57.685949]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   57.715037]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.743481]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.772162]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.801052]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.829803]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.858667]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.887878]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.917029]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.945637]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   57.974519]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.003440]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.031894]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.060630]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.089630]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.118481]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.148471]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.176093]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.203749]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.230337]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.255875]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.280293]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.304923]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.329328]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.354162]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.378618]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.402944]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.427708]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.452148]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.502662]: spec_open : si_devbsdunit initialized to (0), throttle_mask is (0x3), isssd is (1)
+[   58.529337]: er_state_obj_get_for_recovery:8432: disk1s6 No ER state object for volume VM - rolling is not happening, nothing to recover.
+[   58.562317]: apfs_log_op_with_proc:3197: disk1s6 mounting volume VM, requested by: apfs_boot_util (pid 4); parent: launchd (pid 1)
+[   58.595553]: handle_mount:890: disk1s6 vol-uuid: UUID-181 block size: 4096 block count: 67205457 (unencrypted; flags: 0x1; features: 1.0.2)
+[   58.635984]: handle_mount:903: disk1s6 setting dev block size to 4096 from 512
+[   58.664089]: nx_volume_group_update:706: disk1s6 Volume VM role 0x8 is not a System or Data volume
+[   58.695943]: apfs_log_op_with_proc:3197: disk1s6 mount-complete volume VM, requested by: apfs_boot_util (pid 4); parent: launchd (pid 1)
+[   58.735001]: ioqueue_depth = 256,   ioscale = 8
+[   58.761246]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.796605]: kern_direct_file(/System/Volumes/VM/kernelcore): vp size 1048576, alloc 1048576, mp free 88243961856, keep free 1048576
+[   58.796958]: spec_open : si_devbsdunit initialized to (0), throttle_mask is (0x3), isssd is (1)
+[   58.835923]: er_state_obj_get_for_recovery:8432: disk1s5 No ER state object for volume Update - rolling is not happening, nothing to recover.
+[   58.835928]: apfs_log_op_with_proc:3197: disk1s5 mounting volume Update, requested by: apfs_boot_util (pid 4); parent: launchd (pid 1)
+[   58.835958]: handle_mount:890: disk1s5 vol-uuid: UUID-178 block size: 4096 block count: 67205457 (unencrypted; flags: 0x1; features: 1.0.2)
+[   58.836028]: handle_mount:903: disk1s5 setting dev block size to 4096 from 512
+[   58.836031]: nx_volume_group_update:706: disk1s5 Volume Update role 0xc0 is not a System or Data volume
+[   58.836039]: apfs_should_be_system_mount:735: disk1s5 volume with role 192 will be mounted until system shutdown
+[   58.836043]: apfs_log_op_with_proc:3197: disk1s5 mount-complete volume Update, requested by: apfs_boot_util (pid 4); parent: launchd (pid 1)
+[   58.836110]: ioqueue_depth = 256,   ioscale = 8
+[   58.836126]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.836294]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839445]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839528]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839585]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839646]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839731]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839776]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839813]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839841]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839868]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839900]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839934]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.839962]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.840010]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.840482]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.840501]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.845044]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.845078]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.845095]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.846106]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.846141]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.846155]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.846352]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.846367]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.846392]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.846405]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847347]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847380]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847393]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847567]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847581]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847606]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847620]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847847]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847877]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.847890]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848051]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848065]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848091]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848104]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848350]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848380]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848393]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848551]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848564]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848589]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.848602]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.854375]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.854409]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.854426]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.855411]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.855445]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.855458]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.855653]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.855667]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.855692]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.855705]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.856649]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.856682]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.856695]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.856875]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.856889]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.856915]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.856928]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857154]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857183]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857196]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857357]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857371]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857396]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857409]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857653]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857683]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857695]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857854]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857867]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857892]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.857905]: nx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.871672]: spec_open : si_devbsdunit initialized to (0), throttle_mask is (0x3), isssd is (1)
+[   58.872954]: er_state_obj_get_for_recovery:8432: disk1s7 No ER state object for volume Tahoe - Data - rolling is not happening, nothing to recover.
+[   58.872959]: apfs_log_op_with_proc:3197: disk1s7 mounting volume Tahoe - Data, requested by: apfs_boot_util (pid 7); parent: launchd (pid 1)
+[   58.873015]: handle_mount:890: disk1s7 vol-uuid: UUID-193 block size: 4096 block count: 67205457 (unencrypted; flags: 0x1; features: 1.0.12)
+[   58.873583]: handle_mount:903: disk1s7 setting dev block size to 4096 from 512
+[   58.873598]: nx_volume_group_update:795: disk1s7 Set volume (role 0x40) to 3fceb xid 0
+[   58.873697]: apfs_log_op_with_proc:3197: disk1s7 mount-complete volume Tahoe - Data, requested by: apfs_boot_util (pid 7); parent: launchd (pid 1)
+[   58.873925]: ioqueue_depth = 256,   ioscale = 8
+[   58.874559]: nx_volume_group_update:819: disk1s8 inode 1152921500312571433 already in stitched list
+[   58.874745]: data volume mounted; loading translation mappingsuccessfully parsed 38/38 xlate entriessystem data volume mountednx_volume_group_update:819: disk1s8 inode 1152921500311879702 already in stitched list
+[   58.928306]: compressor_store_stop_compaction = FALSE
+[   58.928588]: not enabling root translation: data volume is APFSSandbox apply: applekeystored[11] <bytes>"AppleKeyStore":pid:11,msgid:0,msgno:0:2662: Mapping volume without a valid persona.
+[   59.097568]: "AppleKeyStore":pid:11,msgid:0,msgno:0:2740: mapped uuid UUID-352 to bag -5, persona none, compressed uuid: 1006214388, flags: 1
+[   59.097571]: "AppleKeyStore":pid:11,msgid:0,msgno:0:4613: cmd: 18, booted_from: 1, result: 0
+[   59.097593]: "AppleKeyStore":pid:11,msgid:0,msgno:0:853: uuid[0000,0016): 3ffb9e30590d48adabf8ba009045bc63
+[   59.097596]: "AppleKeyStore":pid:11,msgid:0,msgno:0:2546: result = 1
+[   59.110870]: "AppleKeyStore":pid:11,msgid:0,msgno:0:885: vek_data cached
+[   59.110872]: "AppleKeyStore":pid:11,msgid:0,msgno:0:886: day change
+[   59.110882]: "AppleKeyStore":pid:11,msgid:0,msgno:0:2820: vek did not decrypt, result: -2, have_kek:0 (loaded locked volume bag)
+[   59.110884]: "AppleKeyStore":pid:11,msgid:0,msgno:0:2839: booted_from=1
+[   59.120749]: AMFI: [non-fatal] unable to accelerate context: com.apple.dirs_cleaner | 65285
+[   59.125956]: schedule_before_userret(0x2f7): 1/4 tasks scheduledhook_thread_userret calleduserret(0x2f7): invoking callback; 0/4 remainingschedule_before_userret(0x2f7): 1/4 tasks scheduledhook_thread_userret calleduserret(0x2f7): invoking callback; 0/4 remainingschedule_before_userret(0x2f7): 1/4 tasks scheduledhook_thread_userret calleduserret(0x2f7): invoking callback; 0/4 remaining[System Event] [59130265212] [INFO] [Subsystem: launchd] [Event: exclaves-boot] Doing boot task
+[   59.130274]: [System Event] [59130274427] [INFO] [Subsystem: launchd] [Event: fsck] Doing boot task
+[   59.130281]: [System Event] [59130281959] [INFO] [Subsystem: launchd] [Event: mount-phase-1] Doing boot task
+[   59.130290]: [System Event] [59130290481] [INFO] [Subsystem: launchd] [Event: data-protection] Doing boot task
+[   59.130295]: [System Event] [59130295459] [ERROR] [Subsystem: launchd] [Event: data-protection] posix_spawn(): 86: Bad CPU type in executable
+[   59.130300]: [System Event] [59130300711] [INFO] [Subsystem: launchd] [Event: detect-installed-roots] Doing boot task
+[   59.130314]: [System Event] [59130314585] [INFO] [Subsystem: launchd] [Event: select-boot-mode] Doing boot task
+[   59.130324]: [System Event] [59130324572] [INFO] [Subsystem: launchd] [Event: commit-boot-mode] Doing boot task
+[   59.130331]: [System Event] [59130331312] [INFO] [Subsystem: launchd] [Event: auto-pivot-root] Doing boot task
+[   59.130335]: [System Event] [59130335703] [INFO] [Subsystem: launchd] [Event: allow-non-platform-code] Doing boot task
+[   59.130343]: [System Event] [59130343454] [INFO] [Subsystem: launchd] [Event: restore-datapartition] Doing boot task
+[   59.130347]: [System Event] [59130347961] [INFO] [Subsystem: launchd] [Event: restore-datapartition] optional boot task not present
+[   59.130353]: [System Event] [59130353125] [INFO] [Subsystem: launchd] [Event: mount-phase-2] Doing boot task
+[   59.130357]: [System Event] [59130357562] [INFO] [Subsystem: launchd] [Event: enable-swap] Doing boot task
+[   59.130364]: [System Event] [59130364965] [INFO] [Subsystem: launchd] [Event: sandbox-enable-root-translation] Doing boot task
+[   59.130369]: [System Event] [59130369375] [INFO] [Subsystem: launchd] [Event: init-with-data-volume] Doing boot task
+[   59.130374]: [System Event] [59130374049] [INFO] [Subsystem: launchd] [Event: deferred_install] Doing boot task
+[   59.130378]: [System Event] [59130378448] [INFO] [Subsystem: launchd] [Event: deferred_install] optional boot task not present
+[   59.130384]: [System Event] [59130384588] [INFO] [Subsystem: launchd] [Event: MobileAssetEarlyBootTask] Doing boot task
+[   59.130389]: [System Event] [59130389142] [INFO] [Subsystem: launchd] [Event: fips] Doing boot task
+[   59.130393]: [System Event] [59130393577] [INFO] [Subsystem: launchd] [Event: keystore-init] Doing boot task
+[   59.130397]: [System Event] [59130397856] [INFO] [Subsystem: launchd] [Event: cache-start] Doing boot task
+[   59.130402]: [System Event] [59130402136] [INFO] [Subsystem: launchd] [Event: dirs_cleaner] Doing boot task
+[   59.130406]: [System Event] [59130406588] [INFO] [Subsystem: launchd] [Event: dirs_cleaner-usr] Skipping boot-task
+[   59.130814]: [System Event] [59130813967] [INFO] [Subsystem: launchd] [Event: xpcroleaccountd] Doing boot task
+[   59.142306]: [System Event] [59142305968] [INFO] [Subsystem: launchd] [Event: init_featureflags] Doing boot task
+[   59.143539]: AMFI: [non-fatal] unable to accelerate context: com.apple.init_featureflags | 65285
+[   59.147288]: apfs_is_graft_supported:14638: disk1s7 grafting is not allowed on a software crypto DATA volume
+[   59.157714]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x2a0064
+[   59.157723]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   59.158685]: cryptoAlloc:626: Using 64 buffers with size 16384, 512 buffers size 65536
+[   59.160817]: identified disk2 (0x100000e) as removableidentified disk2 (0x100000e) as a disk imagedev_init:296: disk2 device accelerated crypto: 0 (compiled @ Aug 18 2026 16:33:34)
+[   59.161296]: dev_init:299: disk2 device_handle block size 4096 block count 1024 features 0 external 
+[   59.161322]: nx_mount:1230: disk2 initializing cache w/hash_size 8192 and cache size 32768
+[   59.162396]: nx_checkpoint_find_valid_checkpoint:590: disk2 probe of external device... skipping recent sanity checks.
+[   59.162399]: nx_checkpoint_find_valid_checkpoint:594: disk2 Marking container for reconciliation.
+[   59.162401]: nx_mount:1548: disk2 checkpoint search: largest xid 31, best xid 31 @ 1
+[   59.162405]: nx_mount:1575: disk2 stable checkpoint indices: desc 0 data 35
+[   59.162584]: probe:4660: disk2 Caching container info for external media disk2
+[   59.162800]: identified disk3 (0x100000f) as removableidentified disk3 (0x100000f) as a disk imageidentified disk3s1 (0x1000010) as removableidentified disk3s1 (0x1000010) as a disk imagespec_open : si_devbsdunit initialized to (2), throttle_mask is (0xc), isssd is (0)
+[   59.165810]: spec_open : si_devbsdunit initialized to (2), throttle_mask is (0xc), isssd is (0)
+[   59.165967]: dev_init:296: disk3 device accelerated crypto: 0 (compiled @ Aug 18 2026 16:33:34)
+[   59.165974]: dev_init:299: disk3 device_handle block size 4096 block count 1024 features 0 external 
+[   59.166103]: nx_mount:1230: disk3 initializing cache w/hash_size 8192 and cache size 32768
+[   59.167567]: nx_checkpoint_find_valid_checkpoint:599: disk3 sanity checking all recently-changed container state... please be patient.
+[   59.167947]: nx_mount:1548: disk3 checkpoint search: largest xid 31, best xid 31 @ 1
+[   59.167952]: nx_mount:1575: disk3 stable checkpoint indices: desc 0 data 35
+[   59.168050]: apfs_vfsop_mount:2808: Validating payload and manifest for authenticated snapshot mount ...
+[   59.168252]: root_hash_execution_cb_mobile_asset:3335: image4_trust_evaluate: successfully validated the payload and the manifest
+[   59.168421]: er_state_obj_get_for_recovery:8432: disk3s1 No ER state object for volume Creedence11M6270.SECUREPKITRUSTSTOREASSETS_SECUREPKITRUSTSTORE_Cryptex - rolling is not happening, nothing to recover.
+[   59.168424]: apfs_log_op_with_proc:3197: disk3s1 mounting volume Creedence11M6270.SECUREPKITRUSTSTOREASSETS_SECUREPKITRUSTSTORE_Cryptex, requested by: MobileAssetEarlyBootTask (pid 9); parent: launchd (pid 1)
+[   59.168458]: is_root_hash_authentication_required_osx:444: disk3s1 Release kext with internal build: 0, ARV disabled: 1, booting xid: 0
+[   59.468600]: [System Event] [59468600820] [INFO] [Subsystem: launchd] [Event: EndpointSecurity] Doing boot task
+[   59.491444]: [System Event] [59491444227] [INFO] [Subsystem: launchd] [Event: rc.server] Doing boot task
+[   59.491823]: [System Event] [59491823508] [INFO] [Subsystem: launchd] [Event: rc.server] optional boot task not present
+[   59.494059]: AMFI: [non-fatal] unable to accelerate context: com.apple.tzinit | 65285
+[   69.234314]: max io 0x80000 bytes
+[   69.234320]: kern_open_file_for_direct_io(<ptr>, 0)
+[   69.234323]: kern_open_file_for_direct_io took 10437 ms
+[   69.234325]: kern_open_file_for_direct_io took 10437 ms
+[   69.234326]: Opened file /System/Volumes/VM/kernelcore, size 1048576, extents 1, maxio 80000 ssd 1
+[   69.234329]: Opened file /System/Volumes/VM/kernelcore, size 1048576, extents 1, maxio 80000 ssd 1
+[   69.234374]: polled file major 1, minor 0, blocksize 4096, pollers 3
+[   69.234377]: polled file major 1, minor 0, blocksize 4096, pollers 3
+[   69.234382]: SMCPI::probe ERROR: kRootDomainSleepReasonKey not found
+[   69.234454]: Opened corefile of size 1 MB
+[   73.692782]: is_root_hash_authentication_required:614: disk3s1 Generic, root hash authentication is required
+[   73.772567]: handle_mount:808: disk3s1 Validating the root hash for authenticated mount ...
+[   73.850148]: is_root_hash_authentication_required_osx:444: disk3s1 Release kext with internal build: 0, ARV disabled: 1, booting xid: 0
+[   73.935486]: is_root_hash_authentication_required:614: disk3s1 Generic, root hash authentication is required
+[   74.017504]: authenticate_root_hash:699: disk3s1 successfully validated on-disk root hash
+[   74.097225]: handle_mount:890: disk3s1 vol-uuid: UUID-369 block size: 4096 block count: 1024 (unencrypted; flags: 0x1; features: 28.0.2)
+[   74.195940]: handle_mount:903: disk3s1 setting dev block size to 4096 from 512
+[   74.195949]: nx_volume_group_update:706: disk3s1 Volume Creedence11M6270.SECUREPKITRUSTSTOREASSETS_SECUREPKITRUSTSTORE_Cryptex role 0x0 is not a System or Data volume
+[   74.195980]: apfs_log_op_with_proc:3197: disk3s1 mount-complete volume Creedence11M6270.SECUREPKITRUSTSTOREASSETS_SECUREPKITRUSTSTORE_Cryptex, requested by: MobileAssetEarlyBootTask (pid 9); parent: launchd (pid 1)
+[   74.898319]: /usr/libexec/dirhelper set rootless flags on /private/var/folders/zz with flags=1048576AMFI: [non-fatal] unable to accelerate context: com.apple.rootless-init | 65285
+[   75.018052]: AMFI: [non-fatal] unable to accelerate context: com.apple.prng_seedctl | 65285
+[   75.301246]: AMFI: [non-fatal] unable to accelerate context: com.apple.dynamic_pager | 65285
+[   75.301505]: AMFI: [non-fatal] unable to accelerate context: com.apple.KernelEventAgent | 65285
+[   75.302249]: AMFI: [non-fatal] unable to accelerate context: com.apple.Installer-Progress | 65285
+[   75.310374]: /usr/libexec/sandboxd[165] ==> com.apple.sandboxdSandbox apply: corebrightnessd[166] com.apple.corebrightnessdSandbox apply: endpointsecurityd[110] com.apple.endpointsecurity.endpointsecuritydSandbox apply: notifyd[164] <bytes>AMFI: [non-fatal] unable to accelerate context: com.apple.warmd | 65285
+[   75.355735]: Sandbox apply: logd[96] <bytes>Sandbox apply: wifiFirmwareLoader[100] <bytes>AMFI: [non-fatal] unable to accelerate context: com.apple.MRT | 65285
+[   75.563832]: net_filter_event: new state (0x1) pfSandbox: logd(96) deny(1) network-inbound /private/var/run/syslogAppleCredentialManagerUserClient: start: SUID=-1.
+[   75.624575]: AppleCredentialManagerUserClient: start: SUID=-1.
+[   75.638389]: Sandbox apply: opendirectoryd[139] com.apple.opendirectorydClient connected (pid 122 cdhash 0f748ca675463b3c786138d3d8bf13fc124473c6)
+[   75.641997]: calling mpo_policy_init for EndpointSecurity
+[   75.642005]: Security policy loaded: Endpoint Security Kernel Extension (EndpointSecurity)
+[   75.643127]: Client disconnected (pid 122, watchdogd)
+[   75.643377]: Client connected (pid 122 cdhash 0f748ca675463b3c786138d3d8bf13fc124473c6)
+[   75.644056]: Client disconnected (pid 122, watchdogd)
+[   75.644211]: Client connected (pid 122 cdhash 0f748ca675463b3c786138d3d8bf13fc124473c6)
+[   75.644805]: Client disconnected (pid 122, watchdogd)
+[   75.653477]: disallowing unsupported code signature page shift: 14
+[   75.653505]: unable to create a validated cs_blob object: 85
+[   75.673647]: process_is_plugin_host: running binary "loginwindow" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validationSandbox apply: securityd[144] <bytes>disallowing unsupported code signature page shift: 14
+[   75.685447]: unable to create a validated cs_blob object: 85
+[   75.690000]: ifclassq instance <ptr> createdSK[0]: nxprov_params_adjust           nxdom "netif" (<ptr>) type 2
+[   75.690045]: SK[0]: nxprov_params_adjust           nxp "com.apple.netif.en0" (0) flags 0x2
+[   75.690047]: SK[0]: nxprov_params_adjust             req 0x20000 rings 1/1/0/0/0 slots 512/1024/0/0/0 buf 128 type 2 subtype 2 stats 0 flowadv_max 0 nexusadv_size 0 capabs 0x4 pipes 0 extensions 0 max_frags 1 headguard 0 tailguard 0 large_buf 0
+[   75.690056]: SK[0]: nxprov_create_common           nxprov 0 UUID UUID-401
+[   75.690061]: SK[0]: nx_netif_prov_nx_ctor          nexus 0 (com.apple.nexus.netif.compat)
+[   75.690065]: SK[0]: nx_netif_prov_nx_ctor          create new netif 0 for nexus 0
+[   75.690068]: SK[0]: nx_create                      nexus 0 (netif:com.apple.nexus.netif.compat) UUID UUID-402
+[   75.690213]: igmp_domifattach: called for ifp en
+[   75.690221]: igmp_domifattach: allocated igmp_ifinfo for ifp en
+[   75.690223]: mld_domifattach: called for ifp en0
+[   75.690225]: mld_domifattach: allocated mld_ifinfo for ifp en0
+[   75.690226]: ifnet_attach: All kernel threads created for interface en0 have been scheduled at least once. Proceeding.
+[   75.690241]: en0: attached
+[   75.690292]: [PCIe:0 75690292031 ns] [childPublished()] child en0(0x100000466) published
+[   75.690451]: IOTimeSyncClockManager::matched first IONF interface
+[   75.693625]: AMFI: [non-fatal] unable to accelerate context: com.apple.automount | 65285
+[   75.703630]: disallowing unsupported code signature page shift: 14
+[   75.703656]: unable to create a validated cs_blob object: 85
+[   75.708887]: AMFI: [non-fatal] unable to accelerate context: com.apple.usbmuxd | 65285
+[   75.709877]: AMFI: [non-fatal] unable to accelerate context: com.apple.distnoted | 65285
+[   75.723272]: Sandbox apply: dasd[150] <bytes>Sandbox apply: cfprefsd[207] <bytes>Sandbox apply: kernelmanagerd[128] <bytes>RTC: getGMTTimeOfDay 1792506317
+[   75.736710]: Sandbox apply: distnoted[153] <bytes>Sandbox apply: apsd[140] <bytes>AppleCredentialManagerUserClient: start: SUID=-1.
+[   75.737026]: PMRD: power event 4 args 0x755e0463b81c1081 0x0
+[   75.737080]: ACMTRM: _onDaemonStarted: registering TRM notifiers.
+[   75.737127]: ACMTRM: _registerBioNotifier: Biometric driver not detected.
+[   75.737130]: ACMTRM: _onDaemonStarted: starting TRM policy engine.
+[   75.737131]: ACMTRM: _onDaemonStarted: entering startup thread (startupFlags=0x0).
+[   75.737140]: AssertMacros: consoleUsersPropertyObject (value: 0x0), ---, file: /AppleInternal/Library/BuildRoots/4~CWl-ugDfX-JDid9EtaObKvD0TdynGRYfAiaAJcA/Library/Caches/com.apple.xbs/TemporaryDirectory.BNZ7F2/Sources/AppleCredentialManager/AppleCredentialManager/Services/ACMRestrictedModeKernelService.cpp:3879
+[   75.737147]: ACMTRM: _startupThreadCallHandler: _currentDeviceStateFromConsoleUsers() -> 0x0.
+[   75.737168]: ACMTRM: _startPolicy: startingInBaseSystem=NO startingInNormalOS=YES pivotingToNormalOS=NO | startupFlags=0x0 | initial deviceLockState=LOCKED(1) keybagState=0x0 consoleState=0x0.
+[   75.737172]: ACMTRM-S: _loadAll: called, isLockerAvailable=NO.
+[   75.737174]: ACM: TRMAccCache_SetupEmpty: called, cacheSize=48 expiration=2592000.
+[   75.737177]: ACMTRM-S: _reloadFromDaemon: skipping *policy* <- daemon (gen=0 osLen=105).
+[   75.737179]: ACMTRM-S: _reloadFromDaemon: fetching *analytics* <- daemon (gen=0 osLen=400 dataLen=400 ver=1).
+[   75.737183]: ACMTRM-A: reloadAnalytics: *analytics* successfully loaded.
+[   75.737185]: ACMTRM-A: setProperty: propCollectionPeriod=86400 (prev=0).
+[   75.737186]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737190]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737193]: ACMTRM-A: setProperty: propPolicyModeTimeout=604800 (prev=0).
+[   75.737194]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737195]: ACMTRM-A: setProperty: propGracePeriodBoundedTimeout=259200 (prev=0).
+[   75.737196]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737197]: ACMTRM-A: incrementCounter: cntDaemonStarted=9.
+[   75.737198]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737200]: ACMTRM-A: stopSegment: segDeviceLockState_Unlocked: count=9 totalDuration=52989 (origStartTime=1792505536 lastDuration=781).
+[   75.737202]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737203]: ACMTRM-A: resumeSegment: segDeviceLockState_Locked: count=10 totalDuration=1381 startTime=1792506317.
+[   75.737206]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737207]: ACMTRM: _logPolicy: LOADED: ver=0 smTm=0 poRsn=0 gpTm=0 smExp=NO gpBlk=NO suTm=0 svTm=0 gpRsn=0 cMs=NO upTm=0 disBy=0 rpTm=0 crTm=0 pFlg=0 maxVer=0.
+[   75.737211]: ACMTRM: _logConfig: LOAD-EXIT: ver=4 flg=0 gSw=1 GP=2 prePro=2(d=2) hSw=2 Pro=2(d=2).
+[   75.737213]: ACMTRM-A: setProperty: propGracePeriodTimeout=259200 (prev=0).
+[   75.737214]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737216]: ACMTRM: _mapAndPublishTRM: set TRM_GracePeriodTimeout = 259200.
+[   75.737221]: ACMTRM: _mapAndPublishTRM: sent kACMTRMMessage_PropertyChanged(#changes=1) while LOCKED(1), TRM: 604800/U(0) 259200/-(255) M=255/4294967295/4294967295 ---(255)/---(255) L=255 BS=255 R=255 RP=259200/255 UP=86400/255, CUR: U(0) -(255).
+[   75.737226]: ACMTRM: _notifyClientsLocalHelper: sent kIOMessageServicePropertyChange(0xe0000130) -> 0xe00002c7.
+[   75.737228]: ACMTRM-A: setProperty: propPolicyDisabledByBits=280 (prev=0).
+[   75.737229]: ACMTRM-S: setData: saving *analytics* (dataLen=400) in 3 seconds (fullSync: NO -> NO).
+[   75.737231]: ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=118, DISABLED BY: Def=N Arg=N HW=Y DT=Y Env=N Ext=N Dev=N SEP=Y SR=N | MC=N* DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+[   75.737234]: ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=118, DISABLED BY: Def=N Arg=N HW=Y DT=Y Env=N Ext=N Dev=N SEP=Y SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N SC=N AS=N* IB=N DM=N).
+[   75.737236]: ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=118, DISABLED BY: Def=N Arg=N HW=Y DT=Y Env=N Ext=N Dev=N SEP=Y SR=N | MC=N DW=N CB=N GS=N CP=N BS=N MB=N* SC=N AS=N IB=N DM=N).
+[   75.737238]: ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=118, DISABLED BY: Def=N Arg=N HW=Y DT=Y Env=N Ext=N Dev=N SEP=Y SR=N | MC=N DW=N CB=N GS=N* CP=N BS=N MB=N SC=N AS=N IB=N DM=N).
+[   75.737240]: ACMTRM: _disableBy: [TRM ENABLED=NO] (mask=118, DISABLED BY: Def=N Arg=N HW=Y DT=Y Env=N Ext=N Dev=N SEP=Y SR=N | MC=N DW=N CB=N GS=N CP=N* BS=N MB=N SC=N AS=N IB=N DM=N).
+[   75.737243]: ACMTRM-C: onPolicyStarted: *acc-cache* not found.
+[   75.737244]: ACMTRM: _startPolicy: timePolicyViolated=NO (saveTime=0 bootCalTime=1792506317 (delta=1792506317) bootUpTime=75 nowUp=1792506317).
+[   75.737247]: ACMTRM: _startPolicy: policyViolated=NO (timePolicyViolated=NO passcodeThreshold=NO corruptedStateDetected=NO unexpectedShutdownDetected=NO).
+[   75.737250]: ACMTRM: _publish: _startPolicy LOCKED(1) reason=0 en=NO pro=2/2 pasThr=NO kb=0 con=0 poRsn=0 smExp=NO gpBlk=NO miss=NO seen=0 now=1792506317(0) | PMT=0/0 GPT=0/0/(0) RPT=0/0 UPT=0/0.
+[   75.737257]: ACMTRM: _mapAndPublishTRM: set TRM_CacheMiss = False.
+[   75.737263]: ACMTRM: _mapAndPublishTRM: set TRM_CacheMissThreshold = 5.
+[   75.737265]: ACMTRM: _mapAndPublishTRM: set TRM_CacheMissCount = 0.
+[   75.737267]: ACMTRM: _mapAndPublishTRM: set TRM_ConfigProfile = AskForNewAccessories(2).
+[   75.737269]: ACMTRM: _mapAndPublishTRM: set TRM_EffectiveConfigProfile = AskForNewAccessories(2).
+[   75.737271]: ACMTRM: _mapAndPublishTRM: set TRM_DeviceLocked = True.
+[   75.737273]: ACMTRM: _mapAndPublishTRM: set TRM_BaseSystem = False.
+[   75.737275]: ACMTRM: _mapAndPublishTRM: set TRM_Recovery = False.
+[   75.737277]: ACMTRM: _mapAndPublishTRM: set TRM_RelaxedPeriod = False.
+[   75.737279]: ACMTRM: _mapAndPublishTRM: set TRM_UnlockedPeriod = False.
+[   75.737283]: ACMTRM: _mapAndPublishTRM: sent kACMTRMMessage_PropertyChanged(#changes=10) while LOCKED(1), TRM: 604800/U(0) 259200/-(255) M=0/5/0 AFNA(2)/AFNA(2) L=1 BS=0 R=0 RP=259200/0 UP=86400/0, CUR: U(0) X(0).
+[   75.737287]: ACMTRM: _notifyClientsLocalHelper: sent kIOMessageServicePropertyChange(0xe0000130) -> 0xe00002c7.
+[   75.737289]: ACMTRM: _logPolicy: SAVING: ver=17 smTm=0 poRsn=0 gpTm=0 smExp=NO gpBlk=NO suTm=0 svTm=1792506317 gpRsn=0 cMs=NO upTm=0 disBy=118 rpTm=0 crTm=1792506317 pFlg=0 maxVer=17.
+[   75.737292]: ACMTRM-S: setData: saving *policy* (dataLen=105) in 3 seconds (fullSync: NO -> NO).
+[   75.737305]: ACMTRM-C: notifyClients_AccCache_Refreshed: sent kACMTRMMessage_AccCache_Refreshed(0) 0xe3ff8101 -> 0xe00002c7.
+[   75.737307]: ACMTRM: _isTRMEnrollmentNeeded: enrollmentReason: eraseInstall=YES updatingFromPreTRMSystem=NO.
+[   75.737308]: ACMTRM: _isTRMEnrollmentNeeded: enrollmentNeeded=YES (loadedVersion=0).
+[   75.737310]: ACMTRM: _startTRMEnrollment: set TRM_EnrollmentPending = True.
+[   75.737318]: ACMTRM: _notifyClientsLocalHelper: sent kACMTRMMessage_PropertyChanged(0xe3ff8050) -> 0xe00002c7.
+[   75.737320]: ACMTRM: _notifyClientsLocalHelper: sent kIOMessageServicePropertyChange(0xe0000130) -> 0xe00002c7.
+[   75.737322]: ACMTRM: _isHIDRMEnrollmentNeeded: enrollmentReason: eraseInstall=YES updatingFromPreHIDRMSystem=NO.
+[   75.737323]: ACMTRM: _isHIDRMEnrollmentNeeded: enrollmentNeeded=YES (loadedVersion=0).
+[   75.737324]: ACMTRM: _startHIDRMEnrollment: set HIDRM_EnrollmentPending = True.
+[   75.737328]: ACMTRM: _notifyClientsLocalHelper: sent kACMHIDRMMessage_PropertyChanged(0xe3ff8051) -> 0xe00002c7.
+[   75.737330]: ACMTRM: _notifyClientsLocalHelper: sent kIOMessageServicePropertyChange(0xe0000130) -> 0xe00002c7.
+[   75.737332]: ACMTRM: _notifyClientsLocalHelper: sent kACMHIDRMMessage_EnrollmentPending(0xe3ff8201) -> 0xe00002c7.
+[   75.738950]: PMRD: power event 6 args 0x755e045a1ebb42b1 0x0
+[   75.738956]: PMRD: power event 6 args 0x755e045a1ebb42b1 0x0
+[   75.738965]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x302) tag 0x2b0064
+[   75.738989]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[   75.739276]: [PCIe:0 75739276642 ns] [childPublished()] child MtkWlanNativeIf(0x1000004aa) published
+[   75.739284]: [PCIe:0 75739284422 ns] [childPublished()] child en1(0x1000004ee) published
+[   75.739343]: getFeatureFlags@3189: Enabling 'kFeatureOnDemandInterfaceEnable', '' ifId[0] role[1]
+[   75.739359]: SK[16]: nxctl_create                   nxctl 0 UUID UUID-403
+[   75.739368]: SK[16]: nxprov_params_adjust           nxdom "netif" (<ptr>) type 2
+[   75.739371]: SK[16]: nxprov_params_adjust           nxp "MtkWlanNativeIf.en1" (0) flags 0x6
+[   75.739372]: SK[16]: nxprov_params_adjust             req 0x0 rings 2/2/0/0/0 slots 2/2/0/0/0 buf 2048 type 2 subtype 2 stats 0 flowadv_max 0 nexusadv_size 112 capabs 0x4 pipes 0 extensions 0 max_frags 1 headguard 0 tailguard 0 large_buf 0
+[   75.739378]: SK[16]: nxprov_create_common           nxprov 0 UUID UUID-404
+[   75.739391]: ifclassq instance <ptr> createdSK[16]: nx_netif_prov_nx_ctor          nexus 0 (IOSkywalkNetworkNexusDomainProvider)
+[   75.739428]: SK[16]: nx_netif_prov_nx_ctor          create new netif 0 for nexus 0
+[   75.739430]: SK[16]: nx_create                      nexus 0 (netif:IOSkywalkNetworkNexusDomainProvider) UUID UUID-405
+[   75.739434]: getFeatureFlags@3189: Enabling 'kFeatureOnDemandInterfaceEnable', 'en1' ifId[0] role[1]
+[   75.739436]: getFeatureFlags@3189: Enabling 'kFeatureOnDemandInterfaceEnable', 'en1' ifId[0] role[1]
+[   75.739621]:  Creating all peerManager reporters
+[   75.739625]: IO80211PeerManager::createDefaultReportersAndLegend(7222) Created OSSet <ptr> for role 1 en1
+[   75.739627]: IO80211PeerManager::createDefaultReportersAndLegend(7230) Adding _unicastPeer <ptr> for role 1 en1
+[   75.739631]: com.apple.p2p.en1: IO80211Peer::createIOReporters <en1> peer 0: 00:00:00:00:00:00 getPeerManager 0x22d3375206d24175
+[   75.739681]: com.apple.p2p.en1: IO80211Peer::createIOReporters success
+[   75.739684]: com.apple.p2p.en1: IO80211Peer::createIOReporters <en1> peer 0: 00:00:00:00:00:00 _statsIDValid 1 _statsID 1
+[   75.739686]: IO80211PeerManager::createDefaultReportersAndLegend(7234) Adding _multicastPeer <ptr> for role 1 en1
+[   75.739688]: com.apple.p2p.en1: IO80211Peer::createIOReporters <en1> peer 15: FF:FF:FF:FF:FF:FF getPeerManager 0x22d3375206d24175
+[   75.739704]: com.apple.p2p.en1: IO80211Peer::createIOReporters success
+[   75.739705]: com.apple.p2p.en1: IO80211Peer::createIOReporters <en1> peer 15: FF:FF:FF:FF:FF:FF _statsIDValid 1 _statsID 0
+[   75.740012]: igmp_domifattach: called for ifp en
+[   75.740015]: igmp_domifattach: allocated igmp_ifinfo for ifp en
+[   75.740016]: mld_domifattach: called for ifp en1
+[   75.740017]: mld_domifattach: allocated mld_ifinfo for ifp en1
+[   75.740019]: ifnet_attach: All kernel threads created for interface en1 have been scheduled at least once. Proceeding.
+[   75.740036]: en1: attached
+[   75.740428]: [PCIe:0 75740428541 ns] [childPublished()] child IOSkywalkNetworkBSDClient(0x10000052a) published
+[   75.743636]: successfully truncated <redacted> to 39 bytessuccessfully truncated <redacted> to 16 bytesSandbox apply: tccd[205] <bytes>"AppleKeyStore":pid:118,sel:7:8088: unexpected session uid: -1 requested by: keybagd (118)
+[   75.744550]: "AppleKeyStore":pid:118,:13297: operation failed (sel: 7 ret: e00002c2, -1)
+[   75.745196]: Client connected (pid 138 cdhash c81f981f27ca93bd1140d040e7651edbcaaa927e)
+[   75.745892]: successfully truncated <redacted> to 920 bytesClient connected (pid 138 cdhash c81f981f27ca93bd1140d040e7651edbcaaa927e)
+[   75.747230]: Client connected (pid 138 cdhash c81f981f27ca93bd1140d040e7651edbcaaa927e)
+[   75.749181]: AMFI: [non-fatal] unable to accelerate context: com.apple.coreservicesd | 65285
+[   75.749800]: ALUC:init(pid: 211 pidversion: 382), fskitd_entitled 1 fsmodule_entitled 0 support_block_resource 0
+[   75.749828]: methodSetClientDomain entered
+[   75.749832]: registerNotificationPort entered
+[   75.750649]: Sandbox apply: AirPlayXPCHelper[167] <bytes>Sandbox apply: mds[126] <bytes>successfully truncated <redacted> to 0 bytesSandbox apply: WindowServer[204] <bytes>Sandbox apply: fskitd[211] <bytes>Sandbox apply: securityd_system[212] <bytes>Couldn't obtain preoslog region: result = -1, preoslog_pa = 0, preoslog_size = 0
+[   75.772337]: AMFI: [non-fatal] unable to accelerate context: com.apple.digest-service | 65285
+[   75.780135]: Sandbox apply: coreservicesd[213] <bytes>PMRD: power event 12 args 0x755e045eeb576d11 0x0
+[   75.800992]: PMRD: SleepWake UUID queued: UUID-406
+[   75.802131]: "AppleKeyStore":pid:216,sel:7:8088: unexpected session uid: -1 requested by: powerexperienced (216)
+[   75.802144]: "AppleKeyStore":pid:216,:13297: operation failed (sel: 7 ret: e00002c2, -1)
+[   75.803445]: Starting poll type 1
+[   75.803471]: Restarting poll type 1
+[   75.803486]: Transaction triggered Starting poll type 1
+[   75.803939]: AppleSmartBattery::pollBatteryState already polling (1 <= 2). Restarting poll
+[   75.803957]: Restart poll type 1
+[   75.804036]: Restarting poll type 1
+[   75.810387]: PMRD: power event 5 args 0x755e0463b81c1081 0x0
+[   75.811081]: AppleSmartBattery::pollBatteryState already polling (1 <= 2). Restarting poll
+[   75.811091]: Restart poll type 1
+[   75.811278]: AppleSmartBattery::pollBatteryState already polling (1 <= 2). Restarting poll
+[   75.811293]: Restart poll type 1
+[   75.812355]: PMRD: setAggressiveness(0) kPMMinutesToSleep = 0
+[   75.812363]: PMRD: setAggressiveness(0) kPMMinutesToDim = 0
+[   75.812665]: PMRD: aggressiveness changed: system 0->0, display 0
+[   75.812690]: PMRD: idle time -> 0 ms (ena 0)
+[   75.812697]: PMRD: extra sleep timer changed
+[   75.819001]: AppleSmartBattery::pollBatteryState already polling (1 <= 4). Restarting poll
+[   75.819014]: Restart poll type 1
+[   75.819018]: "AppleKeyStore":pid:111,sel:7:8088: unexpected session uid: -1 requested by: powerd (111)
+[   75.819028]: "AppleKeyStore":pid:111,:13297: operation failed (sel: 7 ret: e00002c2, -1)
+[   75.819896]: Sandbox apply: containermanagerd_system[215] <bytes>PMRD: power event 5 args 0x755e0463b81c1081 0x0
+[   75.824026]: PMRD: setAggressiveness(0) kPMMinutesToSleep = 0
+[   75.824043]: PMRD: setAggressiveness(0) kPMMinutesToDim = 0
+[   75.826481]: Sandbox: AirPlayXPCHelper(167) deny(1) mach-lookup com.apple.securityd.xpcPMRD: setAggressiveness(0) kPMMinutesToSleep = 0
+[   75.827479]: Sandbox apply: contextstored[137] <bytes>AMFI: [non-fatal] unable to accelerate context: com.apple.kextload | 65285
+[   75.832817]: MtkWlanNative: if:bsd interface seen (command c02c6938)
+[   75.832856]: MtkWlanNative: if:first media query result=0
+[   75.841178]: AMFI: [non-fatal] unable to accelerate context: com.apple.systemkeychain | 65285
+[   75.841779]: Sandbox apply: usbmuxd[143] <bytes>com.apple.p2p.stats.en1: [configd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[   75.842993]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   75.843960]: MtkWlanNative: ioctl:CARD_CAPABILITIES answered
+[   75.843973]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   75.845011]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   75.846039]: com.apple.p2p.stats.en1: IOUC-WIFI: [configd] virtual IOReturn IO80211APIUserClient::clientClose()
+[   75.846130]: IO80211APIUserClient::stop(806) _onWLANQueue(1)
+[   75.846154]: IO80211APIUserClient::free
+[   75.847872]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashschedule_before_userret(0x509): 1/4 tasks scheduledhook_thread_userret calleduserret(0x509): invoking callback; 0/4 remaining"AppleKeyStore":pid:215,sel:17:8088: unexpected session uid: -1 requested by: containermanagerd_system (215)
+[   75.856951]: "AppleKeyStore":pid:215,:13297: operation failed (sel: 17 ret: e00002c2, -1)
+[   75.866148]: process_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashSandbox apply: runningboardd[221] <bytes>Restarting poll type 1
+[   75.880903]: "AppleKeyStore":pid:216,sel:7:8088: unexpected session uid: -1 requested by: powerexperienced (216)
+[   75.880910]: "AppleKeyStore":pid:216,:13297: operation failed (sel: 7 ret: e00002c2, -1)
+[   75.881086]: process_is_plugin_host: running binary "coreaudiod" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validationSandbox apply: nehelper[225] <bytes>"AppleKeyStore":pid:98,sel:7:8088: unexpected session uid: -1 requested by: UserEventAgent (98)
+[   75.901261]: "AppleKeyStore":pid:98,:13297: operation failed (sel: 7 ret: e00002c2, -1)
+[   75.910478]: Sandbox: usbmuxd(143) deny(1) network-inbound /private/var/run/usbmuxdSandbox apply: analyticsd[210] <bytes>Sandbox apply: trustd[230] <bytes>Sandbox apply: coreaudiod[229] <bytes>AMFI: [non-fatal] unable to accelerate context: com.apple.trustdFileHelper | 65285
+[   75.933208]: Sandbox apply: airportd[227] <bytes>Sandbox apply: trustdFileHelper[238] <bytes>process_is_plugin_host: running binary "authd" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validationAMFI: [non-fatal] unable to accelerate context: com.apple.audio.Core-Audio-Driver-Service | 65285
+[   75.976147]: process_is_plugin_host: running binary "com.apple.audio.Core-Audio-Drive" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationSandbox apply: mDNSResponder[237] <bytes>Sandbox: contextstored(137) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   75.982101]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   75.993996]: Sandbox apply: authd[245] <bytes>AMFI: [non-fatal] unable to accelerate context: com.apple.mDNSResponderHelper | 65285
+[   76.028924]: 1 duplicate report for Sandbox: contextstored(137) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: trustd(230) deny(1) iokit-get-properties iokit-class:IOService property:osenvironmentSandbox apply: mDNSResponderHelper[247] <bytes>Sandbox: mDNSResponderHelper(247) deny(1) file-read-data /Library/Preferences/com.apple.security.plistSandbox: mDNSResponderHelper(247) deny(1) user-preference-read com.apple.securitySandbox: trustd(230) deny(1) file-write-create /private/var/empty/Library3 duplicate reports for Sandbox: trustd(230) deny(1) file-write-create /private/var/empty/LibrarySandbox: mDNSResponder(237) deny(1) mach-lookup com.apple.duetactivityschedulerSandbox apply: locationd[146] <bytes>Sandbox apply: nesessionmanager[147] <bytes>Sandbox apply: biomed[244] <bytes>Sandbox apply: nsurlsessiond[251] <bytes>Sandbox apply: VDCAssistant[254] <bytes>Sandbox: biomed(244) deny(1) file-issue-extension target:/private/var/db/biome/Library/Preferences/com.apple.biomed.plist extension-class:com.apple.cfprefsd.readSandbox: biomed(244) deny(1) file-issue-extension target:/private/var/db/biome/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: biomed(244) deny(1) file-issue-extension target:/private/var/db/biome/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.readSandbox: contextstored(137) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.099892]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.101108]: 1 duplicate report for Sandbox: contextstored(137) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: nesessionmanager(147) deny(1) ipc-posix-shm-write-create com.apple.AppleDatabaseChangedSandbox: locationd(146) deny(1) mach-lookup com.apple.CoreLocation.agentSandbox: contextstored(137) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.112917]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.113054]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.113107]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.113241]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.113326]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.113472]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.113618]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.114104]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.114192]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.114787]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.114890]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.116011]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.116099]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.118706]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.118816]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.120326]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.120407]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.120572]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.120749]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.120931]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.121056]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.121185]: 21 duplicate reports for Sandbox: contextstored(137) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: contextstored(137) deny(1) mach-lookup com.apple.tccd.system1 duplicate report for Sandbox: contextstored(137) deny(1) mach-lookup com.apple.tccd.systemSandbox: contextstored(137) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.122808]: IOUC AppleKeyStoreUserClient failed MACF in process pid 137, contextstored
+[   76.123144]: 1 duplicate report for Sandbox: contextstored(137) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: locationd(146) deny(1) mach-lookup com.apple.PowerManagement.controlSandbox apply: sysextd[256] <bytes>process_is_plugin_host: running binary "com.apple.audio.Core-Audio-Drive" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationSandbox apply: PerfPowerServices[155] <bytes>virtual bool CoreAnalyticsPipe::checkForWork()::193:starting CoreAnalyticsMessenger
+[   76.162587]: bool CoreAnalyticsMessenger::startMessages()::68:startMessage
+[   76.162595]: virtual bool CoreAnalyticsMessenger::attach(IOService *)::81:attachingSandbox apply: systemstatusd[260] <bytes>_dlil_get_flowswitch_buffer_size: en0 9000 1500
+[   76.171333]: SK[7]: nxprov_params_adjust           nxdom "flowswitch" (<ptr>) type 3
+[   76.171336]: SK[7]: nxprov_params_adjust           nxp "com.apple.flowswitch.en0" (0) flags 0x2
+[   76.171338]: SK[7]: nxprov_params_adjust             req 0x280010 rings 1/1/1/1/0 slots 256/1024/256/256/0 buf 2048 type 2 subtype 2 stats 3152 flowadv_max 1024 nexusadv_size 128 capabs 0x7 pipes 0 extensions 0 max_frags 64 headguard 0 tailguard 0 large_buf 9000
+[   76.171352]: SK[7]: nxprov_create_common           nxprov 0 UUID UUID-407
+[   76.171357]: SK[7]: nx_fsw_prov_nx_ctor            nexus 0 (com.apple.nexus.flowswitch)
+[   76.171430]: SK[7]: nx_fsw_prov_nx_ctor            create new fsw 0 for nexus 0
+[   76.171433]: SK[7]: nx_create                      nexus 0 (flowswitch:com.apple.nexus.flowswitch) UUID UUID-408
+[   76.171444]: SK[7]: nx_netif_na_find               name "netif:0:com.apple.netif.en0" spec_uuid "UUID-402" port 0 mode 0x5000 pipe_id 0 ring_id -1 ring_set 0 ep_type 4 create 1
+[   76.171514]: SK[19]: ch_open_special                nx 0 (com.apple.nexus.netif.compat:"en0":0:-1) spec_uuid "UUID-402" mode 0x5000 err 0
+[   76.171529]: SK[19]: nx_netif_na_find               name "netif:0:com.apple.netif.en0" spec_uuid "UUID-402" port 1 mode 0xd000 pipe_id 0 ring_id -1 ring_set 0 ep_type 4 create 1
+[   76.171572]: SK[19]: ch_open_special                nx 0 (com.apple.nexus.netif.compat:"en0^":1:-1) spec_uuid "UUID-402" mode 0xd000 err 0
+[   76.171607]: SK[19]: fsw_setup_ifp                  fsw_netagent_register en0 (family 2) (err 0)
+[   76.172051]: Reinit'd ND information for interface en0
+[   76.172071]: Reinit'd ND information for interface en0
+[   76.172135]: en0: starting optimistic DAD immediately for IP-206
+[   76.172813]: _dlil_get_flowswitch_buffer_size: en1 1436 1500
+[   76.172820]: SK[19]: nxprov_params_adjust           nxdom "flowswitch" (<ptr>) type 3
+[   76.172823]: SK[19]: nxprov_params_adjust           nxp "com.apple.flowswitch.en1" (0) flags 0x2
+[   76.172824]: SK[19]: nxprov_params_adjust             req 0x280010 rings 1/1/1/1/0 slots 256/1024/256/256/0 buf 2048 type 2 subtype 2 stats 3152 flowadv_max 1024 nexusadv_size 128 capabs 0x7 pipes 0 extensions 0 max_frags 64 headguard 0 tailguard 0 large_buf 16384
+[   76.172835]: SK[19]: nxprov_create_common           nxprov 0 UUID UUID-409
+[   76.172842]: SK[19]: nx_fsw_prov_nx_ctor            nexus 0 (com.apple.nexus.flowswitch)
+[   76.172909]: SK[19]: nx_fsw_prov_nx_ctor            create new fsw 0 for nexus 0
+[   76.172912]: SK[19]: nx_create                      nexus 0 (flowswitch:com.apple.nexus.flowswitch) UUID UUID-410
+[   76.172921]: SK[19]: nx_netif_na_find               name "netif:0:MtkWlanNativeIf.en1" spec_uuid "UUID-405" port 0 mode 0x5000 pipe_id 0 ring_id -1 ring_set 0 ep_type 4 create 1
+[   76.173254]: SK[19]: nxprov_advise_connect          ch 0 flags 605 nx 0 connected
+[   76.173257]: SK[19]: ch_open_special                nx 0 (IOSkywalkNetworkNexusDomainProvider:"en1":0:-1) spec_uuid "UUID-405" mode 0x5000 err 0
+[   76.173263]: SK[19]: nx_netif_na_find               name "netif:0:MtkWlanNativeIf.en1" spec_uuid "UUID-405" port 1 mode 0xd000 pipe_id 0 ring_id -1 ring_set 0 ep_type 4 create 1
+[   76.173272]: SK[19]: ch_open_special                nx 0 (IOSkywalkNetworkNexusDomainProvider:"en1^":1:-1) spec_uuid "UUID-405" mode 0xd000 err 0
+[   76.173287]: SK[19]: fsw_setup_ifp                  fsw_netagent_register en1 (family 2) (err 0)
+[   76.173303]: 1
+[   76.173311]: MtkWlanNative: if:enable options=0
+[   76.173325]: MtkWlanNative: if:setInterfaceEnable=1
+[   76.173337]: com.apple.p2p.en1: IO80211InfraInterface::setInterfaceEnable MtkWlanNativeIf isEnable 1
+[   76.173342]: com.apple.p2p.en1: IO80211SkywalkInterface::setInterfaceEnable MtkWlanNativeIf isEnable 1
+[   76.173348]: 000076.173348 InterfaceLogs.E[2] [ik] setInterfaceEnable@468:updating skywalk mac address on set interface eanble
+[   76.173377]: MtkWlanNative: dp:enable queues
+[   76.173394]: 1
+[   76.173399]: MtkWlanNative: dp:enabled
+[   76.173410]: MtkWlanNative: if:enable result=0
+[   76.173931]: Reinit'd ND information for interface en1
+[   76.191559]: "AppleKeyStore":pid:155,sel:17:8088: unexpected session uid: -1 requested by: PerfPowerServices (155)
+[   76.191568]: "AppleKeyStore":pid:155,:13297: operation failed (sel: 17 ret: e00002c2, -1)
+[   76.191578]: "AppleKeyStore":pid:155,sel:7:8088: unexpected session uid: -1 requested by: PerfPowerServices (155)
+[   76.191580]: "AppleKeyStore":pid:155,:13297: operation failed (sel: 7 ret: e00002c2, -1)
+[   76.200657]: System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdcom.apple.p2p.stats.en1: [configd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[   76.201496]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.201597]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.201731]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   76.201787]: com.apple.p2p.stats.en1: IOUC-WIFI: [configd] virtual IOReturn IO80211APIUserClient::clientClose()
+[   76.201851]: IO80211APIUserClient::stop(806) _onWLANQueue(1)
+[   76.201872]: IO80211APIUserClient::free
+[   76.205424]: Sandbox: apsd(140) deny(1) mach-lookup com.apple.powerd.lowpowermodeSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdAMFI: [non-fatal] unable to accelerate context: com.apple.CodeSigningHelper | 65285
+[   76.284351]: memorystatus: process com.apple.fskit.msdos [271] opted in to both Management and ActivityTracking
+[   76.299848]: Sandbox apply: com.apple.CodeSigningHelper[270] <bytes>Sandbox apply: mediaremoted[102] <bytes>com.apple.p2p.stats.en1: [configd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[   76.304131]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.304207]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.304346]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_PROTOCOL_CLEANUP_COMPLETE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.304401]: com.apple.p2p.stats.en1: IOUC-WIFI: [configd] virtual IOReturn IO80211APIUserClient::clientClose()
+[   76.304487]: IO80211APIUserClient::stop(806) _onWLANQueue(1)
+[   76.304507]: IO80211APIUserClient::free
+[   76.305653]: Sandbox apply: distnoted[265] <bytes>Sandbox apply: distnoted[253] <bytes>AMFI: [non-fatal] unable to accelerate context: com.apple.fskit_helper | 65285
+[   76.313740]: Sandbox apply: mobileassetd[248] <bytes>Sandbox apply: secinitd[273] <bytes>/usr/libexec/syspolicyd set rootless flags on /private/var/db/SystemPolicyConfiguration/gke.bundle/Contents/_CodeSignature with flags=524288System Policy: mobileassetd(248) allow file-read-metadata /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAsset1 duplicate report for System Policy: mobileassetd(248) allow file-read-metadata /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSystem Policy: mobileassetd(248) allow file-read-xattr /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdSandbox: mediaremoted(102) allow mach-lookup com.apple.cmio.registerassistantservice.system-extensionsSandbox apply: coreduetd[132] <bytes>/usr/libexec/dirhelper set rootless flags on /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/com.apple.pluginkit with flags=1048576Sandbox apply: pkd[275] <bytes>Sandbox: dasd(150) deny(1) iokit-get-properties iokit-class:AppleSmartBattery property:SkipperNEIgnoreAtCriticalSandbox apply: com.apple.cmio.registerassistant[168] <bytes>Sandbox: dasd(150) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:system-typeSandbox apply: com.apple.fskit.msdos[271] <bytes>MtkWlanNative: if:follow lladdr MAC-3 -> 0
+[   76.379896]: System Policy: mobileassetd(248) allow file-read-metadata /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAsset4 duplicate reports for System Policy: mobileassetd(248) allow file-read-metadata /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSystem Policy: mobileassetd(248) allow file-read-data /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSMC read called for cmd 0x120a wih no-op key
+[   76.391706]: AMFI: [non-fatal] unable to accelerate context: com.apple.backupd-helper | 65285
+[   76.402567]: apfs_keybag_init:2868: failed to initialize volume keybag, err = 2
+[   76.412608]: System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdSandbox: dasd(150) deny(1) mach-lookup com.apple.powerexperienced.powermodesserviceSandbox apply: com.apple.MobileAsset.DownloadSe[277] <bytes>Sandbox: dasd(150) deny(1) mach-lookup com.apple.powerexperienced.powertargetcontrollerserviceALUC:init(pid: 271 pidversion: 540), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 0
+[   76.433541]: Sandbox: coreduetd(132) deny(1) mach-lookup com.apple.tccdSandbox: coreduetd(132) deny(1) mach-lookup com.apple.tccd.systemSandbox: coreduetd(132) deny(1) mach-lookup com.apple.contacts.poster.apiSandbox: coreduetd(132) deny(1) mach-lookup com.apple.tccdSandbox: coreduetd(132) deny(1) mach-lookup com.apple.tccd.systemSandbox: nesessionmanager(147) deny(1) system-fsctl (_IO "h" 47)process_is_plugin_host: running binary "com.apple.audio.Core-Audio-Drive" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationSandbox apply: distnoted[278] <bytes>AMFI: [non-fatal] unable to accelerate context: com.apple.audio.DriverHelper | 65285
+[   76.456823]: memorystatus: Denying dirty-tracking opt-in for managed com.apple.fskit.msdos [280]
+[   76.463978]: apfs_keybag_init:2868: failed to initialize volume keybag, err = 2
+[   76.469372]: Sandbox apply: com.apple.fskit.msdos[280] <bytes>5 duplicate reports for Sandbox: nesessionmanager(147) deny(1) system-fsctl (_IO "h" 47)Sandbox: coreaudiod(229) deny(1) mach-lookup com.apple.AirPlayXPCHelperSmartBattery: finished polling type 1
+[   76.488109]: ALUC:init(pid: 280 pidversion: 576), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 0
+[   76.490922]: lifs_create_iouc_container: new container <ptr> added (pid 280 pidversion 576)
+[   76.490930]: methodConfigureUserClient: client <ptr> pid: 280 pidversion: 576 supportBlockResource: 1
+[   76.496265]: System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdALUC:clientDied(pid: 280 pidversion: 576), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 1
+[   76.501267]: lifs_destroy_iouc_container: container <ptr> removed (pid 280 pidversion 576)
+[   76.505720]: System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/usr/libexec/syspolicyd set rootless flags on /private/var/db/SystemPolicyConfiguration/XProtect.bundle/Contents/Resources with flags=524288Sandbox apply: audiomxd[283] <bytes>memorystatus: Denying dirty-tracking opt-in for managed com.apple.fskit.exfat [285]
+[   76.545313]: Sandbox apply: com.apple.fskit.exfat[285] <bytes>apfs_keybag_init:2868: failed to initialize volume keybag, err = 2
+[   76.548203]: Sandbox apply: softwareupdated[281] <bytes>/usr/libexec/dirhelper set rootless flags on /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/com.apple.cloudd with flags=1048576ALUC:init(pid: 285 pidversion: 587), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 0
+[   76.564772]: Sandbox: audiomxd(283) deny(1) mach-lookup com.apple.cmio.registerassistantservice.system-extensionsKextLog: kernelmanagerd is not active
+[   76.566388]: Sandbox: audiomxd(283) deny(1) mach-lookup com.apple.tccdSandbox: audiomxd(283) deny(1) mach-lookup com.apple.tccd.systemSandbox: audiomxd(283) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 283, audiomxd
+[   76.587610]: IOUC AppleKeyStoreUserClient failed MACF in process pid 283, audiomxd
+[   76.596426]: 1 duplicate report for Sandbox: audiomxd(283) deny(1) iokit-open-user-client AppleKeyStoreUserClientSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdSandbox apply: AudioComponentRegistrar[286] <bytes>apfs_keybag_init:2868: failed to initialize volume keybag, err = 2
+[   76.620800]: Sandbox: dasd(150) deny(1) iokit-get-properties iokit-class:AppleSmartBattery property:SkipperNEIgnoreAtCriticalSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdSandbox apply: cloudd[284] <bytes>Sandbox: coreduetd(132) deny(1) mach-lookup com.apple.cmfsyncagent.authmemorystatus: Denying dirty-tracking opt-in for managed com.apple.fskit.msdos [290]
+[   76.660027]: AMFI: [non-fatal] unable to accelerate context: com.apple.audio.SandboxHelper | 65285
+[   76.660367]: process_is_plugin_host: running binary "com.apple.audio.SandboxHelper" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationvoid CoreAnalyticsHub::handleNagTimerExpiry(IOTimerEventSource *)::838:messageClients of 1 available events
+[   76.675686]: Sandbox apply: com.apple.fskit.msdos[290] <bytes>IOTimeSyncClockManager::begin waitQuiet
+[   76.690900]: IOTimeSyncClockManager::end waitQuiet
+[   76.690918]: IOTimeSyncClockManager::Using interface IOEthernetInterface en0 for identifier
+[   76.690926]: IOTimeSyncClockManager:: Generated random clockID 183d2da4bcba0000
+[   76.690930]: IOTimeSyncClockManager::delayedClockIDLookup registered service
+[   76.693285]: Sandbox apply: distnoted[289] <bytes>ALUC:init(pid: 290 pidversion: 603), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 0
+[   76.705999]: lifs_create_iouc_container: new container <ptr> added (pid 290 pidversion 603)
+[   76.706005]: methodConfigureUserClient: client <ptr> pid: 290 pidversion: 603 supportBlockResource: 1
+[   76.712476]: ALUC:clientDied(pid: 290 pidversion: 603), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 1
+[   76.712486]: lifs_destroy_iouc_container: container <ptr> removed (pid 290 pidversion 603)
+[   76.720268]: Sandbox apply: com.apple.audio.SandboxHelper[291] <bytes>lifs_create_iouc_container: new container <ptr> added (pid 295 pidversion 615)
+[   76.776662]: ALUC:init(pid: 295 pidversion: 615), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 1
+[   76.776755]: spec_open : si_devbsdunit initialized to (0), throttle_mask is (0x3), isssd is (1)
+[   76.776761]: methodOpenKernelFD: add volume <ptr> client <ptr> container <ptr> (fd: 3 device: disk0s3 fmode: 0x1 blocksize: 0x200)
+[   76.794838]: Got new blocked hash data: 1 hashesSetting 1 new blocked hashesGot new blocked team data: 1 teamsSetting 1 new blocked teamsGot new active rule version: 4a0822720d6e7fbbSandbox apply: audioclocksyncd[297] <bytes>disallowing unsupported code signature page shift: 14
+[   76.831026]: unable to create a validated cs_blob object: 85
+[   76.831071]: disallowing unsupported code signature page shift: 14
+[   76.831090]: unable to create a validated cs_blob object: 85
+[   76.835203]: virtual bool CoreAnalyticsUserClient::initWithTask(task_t, void *, UInt32, OSDictionary *)::169:success
+[   76.835221]: virtual bool CoreAnalyticsUserClient::start(IOService *)::120:success
+[   76.835223]: IOReturn CoreAnalyticsHub::setClientGated(CoreAnalyticsUserClient *)::386:adding userClient
+[   76.835225]: IOReturn CoreAnalyticsHub::__newUserClientGated(task_t, void *, UInt32, OSDictionary *, IOUserClient **)::341:Successfully opened
+[   76.835296]: virtual IOReturn CoreAnalyticsUserClient::clientMemoryForType(UInt32, IOOptionBits *, IOMemoryDescriptor **)::285: got memory descriptor with 16432
+[   76.853773]: Sandbox: mobileassetd(248) deny(1) file-write-create /private/var/root/Library/Caches/com.apple.mobileassetd1 duplicate report for Sandbox: mobileassetd(248) deny(1) file-write-create /private/var/root/Library/Caches/com.apple.mobileassetdSandbox: mobileassetd(248) deny(1) file-read-metadata /private/var/root/LibraryGot new meta rules: fa6c5490e7650155 duplicate reports for Sandbox: mobileassetd(248) deny(1) file-read-metadata /private/var/root/LibrarySandbox: mobileassetd(248) deny(1) file-read-data /Library/Preferences/com.apple.networkextension.uuidcache.plistSandbox apply: modelcatalogd[298] <bytes>Sandbox: com.apple.cmio.registerassistant(168) deny(1) authorization-right-obtain com.apple.ServiceManagement.daemons.modifySandbox: coreduetd(132) deny(1) mach-lookup com.apple.tccdSandbox: coreduetd(132) deny(1) mach-lookup com.apple.tccd.systemcom.apple.p2p.stats.en1: [airportd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[   76.900318]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.900439]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.900550]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.900635]: extEventMonitorInit: enter
+[   76.900637]: createEventPipe: enter: pipe count: 0
+[   76.900676]: ClientMemoryForType[0x1]
+[   76.900677]: getRingMD: enter : pipe count 1
+[   76.900695]: ClientMemoryForType[0x2]
+[   76.900695]: getRingMD: enter : pipe count 1
+[   76.900765]: Sandbox: coreduetd(132) deny(1) mach-lookup com.apple.tccdextSubscribeEvent: enter
+[   76.900872]: Sandbox: coreduetd(132) deny(1) mach-lookup com.apple.tccd.system[IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_POWERSAVE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-536870201:0xe00002c7> handler=1 
+[   76.902148]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.902322]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_ROLE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[   76.902663]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_INFRA_ENUMERATED> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.902996]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   76.909480]: com.apple.p2p.stats.en1: [airportd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[   76.909558]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.909661]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.925071]: Sandbox: airportd(227) deny(1) mach-lookup com.apple.symptom_analyticsSandbox apply: backgroundtaskmanagementd[272] <bytes>methodOpenKernelFD: duplicate volume found (client <ptr> fd 3) in container <ptr>
+[   76.957690]: apfs_keybag_init:2868: failed to initialize volume keybag, err = 2
+[   76.967446]: Sandbox: backgroundtaskmanagementd(272) deny(1) mach-lookup com.apple.backgroundtaskmanagementSystem Policy: syspolicyd(264) allow file-write-create /System/Library/Caches/com.apple.kext.caches/Directories/Library/Extensions/KextIdentifiers.plist.gz.sOqTpPSystem Policy: syspolicyd(264) allow file-write-mode /System/Library/Caches/com.apple.kext.caches/Directories/Library/Extensions/KextIdentifiers.plist.gz.sOqTpPSystem Policy: syspolicyd(264) allow file-write-unlink /System/Library/Caches/com.apple.kext.caches/Directories/Library/Extensions/KextIdentifiers.plist.gzSystem Policy: syspolicyd(264) allow file-write-unlink /System/Library/Caches/com.apple.kext.caches/Directories/Library/Extensions/KextIdentifiers.plist.gz.sOqTpPSystem Policy: syspolicyd(264) allow file-write-create /System/Library/Caches/com.apple.kext.caches/Directories/Library/Extensions/KextIdentifiers.plist.gzSystem Policy: syspolicyd(264) allow file-write-times /System/Library/Caches/com.apple.kext.caches/Directories/Library/Extensions/KextIdentifiers.plist.gzSandbox: airportd(227) deny(1) mach-lookup com.apple.tccdlifs_mount:uid:0:gid:0lifs_req_callback_thread: thread <ptr> starting for mount <ptr>
+[   76.981294]: lifs_attach_mount_to_iouc_volume: mount <ptr> volume <ptr> client <ptr> device: disk0s3
+[   76.982007]: lifs_query_mountpoint: lmp <ptr> freespace 0x172cc33000lmp <ptr> max_filesize 0x3ffffffffffffffflifs_io_strategy_thread: thread <ptr> starting for mount <ptr>
+[   76.982276]: disk0s3: isssd 1 devblksize 512 devreadsize 0 devwritesize 0 maxreadcnt 8388608 segreadcnt 2048 maxwritecnt 8388608 segwritecnt 2048 mnt_flags 0x10201019
+[   76.982385]: Sandbox: airportd(227) deny(1) mach-lookup com.apple.ManagedClient.agentcom.apple.p2p.stats.en1: [airportd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[   76.985870]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.985971]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.986042]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_ROLE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[   76.986111]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_PARENT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[   76.986258]: extEventMonitorInit: enter
+[   76.986263]: createEventPipe: enter: pipe count: 1
+[   76.986307]: ClientMemoryForType[0x1]
+[   76.986309]: getRingMD: enter : pipe count 2
+[   76.986323]: ClientMemoryForType[0x2]
+[   76.986324]: getRingMD: enter : pipe count 2
+[   76.986335]: extSubscribeEvent: enter
+[   76.986577]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.987306]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.987796]: com.apple.p2p.stats.en1: [airportd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[   76.987938]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.988042]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.989233]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_ROLE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[   76.991691]: loadCardCapabilities status=<0x0> 
+[   76.991700]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_OS_FEATURE_FLAGS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.998194]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   76.998239]: Sandbox apply: CloudTelemetryService[301] <bytes>System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordination2 duplicate reports for System Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/Library/InstallCoordinationSystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationd/LibrarySystem Policy: UserEventAgent(98) allow file-read-data /private/var/db/installcoordinationdprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashapfs_keybag_init:2868: failed to initialize volume keybag, err = 2
+[   77.011675]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_ROLE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[   77.011876]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   77.013487]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   77.013569]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   77.013610]: Sandbox apply: distnoted[302] <bytes>[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[   77.014517]: AMFI: [non-fatal] unable to accelerate context: com.apple.wifi.WiFiCloudAssetsXPCService | 65285
+[   77.014539]: IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 366 bytes
+[   77.014643]: IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 366 bytes
+[   77.015150]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   77.015558]: IO80211ScanManager::startScan: scanType = 3
+[   77.015575]: IO80211Queue empty
+[   77.015580]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   77.015620]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   77.015716]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:5:0x5> handler=1 
+[   77.015852]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   77.015987]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   77.016139]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[   77.016247]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   77.016292]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   77.016574]: MtkWlanNative: ioctl:setPOWER=1 (recorded only)
+[   77.017366]: Sandbox: mediaremoted(102) allow mach-lookup com.apple.tccdSandbox: mediaremoted(102) allow mach-lookup com.apple.tccd.systemcom.apple.p2p.stats.en1: [airportd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[   77.023892]: Sandbox: softwareupdated(281) deny(1) file-issue-extension target:/private/var/db/softwareupdate/Library/Preferences/com.apple.universalaccess.plist extension-class:com.apple.cfprefsd.readSandbox: locationd(146) deny(1) mach-lookup com.apple.icloud.searchpartyuseragent.ownersessionSandbox apply: UVCAssistant[316] <bytes>process_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashSandbox apply: osanalyticshelper[325] <bytes>Sandbox apply: iconservicesd[127] <bytes>Sandbox: softwareupdated(281) deny(1) mach-lookup com.apple.cache_delete[System Event] [77130149369] [INFO] [Subsystem: launchd] [Event: tzinit] Doing boot task
+[   77.130241]: [System Event] [77130240935] [INFO] [Subsystem: launchd] [Event: dirhelper] Doing boot task
+[   77.152874]: Sandbox: mobileassetd(248) deny(1) file-read-data /Library/Preferences/com.apple.networkextension.uuidcache.plistprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashSystem Policy: diskarbitrationd(129) allow file-read-data /dev/rdisk1s8s1bufattr_get_apfs:9372: Only accept buf I/O, no raw disk access
+[   77.165764]: disk1s8s1: device is not readable.
+[   77.166162]: AMFI: [non-fatal] unable to accelerate context: com.apple.nvram | 65285
+[   77.220530]: AMFI: [non-fatal] unable to accelerate context: com.apple.pkill | 65285
+[   77.561610]: telemetry: microstackshot every 12000000000 cycles
+[   78.044521]: PMRD: setAggressiveness(0) kPMMinutesToSleep = 0
+[   78.737581]: ACMTRM-S: _saveAll: pushing *policy* -> daemon (gen=1 dataLen=105 ver=17).
+[   78.737609]: ACMTRM-S: _saveAll: pushing *analytics* -> daemon (gen=1 dataLen=400 ver=1).
+[   79.098296]: mld_append_relq: adding inm 755e045eeae6bc31 on relq ifp en0
+[   79.098329]: mld_flush_relq: flushing inm 755e045eeae6bc31 on relq ifp en0
+[   96.755126]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.755221]: {public}s: ['{public}s']_logTimeIfThresholdExceeded: ioctl[0x8e0a89a0/461593106] reqType[2150132168] lock[2150132168.000019], [0.000000] Exceeded threshold >= [19.738707]
+[   96.755272]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.755291]: {public}s: ['{public}s']_logTimeIfThresholdExceeded: ioctl[0x13ac89a0/461593106] reqType[3223873993] lock[3223873993.000001], [0.000000] Exceeded threshold >= [19.738726]
+[   96.755326]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.755355]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_ROAM_PARAMS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.755381]: {public}s: ['{public}s']_logTimeIfThresholdExceeded: ioctl[0xe6be49a0/461593106] reqType[3223873993] lock[3223873993.000043], [0.000000] Exceeded threshold >= [19.737249]
+[   96.755488]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.755506]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.755591]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.755681]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.756113]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.756244]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.756414]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.756561]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.757337]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.757449]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.758005]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.758388]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_USB_HOST_NOTIFICATION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.758923]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_ROLE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[   96.759091]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.759256]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_AP_IE_LIST> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.759280]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.759428]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.759812]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.759908]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.760680]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_WOW_ENABLED> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:22:0x16> handler=1 
+[   96.761216]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.761417]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_WOW_ENABLED> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.761557]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_WOW_PARAMETERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.761779]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_WOW_PARAMETERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.761920]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_EXTERNAL_POWER_STATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.762637]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NOISE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.762971]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.763936]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_USB_HOST_NOTIFICATION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.764036]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NOISE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.765794]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.765979]: loadCardCapabilities status=<0x0> 
+[   96.765982]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_OS_FEATURE_FLAGS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.766296]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.766393]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.766681]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.766776]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.766812]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.767021]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.767255]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_USB_HOST_NOTIFICATION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.767376]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.767441]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NOISE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.767838]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.768091]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.768607]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528340991:0xe0822801> handler=1 
+[   96.769270]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.769514]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_IE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[   96.770020]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_ROLE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[   96.770391]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_AP_IE_LIST> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[   96.770874]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_WOW_ENABLED> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:22:0x16> handler=1 
+[   96.771414]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.771661]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_WOW_ENABLED> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.771825]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_WOW_PARAMETERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.772004]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_WOW_PARAMETERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[   96.772235]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_EXTERNAL_POWER_STATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  103.375842]: 1 duplicate report for System Policy: diskarbitrationd(129) allow file-read-data /dev/rdisk1s8s1Sandbox: locationd(146) deny(1) mach-lookup com.apple.StatusKit.local[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  103.377482]: KextLog: kernelmanagerd is not active
+[  103.379826]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  103.384517]: AMFI: [non-fatal] unable to accelerate context: com.apple.sysmond | 65285
+[  103.385868]: Sandbox: kernelmanagerd(128) deny(1) file-write-create /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/com.apple.kernelmanagerd/TemporaryItems1 duplicate report for Sandbox: kernelmanagerd(128) deny(1) file-write-create /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/com.apple.kernelmanagerd/TemporaryItemsSandbox: locationd(146) deny(1) mach-lookup com.apple.PowerManagement.controlKextLog: kernelmanagerd is not active
+[  103.415635]: Sandbox: dasd(150) deny(1) mach-lookup com.apple.OSIntelligence.chargingSandbox apply: digest-service[214] <bytes>Sandbox apply: wifip2pd[380] <bytes>Sandbox apply: mds_stores[369] <bytes>Sandbox: wifip2pd(380) deny(1) file-read-data /usr/libexec/wifip2pdSandbox apply: distnoted[381] <bytes>Sandbox apply: distnoted[384] <bytes>Sandbox apply: secinitd[397] <bytes>Sandbox apply: revisiond[158] <bytes>Sandbox: mediaremoted(102) allow file-read-data /private/var/root/Library/MediaRemote/DeviceInfo.plistSandbox: mediaremoted(102) allow file-read-data /Library/Preferences/com.apple.networkd.plistSandbox apply: cfprefsd[399] <bytes>1 duplicate report for Sandbox: mediaremoted(102) allow file-read-data /Library/Preferences/com.apple.networkd.plistSandbox: mds(126) deny(1) mach-lookup com.apple.mobileassetd.v2Sandbox apply: trustd[400] <bytes>Sandbox: trustd(400) deny(1) iokit-get-properties iokit-class:IOService property:osenvironmentSandbox: trustd(400) deny(1) file-write-create /private/var/db/locationd/Library/Keychains/7F2C229E-C671-5CCA-B543-F20A79E10374Sandbox apply: softwareupdated[119] <bytes>3 duplicate reports for Sandbox: trustd(400) deny(1) file-write-create /private/var/db/locationd/Library/Keychains/7F2C229E-C671-5CCA-B543-F20A79E10374Sandbox: softwareupdated(119) deny(1) file-write-create /System/Volumes/Data/mobileSandbox: softwareupdated(119) deny(1) nvram-get platform-uuidSandbox: softwareupdated(119) deny(1) nvram-get fm-spstatusSandbox: softwareupdated(119) deny(1) nvram-get SystemAudioVolumeDBSandbox: softwareupdated(119) deny(1) nvram-get GPUROMSandbox: softwareupdated(119) deny(1) nvram-get PSFU_STATUSSandbox: softwareupdated(119) deny(1) nvram-get supervisedSandbox: softwareupdated(119) deny(1) nvram-get skip-language-setupSandbox: softwareupdated(119) deny(1) nvram-get ForceDisplayRotationInEFISandbox: softwareupdated(119) deny(1) nvram-get bluetoothExternalDongleFailedSandbox: softwareupdated(119) deny(1) nvram-get run-efi-updaterSandbox: softwareupdated(119) deny(1) file-issue-extension target:/private/var/db/softwareupdate/Library/Preferences/com.apple.mobile.softwareupdated.plist extension-class:com.apple.cfprefsd.readSandbox: softwareupdated(119) deny(1) file-issue-extension target:/private/var/db/softwareupdate/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: softwareupdated(119) deny(1) file-issue-extension target:/private/var/db/softwareupdate/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.readSandbox apply: containermanagerd[407] <bytes>schedule_before_userret(0x946): 1/4 tasks scheduledhook_thread_userret calleduserret(0x946): invoking callback; 0/4 remaining"AppleKeyStore":pid:407,:13297: operation failed (sel: 17 ret: e00002f0, 205)
+[  103.754630]: Sandbox apply: com.apple.geod[382] <bytes>Sandbox: softwareupdated(119) deny(1) file-read-data /Library/Preferences/com.apple.networkd.plist[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  103.831698]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  103.832527]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 

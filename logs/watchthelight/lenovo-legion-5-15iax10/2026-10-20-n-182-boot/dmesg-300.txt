@@ -1,0 +1,1214 @@
+> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  271.045171]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  271.045711]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  271.045817]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  271.046386]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  271.330635]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  271.330826]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  271.330979]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  271.330995]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  271.331572]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  271.331631]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  272.438501]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  272.438739]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  272.439011]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  273.055152]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49182<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3236 t_state: LAST_ACK process: mobileassetd:251 Duration: 116.275 sec Conn_Time: 0.029 sec bytes in/out: 10046/8575 pkts in/out: 13/17 pkt rxmit: 2 ooo pkts: 0 dup bytes in: 2586 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 88.250 ms rttvar: 100.312 ms base rtt: 26 ms so_error: 0 svc/tc: 0 flow: 0x982a63a9tcp_connection_summary [<IPv4-redacted>:49182<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3236 t_state: LAST_ACK process: mobileassetd:251 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  273.106444]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  273.106462]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  273.106498]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  273.545568]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  273.545726]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  273.545892]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  273.546533]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  273.546590]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  274.653485]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  274.653745]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  274.653791]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  274.931751]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashIO80211PeerMonitor::checkForDPS()  Enter
+[  275.301987]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  275.301991]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  275.301993]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  275.301995]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  275.301997]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  275.301999]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  275.302007]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  275.302008]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  275.302009]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  275.302010]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  275.302011]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  275.761033]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  275.761243]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  275.761379]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  275.762059]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  275.762120]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  275.878484]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49240<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3791 t_state: LAST_ACK process: commerce:870 Duration: 115.412 sec Conn_Time: 0.302 sec bytes in/out: 5767/2914 pkts in/out: 9/6 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 183.906 ms rttvar: 201.937 ms base rtt: 14 ms so_error: 0 svc/tc: 0 flow: 0xa0f8da68tcp_connection_summary [<IPv4-redacted>:49240<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3791 t_state: LAST_ACK process: commerce:870 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  275.976601]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashNVAccel: newResource -> <ptr>
+[  276.337814]: NVAccel: newResource -> <ptr>
+[  276.337820]: NVAccel: newSysMemory -> <ptr>
+[  276.337820]: NVAccel: newSysMemory -> <ptr>
+[  276.337824]: NVAccel: newVidMemory -> <ptr>
+[  276.337824]: NVAccel: newVidMemory -> <ptr>
+[  276.337906]: NVRM-xnu: >os_map_kernel_space start=0x3fc07c00000 size=0x50000 mode=2
+[  276.337919]: NVRM-xnu:   mapped -> 0x<ptr> (slot 52, high water 246/8192)
+[  276.337988]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 327680 bytes of REAL VRAM -- phys 0x3fc07c00000 kva <ptr> [BAR1 296943616]
+[  276.337989]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 327680 bytes of REAL VRAM -- phys 0x3fc07c00000 kva <ptr> [BAR1 296943616]
+[  276.350574]: NVAccel: newResource -> <ptr>
+[  276.350578]: NVAccel: newResource -> <ptr>
+[  276.350581]: NVAccel: newSysMemory -> <ptr>
+[  276.350582]: NVAccel: newSysMemory -> <ptr>
+[  276.350584]: NVAccel: newVidMemory -> <ptr>
+[  276.350585]: NVAccel: newVidMemory -> <ptr>
+[  276.350645]: NVRM-xnu: >os_map_kernel_space start=0x3fc07c50000 size=0x50000 mode=2
+[  276.350659]: NVRM-xnu:   mapped -> 0x<ptr> (slot 77, high water 246/8192)
+[  276.350713]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 327680 bytes of REAL VRAM -- phys 0x3fc07c50000 kva <ptr> [BAR1 297271296]
+[  276.350714]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 327680 bytes of REAL VRAM -- phys 0x3fc07c50000 kva <ptr> [BAR1 297271296]
+[  276.351555]: NVAccel: newResource -> <ptr>
+[  276.351557]: NVAccel: newResource -> <ptr>
+[  276.351560]: NVAccel: newSysMemory -> <ptr>
+[  276.351561]: NVAccel: newSysMemory -> <ptr>
+[  276.351563]: NVAccel: newVidMemory -> <ptr>
+[  276.351563]: NVAccel: newVidMemory -> <ptr>
+[  276.351616]: NVRM-xnu: >os_map_kernel_space start=0x3fc07ca0000 size=0x50000 mode=2
+[  276.351632]: NVRM-xnu:   mapped -> 0x<ptr> (slot 85, high water 246/8192)
+[  276.351687]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 327680 bytes of REAL VRAM -- phys 0x3fc07ca0000 kva <ptr> [BAR1 297598976]
+[  276.351688]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 327680 bytes of REAL VRAM -- phys 0x3fc07ca0000 kva <ptr> [BAR1 297598976]
+[  276.356213]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.356224]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.362162]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.362173]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.368213]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.368225]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.374223]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.374234]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.380297]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.380310]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.386371]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.386386]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.392419]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.392433]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.398483]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.398494]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.404539]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.404549]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.410591]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.410602]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.416649]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.416659]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.422767]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.422779]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.428766]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.428775]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.434868]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.434882]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.440914]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.440927]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.446960]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.446974]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.453012]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.453022]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.459085]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.459094]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.465168]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.465180]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.471223]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.471234]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.477253]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.477265]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.483352]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.483366]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.489375]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.489389]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.495439]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.495450]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.501507]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.501518]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.507588]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.507598]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.513625]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.513636]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.519724]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.519735]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.525763]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.525774]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.531823]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.531833]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.537870]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.537882]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.543948]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.543961]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.549992]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.550006]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.556048]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.556059]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.562129]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.562138]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.568169]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.568178]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.574267]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.574281]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.576501]: NVAccel: surfvram dirty: surface 23 plane 0 type 0xc0 -> 0 (dirty 12288, refused 0)
+[  276.576505]: NVAccel: surfvram dirty: surface 23 plane 0 type 0xc0 -> 0 (dirty 12288, refused 0)
+[  276.580298]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.580312]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.586358]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.586372]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.592416]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.592427]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.598485]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.598513]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.604518]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.604527]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.610597]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.610608]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.616676]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.616686]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.622713]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.622723]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.628772]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.628783]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.634862]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.634872]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.640903]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.640912]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.646962]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.646973]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.653123]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.653133]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.659072]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.659084]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.665112]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.665123]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.671212]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.671222]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.678403]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.678418]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.683317]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.683327]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.689451]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.689462]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.693710]: NVRM-xnu: nv_post_event #196608 hEvent 0xcaf00004 index 12 -> connection woken | matched 196608, waits 11555, slept 5744
+[  276.695434]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.695446]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.701551]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.701562]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.707559]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.707568]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.713618]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.713629]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.719697]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.719708]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.725756]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.725766]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.732166]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.732187]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.737852]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.737863]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.743949]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.743958]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.750012]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.750024]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.756041]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.756053]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.762131]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.762142]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.768780]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.768801]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.774226]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.774237]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.780287]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.780301]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.786341]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.786352]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.792409]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.792421]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.798472]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.798483]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.804534]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.804544]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.810593]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.810604]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.816653]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.816664]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.822720]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.822729]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.828763]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.828774]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.834808]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.834820]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.840911]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.840925]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.847012]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.847025]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.849725]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  276.850020]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  276.850164]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  276.850280]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  276.853008]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.853019]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.859068]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.859082]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.865133]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.865143]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.871224]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.871233]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.877250]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.877261]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.883309]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.883320]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.889372]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.889383]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.895443]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.895456]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.901506]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.901517]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.907563]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.907575]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.913636]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.913647]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.919738]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.919749]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.925765]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.925777]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.931802]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.931813]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.937865]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.937879]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.943919]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.943931]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.949915]: NVRM-fb: flipToMemory #1800 -> ok 1 rc 0 (surface set memory set)
+[  276.949920]: NVRM-fb: flipToMemory #1800 -> ok 1 rc 0 (surface set memory set)
+[  276.949993]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.950005]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.956051]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.956064]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.962113]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.962126]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.968217]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.968231]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.974230]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.974244]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.980298]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.980311]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.986341]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  276.986351]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  276.992439]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  276.992448]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  276.998511]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  276.998522]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.004540]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.004553]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.010589]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.010600]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.016666]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.016677]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.023690]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.023710]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.028757]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.028768]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.034837]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.034850]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.040882]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.040894]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.046954]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.046965]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.053039]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.053049]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.059096]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.059105]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.065128]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.065139]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.071204]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.071217]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.077287]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.077302]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.083324]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.083338]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.089392]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.089406]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.095434]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.095446]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.101487]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.101496]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.107550]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.107561]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.113624]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.113636]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.119700]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.119710]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.125727]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.125739]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.131797]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.131808]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.138585]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.138595]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.143915]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.143925]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.149986]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.150000]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.156038]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  277.156049]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  277.162136]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  277.162146]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.347799]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  277.347811]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  277.668360]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49285<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4176 t_state: LAST_ACK process: commerce:870 Duration: 115.673 sec Conn_Time: 0.026 sec bytes in/out: 10386/6531 pkts in/out: 12/9 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 1795 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 114.312 ms rttvar: 131.187 ms base rtt: 26 ms so_error: 0 svc/tc: 0 flow: 0x97220fa4tcp_connection_summary [<IPv4-redacted>:49285<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 4176 t_state: LAST_ACK process: commerce:870 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  277.943711]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  277.943923]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  277.944090]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  278.107271]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  278.107286]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  278.107311]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  279.049534]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -56 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  279.049675]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  279.049945]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  279.050428]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  279.050468]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  279.069130]: process_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "2.1.304" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationudp connect: [<IPv6-redacted>:0<-><IPv6-redacted>:0] interface:  (skipped: 0)
+so_gencnt: 6549 so_state: 0x0100 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 65 so_error: 0 svc/tc: 0 flow: 0x0udp_connection_summary [<IPv6-redacted>:0<-><IPv6-redacted>:0] interface:  (skipped: 0)
+so_gencnt: 6549 so_state: 0x0100 process: Spotify Helper:825 Duration: 0.000 sec Conn_Time: 0.000 sec bytes in/out: 0/0 pkts in/out: 0/0 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x0 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:58180<-><IPv4-redacted>:53] interface:  (skipped: 0)
+so_gencnt: 6550 so_state: 0x0102 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x907a91b2udp connect: [<IPv4-redacted>:50560<-><IPv4-redacted>:53] interface:  (skipped: 0)
+so_gencnt: 6551 so_state: 0x0102 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8393b3dcudp_connection_summary [<IPv4-redacted>:50560<-><IPv4-redacted>:53] interface: en1 (skipped: 0)
+so_gencnt: 6551 so_state: 0x0102 process: Spotify Helper:825 Duration: 0.004 sec Conn_Time: 0.004 sec bytes in/out: 97/43 pkts in/out: 1/1 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8393b3dc flowctl: 0us (0x) udp connect: [<IPv4-redacted>:64165<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 6552 so_state: 0x0102 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8d256508udp_connection_summary [<IPv4-redacted>:58180<-><IPv4-redacted>:53] interface: en1 (skipped: 0)
+so_gencnt: 6550 so_state: 0x0102 process: Spotify Helper:825 Duration: 0.005 sec Conn_Time: 0.005 sec bytes in/out: 146/43 pkts in/out: 1/1 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x907a91b2 flowctl: 0us (0x) _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.261386]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.261710]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.261721]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.279519]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.279529]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.298091]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.298100]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.331978]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.331990]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.400262]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.400274]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.418149]: tx_flush:1344: disk1 xid 435535 tx stats: # 1000 owait 134 922us finish 995 bar2 981 f 97 enter 79 fq 59 633 481us close 0us prep 161us flush 539us
+[  279.464174]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.464188]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.540521]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.540534]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.540802]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bash_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.595192]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.655169]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.655184]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.655237]: IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 365 bytes
+[  279.732839]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.732851]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.733056]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.733064]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.735526]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.735537]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.745680]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.745690]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.745891]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.745898]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.747248]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.747270]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.763275]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.763285]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.781634]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.781642]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.807688]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.807698]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.808583]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.808591]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.809556]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.809565]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.810451]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.810459]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.811504]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.811518]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.812636]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.812644]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.813555]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.813566]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.814979]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.814987]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.815689]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.815698]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.816429]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.816437]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.817136]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.817144]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.817877]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.817887]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.818759]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.818768]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.819986]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.819996]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.820748]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.820756]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.821605]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.821613]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.822537]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.822545]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.823426]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.823433]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.824087]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.824094]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.824766]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.824773]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.825516]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.825524]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.826225]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.826232]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.826865]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.826872]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.827498]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.827505]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.828174]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.828181]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.828821]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.828829]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.829542]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.829553]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.830359]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.830367]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.831042]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.831051]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.831786]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.831794]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.832582]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.832589]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.833459]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.833467]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.834117]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.834124]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.834964]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.834971]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.835616]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.835623]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.836278]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.836288]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.836927]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.836934]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.837605]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.837613]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.838232]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.838240]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.838884]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.838892]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.839624]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.839632]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.840506]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.840514]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.841172]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.841179]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.841841]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.841849]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.842511]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.842519]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.843161]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.843168]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.843804]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.843812]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.844462]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.844470]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.845115]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.845123]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.845846]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.845856]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.846682]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.846690]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.847541]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.847551]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.848324]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.848333]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.849060]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.849068]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.849753]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.849760]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.850420]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.850430]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.850493]: IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 365 bytes
+[  279.851182]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.851189]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.851889]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.851899]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.852661]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.852668]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.853330]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.853339]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.854110]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.854118]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.855029]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.855038]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.855747]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.855757]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.856480]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.856490]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.857216]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.857225]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.857931]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.857940]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.858625]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.858637]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.859350]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.859359]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.860040]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.860049]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.860798]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.860807]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.861512]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.861520]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.862404]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.862414]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.863137]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.863145]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.863822]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.863831]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.864591]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.864598]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.865281]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.865288]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.865964]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.865974]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.866708]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.866715]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.867364]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.867373]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.868104]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.868113]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.869132]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.869139]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.869878]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.869887]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.870886]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.870894]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.871564]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.871572]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.872446]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.872454]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.873145]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.873152]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.873801]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.873809]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.874625]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.874632]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.875404]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.875411]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.876183]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.876191]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.876969]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.876976]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.877799]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.877807]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.878602]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.878610]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.879407]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.879414]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.880228]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.880236]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.881135]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.881142]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.882017]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.882024]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.883134]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.883145]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.884001]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.884008]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.884861]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.884868]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.885703]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.885711]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.886565]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.886572]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.887361]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.887369]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.888042]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.888050]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.888880]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.888888]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.889760]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.889768]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.890405]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.890414]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.891191]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.891199]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.891850]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.891859]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.892572]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.892580]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.893256]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.893266]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.894029]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.894037]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.894699]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.894708]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.895440]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.895448]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.896155]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.896163]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.896949]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.896958]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.897676]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.897685]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.898412]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.898419]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.899082]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.899091]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.899817]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.899824]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.900474]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.900482]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.901403]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.901411]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.902106]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.902116]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.902884]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.902891]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.903599]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.903609]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.904383]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.904390]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.905292]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.905301]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.906013]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.906021]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.906684]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.906695]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.907405]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.907413]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.908083]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.908091]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.908727]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.908735]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.909415]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.909423]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.910071]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.910079]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.910712]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.910731]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.911542]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.911550]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.912441]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.912450]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.913187]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.913195]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.913828]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.913836]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.914493]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.914502]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.915223]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.915230]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.915880]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.915887]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.916517]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.916524]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.917174]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.917181]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.917822]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.917829]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.918474]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.918482]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.919356]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.919364]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.920039]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.920047]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.920713]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.920721]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.921334]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.921342]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.922015]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.922022]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.922855]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.922863]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.923678]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.923685]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.924327]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.924335]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.924975]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.924983]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.925676]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.925696]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.926527]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.926534]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.927168]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.927178]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.927944]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.927951]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.928589]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.928600]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.929309]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.929316]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.929974]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.929983]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.930670]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.930677]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.931331]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.931340]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.932050]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.932058]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.932870]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.932879]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.933622]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.933630]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.934699]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.934708]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.935636]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.935644]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.936512]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.936522]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.937457]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.937467]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.938454]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.938463]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.939211]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.939221]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.940226]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.940235]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.940987]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.940997]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.942014]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.942024]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.943003]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.943011]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.943973]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.943983]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.944722]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.944731]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.945553]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.945563]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.946502]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.946510]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.950886]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.950896]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.957430]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  279.957438]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  280.150261]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -49 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  280.150510]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  280.150625]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  280.151430]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  280.151496]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  280.302816]: IO80211PeerMonitor::checkForDPS()  Enter
+[  280.302826]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  280.302830]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  280.302832]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  280.302834]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  280.302836]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  280.302838]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  280.302845]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  280.302846]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  280.302847]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  280.302848]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  280.302849]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  280.516627]: udp connect: [<IPv6-redacted>:0<-><IPv6-redacted>:0] interface:  (skipped: 0)
+so_gencnt: 6591 so_state: 0x0100 process: Spotify Helper:825 bytes in/out: 0/0 pkts in/out: 0/0 error: 65 so_error: 0 svc/tc: 0 flow: 0x0udp_connection_summary [<IPv6-redacted>:0<-><IPv6-redacted>:0] interface:  (skipped: 0)
+so_gencnt: 6591 so_state: 0x0100 process: Spotify Helper:825 Duration: 0.000 sec Conn_Time: 0.000 sec bytes in/out: 0/0 pkts in/out: 0/0 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x0 flowctl: 0us (0x) NVRM-fb: present stats head 0: 216 flips in 10042 ms (22/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 5952 us
+[  280.574157]: NVRM-fb: present stats head 0: 216 flips in 10042 ms (22/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 5952 us
+[  281.257475]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  281.257672]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  281.257805]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  281.258567]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  281.258648]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  281.945145]: NVAccel: surfvram: surface 30 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x1002d status 0 (ok 6144, refused 0)
+[  281.945151]: NVAccel: surfvram: surface 30 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x1002d status 0 (ok 6144, refused 0)
+[  282.356866]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  282.357021]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  282.357217]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  282.357234]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  282.531112]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49239<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3779 t_state: LAST_ACK process: commerce:870 Duration: 122.180 sec Conn_Time: 0.015 sec bytes in/out: 43978/8073 pkts in/out: 42/12 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 917 ACKs delayed: 11 delayed ACKs sent: 0
+rtt: 36.250 ms rttvar: 39.187 ms base rtt: 14 ms so_error: 0 svc/tc: 0 flow: 0x9b81736btcp_connection_summary [<IPv4-redacted>:49239<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3779 t_state: LAST_ACK process: commerce:870 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  283.108344]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  283.108374]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  283.108386]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  283.315249]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashcom.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  283.459709]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  283.459914]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  284.431778]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49184<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3247 t_state: LAST_ACK process: softwareupdated:296 Duration: 126.773 sec Conn_Time: 0.325 sec bytes in/out: 7831/9651 pkts in/out: 13/22 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 124.781 ms rttvar: 121.312 ms base rtt: 14 ms so_error: 0 svc/tc: 0 flow: 0xa5d4f462tcp_connection_summary [<IPv4-redacted>:49184<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3247 t_state: LAST_ACK process: softwareupdated:296 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  284.561343]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  284.561657]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  284.561754]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  284.606291]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashNVRM-xnu: nv_post_event #212992 hEvent 0xcaf00004 index 12 -> connection woken | matched 212992, waits 12676, slept 6303
+[  285.054208]: NVRM-xnu: >os_mem_set #4000000 len=24
+[  285.093301]: {public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}s{public}sIO80211PeerMonitor::checkForDPS()  Enter
+[  285.302530]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  285.302534]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  285.302536]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  285.302537]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  285.302539]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  285.302541]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  285.302550]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  285.302551]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  285.302551]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  285.302552]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  285.302553]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  285.668436]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  285.668633]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  285.668750]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  285.677249]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashcom.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  286.775741]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  286.775825]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  286.776631]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  286.776692]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  287.045548]: process_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "2.1.304" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationprocess_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  287.301472]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  287.311812]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  287.311823]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  287.341368]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  287.341378]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  287.553653]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  287.657486]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  287.771512]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  287.771523]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  287.883225]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  287.883357]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  287.883515]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  287.883562]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  288.108555]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  288.108581]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  288.108593]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  288.986668]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  288.986885]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  288.987118]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  290.085713]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  290.085896]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  290.086106]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  290.301758]: IO80211PeerMonitor::checkForDPS()  Enter
+[  290.301769]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  290.301773]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  290.301775]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  290.301777]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  290.301778]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  290.301783]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  290.301792]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  290.301793]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  290.301794]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  290.301794]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  290.301796]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  290.682864]: NVRM-fb: present stats head 0: 103 flips in 10072 ms (10/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 5942 us
+[  290.682872]: NVRM-fb: present stats head 0: 103 flips in 10072 ms (10/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 5942 us
+[  291.103509]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashcom.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  291.190425]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  291.190512]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  291.191156]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  291.191211]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  292.299350]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  292.299479]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  292.299691]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  293.109133]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  293.109149]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  293.109163]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  293.405875]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  293.406088]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  293.406255]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  293.406338]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  294.509056]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  294.509338]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  294.509519]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  295.302552]: IO80211PeerMonitor::checkForDPS()  Enter
+[  295.302575]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  295.302586]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  295.302599]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  295.302606]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  295.302610]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  295.302616]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  295.302625]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  295.302626]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  295.302627]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  295.302628]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  295.302629]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  295.423840]: process_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "sudo" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validation"AppleKeyStore":pid:139,msgid:0,msgno:0:3112: bag->state:0, class_a_not_available:0, all_users_state_locked:1, all_users_system_locked:1
+[  295.506773]: "AppleKeyStore":pid:139,msgid:0,msgno:0:3129: state_change: 0, availability_change: 0
+[  295.506789]: "AppleKeyStore":pid:139,msgid:0,msgno:0:2598: vol-uuid: UUID-352, portable: 1, res: 0x0
+[  295.506791]: "AppleKeyStore":pid:139,msgid:0,msgno:0:4332: user ef84860a7c1144e49d0f1c98f3da4542 unlock successful (0)
+[  295.615078]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  295.615248]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  295.615468]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  295.615993]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  295.616049]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  295.621363]: Sandbox apply: fskit_agent[1261] <bytes>memorystatus: Denying dirty-tracking opt-in for managed com.apple.fskit.msdos [1263]
+[  295.669968]: Sandbox apply: com.apple.fskit.msdos[1263] <bytes>process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shALUC:init(pid: 1263 pidversion: 3110), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 0
+[  295.679893]: process_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashmemorystatus: Denying dirty-tracking opt-in for managed com.apple.fskit.msdos [1265]
+[  295.701747]: Sandbox apply: com.apple.fskit.msdos[1265] <bytes>ALUC:init(pid: 1265 pidversion: 3118), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 0
+[  295.711515]: lifs_create_iouc_container: new container <ptr> added (pid 1265 pidversion 3118)
+[  295.711518]: methodConfigureUserClient: client <ptr> pid: 1265 pidversion: 3118 supportBlockResource: 1
+[  295.715882]: ALUC:clientDied(pid: 1265 pidversion: 3118), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 1
+[  295.715885]: lifs_destroy_iouc_container: container <ptr> removed (pid 1265 pidversion 3118)
+[  295.728999]: memorystatus: Denying dirty-tracking opt-in for managed com.apple.fskit.msdos [1266]
+[  295.734323]: Sandbox apply: com.apple.fskit.msdos[1266] <bytes>ALUC:init(pid: 1266 pidversion: 3122), fskitd_entitled 0 fsmodule_entitled 1 support_block_resource 0
+[  295.744495]: lifs_create_iouc_container: new container <ptr> added (pid 1266 pidversion 3122)
+[  295.744499]: methodConfigureUserClient: client <ptr> pid: 1266 pidversion: 3122 supportBlockResource: 1
+[  295.752916]: spec_open : si_devbsdunit initialized to (0), throttle_mask is (0x3), isssd is (1)
+[  295.752922]: methodOpenKernelFD: add volume <ptr> client <ptr> container <ptr> (fd: 3 device: disk0s5 fmode: 0x3 blocksize: 0x200)
+[  295.755884]: lifs_mount:uid:0:gid:0lifs_req_callback_thread: thread <ptr> starting for mount <ptr>
+[  295.757003]: lifs_attach_mount_to_iouc_volume: mount <ptr> volume <ptr> client <ptr> device: disk0s5
+[  295.757335]: lifs_query_mountpoint: lmp <ptr> freespace 0x1b9a0000lmp <ptr> max_filesize 0xfffffffflifs_endio_thread: thread <ptr> starting for mount <ptr>
+[  295.758016]: ioqueue_depth = 256,   ioscale = 8
+[  295.758034]: disk0s5: isssd 1 devblksize 512 devreadsize 524288 devwritesize 524288 maxreadcnt 67108864 segreadcnt 16384 maxwritecnt 67108864 segwritecnt 16384 mnt_flags 0x10201018
+[  295.768517]: readdir:start:vp:<ptr>:lnode:<ptr>:cookie:0x0:verifier:0x0
+[  295.769111]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:8160
+[  295.769131]: readdir:finish:offset:9600005a24:numdirentries:150:eof:0:error:0
+[  295.769854]: readdir:start:vp:<ptr>:lnode:<ptr>:cookie:0x9600005a24:verifier:0x1
+[  295.770097]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:1624
+[  295.770100]: readdir:finish:offset:ffffffffffffffff:numdirentries:29:eof:1:error:0
+[  295.791583]: Sandbox apply: doubleagentd[1268] <bytes>readdir:start:vp:<ptr>:lnode:<ptr>:cookie:0x0:verifier:0x1
+[  295.805407]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:8160
+[  295.805418]: readdir:finish:offset:9600005a24:numdirentries:150:eof:0:error:0
+[  295.806026]: readdir:start:vp:<ptr>:lnode:<ptr>:cookie:0x9600005a24:verifier:0x1
+[  295.806226]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:1624
+[  295.806229]: readdir:finish:offset:ffffffffffffffff:numdirentries:29:eof:1:error:0
+[  295.811286]: process_is_plugin_host: running binary "2.1.304" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationreaddir:start:vp:<ptr>:lnode:<ptr>:cookie:0x0:verifier:0x0
+[  295.813071]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:88
+[  295.813073]: readdir:finish:offset:ffffffffffffffff:numdirentries:3:eof:1:error:0
+[  295.826978]: lifs_enable_lowspace_sync_write: lmp <ptr> freespace 0x1b9a1000 sync write enabledSandbox apply: mds_stores[1281] <bytes>readdir:start:vp:<ptr>:lnode:<ptr>:cookie:0x0:verifier:0x0
+[  296.069416]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:5432
+[  296.069424]: readdir:finish:offset:ffffffffffffffff:numdirentries:123:eof:1:error:0
+[  296.103298]: readdir:start:vp:<ptr>:lnode:<ptr>:cookie:0x0:verifier:0x43
+[  296.103600]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:5432
+[  296.103608]: readdir:finish:offset:ffffffffffffffff:numdirentries:123:eof:1:error:0
+[  296.106480]: readdir:start:vp:<ptr>:lnode:<ptr>:cookie:0x0:verifier:0x43
+[  296.106781]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:5432
+[  296.106796]: readdir:finish:offset:ffffffffffffffff:numdirentries:123:eof:1:error:0
+[  296.107793]: readdir:start:vp:<ptr>:lnode:<ptr>:cookie:0x0:verifier:0x43
+[  296.108191]: readdir:vp:<ptr>:lifs_readdir_request:error:0:bytesRead:5432
+[  296.108197]: readdir:finish:offset:ffffffffffffffff:numdirentries:123:eof:1:error:0
+[  296.189837]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashSandbox apply: mdsync[1283] <bytes>Sandbox apply: mdworker_shared[1284] <bytes>NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  296.319551]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  296.702202]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  296.702408]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  296.702502]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  296.703133]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  296.703176]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  296.935637]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  296.935652]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  297.809785]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -49 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  297.809962]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  297.810109]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  297.810667]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  297.810704]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  298.110002]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  298.110019]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  298.110044]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  298.913761]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  298.913984]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  298.914170]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  298.914193]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  298.914879]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  298.914939]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  300.018431]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  300.018624]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  300.018849]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  300.301881]: IO80211PeerMonitor::checkForDPS()  Enter
+[  300.301898]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  300.301906]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  300.301911]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  300.301915]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  300.301918]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  300.301922]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  300.301936]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  300.301939]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  300.301940]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  300.301942]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  300.301945]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  300.743618]: NVRM-fb: present stats head 0: 86 flips in 10018 ms (9/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 5872 us
+[  300.743625]: NVRM-fb: present stats head 0: 86 flips in 10018 ms (9/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 5872 us
+[  301.121439]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  301.121594]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  301.121799]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  301.122351]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  301.122405]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  302.226335]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -49 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  302.226507]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  302.226646]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  302.227235]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  302.227277]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  303.110323]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  303.110340]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  303.110355]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  303.331817]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -49 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  303.331988]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  303.332133]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  303.656001]: NVRM-xnu: nv_post_event #229376 hEvent 0xcaf00004 index 12 -> connection woken | matched 229376, waits 13671, slept 6799
+[  304.434357]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  304.434578]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  304.434774]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  304.434882]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  304.435435]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  304.435474]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  304.730022]: tcp_connection_summary (tcp_usrclosed:3259)[<IPv4-redacted>:49335<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 6099 t_state: LAST_ACK process: appstoreagent:767 Duration: 76.004 sec Conn_Time: 0.017 sec bytes in/out: 6640/6581 pkts in/out: 9/9 pkt rxmit: 2 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 24.687 ms rttvar: 15.562 ms base rtt: 15 ms so_error: 0 svc/tc: 200 flow: 0xa87616c8tcp_connection_summary [<IPv4-redacted>:49335<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 6099 t_state: LAST_ACK process: appstoreagent:767 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  305.302746]: IO80211PeerMonitor::checkForDPS()  Enter
+[  305.302762]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  305.302769]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  305.302773]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  305.302777]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  305.302780]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  305.302784]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  305.302797]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  305.302799]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  305.302801]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  305.302803]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  305.302805]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  305.535568]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  305.535838]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  305.535906]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  306.641827]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  306.642018]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  306.642148]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  306.642763]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  306.642802]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  307.154039]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  307.154060]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  307.256098]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  307.256109]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  307.748283]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  307.748626]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  307.748753]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  307.749491]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  307.749550]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  308.110963]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  308.110990]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  308.111013]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  308.853011]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -47 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  308.853197]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  308.853417]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  308.854088]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  308.854141]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  309.563840]: udp_connection_summary [<IPv4-redacted>:64165<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 6552 so_state: 0x0102 process: Spotify Helper:825 Duration: 30.305 sec Conn_Time: 30.305 sec bytes in/out: 10329/5101 pkts in/out: 18/13 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8d256508 flowctl: 0us (0x) com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  309.959022]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  309.959174]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  309.959193]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  309.959694]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  309.959735]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  310.159321]: NVAccel: newResource -> <ptr>
+[  310.159325]: NVAccel: newResource -> <ptr>
+[  310.159330]: NVAccel: newSysMemory -> <ptr>
+[  310.159331]: NVAccel: newSysMemory -> <ptr>
+[  310.159334]: NVAccel: newVidMemory -> <ptr>
+[  310.159334]: NVAccel: newVidMemory -> <ptr>
+[  310.159403]: NVRM-xnu: >os_map_kernel_space start=0x3fc08800000 size=0x690000 mode=2
+[  310.159472]: NVRM-xnu:   mapped -> 0x<ptr> (slot 38, high water 246/8192)
+[  310.160652]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc08800000 kva <ptr> [BAR1 296615936]
+[  310.160658]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc08800000 kva <ptr> [BAR1 296615936]
+[  310.162733]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  310.162736]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  310.178218]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  310.178228]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  310.256365]: process_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  310.287152]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  310.302128]: IO80211PeerMonitor::checkForDPS()  Enter
+[  310.302137]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  310.302140]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  310.302142]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  310.302144]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  310.302145]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+
+[  310.302147]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  310.302156]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  310.302157]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  310.302158]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  310.302158]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  310.302159]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  310.319403]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  310.319414]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  310.377989]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10029 -> status 0x0
+[  310.378017]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  310.409707]: SK[2]: flow_entry_alloc               fe "0 proc kernel_task(0)Python nx_port 1 flow_uuid UUID-380 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49342,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x9d1a112b tp_proto=0x06"
+[  310.409941]: tcp connect outgoing: [<IPv4-redacted>:49342<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 6782 t_state: SYN_SENT process: Python:1286 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xaf4519eftcp connected: [<IPv4-redacted>:49342<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 6782 t_state: ESTABLISHED process: Python:1286 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xaf4519eftcp_connection_summary (tcp_drop:1476)[<IPv4-redacted>:49342<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 6782 t_state: CLOSED process: Python:1286 Duration: 0.201 sec Conn_Time: 0.020 sec bytes in/out: 6089/666 pkts in/out: 8/3 pkt rxmit: 0 ooo pkts: 1 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 24.218 ms rttvar: 14.250 ms base rtt: 15 ms so_error: 0 svc/tc: 0 flow: 0xaf4519eftcp_connection_summary [<IPv4-redacted>:49342<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 6782 t_state: CLOSED process: Python:1286 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 1/0 RST in/out: 0/1 AccECN (client/server): Disabled/Disabled
+[  310.852632]: NVRM-fb: present stats head 0: 111 flips in 10084 ms (11/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 5875 us
+[  310.852639]: NVRM-fb: present stats head 0: 111 flips in 10084 ms (11/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 5875 us
+[  311.064228]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  311.064561]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  311.064761]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  312.174297]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  312.174521]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  312.174769]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  313.111966]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  313.111987]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  313.112001]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  313.283209]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  313.283468]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  313.283586]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  314.389203]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -48 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  314.389354]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  314.389563]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  314.684950]: process_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "2.1.304" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationprocess_is_plugin_host: running binary "2.1.304" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationprocess_is_plugin_host: running binary "2.1.304" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationprocess_is_plugin_host: running binary "2.1.304" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationprocess_is_plugin_host: running binary "sh" in keys-off mode due to identity: com.apple.shprocess_is_plugin_host: running binary "bash" in keys-off mode due to identity: com.apple.bashIO80211PeerMonitor::checkForDPS()  Enter
+[  315.301671]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  315.301675]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  315.301677]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  315.301678]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  315.301679]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+
+[  315.301682]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  315.301692]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  315.301703]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  315.301704]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  315.301704]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  315.301705]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  315.302475]: Starting poll type 4
+[  315.302478]: Restarting poll type 4
+[  315.302481]: Transaction triggered Starting poll type 4
+[  315.490398]: SMC read called for cmd 0x120a wih no-op key
+[  315.490444]: SmartBattery: finished polling type 4
+[  315.490499]: priorityCalculationInputs en1 isWiFiInterface:0Sandbox: dasd(150) deny(1) iokit-get-properties iokit-class:AppleSmartBattery property:SkipperNEIgnoreAtCriticalcom.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -49 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  315.491017]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  315.491188]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  315.491194]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  315.491813]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  315.491864]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 

@@ -1,0 +1,170 @@
+[   47.514231]: NVRM-xnu: probe 10de:2d18 class 03.00 subsystem 17aa:3e38
+[   47.514237]: NVRM-xnu: probe 10de:2d18 class 03.00 subsystem 17aa:3e38
+[   47.514242]: NVRM-xnu: rm_is_supported_pci_device OK; RM names 10de:2d18 "NVIDIA GeForce RTX 5070 Laptop GPU"
+[   47.514244]: NVRM-xnu: rm_is_supported_pci_device OK; RM names 10de:2d18 "NVIDIA GeForce RTX 5070 Laptop GPU"
+[   47.514262]: NVAccel: probe(GFX0) score 100
+[   47.514264]: NVAccel: probe(GFX0) score 100
+[   47.514269]: NVAccel: NVIDIA display device 10de:2d18 class 03.00 - claiming
+[   47.514270]: NVAccel: NVIDIA display device 10de:2d18 class 03.00 - claiming
+[   47.514368]: NVRMFB: NVRMFBClaim holds the IOFramebuffer match category on GFX0 - IONDRVFramebuffer blocked
+[   47.515339]: NVRM-agdc: loaded; idle until `sysctl debug.nvrmfb_agdc=1`
+[   51.662567]: Sandbox: dasd(137) deny(1) mach-lookup com.apple.OSIntelligence.chargingNVRM-xnu: boot screen: copied 2560x1600 pitch 16384 (25600 KB) from the console at 0x6018000000 in 4725 ms
+[   52.244045]: NVRM-xnu: boot screen: copied 2560x1600 pitch 16384 (25600 KB) from the console at 0x6018000000 in 4725 ms
+[   52.244055]: NVRM-xnu: bar1: -nvrmsmallbar set \M-b\M^@\M^T BAR1 left as IOPCIFamily placed it
+[   52.244057]: NVRM-xnu: bar1: -nvrmsmallbar set \M-b\M^@\M^T BAR1 left as IOPCIFamily placed it
+[   52.244287]: NVRM-xnu: aperture idx 0 phys 0x100400000 size 0x4000000: no BAR register matches \M-b\M^@\M^T skipped
+[   52.244501]: NVRM-xnu: aperture idx 1 phys 0x104400000 size 0x4000000: no BAR register matches \M-b\M^@\M^T skipped
+[   52.244613]: NVRM-xnu: aperture idx 2 phys 0x108400000 size 0x2000000: no BAR register matches \M-b\M^@\M^T skipped
+[   52.244622]: NVRM-xnu: aperture idx 3 phys 0x9000 size 0x80: no BAR register matches \M-b\M^@\M^T skipped
+[   52.244642]: NVRM-xnu: aperture idx 4 phys 0x100200000 size 0x80000: no BAR register matches \M-b\M^@\M^T skipped
+[   52.244656]: NVRM-xnu: BARS 
+[   52.244665]: NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+[   52.244668]: NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+[   52.244670]: NVRM-xnu: armed on 02:00.0 10de:2d18
+[   52.244673]: NVRM-xnu: armed on 02:00.0 10de:2d18
+[   52.244702]: NVRM-xnu: auto-go: go(2) in 100000 ms on its own thread (BAR1 not placed); registry held busy until the display is armed (cap settle + 40 s)
+[   52.244706]: NVRM-xnu: auto-go: go(2) in 100000 ms on its own thread (BAR1 not placed); registry held busy until the display is armed (cap settle + 40 s)
+[   52.244722]: NVRM-xnu: starting the NVIDIA card: waiting 100 s before it takes over the screen, because its memory window (BAR1) is too small to move off the boot screen. This is not a freeze. To start in about a second instead, enable "Above 4G Decoding" and "Resizable BAR" in the BIOS.
+[   52.244725]: NVRM-xnu: starting the NVIDIA card: waiting 100 s before it takes over the screen, because its memory window (BAR1) is too small to move off the boot screen. This is not a freeze. To start in about a second instead, enable "Above 4G Decoding" and "Resizable BAR" in the BIOS.
+[   52.244739]: NVAccel: NVRM owns 10de:2d18 (waited 0 ms) - starting
+[   52.244742]: NVAccel: NVRM owns 10de:2d18 (waited 0 ms) - starting
+[   52.244743]: NVAccel: start(GFX0): calling IOGraphicsAccelerator2::start \M-b\M^@\M^T the family's own bring-up
+[   52.244744]: NVAccel: start(GFX0): calling IOGraphicsAccelerator2::start \M-b\M^@\M^T the family's own bring-up
+[   52.244790]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   52.244796]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   52.245023]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   52.245025]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   52.245026]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   52.245027]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   52.245028]: NVAccel:    cfg+0x08 = 0x0000000000000000
+[   52.245029]: NVAccel:    cfg+0x08 = 0x0000000000000000
+[   52.245029]: NVAccel:    cfg+0x10 = 0x0000000000000000
+[   52.245030]: NVAccel:    cfg+0x10 = 0x0000000000000000
+[   52.245031]: NVAccel:    cfg+0x18 = 0x0000000000000001
+[   52.245032]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   52.245033]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   52.245033]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   52.245034]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   52.245035]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   52.245036]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   52.245037]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   52.245038]: NVAccel:    cfg+0x40 = 0x0000000100010000
+[   52.245039]: NVAccel:    cfg+0x48 = 0x000000030000000c
+[   52.245040]: NVAccel:    cfg+0x50 = 0x00007fff00000003
+[   52.245041]: NVAccel:    cfg+0x50 = 0x00007fff00000003
+[   52.245042]: NVAccel:    cfg+0x58 = 0x0000000000000000
+[   52.245043]: NVAccel:    cfg+0x60 = 0x0000000000000000
+[   52.245044]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   52.245045]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   52.245046]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   52.245047]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   52.245196]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   52.245197]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   52.245214]: NVAccel: newDisplayMachine -> <ptr>
+[   52.245344]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   52.245345]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   52.245356]: NVAccel: IOGraphicsAccelerator2::start -> 1
+[   52.245367]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   52.245368]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   52.245456]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   52.245457]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   52.245459]: NVAccel: enableAccelerator() from start (call #1)
+[   52.245460]: NVAccel: enableAccelerator() from start (call #1)
+[   52.245465]: NVAccel: display machine framebuffer count after the family sweep = 0
+[   52.245466]: NVAccel: display machine framebuffer count after the family sweep = 0
+[   52.245467]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   52.245468]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   52.245551]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   52.245553]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   52.245558]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   52.245559]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   52.245583]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   52.245585]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   52.245590]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   52.245592]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   52.245597]: NVAccel: headless check: armed for 60 s from now
+[   52.245598]: NVAccel: headless check: armed for 60 s from now
+[   67.244789]: NVRM-xnu: starting the NVIDIA card: 85 s left (not a freeze)
+[   67.244795]: NVRM-xnu: starting the NVIDIA card: 85 s left (not a freeze)
+[   82.245387]: NVRM-xnu: starting the NVIDIA card: 70 s left (not a freeze)
+[   82.245393]: NVRM-xnu: starting the NVIDIA card: 70 s left (not a freeze)
+[   97.319026]: NVRM-xnu: starting the NVIDIA card: 55 s left (not a freeze)
+[   97.319032]: NVRM-xnu: starting the NVIDIA card: 55 s left (not a freeze)
+[  105.734208]: busy timeout[0], (60s): 'NVRM' (1e,1)
+[  108.148955]: Sandbox: dasd(137) deny(1) mach-lookup com.apple.systemstats.analysisNVAccel: headless check: no NVIDIA display head after 60 s -- MetalPluginName restored WITHOUT arming: apps get the NVIDIA Metal device, WindowServer stays on the display's GPU (IONDRVFramebuffer)
+[  112.245869]: NVAccel: headless check: no NVIDIA display head after 60 s -- MetalPluginName restored WITHOUT arming: apps get the NVIDIA Metal device, WindowServer stays on the display's GPU (IONDRVFramebuffer)
+[  112.392356]: NVRM-xnu: starting the NVIDIA card: 40 s left (not a freeze)
+[  112.392362]: NVRM-xnu: starting the NVIDIA card: 40 s left (not a freeze)
+[  127.477030]: NVRM-xnu: starting the NVIDIA card: 25 s left (not a freeze)
+[  127.477038]: NVRM-xnu: starting the NVIDIA card: 25 s left (not a freeze)
+[  142.550253]: NVRM-xnu: starting the NVIDIA card: 10 s left (not a freeze)
+[  142.550259]: NVRM-xnu: starting the NVIDIA card: 10 s left (not a freeze)
+[  152.619995]: NVRM-xnu: boot raster: BAR0 too small (0) \M-b\M^@\M^T unknown
+[  152.620002]: NVRM-xnu: boot raster: BAR0 too small (0) \M-b\M^@\M^T unknown
+[  152.688456]: NVRM-xnu: go(2) begins (fPassDone 0)
+[  152.688457]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[  152.688458]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[  152.688542]: NVRM-xnu: headwatch: done
+[  152.761960]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[  152.761961]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[  152.842618]: NVRM-xnu: rm_init_rm()
+[  152.842619]: NVRM-xnu: rm_init_rm()
+[  152.915224]: NVRM-xnu: >nv_is_chassis_notebook
+[  152.915225]: NVRM-xnu: >nv_acpi_is_battery_present
+[  152.915244]: NVRM: _sysCreateOs: RM Access Sys Cap creation failed: 0x56
+[  152.922278]: NVRM-xnu: >nv_platform_supports_s0ix
+[  152.922555]: NVRM-xnu: rm_init_rm OK
+[  152.922557]: NVRM-xnu: rm_init_rm OK
+[  152.993653]: NVRM-xnu: event locks created for the control device and the GPU
+[  152.993654]: NVRM-xnu: event locks created for the control device and the GPU
+[  153.069929]: NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+[  153.069931]: NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+[  153.145353]: NVRM-xnu: PHYSMAP FOREIGN-KMAP phys 0x0 +0x1000 extra 0x2a00dd
+[  153.145378]: NVRM-xnu:   md->map(cache=0x100) FAILED
+[  153.145384]: NVRM: failed to map registers!
+[  153.145385]: NVRM: failed to map registers!
+[  153.216493]: NVRM-xnu: rm_is_supported_device -> 0x59: RM will not drive device 0x2d18 - stopping, card untouched
+[  153.216494]: NVRM-xnu: rm_is_supported_device -> 0x59: RM will not drive device 0x2d18 - stopping, card untouched
+[  153.286217]: NVRM-xnu: auto-go: go(2) -> 0xe00002c7 (fPassDone 0)
+[  153.286606]: NVRM-xnu: boot hold RELEASED (go(2) failed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[  153.286607]: NVRM-xnu: boot hold RELEASED (go(2) failed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[  155.068762]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  155.068769]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  155.068781]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  155.068784]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  155.069010]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  155.069012]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  155.069046]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  155.069049]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  155.233507]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  155.233511]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  155.233518]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  155.233519]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  155.233616]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  155.233617]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  155.233632]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  155.233634]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  165.389701]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  165.389707]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  165.389717]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  165.389719]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  165.389877]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  165.389879]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  165.389902]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  165.389904]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  175.542750]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  175.542754]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  175.542760]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  175.542761]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  175.542860]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  175.542861]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  175.542876]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  175.542878]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  185.706804]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  185.706807]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  185.706813]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  185.706815]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  185.706912]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  185.706913]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  185.706929]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  185.706930]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2

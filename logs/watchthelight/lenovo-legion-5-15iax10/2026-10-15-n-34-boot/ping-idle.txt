@@ -1,0 +1,15 @@
+PING IP-2 (IP-2): 56 data bytes
+64 bytes from IP-2: icmp_seq=0 ttl=57 time=15.850 ms
+64 bytes from IP-2: icmp_seq=1 ttl=57 time=16.301 ms
+64 bytes from IP-2: icmp_seq=2 ttl=57 time=15.013 ms
+64 bytes from IP-2: icmp_seq=3 ttl=57 time=15.830 ms
+64 bytes from IP-2: icmp_seq=4 ttl=57 time=15.411 ms
+64 bytes from IP-2: icmp_seq=5 ttl=57 time=15.705 ms
+64 bytes from IP-2: icmp_seq=6 ttl=57 time=16.290 ms
+64 bytes from IP-2: icmp_seq=7 ttl=57 time=16.333 ms
+64 bytes from IP-2: icmp_seq=8 ttl=57 time=15.035 ms
+64 bytes from IP-2: icmp_seq=9 ttl=57 time=16.275 ms
+
+--- IP-2 ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 15.013/15.804/16.333/0.487 ms

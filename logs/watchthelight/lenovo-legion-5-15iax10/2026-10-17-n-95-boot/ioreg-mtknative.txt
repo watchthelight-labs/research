@@ -1,0 +1,23 @@
+# ioreg MtkWlanNative / MtkWlan native properties, N-95 2026-10-17 09:59 PDT
+"MtkNativeInterface" = No
+"MtkNativeEnabled" = Yes
+"MtkNativeLast" = "ctl:controller only (no interface requested)"
+"MtkNativeVersion" = "0.1.0"
+"MtkNativeAbi" = {"Builds"=({"Build"="25G241","Sizes"={"IOSkywalkPacketQueue"=216,"IOSkywalkTxSubmissionQueue"=360,"IO80211InfraProtocol"=304,"IOSkywalkRxCompletionQueue"=312,"IO80211WorkQueue"=80,"IO80211SkywalkInterface"=296,"IO80211InfraInterface"=304,"IO80211Controller"=296,"IO80211CommandGate"=24,"IOSkywalkEthernetInterface"=288,"IOSkywalkInterface"=176,"IOSkywalkRxSubmissionQueue"=336,"IOSkywalkTxCompletionQueue"=312,"IOSkywalkPacketBufferPool"=192,"IOSkywalkNetworkInterface"=224},"Xnu"="xnu-12377.161.15.700.19~2"})}
+"MtkNativeTrace" = "ctl:start; ctl:work queue ok; ctl:logger ok; ctl:fault reporter ok; base start begin; ctl:base start ok; ctl:media auto=1; ctl:controller only (no interface requested)"
+
+"IOMatchCategory" = "MtkFrontEnd"
+"MtkCm" = "want 0 pmk 0 autoopen 1 (2 ssids) fails 0 runs 2791 switch 0 disc 0 rejoinpend 0"
+"MtkFrontEnd" = "ethernet"
+"MtkNativeAbiBuild" = "25G241"
+"MtkState" = "W6 pass: en1 passing traffic"
+"MtkW1Join" = "state 5 joins 1 fails 0 last 0 rejoins 0 authtx 1 assoctx 1 tries 1"
+"MtkW2Cmd" = "indispatch 0 timeouts 0 fails 0 dead 0"
+"MtkW6Deauths" = 0
+"MtkW6Link" = 15
+"MtkW6RxBad" = 0
+"MtkW6RxDropped" = 15
+"MtkW6TxCapped" = 51
+"MtkW6TxDrop" = 0
+"MtkW6TxFailed" = 0
+"MtkW6TxRingFull" = 0

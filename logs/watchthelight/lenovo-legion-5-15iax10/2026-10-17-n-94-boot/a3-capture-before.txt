@@ -1,0 +1,5 @@
+window 86 Terminal 641 x 347
+legacy Terminal best 1506x918 opaque 0 nonzeroA 0 of 1382508 meanA 0 meanRGB 0 FAIL
+legacy Terminal noframe 641x347 opaque 0 nonzeroA 0 of 222427 meanA 0 meanRGB 0 FAIL
+legacy screen-rect 400x300 opaque 0 nonzeroA 0 of 120000 meanA 0 meanRGB 0 FAIL
+sck Terminal 641x347 opaque 221274 nonzeroA 222303 of 222427 meanA 254 meanRGB 77 PASS

@@ -1,0 +1,107 @@
+————————————————————————————————————————————————————————————————————
+NETWORK
+————————————————————————————————————————————————————————————————————
+    Primary IPv4         : None
+    Primary IPv6         : None
+    DNS Addresses        : None
+    Apple                : Not Reachable
+————————————————————————————————————————————————————————————————————
+WIFI
+————————————————————————————————————————————————————————————————————
+    MAC Address          : <redacted> (hw=<redacted>)
+    Interface Name       : en1
+    Power                : On [On]
+    Op Mode              : None
+    SSID                 : None
+    BSSID                : None
+    RSSI                 : 0 dBm
+    CCA                  : 0 %
+    Noise                : 0 dBm
+    Tx Rate              : 0.0 Mbps
+    Security             : None
+    PHY Mode             : None
+    MCS Index            : 0
+    Guard Interval       : 0
+    NSS                  : 0
+    Channel              : None
+    Country Code         : XZ
+    Scan Cache Count     : 49
+    NetworkServiceID     : UUID-341
+    IPv4 Config Method   : DHCP
+    IPv4 Address         : None
+    IPv4 Router          : None
+    IPv6 Config Method   : Automatic
+    IPv6 Address         : None
+    IPv6 Router          : None
+    DNS                  : None
+    BTC Mode             : Off
+    Desense              : 
+    Chain Ack            : []
+    BTC Profile 2.4GHz   : Disabled
+    BTC Profile 5GHz     : Disabled
+    Sniffer Supported    : NO
+    Supports 6e          : No
+    Supported Channels   : 2g1/20,2g2/20,2g3/20,2g4/20,2g5/20,2g6/20,2g7/20,2g8/20,2g9/20,2g10/20,2g11/20,5g36/20,5g40/20,5g44/20,5g48/20,5g52/20,5g56/20,5g60/20,5g64/20,5g100/20,5g104/20,5g108/20,5g112/20,5g116/20,5g120/20,5g124/20,5g128/20,5g132/20,5g136/20,5g140/20,5g144/20,5g149/20,5g153/20,5g157/20,5g161/20,5g165/20
+————————————————————————————————————————————————————————————————————
+BLUETOOTH
+————————————————————————————————————————————————————————————————————
+    Power                : On
+    Address              : MAC-49
+    Discoverable         : No
+    Connectable          : Yes
+    Scanning             : No
+    Devices              : 3 (paired=1 cloud=2 connected=0)
+
+    iPhone
+    Address          : MAC-50
+    Paired           : No
+    CloudPaired      : Yes
+    Connected        : No
+
+    Toby‚Äôs Apple¬†Watch
+    Address          : MAC-51
+    Paired           : No
+    CloudPaired      : Yes
+    Connected        : No
+
+    Matthew‚Äôs AirPods Pro
+    Address          : MAC-52
+    Paired           : Yes
+    CloudPaired      : No
+    Connected        : No
+
+————————————————————————————————————————————————————————————————————
+AWDL
+————————————————————————————————————————————————————————————————————
+    MAC Address            : n/a (hw=n/a)
+    AirDrop Disc Mode      : Contacts Only
+    AWDL Enabled           : n/a
+    Interface Name         : (null)
+    Power                  : Off
+    IPv6 Address           : None
+    Schedule State         : n/a
+    Channel Sequence       : n/a
+    Op Mode                : n/a
+    Real Time Mode         : No
+    Sync State             : n/a
+    Sync Params            : n/a
+    Master Channel         : n/a
+    Election Params        : n/a
+————————————————————————————————————————————————————————————————————
+POWER
+————————————————————————————————————————————————————————————————————
+    Power Source         : AC
+    Battery Warning Level: None
+    System Caps          : FullWake:cpu disk net aud vid 
+————————————————————————————————————————————————————————————————————
+WIFI FAULTS LAST HOUR
+————————————————————————————————————————————————————————————————————
+    None
+————————————————————————————————————————————————————————————————————
+WIFI RECOVERIES LAST HOUR
+————————————————————————————————————————————————————————————————————
+    None
+————————————————————————————————————————————————————————————————————
+WIFI LINK TESTS LAST HOUR
+————————————————————————————————————————————————————————————————————
+    None

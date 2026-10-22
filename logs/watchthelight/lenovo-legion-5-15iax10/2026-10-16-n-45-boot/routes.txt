@@ -1,0 +1,16 @@
+Routing tables
+
+Internet:
+Destination        Gateway            Flags               Netif Expire
+default            100.x.x.x        UGScg                 en1       
+100.70/16          link#5             UCS                   en1      !
+100.x.x.x        REDACTED-MAC   UHLWIi                en1   1200
+100.x.x.x/32     link#5             UCS                   en1      !
+100.x.x.x        REDACTED-MAC   UHLWIir               en1   1200
+100.x.x.x/32   link#5             UCS                   en1      !
+127                127.0.0.1          UCS                   lo0       
+127.0.0.1          127.0.0.1          UH                    lo0       
+169.254            link#5             UCS                   en1      !
+224.0.0/4          link#5             UmCS                  en1      !
+IP-8        REDACTED-MAC      UHmLWI                en1       
+255.255.255.255/32 link#5             UCS                   en1      !

@@ -1,0 +1,34 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "README.md": "300237a86d09a3a23edb99ddcbe51b6fdb988b8a7ce7aabc5b9aba7f9bb7b36b",
+  "airport-profile.txt": "e50a32f7e1ba96bff743b146990ee2150f80765f42f454413b10133857f7389a",
+  "configd-en1.txt": "2a42ac8d20e57266a049364ea974659c8b4c988123712abd3ce67f3dd63bf529",
+  "guard-log.txt": "6595fa86f74712d0b5f29c972e3b600ac2fdcabef0635bff570c440103ec4a7f",
+  "guard-pending.json": "79601213f2fffb6bdb1a64ee349650b635b051421ae9d2752c78c628488b11df",
+  "ifconfig.txt": "35bca950b82bce101fe5abe31b13877f19993012e36c7d4dc645c6a0a3073464",
+  "ioc-internal-summary.txt": "dc633ec17edc50890fb901c21f3f531244f1688f462e4315354ed845e1ecfb6f",
+  "kextstat.txt": "3bfa20ae0ad8d1a98662d6a90531552b5bee68f5f989ec9e7d74540b747bf9e6",
+  "netstat-rn.txt": "67df71c4f12a1e5f1b73016e1651c56f256ac1ff7cde097175edfeacbb041c9c",
+  "staged-builds.txt": "5d050cb0828c558b2a1d9d907caa8d1cf531074f266e0d3d8e9271f0b738bce2",
+  "wdutil-info.txt": "ce1f255bba287e306977ed62f25d8c4d6d5228ed68df557e02095bb1da8049ba",
+  "wifi-daemons-first-join.txt": "a18db14f3c6c7836ac82b58f2bd6e83b357220c17d723f860774cc45112f618a"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 29,
+   "MAC": 8,
+   "SSID": 1,
+   "UUID": 11
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-141",
+ "username": "watchthelight"
+}

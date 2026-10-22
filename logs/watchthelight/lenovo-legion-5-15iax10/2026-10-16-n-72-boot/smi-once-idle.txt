@@ -1,0 +1,36 @@
+nvgfx-smi  GPU 10de:2d18 at 0000:02:00  gpu_id 0x200
+RUSD: alloc 0x00000000 NV_OK, map 0x00000000 NV_OK (mapped)
+
+pstate            RUSD P4   control P4
+graphics clock    1477 MHz (target 1477 MHz)   PMUMON gpc 1477 MHz active 2790 MHz
+memory clock      9001 MHz (target 9001 MHz)   PMUMON dram 9001 MHz
+video / sm clock  1387 / 0 MHz
+power limit       requested 50000 mW, enforced 50000 mW
+power draw        instant 12410 mW, average 12194 mW, TGP n/a mW
+                  module inst 0 / avg 0 mW, memory avg 0 mW, cpu inst 0 mW
+temperature       GPU 56.8 C (RUSD)   control 56 C   memory 62.0 C
+throttle reasons  none (0x0)
+utilization       gpu 2, memory 1 (raw RUSD units)
+
+rated TDP control client RM input action 0 vpstate 0
+PMGR module info  moduleId 0 nvswitch 2
+perf level (standard) flags 0x2:
+  domain 0x00000001 current 180000 default 180000 min 45000 max 180000 (kHz) flags 0x0
+  domain 0x00000010 current 405000 default 405000 min 101250 max 486000 (kHz) flags 0x0
+
+RUSD timestamps (0 = not populated): clk 1792173242400201608 thr 1792173242501549480 pstate 1792173242500317544 limit 1792173242500445192 temp 1792173242500779592 avg 1792173242500551528 inst 1792173242500545608 tgp 0 util 1792173242500642248
+RM calls:
+  alloc NV01_ROOT_CLIENT                                             0x00000000 NV_OK
+  NV0000_CTRL_CMD_GPU_GET_ID_INFO_V2                                 0x00000000 NV_OK
+  alloc NV01_DEVICE_0                                                0x00000000 NV_OK
+  alloc NV20_SUBDEVICE_0                                             0x00000000 NV_OK
+  alloc NV00DE RM_USER_SHARED_DATA (poll CLOCK|PERF|POWER|THERMAL)   0x00000000 NV_OK
+  NV_ESC_RM_MAP_MEMORY on NV00DE                                     0x00000000 NV_OK
+  NV2080_CTRL_CMD_THERMAL_SYSTEM_EXECUTE_V2 (sensors available)      0x00000000 NV_OK
+  NV2080_CTRL_CMD_PERF_RATED_TDP_GET_STATUS                          0x00000056 NV_ERR_NOT_SUPPORTED
+  NV2080_CTRL_CMD_PERF_RATED_TDP_GET_CONTROL                         0x00000000 NV_OK
+  NV2080_CTRL_CMD_PMGR_GET_MODULE_INFO                               0x00000000 NV_OK
+  NV2080_CTRL_CMD_PERF_GET_LEVEL_INFO_V2 (per-domain probe)          0x00000000 NV_OK
+  NV2080_CTRL_CMD_PERF_GET_CURRENT_PSTATE                            0x00000000 NV_OK
+  NV2080_CTRL_CMD_CLK_PMUMON_CLK_DOMAINS_GET_SAMPLES                 0x00000000 NV_OK
+  NV2080_CTRL_CMD_THERMAL_SYSTEM_EXECUTE_V2 (sensor reading)         0x00000000 NV_OK

@@ -1,0 +1,65 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-18 08:59:23.274INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:59:53.031INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 08:59:58.215(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:00:05.679INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:00:05.726INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:00:05.816(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:01:05.823INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:01:20.914INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:01:26.053(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:03:55.401INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:03:55.828(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:04:56.099(corecapture) CoreCapture errorCodeStr for fault missed beacons  timeout
+2026-10-18 09:04:56.101(corecapture) removeCapture:909 Pipe Owner:org.watchthelight.MtkWlanNative Name:MtkWlanNativeFault LogIdentifier:MtkWlanNativeFault
+2026-10-18 09:04:56.101(corecapture) removeCapture:909 Pipe Owner:org.watchthelight.MtkWlanNative Name:MtkWlanNative LogIdentifier:MtkWlanNative
+2026-10-18 09:04:56.101(corecapture) removeCapture:909 Pipe Owner:com.apple.iokit.IO80211Family Name:LQMLogging LogIdentifier:LQMLogging
+2026-10-18 09:04:56.101(corecapture) removeCapture:909 Pipe Owner:com.apple.iokit.IO80211Family Name:ControlPath LogIdentifier:ControlPath
+2026-10-18 09:04:56.101(corecapture) removeCapture:909 Pipe Owner:com.apple.iokit.IO80211Family Name:Interface_Infrastructure_0 LogIdentifier:InterfaceLogs
+2026-10-18 09:05:01.100INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:05:01.212INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:05:02.350(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:06:02.358INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:06:46.547INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:06:51.410(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:06:56.125(corecapture) removeCapture:909 Pipe Owner:org.watchthelight.MtkWlanNative Name:MtkWlanNative LogIdentifier:MtkWlanNative
+2026-10-18 09:06:56.125(corecapture) removeCapture:909 Pipe Owner:com.apple.iokit.IO80211Family Name:Interface_Infrastructure_0 LogIdentifier:InterfaceLogs
+2026-10-18 09:06:56.125(corecapture) removeCapture:909 Pipe Owner:com.apple.iokit.IO80211Family Name:LQMLogging LogIdentifier:LQMLogging
+2026-10-18 09:06:56.125(corecapture) removeCapture:909 Pipe Owner:org.watchthelight.MtkWlanNative Name:MtkWlanNativeFault LogIdentifier:MtkWlanNativeFault
+2026-10-18 09:06:56.125(corecapture) removeCapture:909 Pipe Owner:com.apple.iokit.IO80211Family Name:ControlPath LogIdentifier:ControlPath
+2026-10-18 09:07:51.416INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:08:04.875INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:08:10.377(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:09:10.384INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:09:25.893INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:09:30.920(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:10:30.927INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:11:21.566INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:11:26.747(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:11:34.163INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:11:34.228INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:11:34.316(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:12:16.298INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:12:46.708INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:12:46.801(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:13:46.808INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:14:06.628INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:14:11.785(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:14:19.208INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:14:19.253INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:14:19.343(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:14:25.334INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:14:41.312INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:14:46.408(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:14:53.826INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:14:53.871INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:14:53.948(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:15:53.957INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:16:03.405INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:16:08.630(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:17:08.637INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:17:28.330INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:17:33.498(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7
+2026-10-18 09:18:33.504INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:18:40.335INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:18:45.425(IO80211Family) IO80211Family: ERROR: IO80211QueueCall::handleEntry - called type 3, error 0xe00002c7

@@ -1,0 +1,43 @@
++-o LegionI2CProbe  <class LegionI2CProbe, id 0x100000470, registered, matched, active, busy 0 (0 ms), retain 5>
+    {
+      "ProbePmcsrAfter" = 8
+      "ProbeIcConAfterReset" = 119
+      "IOMatchedAtBoot" = Yes
+      "ProbeLpssClockBeforeReset" = 0
+      "ProbeLpssResetsBeforeReset" = 0
+      "ProbeBar0Phys" = 2240512
+      "ProbePmcsrBefore" = 11
+      "ProbeCompTypeBeforeReset" = 0
+      "ProbeLpssResetsAfterReset" = 7
+      "ProbeLpssClockAfterReset" = 0
+      "ProbeIntType0Return" = 0
+      "ProbeCompParam1AfterReset" = 4145134
+      "ProbeHasIntSpecifiers" = Yes
+      "ProbePciCommandBefore" = 4
+      "ProbeCompTypeOk" = Yes
+      "ProbeLpssCapsBeforeReset" = 513
+      "ProbeIcConBeforeReset" = 0
+      "ProbeCompParam1BeforeReset" = 0
+      "ProbeResult" = "COMP_TYPE ok, interrupt registers: VoodooI2C should get past probe and interrupts"
+      "ProbeCompVersionBeforeReset" = 0
+      "ProbeBar0Size" = 4096
+      "ProbeCompVersionAfterReset" = 842019370
+      "IOPCIPrimaryMatch" = "0x7f4d8086"
+      "ProbeInterruptPin" = 2
+      "ProbeInterruptLine" = 255
+      "ProbeLpssCapsAfterReset" = 513
+      "ProbeEnableStatusBeforeReset" = 0
+      "CFBundleIdentifier" = "org.watchthelight.LegionI2CProbe"
+      "ProbeRegisterInterrupt0" = 0
+      "IOProviderClass" = "IOPCIDevice"
+      "ProbeIntType0" = 1
+      "IOClass" = "LegionI2CProbe"
+      "CFBundleIdentifierKernel" = "org.watchthelight.LegionI2CProbe"
+      "ProbeEnableStatusAfterReset" = 0
+      "IOMatchCategory" = "IODefaultMatchCategory"
+      "IOProbeScore" = 10000
+      "ProbePciCommand" = 6
+      "ProbeCompTypeAfterReset" = 1146552640
+    }
+    
+

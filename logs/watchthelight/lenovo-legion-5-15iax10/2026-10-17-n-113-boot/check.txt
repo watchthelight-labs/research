@@ -1,0 +1,19 @@
+n-113 check 2026-10-17 17:47 EDT, boot Sat Oct 17 17:45:03 2026
+conf:
+# n-113: framebuffer fetch on in windowserver (badge digit test, I-057)
+NVMTL_NO_FBFETCH=0
+NVMTL_FBFETCH_WS=1
+# --- end my settings ---
+--- crash reports since boot: 0
+--- nvram: nullmoth-nv-ok=1 
+--- lastgood: ls: /Library/LaunchDaemons/com.nullmoth.lastgood.plist: No such file or directory
+Sat Oct 17 17:45:51 EDT 2026 the new driver brought its display up; keeping it
+--- WindowServer cpu:  42.1 01:50
+--- plugin lines:
+--- desktop via SCK ok (sck-desktop.png); Terminal text clean in the capture (no overdraw visible)
+--- badge 71 with fetch ON: still a white circle, no digit (sck-dock-3x.png)
+--- cartext ok, a8rt 3/3, capture 4/4 PASS
+--- WindowServer CPU samples 2 min after login: 147.6 47.3 59.9 % (aircache was emptied by the 2.3.5 installer at N-112, shaders recompiling); system 9% user
+--- lastgood removed itself: 'the new driver brought its display up; keeping it' (17:45:51)
+--- offline replay of pass-n110.json (SKIP=3) on the installed 2.3.5-nvgfx.1 plugin: digit and image drawn, both as ./passreplay and as a copy named WindowServer (every getprogname()==WindowServer branch of the plugin on, same conf): identical output, final row 14 px 6..14 784d6fff a06266ff 8d5459ff 875251ff 864f48ff 8f584bff 945d47ff 643928af 00000000. So the WindowServer-only plugin branches are not the cause either.
+--- passreplay1 (new, native/tools/dock): the whole pass in ONE command buffer and ONE encoder like WindowServer, all 7 draws or SKIP=3: digit and image drawn, same final row. CHURN=140000 (140000 managed 22x28 BGRA textures created, 20000 kept, before the pass: the bindless slot table of 131072 wraps): still drawn. So neither the one-encoder structure nor slot recycling reproduces I-057 offline.

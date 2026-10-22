@@ -1,0 +1,19 @@
+{
+ "collected": "2026-10-17",
+ "component": "native",
+ "files": {
+  "badge-digit-n102.json": "372c5ae20022791f2ec2e5786509642e21456e1b0ae3198a96edc500b6988ff6",
+  "n102-summary.md": "4a1cbb103ccab4909d58b2f00f8348055ba542c13bfee2fd02f8f23558aaa9ec"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-102",
+ "username": "watchthelight"
+}

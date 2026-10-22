@@ -1,0 +1,8 @@
+"nvrm-bars" = "bar0@0x10:0x80000000+0x4000000 bar1@0x14:0x3fc00000000+0x200000000 bar2@0x1c:0x3fe00000000+0x2000000 "
+"nvrm-boot-raster" = "head0 165.001Hz"
+"nvrm-pm" = "running"
+"nvrm-display" = "heads 0x1 accel 4 agdc 1 k5 1 iop 1"
+"nvrm-autogo" = "up"
+"nvrm-flip" = "on"
+"nvrm-kext-version" = "0.1"
+"nvrm-boot-hold" = "display armed"

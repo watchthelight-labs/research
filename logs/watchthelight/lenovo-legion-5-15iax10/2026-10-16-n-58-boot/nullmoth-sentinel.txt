@@ -1,0 +1,2 @@
+debug.nvrm_pvsentinel: state REFUSED: slid _pmap_verify_free text != BootKC 24G830 bytes (kernel or KC differs) | pages 0x0 managed 0 | passes 0 (full every 5 s) | repair REMOVED (detect only) | slide 2MB-aligned NO
+debug.nvrm_watchpage: selftest ok (hit/miss/next-slot) | allocs 1264 frees 567 bytes-seen 2257592320

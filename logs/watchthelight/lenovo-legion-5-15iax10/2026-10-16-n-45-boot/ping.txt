@@ -1,0 +1,10 @@
+PING 100.x.x.x (100.x.x.x): 56 data bytes
+64 bytes from 100.x.x.x: icmp_seq=0 ttl=64 time=3.689 ms
+64 bytes from 100.x.x.x: icmp_seq=1 ttl=64 time=2.062 ms
+64 bytes from 100.x.x.x: icmp_seq=2 ttl=64 time=3.390 ms
+64 bytes from 100.x.x.x: icmp_seq=3 ttl=64 time=2.705 ms
+64 bytes from 100.x.x.x: icmp_seq=4 ttl=64 time=2.238 ms
+
+--- 100.x.x.x ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 2.062/2.817/3.689/0.633 ms

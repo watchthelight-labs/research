@@ -1,0 +1,40 @@
+System Integrity Protection status: unknown (Custom Configuration).
+
+Configuration:
+	Apple Internal: disabled
+	Kext Signing: disabled
+	Filesystem Protections: disabled
+	Debugging Restrictions: enabled
+	DTrace Restrictions: enabled
+	NVRAM Protections: disabled
+	BaseSystem Verification: enabled
+
+This is an unsupported configuration, likely to break in the future and leave your machine in an unknown state.
+boot-args	-v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvrmnoflip -nvrmnogo
+as.vit9696.Lilu (1.7.2)
+org.lvs1974.driver.CpuTscSync (1.1.2)
+as.vit9696.VirtualSMC (1.3.8)
+ru.usrsse2.SMCBatteryManager (1.3.8)
+as.vit9696.WhateverGreen (1.7.1)
+as.vit9696.RestrictEvents (1.1.6)
+com.1Revenger1.ECEnabler (1.0.6)
+org.acidanthera.NVMeFix (1.1.3)
+com.alexandred.VoodooI2CServices (1)
+com.dhinakg.AMFIPass (1.4.1)
+as.acidanthera.voodoo.driver.PS2Controller (2.3.7)
+as.acidanthera.voodoo.driver.PS2Keyboard (2.3.7)
+org.coolstar.VoodooGPIO (1.1)
+com.alexandred.VoodooI2C (2.9.1)
+com.insanelymac.RealtekRTL8111 (3.0.4)
+org.watchthelight.MtkWlan (0.7.0)
+com.highpoint-tech.kext.HighPointRR (4.22.1)
+com.highpoint-tech.kext.HighPointIOP (4.4.5)
+NVAccel.kext
+NVRM.kext
+NVRMAGDC.kext
+NVRMFB.kext
+total 37056
+drwxr-xr-x@  4 root  wheel       128 Oct 15 19:51 .
+drwxr-xr-x  66 root  wheel      2112 Oct 15 19:45 ..
+-rwxr-xr-x   1 root  wheel         2 Sep 22 19:33 .file
+-rwxr--r--   1 root  wheel  18972672 Oct 15 19:51 AuxiliaryKernelExtensions.kc

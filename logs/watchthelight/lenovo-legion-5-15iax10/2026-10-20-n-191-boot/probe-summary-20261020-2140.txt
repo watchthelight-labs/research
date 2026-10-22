@@ -1,0 +1,17 @@
+1401 Probe 2.2.0 - LENOVO-LNVNB161216_Ultra-9-275HX_GeForce-RTX-5070-Max-Q-Mobil_20261020-2140_ef9d
+
+Computer  : LENOVO 83F0  (chassis type 10)
+Board     : LENOVO LNVNB161216   BIOS S2CN26WW (03/24/2026)
+CPU       : Intel(R) Core(TM) Ultra 9 275HX, 24 cores (16E + 8P) / 24 threads   [family 0x06 model 0xc6 stepping 2]
+CPU kind  : Arrow Lake-S   TSC 3.072 GHz measured
+GPU       : Intel Corporation Arrow Lake-S [Intel Graphics] [8086:7d67]  (boot display)  VBIOS not readable  UEFI GOP no
+GPU       : NVIDIA Corporation GB206M [GeForce RTX 5070 Max-Q / Mobile] [10de:2d18]  VBIOS 158 KB  UEFI GOP yes  BOOT_0 0x1b6000a1
+Wi-Fi     : MEDIATEK Corp. MT7925 802.11be 160MHz 2x2 PCIe Wireless Network Adapter [Filogic 360] [14c3:7925]
+Bluetooth : MediaTek Inc. Wireless_Device [0489:e111] (USB)
+Ethernet  : Realtek Semiconductor Co., Ltd. RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller [10ec:8168]
+Audio     : Nvidia GPU ad HDMI/DP [0x10de00ad]
+NVMe      : WD PC SN7100S SDFPMSL-1T00-1101 (fw 7611M001)
+Firmware  : UEFI 64-bit, Secure Boot off, CFG Lock LOCKED, VT-d/IOMMU table present
+Network   : OFFLINE (interfaces: lo)
+Stages    : all ok
+Saved as  : REPORTS/LENOVO-LNVNB161216_Ultra-9-275HX_GeForce-RTX-5070-Max-Q-Mobil_20261020-2140_ef9d.zip

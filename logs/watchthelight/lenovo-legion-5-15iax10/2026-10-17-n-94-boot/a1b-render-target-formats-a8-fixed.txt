@@ -1,0 +1,32 @@
+# debug plugin 09:5x with translator a8_targets (NvGfx dock-trace 5595ec8 + clear fix)
+device NVIDIA GeForce RTX 5070 Laptop GPU (NVMTL over NVIDIA GeForce RTX 5070 Laptop GPU (NVK GB206-A))
+A8Unorm        blend 0 pixel(3,3) ff                 expect ff                 ok
+R8Unorm        blend 0 pixel(3,3) 40                 expect 40                 ok
+R8Unorm_sRGB   blend 0 pixel(3,3) 00                 expect 88                 MISMATCH
+R16Float       blend 0 pixel(3,3) 0034               expect 0034               ok
+RG8Unorm       blend 0 pixel(3,3) 407f               expect 4080               MISMATCH
+RG8Unorm_sRGB  blend 0 pixel(3,3) 407f               expect 88bc               MISMATCH
+R32Float       blend 0 pixel(3,3) 0000803e           expect 0000803e           ok
+RG16Float      blend 0 pixel(3,3) 00340038           expect 00340038           ok
+RGBA8Unorm     blend 0 pixel(3,3) 407fbfff           expect 4080bfff           MISMATCH
+BGRA8Unorm     blend 0 pixel(3,3) bf7f40ff           expect bf8040ff           MISMATCH
+RGBA16Float    blend 0 pixel(3,3) 00340038003a003c   expect 003400380039003c   MISMATCH
+A8Unorm        blend 1 pixel(3,3) ff                 expect ff                 ok
+R8Unorm        blend 1 pixel(3,3) 40                 expect 40                 ok
+R8Unorm_sRGB   blend 1 pixel(3,3) 00                 expect 88                 MISMATCH
+R16Float       blend 1 pixel(3,3) 0034               expect 0034               ok
+RG8Unorm       blend 1 pixel(3,3) 407f               expect 4080               MISMATCH
+RG8Unorm_sRGB  blend 1 pixel(3,3) 407f               expect 88bc               MISMATCH
+R32Float       blend 1 pixel(3,3) 0000803e           expect 0000803e           ok
+RG16Float      blend 1 pixel(3,3) 00340038           expect 00340038           ok
+RGBA8Unorm     blend 1 pixel(3,3) 407fbfff           expect 4080bfff           MISMATCH
+BGRA8Unorm     blend 1 pixel(3,3) bf7f40ff           expect bf8040ff           MISMATCH
+RGBA16Float    blend 1 pixel(3,3) 00340038003a003c   expect 003400380039003c   MISMATCH
+A8Unorm writeMask=alpha pixel(3,3) ff expect ff ok
+sample(A8 rendered) rgba 000000ff expect 000000ff (alpha = what the A8 target holds)
+sample(A8 uploaded 0x80) rgba 00000080 expect 00000080 ok
+A8 blend srcA/1-srcA over 0.5       pixel(3,3) ff expect ff ok
+A8 blend 0/dstA over 0.5 (0.25)     pixel(3,3) 3f expect 40 ok
+A8 blend 0/1-dstA over 0.5 (0.25)   pixel(3,3) 40 expect 40 ok
+A8 blend 1/1 over 0.25 (sat)        pixel(3,3) ff expect ff ok
+A8 clear alpha 0.5 pixel(3,3) 7f expect 80 ok

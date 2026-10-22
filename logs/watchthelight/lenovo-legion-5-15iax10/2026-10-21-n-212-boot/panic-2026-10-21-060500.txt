@@ -1,0 +1,78 @@
+panic(cpu 3 caller 0xffffff80198d528a): Kernel trap at 0xffffff7fb11f9d89, type = 14=page fault, registers:
+CR0: 0x0000000080010033, CR2: 0x0000000000000000, CR3: 0x000000003077b000, CR4: 0x00000000003626e0
+RAX: 0x4680ced857aa005a, RBX: 0xffffff7fb14ab658, RCX: 0xffffff7fb14bbd90, RDX: 0xffffff996d9c5a68
+RSP: 0xffffff896da18b30, RBP: 0xffffff896da18c40, RSI: 0x0000000000000000, RDI: 0xffffff7fb14ab658
+R8:  0x00000000fffffffe, R9:  0x0000000000000002, R10: 0xffffff7fb14aaf68, R11: 0x0000000100000201
+R12: 0x0000000000000007, R13: 0xffffff7fb14ab658, R14: 0x0000000000000000, R15: 0xffffff7fb141db3e
+RFL: 0x0000000000010286, RIP: 0xffffff7fb11f9d89, CS:  0x0000000000000008, SS:  0x0000000000000010
+Fault CR2: 0x0000000000000000, Error code: 0x0000000000000000, Fault CPU: 0x3, PL: 0, VF: 1
+
+Panicked task 0xffffff9e3c16f9a0: 228 threads: pid 0: kernel_task
+Backtrace (CPU 3), panicked thread: 0xffffff996d9c5a68, Frame : Return Address
+0xffffff896da182d0 : 0xffffff8019758d71 mach_kernel : _handle_debugger_trap + 0x421
+0xffffff896da18320 : 0xffffff80198e5982 mach_kernel : _kdp_i386_trap + 0x122
+0xffffff896da18360 : 0xffffff80198d4c38 mach_kernel : _kernel_trap + 0x778
+0xffffff896da18420 : 0xffffff80196eb971 mach_kernel : _return_from_trap + 0xc1
+0xffffff896da18440 : 0xffffff8019759147 mach_kernel : _DebuggerTrapWithState + 0x67
+0xffffff896da18540 : 0xffffff80197587d9 mach_kernel : _panic_trap_to_debugger + 0x269
+0xffffff896da186b0 : 0xffffff8019fa1ced mach_kernel : _panic + 0x81
+0xffffff896da187a0 : 0xffffff80198d528a mach_kernel : _sync_iss_to_iks + 0x3fa
+0xffffff896da18960 : 0xffffff80198d4e44 mach_kernel : _kernel_trap + 0x984
+0xffffff896da18a20 : 0xffffff80196eb971 mach_kernel : _return_from_trap + 0xc1
+0xffffff896da18a40 : 0xffffff7fb11f9d89 org.watchthelight.XeGfx : _sysctl_register_oid_locked + 0x29
+0xffffff896da18c40 : 0xffffff7fb11f9d3a org.watchthelight.XeGfx : _sysctl_register_oid + 0x3a
+0xffffff896da18c70 : 0xffffff7fb13b3ff0 org.watchthelight.XeGfx : __start + 0x10
+0xffffff896da18c80 : 0xffffff8019e28aab mach_kernel : __ZN6OSKext5startEb + 0x24b
+0xffffff896da18cd0 : 0xffffff8019e2649b mach_kernel : __ZN6OSKext4loadEhhP7OSArray + 0xcb
+0xffffff896da18d40 : 0xffffff8019e3ba61 mach_kernel : __ZN6OSKext22loadKextWithIdentifierEP8OSStringPP8OSObjectbbhhP7OSArray + 0x1b1
+0xffffff896da18d90 : 0xffffff8019ec1fce mach_kernel : __ZNK11IOCatalogue14isModuleLoadedEP12OSDictionaryPP8OSObject + 0xee
+0xffffff896da18de0 : 0xffffff8019e9c597 mach_kernel : __ZN9IOService15probeCandidatesEP12OSOrderedSet + 0x5c7
+0xffffff896da18ec0 : 0xffffff8019e9be4b mach_kernel : __ZN9IOService14doServiceMatchEj + 0x36b
+0xffffff896da18f20 : 0xffffff8019e9f2b9 mach_kernel : __ZN15_IOConfigThread4mainEPvi + 0x159
+0xffffff896da18fa0 : 0xffffff80196eb19e mach_kernel : _call_continuation + 0x2e
+      Kernel Extensions in backtrace:
+         org.watchthelight.XeGfx(0.0.1)[UUID-422]@0xffffff7fb1174000->0xffffff7fb1485fff
+            dependency: com.apple.driver.AppleACPIPlatform(6.1)[UUID-423]@0xffffff801a871000->0xffffff801a8e8fff
+            dependency: com.apple.iokit.IOPCIFamily(2.9)[UUID-367]@0xffffff801bde5000->0xffffff801be38fff
+
+Process name corresponding to current thread (0xffffff996d9c5a68): kernel_task
+Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm,cpuname revcpu=1 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvaccelnoheadless alcid=18 nvrmacpibl=1 nvrmphysctl=1 nvrmnvpcf=1 nv
+
+Mac OS version:
+25G241
+
+Kernel version:
+Darwin Kernel Version 25.6.0: Tue Aug 18 17:46:40 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_X86_64
+Kernel UUID: UUID-305
+roots installed: 0
+KernelCache slide: 0x0000000019400000
+KernelCache base:  0xffffff8019600000
+Kernel slide:      0x00000000194e8000
+Kernel text base:  0xffffff80196e8000
+__HIB  text base: 0xffffff8019500000
+System model name: MacBookPro16,1 (Mac-E1008331FDC96864)
+System shutdown begun: NO
+Panic diags file available: YES (0x0)
+Hibernation exit count: 0
+
+System uptime in nanoseconds: 7509513812
+Last Sleep:           absolute           base_tsc          base_nano
+  Uptime  : 0x00000001bfbc4e74
+  Sleep   : 0x0000000000000000 0x0000000000000000 0x0000000000000000
+  Wake    : 0x0000000000000000 0x0000000c367345e7 0x0000000000000000
+Compressor Info: 0% of compressed pages limit (OK) and 0% of segments limit (OK) with 0 swapfiles and OK swap space
+Zone info:
+  Zone map: 0xffffff896f43c000 - 0xffffffa96f43c000
+  . VM    : 0xffffff896f43c000 - 0xffffff8e3c108000
+  . RO    : 0xffffff8e3c108000 - 0xffffff8fd5aac000
+  . GEN0  : 0xffffff8fd5aac000 - 0xffffff94a2778000
+  . GEN1  : 0xffffff94a2778000 - 0xffffff996f444000
+  . GEN2  : 0xffffff996f444000 - 0xffffff9e3c110000
+  . GEN3  : 0xffffff9e3c110000 - 0xffffffa308ddc000
+  . DATA  : 0xffffffa308ddc000 - 0xffffffa96f43c000
+  Metadata: 0xffffff806edb6000 - 0xffffff808edb6000
+  Bitmaps : 0xffffff808edb6000 - 0xffffff8094db6000
+  Extra   : 0 - 0
+
+
+

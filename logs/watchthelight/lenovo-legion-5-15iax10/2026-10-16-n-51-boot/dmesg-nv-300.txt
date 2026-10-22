@@ -1,0 +1,241 @@
+ 55.566734]: NVAccel: start(GFX0): calling IOGraphicsAccelerator2::start \M-b\M^@\M^T the family's own bring-up
+[   55.566751]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   55.566756]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   55.567083]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   55.567085]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   55.567087]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   55.567089]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   55.567090]: NVAccel:    cfg+0x08 = 0x0000000000000000
+[   55.567091]: NVAccel:    cfg+0x08 = 0x0000000000000000
+[   55.567093]: NVAccel:    cfg+0x10 = 0x0000000000000000
+[   55.567094]: NVAccel:    cfg+0x10 = 0x0000000000000000
+[   55.567095]: NVAccel:    cfg+0x18 = 0x0000000000000001
+[   55.567096]: NVAccel:    cfg+0x18 = 0x0000000000000001
+[   55.567098]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   55.567099]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   55.567100]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   55.567101]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   55.567102]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   55.567104]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   55.567105]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   55.567106]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   55.567108]: NVAccel:    cfg+0x40 = 0x0000000100010000
+[   55.567109]: NVAccel:    cfg+0x40 = 0x0000000100010000
+[   55.567110]: NVAccel:    cfg+0x48 = 0x000000030000000c
+[   55.567111]: NVAccel:    cfg+0x48 = 0x000000030000000c
+[   55.567112]: NVAccel:    cfg+0x50 = 0x00007fff00000003
+[   55.567113]: NVAccel:    cfg+0x50 = 0x00007fff00000003
+[   55.567115]: NVAccel:    cfg+0x58 = 0x0000000000000000
+[   55.567116]: NVAccel:    cfg+0x58 = 0x0000000000000000
+[   55.567117]: NVAccel:    cfg+0x60 = 0x0000000000000000
+[   55.567118]: NVAccel:    cfg+0x60 = 0x0000000000000000
+[   55.567119]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   55.567120]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   55.567121]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   55.567123]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   55.567429]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   55.567431]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   55.567442]: NVAccel: newDisplayMachine -> <ptr>
+[   55.567443]: NVAccel: newDisplayMachine -> <ptr>
+[   55.567546]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   55.567547]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   55.567555]: NVAccel: IOGraphicsAccelerator2::start -> 1
+[   55.567560]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   55.567561]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   55.567662]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   55.567665]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   55.567667]: NVAccel: enableAccelerator() from start (call #1)
+[   55.567668]: NVAccel: enableAccelerator() from start (call #1)
+[   55.567672]: NVAccel: display machine framebuffer count after the family sweep = 0
+[   55.567673]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   55.567674]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   55.567727]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   55.567729]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   55.567733]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   55.567734]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   55.567743]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   55.567744]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   55.567746]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   55.567747]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   55.567749]: NVAccel: headless check: armed for 60 s from now
+[   56.067167]: NVRM-xnu: boot raster: BAR0 too small (0) \M-b\M^@\M^T unknown
+[   56.067172]: NVRM-xnu: boot raster: BAR0 too small (0) \M-b\M^@\M^T unknown
+[   56.067183]: NVRM-xnu: go(2) begins (fPassDone 0)
+[   56.067184]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[   56.067185]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[   56.067186]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[   56.067188]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[   56.067190]: NVRM-xnu: rm_init_rm()
+[   56.067223]: NVRM-xnu: >nv_is_chassis_notebook
+[   56.067224]: NVRM-xnu: >nv_acpi_is_battery_present
+[   56.067237]: NVRM-xnu: headwatch: done
+[   56.067246]: NVRM: _sysCreateOs: RM Access Sys Cap creation failed: 0x56
+[   56.077567]: NVRM-xnu: >nv_platform_supports_s0ix
+[   56.077961]: NVRM-xnu: rm_init_rm OK
+[   56.077962]: NVRM-xnu: rm_init_rm OK
+[   56.077965]: NVRM-xnu: event locks created for the control device and the GPU
+[   56.077966]: NVRM-xnu: event locks created for the control device and the GPU
+[   56.077969]: NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+[   56.077976]: NVRM-xnu: PHYSMAP FOREIGN-KMAP phys 0x0 +0x1000 extra 0x2a00dd
+[   56.078024]: NVRM-xnu:   md->map(cache=0x100) FAILED
+[   56.078032]: NVRM: failed to map registers!
+[   56.078033]: NVRM: failed to map registers!
+[   56.078035]: NVRM-xnu: rm_is_supported_device -> 0x59: RM will not drive device 0x2d18 - stopping, card untouched
+[   56.078037]: NVRM-xnu: rm_is_supported_device -> 0x59: RM will not drive device 0x2d18 - stopping, card untouched
+[   56.078039]: NVRM-xnu: auto-go: go(2) -> 0xe00002c7 (fPassDone 0)
+[   56.078065]: NVRM-xnu: boot hold RELEASED (go(2) failed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[   56.078066]: NVRM-xnu: boot hold RELEASED (go(2) failed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[  115.568349]: NVAccel: headless check: no NVIDIA display head after 60 s -- MetalPluginName restored WITHOUT arming: apps get the NVIDIA Metal device, WindowServer stays on the display's GPU (IONDRVFramebuffer)
+[  115.568359]: NVAccel: headless check: no NVIDIA display head after 60 s -- MetalPluginName restored WITHOUT arming: apps get the NVIDIA Metal device, WindowServer stays on the display's GPU (IONDRVFramebuffer)
+[  122.461341]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  122.461347]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  122.461359]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  122.461361]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  122.461619]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  122.461621]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  122.461651]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  122.461660]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  132.627238]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  132.627244]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  132.627254]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  132.627257]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  132.627424]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  132.627427]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  132.627454]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  132.627456]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  142.782138]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  142.782143]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  142.782149]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  142.782151]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  142.782258]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  142.782259]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  142.782279]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  142.782281]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  152.958675]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  152.958678]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  152.958684]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  152.958686]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  152.958790]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  152.958792]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  152.958810]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  152.958812]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  163.118921]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  163.118925]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  163.118931]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  163.118932]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  163.119036]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  163.119038]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  163.119058]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  163.119059]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  173.279698]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  173.279702]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  173.279708]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  173.279710]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  173.279820]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  173.279821]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  173.279841]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  173.279842]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  183.434126]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  183.434129]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  183.434136]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  183.434138]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  183.434242]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  183.434243]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  183.434262]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  183.434263]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  193.600866]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  193.600872]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  193.600882]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  193.600884]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  193.601054]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  193.601056]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  193.601087]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  193.601089]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  203.755313]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  203.755317]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  203.755323]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  203.755324]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  203.755428]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  203.755429]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  203.755446]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  203.755448]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  213.905884]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  213.905890]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  213.905900]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  213.905907]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  213.906062]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  213.906064]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  213.906089]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  213.906090]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  224.064683]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  224.064689]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  224.064698]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  224.064700]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  224.064866]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  224.064868]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  224.064896]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  224.064898]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  234.207123]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  234.207127]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  234.207134]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  234.207135]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  234.207242]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  234.207244]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  234.207268]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  234.207270]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  244.370959]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  244.370963]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  244.370970]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  244.370971]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  244.371073]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  244.371075]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  244.371095]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  244.371096]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  254.532916]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  254.532920]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  254.532926]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  254.532927]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  254.533031]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  254.533032]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  254.533049]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  254.533051]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  264.696012]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  264.696016]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  264.696023]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  264.696024]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  264.696128]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  264.696130]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  264.696151]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  264.696152]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  274.878342]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  274.878346]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  274.878354]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  274.878355]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  274.878459]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  274.878461]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  274.878481]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  274.878482]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  285.047038]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  285.047044]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  285.047053]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  285.047055]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  285.047226]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  285.047228]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  285.047257]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  285.047259]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  295.218166]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  295.218171]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  295.218179]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  295.218181]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  295.218321]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  295.218323]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  295.218351]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  295.218353]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  305.377121]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  305.377125]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  305.377131]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  305.377132]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  305.377241]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  305.377242]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  305.377260]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  305.377261]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2

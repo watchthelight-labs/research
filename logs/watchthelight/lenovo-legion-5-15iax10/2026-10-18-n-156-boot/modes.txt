@@ -1,0 +1,2 @@
+ 1280x800   pixels  1280x800   @  0 1x    listed cgs 0
+current:  1280x800   pixels  1280x800   @  0 1x    listed cgs 0 io 1

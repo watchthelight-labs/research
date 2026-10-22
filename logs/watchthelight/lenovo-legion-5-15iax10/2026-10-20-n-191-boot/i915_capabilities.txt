@@ -1,0 +1,79 @@
+graphics version: 12.70
+media version: 13
+graphics stepping: B0
+media stepping: C0
+gt: 0
+memory-regions: 0x41
+page-sizes: 0x211000
+platform: METEORLAKE
+ppgtt-size: 48
+ppgtt-type: 2
+dma_mask_size: 46
+is_mobile: no
+require_force_probe: no
+is_dgfx: no
+has_64bit_reloc: yes
+has_64k_pages: no
+gpu_reset_clobbers_display: no
+has_reset_engine: yes
+has_3d_pipeline: yes
+has_flat_ccs: no
+has_global_mocs: yes
+has_gmd_id: yes
+has_gt_uc: yes
+has_heci_pxp: no
+has_heci_gscfi: no
+has_guc_deprivilege: yes
+has_guc_tlb_invalidation: yes
+has_l3_ccs_read: no
+has_l3_dpf: no
+has_llc: no
+has_logical_ring_contexts: yes
+has_logical_ring_elsq: yes
+has_media_ratio_mode: no
+has_mslice_steering: no
+has_oa_bpc_reporting: yes
+has_oa_slice_contrib_limits: yes
+has_oam: yes
+has_one_eu_per_fuse_bit: no
+has_pxp: yes
+has_rc6: yes
+has_rc6p: no
+has_rps: yes
+has_runtime_pm: yes
+has_snoop: yes
+has_coherent_ggtt: no
+tuning_thread_rr_after_dep: no
+unfenced_needs_alignment: no
+hws_needs_physical: no
+has_pooled_eu: no
+iommu: enabled
+available engines: 400003
+subslice total: 4
+geometry dss mask=00000000,0000000f
+compute dss mask=00000000,0000000f
+EU total: 64
+EU per subslice: 16
+has slice power gating: no
+has subslice power gating: no
+has EU power gating: no
+Has logical contexts? yes
+scheduler: 0x37
+i915.modeset=-1
+i915.enable_guc=3
+i915.guc_log_level=-1
+i915.guc_firmware_path=(null)
+i915.huc_firmware_path=(null)
+i915.gsc_firmware_path=(null)
+i915.memtest=no
+i915.mmio_debug=0
+i915.reset=3
+i915.inject_probe_failure=0
+i915.force_probe=
+i915.request_timeout_ms=20000
+i915.lmem_size=0
+i915.lmem_bar_size=0
+i915.enable_hangcheck=yes
+i915.error_capture=yes
+i915.enable_gvt=no
+i915.enable_debug_only_api=no

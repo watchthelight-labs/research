@@ -1,0 +1,1145 @@
+== 2026-10-17 19:52:07.414 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.417 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.418 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.419 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.422 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.422 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.424 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.425 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.425 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.426 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.427 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.447 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.450 tex 0x7ff2fd941510 16x16 bpp 8
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+== 2026-10-17 19:52:07.450 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.451 tex 0x7ff2fd941510 16x16 bpp 8
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@
+== 2026-10-17 19:52:07.452 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:07.454 tex 0x7ff2fd932e80 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.455 tex 0x7ff2fd932e80 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.457 tex 0x7ff2fd932e80 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.469 tex 0x7ff2fde1fb90 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.470 tex 0x7ff2fde1fb90 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.472 tex 0x7ff2fde1fb90 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.480 tex 0x7ff308b360f0 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.481 tex 0x7ff308b360f0 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.482 tex 0x7ff308b360f0 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:07.487 tex 0x7ff2fc750cb0 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 19:52:09.390 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:09.391 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 19:52:09.392 tex 0x7ff308b26230 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB

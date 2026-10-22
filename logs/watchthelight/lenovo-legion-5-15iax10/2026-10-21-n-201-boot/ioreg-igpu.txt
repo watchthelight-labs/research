@@ -1,0 +1,44 @@
++-o IGPU@2  <class IOPCIDevice, id 0x10000037a, registered, matched, active, busy 0 (143 ms), retain 29>
+    {
+      "AAPL,ig-platform-id" = <ffffffff>
+      "assigned-addresses" = <101000c260000000000000180000000000000001181000c260000000000000000000000000000010>
+      "vendor-id" = <86800000>
+      "class-code" = <00000300>
+      "subsystem-vendor-id" = <aa170000>
+      "IOPCIExpressLinkCapabilities" = 4197393
+      "hda-gfx" = <"onboard-1">
+      "IOName" = "display"
+      "pcidebug" = "0:2:0"
+      "display-connect-flags" = <00000000>
+      "IOPCIExpressLinkStatus" = 17
+      "IOPCIExpressCapabilities" = 146
+      "AAPL,gray-value" = <00000000>
+      "Capability Offsets" = {"LatencyToleranceReportingCapability"=1024,"VendorSpecificCapability"=64,"PowerManagementCapability"=208,"PCIExpressCapability"=112,"ResizableBAR"=1056,"PASID"=272,"MSICapability"=172,"SRIOV"=800,"ATS"=512}
+      "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci"))
+      "built-in" = <00>
+      "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+      "IOPCIResourced" = Yes
+      "IODeviceMemory" = (({"address"=412719513600,"length"=16777216}),({"address"=412316860416,"length"=268435456}),({"address"=1887436800,"length"=16384000}))
+      "IOPCIMSIMessageControl" = 384
+      "name" = <"display">
+      "subsystem-id" = <383e0000>
+      "acpi-pmcap-offset" = 208
+      "AAPL,RegEntryID" = <e0625599090000001f9daa66f6ffffff656d6953000000007a6c755200000000>
+      "AAPL,gray-page" = <01000000>
+      "AAPL,ndrv-dev" = Yes
+      "IOPMIsPowerManaged" = Yes
+      "compatible" = <"pci17aa,3e38","pci8086,7d67","pciclass,030000","GFX0","IGPU">
+      "IOPCIExpressDeviceCapabilities2" = 1247250
+      "IOHibernateState" = <00000000>
+      "IOPCIExpressDeviceCapabilities" = 268468256
+      "attached-gpu-control-path" = "IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/IGPU@2/IONDRVFramebuffer/AGPM"
+      "reg" = <001000000000000000000000000000000000000010100042000000000000000000000000000000011810004200000000000000000000000000000010>
+      "IOPCIPowerManagementCapabilities" = 1208156161
+      "device-id" = <677d0000>
+      "revision-id" = <06000000>
+      "IOPCIExpressLinkCapabilities2" = 2
+      "watchthelight-console-range" = 1887436800
+      "acpi-path" = "IOACPIPlane:/_SB/PC00/GFX0@20000"
+    }
+    
+

@@ -1,0 +1,4 @@
+drag 12 s: 81 fps latched
+WindowServer copy-outs: 2560x1600 BGRA, VRAM, page-off refused 0x80000004 (NVRM_SS_NO_CACHE), ~2.4 ms each, 3000 since WindowServer start
+kernel: surfvram dirty 6528 ok, 5760 refused, all type 0xc0
+WallpaperVideoExtension: 3840x2160 x420 two-plane private image copy-out, 34 ms per frame

@@ -1,0 +1,76 @@
++-o RTL8111  <class RTL8111, id 0x100000447, !registered, !matched, active, busy 0 (0 ms), retain 7>
+  | {
+  |   "IOClass" = "RTL8111"
+  |   "IOActiveMedium" = ""
+  |   "Vendor" = "Realtek"
+  |   "IOMatchedAtBoot" = Yes
+  |   "IOMinPacketSize" = 64
+  |   "IOPowerManagement" = {"CapabilityFlags"=32768,"MaxPowerState"=1,"CurrentPowerState"=1}
+  |   "IOProviderClass" = "IOPCIDevice"
+  |   "IOLinkStatus" = 1
+  |   "IOVendor" = "Realtek"
+  |   "IOPacketFilters" = {"IONetworkFilterGroup"=275,"IOEthernetWakeOnLANFilterGroup"=0}
+  |   "Driver Parameters" = {"disableASPM"=Yes,"enableEEE"=Yes,"enableTSO4"=Yes,"enableCSO6"=Yes,"enableTSO6"=Yes,"fallbackMAC"=""}
+  |   "IOProbeScore" = 1000
+  |   "AVBControllerState" = 1
+  |   "IOMediumDictionary" = {"00900026"={"Index"=8,"Type"=9437222,"Flags"=0,"Speed"=100000000},"00500026"={"Index"=5,"Type"=5242918,"Flags"=0,"Speed"=100000000},"00100026"={"Index"=4,"Type"=1048614,"Flags"=0,"Speed"=100000000},"00000020"={"Index"=0,"Type"=32,"Flags"=0,"Speed"=0},"00200023"={"Index"=1,"Type"=2097187,"Flags"=0,"Speed"=10000000},"00d00030"={"Index"=11,"Type"=13631536,"Flags"=0,"Speed"=1000000000},"00100023"={"Index"=2,"Type"=1048611,"Flags"=0,"Speed"=10000000},"00900030"={"Index"=10,"Type"=9437232,"Flags"=0,"Speed"=1000000000},"00500030"={"Index"=7,"Type"=5242928,"Flags"=0,"Speed"=1000000000},"00100030"={"Index"=6,"Type"=1048624,"Flags"=0,"Speed"=1000000000},"00d00026"={"Index"=9,"Type"=13631526,"Flags"=0,"Speed"=100000000},"00200026"={"Index"=3,"Type"=2097190,"Flags"=0,"Speed"=100000000}}
+  |   "CFBundleIdentifierKernel" = "com.insanelymac.RealtekRTL8111"
+  |   "IOMACAddress" = <REDACTED>
+  |   "IOMatchCategory" = "IODefaultMatchCategory"
+  |   "CFBundleIdentifier" = "com.insanelymac.RealtekRTL8111"
+  |   "Model" = "RTL8111"
+  |   "Chipset" = 29
+  |   "IOSelectedMedium" = "00000020"
+  |   "DriverVersion" = "3.0.4"
+  |   "IOModel" = "RTL8168H/8111H"
+  |   "IOLinkSpeed" = 0
+  |   "IOMaxPacketSize" = 9018
+  |   "model" = "Realtek RTL8168H/8111H PCIe Gigabit Ethernet"
+  |   "IOPCIMatch" = "0x816810ec 0x81681186 0x250210ec 0x260010ec"
+  |   "IOFeatures" = 58
+  | }
+  | 
+  +-o en0  <class IOEthernetInterface, id 0x100000451, registered, matched, active, busy 0 (0 ms), retain 11>
+    | {
+    |   "IOLocation" = ""
+    |   "IORequiredPacketFilters" = {"IONetworkFilterGroup"=3,"IOEthernetWakeOnLANFilterGroup"=0}
+    |   "IOLinkActiveCount" = 0
+    |   "BSD Name" = "en0"
+    |   "IOMaxTransferUnit" = 1500
+    |   "IOInterfaceType" = 6
+    |   "IOInterfaceFlags" = 34915
+    |   "IOMediaAddressLength" = 6
+    |   "IOInterfaceState" = 3
+    |   "IOMediaHeaderLength" = 14
+    |   "IOActivePacketFilters" = {"IONetworkFilterGroup"=3,"IOEthernetWakeOnLANFilterGroup"=0}
+    |   "IOInterfaceExtraFlags" = 1090519424
+    |   "IOPrimaryInterface" = Yes
+    |   "IOControllerEnabled" = Yes
+    |   "IOInterfaceUnit" = 0
+    |   "IOInterfaceNamePrefix" = "en"
+    |   "IOBuiltin" = Yes
+    |   "IONetworkData" = {"IOOutputQueueStatsKey"={"Size"=44,"Data"=<0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000>,"Access Types"=9},"IONetworkStatsKey"={"Size"=20,"Data"=<0000000000000000000000000000000000000000>,"Access Types"=9},"IOEthernetStatsKey"={"Size"=216,"Data"=<000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000>,"Access Types"=9}}
+    | }
+    | 
+    +-o IONetworkStack  <class IONetworkStack, id 0x1000003fe, registered, matched, active, busy 0 (0 ms), retain 8>
+      | {
+      |   "IOProbeScore" = 0
+      |   "CFBundleIdentifier" = "com.apple.iokit.IONetworkingFamily"
+      |   "IOMatchCategory" = "IONetworkStack"
+      |   "IOClass" = "IONetworkStack"
+      |   "IOPersonalityPublisher" = "com.apple.iokit.IONetworkingFamily"
+      |   "IOProviderClass" = "IOResources"
+      |   "CFBundleIdentifierKernel" = "com.apple.iokit.IONetworkingFamily"
+      |   "IOMatchedAtBoot" = Yes
+      |   "IOUserClientClass" = "IONetworkStackUserClient"
+      |   "IOResourceMatch" = "IOBSD"
+      |   "IONetworkMbufDMADrivers" = ("com.insanelymac.RealtekRTL8111")
+      | }
+      | 
+      +-o IONetworkStackUserClient  <class IONetworkStackUserClient, id 0x100000682, !registered, !matched, active, busy 0, retain 5>
+          {
+            "IOUserClientCreator" = "pid 179, configd"
+            "IOUserClientDefaultLocking" = Yes
+          }
+          
+

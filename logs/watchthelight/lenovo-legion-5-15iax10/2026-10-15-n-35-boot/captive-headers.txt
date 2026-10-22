@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Length: 69
+Cache-Control: max-age=31536000
+Last-Modified: Tue, 13 Oct 2026 14:10:53 GMT
+Content-Type: text/html
+Date: Tue, 13 Oct 2026 14:10:53 GMT
+Age: 197327
+Connection: keep-alive
+Via: http/1.1 usatl4-edge-fx-023.ts.apple.com (acdn/23.17695)
+X-Cache: hit-fresh
+CDNUUID: UUID-164-1517881059
+Access-Control-Allow-Origin: *
+

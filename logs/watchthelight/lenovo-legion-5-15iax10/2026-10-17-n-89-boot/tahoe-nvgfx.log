@@ -1,0 +1,73 @@
+=== Fri Oct 16 19:36:45 PDT 2026 start
+== 1/2 preflight (no changes)
+
+== 1. this Mac
+   ok  macOS 26.7.1, x86_64, NVIDIA GPU present
+
+== 2. package integrity
+   ok  every file matches SHA256SUMS and both OS accelerators are present
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 10.12.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+
+== 3. test kernel collection
+   ok  test collection holds all four kexts
+
+CHECK PASS (nothing changed)
+== 2/2 install
+
+== 1. this Mac
+   ok  macOS 26.7.1, x86_64, NVIDIA GPU present
+
+== 2. package integrity
+   ok  every file matches SHA256SUMS and both OS accelerators are present
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 10.12.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+
+== 3. test kernel collection
+   ok  test collection holds all four kexts
+
+== 4. back up what is there now -> /Library/NullMoth/backup-20261016-193802.vGD83H
+   ok  backup written
+
+== 5. install
+   ok  installed
+
+== 6. boot-args
+
+Done. Reboot now: sudo shutdown -r now
+If macOS asks, allow the extensions in System Settings > Privacy & Security, then reboot once more.
+Undo: sudo ./uninstall.sh /Library/NullMoth/backup-20261016-193802.vGD83H
+
+DONE. Restart now (Apple menu > Restart). OpenCore boots Tahoe again if it is the startup disk.
+=== Fri Oct 16 19:38:06 PDT 2026 install OK; Tahoe becomes the startup disk; restarting
+Shutdown NOW!
+
+System shutdown time has arrived

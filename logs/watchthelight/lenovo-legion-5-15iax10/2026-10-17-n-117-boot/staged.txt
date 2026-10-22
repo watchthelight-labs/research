@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 4cf1d97, sha 3c0e6fa09ae6: COMP draw for any screen draw in the Dock band (vertex y > 1000) sampling a texture <= 160 px, or sampling a read-back offscreen; pass readbacks only for badge-like passes (RG8 <= 64 wide or BGRA <= 64x64 into a target <= 256x384), budgets COMP 60, DISP 24, TGT 48; conf unchanged

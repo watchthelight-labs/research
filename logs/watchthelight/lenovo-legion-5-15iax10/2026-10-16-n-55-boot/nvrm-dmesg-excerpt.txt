@@ -1,0 +1,1414 @@
+[   52.441630]: NVRM-xnu: boot screen: copied 2560x1600 pitch 16384 (25600 KB) from the console at 0x6018000000 in 4750 ms
+[   52.441645]: NVRM-xnu: bar1: Resizable BAR capability @0x134 says BAR1 = 64 MB (sizes supported mask 0x3fc0)
+[   52.441647]: NVRM-xnu: bar1: Resizable BAR capability @0x134 says BAR1 = 64 MB (sizes supported mask 0x3fc0)
+[   52.441648]: NVRM-xnu: bar1: BAR1 is 64 MB; will resize it to 8192 MB
+[   52.441649]: NVRM-xnu: bar1: BAR1 is 64 MB; will resize it to 8192 MB
+[   52.442475]: NVRM-xnu: bar1: host bridge 64-bit window 0x6000000000-0x3ffbfffffff (ACPI _CRS), CPU reaches 42 bits
+[   52.442477]: NVRM-xnu: bar1: host bridge 64-bit window 0x6000000000-0x3ffbfffffff (ACPI _CRS), CPU reaches 42 bits
+[   52.443610]: NVRM-xnu: bar1: placing BAR1 8192 MB @0x3fc00000000, BAR3 32 MB @0x3fe00000000, root port window 0x3fc00000000-0x3fe01ffffff (was 0x1df11801 00000060/00000060)
+[   52.443613]: NVRM-xnu: bar1: placing BAR1 8192 MB @0x3fc00000000, BAR3 32 MB @0x3fe00000000, root port window 0x3fc00000000-0x3fe01ffffff (was 0x1df11801 00000060/00000060)
+[   52.443620]: NVRM-xnu: bar1: resized BAR1 to 8192 MB
+[   52.443636]: NVRM-xnu: bar1: dropping stale aperture 0x601c000000+0x2000000
+[   52.443637]: NVRM-xnu: bar1: dropping stale aperture 0x601c000000+0x2000000
+[   52.443642]: NVRM-xnu: bar1: PLACED \M-b\M^@\M^T BAR1 8192 MB live at 0x3fc00000000
+[   52.443643]: NVRM-xnu: bar1: PLACED \M-b\M^@\M^T BAR1 8192 MB live at 0x3fc00000000
+[   52.443657]: NVRM-xnu: BARS bar0@0x10:0x80000000+0x4000000 bar1@0x14:0x3fc00000000+0x200000000 bar2@0x1c:0x3fe00000000+0x2000000 
+[   52.443663]: NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+[   52.443664]: NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+[   52.443665]: NVRM-xnu: armed on 02:00.0 10de:2d18
+[   52.443671]: NVRM-xnu: armed on 02:00.0 10de:2d18
+[   52.443688]: NVRM-xnu: auto-go: go(2) in 500 ms on its own thread (BAR1 placed outside the console); registry held busy until the display is armed (cap settle + 40 s)
+[   52.443690]: NVRM-xnu: auto-go: go(2) in 500 ms on its own thread (BAR1 placed outside the console); registry held busy until the display is armed (cap settle + 40 s)
+[   52.443722]: NVAccel: NVRM owns 10de:2d18 (waited 0 ms) - starting
+[   52.443725]: NVAccel: NVRM owns 10de:2d18 (waited 0 ms) - starting
+[   52.443726]: NVAccel: start(GFX0): calling IOGraphicsAccelerator2::start \M-b\M^@\M^T the family's own bring-up
+[   52.443727]: NVAccel: start(GFX0): calling IOGraphicsAccelerator2::start \M-b\M^@\M^T the family's own bring-up
+[   52.443784]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   52.443789]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   52.444064]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   52.444067]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   52.444068]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   52.444069]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   52.444070]: NVAccel:    cfg+0x08 = 0x0000000000000000
+[   52.444071]: NVAccel:    cfg+0x10 = 0x0000000000000000
+[   52.444072]: NVAccel:    cfg+0x18 = 0x0000000000000001
+[   52.444073]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   52.444074]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   52.444074]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   52.444075]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   52.444075]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   52.444076]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   52.444077]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   52.444078]: NVAccel:    cfg+0x40 = 0x0000000100010000
+[   52.444079]: NVAccel:    cfg+0x48 = 0x000000030000000c
+[   52.444080]: NVAccel:    cfg+0x50 = 0x00007fff00000003
+[   52.444081]: NVAccel:    cfg+0x58 = 0x0000000000000000
+[   52.444082]: NVAccel:    cfg+0x60 = 0x0000000000000000
+[   52.444083]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   52.444084]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   52.444191]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   52.444192]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   52.444203]: NVAccel: newDisplayMachine -> <ptr>
+[   52.444204]: NVAccel: newDisplayMachine -> <ptr>
+[   52.444315]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   52.444316]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   52.444326]: NVAccel: IOGraphicsAccelerator2::start -> 1
+[   52.444327]: NVAccel: IOGraphicsAccelerator2::start -> 1
+[   52.444333]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   52.444334]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   52.444513]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   52.444514]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   52.444516]: NVAccel: enableAccelerator() from start (call #1)
+[   52.444519]: NVAccel: display machine framebuffer count after the family sweep = 0
+[   52.444520]: NVAccel: display machine framebuffer count after the family sweep = 0
+[   52.444521]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   52.444524]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   52.444526]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   52.444527]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   52.444536]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   52.444537]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   52.444539]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   52.444541]: NVAccel: headless check: off (-nvaccelnoheadless)
+[   53.194518]: NVRM-xnu: boot raster: head 0 vline wraps 41 moves 71930 max 1743 -> 165.000 Hz MEASURED | armed raster 2720x1744 pclk 782708000 Hz -> 165.000 Hz
+[   53.444535]: NVRM-xnu: boot raster: head 1 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+[   53.444540]: NVRM-xnu: boot raster: head 1 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+[   53.694551]: NVRM-xnu: boot raster: head 2 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 8x5 pclk 0 Hz -> 0.000 Hz
+[   53.694552]: NVRM-xnu: boot raster: head 2 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 8x5 pclk 0 Hz -> 0.000 Hz
+[   53.944562]: NVRM-xnu: boot raster: head 3 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+[   53.944564]: NVRM-xnu: boot raster: head 3 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+[   53.944656]: NVRM-xnu: go(2) begins (fPassDone 0)
+[   53.944657]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[   53.944658]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[   53.944659]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[   53.944660]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[   53.944661]: NVRM-xnu: rm_init_rm()
+[   53.944664]: NVRM-xnu: >os_mem_set #1 len=56
+[   53.944665]: NVRM-xnu: >os_alloc_mem
+[   53.944667]: NVRM-xnu: >os_alloc_spinlock
+[   53.944668]: NVRM-xnu: >os_acquire_spinlock
+[   53.944669]: NVRM-xnu: >os_mem_set #2 len=56
+[   53.944670]: NVRM-xnu: >os_get_monotonic_time_ns_hr
+[   53.944672]: NVRM-xnu: >os_alloc_mutex
+[   53.944672]: NVRM-xnu: >os_alloc_rwlock
+[   53.944674]: NVRM-xnu: >os_mem_set #3 len=56
+[   53.944675]: NVRM-xnu: >os_mem_set #4 len=16
+[   53.944678]: NVRM-xnu: >nv_is_chassis_notebook
+[   53.944679]: NVRM-xnu: >nv_acpi_is_battery_present
+[   53.944691]: NVRM: _sysCreateOs: RM Access Sys Cap creation failed: 0x56
+[   53.945029]: NVRM-xnu: >os_get_system_time
+[   53.945435]: NVRM-xnu: armwatch: baseline taken (firmware) head0 SET_CONTROL 0x00000000 RASTER_SIZE 0x06d00aa0
+[   53.945441]: NVRM-xnu: headwatch: head 0 RUNNING at 53945 ms since boot (vline raw 0x35bc01bf)
+[   53.945445]: NVRM-xnu: headwatch: head 1 RUNNING at 53945 ms since boot (vline raw 0x00000000)
+[   53.950273]: NVRM-xnu: >os_is_vgx_hyper
+[   53.950277]: NVRM-xnu: >os_mem_cmp
+[   53.950281]: NVRM-xnu: >os_is_efi_enabled
+[   53.950282]: NVRM-xnu: >os_registry_init
+[   53.950284]: NVRM-xnu: >os_dbg_init
+[   53.950291]: NVRM-xnu: >nv_platform_supports_s0ix
+[   53.950291]: NVRM-xnu: >os_is_nvswitch_present
+[   53.950294]: NVRM-xnu: >os_get_cpu_frequency
+[   53.950303]: NVRM-xnu: >os_get_cpu_count
+[   53.950307]: NVRM-xnu: >os_alloc_semaphore
+[   53.950318]: NVRM-xnu: >os_mem_copy #4 len=56
+[   53.950571]: NVRM-xnu: >os_get_current_thread
+[   53.950573]: NVRM-xnu: >os_acquire_rwlock_write
+[   53.950573]: NVRM-xnu: >os_get_monotonic_time_ns
+[   53.950574]: NVRM-xnu: >os_semaphore_may_sleep
+[   53.950575]: NVRM-xnu: >os_get_cpu_number
+[   53.950580]: NVRM-xnu: >os_release_rwlock_write
+[   53.950581]: NVRM-xnu: >os_free_mem
+[   53.950588]: NVRM-xnu: >os_get_current_process
+[   53.950589]: NVRM-xnu: >os_get_current_process_name
+[   53.950598]: NVRM-xnu: >os_check_access
+[   53.950607]: NVRM-xnu: rm_init_rm OK
+[   53.950609]: NVRM-xnu: rm_init_rm OK
+[   53.950611]: NVRM-xnu: event locks created for the control device and the GPU
+[   53.950613]: NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+[   53.950614]: NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+[   53.950615]: NVRM-xnu: >os_get_current_process_flags
+[   53.950617]: NVRM-xnu: >os_map_kernel_space start=0x80000000 size=0x1000 mode=1
+[   53.950642]: NVRM-xnu:   mapped -> 0x<ptr> (slot 0, high water 1/8192)
+[   53.950647]: NVRM-xnu: >os_unmap_kernel_space
+[   53.950658]: NVRM-xnu: rm_is_supported_device OK - this chip has a HAL and a GSP
+[   53.950659]: NVRM-xnu: rm_is_supported_device OK - this chip has a HAL and a GSP
+[   53.950659]: NVRM-xnu: rm_init_private_state()
+[   53.950660]: NVRM-xnu: rm_init_private_state()
+[   53.950661]: NVRM-xnu: >os_map_kernel_space start=0x80000000 size=0x1000 mode=1
+[   53.950668]: NVRM-xnu:   mapped -> 0x<ptr> (slot 0, high water 1/8192)
+[   53.950688]: NVRM-xnu: >os_acquire_mutex
+[   53.950689]: NVRM-xnu: >os_release_mutex
+[   53.950689]: NVRM-xnu: >nv_requires_dma_remap
+[   53.950692]: NVRM-xnu: >nv_set_dma_address_size
+[   53.950692]: NVRM-xnu:   dma address size 52 bits
+[   53.950710]: NVRM-xnu: rm_init_private_state OK
+[   53.950712]: NVRM-xnu: PASS 1 REACHED: RM initialised, private state built, GSP firmware requested
+[   53.950722]: NVRM-xnu: bus master + memory enabled (command 0x0007)
+[   53.950724]: NVRM-xnu: bus master + memory enabled (command 0x0007)
+[   53.950759]: NVRM-xnu:   interrupt source 0 type 0x1
+[   53.950760]: NVRM-xnu:   interrupt source 0 type 0x1
+[   53.950762]: NVRM-xnu:   interrupt source 1 type 0x10000 (MSI)
+[   53.950802]: NVRM-xnu: MSI 1 armed; calling rm_init_adapter() \M-b\M^@\M^T GSP boot from inside macOS
+[   53.950803]: NVRM-xnu: MSI 1 armed; calling rm_init_adapter() \M-b\M^@\M^T GSP boot from inside macOS
+[   53.950804]: NVRM-xnu: >nv_get_screen_info
+[   53.950805]: NVRM-xnu: nv_get_screen_info -> base 0x6018000000 2560x1600 depth 32 pitch 16384 size 26214400
+[   53.950806]: NVRM-xnu: >os_disable_console_access
+[   53.950808]: NVRM: GPU 0000:02:00.0: RmInitAdapter
+[   53.950809]: NVRM: GPU 0000:02:00.0: RmInitAdapter
+[   53.950810]: NVRM: GPU 0000:02:00.0: RmSetupRegisters for 0x10de:0x2d18
+[   53.950811]: NVRM: GPU 0000:02:00.0: RmSetupRegisters for 0x10de:0x2d18
+[   53.950811]: NVRM: GPU 0000:02:00.0: pci config info:
+[   53.950812]: NVRM: GPU 0000:02:00.0: pci config info:
+[   53.950813]: NVRM: GPU 0000:02:00.0:    registers look  like: 0x80000000 0x4000000NVRM: GPU 0000:02:00.0:    registers look  like: 0x80000000 0x4000000NVRM: GPU 0000:02:00.0:    fb        looks like: 0x3fc00000000 0x200000000
+[   53.950815]: NVRM: GPU 0000:02:00.0:    fb        looks like: 0x3fc00000000 0x200000000
+[   53.950816]: NVRM-xnu: >os_map_kernel_space start=0x80000000 size=0x4000000 mode=1
+[   53.951341]: NVRM-xnu:   mapped -> 0x<ptr> (slot 0, high water 1/8192)
+[   53.951342]: NVRM: GPU 0000:02:00.0: Successfully mapped framebuffer and registers
+[   53.951343]: NVRM: GPU 0000:02:00.0: final mappings:
+[   53.951344]: NVRM: GPU 0000:02:00.0: final mappings:
+[   53.951345]: NVRM: GPU 0000:02:00.0:     regs: 0x80000000 0x4000000 0x0xffffffe4ebff1000
+[   53.951346]: NVRM: GPU 0000:02:00.0:     regs: 0x80000000 0x4000000 0x0xffffffe4ebff1000
+[   53.951347]: NVRM-xnu: >nv_get_firmware type=0 family=9 -> /Users/Shared/nvfw/nvidia/610.57.04/gsp_ga10x.bin
+[   53.969498]: NVRM-xnu: headwatch: head 1 STOPPED at 53969 ms since boot (vline raw 0x00000000)
+[   54.038983]: NVRM-xnu:   firmware loaded: 84310168 bytes
+[   54.039050]: NVRM-xnu: >nv_get_dev_minor
+[   54.039115]: NVRM-xnu: >os_pci_read_dword
+[   54.039143]: NVRM-xnu: >nv_create_nano_timer
+[   54.039206]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=1 zeroed=1 (4 KB)
+[   54.039690]: NVRM-xnu: PHYSMAP armed, selftest ok (2 hit, 3 miss)
+[   54.039700]: NVRM-xnu: PV-SENTINEL REFUSED: slid _pmap_verify_free text != BootKC 24G830 bytes (kernel or KC differs)
+[   54.039708]: NVRM-xnu: WATCHPAGE armed, selftest ok (hit/miss/next-slot)
+[   54.039833]: NVRM-xnu: QUARANTINE armed, selftest ok (count/clean/found/blind, whole+sampled)
+[   54.039834]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5f9a000
+[   54.040047]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   54.040055]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7d34000
+[   54.040058]: NVRM-xnu: >nv_alloc_pages count=129 page_size=0x200000 contig=0 cache=0 zeroed=1 (516 KB)
+[   54.040209]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x239a8000
+[   54.040211]: NVRM-xnu: >nv_alloc_kernel_mapping
+[   54.040257]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   54.040263]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6b5e000
+[   54.040264]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   54.040269]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6b5d000
+[   54.040270]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=1 zeroed=1 (4 KB)
+[   54.040737]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6b5c000
+[   54.041178]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   54.041183]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5e5b000
+[   54.041184]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=1 zeroed=1 (4 KB)
+[   54.041653]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5e5a000
+[   54.041738]: NVRM-xnu: >os_add_record_for_crashLog
+[   54.041802]: NVRM-xnu: >nv_get_disp_smmu_stream_ids
+[   54.041804]: NVRM-xnu: >os_pci_read_word
+[   54.041814]: NVRM-xnu: >os_pci_read_byte
+[   54.043401]: NVRM-xnu: STUB os_get_acpi_rsdp_from_uefi
+[   54.043420]: NVRM-xnu: >os_pci_write_dword
+[   54.043431]: NVRM-xnu: >nv_acpi_methods_init
+[   54.043433]: NVRM-xnu: >nv_acpi_dsm_method
+[   54.043438]: NVRM-xnu: >nv_acpi_dod_method
+[   54.043443]: NVRM-xnu: >nv_alloc_pages count=71 page_size=0x1000 contig=1 cache=0 zeroed=1 (284 KB)
+[   54.043533]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x23a29000
+[   54.043660]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   54.043667]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6b9f000
+[   54.043669]: NVRM-xnu: >os_flush_cpu_write_combine_buffer
+[   54.043670]: NVRM-xnu: >os_flush_cpu_cache_all
+[   54.043670]: NVRM-xnu: >nv_free_kernel_mapping
+[   54.043729]: NVRM-xnu: >nv_alloc_pages count=20614 page_size=0x200000 contig=0 cache=0 zeroed=1 (82456 KB)
+[   54.115053]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x23a70000
+[   54.122066]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[   54.122098]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28af6000
+[   54.122134]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[   54.122149]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28b06000
+[   54.122180]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[   54.122196]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28b16000
+[   54.122236]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[   54.122250]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28b26000
+[   54.122280]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[   54.122295]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28b36000
+[   54.122297]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   54.122304]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7a4a000
+[   54.122307]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   54.122315]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7a49000
+[   54.122320]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[   54.122334]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28b46000
+[   54.122369]: NVRM-xnu: >os_get_monotonic_tick_resolution_ns
+[   54.122456]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=1 zeroed=1 (4 KB)
+[   54.122911]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b691f000
+[   54.123775]: NVRM-xnu: >os_get_max_user_va
+[   54.123776]: NVRM-xnu: >os_is_grid_supported
+[   54.123777]: NVRM-xnu: >os_get_grid_csp_support
+[   54.123867]: NVRM-xnu: >nv_alloc_pages count=71 page_size=0x1000 contig=1 cache=0 zeroed=1 (284 KB)
+[   54.123913]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28b56000
+[   55.255402]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=1 zeroed=1 (4 KB)
+[   55.255867]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b691e000
+[   55.256565]: NVRM-xnu: >os_acquire_rwlock_read
+[   55.256566]: NVRM-xnu: >os_release_rwlock_read
+[   55.260291]: NVRM-xnu: STUB os_cgroup_implementation
+[   55.262538]: NVRM-xnu: STUB nv_get_device_memory_config
+[   55.263847]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   55.263854]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7977000
+[   55.263856]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[   55.263875]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28b9d000
+[   55.263876]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[   55.263882]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7976000
+[   55.265978]: NVRM-xnu: >os_map_kernel_space start=0x3fe00000000 size=0x2000000 mode=2
+[   55.266257]: NVRM-xnu:   mapped -> 0x<ptr> (slot 1, high water 2/8192)
+[   55.288909]: NVRM-xnu: STUB nv_acpi_ddc_method
+[   55.301340]: NVRM-xnu: >nv_alloc_pages count=9 page_size=0x1000 contig=1 cache=0 zeroed=1 (36 KB)
+[   55.301352]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bad000
+[   55.317031]: NVRM-xnu: >os_put_pid_info
+[   55.317034]: NVRM-xnu: >os_free_rwlock
+[   55.317050]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[   55.317067]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bb6000
+[   55.317893]: NVRM-xnu: >nv_alloc_pages count=157 page_size=0x1000 contig=0 cache=1 zeroed=1 (628 KB)
+[   55.391278]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7a01000
+[   55.393016]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   55.393023]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7abc000
+[   55.393070]: NVRM-xnu: STUB os_cgroup_for_pid
+[   55.393337]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.393346]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bc6000
+[   55.393348]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.393355]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bca000
+[   55.395205]: NVRM-xnu: >os_map_kernel_space start=0x3fc00080000 size=0x10000 mode=2
+[   55.395219]: NVRM-xnu:   mapped -> 0x<ptr> (slot 2, high water 3/8192)
+[   55.468559]: NVRM-xnu: >nv_alloc_pages count=109 page_size=0x1000 contig=0 cache=1 zeroed=1 (436 KB)
+[   55.519612]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7b3e000
+[   55.519640]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   55.519648]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7737000
+[   55.519974]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.519983]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bce000
+[   55.519987]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.519995]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bd2000
+[   55.573404]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=1 zeroed=1 (4 KB)
+[   55.573859]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5dac000
+[   55.574208]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.574217]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bd6000
+[   55.574219]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.574227]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bda000
+[   55.605995]: NVRM-xnu: >nv_free_pages
+[   55.607502]: NVRM-xnu: >os_delay_us
+[   55.608694]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   55.608701]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b74f9000
+[   55.610567]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.610577]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bde000
+[   55.610579]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.610586]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28be2000
+[   55.612248]: NVRM-xnu: >os_map_kernel_space start=0x3fc00090000 size=0x200 mode=2
+[   55.612259]: NVRM-xnu:   mapped -> 0x<ptr> (slot 3, high water 4/8192)
+[   55.614141]: NVRM-xnu: STUB nv_start_rc_timer
+[   55.614951]: NVRM-xnu: >os_delay
+[   55.621329]: NVRM-xnu: >os_snprintf
+[   55.621442]: NVRM-xnu: STUB nv_i2c_add_adapter
+[   55.622317]: NVRM-xnu: STUB nv_acpi_get_powersource
+[   55.622318]: NVRM: GPU 0000:02:00.0: RmInitAdapter succeeded!
+[   55.622319]: NVRM: GPU 0000:02:00.0: RmInitAdapter succeeded!
+[   55.622320]: NVRM-xnu: >nv_put_firmware
+[   55.626999]: NVRM-xnu: >os_enable_console_access
+[   55.627001]: NVRM-xnu: rm_init_adapter -> OK
+[   55.627002]: NVRM-xnu: DMA buffers alive: 41
+[   55.627445]: NVRM-xnu:   #0 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.627449]: NVRM-xnu:   #1 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.627663]: NVRM-xnu:   #2 516 KB contig=0 nonzero=5659 first@0x1 head=00809a23 00000000
+[   55.627666]: NVRM-xnu:   #3 4 KB contig=1 nonzero=12 first@0x8 head=00000000 00000000
+[   55.627669]: NVRM-xnu:   #4 4 KB contig=1 nonzero=44 first@0x0 head=b3601a37 21ae3adc
+[   55.628119]: NVRM-xnu:   #5 4 KB contig=1 nonzero=116 first@0x0 head=54494e49 474f4c00
+[   55.628127]: NVRM-xnu:   #6 4 KB contig=1 nonzero=18 first@0x1 head=00809a23 00000000
+[   55.628569]: NVRM-xnu:   #7 4 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.628687]: NVRM-xnu:   #8 284 KB contig=1 nonzero=286015 first@0x0 head=a718b2c1 bb396481
+[   55.628690]: NVRM-xnu:   #9 4 KB contig=1 nonzero=1551 first@0x0 head=01000200 c8080000
+[   55.663163]: NVRM-xnu:   #10 82456 KB contig=0 nonzero=79520658 first@0x1 head=0010a723 00000000
+[   55.663191]: NVRM-xnu:   #11 64 KB contig=1 nonzero=2688 first@0x0 head=aa020000 00000000
+[   55.663219]: NVRM-xnu:   #12 64 KB contig=1 nonzero=12 first@0x0 head=02000000 00000000
+[   55.663245]: NVRM-xnu:   #13 64 KB contig=1 nonzero=1121 first@0x0 head=13010000 00000000
+[   55.663273]: NVRM-xnu:   #14 64 KB contig=1 nonzero=3 first@0x9 head=00000000 00000000
+[   55.663300]: NVRM-xnu:   #15 64 KB contig=1 nonzero=3 first@0x9 head=00000000 00000000
+[   55.663303]: NVRM-xnu:   #16 4 KB contig=1 nonzero=21 first@0x0 head=04000000 00000000
+[   55.663305]: NVRM-xnu:   #17 4 KB contig=1 nonzero=14 first@0x0 head=04000000 00000000
+[   55.663335]: NVRM-xnu:   #18 64 KB contig=1 nonzero=429 first@0x0 head=64000000 00000000
+[   55.663791]: NVRM-xnu:   #19 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.663907]: NVRM-xnu:   #20 284 KB contig=1 nonzero=286027 first@0x0 head=03044800 00620400
+[   55.664354]: NVRM-xnu:   #21 4 KB contig=1 nonzero=576 first@0x2 head=00009c10 03040000
+[   55.664357]: NVRM-xnu:   #22 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.664385]: NVRM-xnu:   #23 64 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.664387]: NVRM-xnu:   #24 4 KB contig=1 nonzero=15 first@0x0 head=06000000 000000ff
+[   55.664403]: NVRM-xnu:   #25 36 KB contig=1 nonzero=168 first@0x0 head=78a9d4ca 98ffde18
+[   55.664431]: NVRM-xnu:   #26 64 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.734212]: NVRM-xnu:   #27 628 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.734215]: NVRM-xnu:   #28 4 KB contig=0 nonzero=13 first@0x10 head=00000000 00000000
+[   55.734223]: NVRM-xnu:   #29 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.734231]: NVRM-xnu:   #30 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.782636]: NVRM-xnu:   #31 436 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.782639]: NVRM-xnu:   #32 4 KB contig=0 nonzero=13 first@0x10 head=00000000 00000000
+[   55.782647]: NVRM-xnu:   #33 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.782657]: NVRM-xnu:   #34 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.782660]: NVRM-xnu:   #38 4 KB contig=0 nonzero=82 first@0x1 head=00600120 2d900000
+[   55.782669]: NVRM-xnu:   #39 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.782680]: NVRM-xnu:   #40 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[   55.782732]: NVRM-xnu: regdump BOOT_0                                     @0x000000 = 0x1b6000a1
+[   55.782736]: NVRM-xnu: regdump PGSP_FALCON_MAILBOX0                       @0x110040 = 0x00000000
+[   55.782738]: NVRM-xnu: regdump PGSP_FALCON_MAILBOX1                       @0x110044 = 0x00000000
+[   55.782740]: NVRM-xnu: regdump PGSP_FALCON_HWCFG2(bit13=lockdown)         @0x1100f4 = 0x818787f7
+[   55.782742]: NVRM-xnu: regdump PGSP_FALCON_OS                             @0x110080 = 0x00000000
+[   55.782744]: NVRM-xnu: regdump PGSP_FALCON_IRQSTAT                        @0x110008 = 0x00000000
+[   55.782745]: NVRM-xnu: regdump PGSP_FALCON_ENGINE                         @0x1103c0 = 0xbadf5720
+[   55.782747]: NVRM-xnu: regdump GSP_RISCV_CPUCTL(bit7=active,bit4=halted)  @0x111388 = 0x00000180
+[   55.782749]: NVRM-xnu: regdump GSP_RISCV_BCR_CTRL                         @0x111668 = 0x00000011
+[   55.782750]: NVRM-xnu: regdump PGSP_MAILBOX(0)                            @0x110804 = 0x01696faf
+[   55.782752]: NVRM-xnu: regdump PGSP_MAILBOX(1)                            @0x110808 = 0x01696faf
+[   55.782754]: NVRM-xnu: regdump PGSP_QUEUE_HEAD(0)                         @0x110c00 = 0x00000000
+[   55.782755]: NVRM-xnu: regdump PFB_PRI_MMU_WPR2_ADDR_LO                   @0x1fa824 = 0x01ee4800
+[   55.782757]: NVRM-xnu: regdump PFB_PRI_MMU_WPR2_ADDR_HI                   @0x1fa828 = 0x01fc2200
+[   55.782759]: NVRM-xnu: regdump GFW_BOOT_PROGRESS(scratch05_0)             @0x118234 = 0x00000000
+[   55.782794]: NVRM-xnu: PASS 2 REACHED: the adapter is up \M-b\M^@\M^T GSP-RM is running on the card under macOS
+[   55.782795]: NVRM-xnu: PASS 2 REACHED: the adapter is up \M-b\M^@\M^T GSP-RM is running on the card under macOS
+[   55.783623]: NVRM-fbinfo: gpu 0x00000200: RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB
+[   55.784403]: NVRM-xnu: published VRAM,totalsize=8546942976 bytes (RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB) from the card
+[   55.784404]: NVRM-xnu: published VRAM,totalsize=8546942976 bytes (RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB) from the card
+[   55.784410]: NVKMS INFO: Loading NVIDIA UNIX Open Kernel Module for x86_64 610.57.04 Release Build (NullMoth Systems)
+[   55.784411]: NVKMS INFO: Loading NVIDIA UNIX Open Kernel Module for x86_64 610.57.04 Release Build (NullMoth Systems)
+[   55.784420]: NVRM-xnu: nvKmsModuleLoad -> 1
+[   55.784426]: NVRM-xnu: NVKMS timers use serial ONCE worker; event callbacks ONCE at kernel priority
+[   55.784428]: NVRM-xnu: nvKmsKapiProbe gpu_id 0x200
+[   55.784622]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[   55.784624]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[   55.787493]: NVRM-xnu: >os_map_kernel_space start=0x3fc000a0000 size=0x10000 mode=1
+[   55.787507]: NVRM-xnu:   mapped -> 0x<ptr> (slot 4, high water 5/8192)
+[   55.796298]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.796332]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bfe1a000
+[   55.796358]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.796381]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bfe19000
+[   55.803092]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.803138]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6c63000
+[   55.803173]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.803212]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6c62000
+[   55.804664]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.804691]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6a1e000
+[   55.804713]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.804740]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5d1a000
+[   55.805950]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.805979]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5d19000
+[   55.806000]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.806024]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b56d7000
+[   55.807138]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.807169]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b67d2000
+[   55.807190]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.807218]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b794d000
+[   55.811032]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.811061]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7b89000
+[   55.811085]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.811111]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7a05000
+[   55.812264]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.812290]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7a04000
+[   55.812313]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.812340]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7cc2000
+[   55.813543]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.813571]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7cc1000
+[   55.813594]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.813622]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7f3d000
+[   55.817062]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.817088]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7f3c000
+[   55.817108]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.817138]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b79bb000
+[   55.818327]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.818356]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7c36000
+[   55.818375]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.818402]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7c35000
+[   55.819542]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.819568]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7c34000
+[   55.819590]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.819617]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b8132000
+[   55.823209]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.823235]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b61ee000
+[   55.823259]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.823286]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b53ea000
+[   55.824494]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.824520]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b53e8000
+[   55.824546]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.824575]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6ca3000
+[   55.825758]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.825789]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6ca2000
+[   55.825810]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.825838]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6a5e000
+[   55.829313]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.829343]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6a5d000
+[   55.829367]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.829396]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5d58000
+[   55.830589]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.830622]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5717000
+[   55.830642]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.830678]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b5716000
+[   55.831818]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.831849]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6811000
+[   55.831870]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.831901]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6810000
+[   55.841392]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x73138d -> status 0x56
+[   55.846796]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.859293]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.864799]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.869565]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.874340]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.879112]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.883892]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.888662]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.893426]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.898210]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.902997]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.907794]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.912802]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.917573]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.922352]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.927136]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.931932]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.936704]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.941468]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.946233]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.951018]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.955793]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.973277]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x73138d -> status 0x56
+[   55.973450]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[   55.973742]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x730282 -> status 0x1f
+[   55.973987]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x730291 -> status 0x56
+[   55.974013]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.974052]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7a45000
+[   55.974082]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.974109]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7d03000
+[   55.974130]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.974157]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7d02000
+[   55.974179]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[   55.974207]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7d00000
+[   55.974252]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974302]: NVRM-xnu: >os_map_kernel_space start=0x3fc000b0000 size=0x4200 mode=2
+[   55.974317]: NVRM-xnu:   mapped -> 0x<ptr> (slot 5, high water 6/8192)
+[   55.974335]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974373]: NVRM-xnu: >os_map_kernel_space start=0x3fc000c0000 size=0x4200 mode=2
+[   55.974380]: NVRM-xnu:   mapped -> 0x<ptr> (slot 6, high water 7/8192)
+[   55.974396]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974434]: NVRM-xnu: >os_map_kernel_space start=0x3fc000d0000 size=0x4200 mode=2
+[   55.974441]: NVRM-xnu:   mapped -> 0x<ptr> (slot 7, high water 8/8192)
+[   55.974457]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974496]: NVRM-xnu: >os_map_kernel_space start=0x3fc000e0000 size=0x4200 mode=2
+[   55.974503]: NVRM-xnu:   mapped -> 0x<ptr> (slot 8, high water 9/8192)
+[   55.974519]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974554]: NVRM-xnu: >os_map_kernel_space start=0x3fc000f0000 size=0x4200 mode=2
+[   55.974560]: NVRM-xnu:   mapped -> 0x<ptr> (slot 9, high water 10/8192)
+[   55.974576]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974612]: NVRM-xnu: >os_map_kernel_space start=0x3fc00100000 size=0x4200 mode=2
+[   55.974619]: NVRM-xnu:   mapped -> 0x<ptr> (slot 10, high water 11/8192)
+[   55.974635]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974670]: NVRM-xnu: >os_map_kernel_space start=0x3fc00110000 size=0x4200 mode=2
+[   55.974676]: NVRM-xnu:   mapped -> 0x<ptr> (slot 11, high water 12/8192)
+[   55.974691]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974729]: NVRM-xnu: >os_map_kernel_space start=0x3fc00120000 size=0x4200 mode=2
+[   55.974735]: NVRM-xnu:   mapped -> 0x<ptr> (slot 12, high water 13/8192)
+[   55.974751]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974787]: NVRM-xnu: >os_map_kernel_space start=0x3fc00130000 size=0x4200 mode=2
+[   55.974793]: NVRM-xnu:   mapped -> 0x<ptr> (slot 13, high water 14/8192)
+[   55.974809]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974845]: NVRM-xnu: >os_map_kernel_space start=0x3fc00140000 size=0x4200 mode=2
+[   55.974853]: NVRM-xnu:   mapped -> 0x<ptr> (slot 14, high water 15/8192)
+[   55.974869]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974906]: NVRM-xnu: >os_map_kernel_space start=0x3fc00150000 size=0x4200 mode=2
+[   55.974912]: NVRM-xnu:   mapped -> 0x<ptr> (slot 15, high water 16/8192)
+[   55.974928]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.974966]: NVRM-xnu: >os_map_kernel_space start=0x3fc00160000 size=0x4200 mode=2
+[   55.974973]: NVRM-xnu:   mapped -> 0x<ptr> (slot 16, high water 17/8192)
+[   55.974989]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.975025]: NVRM-xnu: >os_map_kernel_space start=0x3fc00170000 size=0x4200 mode=2
+[   55.975032]: NVRM-xnu:   mapped -> 0x<ptr> (slot 17, high water 18/8192)
+[   55.975113]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.975175]: NVRM-xnu: >os_map_kernel_space start=0x3fc00180000 size=0x1000 mode=2
+[   55.975183]: NVRM-xnu:   mapped -> 0x<ptr> (slot 18, high water 19/8192)
+[   55.975194]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[   55.976938]: NVRM-xnu: >os_map_kernel_space start=0x3fc00180000 size=0x1000 mode=2
+[   55.976945]: NVRM-xnu:   mapped -> 0x<ptr> (slot 19, high water 20/8192)
+[   55.977552]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[   55.977557]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[   55.977561]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[   55.977852]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   55.977860]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b6ce1000
+[   55.977923]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=2 zeroed=1 (64 KB)
+[   55.978276]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7b8d000
+[   55.978606]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.978621]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28be6000
+[   55.978622]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   55.978632]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x28bea000
+[   55.980910]: NVRM-xnu: >os_map_kernel_space start=0x3fc00190000 size=0x200 mode=2
+[   55.980919]: NVRM-xnu:   mapped -> 0x<ptr> (slot 20, high water 21/8192)
+[   55.980937]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   55.980946]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7b7f02000
+[   55.981684]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   55.981690]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c1ebc000
+[   55.981704]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10003 -> status 0x0
+[   55.981763]: NVRM-xnu: >os_map_kernel_space start=0x3fc001a0000 size=0x1000 mode=2
+[   55.981770]: NVRM-xnu:   mapped -> 0x<ptr> (slot 21, high water 22/8192)
+[   55.981781]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10004 -> status 0x0
+[   55.981815]: NVRM-xnu: >os_map_kernel_space start=0x3fc001a0000 size=0x1000 mode=2
+[   55.981821]: NVRM-xnu:   mapped -> 0x<ptr> (slot 22, high water 23/8192)
+[   55.981833]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[   55.981836]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[   55.981843]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[   55.981844]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[   55.981847]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[   55.981849]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[   55.981853]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[   55.981854]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[   55.981856]: NVRM-fb: getDisplays: 4 handle(s); this GPU has 4 heads and 4 connectors
+[   55.981857]: NVRM-fb: getDisplays: 4 handle(s); this GPU has 4 heads and 4 connectors
+[   55.983426]: NVRM-fb: dpy 0/4 0x100: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[   55.983432]: NVRM-fb: dpy 0/4 0x100: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[   55.983749]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x730291 -> status 0x56
+[   55.985360]: NVRM-fb: dpy 1/4 0x200: connected 1 edid 384 B connector 0x2 headMask 0xf internal 1
+[   55.985363]: NVRM-fb: dpy 1/4 0x200: connected 1 edid 384 B connector 0x2 headMask 0xf internal 1
+[   55.985395]: NVRM-fb: dpy 2/4 0x400: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[   55.985397]: NVRM-fb: dpy 2/4 0x400: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[   55.986955]: NVRM-fb: dpy 3/4 0x800: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[   55.986960]: NVRM-fb: dpy 3/4 0x800: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[   55.986970]: NVRM-fb: ENUMERATED: 1 connected display(s) of 4 handle(s), 4 heads available
+[   55.986972]: NVRM-fb: ENUMERATED: 1 connected display(s) of 4 handle(s), 4 heads available
+[   55.991104]: NVRM-fb: boot pair: any-mode pass found 1 display(s)
+[   55.991106]: NVRM-fb: boot pair: any-mode pass found 1 display(s)
+[   55.992605]: NVRM-fb: boot pair: NVRM says head 0 2720x1744 pclk 782708000 (0x0); 1 display(s) match -> RESERVED for display 0x200 head 0
+[   55.992608]: NVRM-fb: boot pair: NVRM says head 0 2720x1744 pclk 782708000 (0x0); 1 display(s) match -> RESERVED for display 0x200 head 0
+[   55.992612]: NVRM-fb: fb0: display 0x200 is internal -- reporting kIOConnectionBuiltIn
+[   55.992613]: NVRM-fb: fb0: display 0x200 is internal -- reporting kIOConnectionBuiltIn
+[   55.992615]: NVRM-fb: fb0: EDID 384 B, panel 320x200 mm (imageWidth/imageHeight)
+[   55.992617]: NVRM-fb: fb0: EDID 384 B, panel 320x200 mm (imageWidth/imageHeight)
+[   55.992619]: NVRM-fb: index 0 -> display 0x200 connector 0x2 headMask 0xf -> head 0 (taken now 0x1)
+[   55.992620]: NVRM-fb: index 0 -> display 0x200 connector 0x2 headMask 0xf -> head 0 (taken now 0x1)
+[   55.994175]: NVRM-fb: boot pair: display 0x200 keeps the firmware's mode 2560x1600 @165000 on head 0
+[   55.994177]: NVRM-fb: boot pair: display 0x200 keeps the firmware's mode 2560x1600 @165000 on head 0
+[   55.995964]: NVRM-fb: fbmodes: boot raster 2560x1600 pitch 10240; scanout allocation sized for 2560x1600 (16000 KB, boot needs 16000 KB)
+[   55.995966]: NVRM-fb: fbmodes: boot raster 2560x1600 pitch 10240; scanout allocation sized for 2560x1600 (16000 KB, boot needs 16000 KB)
+[   55.995970]: NVRM-fb: display 0x200 head 0 connector 0x2 mode 2560x1600 @165000 pitch 10240 size 16000 KB
+[   55.995972]: NVRM-fb: display 0x200 head 0 connector 0x2 mode 2560x1600 @165000 pitch 10240 size 16000 KB
+[   55.995975]: NVRM-fb: console range BEFORE allocating: 0x6018000000 .. 0x6019900000 (26214400 B, rowBytes 16384)
+[   55.995977]: NVRM-fb: console range BEFORE allocating: 0x6018000000 .. 0x6019900000 (26214400 B, rowBytes 16384)
+[   56.012678]: NVRM-fb: kernel console DISABLED (kPEDisableScreen) before allocating
+[   56.012679]: NVRM-fb: kernel console DISABLED (kPEDisableScreen) before allocating
+[   56.012732]: NVRM-xnu: >os_map_kernel_space start=0x3fc00200000 size=0xfa0000 mode=2
+[   56.012961]: NVRM-xnu:   mapped -> 0x<ptr> (slot 23, high water 24/8192)
+[   56.012972]: NVRM-fb: VIDMEM: kva <ptr> contiguous 1 kernelPhys 0x3fc00200000 userPhys 0x3fc00200000 (same)
+[   56.012974]: NVRM-fb: VIDMEM: kva <ptr> contiguous 1 kernelPhys 0x3fc00200000 userPhys 0x3fc00200000 (same)
+[   56.013001]: NVRM-fb: verifyAperture(kernelPhys) 0x3fc00200000: +0x1000=c0de1111 +0x2000=c0de2222  *** MATCH ***
+[   56.013004]: NVRM-fb: verifyAperture(kernelPhys) 0x3fc00200000: +0x1000=c0de1111 +0x2000=c0de2222  *** MATCH ***
+[   56.013013]: NVRM-fb: VIDMEM ACCEPTED -- aperture 0x3fc00200000
+[   56.013015]: NVRM-fb: VIDMEM ACCEPTED -- aperture 0x3fc00200000
+[   56.013059]: NVRM-xnu: >os_map_kernel_space start=0x3fc001b0000 size=0x40000 mode=2
+[   56.013071]: NVRM-xnu:   mapped -> 0x<ptr> (slot 24, high water 25/8192)
+[   56.013144]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10006 -> status 0x0
+[   56.013180]: NVRM-fb: cursor plane READY: 256x256 A8R8G8B8 pitch 1024 (device maxCursorSizeInPixels 256, validCompModes 0x3d)
+[   56.013182]: NVRM-fb: cursor plane READY: 256x256 A8R8G8B8 pitch 1024 (device maxCursorSizeInPixels 256, validCompModes 0x3d)
+[   56.013188]: NVRM-fb: fbmodes: published IOFBScalerInfo (up+down, max 2560x1600) + IOFBTimingRange (25 MHz..1.2 GHz, 23..500 Hz)
+[   56.013190]: NVRM-fb: fbmodes: published IOFBScalerInfo (up+down, max 2560x1600) + IOFBTimingRange (25 MHz..1.2 GHz, 23..500 Hz)
+[   56.013201]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10005 -> status 0x0
+[   56.013230]: NVRM-fb: console info: base 0x6018000001 rowBytes 16384 2560x1600 depth 32
+[   56.013232]: NVRM-fb: console info: base 0x6018000001 rowBytes 16384 2560x1600 depth 32
+[   56.013237]: NVRM-fb: BAR0: pa 0x80000000 len 67108864
+[   56.013238]: NVRM-fb: BAR0: pa 0x80000000 len 67108864
+[   56.013241]: NVRM-fb: BAR1: pa 0x3fc00000000 len 8589934592
+[   56.013242]: NVRM-fb: BAR1: pa 0x3fc00000000 len 8589934592
+[   56.013244]: NVRM-fb: BAR2: pa 0x3fe00000000 len 33554432
+[   56.013245]: NVRM-fb: BAR2: pa 0x3fe00000000 len 33554432
+[   56.013247]: NVRM-fb: BAR3: pa 0x6018000000 len 67108864
+[   56.013248]: NVRM-fb: BAR3: pa 0x6018000000 len 67108864
+[   56.013250]: NVRM-fb: BAR4: pa 0x9000 len 128
+[   56.013251]: NVRM-fb: BAR4: pa 0x9000 len 128
+[   56.013253]: NVRM-fb: BAR5: pa 0x84080000 len 524288
+[   56.013254]: NVRM-fb: BAR5: pa 0x84080000 len 524288
+[   56.013256]: NVRM-fb: console probe: using NVKMS vtFb 0x6018000000 (26214400 B) instead of the platform's 0x6018000000
+[   56.013258]: NVRM-fb: console probe: using NVKMS vtFb 0x6018000000 (26214400 B) instead of the platform's 0x6018000000
+[   56.013559]: NVRM-fb: console probe phys 0x6018000000 pitch 16384 size 26214400 kva <ptr> | SURFACE phys 0x3fc00200000 pitch 10240 size 16384000
+[   56.013566]: NVRM-fb: console probe phys 0x6018000000 pitch 16384 size 26214400 kva <ptr> | SURFACE phys 0x3fc00200000 pitch 10240 size 16384000
+[   56.013572]: NVRM-fb: boot screen: NVRM's copy is one flat value 0x00000000 (unreadable aperture) - not painted, black takeover
+[   56.013574]: NVRM-fb: boot screen: NVRM's copy is one flat value 0x00000000 (unreadable aperture) - not painted, black takeover
+[   56.013576]: NVRM-fb: boot screen: NVRM had none (0x0, provider NVRM found) \M-b\M^@\M^T black takeover
+[   56.013578]: NVRM-fb: boot screen: NVRM had none (0x0, provider NVRM found) \M-b\M^@\M^T black takeover
+[   56.015097]: NVRM-xnu: boot screen: buffer released after the takeover
+[   56.015098]: NVRM-xnu: boot screen: buffer released after the takeover
+[   56.019285]: NVRM-fb: fb0: internal panel, but NVKMS registered no backlight (0xe00002f0) -- no brightness control
+[   56.019287]: NVRM-fb: fb0: internal panel, but NVKMS registered no backlight (0xe00002f0) -- no brightness control
+[   56.019371]: NVRM-fb: vbl timer armed (fallback)
+[   56.019372]: NVRM-fb: vbl timer armed (fallback)
+[   56.019376]: NVRM-fb: hw vblank on head 0: deferred until NVKMS latches a flip on this head
+[   56.019377]: NVRM-fb: hw vblank on head 0: deferred until NVKMS latches a flip on this head
+[   56.019381]: NVRM-fb: reflip keep-alive NOT armed: enableController's modeset owns the head, no boot-time re-syncs
+[   56.019382]: NVRM-fb: reflip keep-alive NOT armed: enableController's modeset owns the head, no boot-time re-syncs
+[   56.019386]: NVRM-fb: probe grid + HUD OFF -- macOS only (add nvhud=1 to boot-args to show them)
+[   56.019387]: NVRM-fb: probe grid + HUD OFF -- macOS only (add nvhud=1 to boot-args to show them)
+[   56.019392]: NVRM-fb: head probe retired (answered: we own head 0)
+[   56.019396]: NVRM-fb: head probe retired (answered: we own head 0)
+[   56.019400]: NVRM-fb: pixel sampler OFF -- add nvfbsample=1 to boot-args to arm it
+[   56.019401]: NVRM-fb: pixel sampler OFF -- add nvfbsample=1 to boot-args to arm it
+[   56.019407]: NVRM-fb: registerPowerDriver(2 states) done
+[   56.019408]: NVRM-fb: registerPowerDriver(2 states) done
+[   56.019412]: NVRM-fb: started on NVRMDisplay
+[   56.019413]: NVRM-fb: started on NVRMDisplay
+[   56.019478]: NVRM-fb: getAttribute 'gnps' -> 0xe00002c7 val 0
+[   56.019480]: NVRM-fb: getAttribute 'gnps' -> 0xe00002c7 val 0
+[   56.019483]: NVRM-fb: setPowerState 1
+[   56.019484]: NVRM-fb: setPowerState 1
+[   56.019742]: NVAccel: NVRMFramebuffer published -- display machine framebuffer count = 0 (index 0 kept)
+[   56.019744]: NVAccel: NVRMFramebuffer published -- display machine framebuffer count = 0 (index 0 kept)
+[   56.019746]: NVAccel:   to register it:  sudo sysctl -w debug.nvaccelfb=1   (2 = re-run the family's own sweep)
+[   56.019747]: NVAccel:   to register it:  sudo sysctl -w debug.nvaccelfb=1   (2 = re-run the family's own sweep)
+[   56.020586]: NVRM-xnu: nub 0 published first; its framebuffer started (waitQuiet 0x0) before nubs 1..3
+[   56.020614]: NVRM-xnu: 4 NVRMDisplay nub(s) published (kapi <ptr>, nvfbheads=4) \M-b\M^@\M^T NVRMFB.kext matches them
+[   56.020616]: NVRM-xnu: auto-go: go(2) -> 0x0 (fPassDone 2)
+[   56.020627]: NVRM-xnu: auto-go: heads published mask 0x1 (1 of nvfbheads 4) after 0 s
+[   56.020628]: NVRM-xnu: auto-go: heads published mask 0x1 (1 of nvfbheads 4) after 0 s
+[   56.020632]: NVAccel: registerFramebuffer(1): framebuffer count before = 0
+[   56.020633]: NVAccel: registerFramebuffer(1): framebuffer count before = 0
+[   56.020634]: NVAccel:   sysctl: calling found_framebuffer(NVRMFramebuffer index 0) -- count before 0
+[   56.020635]: NVAccel:   sysctl: calling found_framebuffer(NVRMFramebuffer index 0) -- count before 0
+[   56.020640]: NVAccel: newDisplayPipe -> <ptr>
+[   56.020644]: NVAccel: newResource -> <ptr>
+[   56.020645]: NVAccel: newResource -> <ptr>
+[   56.020662]: NVAccel:   sysctl: index 0 -> pipe 0 (<ptr>), count 1
+[   56.020663]: NVAccel:   sysctl: index 0 -> pipe 0 (<ptr>), count 1
+[   56.020664]: NVAccel:   framebuffer count after = 1
+[   56.020665]: NVAccel:   framebuffer count after = 1
+[   56.020666]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[   56.020670]: NVAccel: DM displayModeWillChange
+[   56.020671]: NVAccel: DM displayModeWillChange
+[   56.020672]: NVAccel: DM displayModeDidChange -> true
+[   56.020673]: NVAccel: enableAccelerator() from displayModeDidChange (call #2)
+[   56.020674]: NVAccel: enableAccelerator() from displayModeDidChange (call #2)
+[   56.020677]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[   56.020679]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[   56.020683]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc <ptr>)
+[   56.020684]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc <ptr>)
+[   56.020688]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[   56.020689]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[   56.020693]: NVAccel: NVDisplayPipe::initFramebufferResource(index 0): scanout gate CLOSED -- returning NULL, which is the family's own default (sysctl debug.nvaccelfb=3 opens it)
+[   56.020694]: NVAccel: NVDisplayPipe::initFramebufferResource(index 0): scanout gate CLOSED -- returning NULL, which is the family's own default (sysctl debug.nvaccelfb=3 opens it)
+[   56.020696]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[   56.020697]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[   56.020698]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 0, wsaaDefer(+0x282) = 0
+[   56.020699]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 0, wsaaDefer(+0x282) = 0
+[   56.020701]: NVAccel:   MetalPluginName restored -- a NEW process that asks Metal for this accelerator can now load the plugin (already-running ones will not)
+[   56.020702]: NVAccel:   MetalPluginName restored -- a NEW process that asks Metal for this accelerator can now load the plugin (already-running ones will not)
+[   56.020705]: NVAccel:   IOGLBundleName=AppleMetalOpenGLRenderer -- NEW GL processes get a hardware renderer over Metal
+[   56.020706]: NVAccel:   IOGLBundleName=AppleMetalOpenGLRenderer -- NEW GL processes get a hardware renderer over Metal
+[   56.020706]: NVAccel:   debug.nvaccelfb now reads 1 -- armed-only Metal clients may have a device THIS BOOT ONLY (heads published 0x1, registered 0x1, piped 0x1)
+[   56.020707]: NVAccel:   debug.nvaccelfb now reads 1 -- armed-only Metal clients may have a device THIS BOOT ONLY (heads published 0x1, registered 0x1, piped 0x1)
+[   56.020710]: NVAccel:   level 4: registering any published head that has no pipe yet
+[   56.020711]: NVAccel:   level 4: registering any published head that has no pipe yet
+[   56.020712]: NVAccel: registerFramebuffer(1): framebuffer count before = 1
+[   56.020713]: NVAccel: registerFramebuffer(1): framebuffer count before = 1
+[   56.020713]: NVAccel:   framebuffer count after = 1
+[   56.020714]: NVAccel:   framebuffer count after = 1
+[   56.020714]: NVAccel: sysctl debug.nvaccelfb=4: scanout-backed display pipe ENABLED, re-delivering the mode change
+[   56.020715]: NVAccel: sysctl debug.nvaccelfb=4: scanout-backed display pipe ENABLED, re-delivering the mode change
+[   56.020716]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[   56.020717]: NVAccel: DM displayModeWillChange
+[   56.020718]: NVAccel: DM displayModeDidChange -> true
+[   56.020719]: NVAccel: DM displayModeDidChange -> true
+[   56.020719]: NVAccel: enableAccelerator() from displayModeDidChange (call #3)
+[   56.020720]: NVAccel: enableAccelerator() from displayModeDidChange (call #3)
+[   56.020721]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[   56.020722]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[   56.020725]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[   56.020729]: NVRM-fb: nvScanoutInfo -> phys 0x3fc00200000 2560x1600 pitch 10240 (16384000 bytes)
+[   56.020731]: NVRM-fb: nvScanoutInfo -> phys 0x3fc00200000 2560x1600 pitch 10240 (16384000 bytes)
+[   56.020735]: NVAccel: newVidMemory -> <ptr>
+[   56.020736]: NVAccel: newVidMemory -> <ptr>
+[   56.020737]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 2560 x 1600 pitch 10240 (16384000 bytes)
+[   56.020740]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 2560 x 1600 pitch 10240 (16384000 bytes)
+[   56.020744]: NVAccel: newMemoryMap -> <ptr>
+[   56.020747]: NVRM-fb: nvRmHandles -> kapiDevice <ptr>
+[   56.020748]: NVRM-fb: nvRmHandles -> kapiDevice <ptr>
+[   56.020750]: NVAccel: RM handles: kapiDevice <ptr> (hClient/hDevice resolved inside NVRM by name) *** the accelerator can now build GPU page tables ***
+[   56.020751]: NVAccel: RM handles: kapiDevice <ptr> (hClient/hDevice resolved inside NVRM by name) *** the accelerator can now build GPU page tables ***
+[   56.020840]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[   56.020843]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[   56.020847]: NVRM-fb: fb1: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[   56.020848]: NVRM-fb: fb1: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[   56.020851]: NVRM-fb: index 1: reusing the shared NvKmsKapiDevice
+[   56.020852]: NVRM-fb: index 1: reusing the shared NvKmsKapiDevice
+[   56.020854]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[   56.020858]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[   56.020859]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[   56.020860]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[   56.020863]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[   56.020868]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[   56.020868]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[   56.020870]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[   56.020879]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[   56.020881]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[   56.020886]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[   56.020887]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[   56.020890]: NVRM-fb: index 1: only 1 display(s) connected -- nothing to drive, not starting
+[   56.020891]: NVRM-fb: index 1: only 1 display(s) connected -- nothing to drive, not starting
+[   56.020896]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[   56.020897]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[   56.020899]: NVRM-fb: fb2: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[   56.020902]: NVRM-fb: fb2: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[   56.020906]: NVRM-fb: fb3: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[   56.020909]: NVRM-fb: fb3: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[   56.020910]: NVRM-fb: index 2: reusing the shared NvKmsKapiDevice
+[   56.020911]: NVRM-fb: index 2: reusing the shared NvKmsKapiDevice
+[   56.020922]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[   56.020924]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[   56.020929]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[   56.020931]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[   56.020935]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[   56.020936]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[   56.020943]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[   56.020944]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[   56.020951]: NVRM-fb: index 2: only 1 display(s) connected -- nothing to drive, not starting
+[   56.020953]: NVRM-fb: index 2: only 1 display(s) connected -- nothing to drive, not starting
+[   56.020962]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[   56.020964]: NVRM-fb: index 3: reusing the shared NvKmsKapiDevice
+[   56.020965]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[   56.020965]: NVRM-fb: index 3: reusing the shared NvKmsKapiDevice
+[   56.020977]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[   56.020978]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[   56.020983]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[   56.020984]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[   56.020988]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[   56.020989]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[   56.020993]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[   56.020994]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[   56.020997]: NVRM-fb: index 3: only 1 display(s) connected -- nothing to drive, not starting
+[   56.020998]: NVRM-fb: index 3: only 1 display(s) connected -- nothing to drive, not starting
+[   56.021001]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[   56.021002]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[   56.021925]: NVRM-gpuva: FERMI_VASPACE_A 0xcaf00000 created for client 0xc1d0000c device 0x10001
+[   56.022101]: NVRM-gpuva: va alloc 16384000 bytes align 0 -> gpuva 0x120000000 (hVirt 0xcaf00001)
+[   56.022104]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00001)
+[   56.022105]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00001)
+[   56.022107]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (16384000 bytes) -- already backed, nothing allocated
+[   56.022109]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (16384000 bytes) -- already backed, nothing allocated
+[   56.022111]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00001 kapiMem 0 len 16384000 (mem <ptr>)
+[   56.022112]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00001 kapiMem 0 len 16384000 (mem <ptr>)
+[   56.022117]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[   56.022168]: NVRM-xnu: >os_map_kernel_space start=0x3fc01200000 size=0xfa0000 mode=2
+[   56.022311]: NVRM-xnu:   mapped -> 0x<ptr> (slot 25, high water 26/8192)
+[   56.024380]: NVRM-fb: nvAllocVram #1: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x3fc01200000  [BAR1 16384000 / 4294967296]
+[   56.024383]: NVRM-fb: nvAllocVram #1: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x3fc01200000  [BAR1 16384000 / 4294967296]
+[   56.024395]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc01200000 kva <ptr> [BAR1 16384000]
+[   56.024397]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc01200000 kva <ptr> [BAR1 16384000]
+[   56.024452]: NVRM-gpuva: MAPPED hVirt 0xcaf00001 <- hMem 0x10007  16384000 bytes vidmem  dmaOffset 0x120000000
+[   56.024454]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[   56.024455]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[   56.024463]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[   56.024464]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[   56.024466]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 1, wsaaDefer(+0x282) = 0
+[   56.024468]: NVRM-xnu: auto-go: accelerator level 1 took after 1 try, level 4 written
+[   56.024469]: NVRM-xnu: auto-go: accelerator level 1 took after 1 try, level 4 written
+[   56.024489]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000617 (1 framebuffer node(s) seen)
+[   56.024500]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000617 (1 framebuffer node(s) seen)
+[   56.024522]: NVRM-agdc: AGDC: UP on GFX0 \M-b\M^@\M^T 1 framebuffer slot(s), maxFramebuffers 1; vendor calls 2, refused 0 (last 0)
+[   56.024563]: NVRM-agdc: AGDC: command 0x3 (in 0 bytes) -> Unsupported [1/40]
+[   56.024693]: NVRM-agdc: AGDC: command 0x941 (in 48 bytes) -> Unsupported [2/40]
+[   56.225339]: NVAccel: iop: debug.nvaccel_iop=1 -- capabilities published, transaction hooks OPEN
+[   56.225340]: NVAccel: iop: debug.nvaccel_iop=1 -- capabilities published, transaction hooks OPEN
+[   56.225346]: NVRM-xnu: auto-go: display stack: heads 0x1 accel 4 agdc 1 k5 1 iop 1
+[   56.225348]: NVRM-xnu: auto-go: display stack: heads 0x1 accel 4 agdc 1 k5 1 iop 1
+[   56.225986]: NVRM-xnu: boot hold RELEASED (display armed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[   56.225988]: NVRM-xnu: boot hold RELEASED (display armed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[   56.506269]: NVRM-fb: getVRAMRange -> WHOLE BAR1 pa 0x3fc00000000 len 8589934592 (was the 16384128-byte scanout subrange)
+[   56.506272]: NVRM-fb: getVRAMRange -> WHOLE BAR1 pa 0x3fc00000000 len 8589934592 (was the 16384128-byte scanout subrange)
+[   56.576970]: NVAccel: DM displayModeWillChange
+[   56.576972]: NVAccel: DM displayModeWillChange
+[   56.576986]: NVRM-fb: enableController
+[   56.576987]: NVRM-fb: enableController
+[   56.602407]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1004 0x00000197 -> 0x00000000
+[   56.602419]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1010 0x00110a00 -> 0x10110000
+[   56.602424]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1014 0x00000003 -> 0x00000000
+[   56.602463]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2060 0x00000003 -> 0x00000000
+[   56.602481]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1080 0x0000000f -> 0x00000000
+[   56.602484]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1084 0x00000197 -> 0x00000000
+[   56.602491]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1090 0x00100000 -> 0x10110000
+[   56.602499]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x209c 0x000000e9 -> 0x000000cf
+[   56.602550]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1100 0x0000000f -> 0x00000001
+[   56.602553]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1104 0x00000197 -> 0x00000000
+[   56.602560]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1110 0x00100000 -> 0x10110000
+[   56.602599]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x215c 0x00000004 -> 0x019c2105
+[   56.602617]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2178 0x00000004 -> 0x00000000
+[   56.602621]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1180 0x0000000f -> 0x00000001
+[   56.602625]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1184 0x00000197 -> 0x00000000
+[   56.602632]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1190 0x00100000 -> 0x10110000
+[   56.602691]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1200 0x0000000f -> 0x00000002
+[   56.602694]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1204 0x00000197 -> 0x00000000
+[   56.602701]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1210 0x00100000 -> 0x10110000
+[   56.602727]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2240 0x00000000 -> 0x00000001
+[   56.602730]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2244 0x00000000 -> 0x0000366c
+[   56.602733]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2248 0x00000000 -> 0x0000b718
+[   56.602736]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x224c 0x00000000 -> 0x0000127c
+[   56.602739]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2250 0x00000000 -> 0x00000020
+[   56.602742]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2254 0x00000000 -> 0x0000366c
+[   56.602745]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2258 0x00000000 -> 0x0000b718
+[   56.602749]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x225c 0x00000000 -> 0x0000127c
+[   56.602752]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2260 0x00000000 -> 0x00000020
+[   56.602755]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2264 0x00000000 -> 0x0000366c
+[   56.602758]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2268 0x00000000 -> 0x0000b718
+[   56.602761]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x226c 0x00000000 -> 0x0000127c
+[   56.602764]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2270 0x00000000 -> 0x00000020
+[   56.602773]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2280 0x00000000 -> 0x00040508
+[   56.602779]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1280 0x0000000f -> 0x00000002
+[   56.602783]: NVRM-xnu: armwatch: 56602 ms HEAD0 +0x2284 0xcccccccc -> 0xffffffff
+[   56.602785]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1284 0x00000197 -> 0x00000000
+[   56.602792]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1290 0x00100000 -> 0x10110000
+[   56.602849]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1300 0x0000000f -> 0x00000003
+[   56.602852]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1304 0x00000197 -> 0x00000000
+[   56.602859]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1310 0x00100000 -> 0x10110000
+[   56.602916]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1380 0x0000000f -> 0x00000003
+[   56.602919]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1384 0x00000197 -> 0x00000000
+[   56.602926]: NVRM-xnu: armwatch: 56602 ms WIN    +0x1390 0x00100000 -> 0x10110000
+[   56.627381]: NVRM-xnu: headwatch: head 0 STOPPED at 56627 ms since boot (vline raw 0x00000000)
+[   56.665927]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0x55
+[   57.176972]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0x55
+[   57.575755]: NVRM-xnu: armwatch: 57575 ms WIN    +0x1304 0x00000000 -> 0x00000007
+[   57.575767]: NVRM-xnu: armwatch: 57575 ms WIN    +0x1310 0x10110000 -> 0x10110a16
+[   57.575772]: NVRM-xnu: armwatch: 57575 ms WIN    +0x1314 0x00000000 -> 0x00000001
+[   57.575825]: NVRM-xnu: armwatch: 57575 ms WIN    +0x1394 0x00000000 -> 0x00000002
+[   57.578423]: NVRM-xnu: STUB nv_audio_dynamic_power
+[   57.579177]: NVRM-fb: applyModeSetConfig -> 1 (flipResult 0)
+[   57.579180]: NVRM-fb: applyModeSetConfig -> 1 (flipResult 0)
+[   57.581265]: NVRM-fb: framebufferConsoleDisabled() sent -- NVKMS releases the old GOP console
+[   57.581267]: NVRM-fb: framebufferConsoleDisabled() sent -- NVKMS releases the old GOP console
+[   57.581317]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc <ptr>)
+[   57.581320]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc <ptr>)
+[   57.581330]: NVRM-fb: getAttribute 'vclt' -> 0xe00002c7 val 12297829382473034410
+[   57.581333]: NVRM-fb: getAttribute 'vclt' -> 0xe00002c7 val 12297829382473034410
+[   57.581349]: NVRM-fb: registerForInterruptType 'dci ' -> CONNECT REGISTERED
+[   57.581351]: NVRM-fb: registerForInterruptType 'dci ' -> CONNECT REGISTERED
+[   57.581356]: NVRM-fb: registerForInterruptType 'dpir' -> REFUSED (unsupported)
+[   57.581357]: NVRM-fb: registerForInterruptType 'dpir' -> REFUSED (unsupported)
+[   57.581363]: NVRM-fb: registerForInterruptType 'hdci' -> REFUSED (unsupported)
+[   57.581364]: NVRM-fb: registerForInterruptType 'hdci' -> REFUSED (unsupported)
+[   57.581369]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[   57.581370]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[   57.581515]: NVRM-fb: fb0 getAFC HLDDCSense -> YES (EDID 384 B)
+[   57.581517]: NVRM-fb: fb0 getAFC HLDDCSense -> YES (EDID 384 B)
+[   57.581852]: NVRM-fb: getAFC 'enab' -> enable 1
+[   57.581911]: NVAccel: DM displayModeDidChange -> true
+[   57.581913]: NVAccel: DM displayModeDidChange -> true
+[   57.581914]: NVAccel: enableAccelerator() from displayModeDidChange (call #4)
+[   57.581916]: NVAccel: enableAccelerator() from displayModeDidChange (call #4)
+[   57.581919]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[   57.581921]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[   57.581928]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[   57.581930]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[   57.581939]: NVAccel: newVidMemory -> <ptr>
+[   57.581940]: NVAccel: newVidMemory -> <ptr>
+[   57.581942]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 2560 x 1600 pitch 10240 (16384000 bytes)
+[   57.581944]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 2560 x 1600 pitch 10240 (16384000 bytes)
+[   57.581949]: NVAccel: newMemoryMap -> <ptr>
+[   57.581950]: NVAccel: newMemoryMap -> <ptr>
+[   57.582171]: NVRM-gpuva: va alloc 16384000 bytes align 0 -> gpuva 0x120000000 (hVirt 0xcaf00002)
+[   57.582173]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00002)
+[   57.582174]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00002)
+[   57.582177]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (16384000 bytes) -- already backed, nothing allocated
+[   57.582178]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (16384000 bytes) -- already backed, nothing allocated
+[   57.582181]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00002 kapiMem 0 len 16384000 (mem <ptr>)
+[   57.582188]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00002 kapiMem 0 len 16384000 (mem <ptr>)
+[   57.582192]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[   57.582193]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[   57.582257]: NVRM-xnu: >os_map_kernel_space start=0x3fc01200000 size=0xfa0000 mode=2
+[   57.582518]: NVRM-xnu:   mapped -> 0x<ptr> (slot 25, high water 26/8192)
+[   57.585549]: NVRM-fb: nvAllocVram #2: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x3fc01200000  [BAR1 16384000 / 4294967296]
+[   57.585551]: NVRM-fb: nvAllocVram #2: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x3fc01200000  [BAR1 16384000 / 4294967296]
+[   57.585557]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc01200000 kva <ptr> [BAR1 16384000]
+[   57.585559]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc01200000 kva <ptr> [BAR1 16384000]
+[   57.585603]: NVRM-gpuva: MAPPED hVirt 0xcaf00002 <- hMem 0x10007  16384000 bytes vidmem  dmaOffset 0x120000000
+[   57.585605]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[   57.585606]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[   57.946526]: NVRM-fb: hw vblank on head 0: REGISTERED after 0 latched flips, 60 mode ticks
+[   57.946534]: NVRM-fb: hw vblank on head 0: REGISTERED after 0 latched flips, 60 mode ticks
+[   57.952120]: NVRM-fb: hw vblank: first VBL from head 0's real vblank (period 6060584 abs)
+[   57.952126]: NVRM-fb: hw vblank: first VBL from head 0's real vblank (period 6060584 abs)
+[   71.232903]: NVRM-xnu: headwatch: done
+[  153.998554]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  153.998925]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  153.998932]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  153.999608]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  153.999613]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  154.000642]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  154.000652]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  154.001302]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  154.001306]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.164023]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.164030]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.164331]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.164333]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.164555]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.164557]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.164800]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.164802]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.165232]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  155.165234]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.344997]: NVRM-xnu: os_lock_user_pages(0x36b97f000, 2 pages) prepare -> 0x2
+[  157.383570]: NVRM-xnu: os_lock_user_pages(0x36baa0000, 2 pages) prepare -> 0x2
+[  157.383763]: NVRM-xnu: os_lock_user_pages(0x36baa4000, 2 pages) prepare -> 0x2
+[  157.383877]: NVRM-xnu: os_lock_user_pages(0x36bcec000, 2 pages) prepare -> 0x2
+[  157.506998]: NVAccel: newResource -> <ptr>
+[  157.507004]: NVAccel: newResource -> <ptr>
+[  157.507010]: NVAccel: newSysMemory -> <ptr>
+[  157.507011]: NVAccel: newSysMemory -> <ptr>
+[  157.507015]: NVAccel: newVidMemory -> <ptr>
+[  157.507097]: NVRM-xnu: >os_map_kernel_space start=0x3fc08370000 size=0x100000 mode=2
+[  157.507141]: NVRM-xnu:   mapped -> 0x<ptr> (slot 41, high water 62/8192)
+[  157.507283]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc08370000 kva <ptr> [BAR1 158531584]
+[  157.507285]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc08370000 kva <ptr> [BAR1 158531584]
+[  157.512725]: NVRM-xnu: os_lock_user_pages(0x36bf1d000, 2 pages) prepare -> 0x2
+[  157.512998]: NVRM-xnu: os_lock_user_pages(0x36bf2a000, 2 pages) prepare -> 0x2
+[  157.513107]: NVRM-xnu: os_lock_user_pages(0x36bf2d000, 2 pages) prepare -> 0x2
+[  157.515930]: NVRM-xnu: os_lock_user_pages(0x36f137000, 16 pages) prepare -> 0x2
+[  157.516486]: NVAccel: newResource -> <ptr>
+[  157.516489]: NVAccel: newResource -> <ptr>
+[  157.516494]: NVAccel: newSysMemory -> <ptr>
+[  157.516495]: NVAccel: newSysMemory -> <ptr>
+[  157.516499]: NVAccel: newVidMemory -> <ptr>
+[  157.516500]: NVAccel: newVidMemory -> <ptr>
+[  157.516552]: NVRM-xnu: >os_map_kernel_space start=0x3fc063e0000 size=0x10000 mode=2
+[  157.516584]: NVRM-xnu:   mapped -> 0x<ptr> (slot 42, high water 62/8192)
+[  157.516605]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc063e0000 kva <ptr> [BAR1 158597120]
+[  157.516607]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc063e0000 kva <ptr> [BAR1 158597120]
+[  157.517378]: NVAccel: newResource -> <ptr>
+[  157.517381]: NVAccel: newResource -> <ptr>
+[  157.517385]: NVAccel: newSysMemory -> <ptr>
+[  157.517388]: NVAccel: newVidMemory -> <ptr>
+[  157.517389]: NVAccel: newVidMemory -> <ptr>
+[  157.517437]: NVRM-xnu: >os_map_kernel_space start=0x3fc063f0000 size=0x10000 mode=2
+[  157.517463]: NVRM-xnu:   mapped -> 0x<ptr> (slot 45, high water 62/8192)
+[  157.517484]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc063f0000 kva <ptr> [BAR1 158662656]
+[  157.517485]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc063f0000 kva <ptr> [BAR1 158662656]
+[  157.765833]: NVAccel: newResource -> <ptr>
+[  157.765841]: NVAccel: newResource -> <ptr>
+[  157.765848]: NVAccel: newSysMemory -> <ptr>
+[  157.765850]: NVAccel: newSysMemory -> <ptr>
+[  157.765855]: NVAccel: newVidMemory -> <ptr>
+[  157.765856]: NVAccel: newVidMemory -> <ptr>
+[  157.765987]: NVRM-xnu: >os_map_kernel_space start=0x3fc08600000 size=0xd20000 mode=2
+[  157.766275]: NVRM-xnu:   mapped -> 0x<ptr> (slot 46, high water 62/8192)
+[  157.769344]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 13762560 bytes of REAL VRAM -- phys 0x3fc08600000 kva <ptr> [BAR1 172425216]
+[  157.769347]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 13762560 bytes of REAL VRAM -- phys 0x3fc08600000 kva <ptr> [BAR1 172425216]
+[  157.776176]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  157.776182]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  157.776333]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  157.776335]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  157.776558]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.776564]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.822472]: NVAccel: newResource -> <ptr>
+[  157.822481]: NVAccel: newResource -> <ptr>
+[  157.822492]: NVAccel: newSysMemory -> <ptr>
+[  157.822493]: NVAccel: newSysMemory -> <ptr>
+[  157.822499]: NVAccel: newVidMemory -> <ptr>
+[  157.822501]: NVAccel: newVidMemory -> <ptr>
+[  157.822604]: NVRM-xnu: >os_map_kernel_space start=0x3fc0c800000 size=0x660000 mode=2
+[  157.822779]: NVRM-xnu:   mapped -> 0x<ptr> (slot 47, high water 62/8192)
+[  157.824362]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6684672 bytes of REAL VRAM -- phys 0x3fc0c800000 kva <ptr> [BAR1 179109888]
+[  157.824365]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6684672 bytes of REAL VRAM -- phys 0x3fc0c800000 kva <ptr> [BAR1 179109888]
+[  157.828336]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.828342]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.948480]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.948490]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.948690]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.948693]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.948794]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  157.948796]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  157.950419]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  157.950420]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  157.950474]: NVRM-xnu: map fd 383: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[  157.956175]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  157.956180]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  157.957893]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.957896]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.958124]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.958126]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.958301]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.958302]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.958451]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.958453]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.962993]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.962997]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.963756]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.963759]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.963991]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.963993]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964183]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964185]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964362]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964364]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964605]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964607]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964823]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964824]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964979]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.964980]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.965125]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.965126]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.977416]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.977422]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.977850]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  157.977853]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  158.722397]: NVAccel: newResource -> <ptr>
+[  158.722402]: NVAccel: newResource -> <ptr>
+[  158.722407]: NVAccel: newSysMemory -> <ptr>
+[  158.722408]: NVAccel: newSysMemory -> <ptr>
+[  158.722413]: NVAccel: newVidMemory -> <ptr>
+[  158.722495]: NVRM-xnu: >os_map_kernel_space start=0x3fc09400000 size=0x360000 mode=2
+[  158.722574]: NVRM-xnu:   mapped -> 0x<ptr> (slot 62, high water 63/8192)
+[  158.723100]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3538944 bytes of REAL VRAM -- phys 0x3fc09400000 kva <ptr> [BAR1 182648832]
+[  158.723103]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3538944 bytes of REAL VRAM -- phys 0x3fc09400000 kva <ptr> [BAR1 182648832]
+[  158.730951]: NVAccel: newResource -> <ptr>
+[  158.730956]: NVAccel: newResource -> <ptr>
+[  158.730962]: NVAccel: newSysMemory -> <ptr>
+[  158.730963]: NVAccel: newSysMemory -> <ptr>
+[  158.730967]: NVAccel: newVidMemory -> <ptr>
+[  158.731072]: NVRM-xnu: >os_map_kernel_space start=0x3fc0d000000 size=0xd20000 mode=2
+[  158.731218]: NVRM-xnu:   mapped -> 0x<ptr> (slot 63, high water 64/8192)
+[  158.732979]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 13762560 bytes of REAL VRAM -- phys 0x3fc0d000000 kva <ptr> [BAR1 196411392]
+[  158.732982]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 13762560 bytes of REAL VRAM -- phys 0x3fc0d000000 kva <ptr> [BAR1 196411392]
+[  162.341746]: NVAccel: newResource -> <ptr>
+[  162.341753]: NVAccel: newSysMemory -> <ptr>
+[  162.341756]: NVAccel: newSysMemory -> <ptr>
+[  162.341762]: NVAccel: newVidMemory -> <ptr>
+[  162.341763]: NVAccel: newVidMemory -> <ptr>
+[  162.341838]: NVRM-xnu: >os_map_kernel_space start=0x3fc063e0000 size=0x70000 mode=2
+[  162.341865]: NVRM-xnu:   mapped -> 0x<ptr> (slot 42, high water 64/8192)
+[  162.341943]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 458752 bytes of REAL VRAM -- phys 0x3fc063e0000 kva <ptr> [BAR1 178257920]
+[  162.341946]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 458752 bytes of REAL VRAM -- phys 0x3fc063e0000 kva <ptr> [BAR1 178257920]
+[  162.348615]: NVAccel: newResource -> <ptr>
+[  162.348622]: NVAccel: newResource -> <ptr>
+[  162.348628]: NVAccel: newSysMemory -> <ptr>
+[  162.348629]: NVAccel: newSysMemory -> <ptr>
+[  162.348634]: NVAccel: newVidMemory -> <ptr>
+[  162.348635]: NVAccel: newVidMemory -> <ptr>
+[  162.348699]: NVRM-xnu: >os_map_kernel_space start=0x3fc06450000 size=0x10000 mode=2
+[  162.348745]: NVRM-xnu:   mapped -> 0x<ptr> (slot 45, high water 64/8192)
+[  162.348776]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc06450000 kva <ptr> [BAR1 178323456]
+[  162.348781]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc06450000 kva <ptr> [BAR1 178323456]
+[  162.349773]: NVAccel: newResource -> <ptr>
+[  162.349777]: NVAccel: newResource -> <ptr>
+[  162.349781]: NVAccel: newSysMemory -> <ptr>
+[  162.349782]: NVAccel: newSysMemory -> <ptr>
+[  162.349786]: NVAccel: newVidMemory -> <ptr>
+[  162.349787]: NVAccel: newVidMemory -> <ptr>
+[  162.349851]: NVRM-xnu: >os_map_kernel_space start=0x3fc06460000 size=0x10000 mode=2
+[  162.349884]: NVRM-xnu:   mapped -> 0x<ptr> (slot 50, high water 64/8192)
+[  162.349912]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc06460000 kva <ptr> [BAR1 178388992]
+[  162.349914]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc06460000 kva <ptr> [BAR1 178388992]
+[  162.613603]: NVRM-xnu: os_lock_user_pages(0x36bcee000, 2 pages) prepare -> 0x2
+[  162.613817]: NVRM-xnu: os_lock_user_pages(0x36bdeb000, 2 pages) prepare -> 0x2
+[  162.621710]: NVAccel: newResource -> <ptr>
+[  162.621717]: NVAccel: newResource -> <ptr>
+[  162.621725]: NVAccel: newSysMemory -> <ptr>
+[  162.621726]: NVAccel: newSysMemory -> <ptr>
+[  162.621732]: NVAccel: newVidMemory -> <ptr>
+[  162.621733]: NVAccel: newVidMemory -> <ptr>
+[  162.621869]: NVRM-xnu: >os_map_kernel_space start=0x3fc09e00000 size=0xd20000 mode=2
+[  162.622140]: NVRM-xnu:   mapped -> 0x<ptr> (slot 51, high water 64/8192)
+[  162.625072]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 13762560 bytes of REAL VRAM -- phys 0x3fc09e00000 kva <ptr> [BAR1 192151552]
+[  162.625076]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 13762560 bytes of REAL VRAM -- phys 0x3fc09e00000 kva <ptr> [BAR1 192151552]
+[  162.648016]: NVAccel: newResource -> <ptr>
+[  162.648023]: NVAccel: newResource -> <ptr>
+[  162.648032]: NVAccel: newSysMemory -> <ptr>
+[  162.648033]: NVAccel: newSysMemory -> <ptr>
+[  162.648039]: NVAccel: newVidMemory -> <ptr>
+[  162.648040]: NVAccel: newVidMemory -> <ptr>
+[  162.648175]: NVRM-xnu: >os_map_kernel_space start=0x3fc08470000 size=0x80000 mode=2
+[  162.648221]: NVRM-xnu:   mapped -> 0x<ptr> (slot 64, high water 65/8192)
+[  162.648324]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc08470000 kva <ptr> [BAR1 192675840]
+[  162.648326]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc08470000 kva <ptr> [BAR1 192675840]
+[  162.651132]: NVAccel: newResource -> <ptr>
+[  162.651137]: NVAccel: newResource -> <ptr>
+[  162.651143]: NVAccel: newSysMemory -> <ptr>
+[  162.651145]: NVAccel: newSysMemory -> <ptr>
+[  162.651149]: NVAccel: newVidMemory -> <ptr>
+[  162.651150]: NVAccel: newVidMemory -> <ptr>
+[  162.651223]: NVRM-xnu: >os_map_kernel_space start=0x3fc06470000 size=0x10000 mode=2
+[  162.651262]: NVRM-xnu:   mapped -> 0x<ptr> (slot 65, high water 66/8192)
+[  162.651292]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc06470000 kva <ptr> [BAR1 192741376]
+[  162.651295]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc06470000 kva <ptr> [BAR1 192741376]
+[  162.652510]: NVAccel: newResource -> <ptr>
+[  162.652514]: NVAccel: newResource -> <ptr>
+[  162.652518]: NVAccel: newSysMemory -> <ptr>
+[  162.652519]: NVAccel: newSysMemory -> <ptr>
+[  162.652523]: NVAccel: newVidMemory -> <ptr>
+[  162.652524]: NVAccel: newVidMemory -> <ptr>
+[  162.652589]: NVRM-xnu: >os_map_kernel_space start=0x3fc084f0000 size=0x80000 mode=2
+[  162.652629]: NVRM-xnu:   mapped -> 0x<ptr> (slot 66, high water 67/8192)
+[  162.652754]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc084f0000 kva <ptr> [BAR1 193265664]
+[  162.652757]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc084f0000 kva <ptr> [BAR1 193265664]
+[  162.659539]: NVAccel: newResource -> <ptr>
+[  162.659544]: NVAccel: newResource -> <ptr>
+[  162.659548]: NVAccel: newSysMemory -> <ptr>
+[  162.659549]: NVAccel: newSysMemory -> <ptr>
+[  162.659552]: NVAccel: newVidMemory -> <ptr>
+[  162.659553]: NVAccel: newVidMemory -> <ptr>
+[  162.659622]: NVRM-xnu: >os_map_kernel_space start=0x3fc08570000 size=0x80000 mode=2
+[  162.659653]: NVRM-xnu:   mapped -> 0x<ptr> (slot 51, high water 67/8192)
+[  162.659739]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc08570000 kva <ptr> [BAR1 180027392]
+[  162.659741]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc08570000 kva <ptr> [BAR1 180027392]
+[  162.662450]: NVAccel: newResource -> <ptr>
+[  162.662459]: NVAccel: newResource -> <ptr>
+[  162.662466]: NVAccel: newSysMemory -> <ptr>
+[  162.662468]: NVAccel: newSysMemory -> <ptr>
+[  162.662474]: NVAccel: newVidMemory -> <ptr>
+[  162.662476]: NVAccel: newVidMemory -> <ptr>
+[  162.662576]: NVRM-xnu: >os_map_kernel_space start=0x3fc06480000 size=0x10000 mode=2
+[  162.662635]: NVRM-xnu:   mapped -> 0x<ptr> (slot 67, high water 68/8192)
+[  162.662678]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc06480000 kva <ptr> [BAR1 180092928]
+[  162.662682]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc06480000 kva <ptr> [BAR1 180092928]
+[  162.664341]: NVAccel: newResource -> <ptr>
+[  162.664345]: NVAccel: newResource -> <ptr>
+[  162.664349]: NVAccel: newSysMemory -> <ptr>
+[  162.664351]: NVAccel: newSysMemory -> <ptr>
+[  162.664355]: NVAccel: newVidMemory -> <ptr>
+[  162.664356]: NVAccel: newVidMemory -> <ptr>
+[  162.664451]: NVRM-xnu: >os_map_kernel_space start=0x3fc09800000 size=0x80000 mode=2
+[  162.664497]: NVRM-xnu:   mapped -> 0x<ptr> (slot 68, high water 69/8192)
+[  162.664622]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc09800000 kva <ptr> [BAR1 180617216]
+[  162.664625]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 524288 bytes of REAL VRAM -- phys 0x3fc09800000 kva <ptr> [BAR1 180617216]
+[  162.954868]: NVRM-fb: cursor apply 10000: ok 1 rc 0 at 584,578 visible 1
+[  163.111507]: NVAccel: newResource -> <ptr>
+[  163.111514]: NVAccel: newSysMemory -> <ptr>
+[  163.111515]: NVAccel: newSysMemory -> <ptr>
+[  163.111519]: NVAccel: newVidMemory -> <ptr>
+[  163.111666]: NVRM-xnu: >os_map_kernel_space start=0x3fc09e00000 size=0x360000 mode=2
+[  163.111751]: NVRM-xnu:   mapped -> 0x<ptr> (slot 40, high water 69/8192)
+[  163.112540]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3538944 bytes of REAL VRAM -- phys 0x3fc09e00000 kva <ptr> [BAR1 181927936]
+[  163.112542]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3538944 bytes of REAL VRAM -- phys 0x3fc09e00000 kva <ptr> [BAR1 181927936]
+[  163.504465]: NVRM-xnu: os_lock_user_pages(0x36ba9b000, 2 pages) prepare -> 0x2
+[  163.504650]: NVRM-xnu: os_lock_user_pages(0x36ba9d000, 2 pages) prepare -> 0x2
+[  163.504744]: NVRM-xnu: os_lock_user_pages(0x36bbd8000, 2 pages) prepare -> 0x2
+[  164.063719]: NVRM-xnu: nv_post_event #16384 hEvent 0xcaf00004 index 12 -> connection woken | matched 16384, waits 3690, slept 1832
+[  164.305057]: NVRM-xnu: os_lock_user_pages(0x36babb000, 2 pages) prepare -> 0x2
+[  164.347790]: NVRM-xnu: os_lock_user_pages(0x36babd000, 2 pages) prepare -> 0x2
+[  164.383853]: NVRM-xnu: os_lock_user_pages(0x36bab9000, 2 pages) prepare -> 0x2
+[  165.948066]: NVAccel: newResource -> <ptr>
+[  165.948073]: NVAccel: newResource -> <ptr>
+[  165.948079]: NVAccel: newSysMemory -> <ptr>
+[  165.948080]: NVAccel: newSysMemory -> <ptr>
+[  165.948084]: NVAccel: newVidMemory -> <ptr>
+[  165.948085]: NVAccel: newVidMemory -> <ptr>
+[  165.948180]: NVRM-xnu: >os_map_kernel_space start=0x3fc09e00000 size=0xa70000 mode=2
+[  165.948338]: NVRM-xnu:   mapped -> 0x<ptr> (slot 40, high water 69/8192)
+[  165.950208]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 10944512 bytes of REAL VRAM -- phys 0x3fc09e00000 kva <ptr> [BAR1 189333504]
+[  165.950210]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 10944512 bytes of REAL VRAM -- phys 0x3fc09e00000 kva <ptr> [BAR1 189333504]
+[  165.955050]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  165.955055]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  165.974155]: NVAccel: iop: K6 transaction #600 (head 0 #600) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory \M-b\M^@\M^T 64 samples: nonzero 64 varied 64
+[  165.974166]: NVAccel: iop: K6 transaction #600 (head 0 #600) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory \M-b\M^@\M^T 64 samples: nonzero 64 varied 64
+[  165.997913]: NVRM-fb: cursor apply 11000: ok 1 rc 0 at 512,452 visible 1
+[  165.997920]: NVRM-fb: cursor apply 11000: ok 1 rc 0 at 512,452 visible 1
+[  166.071635]: NVAccel: newResource -> <ptr>
+[  166.071647]: NVAccel: newResource -> <ptr>
+[  166.071657]: NVAccel: newSysMemory -> <ptr>
+[  166.071658]: NVAccel: newSysMemory -> <ptr>
+[  166.071666]: NVAccel: newVidMemory -> <ptr>
+[  166.071668]: NVAccel: newVidMemory -> <ptr>
+[  166.071835]: NVRM-xnu: >os_map_kernel_space start=0x3fc0aa00000 size=0x690000 mode=2
+[  166.072066]: NVRM-xnu:   mapped -> 0x<ptr> (slot 60, high water 69/8192)
+[  166.073535]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc0aa00000 kva <ptr> [BAR1 196214784]
+[  166.073539]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6881280 bytes of REAL VRAM -- phys 0x3fc0aa00000 kva <ptr> [BAR1 196214784]
+[  166.089834]: NVAccel: newResource -> <ptr>
+[  166.089840]: NVAccel: newResource -> <ptr>
+[  166.089846]: NVAccel: newSysMemory -> <ptr>
+[  166.089850]: NVAccel: newVidMemory -> <ptr>
+[  166.089924]: NVRM-xnu: >os_map_kernel_space start=0x3fc08600000 size=0x660000 mode=2
+[  166.090039]: NVRM-xnu:   mapped -> 0x<ptr> (slot 46, high water 69/8192)
+[  166.091150]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6684672 bytes of REAL VRAM -- phys 0x3fc08600000 kva <ptr> [BAR1 189136896]
+[  166.091151]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6684672 bytes of REAL VRAM -- phys 0x3fc08600000 kva <ptr> [BAR1 189136896]
+[  166.094531]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  166.094538]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  166.192307]: NVAccel: newResource -> <ptr>
+[  166.192319]: NVAccel: newResource -> <ptr>
+[  166.192330]: NVAccel: newSysMemory -> <ptr>
+[  166.192332]: NVAccel: newSysMemory -> <ptr>
+[  166.192345]: NVAccel: newVidMemory -> <ptr>
+[  166.192346]: NVAccel: newVidMemory -> <ptr>
+[  166.192511]: NVRM-xnu: >os_map_kernel_space start=0x3fc08e00000 size=0x510000 mode=2
+[  166.192775]: NVRM-xnu:   mapped -> 0x<ptr> (slot 53, high water 69/8192)
+[  166.194274]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 5308416 bytes of REAL VRAM -- phys 0x3fc08e00000 kva <ptr> [BAR1 180682752]
+[  166.194276]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 5308416 bytes of REAL VRAM -- phys 0x3fc08e00000 kva <ptr> [BAR1 180682752]
+[  168.711341]: NVAccel: newResource -> <ptr>
+[  168.711349]: NVAccel: newSysMemory -> <ptr>
+[  168.711350]: NVAccel: newSysMemory -> <ptr>
+[  168.711355]: NVAccel: newVidMemory -> <ptr>
+[  168.711356]: NVAccel: newVidMemory -> <ptr>
+[  168.711444]: NVRM-xnu: >os_map_kernel_space start=0x3fc09e00000 size=0x4b0000 mode=2
+[  168.711571]: NVRM-xnu:   mapped -> 0x<ptr> (slot 40, high water 69/8192)
+[  168.712747]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 4915200 bytes of REAL VRAM -- phys 0x3fc09e00000 kva <ptr> [BAR1 174653440]
+[  168.712750]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 4915200 bytes of REAL VRAM -- phys 0x3fc09e00000 kva <ptr> [BAR1 174653440]
+[  168.832363]: NVRM-xnu: os_lock_user_pages(0x36bde4000, 2 pages) prepare -> 0x2
+[  168.832534]: NVRM-xnu: os_lock_user_pages(0x36b99b000, 2 pages) prepare -> 0x2
+[  170.218874]: NVRM-fb: cursor apply 12000: ok 1 rc 0 at 1622,606 visible 1
+[  170.449640]: NVAccel: newResource -> <ptr>
+[  170.449646]: NVAccel: newSysMemory -> <ptr>
+[  170.449650]: NVAccel: newVidMemory -> <ptr>
+[  170.449651]: NVAccel: newVidMemory -> <ptr>
+[  170.449791]: NVRM-xnu: >os_map_kernel_space start=0x3fc062d0000 size=0x10000 mode=2
+[  170.449834]: NVRM-xnu:   mapped -> 0x<ptr> (slot 40, high water 69/8192)
+[  170.449854]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc062d0000 kva <ptr> [BAR1 137166848]
+[  170.449855]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc062d0000 kva <ptr> [BAR1 137166848]
+[  170.522623]: NVAccel: newResource -> <ptr>
+[  170.522629]: NVAccel: newResource -> <ptr>
+[  170.522635]: NVAccel: newSysMemory -> <ptr>
+[  170.522636]: NVAccel: newSysMemory -> <ptr>
+[  170.522640]: NVAccel: newVidMemory -> <ptr>
+[  170.522641]: NVAccel: newVidMemory -> <ptr>
+[  170.522748]: NVRM-xnu: >os_map_kernel_space start=0x3fc08600000 size=0x360000 mode=2
+[  170.522826]: NVRM-xnu:   mapped -> 0x<ptr> (slot 46, high water 69/8192)
+[  170.523343]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3538944 bytes of REAL VRAM -- phys 0x3fc08600000 kva <ptr> [BAR1 140705792]
+[  170.523345]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3538944 bytes of REAL VRAM -- phys 0x3fc08600000 kva <ptr> [BAR1 140705792]
+[  172.145857]: NVRM-fb: cursor apply 13000: ok 1 rc 0 at 776,34 visible 1
+[  173.173856]: NVAccel: newResource -> <ptr>
+[  173.173869]: NVAccel: newResource -> <ptr>
+[  173.173881]: NVAccel: newSysMemory -> <ptr>
+[  173.173883]: NVAccel: newSysMemory -> <ptr>
+[  173.173892]: NVAccel: newVidMemory -> <ptr>
+[  173.173894]: NVAccel: newVidMemory -> <ptr>
+[  173.174230]: NVRM-xnu: >os_map_kernel_space start=0x3fc085f0000 size=0x1f0000 mode=2
+[  173.174371]: NVRM-xnu:   mapped -> 0x<ptr> (slot 46, high water 69/8192)
+[  173.175104]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2031616 bytes of REAL VRAM -- phys 0x3fc085f0000 kva <ptr> [BAR1 139198464]
+[  173.175110]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2031616 bytes of REAL VRAM -- phys 0x3fc085f0000 kva <ptr> [BAR1 139198464]
+[  173.184754]: NVRM-xnu: os_lock_user_pages(0x36b9ad000, 2 pages) prepare -> 0x2
+[  173.186508]: NVAccel: newResource -> <ptr>
+[  173.186513]: NVAccel: newResource -> <ptr>
+[  173.186519]: NVAccel: newSysMemory -> <ptr>
+[  173.186520]: NVAccel: newSysMemory -> <ptr>
+[  173.186524]: NVAccel: newVidMemory -> <ptr>
+[  173.186620]: NVRM-xnu: >os_map_kernel_space start=0x3fc087e0000 size=0x1f0000 mode=2
+[  173.186673]: NVRM-xnu:   mapped -> 0x<ptr> (slot 53, high water 69/8192)
+[  173.187116]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2031616 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 141230080]
+[  173.187118]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2031616 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 141230080]
+[  173.198993]: NVAccel: newResource -> <ptr>
+[  173.199001]: NVAccel: newResource -> <ptr>
+[  173.199010]: NVAccel: newSysMemory -> <ptr>
+[  173.199011]: NVAccel: newSysMemory -> <ptr>
+[  173.199017]: NVAccel: newVidMemory -> <ptr>
+[  173.199018]: NVAccel: newVidMemory -> <ptr>
+[  173.199265]: NVRM-xnu: >os_map_kernel_space start=0x3fc089d0000 size=0x1f0000 mode=2
+[  173.199352]: NVRM-xnu:   mapped -> 0x<ptr> (slot 60, high water 69/8192)
+[  173.199810]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2031616 bytes of REAL VRAM -- phys 0x3fc089d0000 kva <ptr> [BAR1 143261696]
+[  173.199813]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 2031616 bytes of REAL VRAM -- phys 0x3fc089d0000 kva <ptr> [BAR1 143261696]
+[  173.338144]: NVAccel: newResource -> <ptr>
+[  173.338151]: NVAccel: newResource -> <ptr>
+[  173.338159]: NVAccel: newSysMemory -> <ptr>
+[  173.338161]: NVAccel: newSysMemory -> <ptr>
+[  173.338166]: NVAccel: newVidMemory -> <ptr>
+[  173.338167]: NVAccel: newVidMemory -> <ptr>
+[  173.338337]: NVRM-xnu: >os_map_kernel_space start=0x3fc08bc0000 size=0x1c0000 mode=2
+[  173.338405]: NVRM-xnu:   mapped -> 0x<ptr> (slot 49, high water 69/8192)
+[  173.338776]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1835008 bytes of REAL VRAM -- phys 0x3fc08bc0000 kva <ptr> [BAR1 143065088]
+[  173.338779]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1835008 bytes of REAL VRAM -- phys 0x3fc08bc0000 kva <ptr> [BAR1 143065088]
+[  173.374376]: NVAccel: newResource -> <ptr>
+[  173.374382]: NVAccel: newResource -> <ptr>
+[  173.374388]: NVAccel: newSysMemory -> <ptr>
+[  173.374389]: NVAccel: newSysMemory -> <ptr>
+[  173.374394]: NVAccel: newVidMemory -> <ptr>
+[  173.374518]: NVRM-xnu: >os_map_kernel_space start=0x3fc087e0000 size=0x1c0000 mode=2
+[  173.374567]: NVRM-xnu:   mapped -> 0x<ptr> (slot 53, high water 69/8192)
+[  173.374846]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1835008 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 142868480]
+[  173.374850]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1835008 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 142868480]
+[  173.458058]: NVAccel: newResource -> <ptr>
+[  173.458066]: NVAccel: newResource -> <ptr>
+[  173.458073]: NVAccel: newSysMemory -> <ptr>
+[  173.458074]: NVAccel: newSysMemory -> <ptr>
+[  173.458079]: NVAccel: newVidMemory -> <ptr>
+[  173.458080]: NVAccel: newVidMemory -> <ptr>
+[  173.458148]: NVRM-xnu: >os_map_kernel_space start=0x3fc08bc0000 size=0x160000 mode=2
+[  173.458183]: NVRM-xnu:   mapped -> 0x<ptr> (slot 49, high water 69/8192)
+[  173.458402]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1441792 bytes of REAL VRAM -- phys 0x3fc08bc0000 kva <ptr> [BAR1 142475264]
+[  173.458404]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1441792 bytes of REAL VRAM -- phys 0x3fc08bc0000 kva <ptr> [BAR1 142475264]
+[  173.526056]: NVAccel: newResource -> <ptr>
+[  173.526063]: NVAccel: newResource -> <ptr>
+[  173.526071]: NVAccel: newSysMemory -> <ptr>
+[  173.526072]: NVAccel: newSysMemory -> <ptr>
+[  173.526076]: NVAccel: newVidMemory -> <ptr>
+[  173.526077]: NVAccel: newVidMemory -> <ptr>
+[  173.526171]: NVRM-xnu: >os_map_kernel_space start=0x3fc087e0000 size=0x150000 mode=2
+[  173.526224]: NVRM-xnu:   mapped -> 0x<ptr> (slot 53, high water 69/8192)
+[  173.526482]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1376256 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 142016512]
+[  173.526484]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1376256 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 142016512]
+[  173.567911]: NVAccel: newResource -> <ptr>
+[  173.567919]: NVAccel: newResource -> <ptr>
+[  173.567929]: NVAccel: newSysMemory -> <ptr>
+[  173.567930]: NVAccel: newSysMemory -> <ptr>
+[  173.567935]: NVAccel: newVidMemory -> <ptr>
+[  173.567936]: NVAccel: newVidMemory -> <ptr>
+[  173.568221]: NVRM-xnu: >os_map_kernel_space start=0x3fc08930000 size=0x150000 mode=2
+[  173.568348]: NVRM-xnu:   mapped -> 0x<ptr> (slot 60, high water 69/8192)
+[  173.568893]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1376256 bytes of REAL VRAM -- phys 0x3fc08930000 kva <ptr> [BAR1 141361152]
+[  173.568900]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1376256 bytes of REAL VRAM -- phys 0x3fc08930000 kva <ptr> [BAR1 141361152]
+[  173.609027]: NVAccel: newResource -> <ptr>
+[  173.609034]: NVAccel: newResource -> <ptr>
+[  173.609040]: NVAccel: newSysMemory -> <ptr>
+[  173.609041]: NVAccel: newSysMemory -> <ptr>
+[  173.609045]: NVAccel: newVidMemory -> <ptr>
+[  173.609046]: NVAccel: newVidMemory -> <ptr>
+[  173.609140]: NVRM-xnu: >os_map_kernel_space start=0x3fc087e0000 size=0x140000 mode=2
+[  173.609187]: NVRM-xnu:   mapped -> 0x<ptr> (slot 53, high water 69/8192)
+[  173.609364]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1310720 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 141295616]
+[  173.609365]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1310720 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 141295616]
+[  173.640650]: NVAccel: newResource -> <ptr>
+[  173.640658]: NVAccel: newResource -> <ptr>
+[  173.640666]: NVAccel: newSysMemory -> <ptr>
+[  173.640667]: NVAccel: newSysMemory -> <ptr>
+[  173.640673]: NVAccel: newVidMemory -> <ptr>
+[  173.640674]: NVAccel: newVidMemory -> <ptr>
+[  173.640777]: NVRM-xnu: >os_map_kernel_space start=0x3fc08a80000 size=0x130000 mode=2
+[  173.640837]: NVRM-xnu:   mapped -> 0x<ptr> (slot 49, high water 69/8192)
+[  173.641103]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1245184 bytes of REAL VRAM -- phys 0x3fc08a80000 kva <ptr> [BAR1 141099008]
+[  173.641106]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1245184 bytes of REAL VRAM -- phys 0x3fc08a80000 kva <ptr> [BAR1 141099008]
+[  173.652188]: NVAccel: newResource -> <ptr>
+[  173.652194]: NVAccel: newResource -> <ptr>
+[  173.652200]: NVAccel: newSysMemory -> <ptr>
+[  173.652201]: NVAccel: newSysMemory -> <ptr>
+[  173.652204]: NVAccel: newVidMemory -> <ptr>
+[  173.652205]: NVAccel: newVidMemory -> <ptr>
+[  173.652272]: NVRM-xnu: >os_map_kernel_space start=0x3fc087e0000 size=0x130000 mode=2
+[  173.652311]: NVRM-xnu:   mapped -> 0x<ptr> (slot 53, high water 69/8192)
+[  173.652481]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1245184 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 141033472]
+[  173.652483]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1245184 bytes of REAL VRAM -- phys 0x3fc087e0000 kva <ptr> [BAR1 141033472]
+[  173.694178]: NVAccel: newResource -> <ptr>
+[  173.694184]: NVAccel: newResource -> <ptr>
+[  173.694191]: NVAccel: newSysMemory -> <ptr>
+[  173.694197]: NVAccel: newVidMemory -> <ptr>
+[  173.694367]: NVRM-xnu: >os_map_kernel_space start=0x3fc062e0000 size=0xf0000 mode=2
+[  173.694416]: NVRM-xnu:   mapped -> 0x<ptr> (slot 46, high water 69/8192)
+[  173.694600]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 983040 bytes of REAL VRAM -- phys 0x3fc062e0000 kva <ptr> [BAR1 139984896]
+[  173.694602]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 983040 bytes of REAL VRAM -- phys 0x3fc062e0000 kva <ptr> [BAR1 139984896]
+[  173.717061]: NVAccel: newResource -> <ptr>
+[  173.717067]: NVAccel: newResource -> <ptr>
+[  173.717073]: NVAccel: newSysMemory -> <ptr>
+[  173.717074]: NVAccel: newSysMemory -> <ptr>
+[  173.717077]: NVAccel: newVidMemory -> <ptr>
+[  173.717078]: NVAccel: newVidMemory -> <ptr>
+[  173.717163]: NVRM-xnu: >os_map_kernel_space start=0x3fc08470000 size=0xf0000 mode=2
+[  173.717203]: NVRM-xnu:   mapped -> 0x<ptr> (slot 60, high water 69/8192)
+[  173.717340]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 983040 bytes of REAL VRAM -- phys 0x3fc08470000 kva <ptr> [BAR1 139591680]
+[  173.717342]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 983040 bytes of REAL VRAM -- phys 0x3fc08470000 kva <ptr> [BAR1 139591680]
+[  173.741760]: NVAccel: newResource -> <ptr>
+[  173.741767]: NVAccel: newResource -> <ptr>
+[  173.741773]: NVAccel: newSysMemory -> <ptr>
+[  173.741774]: NVAccel: newSysMemory -> <ptr>
+[  173.741779]: NVAccel: newVidMemory -> <ptr>
+[  173.741780]: NVAccel: newVidMemory -> <ptr>
+[  173.741883]: NVRM-xnu: >os_map_kernel_space start=0x3fc062e0000 size=0xf0000 mode=2
+[  173.741949]: NVRM-xnu:   mapped -> 0x<ptr> (slot 46, high water 69/8192)
+[  173.742193]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 983040 bytes of REAL VRAM -- phys 0x3fc062e0000 kva <ptr> [BAR1 139591680]
+[  173.742197]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 983040 bytes of REAL VRAM -- phys 0x3fc062e0000 kva <ptr> [BAR1 139591680]
+[  175.566989]: NVRM-fb: cursor apply 14000: ok 1 rc 0 at 1432,562 visible 1
+[  175.566996]: NVRM-fb: cursor apply 14000: ok 1 rc 0 at 1432,562 visible 1
+[  176.075055]: NVAccel: newResource -> <ptr>
+[  176.075059]: NVAccel: newResource -> <ptr>
+[  176.075065]: NVAccel: newSysMemory -> <ptr>
+[  176.075066]: NVAccel: newSysMemory -> <ptr>
+[  176.075070]: NVAccel: newVidMemory -> <ptr>
+[  176.075145]: NVRM-xnu: >os_map_kernel_space start=0x3fc08c00000 size=0x5a0000 mode=2
+[  176.075244]: NVRM-xnu:   mapped -> 0x<ptr> (slot 60, high water 69/8192)
+[  176.076490]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 5898240 bytes of REAL VRAM -- phys 0x3fc08c00000 kva <ptr> [BAR1 144506880]
+[  176.076493]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 5898240 bytes of REAL VRAM -- phys 0x3fc08c00000 kva <ptr> [BAR1 144506880]
+[  182.968625]: NVAccel: newResource -> <ptr>
+[  182.968633]: NVAccel: newSysMemory -> <ptr>
+[  182.968634]: NVAccel: newSysMemory -> <ptr>
+[  182.968638]: NVAccel: newVidMemory -> <ptr>
+[  182.968639]: NVAccel: newVidMemory -> <ptr>
+[  182.968805]: NVRM-xnu: >os_map_kernel_space start=0x3fc06600000 size=0x660000 mode=2
+[  182.968916]: NVRM-xnu:   mapped -> 0x<ptr> (slot 35, high water 69/8192)
+[  182.970411]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6684672 bytes of REAL VRAM -- phys 0x3fc06600000 kva <ptr> [BAR1 138674176]
+[  182.970414]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6684672 bytes of REAL VRAM -- phys 0x3fc06600000 kva <ptr> [BAR1 138674176]
+[  186.444136]: NVRM-xnu: os_lock_user_pages(0x36b87d000, 2 pages) prepare -> 0x2
+[  191.577837]: NVRM-fb: cursor apply 15000: ok 1 rc 0 at 202,82 visible 1

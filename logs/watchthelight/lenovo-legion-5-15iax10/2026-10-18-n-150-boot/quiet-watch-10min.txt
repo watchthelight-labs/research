@@ -1,0 +1,20 @@
+10:20:06
+"MtkNativeVersion" = "0.4.9"
+"MtkNativeJoin" = "requests 1 ok 1 failed 0 leaves 0 linkdowns 0 linkup 1 beaconreports 0"
+== after 10 min
+10:30:06
+"MtkNativeJoin" = "requests 1 ok 1 failed 0 leaves 0 linkdowns 0 linkup 1 beaconreports 0"
+S:25c=1 P:d8=1 P:af=581 P:27=581 
+	inet IP-185 netmask 0xffff0000 broadcast IP-5
+default            IP-6        UGScg                 en1       
+captive probe http 200
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+
+[exited with code 0]

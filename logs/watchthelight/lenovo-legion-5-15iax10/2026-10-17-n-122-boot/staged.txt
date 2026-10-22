@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 9a5c635, sha 5aae55b3c4be: COMP (full record) for screen draws in the Dock band (screen y > 1400) sampling textures <= 64 px of any format, budget 120; readback composites within 400 ms of a flagged pass; passes into A8 targets <= 128 px flagged and read back (1 B/px); conf unchanged

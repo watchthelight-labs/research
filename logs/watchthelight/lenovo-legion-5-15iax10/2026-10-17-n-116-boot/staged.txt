@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 f6333f1, sha 3d0034576174: N-115 probe + budgets restart per arming; conf unchanged (fetch on, WSTRACE armed). N-115's capture logged nothing for the badge because the killed first run had left wstrace.on raised from 18:31 and every budget was spent before the badge appeared at 18:34.

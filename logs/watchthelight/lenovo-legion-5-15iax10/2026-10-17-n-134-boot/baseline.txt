@@ -1,0 +1,8 @@
+# N-133 baseline (2.3.5-nvgfx.3), 1680x1050 HiDPI unless noted, drag = drag2 (218 events/s)
+finder drag hidpi: 34-36 flips/s; native 2560x1600: 39; still window: 45; CA animation (no drag): 165
+A/B sysctls: surface_gpu_on=0 34, iop_async=0 35, nvrmfb_flip_latch=0 40
+CVDisplayLink 165.2/s period 6.061 ms
+cblat: empty 0.02 ms, blit 256 0.06 ms median, blit 2560x1600 0.09 ms
+sched2 (installed .3): B scheduled after A completes (65-78 ms) in 5/6 rounds
+sched3 (.4 plugin in-process): B scheduled after 0.07-1.3 ms; NVMTL_COMMIT_AHEAD=0 restores the old behaviour
+order: 0/400 wrong in both parts, 3 runs patched + off + release; a8rt2: 17 ok / 12 known mismatches, same as release

@@ -1,0 +1,19 @@
+before drag:
+debug.nvgfx_present_latched: 94
+debug.nvgfx_dirty_ref_type: 0
+debug.nvgfx_dirty_ref_flag: 9
+debug.nvgfx_dirty_ref_valid: 0
+debug.nvgfx_dirty_ref_pend: 0
+debug.nvgfx_dirty_ref_nores: 234
+debug.nvgfx_dirty_ref_flag_last: 136413572
+debug.nvgfx_dirty_ok_flag_last: 3146116
+after 15 s drag:
+debug.nvgfx_present_latched: 1421
+debug.nvgfx_dirty_ref_type: 0
+debug.nvgfx_dirty_ref_flag: 9
+debug.nvgfx_dirty_ref_valid: 0
+debug.nvgfx_dirty_ref_pend: 0
+debug.nvgfx_dirty_ref_nores: 2881
+debug.nvgfx_dirty_ref_flag_last: 136413572
+debug.nvgfx_dirty_ok_flag_last: 3146116
+flag_last=0x8218184 ok_last=0x300184

@@ -1,0 +1,11 @@
+interface: en1
+address after 5s: 100.x.x.x
+en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether REDACTED-MAC
+	inet6 fe80::REDACTED%en1 prefixlen 64 secured scopeid 0x5 
+	inet 100.x.x.x netmask 0xffff0000 broadcast 100.x.x.x
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type> (autoselect)
+	status: active
+router: 100.x.x.x

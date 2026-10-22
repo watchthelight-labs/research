@@ -1,0 +1,62 @@
+[  300.042496]: NVRM-fb: cursor apply 28000: ok 1 rc 0 at 1680,414 visible 1
+[  300.042503]: NVRM-fb: cursor apply 28000: ok 1 rc 0 at 1680,414 visible 1
+[  300.234189]: NVRM-fb: present stats head 0: 420 flips in 10005 ms (42/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6325 us
+[  300.234194]: NVRM-fb: present stats head 0: 420 flips in 10005 ms (42/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6325 us
+[  300.737270]: NVRM-fb: flipToMemory #4200 -> ok 1 rc 0 (surface <ptr> memory <ptr>)
+[  300.737277]: NVRM-fb: flipToMemory #4200 -> ok 1 rc 0 (surface <ptr> memory <ptr>)
+[  301.945427]: NVAccel: surfvram: surface 32 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x10032 status 0 (ok 8192, refused 0)
+[  301.945433]: NVAccel: surfvram: surface 32 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x10032 status 0 (ok 8192, refused 0)
+[  303.374410]: NVAccel: surfvram dirty: surface 6 plane 0 type 0xc0 -> 0 (dirty 28672, refused 0)
+[  303.374417]: NVAccel: surfvram dirty: surface 6 plane 0 type 0xc0 -> 0 (dirty 28672, refused 0)
+[  306.026512]: NVRM-fb: cursor apply 29000: ok 1 rc 0 at 1424,414 visible 1
+[  306.026522]: NVRM-fb: cursor apply 29000: ok 1 rc 0 at 1424,414 visible 1
+[  306.583597]: NVAccel: surfvram: surface 32 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x10032 status 0 (ok 9216, refused 0)
+[  306.583606]: NVAccel: surfvram: surface 32 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x10032 status 0 (ok 9216, refused 0)
+[  309.628047]: NVRM-fb: flipToMemory #4800 -> ok 1 rc 0 (surface <ptr> memory <ptr>)
+[  309.628055]: NVRM-fb: flipToMemory #4800 -> ok 1 rc 0 (surface <ptr> memory <ptr>)
+[  310.264467]: NVRM-fb: present stats head 0: 687 flips in 10012 ms (69/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 7235 us
+[  310.264476]: NVRM-fb: present stats head 0: 687 flips in 10012 ms (69/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 7235 us
+[  310.509053]: NVAccel: surfvram: surface 32 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x10032 status 0 (ok 10240, refused 0)
+[  310.509062]: NVAccel: surfvram: surface 32 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x10032 status 0 (ok 10240, refused 0)
+[  311.083749]: NVRM-fb: cursor apply 30000: ok 1 rc 0 at 1392,414 visible 1
+[  311.083757]: NVRM-fb: cursor apply 30000: ok 1 rc 0 at 1392,414 visible 1
+[  311.438896]: NVAccel: surfvram dirty: surface 6 plane 0 type 0xc0 -> 0 (dirty 32768, refused 0)
+[  311.438904]: NVAccel: surfvram dirty: surface 6 plane 0 type 0xc0 -> 0 (dirty 32768, refused 0)
+[  320.391717]: NVRM-fb: present stats head 0: 271 flips in 10078 ms (27/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6395 us
+[  320.391725]: NVRM-fb: present stats head 0: 271 flips in 10078 ms (27/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6395 us
+[  322.151344]: NVAccel: surfvram: surface 14 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (16384000 B) -> client 0xc1d0000d mem 0x1001d status 0 (ok 11264, refused 0)
+[  322.151353]: NVAccel: surfvram: surface 14 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (16384000 B) -> client 0xc1d0000d mem 0x1001d status 0 (ok 11264, refused 0)
+[  323.367648]: NVAccel: newResource -> <ptr>
+[  323.367656]: NVAccel: newResource -> <ptr>
+[  323.367663]: NVAccel: newSysMemory -> <ptr>
+[  323.367664]: NVAccel: newSysMemory -> <ptr>
+[  323.367670]: NVAccel: newVidMemory -> <ptr>
+[  323.367671]: NVAccel: newVidMemory -> <ptr>
+[  323.368938]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 4784128 bytes of REAL VRAM -- phys 0x3fc14000000 kva <ptr> [BAR1 227016704]
+[  323.368941]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 4784128 bytes of REAL VRAM -- phys 0x3fc14000000 kva <ptr> [BAR1 227016704]
+[  323.410567]: NVAccel: newResource -> <ptr>
+[  323.410571]: NVAccel: newResource -> <ptr>
+[  323.410576]: NVAccel: newSysMemory -> <ptr>
+[  323.410577]: NVAccel: newSysMemory -> <ptr>
+[  323.410581]: NVAccel: newVidMemory -> <ptr>
+[  323.410581]: NVAccel: newVidMemory -> <ptr>
+[  323.411633]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6422528 bytes of REAL VRAM -- phys 0x3fc14000000 kva <ptr> [BAR1 228655104]
+[  323.411634]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6422528 bytes of REAL VRAM -- phys 0x3fc14000000 kva <ptr> [BAR1 228655104]
+[  325.151868]: NVRM-fb: cursor apply 31000: ok 1 rc 0 at 1908,414 visible 1
+[  325.151874]: NVRM-fb: cursor apply 31000: ok 1 rc 0 at 1908,414 visible 1
+[  325.161265]: NVRM-fb: flipToMemory #5400 -> ok 1 rc 0 (surface <ptr> memory <ptr>)
+[  325.161271]: NVRM-fb: flipToMemory #5400 -> ok 1 rc 0 (surface <ptr> memory <ptr>)
+[  326.012551]: NVAccel: surfvram: surface 14 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (16384000 B) -> client 0xc1d0000d mem 0x1001d status 0 (ok 12288, refused 0)
+[  326.012560]: NVAccel: surfvram: surface 14 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (16384000 B) -> client 0xc1d0000d mem 0x1001d status 0 (ok 12288, refused 0)
+[  326.333092]: NVAccel: surfvram dirty: surface 1 plane 0 type 0xc0 -> 0 (dirty 36864, refused 0)
+[  326.333097]: NVAccel: surfvram dirty: surface 1 plane 0 type 0xc0 -> 0 (dirty 36864, refused 0)
+[  329.875461]: NVAccel: newResource -> <ptr>
+[  329.875468]: NVAccel: newResource -> <ptr>
+[  329.875475]: NVAccel: newSysMemory -> <ptr>
+[  329.875475]: NVAccel: newSysMemory -> <ptr>
+[  329.875480]: NVAccel: newVidMemory -> <ptr>
+[  329.875480]: NVAccel: newVidMemory -> <ptr>
+[  329.875688]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 393216 bytes of REAL VRAM -- phys 0x3fc086b0000 kva <ptr> [BAR1 222625792]
+[  329.875690]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 393216 bytes of REAL VRAM -- phys 0x3fc086b0000 kva <ptr> [BAR1 222625792]
+[  329.881069]: process_is_plugin_host: running binary "sudo" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validationNVAccel: surfvram: surface 33 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x10033 status 0 (ok 13312, refused 0)
+[  329.892762]: NVAccel: surfvram: surface 33 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (589824 B) -> client 0xc1d0000d mem 0x10033 status 0 (ok 13312, refused 0)

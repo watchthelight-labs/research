@@ -1,0 +1,113 @@
+00000000-00000fff : Reserved
+00001000-0009efff : System RAM
+0009f000-000fffff : Reserved
+  000a0000-000bffff : PCI Bus 0000:00
+  000f0000-000fffff : System ROM
+00100000-51ccafff : System RAM
+51ccb000-51eabfff : Reserved
+51eac000-550b1fff : System RAM
+550b2000-550b2fff : Reserved
+550b3000-59f8afff : System RAM
+59f8b000-5a88afff : Reserved
+5a88b000-5c6befff : System RAM
+5c6bf000-5e6befff : Reserved
+5e6bf000-63ebefff : ACPI Non-volatile Storage
+  63db2000-63db2fff : USBC000:00
+63ebf000-63ffefff : ACPI Tables
+63fff000-63ffffff : System RAM
+64000000-787fffff : Reserved
+80000000-b7ffffff : PCI Bus 0000:00
+  80000000-840fffff : PCI Bus 0000:02
+    80000000-83ffffff : 0000:02:00.0
+    84000000-8407ffff : 0000:02:00.0
+    84080000-84083fff : 0000:02:00.1
+      84080000-84083fff : ICH HD audio
+  84100000-841fffff : PCI Bus 0000:01
+    84100000-84103fff : 0000:01:00.0
+      84100000-84103fff : nvme
+  84200000-84200fff : 0000:00:1f.5
+  84280000-84283fff : 0000:00:14.0
+  86000000-8bffffff : PCI Bus 0000:04
+b8000000-bdffffff : PCI Bus 0000:80
+  b8000000-b82fffff : PCI Bus 0000:82
+    b8000000-b81fffff : 0000:82:00.0
+    b8200000-b8207fff : 0000:82:00.0
+  b8300000-b83fffff : PCI Bus 0000:81
+    b8300000-b8303fff : 0000:81:00.0
+    b8304000-b8304fff : 0000:81:00.0
+  b8400000-b8400fff : 0000:80:1f.5
+c0000000-cfffffff : PCI ECAM 0000 [bus 00-ff]
+e0d10000-e0d1ffff : INTC1082:00
+  e0d10000-e0d1ffff : INTC1082:00 INTC1082:00
+e0d20000-e0d2ffff : INTC1082:00
+  e0d20000-e0d2ffff : INTC1082:00 INTC1082:00
+e0d30000-e0d3ffff : INTC1082:00
+  e0d30000-e0d3ffff : INTC1082:00 INTC1082:00
+fc800000-fc80ffff : dmar0
+fc810000-fc81ffff : dmar1
+fe010000-fe010fff : Reserved
+fec00000-fec003ff : IOAPIC 0
+fed00000-fed003ff : HPET 0
+  fed00000-fed003ff : PNP0103:00
+fed20000-fed7ffff : Reserved
+  fed40000-fed44fff : INTC7001:00
+    fed40000-fed44fff : INTC7001:00
+100000000-87fffffff : System RAM
+  738000000-7390090ef : Kernel code
+  739200000-739d1ffff : Kernel rodata
+  739e00000-73a00febf : Kernel data
+  73a852000-73abfffff : Kernel bss
+4000000000-5fdfffffff : PCI Bus 0000:80
+  4000000000-40001fffff : 0000:80:1f.3
+  4000200000-400020ffff : SERIAL-6
+    4000200000-400020ffff : xhci-hcd
+  4000210000-4000213fff : 0000:80:1f.3
+    4000210000-4000213fff : ICH HD audio
+  4000214000-40002140ff : 0000:80:1f.4
+    4000214000-40002140ff : i801_smbus
+  4000215000-4000215fff : 0000:80:15.0
+    4000215000-40002151ff : lpss_dev
+      4000215000-40002151ff : i2c_designware.0 lpss_dev
+    4000215200-40002152ff : lpss_priv
+    4000215800-4000215fff : idma64.0
+      4000215800-4000215fff : idma64.0 idma64.0
+  4000216000-4000216fff : 0000:80:15.1
+    4000216000-40002161ff : lpss_dev
+      4000216000-40002161ff : i2c_designware.1 lpss_dev
+    4000216200-40002162ff : lpss_priv
+    4000216800-4000216fff : idma64.1
+      4000216800-4000216fff : idma64.1 idma64.1
+  4000217000-4000217fff : 0000:80:16.0
+    4000217000-4000217fff : mei_me
+  4000218000-4000218fff : 0000:80:19.0
+    4000218000-40002181ff : lpss_dev
+      4000218000-40002181ff : i2c_designware.2 lpss_dev
+    4000218200-40002182ff : lpss_priv
+  4000219000-4000219fff : 0000:80:19.1
+    4000219000-40002191ff : lpss_dev
+      4000219000-40002191ff : i2c_designware.3 lpss_dev
+    4000219200-40002192ff : lpss_priv
+5ff0690000-5ff069ffff : INTC1084:00
+5ff06a0000-5ff06affff : INTC1084:00
+5ff06b0000-5ff06bffff : INTC1084:00
+5ff06d0000-5ff06dffff : INTC1084:00
+5ff06e0000-5ff06effff : INTC1084:00
+6000000000-3ffbfffffff : PCI Bus 0000:00
+  6000000000-6201ffffff : PCI Bus 0000:02
+    6000000000-61ffffffff : 0000:02:00.0
+    6200000000-6201ffffff : 0000:02:00.0
+  6202000000-6202ffffff : 0000:00:02.0
+  6203000000-620303ffff : 0000:00:0d.2
+    6203000000-620303ffff : thunderbolt
+  6203040000-620307ffff : 0000:00:0a.0
+  6203080000-620309ffff : 0000:00:04.0
+    6203080000-620309ffff : proc_thermal
+  62030a0000-62030affff : SERIAL-5
+    62030a0000-62030affff : xhci-hcd
+  62030b0000-62030b0fff : 0000:00:14.0
+  62030b1000-62030b1fff : 0000:00:0d.2
+  62030b2000-62030b2fff : 0000:00:0b.0
+  6208000000-620fffffff : 0000:00:0b.0
+  6210000000-621fffffff : 0000:00:02.0
+  6220000000-6a1fffffff : PCI Bus 0000:04
+  6a20000000-6a26ffffff : 0000:00:02.0

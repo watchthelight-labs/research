@@ -1,0 +1,13 @@
+{
+ "attempt": "N-142",
+ "stage": "D",
+ "iface": "en1",
+ "boot_args": "mtkfe=native mtknativeif=1",
+ "ssid": "SSID-1",
+ "auto_reboots": 0,
+ "repo_head": "3acecd53",
+ "staged_at": "2026-10-18 01:57:53 EDT",
+ "started_boot": 1792303119,
+ "result": "pass",
+ "reason": "lease IP-185, gateway IP-6 answers"
+}

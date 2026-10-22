@@ -1,0 +1,3 @@
+depth2 drag 10 s: 586 latched, 58 fps, avg latch 3085 us, dropped 0, timeouts 0
+depth1 drag 10 s: 63 flips/s, avg_flip_us 3347
+VBL to IOFramebuffer: 165/s, hop max 631 us

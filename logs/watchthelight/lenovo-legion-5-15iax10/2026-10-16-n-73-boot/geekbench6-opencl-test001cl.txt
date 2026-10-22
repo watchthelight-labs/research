@@ -1,0 +1,15 @@
+# Geekbench 6.7.1 OpenCL on macOS, Bash's "Test 001CL", N-73 boot at 115 W (runtime TGP mode).
+# Device: NVIDIA GeForce RTX 5070 Laptop GPU (Apple OpenCL over Metal over NvGfx: NVMTL over NVK GB206-A).
+# Windows column: estimated from the Windows-session ratios (note ce7db54f: macOS Metal 006 / Windows OpenCL 158,465).
+                    macOS CL   macOS Metal 007   Windows CL (est.)   CL vs Windows
+OpenCL Score           27304        102689            158465             17 %
+Background Blur         4017         36390            ~81000              5 %
+Face Detection          4467         38543            ~55000              8 %
+Horizon Detection     124933        140397           ~161000             78 %
+Edge Detection        149489        169852           ~177000             84 %
+Gaussian Blur         129029         89705           ~215000             60 %
+Feature Matching        2023         27370            ~41000              5 %
+Stereo Matching       156674        514208           ~744000             21 %
+Particle Physics       22536        292828           ~490000              5 %
+Reading: four OpenCL kernels run 10-20x slower than their Metal versions (a pathological path in the CL -> Metal
+-> NvGfx chain, not power); Gaussian Blur is faster in CL than in Metal, so Metal's texture-sampling path is slow.

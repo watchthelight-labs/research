@@ -1,0 +1,27 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "00-info.txt": "f1ab55940c61f4bb82552be5f87b1bafbb40cdf3d44aad5aa8d9f718e59a343d",
+  "dmesg-nv-300.txt": "e2be1d57ecc766dbcb4b75058ded2bc10efd6b4ee88772e7c0996dcbf0cd0065",
+  "dmesg-nv-60.txt": "0ac2bce6c124d54483c5735f17ada53fcff305cd79b1e7919e3fa2b87fcf2242",
+  "ioreg-gfx0-300.txt": "83c95529c9ecf3f15f7587e5255452d973c30907cf3c65bbce26a98de9a4c675",
+  "ioreg-iofb-300.txt": "99757ec8b9275bfa470fb77de13bde4e9b6c99b8b0504aa6cf11dd320c777f11",
+  "ioreg-nvrm-300.txt": "180db172dac62cd5a2037d12a32c991c215a56c305be36e15dc5ec371721dad4",
+  "opencore-2026-10-16-042357.txt": "048398b80ff2a3fc364f0f5b6c26f5fb229fe3c1cdb0f90550fadd64ab08120b",
+  "sysctl-nv-300.txt": "dd18ccfd0d4216924b70f046961e1c34ed265bae79f02f6494b21e24834b45a2"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "24H32",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 191
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-51",
+ "username": "watchthelight"
+}

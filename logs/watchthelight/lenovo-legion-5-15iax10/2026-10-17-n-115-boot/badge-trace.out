@@ -1,0 +1,14 @@
+== plugin 3d013f7757cd; conf: 1 wstrace key(s)
+badge set 7
+trace ON 2026-10-17 18:34:17 (with alltex: full descriptors and small BGRA dumps)
+trace OFF 18:34:27
+       2 /Users/USER/Hackintosh/evidence/native/N-115/dock/c-trace-badge.txt
+OFFS draw            0
+SDF draw             0
+DISPATCH             0
+render pass target   0
+SURFTEX              0
+GETBYTES             0
+BLIT                 0
+-- offscreen draw shaders:
+-- dispatches:

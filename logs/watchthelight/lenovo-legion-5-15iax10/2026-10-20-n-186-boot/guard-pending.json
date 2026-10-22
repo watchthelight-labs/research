@@ -1,0 +1,16 @@
+{
+ "attempt": "N-186",
+ "label": "2.4.3-nvgfx.1: upstream 2.4.3 (#295 ONCE callbacks, PR 294) + boot hold fix + K1",
+ "recovery": "/Users/USER/src/NvGfx-build/pkg/2.3.7-nvgfx.1",
+ "timeout": 21600,
+ "auto_reboots": 0,
+ "repo_head": "60ab4f82",
+ "staged_plugin": "fb7983353d66",
+ "staged_boot": 1792494551,
+ "staged_at": "2026-10-20 10:23:29 EDT",
+ "tests": "boot",
+ "runs": 3,
+ "started_boot": 1792506256,
+ "result": "pass",
+ "reason": "confirmed by Bash (dialog 1792506256)"
+}

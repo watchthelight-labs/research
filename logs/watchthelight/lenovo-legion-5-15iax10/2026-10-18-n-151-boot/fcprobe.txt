@@ -1,0 +1,8 @@
+module 95532c14 entries: _ZN2RB6Shader15composite_colorENS0_11ShaderStateEDv4_DhS2_Dh _ZN2RB6Shader9compositeENS0_11ShaderStateEDv4_DhS2_Dv2_DhDh custom_effect_fragment
+  installed-2.3.5  rc=-1 spirv=0 bytes err="native emitter: unsupported Metal visible function reference; dynamic linked functions are not expressible in Logical SPIR-V"
+  release-2.3.6    rc=-1 spirv=0 bytes err="native emitter: visible function "custom_fn" is called on a live path but no linked function supplies it"
+  fork-2.3.6       rc=-1 spirv=0 bytes err="native emitter: visible function "custom_fn" is called on a live path but no linked function supplies it"
+module 9f162b25 entries: _ZN2RB6Shader12_GLOBAL__N_118primitive_distanceENS0_11ShaderStateEDv2_fS3_Dv4_f _ZN2RB6Shader13sample_customENS0_11ShaderStateEDv2_fS2_NS0_13CustomGlobalsEPFDv4_DhS2_S4_PU11MTLconstantKfPU9MTLdeviceKh
+  installed-2.3.5  rc=-1 spirv=0 bytes err="native emitter: unsupported Metal visible function reference; dynamic linked functions are not expressible in Logical SPIR-V"
+  release-2.3.6    rc=-1 spirv=0 bytes err="native emitter: unknown global value @custom_fn.MTL_UNRESOLVED_VISIBLE_FN"
+  fork-2.3.6       rc=-1 spirv=0 bytes err="native emitter: unknown global value @custom_fn.MTL_UNRESOLVED_VISIBLE_FN"

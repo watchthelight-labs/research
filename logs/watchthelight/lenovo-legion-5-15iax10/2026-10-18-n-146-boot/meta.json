@@ -1,0 +1,27 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "README.md": "682f011d973bf21947fe7f4d0b497aa6c0cde1eec5134d0b4c6f2d14d3f88099",
+  "airport-profile.txt": "ca1cfbb30068d8cff39123fdd635d4e5c03d2c5c240ccca54e5ccb68b2a505d2",
+  "configd-en1.txt": "e51dbd5ac07c9b89c36ba5991d478b82421cba8f7bcf8f8ef99629f8337d8a73",
+  "guard-log.txt": "9fa94d07794dcb4c9f7bb057866efd71401443c6121525dd7c5bb3836f2cef05",
+  "ifconfig.txt": "d428fdaa5c7bce47d19caeb489a2e61822738dfa9a245160104d471f692b429d",
+  "netstat-rn.txt": "9569bf3af38bcb49faecd102f1fe0a60eaf89e1009e72577806c5f34563da897",
+  "staged-builds.txt": "539494b6838c59cf30b7771f3b5644a4b7068657b7ea2d586ae44c70c640a33f"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 20,
+   "MAC": 5
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-146",
+ "username": "watchthelight"
+}

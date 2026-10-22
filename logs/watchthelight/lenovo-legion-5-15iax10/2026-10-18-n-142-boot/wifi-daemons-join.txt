@@ -1,0 +1,51 @@
+2026-10-18 02:00:30.500 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SET_SCAN_HOME_AWAY_TIME> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:30.519 Df airportd[226:7bd] [com.apple.WiFiManager:] Assoc: <airport[226]> Router info doesn't match, assignning colocated scope id (UUID-348)
+2026-10-18 02:00:30.520 Df airportd[226:7bd] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Did update device key (<redacted>)
+2026-10-18 02:00:30.520 Df airportd[226:7bd] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Did update rotation key (<redacted>) (interval=86400s)
+2026-10-18 02:00:30.520 Df airportd[226:7bd] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Did update rotation key timestamp (interval=86400s)
+2026-10-18 02:00:30.521 Df airportd[226:7bd] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Successfully created private MAC (<redacted>) for network (<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[(null) 
+2026-10-18 02:00:30.521 Df airportd[226:7bd] [com.apple.WiFiManager:] Assoc: <airport[226]> Will use private MAC address for association (mac=MAC-53, macData=b2e1ac72bcaf, network=<redacted> - ssid=<redacted> (3167544656), securi
+2026-10-18 02:00:30.521 Df airportd[226:7bd] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Successfully set networkID (<redacted>) for association (<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[(null) ((
+2026-10-18 02:00:30.521 Df airportd[226:7e2] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Forgetting IP configuration for updated networkID for network (<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[(nu
+2026-10-18 02:00:30.522 Df airportd[226:7bd] [com.apple.WiFiManager:] Assoc: <airport[226]> Will associate to [ssid=<redacted>, bssid=(null), channel=(channel=108, width=20), ibss=no, cc=(null), rssi=-53, rsn=(null), wpa=(null), wep=no], ha
+2026-10-18 02:00:30.524 Df airportd[226:7d7] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Updated join status (uuid=613A4, intf=en1, ssid='<redacted>' (<redacted>), error=0, eap=[sup=0 mode=0 state=0 client=0], start=2026-10-18 02:00:30.5
+2026-10-18 02:00:30.533 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:30.564 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_SET_MAC_ADDRESS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:30.564 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_EXTENDED_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_LINK_STATE_UPDATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_UPDATE_FAST_LANE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_FW_HOT_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_QOS_PARAMS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_LINK_STATE_UPDATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:35.962 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_BSS_BLACKLIST> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 02:00:35.963 Df airportd[226:7d7] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Updated join status (uuid=613A4, intf=en1, ssid='<redacted>' (<redacted>), error=0, eap=[sup=0 mode=0 state=0 client=0], start=2026-10-18 02:00:30.5
+2026-10-18 02:00:35.963 Df airportd[226:ded] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Updated join status (uuid=613A4, intf=en1, ssid='<redacted>' (<redacted>), error=0, eap=[sup=0 mode=0 state=0 client=0], start=2026-10-18 02:00:30.5
+2026-10-18 02:00:35.971 Df airportd[226:7e2] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: FAILED to create private MAC ((null)) for network ((null)), returned error (Error Domain=NSPOSIXErrorDomain Code=22 "Invalid argument" UserInfo={N
+2026-10-18 02:00:35.983 Df airportd[226:7bd] [com.apple.WiFiManager:] Assoc: <airport[226]> Successfully associated to Wi-Fi network <redacted> on interface en1
+2026-10-18 02:00:35.987 Df airportd[226:def] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Clearing temporary user setting for network (<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[(null) ((null))], cap
+2026-10-18 02:00:39.839 Df airportd[226:c67] [com.apple.WiFiManager:] Assoc: <airport[226]> <en1> IPv4/ROUTER ASSIGNED [ip=IP-185, router=IP-6]
+2026-10-18 02:00:39.840 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_OFFLOAD_ARP> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 02:00:39.840 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_QOS_PARAMS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:39.840 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ARP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:39.840 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:39.840 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ROAM_PROFILE_CONFIG> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 02:00:39.840 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_LINK_UP_DONE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:39.842 Df airportd[226:c30] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Updated join status (uuid=613A4, intf=en1, ssid='<redacted>' (<redacted>), error=0, eap=[sup=0 mode=0 state=0 client=0], start=2026-10-18 02:00:30.5
+2026-10-18 02:00:39.846 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:39.846 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:39.847 Df airportd[226:c30] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Updated join status (uuid=613A4, intf=en1, ssid='<redacted>' (<redacted>), error=0, eap=[sup=0 mode=0 state=0 client=0], start=2026-10-18 02:00:30.5
+2026-10-18 02:00:39.849 Df airportd[226:dfa] [com.apple.WiFiManager:] Assoc: <airport[226]> <en1> IPv4/ROUTER ASSIGNED [ip=IP-185, router=IP-6]
+2026-10-18 02:00:39.875 Df airportd[226:dfa] [com.apple.WiFiManager:] Assoc: <airport[226]> <en1> IPv4/ROUTER ASSIGNED [ip=IP-185, router=IP-6]
+2026-10-18 02:00:40.963 Df kernel[0:e15] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:40.963 Df kernel[0:e15] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_BEACON_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 02:00:40.963 Df kernel[0:e15] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:40.963 Df kernel[0:e15] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 02:00:41.644 Df airportd[226:df8] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Updated join status (uuid=613A4, intf=en1, ssid='<redacted>' (<redacted>), error=0, eap=[sup=0 mode=0 state=0 client=0], start=2026-10-18 02:00:30.5
+2026-10-18 02:00:41.651 Df kernel[0:2d4] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_ROAM_PROFILE_CONFIG> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 02:00:41.697 Df airportd[226:c30] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Updated associated network (<redacted> - ssid=<redacted> (3167544656), bssid=<redacted>, security=open, channel=5g108/20, cc=US, phy=n/ac/ax, rssi=-
+2026-10-18 02:00:41.704 Df airportd[226:c66] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Successfully created private MAC (<redacted>) for network (<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[<redact
+2026-10-18 02:00:41.704 Df airportd[226:c66] [com.apple.WiFiManager:] [corewifi] Updated IP config for known network 'SSID-1' (network=<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[<redacted> (2026-10-
+2026-10-18 02:00:41.707 Df airportd[226:dfe] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Updated associated network (<redacted> - ssid=<redacted> (3167544656), bssid=<redacted>, security=open, channel=5g108/20, cc=US, phy=n/ac/ax, rssi=-

@@ -1,0 +1,18 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "bt-hci-decoded.txt": "a0b558d10b977a4ba6cc96be90eadc864f013a30fe23db4ba973ab822f441126"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-91",
+ "username": "watchthelight"
+}

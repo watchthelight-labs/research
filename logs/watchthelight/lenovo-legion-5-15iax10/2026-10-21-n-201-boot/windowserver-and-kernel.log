@@ -1,0 +1,34 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-20 20:52:31.611 Df kernel[0:8d5] (IOPCIFamily) [PCIe:0 6965992679 ns] [childPublished()] child IONDRVFramebuffer(0x1000005e8) published
+2026-10-20 20:52:32.270 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+2026-10-20 20:52:32.271 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+2026-10-20 20:52:32.518 Df WindowServer[210:40b] [com.apple.CoreDisplay:default] [WARN] - Creating FB 1 of 1
+2026-10-20 20:52:32.519 Df kernel[0:7a] PMRD: .Display_boot tag flags 200
+2026-10-20 20:52:32.519 Df kernel[0:7a] PMRD: Added .Display_boot to system sleep preventers list (Total 1)
+2026-10-20 20:52:32.519 Df kernel[0:7a] PMRD: System Sleep Preventers: .Display_boot
+2026-10-20 20:52:32.533 Df WindowServer[210:40b] [com.apple.CoreDisplay:default] [WARN] - GPU: FB: 1 of 1 opened
+Can't get value for key 'AppleIntelFramebuffer'
+Can't get value for key 'AMDFramebuffer'
+Can't get value for key 'AppleParavirtFramebuffer'
+IOFramebufferUserClient = 1
+No property 'FB_Triage', or property isn't a string
+LER:IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_Busy_2,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_RegTag_0,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_RegTag_1,...) => NULL
+
+Can't get value for key 'Triage'
+2026-10-20 20:52:32.540 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - device_preserves_framebuffer: IOFBNeedsRefresh key not found in IORegistry
+2026-10-20 20:52:32.540 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - device_preserves_framebuffer: needs_refresh = NO
+2026-10-20 20:52:32.606 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+2026-10-20 20:52:32.606 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+2026-10-20 20:52:32.606 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+2026-10-20 20:52:32.606 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+2026-10-20 20:52:32.607 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+2026-10-20 20:52:32.607 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+2026-10-20 20:52:32.607 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+2026-10-20 20:52:32.607 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+2026-10-20 20:52:32.607 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+2026-10-20 20:52:32.607 E  WindowServer[210:40b] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+2026-10-20 20:52:32.663 Df WindowServer[210:40b] [com.apple.SkyLight:default] Software compositor activated.
+2026-10-20 20:52:32.663 Df WindowServer[210:40b] [com.apple.SkyLight:default] Software compositor activated.

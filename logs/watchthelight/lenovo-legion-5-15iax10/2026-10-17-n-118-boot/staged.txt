@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 62db521, sha ec33231d6bc9: pass readback flag repaired (the N-117 edit had commented it out), Dock-band composite lines only for textures >= 100 px on a side; conf unchanged

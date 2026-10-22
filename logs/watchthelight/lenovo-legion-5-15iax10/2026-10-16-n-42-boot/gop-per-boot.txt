@@ -1,0 +1,8 @@
+# OpenCore GOP handover per boot (from the redacted logs in evidence/native/N-xx)
+evidence/native/N-36/opencore-2026-10-15-181039.txt: OCC: GOP exists on ConsoleOutHandle and has 15 modes / OCC: Current FB at 0x6000000000 (0x1900000), format 1, res 2560x1600 scan 4096
+evidence/native/N-37/opencore-2026-10-15-225531.txt: OCC: GOP exists on ConsoleOutHandle and has 15 modes / OCC: Current FB at 0x6000000000 (0x1900000), format 1, res 2560x1600 scan 4096
+evidence/native/N-38/opencore-2026-10-15-233619.txt: OCC: GOP exists on ConsoleOutHandle and has 15 modes / OCC: Current FB at 0x6000000000 (0x1900000), format 1, res 2560x1600 scan 4096
+evidence/native/N-39/opencore-2026-10-15-234453.txt: OCC: GOP exists on ConsoleOutHandle and has 15 modes / OCC: Current FB at 0x6000000000 (0x1900000), format 1, res 2560x1600 scan 4096
+evidence/native/N-40/opencore-2026-10-15-235134.txt: OCC: GOP exists on ConsoleOutHandle and has 15 modes / OCC: Current FB at 0x6000000000 (0x1900000), format 1, res 2560x1600 scan 4096
+evidence/native/N-41/opencore-2026-10-15-200116.txt: OCC: GOP exists on ConsoleOutHandle and has 9 modes / OCC: Current FB at 0x70800000 (0xFA0000), format 1, res 2560x1600 scan 2560
+evidence/native/N-42/opencore-2026-10-16-010128.txt: OCC: GOP exists on ConsoleOutHandle and has 9 modes / OCC: Current FB at 0x70800000 (0xFA0000), format 1, res 2560x1600 scan 2560

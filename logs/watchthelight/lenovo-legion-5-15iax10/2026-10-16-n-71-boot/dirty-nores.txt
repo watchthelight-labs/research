@@ -1,0 +1,34 @@
+before:
+debug.nvgfx_present_latched: 75
+debug.nvgfx_dirty_ref_type: 0
+debug.nvgfx_dirty_ref_flag: 5
+debug.nvgfx_dirty_ref_valid: 0
+debug.nvgfx_dirty_ref_pend: 0
+debug.nvgfx_dirty_ref_nores: 183
+debug.nvgfx_dirty_ref_flag_last: 136413572
+debug.nvgfx_dirty_ok_flag_last: 3146116
+debug.nvgfx_dirty_nores_cache: 0
+debug.nvgfx_dirty_nores_res: 0
+debug.nvgfx_dirty_nores_vm: 0
+debug.nvgfx_dirty_nores_rm: 183
+debug.nvgfx_dirty_nores_scanout: 0
+debug.nvgfx_dirty_nores_parked: 183
+after 15 s drag:
+debug.nvaccel_vm_alloc: 231
+debug.nvaccel_vm_dealloc: 130
+debug.nvaccel_vm_parked: 130
+debug.nvaccel_vm_unparked: 6
+debug.nvgfx_present_latched: 1652
+debug.nvgfx_dirty_ref_type: 0
+debug.nvgfx_dirty_ref_flag: 5
+debug.nvgfx_dirty_ref_valid: 0
+debug.nvgfx_dirty_ref_pend: 0
+debug.nvgfx_dirty_ref_nores: 3321
+debug.nvgfx_dirty_ref_flag_last: 136413572
+debug.nvgfx_dirty_ok_flag_last: 3146116
+debug.nvgfx_dirty_nores_cache: 0
+debug.nvgfx_dirty_nores_res: 0
+debug.nvgfx_dirty_nores_vm: 0
+debug.nvgfx_dirty_nores_rm: 3321
+debug.nvgfx_dirty_nores_scanout: 0
+debug.nvgfx_dirty_nores_parked: 3321

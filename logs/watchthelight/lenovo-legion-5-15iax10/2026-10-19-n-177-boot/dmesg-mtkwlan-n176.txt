@@ -1,0 +1,4 @@
+[   16.676657]: MtkWlan: W3 patch done
+[   16.837700]: MtkWlan: W3 pass: firmware running (N9 ready)
+[   17.684521]: MtkWlan: W4 pass: station ready (MAC, domain, power), scanning from the tick
+[   17.684535]: MtkWlan: W6 waiting for the native front end (MtkWlanNative)

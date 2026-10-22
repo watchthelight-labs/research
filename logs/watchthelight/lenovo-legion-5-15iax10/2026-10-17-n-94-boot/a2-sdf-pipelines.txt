@@ -1,0 +1,60 @@
+vertex sdf_filter_vert_lpf: found
+== sdf_gen_field_lpf (constants: 0)
+   target A8       ok
+      frag arg u                            type 0 index 1 tex 0/0 buf 16 B
+      frag arg dist_surf                    type 2 index 3 tex 2/3 buf 0 B
+      frag arg img_surf                     type 2 index 4 tex 2/3 buf 0 B
+   target R8       ok
+   target R16F     ok
+   target RG16F    ok
+   target R32F     ok
+   target RGBA16F  ok
+   target BGRA8    ok
+   target RGBA8    ok
+   _spirv   2984 bytes saved
+   _air     7832 bytes saved
+== sdf_gen_gradients_lpf (constants: 0)
+   target A8       ok
+      frag arg u                            type 0 index 1 tex 0/0 buf 16 B
+      frag arg base_surf                    type 2 index 3 tex 2/3 buf 0 B
+      frag arg blur_surf                    type 2 index 4 tex 2/3 buf 0 B
+   target R8       ok
+   target R16F     ok
+   target RG16F    ok
+   target R32F     ok
+   target RGBA16F  ok
+   target BGRA8    ok
+   target RGBA8    ok
+   _spirv   3076 bytes saved
+   _air     7925 bytes saved
+== sdf_gen_field_lph (constants: 0)
+   target A8       ok
+      frag arg u                            type 0 index 1 tex 0/0 buf 16 B
+      frag arg dist_surf                    type 2 index 3 tex 2/3 buf 0 B
+      frag arg img_surf                     type 2 index 4 tex 2/3 buf 0 B
+   target R8       ok
+   target R16F     ok
+   target RG16F    ok
+   target R32F     ok
+   target RGBA16F  ok
+   target BGRA8    ok
+   target RGBA8    ok
+   _spirv   3152 bytes saved
+   _air     7898 bytes saved
+== sdf_gen_gradients_lph (constants: 0)
+   target A8       ok
+      frag arg u                            type 0 index 1 tex 0/0 buf 16 B
+      frag arg base_surf                    type 2 index 3 tex 2/3 buf 0 B
+      frag arg blur_surf                    type 2 index 4 tex 2/3 buf 0 B
+   target R8       ok
+   target R16F     ok
+   target RG16F    ok
+   target R32F     ok
+   target RGBA16F  ok
+   target BGRA8    ok
+   target RGBA8    ok
+   _spirv   3576 bytes saved
+   _air     8600 bytes saved
+== glass_background_sdf_lpf (constants: 0)
+   target A8       ok
+      frag arg u                            type 0 index 1 tex 0/0 buf 320 B

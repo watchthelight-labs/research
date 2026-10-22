@@ -1,0 +1,28 @@
+{
+ "collected": "2026-10-15",
+ "component": "native",
+ "files": {
+  "00-clock.txt": "3a107eb6d482f468241228029ce2065002d6f8b3c050fb7a807241b6b6b35a29",
+  "i2c1-tree.txt": "fabbd686d545d1ef575ba4af9833e43b53e283bbab68663d6758e31c25eff6df",
+  "i2cprobe.txt": "58293572a0ae270f3c86f548e1990b171b6edd2fe1d40b66d293f552c07aab63",
+  "mtkwlan.txt": "d5540412bf7a19e351d503acd81e7994b6a89ef303a3a822beff59663d0af54d",
+  "opencore-2026-10-15-134743.txt": "a26d1906797a9bc3a3b2a250b048ee6fc00f64ab351ae8d9c8b8ddfb4a1d3d1d",
+  "rp08.txt": "18139c1f1cd3d97d47fb472e6403c4245f5b0f69959181a8d52987112d3ccec9"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "MLB": 2,
+   "ROM": 2,
+   "SERIAL": 2,
+   "UUID": 37
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-27",
+ "username": "watchthelight"
+}

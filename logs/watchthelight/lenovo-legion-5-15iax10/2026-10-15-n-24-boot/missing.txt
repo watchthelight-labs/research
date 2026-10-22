@@ -1,0 +1,5 @@
+system_profiler
+system_profiler
+system_profiler
+networksetup
+system_profiler

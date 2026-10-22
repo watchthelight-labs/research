@@ -1,0 +1,45 @@
+[   19.795890]: MtkWlan: W2 pass: WFDMA rings up
+[   19.920642]: MtkWlan: W3 fail: patch download
+[   19.920707]: [PCIe:0 19920707443 ns] [childPublished()] child MtkWlan(0x100000443) published
+[   19.922610]: MtkWlanNative::init IO80211_kexts-1566.5 "IO80211_kexts-1566.5" Aug 18 2026 17:31:46
+[   19.922642]: MtkWlanNative: ctl:start
+[   19.922650]: MtkWlanNative: ctl:core ops v4
+[   19.922660]: MtkWlanNative: ctl:work queue ok
+[   19.922664]: CCPipe::withOwnerNameCapacity pipeOwner org.watchthelight.MtkWlanNative pipeName MtkWlanNative
+[   19.922705]: CCLogPipe::createReportersAndLegend() Done Creating Legend for owner: org.watchthelight.MtkWlanNative pipe MtkWlanNative
+[   19.922707]: CCLogPipe::initWithOwnerNameCapacity() IOReporters setup for MtkWlanNative
+[   19.922742]: Created CCLogPipe (Owner: org.watchthelight.MtkWlanNative - Name: MtkWlanNative)
+[   19.922744]: withOwnerNameCapacity:158 Pipe Owner:org.watchthelight.MtkWlanNative Name:MtkWlanNative LogIdentifier:MtkWlanNativeCCLogStream::createReportSet() fCoreCaptureReporter 0xa3cc326697c8e31c
+[   19.922766]: CCLogStream::createReportersAndLegend() streamName MtkWlanNative
+[   19.922792]: Created CCLogStream (Name: MtkWlanNative)
+[   19.922794]: MtkWlanNative: ctl:logger ok
+[   19.922797]: CCPipe::withOwnerNameCapacity pipeOwner org.watchthelight.MtkWlanNative pipeName MtkWlanNativeFault
+[   19.922818]: CCDataPipe::createReportersAndLegend() Done Creating Legend for owner: org.watchthelight.MtkWlanNative pipe MtkWlanNativeFault
+[   19.922820]: CCDataPipe::initWithOwnerNameCapacity() IOReporters setup for MtkWlanNativeFault
+[   19.922825]: Created CCDataPipe (Owner: org.watchthelight.MtkWlanNative - Name: MtkWlanNativeFault)
+[   19.922827]: withOwnerNameCapacity:158 Pipe Owner:org.watchthelight.MtkWlanNative Name:MtkWlanNativeFault LogIdentifier:MtkWlanNativeFault[PCIe:0 19922830262 ns] [childPublished()] child CCLogStream(0x100000480) published
+[   19.922837]: CCDataStream::createReportersAndLegend() streamName MtkWlanNativeFault
+[   19.922860]: Created CCDataStream (Name: MtkWlanNativeFault)
+[   19.922869]: MtkWlanNative: ctl:fault reporter ok; base start begin
+[   19.924467]: MtkWlanNative: ctl:base start ok
+[   19.924476]: MtkWlanNative: ctl:media auto=1
+[   19.924559]: MtkWlanNative: mk:withController=ok
+[   19.924573]: MtkWlanNative: mk:attachInterface=1
+[   19.924581]: MtkWlanNative: sw:deferBSDAttach=0
+[   19.924615]: [PCIe:0 19924614947 ns] [childPublished()] child MtkWlanNative(0x10000047e) published
+[   19.925093]: MtkWlanNative: sw:IO80211InfraInterface::start=1
+[   19.925098]: MtkWlanNative: sw:getWorkQueue=ok
+[   19.926048]: MtkWlanNative: sw:pool=ok
+[   44.020492]: MtkWlanNative: sw:queues rxSub=1 txComp=1 rxComp=1
+[   44.020497]: MtkWlanNative: sw:addEventSource x6 ok
+[   44.020524]: MtkWlanNative: dp:bound, set_mode=0
+[   44.020550]: MtkWlanNative: sw:registerInfraEthernetInterface=0
+[   44.020562]: MtkWlanNative: sw:published, running state false
+[   44.020566]: MtkWlanNative: mk:startWithInfo ok
+[   44.020578]: MtkWlanNative: cc:log pipe start=1
+[   44.020603]: MtkWlanNative: cc:fault pipe start=1
+[   44.020611]: MtkWlanNative: cc:fault stream start=1
+[   44.020619]: [PCIe:0 44020619219 ns] [childPublished()] child MtkWlanNativeIf(0x100000489) published
+[   44.020620]: MtkWlanNative: mk:deferBSDAttach(false)=0
+[   44.020759]: MtkWlanNative: if:hardware assists=0
+[   44.020775]: classNameOverride: 0x47ab5ca2c651dde0 IO80211Controller[PCIe:0 44020826294 ns] [childPublished()] child MtkWlanNativeIf(0x100000489) published

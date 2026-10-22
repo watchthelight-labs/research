@@ -1,0 +1,35 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "README.md": "6ae465eb4cb7259587c18a853425dd6afde1f96b263e5327291563eed130056f",
+  "airport-profile.txt": "2d015044f883074765f83eca29645a2f7d771100e3c3533f99400ab1152aabf1",
+  "boingo-drops.md": "c84d98b4fa9b8e0bfca1464150e8bb9cfda0f34ec4cc14bfc03fb93aa1f0ac36",
+  "configd-en1.txt": "e4cd2bb1b03775123a87346d870ab9992f72dba9b8880e237f2932d98b8a155d",
+  "guard-log.txt": "2611358dc0056b752895fefae52b9a06652538a0716734c085143f03f42c33b4",
+  "ifconfig.txt": "485513abfff913bd390eb653b30700ba078f040d695aea4cb50754b9515fa923",
+  "join-cycles.txt": "8709a04a85e3cb1a5b511a8f3dc6ff3ae1ac7352eecf65454f03b7bd9741f855",
+  "kextstat.txt": "72a19f0896e6ba3b0023608ee280117b86b43fb08c28c98d3ddca4bcc8b5c845",
+  "netstat-rn.txt": "0ea561f57629c3fed03d3e9728c01337497fdc32a6203d77b762cb37b99eb111",
+  "opencore-2026-10-18-115919.txt": "0ac5244a50d5607c524255c9aa4f2bc238e268f2483a542de0800ba73081e667",
+  "opencore-2026-10-18-120519.txt": "5c9bec7117675e73c18c5d0bae53353478134b52563ef982d46c130b2a0172a4",
+  "opencore-2026-10-18-120834.txt": "4953cb65602031517df95ff822cad2c84041b07af4e41ca47eed5a9715b12db0",
+  "staged-builds.txt": "8fa7f8b6d2841566f791481c76e10a423ae008f542e42564caed09a715aa5287",
+  "wdutil-info.txt": "6e52b4cfea13243d085c597f919829312b1483371c6c1cbf70c2818b4e3045da"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 102,
+   "MAC": 8,
+   "UUID": 830
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-145",
+ "username": "watchthelight"
+}

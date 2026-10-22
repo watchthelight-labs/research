@@ -1,0 +1,76 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-18 01:59:24.868 Df configd[107:474] [com.apple.SystemConfiguration:InterfaceNamer] addTimestamp: en1: 813995964.868395
+2026-10-18 01:59:24.974 Df configd[107:520] (IO80211) Apple80211GetWithIOCTL:13739 @[49.915581] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 01:59:24.974 Df configd[107:520] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 01:59:24.979 Df configd[107:51d] [com.apple.SystemConfiguration:QoSMarking] QoS marking policy: en1: enable (default)
+2026-10-18 01:59:24.979 Df configd[107:41d] [com.apple.SystemConfiguration:KernelEventMonitor] Process interface attach: en1
+2026-10-18 01:59:25.315 Df configd[107:520] [com.apple.IPConfiguration:Server] DHCP en1: start
+2026-10-18 01:59:25.323 Df configd[107:520] [com.apple.IPConfiguration:Server] en1 link INACTIVE
+2026-10-18 01:59:25.326 Df configd[107:520] (IO80211) Apple80211GetWithIOCTL:13739 @[50.267623] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 01:59:25.326 Df configd[107:520] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 01:59:25.326 Df configd[107:520] [com.apple.IPConfiguration:Server] RTADV en1: start
+2026-10-18 01:59:25.428 Df configd[107:520] [com.apple.IPConfiguration:Server] en1: link inactive timer fired
+2026-10-18 01:59:25.428 Df configd[107:520] [com.apple.IPConfiguration:Server] DHCP en1: status = 'media inactive'
+2026-10-18 01:59:25.428 Df configd[107:520] [com.apple.IPConfiguration:Server] DHCP en1: INACTIVE
+2026-10-18 01:59:25.428 Df configd[107:520] [com.apple.IPConfiguration:Server] RTADV en1: Inactive
+2026-10-18 01:59:25.428 Df configd[107:520] [com.apple.IPConfiguration:Server] RTADV en1: Inactive
+2026-10-18 01:59:25.428 Df configd[107:520] [com.apple.IPConfiguration:Server] AUTOMATIC-V6 en1: status = 'media inactive'
+2026-10-18 01:59:25.430 Df configd[107:520] [com.apple.IPConfiguration:Server] en1: acknowledged Wi-Fi connection ID 0
+2026-10-18 02:00:12.594 Df configd[107:474] [com.apple.SystemConfiguration:InterfaceNamer] addTimestamp: en1: 813996012.5946881
+2026-10-18 02:00:30.522 Df configd[107:b1b] [com.apple.IPConfiguration:Server] DHCP en1: ForgetSSID <redacted>
+2026-10-18 02:00:30.522 Df airportd[226:7e2] [com.apple.IPConfiguration:Library] ipconfig_forget_network(en1) succeeded
+2026-10-18 02:00:35.962 Df configd[107:b1b] [com.apple.SystemConfiguration:KernelEventMonitor] Process interface link status active: en1
+2026-10-18 02:00:35.983 Df configd[107:c28] [com.apple.IPConfiguration:Server] en1 link ACTIVE [link address changed]
+2026-10-18 02:00:35.984 Df configd[107:c28] (IO80211) Apple80211GetWithIOCTL:13739 @[120.926145] ifname['en1'] IOCTL type 563/'APPLE80211_IOC_CONNECTION_ID' return 58/0x0000003a
+2026-10-18 02:00:35.984 Df configd[107:c28] [com.apple.IPConfiguration:Server] en1: SSID <redacted> BSSID <redacted> NetworkID <redacted> Security NONE ConnectionID 0
+2026-10-18 02:00:35.984 Df configd[107:c28] [com.apple.IPConfiguration:Server] en1: Wi-Fi switched networks
+2026-10-18 02:00:35.984 Df configd[107:c28] [com.apple.IPConfiguration:Server] en1: link address changed
+2026-10-18 02:00:35.984 Df configd[107:c28] [com.apple.IPConfiguration:Server] en1: link address changed, forcing link timer expired
+2026-10-18 02:00:35.984 Df configd[107:c28] [com.apple.IPConfiguration:Server] DHCP en1: status = 'media inactive'
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] DHCP en1: INACTIVE
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] RTADV en1: Inactive
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] RTADV en1: Inactive
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] AUTOMATIC-V6 en1: status = 'media inactive'
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] DHCP en1: status = 'network changed'
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] DHCP en1: INIT
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] DHCP en1: not supplying hostname
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] DHCP en1: INIT waiting at 0 for 1.751647
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] RTADV en1: Inactive
+2026-10-18 02:00:35.985 Df configd[107:c28] [com.apple.IPConfiguration:Server] AUTOMATIC-V6 en1: status = 'network changed'
+2026-10-18 02:00:35.986 Df configd[107:c28] [com.apple.IPConfiguration:Server] RTADV en1: link-local address is ready, starting
+2026-10-18 02:00:35.986 Df configd[107:c28] [com.apple.IPConfiguration:Server] RTADV en1: Solicit
+2026-10-18 02:00:35.986 Df configd[107:c28] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 02:00:35.986 Df configd[107:c28] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 02:00:35.986 Df configd[107:c28] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 02:00:35.986 Df configd[107:c28] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 02:00:35.986 Df configd[107:c28] [com.apple.IPConfiguration:Server] RTADV en1: sending Router Solicitation (1 of 3)
+2026-10-18 02:00:37.110 Df configd[107:de9] [com.apple.IPConfiguration:Server] DHCP en1: INIT gathering began at 1.12564
+2026-10-18 02:00:38.113 Df configd[107:de9] [com.apple.IPConfiguration:Server] DHCP en1: SELECT
+2026-10-18 02:00:38.113 Df configd[107:de9] [com.apple.IPConfiguration:Server] DHCP en1: not supplying hostname
+2026-10-18 02:00:38.114 Df configd[107:de9] [com.apple.IPConfiguration:Server] DHCP en1: SELECT waiting at 2.1284 for 1.000000
+2026-10-18 02:00:38.218 Df configd[107:b1b] [com.apple.IPConfiguration:Server] DHCP en1: BOUND
+2026-10-18 02:00:39.824 Df configd[107:de9] [com.apple.IPConfiguration:Server] DHCP en1: setting IP-185 netmask IP-7 broadcast IP-5
+2026-10-18 02:00:39.825 Df configd[107:de9] [com.apple.IPConfiguration:Server] dhcp_bound(en1) IP-185
+2026-10-18 02:00:39.825 Df configd[107:de9] [com.apple.IPConfiguration:Server] LINKLOCAL en1: status = 'success'
+2026-10-18 02:00:39.836 Df configd[107:c28] [com.apple.IPConfiguration:Server] DHCP en1: publish success { IPv4, DNS, DHCP }
+2026-10-18 02:00:39.846 Df configd[107:c28] [com.apple.SystemConfiguration:IPMonitor] network changed: v4(en1+:IP-185) DNS+ Proxy+ SMB
+2026-10-18 02:00:39.857 Df configd[107:de9] [com.apple.SystemConfiguration:IPMonitor] Publishing data to agent DNSAgent-@en1 (111 bytes)
+2026-10-18 02:00:39.867 Df configd[107:de9] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceRank(en1) = Never (3)
+2026-10-18 02:00:39.868 Df configd[107:51c] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 02:00:39.880 Df configd[107:51c] [com.apple.captive:Controller] en1: SSID 'Bo*******Hz' setting interface rank Never (no cache entry)
+2026-10-18 02:00:39.880 Df configd[107:de8] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceRank(en1) = Never (3)
+2026-10-18 02:00:39.880 Df configd[107:51c] [com.apple.captive:Controller] CNPluginHandler en1: Evaluating
+2026-10-18 02:00:39.882 Df configd[107:51c] [com.apple.captive:Controller] en1: Probing the Wi-Fi network
+2026-10-18 02:00:39.884 Df configd[107:51c] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 02:00:40.316 Df configd[107:c28] [com.apple.IPConfiguration:Server] RTADV en1: sending Router Solicitation (2 of 3)
+2026-10-18 02:00:40.445 Df configd[107:51c] [com.apple.captive:Controller] en1: WISPr detected for the Wi-Fi network
+2026-10-18 02:00:40.446 Df configd[107:c28] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceRank(en1) = Never (3)
+2026-10-18 02:00:40.447 Df configd[107:51c] [com.apple.captive:Controller] CNPluginHandler en1: Authenticating (__BUILTIN__)
+2026-10-18 02:00:40.455 Df configd[107:51c] [com.apple.captive:Controller] en1: Wi-Fi updated
+2026-10-18 02:00:40.456 Df configd[107:51c] [com.apple.captive:Controller] CNPluginHandler en1: PresentingUI (__BUILTIN__)
+2026-10-18 02:00:40.464 Df configd[107:51c] [com.apple.captive:Controller] en1: Launching Websheet with URL "http://captive.apple.com/hotspot-detect.html"
+2026-10-18 02:00:41.693 Df configd[107:c28] (IO80211) Apple80211GetWithIOCTL:13739 @[126.634698] ifname['en1'] IOCTL type 563/'APPLE80211_IOC_CONNECTION_ID' return 58/0x0000003a
+2026-10-18 02:00:41.693 Df configd[107:c28] [com.apple.IPConfiguration:Server] en1: SSID <redacted> BSSID <redacted> NetworkID <redacted> Security NONE ConnectionID 0
+2026-10-18 02:00:41.695 Df configd[107:c28] (IO80211) Apple80211GetWithIOCTL:13739 @[126.637406] ifname['en1'] IOCTL type 563/'APPLE80211_IOC_CONNECTION_ID' return 58/0x0000003a
+2026-10-18 02:00:41.695 Df configd[107:c28] [com.apple.IPConfiguration:Server] en1: SSID <redacted> BSSID <redacted> NetworkID <redacted> Security NONE ConnectionID 0
+2026-10-18 02:00:45.212 Df configd[107:de8] [com.apple.IPConfiguration:Server] RTADV en1: sending Router Solicitation (3 of 3)

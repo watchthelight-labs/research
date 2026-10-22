@@ -1,0 +1,3 @@
+N-167 run1 flips/s=76 presents/s=76
+N-167 run2 flips/s=75 presents/s=75
+N-167 run3 flips/s=76 presents/s=76

@@ -1,0 +1,7 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-21 11:39:43.964 Df kernel[0:57f5] [com.apple.sandbox.reporting:violation] System Policy: cp(3541) allow file-write-flags /Library/XeGfx/backup-20261021-113943/AuxiliaryKernelExtensions.kc
+2026-10-21 11:39:43.964 Df kernel[0:57f5] (Sandbox) /bin/cp set rootless flags on /Library/XeGfx/backup-20261021-113943/AuxiliaryKernelExtensions.kc with flags=524288
+2026-10-21 11:39:43.964 Df kernel[0:57f5] [com.apple.sandbox.reporting:violation] System Policy: cp(3541) allow file-write-mode /Library/XeGfx/backup-20261021-113943/AuxiliaryKernelExtensions.kc
+2026-10-21 11:39:44.700 Df kernel[0:582a] [com.apple.sandbox.reporting:violation] 1 duplicate report for System Policy: cp(3541) allow file-write-mode /Library/XeGfx/backup-20261021-113943/AuxiliaryKernelExtensions.kc
+2026-10-21 11:39:45.068 Df kernel[0:3308] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-21 11:41:36.404 Df kernel[0:27e3] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable

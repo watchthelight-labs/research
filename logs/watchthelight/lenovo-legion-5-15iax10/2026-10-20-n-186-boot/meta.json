@@ -1,0 +1,53 @@
+{
+ "collected": "2026-10-20",
+ "component": "native",
+ "files": {
+  "00-info.txt": "9a1739c7fde1605c303f54cf0fac93b7876293d853a45da6ab938b8dd67aab63",
+  "README-gpubench.md": "a6054488ff8cae9a34dd19a503ac4d3850ad64ea23b9de5af848ffab5be08e57",
+  "README.md": "56ce4d05efb4587d37b4c3ec8b7b6ed1d16f2716330e3c73edab967ac055f055",
+  "dmesg-180.txt": "286a12d57b94df25a51aba74653f1a7992cfda0a632f5340173cd1274a8332a3",
+  "dmesg-20.txt": "e27c6800af6a63cf218dfa5ddf6200125ed3efe30e82e8501a54f735ad8802ae",
+  "dmesg-300.txt": "9c5393b803b64e11999a164b70cfb3d7ab2a30c1fe3b86b55bfa5c98ec424190",
+  "dmesg-60.txt": "b8c80ce76f7e1d216825074830bf67d48d3e5de92d2620ff21e586b5c1d674e8",
+  "dmesg-nvidia.txt": "30b28e4242f923de09daa503425614cc68fadd972008c42863f37b2584d633d7",
+  "driver-sums.txt": "d4a51371ffa55cb3200e396b58a1cb7151e90953a8dade187da37b06016a7740",
+  "gpubench-state.json": "a58039e6c7028b4a01c1d798d7dfcd2742e73bc0c1d293e29db81340e9ea4b9f",
+  "guard-pending.json": "1bf4576f405544a605b552d356e2cef4dd496935cb39fde16fc8c69c99b4d8d6",
+  "ioreg-gfx0-180.txt": "8110f5a9f23ea17f1150c4b384b33404415b0a91cf9443dcceb51c9f79d03826",
+  "ioreg-gfx0-20.txt": "392e9b47cdf360570d178d2b7d118de5ff2dc063193e1f293932eb6a72a53d4b",
+  "ioreg-gfx0-300.txt": "282017583dd059849bf912c333bae2c25303b0273df1673f1ee5861e29652875",
+  "ioreg-gfx0-60.txt": "392e9b47cdf360570d178d2b7d118de5ff2dc063193e1f293932eb6a72a53d4b",
+  "ioreg-iofb-180.txt": "15344c11dd316c1931b4f0210e88ea15735eb949e91f344bbf40920fcd09ee1f",
+  "ioreg-iofb-300.txt": "96ec074d0b970d172d73ad319d483a9f8f962960f1edc7ec61569e0cf09aa907",
+  "ioreg-nvrm-180.txt": "de5349bf5cf9835a7a8955037d2324c56eb0f7a7eb6aa30960effc413c6fd5d0",
+  "ioreg-nvrm-300.txt": "fc4bcb01d27dff71fb4aa08d463d196484bd1e60ba45528659bf0a17abef0746",
+  "ioreg-nvrmdisplay-180.txt": "98634171753bf7ea5cec237b20aa201bee7f693f1acffb74a6c6ff7d020de3bc",
+  "ioreg-nvrmdisplay-300.txt": "5321332bbd8014e5e7fef2994e17e1a0c4bc3efb2e10c14652940cfa08ddf71c",
+  "kextstat.txt": "2f685e304a207860c978f30f346ff48715049416f0ce1064424dbf3c4a94c268",
+  "log-nv.txt": "a4e135821d1ba2b9ecb978af979ccc805aeecebcdb32c688e16b9e6fef8d1b25",
+  "nvrm-props.txt": "162b4befb723692ce1002a760598874e03d8b44a758b20cc5e71055ae0a4bd97",
+  "opencore-2026-10-20-142358.txt": "77aecd759c9e2255f65ff3c4b163ea5a537aa8a53cb7f571f13d8592eabc2432",
+  "rm-bringup-35s.txt": "6a140615b6f87e952577072e6c69c09b009dd12e289610f38e044742259b68a9",
+  "summary-N-186-2.4.3-nvgfx.1_boot.md": "c033d69a4990ac577ef9f7c785c296b64e564991faeeba70e199a408a6ec436a",
+  "summary-N-186-2.4.3-nvgfx.1_pileup.md": "3c5cdeebc38ef0ce6dae0b1a7e5e08dc3ae86ebcbafcb76896e6cfcf811b45d7",
+  "sysctl-nv-180.txt": "a429cb1a711d884cdfd7abfb7358e2c0b8b8b9115a9b3798cac75fe3fcce741a",
+  "sysctl-nv-300.txt": "befadf4c4c3076bbf99e66ca179e6383453fc33857120d85d317a806af7cd1bd",
+  "sysctl.txt": "b3b7d62fe863ea9e115c986f148e67c08ee136258e99bf94208f273190a3df6a"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "25G241",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 2,
+   "MAC": 4,
+   "SERIAL": 8,
+   "UUID": 253
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-186",
+ "username": "watchthelight"
+}

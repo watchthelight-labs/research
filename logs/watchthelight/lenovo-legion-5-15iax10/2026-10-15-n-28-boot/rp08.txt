@@ -1,0 +1,135 @@
++-o RP08@1C,7  <class IOPCIDevice, id 0x1000003db, registered, matched, active, busy 0 (595 ms), retain 11>
+  | {
+  |   "#address-cells" = <03000000>
+  |   "class-code" = <00040600>
+  |   "IOPCIExpressSlotStatus" = 320
+  |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+  |   "built-in" = <00>
+  |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+  |   "vendor-id" = <86800000>
+  |   "name" = <"pci-bridge">
+  |   "device-id" = <3f7f0000>
+  |   "acpi-pmcap-offset" = 160
+  |   "IOPCIResourced" = Yes
+  |   "IODTPersist" = 0
+  |   "compatible" = <"pci8086,7f3f","pciclass,060400","RP08">
+  |   "ranges" = <0000008200000000000000b80000008200000000000000b80000000000003000000000c20000000000000000000000c2000000000000000000000000000000000000008100000000000000000000008100000000000000000000000000000000>
+  |   "IOPCIExpressLinkCapabilities" = 141781012
+  |   "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci","com.apple.developer.driverkit.transport.pci.bridge"))
+  |   "acpi-path" = "IOACPIPlane:/_SB/PC02/RP08@1c0007"
+  |   "IOPCIConfigured" = Yes
+  |   "revision-id" = <10000000>
+  |   "IOPCIExpressLinkStatus" = 12306
+  |   "IOPCIExpressCapabilities" = 322
+  |   "pcidebug" = "128:28:7(130:130)"
+  |   "IOName" = "pci-bridge"
+  |   "#size-cells" = <02000000>
+  |   "reg" = <00e7800000000000000000000000000000000000>
+  |   "IOPCIExpressSlotCapabilities" = 6599168
+  | }
+  | 
+  +-o IOPP  <class IOPCI2PCIBridge, id 0x100000488, registered, matched, active, busy 0 (584 ms), retain 9>
+    | {
+    |   "IOClass" = "IOPCI2PCIBridge"
+    |   "CFBundleIdentifier" = "com.apple.iokit.IOPCIFamily"
+    |   "IOProviderClass" = "IOPCIDevice"
+    |   "IOPCIPowerOnProbe" = Yes
+    |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"MaxPowerState"=3}
+    |   "IOProbeScore" = 18446744073709551516
+    |   "IONameMatch" = "pci-bridge"
+    |   "IOMatchedAtBoot" = Yes
+    |   "IOMatchCategory" = "IODefaultMatchCategory"
+    |   "IONameMatched" = "pci-bridge"
+    |   "IOPersonalityPublisher" = "com.apple.iokit.IOPCIFamily"
+    |   "CFBundleIdentifierKernel" = "com.apple.iokit.IOPCIFamily"
+    | }
+    | 
+    +-o PXSX@0  <class IOPCIDevice, id 0x1000003e1, registered, matched, active, busy 0 (584 ms), retain 10>
+      | {
+      |   "assigned-addresses" = <1000828200000000000000b800000000000020001800828200000000000020b80000000000800000>
+      |   "IOInterruptSpecifiers" = (<1300000007000000>,<0500000000000100>)
+      |   "class-code" = <00800200>
+      |   "IODeviceMemory" = (({"address"=3087007744,"length"=2097152}),({"address"=3089104896,"length"=32768}))
+      |   "IOPowerManagement" = {"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+      |   "subsystem-vendor-id" = <aa170000>
+      |   "built-in" = <00>
+      |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+      |   "IOPCIMSIMode" = Yes
+      |   "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+      |   "vendor-id" = <c3140000>
+      |   "name" = <"pci14c3,7925">
+      |   "device-id" = <25790000>
+      |   "IOChildIndex" = 1
+      |   "acpi-pmcap-offset" = 248
+      |   "IOPCIResourced" = Yes
+      |   "compatible" = <"pci17aa,e0ff","pci14c3,7925","pciclass,028000","PXSX">
+      |   "iommu-selection" = <00000000>
+      |   "IOPCIExpressLinkCapabilities" = 21093394
+      |   "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci"))
+      |   "acpi-path" = "IOACPIPlane:/_SB/PC02/RP08@1c0007/PXSX@0"
+      |   "subsystem-id" = <ffe00000>
+      |   "revision-id" = <00000000>
+      |   "IOPCIExpressLinkStatus" = 4114
+      |   "IOPCIExpressCapabilities" = 2
+      |   "pcidebug" = "130:0:0"
+      |   "IOName" = "pci14c3,7925"
+      |   "acpi-wake-type" = 2
+      |   "reg" = <000082000000000000000000000000000000000010008202000000000000000000000000000020001800820200000000000000000000000000800000>
+      | }
+      | 
+      +-o MtkWlan  <class MtkWlan, id 0x10000049b, registered, matched, active, busy 0 (0 ms), retain 5>
+          {
+            "MtkW3PatchResult" = 0
+            "MtkBar0Size" = 2097152
+            "IOMatchedAtBoot" = Yes
+            "MtkConnOnMisc" = 3
+            "MtkW3RamResult" = 0
+            "MtkW3PatchInit0" = 0
+            "MtkBadAccess" = 0
+            "MtkBar0Phys" = 4294967296
+            "MtkMapper" = "none (physical addresses)"
+            "MtkW2GloCfg" = 1345370229
+            "MtkW3FwBytes" = 1275712
+            "MtkFwPatchSha256" = "8eb46014d2a6b4124472eee7476d995008a6f40b1daffef87eb42f30d98699e1"
+            "MtkLpctlBefore" = 4
+            "MtkLpctl" = 0
+            "MtkFwVersion" = "____000000-20260813113118"
+            "MtkFwOwnTries" = 1
+            "MtkMilestone" = "W3"
+            "MtkDrvOwnTries" = 1
+            "MtkHwRev" = 35328
+            "MtkPciCommandBefore" = 0
+            "MtkWfsysSwRst" = 17
+            "MtkW3DrvOwnTries" = 1
+            "MtkFwRamSha256" = "23ff53b4bb639b30481e2e06bb1688569ad1ba971b897936db539882abfbd120"
+            "MtkW3PatchSemGet" = 2
+            "MtkIrqLastStatus" = 1
+            "MtkRxUnmatched" = 0
+            "MtkW3FwOwnTries" = 1
+            "MtkChipId" = 31013
+            "IOPCIPrimaryMatch" = "0x792514c3"
+            "MtkW3PatchSections" = 2
+            "MtkW3RamRegions" = 5
+            "MtkAsicRevision" = 2032467968
+            "MtkW3PatchSemRelease" = 3
+            "MtkRxEvents" = 10
+            "MtkW3PatchInit1" = 0
+            "MtkInterrupts" = "0:level 1:msi"
+            "CFBundleIdentifier" = "org.watchthelight.MtkWlan"
+            "MtkState" = "W3 pass: firmware running (N9 ready)"
+            "IOProviderClass" = "IOPCIDevice"
+            "MtkW2IrqRegister" = 0
+            "IOClass" = "MtkWlan"
+            "CFBundleIdentifierKernel" = "org.watchthelight.MtkWlan"
+            "MtkW2ConnOnMiscAfterReset" = 0
+            "MtkW2MsiIndex" = 1
+            "MtkW2RxMcuIova" = 2273280
+            "MtkW3PatchFinish" = 0
+            "IOMatchCategory" = "IODefaultMatchCategory"
+            "MtkW3FwStart" = 0
+            "IOProbeScore" = 0
+            "MtkIrqCount" = 333
+            "MtkPciCommand" = 6
+          }
+          
+

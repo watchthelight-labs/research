@@ -1,0 +1,4 @@
+xegfx: iGPU 8086:7d67 stolen base 0x0 size 0 MiB (unused: i915 reads GGC/LMEMBAR on this IP)
+xegfx: no IOMMU, DMA addresses are physical
+<6>[drm] Got Intel graphics stolen memory base 0x0, size 0x0
+XeGfx: ran 56 sysinit_set entries

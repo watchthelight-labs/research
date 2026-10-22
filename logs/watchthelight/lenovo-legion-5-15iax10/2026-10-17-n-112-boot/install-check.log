@@ -1,0 +1,27 @@
+
+== 1. this Mac
+   ok  macOS 26.7.1, x86_64, NVIDIA GPU present
+
+== 2. package integrity
+   ok  every file matches SHA256SUMS and both OS accelerators are present
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 10.12.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+
+== 3. test kernel collection
+   ok  test collection holds all four kexts
+
+CHECK PASS (nothing changed)

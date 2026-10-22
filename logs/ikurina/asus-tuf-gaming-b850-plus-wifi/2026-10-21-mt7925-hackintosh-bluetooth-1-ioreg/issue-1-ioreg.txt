@@ -1,0 +1,41 @@
+No variant specified, falling back to release
+  167    0 0xffffff8004b89000 0x79000    0x79000    org.watchthelight.MtkBt (0.2.2) UUID-1 <38 7 6 3>
++-o MtkBt  <class MtkBt, id 0x100000591, registered, matched, active, busy 0 (0 ms), retain 5>
+      "MtkBtElapsedMs" = 4835
+      "MtkBtSectionsSent" = 1
+      "MtkBtTries" = 1
+      "MtkBtOpenTries" = 1
+      "MtkBtIntrPackets" = 0
+      "MtkBtState" = "error"
+      "MtkBtFwVersion" = 16896
+      "MtkBtFirmwareBytes" = 448367
+      "MtkBtSlpProt" = "was already bypassed"
+      "MtkBtVersion" = "0.2.2"
+      "MtkBtStep" = "done"
+      "MtkBtFirmwareBuild" = "20260813113236"
+      "MtkBtFwFlavor" = 0
+      "MtkBtSections" = 5
+      "MtkBtLastError" = "wmt op 6 flag 0: no event"
+      "MtkBtBlocksSent" = 166
+      "MtkBtBytesSent" = 41472
+      "MtkBtFirmware" = "mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin"
+      "CFBundleIdentifier" = "org.watchthelight.MtkBt"
+      "MtkBtChipId" = 31013
+      "MtkBtFirmwareHwSw" = 0
+      "MtkBtSectionsSkipped" = 2
+      "IOClass" = "MtkBt"
+      "CFBundleIdentifierKernel" = "org.watchthelight.MtkBt"
+      "MtkBtFirmwareSha256" = "be7c18e37221e277baaef853be3a0ba930138ee879f336ff7b185e79ab09a5c9"
+      "MtkBtEndpoints" = "intr-in 81 bulk-in 82 bulk-out 02"
+      "MtkBtLog" = "chip 7925 fw_ver 00004200 flavor 0;slpprot before download: 18100006 -> 18100006;section 0: already loaded;section 1: already loaded;section 2: 41472 bytes in 166 blocks;slpprot after activation: 18100006 -> 18100006;wmt op 6 flag 0: no event;failed in 4835 ms, 0 interrupt packets dropped;"
+Bluetooth:
+
+      Bluetooth Controller:
+          Address: NULL
+          State: Off
+          Chipset: BCM_4350C2
+          Discoverable: Off
+          Firmware Version: v0 c0
+          Supported services: 0x392039 < HFP AVRCP A2DP HID Braille LEA AACP GATT SerialPort >
+          Transport: UART
+          Vendor ID: 0x004C (Apple)

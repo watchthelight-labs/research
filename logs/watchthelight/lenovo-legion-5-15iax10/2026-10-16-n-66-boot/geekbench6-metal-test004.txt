@@ -1,0 +1,11 @@
+# Geekbench 6.7.1 for macOS AVX2, Metal, uploaded 2026-10-16 16:40 UTC (Bash's "Test 004", N-66 boot: NvGfx 2.1.0-nvgfx.1 =
+# shipped NullMoth 2.1.0 kernel side + our plugin f65a6af, nvrm610.conf NVMTL_NO_FBFETCH=1, flips on)
+Metal Score         95373   (001 2.0.2 copy 98094; 002 2.0.2 flips 96975; 003 2.1.0 stock 94097)
+Background Blur     35967   148.9 images/sec
+Face Detection      33830   110.4 images/sec
+Horizon Detection  129459   4.03 Gpixels/sec
+Edge Detection     163212   6.05 Gpixels/sec
+Gaussian Blur       86808   3.78 Gpixels/sec
+Feature Matching    25186   992.9 Mpixels/sec
+Stereo Matching    482120   458.3 Gpixels/sec
+Particle Physics   252610

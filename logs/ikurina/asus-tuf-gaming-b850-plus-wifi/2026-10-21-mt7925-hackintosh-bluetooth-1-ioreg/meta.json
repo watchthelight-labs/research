@@ -1,0 +1,21 @@
+{
+ "collected": "2026-10-21",
+ "component": "",
+ "files": {
+  "issue-1-ioreg.txt": "3bf545f9235c2cddc0c7cce3a0e94e9a9cff58fb551f330caffc60c314ab6e59"
+ },
+ "issue_title": "bluetooth turnoff in few second",
+ "kexts": {},
+ "machine": "asus-tuf-gaming-b850-plus-wifi",
+ "macos_build": "25G241",
+ "opencore": "",
+ "project": "mt7925-hackintosh-bluetooth",
+ "redaction": {
+  "replaced": {
+   "UUID": 1
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "https://github.com/watchthelight-labs/mt7925-hackintosh-bluetooth/issues/1",
+ "username": "ikurina"
+}

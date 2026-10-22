@@ -1,0 +1,3 @@
+Current CD clock frequency: 480000 kHz
+Max CD clock frequency: 652800 kHz
+Max pixel clock frequency: 1305600 kHz

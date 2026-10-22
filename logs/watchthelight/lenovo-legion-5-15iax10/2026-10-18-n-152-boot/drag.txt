@@ -1,0 +1,5 @@
+N-152 2.3.5-nvgfx.5 run1 flips/s=11 presents/s=11
+N-152 2.3.5-nvgfx.5 run2 flips/s=11 presents/s=11
+N-152 2.3.5-nvgfx.5 finder run1 flips/s=59 presents/s=59
+N-152 2.3.5-nvgfx.5 finder run2 flips/s=61 presents/s=62
+N-152 2.3.5-nvgfx.5 finder run3 flips/s=61 presents/s=61

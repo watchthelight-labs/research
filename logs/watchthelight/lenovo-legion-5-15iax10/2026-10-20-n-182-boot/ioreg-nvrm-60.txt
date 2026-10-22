@@ -1,0 +1,124 @@
++-o NVRM  <class NVRM, id 0x1000005d8, registered, matched, active, busy 1 (4054 ms), retain 16>
+  | {
+  |   "IOClass" = "NVRM"
+  |   "CFBundleIdentifier" = "com.nullmoth.NVRM"
+  |   "IOProviderClass" = "IOPCIDevice"
+  |   "nvrm-bars" = "bar0@0x10:0x80000000+0x4000000 bar1@0x14:0x3fc00000000+0x200000000 bar2@0x1c:0x3fe00000000+0x2000000 "
+  |   "IOPCIClassMatch" = "0x03000000&0xff000000"
+  |   "IOUserClientClass" = "NVRMUserClient"
+  |   "nvrm-boot-hold" = "holding"
+  |   "IOProbeScore" = 1000
+  |   "nvrm-autogo-settle-ms" = 500
+  |   "IOPowerManagement" = {"ChildrenPowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=32770,"MaxPowerState"=1,"DriverPowerState"=1}
+  |   "IOMatchCategory" = "IODefaultMatchCategory"
+  |   "nvrm-pm" = "running"
+  |   "nvrm-boot-raster" = "head0 165.000Hz"
+  |   "nvrm-kext-version" = "0.1"
+  |   "IOPersonalityPublisher" = "com.nullmoth.NVRM"
+  |   "IOPCIPrimaryMatch" = "0x000010de&0x0000ffff"
+  |   "CFBundleIdentifierKernel" = "com.nullmoth.NVRM"
+  |   "nvrm-autogo" = "up"
+  | }
+  | 
+  +-o NVRMDisplay  <class NVRMDisplay, id 0x10000064a, registered, matched, active, busy 0 (273 ms), retain 7>
+  | | {
+  | |   "gpu-id" = 512
+  | |   "fb-index" = 0
+  | |   "connected-displays" = 1
+  | |   "phys-for-va" = 18446743522506649120
+  | |   "nvkms-kapi" = 18446743522521417320
+  | | }
+  | | 
+  | +-o NVRMFramebuffer  <class NVRMNVDAFramebuffer, id 0x10000064b, registered, matched, active, busy 0 (1 ms), retain 19>
+  |   | {
+  |   |   "IOClass" = "NVRMNVDAFramebuffer"
+  |   |   "CFBundleIdentifier" = "com.nullmoth.NVRMFB"
+  |   |   "IOProviderClass" = "NVRMDisplay"
+  |   |   "IOPMStrictTreeOrder" = Yes
+  |   |   "IOPowerManagement" = {"CurrentPowerState"=1,"CapabilityFlags"=32768,"ChildProxyPowerState"=1,"MaxPowerState"=1}
+  |   |   "NVRMTiming" = <0100354bf034a72e000a0000500a0000700a0000a00a000040060000860600008e060000d0060000888402000000000001000000>
+  |   |   "IOFBDependentIndex" = 0
+  |   |   "IOProbeScore" = 1000
+  |   |   "IOCFPlugInTypes" = {"UUID-189"="IOAccelerator2D.plugin"}
+  |   |   "IOAccelTypes" = "IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/RP01@6/IOPP/GFX0@0/NVAccel"
+  |   |   "IOMatchCategory" = "IODefaultMatchCategory"
+  |   |   "IOFBDependentID" = 5644789673621454849
+  |   |   "IOFBTimingRange" = <000000000000000000000000000000000000000000000000000000000000000040787d0100000000008c8647000000000000000001000000000000000100000017000000f40100001027000040420f0000400000004000000000000000000000010101010101010101010101010100004001000000200000000000000020000000000000002000000100000000200000c800000000200000000000000020000000000000002000000100000000200000000000000000000000000000000000000000000000000000000000000000000001000000a8610000804f12000000000000000000010002000300010000000000>
+  |   |   "IOPersonalityPublisher" = "com.nullmoth.NVRMFB"
+  |   |   "IOAccelRevision" = 2
+  |   |   "CFBundleIdentifierKernel" = "com.nullmoth.NVRMFB"
+  |   |   "IOFBMemorySize" = 8589934592
+  |   |   "IOFBScalerInfo" = <000000000000000000000000000000000600000000140000800c00000000000000000000000000000000000000000000>
+  |   |   "IOAccelIndex" = 0
+  |   | }
+  |   | 
+  |   +-o backlight  <class NVRMBacklightHandler, id 0x10000064c, registered, matched, active, busy 0 (0 ms), retain 6>
+  |   |   {
+  |   |   }
+  |   |   
+  |   +-o AppleMCCSControlModule  <class AppleMCCSControlModule, id 0x10000064e, registered, matched, active, busy 0 (0 ms), retain 7>
+  |   | | {
+  |   | |   "IOProbeScore" = 0
+  |   | |   "CFBundleIdentifier" = "com.apple.driver.AppleMCCSControl"
+  |   | |   "IOMatchCategory" = "AppleMCCSControlFamily"
+  |   | |   "IOClass" = "AppleMCCSControlModule"
+  |   | |   "IOPersonalityPublisher" = "com.apple.driver.AppleMCCSControl"
+  |   | |   "IOKitDebug" = 0
+  |   | |   "IOProviderClass" = "IOFramebuffer"
+  |   | |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleMCCSControl"
+  |   | |   "IOUserClientClass" = "AppleMCCSUserClient"
+  |   | |   "IOResourceMatch" = "IOKit"
+  |   | | }
+  |   | | 
+  |   | +-o AppleMCCSParameterHandler  <class AppleMCCSParameterHandler, id 0x100000650, registered, matched, active, busy 0 (0 ms), retain 5>
+  |   |     {
+  |   |       "IOProbeScore" = 0
+  |   |       "CFBundleIdentifier" = "com.apple.driver.AppleMCCSControl"
+  |   |       "IOMatchCategory" = "IODisplayParameters"
+  |   |       "IOClass" = "AppleMCCSParameterHandler"
+  |   |       "IOPersonalityPublisher" = "com.apple.driver.AppleMCCSControl"
+  |   |       "IOKitDebug" = 0
+  |   |       "AppleMCCSFeatures" = 1
+  |   |       "IOProviderClass" = "AppleMCCSControlFamily"
+  |   |       "CFBundleIdentifierKernel" = "com.apple.driver.AppleMCCSControl"
+  |   |       "IOResourceMatch" = "IOKit"
+  |   |     }
+  |   |     
+  |   +-o AppleUpstreamUserClientDriver  <class AppleUpstreamUserClientDriver, id 0x10000064f, registered, matched, active, busy 0 (0 ms), retain 5>
+  |       {
+  |         "IOProbeScore" = 0
+  |         "CFBundleIdentifier" = "com.apple.driver.AppleUpstreamUserClient"
+  |         "IOMatchCategory" = "AppleUpstreamUserClientDriver"
+  |         "IOClass" = "AppleUpstreamUserClientDriver"
+  |         "IOPersonalityPublisher" = "com.apple.driver.AppleUpstreamUserClient"
+  |         "IOProviderClass" = "IOFramebuffer"
+  |         "CFBundleIdentifierKernel" = "com.apple.driver.AppleUpstreamUserClient"
+  |         "IOUserClientClass" = "AppleUpstreamUserClient"
+  |         "IOResourceMatch" = "IOKit"
+  |       }
+  |       
+  +-o NVRMDisplay  <class NVRMDisplay, id 0x100000652, registered, matched, active, busy 0 (0 ms), retain 6>
+  |   {
+  |     "gpu-id" = 512
+  |     "fb-index" = 1
+  |     "phys-for-va" = 18446743522506649120
+  |     "nvkms-kapi" = 18446743522521417320
+  |   }
+  |   
+  +-o NVRMDisplay  <class NVRMDisplay, id 0x100000653, registered, matched, active, busy 0 (0 ms), retain 6>
+  |   {
+  |     "gpu-id" = 512
+  |     "fb-index" = 2
+  |     "phys-for-va" = 18446743522506649120
+  |     "nvkms-kapi" = 18446743522521417320
+  |   }
+  |   
+  +-o NVRMDisplay  <class NVRMDisplay, id 0x100000654, registered, matched, active, busy 0 (0 ms), retain 6>
+      {
+        "gpu-id" = 512
+        "fb-index" = 3
+        "phys-for-va" = 18446743522506649120
+        "nvkms-kapi" = 18446743522521417320
+      }
+      
+

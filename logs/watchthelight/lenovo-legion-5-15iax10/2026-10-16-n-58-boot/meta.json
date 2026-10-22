@@ -1,0 +1,24 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "camera.txt": "3a06919c14e194babf909e49444c5054a1ee6496cfc647aa63178b6d00dabdbf",
+  "nullmoth-sentinel.txt": "ce230342a36e8ce984c870b4400a2f8306dc63c486104fc37ffc78633566d09e",
+  "opencore-2026-10-16-134026.txt": "8cd808a041c280d518ca7e3882bb1511953ae582a36071026fd93b6e8d173b2f",
+  "panic-2026-10-16-0630-previous-boot.panic": "fe33a6c99f391dd52b727be6fa434e30f897a95a24c5223607c68959969768d3",
+  "usb-devices.txt": "c452b4e596be502d0c1f52f0ff45ed22444bcc79e7e3220806f924f792ec8d6c"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "24H32",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 157
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-58",
+ "username": "watchthelight"
+}

@@ -1,0 +1,14 @@
+1.845 console 0x70800000 (2560x1600 rowBytes 10240) is DSM+0x0: added as device memory 2 for IONDRVFramebuffer
+6.917 console 0x70800000 already in range 2
+45.421 /_SB/PC00/RP01@60000 LDIS(0 args) -> 0x0 result 0x1
+45.446 /_SB/PC00/RP01@60000 PSTA(0 args) -> 0x0 result 0x0
+45.469 /_SB/WDGO DGI4(0 args) -> 0x0 result 0xff
+45.493 NVIDIA GPU on PCI: no
+53.108 /_SB/WDGO DGON(0 args) -> 0x0 result 0x3
+53.127 /_SB/WDGO DGI4(0 args) -> 0x0 result 0x1
+53.146 /_SB/PC00/RP01@60000 PSTA(0 args) -> 0x0 result 0x1
+53.163 /_SB/PC00/RP01@60000 LDIS(0 args) -> 0x0 result 0x1
+53.182 /_SB/PC00/RP01@60000 LASX(0 args) -> 0x0 result 0x0
+53.200 /_SB/PC00/RP01@60000/PXSX@0 NVID(0 args) -> 0x0 result 0xffff
+53.219 NVIDIA GPU on PCI: no
+

@@ -1,0 +1,31 @@
+    | +-o io-apic@fec00000  <class IOACPIPlatformDevice, id 0x10000017b, registered, matched, active, busy 0 (21 ms), retain 7>
+    | | | {
+    | | |   "Physical Address" = 18446744073688580096
+    | | |   "Vector Limit" = 112
+    | | |   "InterruptControllerName" = "io-apic-0"
+    | | |   "Destination APIC ID" = 0
+    | | |   "Base Vector Number" = 64
+    | | |   "IOInterruptControllers" = ("IOPlatformInterruptController")
+    | | |   "IOInterruptSpecifiers" = (<00000000>)
+    | | |   "APIC ID" = 2
+    | | | }
+    | | | 
+    | | +-o AppleAPICInterruptController  <class AppleAPICInterruptController, id 0x1000001d6, registered, matched, active, busy 0 (0 ms), retain 9>
+    | |     {
+    | |       "IOClass" = "AppleAPICInterruptController"
+    | |       "CFBundleIdentifier" = "com.apple.driver.AppleAPIC"
+    | |       "IOProviderClass" = "IOPlatformDevice"
+    | |       "IOProbeScore" = 0
+    | |       "IONameMatch" = "io-apic"
+    | |       "IOMatchedAtBoot" = Yes
+    | |       "IOMatchCategory" = "IODefaultMatchCategory"
+    | |       "Base Vector Number" = 64
+    | |       "Vector Count" = 48
+    | |       "IONameMatched" = "io-apic"
+    | |       "IOPersonalityPublisher" = "com.apple.driver.AppleAPIC"
+    | |       "CFBundleIdentifierKernel" = "com.apple.driver.AppleAPIC"
+    | |     }
+    | |     
+    | +-o AppleACPIEventController  <class AppleACPIEventController, id 0x1000001d7, !registered, !matched, active, busy 0, retain 6>
+    | |   {
+    | |     "InterruptControllerName" = "ACPIEventController"

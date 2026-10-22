@@ -1,0 +1,18 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "dirty-nores.txt": "fbd902d2bdd12dd50fae5c378803525218876eb721a7576637c520d25ab14b6e"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-71",
+ "username": "watchthelight"
+}

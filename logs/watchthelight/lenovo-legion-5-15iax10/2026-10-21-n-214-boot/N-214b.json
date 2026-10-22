@@ -1,0 +1,13 @@
+{
+ "id": "N-214b",
+ "started": 1792594759.967295,
+ "result": "pass",
+ "reason": "stages 1-3 passed, WindowServer stable 60 s",
+ "results": [
+  0,
+  1,
+  1,
+  1,
+  0
+ ]
+}

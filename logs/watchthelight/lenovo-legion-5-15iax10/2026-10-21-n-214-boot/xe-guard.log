@@ -1,0 +1,14 @@
+2026-10-21 10:56:41 N-214a: running {"id": "N-214a", "stages": 2, "wdog": 60, "settle": 60}
+2026-10-21 10:56:41 N-214a: kmutil load rc=0 
+2026-10-21 10:56:41 N-214a: stage 1 start
+2026-10-21 10:59:19 N-214b: running {"id": "N-214b", "stages": 3, "wdog": 120, "settle": 60}
+2026-10-21 10:59:20 N-214b: stage 2 start
+2026-10-21 10:59:21 N-214b: stage 2 rc=0 result=1 progress=23
+2026-10-21 10:59:21 N-214b: stage 3 start
+2026-10-21 10:59:23 N-214b: stage 3 rc=0 result=1 progress=30
+2026-10-21 11:00:25 N-214b: pass: stages 1-3 passed, WindowServer stable 60 s
+2026-10-21 11:00:25 N-214c: running {"id": "N-214c", "stages": 4, "env": "compat.linuxkpi.i915_disable_display=1", "wdog": 180, "settle": 120, "reboot_on_fail": 1}
+2026-10-21 11:00:25 N-214c: stage 4 start
+2026-10-21 11:00:27 N-214c: stage 4 rc=0 result=1 progress=40
+2026-10-21 11:02:29 N-214c: pass: stages 1-4 passed, WindowServer stable 120 s
+2026-10-21 11:02:29 queue empty

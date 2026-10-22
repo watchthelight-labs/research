@@ -1,0 +1,1780 @@
+== 2026-10-17 20:23:56.580 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:56.584 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:56.585 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:56.586 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:56.590 tex 0x7fc49d9198a0 54x54 bpp 4
+......................................................
+......................................................
+..............                          ..............
+...........                                ...........
+.........                                    .........
+........                                      ........
+.......                                        .......
+......                                          ......
+.....                                            .....
+....                                              ....
+...                                                ...
+..                                                  ..
+..                                                  ..
+.                                                    .
+.                                                    .
+.                                                    .
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+== 2026-10-17 20:23:58.123 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.124 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.125 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.126 tex 0x7fc4de52ee80 59x59 bpp 4
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+                                                           
+== 2026-10-17 20:23:58.127 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.127 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.128 tex 0x7fc4cd506200 27x27 bpp 1
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+        ...:..             
+       .:-==--:.           
+      .-=+***+=:.          
+     .-+*#%%%#+=:          
+     :=*%@@@@%#+-.         
+    .:+#%@@@@@%*-.         
+    .-+#@@@@@@%*=:         
+    .-+#@@@@@@%*=:         
+    .:=#%@@@@@#*-.         
+     .-+#%@@%%*=:.         
+     .:=+*###*+-.          
+      .:-=+++=-.           
+       ..::-::.            
+          ...              
+                           
+                           
+                           
+                           
+== 2026-10-17 20:23:58.128 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.129 tex 0x7fc4cd5067b0 41x41 bpp 1
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+              .......                    
+            .:::---:::.                  
+          .:--=+++++=--:.                
+         .:-=+*#####*+=-:.               
+        .:=+*#%%%%%%%#*+=:.              
+       .:=+#%%@@@@@@@%%#+=:.             
+      .:=+#%@@@@@@@@@@@%#+=:.            
+      .-+#%@@@@@@@@@@@@@%#+-.            
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#@@@@@@@@@@@@@@@@@#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+      .-+#%@@@@@@@@@@@@@%#+-.            
+      .:=+#%@@@@@@@@@@@%#+=:.            
+       .:=+#%%@@@@@@@%%#+=:.             
+        .:=+*#%%%%%%%#*+=:.              
+         .:-=+*#####*+=-:.               
+          .:--=+++++=--:.                
+            .:::---:::.                  
+              .......                    
+                                         
+                                         
+                                         
+                                         
+                                         
+== 2026-10-17 20:23:58.129 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.130 tex 0x7fc4cd5067b0 41x41 bpp 1
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+              .......                    
+            .:::---:::.                  
+          .:--=+++++=--:.                
+         .:-=+*#####*+=-:.               
+        .:=+*#%%%%%%%#*+=:.              
+       .:=+#%%@@@@@@@%%#+=:.             
+      .:=+#%@@@@@@@@@@@%#+=:.            
+      .-+#%@@@@@@@@@@@@@%#+-.            
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#@@@@@@@@@@@@@@@@@#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+      .-+#%@@@@@@@@@@@@@%#+-.            
+      .:=+#%@@@@@@@@@@@%#+=:.            
+       .:=+#%%@@@@@@@%%#+=:.             
+        .:=+*#%%%%%%%#*+=:.              
+         .:-=+*#####*+=-:.               
+          .:--=+++++=--:.                
+            .:::---:::.                  
+              .......                    
+                                         
+                                         
+                                         
+                                         
+                                         
+== 2026-10-17 20:23:58.130 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.131 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.132 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.132 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.133 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.133 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.134 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.134 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.135 tex 0x7fc4cd506200 27x27 bpp 1
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+        ...:..             
+       .:-==--:.           
+      .-=+***+=:.          
+     .-+*#%%%#+=:          
+     :=*%@@@@%#+-.         
+    .:+#%@@@@@%*-.         
+    .-+#@@@@@@%*=:         
+    .-+#@@@@@@%*=:         
+    .:=#%@@@@@#*-.         
+     .-+#%@@%%*=:.         
+     .:=+*###*+-.          
+      .:-=+++=-.           
+       ..::-::.            
+          ...              
+                           
+                           
+                           
+                           
+== 2026-10-17 20:23:58.135 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.136 tex 0x7fc4cd5067b0 41x41 bpp 1
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+              .......                    
+            .:::---:::.                  
+          .:--=+++++=--:.                
+         .:-=+*#####*+=-:.               
+        .:=+*#%%%%%%%#*+=:.              
+       .:=+#%%@@@@@@@%%#+=:.             
+      .:=+#%@@@@@@@@@@@%#+=:.            
+      .-+#%@@@@@@@@@@@@@%#+-.            
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#@@@@@@@@@@@@@@@@@#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+      .-+#%@@@@@@@@@@@@@%#+-.            
+      .:=+#%@@@@@@@@@@@%#+=:.            
+       .:=+#%%@@@@@@@%%#+=:.             
+        .:=+*#%%%%%%%#*+=:.              
+         .:-=+*#####*+=-:.               
+          .:--=+++++=--:.                
+            .:::---:::.                  
+              .......                    
+                                         
+                                         
+                                         
+                                         
+                                         
+== 2026-10-17 20:23:58.136 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.137 tex 0x7fc4cd5067b0 41x41 bpp 1
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+              .......                    
+            .:::---:::.                  
+          .:--=+++++=--:.                
+         .:-=+*#####*+=-:.               
+        .:=+*#%%%%%%%#*+=:.              
+       .:=+#%%@@@@@@@%%#+=:.             
+      .:=+#%@@@@@@@@@@@%#+=:.            
+      .-+#%@@@@@@@@@@@@@%#+-.            
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#@@@@@@@@@@@@@@@@@#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+      .-+#%@@@@@@@@@@@@@%#+-.            
+      .:=+#%@@@@@@@@@@@%#+=:.            
+       .:=+#%%@@@@@@@%%#+=:.             
+        .:=+*#%%%%%%%#*+=:.              
+         .:-=+*#####*+=-:.               
+          .:--=+++++=--:.                
+            .:::---:::.                  
+              .......                    
+                                         
+                                         
+                                         
+                                         
+                                         
+== 2026-10-17 20:23:58.137 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.138 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.139 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.139 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.142 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.143 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.143 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.144 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.145 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.145 tex 0x7fc4cd506200 27x27 bpp 1
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+        ...:..             
+       .:-==--:.           
+      .-=+***+=:.          
+     .-+*#%%%#+=:          
+     :=*%@@@@%#+-.         
+    .:+#%@@@@@%*-.         
+    .-+#@@@@@@%*=:         
+    .-+#@@@@@@%*=:         
+    .:=#%@@@@@#*-.         
+     .-+#%@@%%*=:.         
+     .:=+*###*+-.          
+      .:-=+++=-.           
+       ..::-::.            
+          ...              
+                           
+                           
+                           
+                           
+== 2026-10-17 20:23:58.146 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.146 tex 0x7fc4cd5067b0 41x41 bpp 1
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+              .......                    
+            .:::---:::.                  
+          .:--=+++++=--:.                
+         .:-=+*#####*+=-:.               
+        .:=+*#%%%%%%%#*+=:.              
+       .:=+#%%@@@@@@@%%#+=:.             
+      .:=+#%@@@@@@@@@@@%#+=:.            
+      .-+#%@@@@@@@@@@@@@%#+-.            
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#@@@@@@@@@@@@@@@@@#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+      .-+#%@@@@@@@@@@@@@%#+-.            
+      .:=+#%@@@@@@@@@@@%#+=:.            
+       .:=+#%%@@@@@@@%%#+=:.             
+        .:=+*#%%%%%%%#*+=:.              
+         .:-=+*#####*+=-:.               
+          .:--=+++++=--:.                
+            .:::---:::.                  
+              .......                    
+                                         
+                                         
+                                         
+                                         
+                                         
+== 2026-10-17 20:23:58.147 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.147 tex 0x7fc4cd5067b0 41x41 bpp 1
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+              .......                    
+            .:::---:::.                  
+          .:--=+++++=--:.                
+         .:-=+*#####*+=-:.               
+        .:=+*#%%%%%%%#*+=:.              
+       .:=+#%%@@@@@@@%%#+=:.             
+      .:=+#%@@@@@@@@@@@%#+=:.            
+      .-+#%@@@@@@@@@@@@@%#+-.            
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#@@@@@@@@@@@@@@@@@#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+      .-+#%@@@@@@@@@@@@@%#+-.            
+      .:=+#%@@@@@@@@@@@%#+=:.            
+       .:=+#%%@@@@@@@%%#+=:.             
+        .:=+*#%%%%%%%#*+=:.              
+         .:-=+*#####*+=-:.               
+          .:--=+++++=--:.                
+            .:::---:::.                  
+              .......                    
+                                         
+                                         
+                                         
+                                         
+                                         
+== 2026-10-17 20:23:58.147 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.148 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.149 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.165 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.166 tex 0x7fc4cd5067b0 41x41 bpp 1
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+                                         
+              .......                    
+            .:::---:::.                  
+          .:--=+++++=--:.                
+         .:-=+*#####*+=-:.               
+        .:=+*#%%%%%%%#*+=:.              
+       .:=+#%%@@@@@@@%%#+=:.             
+      .:=+#%@@@@@@@@@@@%#+=:.            
+      .-+#%@@@@@@@@@@@@@%#+-.            
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#@@@@@@@@@@@@@@@@@#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .-+#%@@@@@@@@@@@@@@@%#+-.           
+     .:=*%@@@@@@@@@@@@@@@%*=:.           
+     .:=*#@@@@@@@@@@@@@@@#*=:.           
+      .-+#%@@@@@@@@@@@@@%#+-.            
+      .:=+#%@@@@@@@@@@@%#+=:.            
+       .:=+#%%@@@@@@@%%#+=:.             
+        .:=+*#%%%%%%%#*+=:.              
+         .:-=+*#####*+=-:.               
+          .:--=+++++=--:.                
+            .:::---:::.                  
+              .......                    
+                                         
+                                         
+                                         
+                                         
+                                         
+== 2026-10-17 20:23:58.167 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.168 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB
+== 2026-10-17 20:23:58.170 tex 0x7fc45e9046a0 32x32 bpp 4
+BBB*R#B+BBRBBRBB=BR+R*BBRB+==RR+
+#RRB+R+R%BRRRB=R*-*=+R*R#+RRBB+R
+=+*+RBBR+R*B=RBRBRB*B+=RBBBR+@BB
+RBBR%*+RBBR=#R====-*%BBR+R+BR:RB
+R%RBR=RBRRB+B#BBRRBRRR*RB-R**RBR
+B=R=B*+*+B*R*RB+B#BBRB:+=BB+BB#*
+BRB+R%+RRRB+BR%+*R=+RB*BRR**+RBR
+-=B%R=B+BBRR+++R**R-R*+RRB++RBR#
+*R+*BBR#RRB=BRBB+BB#BB#=BBR#B*%=
+BB+*R*RRB*RRBR=R*R+R#+++RBR=RR+R
+R**=BBBR-BB-#+B*=%*+*RB*RB+BBBB%
+B*=*=**RB%*B@BRR#++RBB+*BRBRRR*R
+=*=+RBRRBRRRBRRBB*RBRR*=*B**BR+R
+RRB=+B=BB%B=R=BRBRR#R***+RB+BBBB
+=B=@RR-R+RBB*+-RB#BB-BR*@*=RR+R%
+B+*BBRBB*BR*RB+RR**R+#R*RB+BR*RR
+*=+RRBR=R*RBB=RBRB+RB+=BBR@+#B++
+R+R#B*RB##BRRR**BRRBBRRBR#BRRBBR
+BBBB=RB#RBR=B##*RB=RBRRB+RB*+RRB
+R#RRBBR%+R+%-BRB*+R-B-+BBR+BB+R#
+**R*+B%BRBBRRR#R+B%RR=*=#BRBRRBR
+RBB*#RRRRBR+B+B#*R+B+BRRRB=RB#B+
+R#RR-BRB@BRB+RBRB**#RB*BBR%B=R=R
+BRRBBR+B%RRBRRBRB*RBBRBRBRB+B*BB
+RBB+*++R+*B#=+=-R=BBRB=B*RBR*RB=
+B*R=RRBRBRB*RBB#R-+*RBRR%#*=BRBR
+R%*BB-***+R+=RBR+*R*BR++*R*BR=-#
+RR#=B@RRB*%R+*RR+BB#*BB-#BRRB*%B
+BB=+=*B@*R+B+BB#BR+R++RBRBRBRBRR
+*BR*RR*=BRRB+RR=BRB++BR+BB*B=*B+
+R*@BB%BR*BRB*#B%BB=BRB+#R+*R=RRB
+%RR-*R=%R*RBR*RRRRBBBRRB=*BRB*BB

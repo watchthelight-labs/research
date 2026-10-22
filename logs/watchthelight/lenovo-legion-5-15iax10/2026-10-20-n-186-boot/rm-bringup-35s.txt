@@ -1,0 +1,163 @@
+2026-10-20 10:25:51.196 Df kernel[0:98e] (NVRM) NVRM-xnu: boot screen: copied 2560x1600 pitch 16384 (25600 KB) from the console at 0x6018000000 in 5480 ms
+2026-10-20 10:25:51.196 Df kernel[0:98e] (NVRM) NVRM-xnu: bar1: Resizable BAR capability @0x134 says BAR1 = 64 MB (sizes supported mask 0x3fc0)
+2026-10-20 10:25:51.196 Df kernel[0:98e] (NVRM) NVRM-xnu: bar1: BAR1 is 64 MB; will resize it to 8192 MB
+2026-10-20 10:25:51.197 Df kernel[0:98e] (NVRM) NVRM-xnu: bar1: host bridge 64-bit window 0x6000000000-0x3ffbfffffff (ACPI _CRS), CPU reaches 42 bits
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: bar1: placing BAR1 8192 MB @0x3fc00000000, BAR3 32 MB @0x3fe00000000, root port window 0x3fc00000000-0x3fe01ffffff (was 0x1df11801 00000060/00000060)
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: bar1: resized BAR1 to 8192 MB
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: bar1: dropping stale aperture 0x601c000000+0x2000000
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: bar1: PLACED — BAR1 8192 MB live at 0x3fc00000000
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: BARS bar0@0x10:0x80000000+0x4000000 bar1@0x14:0x3fc00000000+0x200000000 bar2@0x1c:0x3fe00000000+0x2000000
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: armed on 02:00.0 10de:2d18
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: auto-go: go(2) in 500 ms on its own thread (BAR1 placed outside the console); registry held busy until the display is armed (cap settle + 40 s)
+2026-10-20 10:25:51.198 Df kernel[0:98e] (NVRM) NVRM-xnu: power management: joined the power tree under GFX0 (sleep = RM standby, wake = RM resume)
+2026-10-20 10:25:51.198 Df kernel[0:2a5] (NVRM) NVRM-xnu: power: setPowerState 1 (gpu running, adapter down) - nothing to do
+2026-10-20 10:25:51.948 Df kernel[0:b2e] (NVRM) NVRM-xnu: boot raster: head 0 vline wraps 41 moves 67356 max 1743 -> 165.001 Hz MEASURED | armed raster 2720x1744 pclk 782708000 Hz -> 165.000 Hz
+2026-10-20 10:25:52.199 Df kernel[0:b2e] (NVRM) NVRM-xnu: boot raster: head 1 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+2026-10-20 10:25:52.449 Df kernel[0:b2e] (NVRM) NVRM-xnu: boot raster: head 2 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 8x5 pclk 0 Hz -> 0.000 Hz
+2026-10-20 10:25:52.699 Df kernel[0:b2e] (NVRM) NVRM-xnu: boot raster: head 3 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+2026-10-20 10:25:52.699 Df kernel[0:b2e] (NVRM) NVRM-xnu: go(2) begins (fPassDone 0)
+2026-10-20 10:25:52.699 Df kernel[0:b2e] (NVRM) NVRM-xnu: go(pass 2) — done so far: 0
+2026-10-20 10:25:52.699 Df kernel[0:b2e] (NVRM) NVRM-xnu: anchor: os_mem_set runtime 0x<private> (slide = runtime - its nm link address)
+2026-10-20 10:25:52.699 Df kernel[0:b2e] (NVRM) NVRM-xnu: rm_init_rm()
+2026-10-20 10:25:52.699 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_is_chassis_notebook
+2026-10-20 10:25:52.699 Df kernel[0:b2e] (NVRM) NVRM-xnu: ACPI NVDA0820 -> NPCF
+2026-10-20 10:25:52.699 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: baseline taken (firmware) head0 SET_CONTROL 0x00000000 RASTER_SIZE 0x06d00aa0
+2026-10-20 10:25:52.699 Df kernel[0:b35] (NVRM) NVRM-xnu: headwatch: head 0 RUNNING at 111360 ms since boot (vline raw 0x4c07015e)
+2026-10-20 10:25:52.699 Df kernel[0:b35] (NVRM) NVRM-xnu: headwatch: head 1 RUNNING at 111360 ms since boot (vline raw 0x00000000)
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_platform_supports_s0ix
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: rm_init_rm OK
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: event locks created for the control device and the GPU
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: registry: PreserveVideoMemoryAllocations=1 (all VRAM survives system sleep)
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: rm_is_supported_device OK - this chip has a HAL and a GSP
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: rm_init_private_state()
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_requires_dma_remap
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_set_dma_address_size
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu:   dma address size 52 bits
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: rm_init_private_state OK
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: PASS 1 REACHED: RM initialised, private state built, GSP firmware requested
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu: bus master + memory enabled (command 0x0007)
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu:   interrupt source 0 type 0x1
+2026-10-20 10:25:52.706 Df kernel[0:b2e] (NVRM) NVRM-xnu:   interrupt source 1 type 0x10000 (MSI)
+2026-10-20 10:25:52.707 Df kernel[0:b2e] (NVRM) NVRM-xnu: MSI 1 armed; calling rm_init_adapter() — GSP boot from inside macOS
+2026-10-20 10:25:52.707 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_get_screen_info
+2026-10-20 10:25:52.707 Df kernel[0:b2e] (NVRM) NVRM-xnu: nv_get_screen_info -> base 0x6018000000 2560x1600 depth 32 pitch 16384 size 26214400
+2026-10-20 10:25:52.724 Df kernel[0:b35] (NVRM) NVRM-xnu: headwatch: head 1 STOPPED at 111385 ms since boot (vline raw 0x00000000)
+2026-10-20 10:25:59.146 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_get_firmware type=0 family=9 -> /Library/NullMoth/nvfw/nvidia/610.57.04/gsp_ga10x.bin
+2026-10-20 10:25:59.243 Df kernel[0:b2e] (NVRM) NVRM-xnu:   firmware loaded: 84310168 bytes
+2026-10-20 10:25:59.244 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_get_dev_minor
+2026-10-20 10:25:59.244 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_create_nano_timer
+2026-10-20 10:25:59.245 Df kernel[0:b2e] (NVRM) NVRM-xnu: PHYSMAP armed, selftest ok (2 hit, 3 miss)
+2026-10-20 10:25:59.245 Df kernel[0:b2e] (NVRM) NVRM-xnu: PV-SENTINEL REFUSED: the page-table sentinel is only in NVRM_PANIC_HUNT=1 builds
+2026-10-20 10:25:59.245 Df kernel[0:b2e] (NVRM) NVRM-xnu: WATCHPAGE armed, selftest ok (hit/miss/next-slot)
+2026-10-20 10:25:59.245 Df kernel[0:b2e] (NVRM) NVRM-xnu: QUARANTINE armed, selftest ok (count/clean/found/blind, whole+sampled)
+2026-10-20 10:25:59.245 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_alloc_kernel_mapping
+2026-10-20 10:25:59.248 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_get_disp_smmu_stream_ids
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: STUB os_get_acpi_rsdp_from_uefi
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_acpi_methods_init
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_acpi_dsm_method
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: GPU 02:00.0 ACPI node IOACPIPlane:/_SB/PC00/RP01@60000/PXSX@0
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: NBCI _DSM 0x0 -> 0x0 (4 B, first word 0x110001)
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: NVPCF _DSM 0x0 rev 0x200 in 8 B -> 0x0 (4 B, ioret 0x0)
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: NVPCF _DSM 0x0 rev 0x100 in 8 B -> 0x0 (4 B, ioret 0x0)
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_acpi_dod_method
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: _DOD -> 0x0, 6 display id(s)
+2026-10-20 10:25:59.250 Df kernel[0:b2e] (NVRM) NVRM-xnu: STUB nv_acpi_mux_method
+2026-10-20 10:25:59.251 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_free_kernel_mapping
+2026-10-20 10:26:00.450 Df kernel[0:b2e] (NVRM) NVRM-xnu: NBCI _DSM 0x10 -> 0x0 (1 B, first word 0x0)
+2026-10-20 10:26:26.681 Df kernel[0:b2e] (NVRM) NVRM-xnu: STUB os_cgroup_implementation
+2026-10-20 10:26:26.685 Df kernel[0:b2e] (NVRM) NVRM-xnu: STUB nv_get_device_memory_config
+2026-10-20 10:26:26.711 Df kernel[0:b2e] (NVRM) NVRM-xnu: NBCI _DSM 0x14 -> 0x0 (128 B, backlight table, first word 0x8000a450)
+2026-10-20 10:26:26.721 Df kernel[0:b2e] (NVRM) NVRM-xnu: STUB nv_acpi_ddc_method
+2026-10-20 10:26:26.915 Df kernel[0:b2e] (NVRM) NVRM-xnu: STUB os_cgroup_for_pid
+2026-10-20 10:26:27.412 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_free_pages
+2026-10-20 10:26:27.430 Df kernel[0:b2e] (NVRM) NVRM-xnu: STUB nv_start_rc_timer
+2026-10-20 10:26:27.439 Df kernel[0:b2e] (NVRM) NVRM-xnu: STUB nv_i2c_add_adapter
+2026-10-20 10:26:27.487 Df kernel[0:b2e] (NVRM) NVRM-xnu: >nv_put_firmware
+2026-10-20 10:26:27.491 Df kernel[0:b2e] (NVRM) NVRM-xnu: rm_init_adapter -> OK
+2026-10-20 10:26:27.491 Df kernel[0:b2e] (NVRM) NVRM-xnu: DMA buffers alive: 41
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump BOOT_0                                     @0x000000 = 0x1b6000a1
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_FALCON_MAILBOX0                       @0x110040 = 0x00000000
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_FALCON_MAILBOX1                       @0x110044 = 0x00000000
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_FALCON_HWCFG2(bit13=lockdown)         @0x1100f4 = 0x818787f7
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_FALCON_OS                             @0x110080 = 0x00000000
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_FALCON_IRQSTAT                        @0x110008 = 0x00000000
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_FALCON_ENGINE                         @0x1103c0 = 0xbadf5720
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump GSP_RISCV_CPUCTL(bit7=active,bit4=halted)  @0x111388 = 0x00000180
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump GSP_RISCV_BCR_CTRL                         @0x111668 = 0x00000011
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_MAILBOX(0)                            @0x110804 = 0x00d0314f
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_MAILBOX(1)                            @0x110808 = 0x00d0314f
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PGSP_QUEUE_HEAD(0)                         @0x110c00 = 0x00000000
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PFB_PRI_MMU_WPR2_ADDR_LO                   @0x1fa824 = 0x01ee4800
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump PFB_PRI_MMU_WPR2_ADDR_HI                   @0x1fa828 = 0x01fc2200
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: regdump GFW_BOOT_PROGRESS(scratch05_0)             @0x118234 = 0x00000000
+2026-10-20 10:26:27.644 Df kernel[0:b2e] (NVRM) NVRM-xnu: PASS 2 REACHED: the adapter is up — GSP-RM is running on the card under macOS
+2026-10-20 10:26:27.647 Df kernel[0:b2e] (NVRM) NVRM-xnu: published VRAM,totalsize=8546942976 bytes (RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB) from the card
+2026-10-20 10:26:27.649 Df kernel[0:b2e] (NVRM) NVRM-xnu: gpu profile: Blackwell GB206, 3d 0xce97 copy 0xcab5 nvenc 0xcfb7 nvdec 0xcfb0, BAR1 8192 MB of 8151 MB VRAM -> scanout static-bar1
+2026-10-20 10:26:27.649 Df kernel[0:b2e] (NVRM) NVRM-xnu: nvKmsModuleLoad -> 1
+2026-10-20 10:26:27.649 Df kernel[0:b2e] (NVRM) NVRM-xnu: NVKMS timers use serial ONCE worker; event callbacks ONCE at kernel priority
+2026-10-20 10:26:27.649 Df kernel[0:b2e] (NVRM) NVRM-xnu: nvKmsKapiProbe gpu_id 0x200
+2026-10-20 10:26:27.897 Df kernel[0:b8f] (NVRM) NVRM-xnu: backlight registered: gpu 0x200 display 0x200 at 100%
+2026-10-20 10:26:27.971 Df kernel[0:b8f] (NVRM) NVRM-xnu: boot screen: buffer released after the takeover
+2026-10-20 10:26:27.979 Df kernel[0:b2e] (NVRM) NVRM-xnu: nub 0 published first; its framebuffer started (waitQuiet 0x0) before nubs 1..3
+2026-10-20 10:26:27.979 Df kernel[0:b2e] (NVRM) NVRM-xnu: 4 NVRMDisplay nub(s) published (kapi <private>, nvfbheads=4) — NVRMFB.kext matches them
+2026-10-20 10:26:27.979 Df kernel[0:b2e] (NVRM) NVRM-xnu: nvgfx TGP mode manager armed (nvrmtgp=1), first check in 2000 ms
+2026-10-20 10:26:27.979 Df kernel[0:b2e] (NVRM) NVRM-xnu: auto-go: go(2) took 35280 ms (hold cap settle + 120 s)
+2026-10-20 10:26:27.979 Df kernel[0:b2e] (NVRM) NVRM-xnu: auto-go: go(2) -> 0x0 (fPassDone 2)
+2026-10-20 10:26:27.979 Df kernel[0:b2e] (NVRM) NVRM-xnu: auto-go: heads published mask 0x1 (1 of nvfbheads 4) after 0 s
+2026-10-20 10:26:27.988 Df kernel[0:b2e] (NVRM) NVRM-xnu: auto-go: accelerator level 1 took after 1 try, level 4 written
+2026-10-20 10:26:28.189 Df kernel[0:b2e] (NVRM) NVRM-xnu: auto-go: display stack: heads 0x1 accel 4 agdc 1 k5 1 iop 1
+2026-10-20 10:26:28.189 Df kernel[0:b2e] (NVRM) NVRM-xnu: boot hold RELEASED (display armed) — WindowServer's IOKitWaitQuiet may return
+2026-10-20 10:26:28.189 Df kernel[0:b2e] (NVRM) NVRM-xnu: auto-go: flip debug.nvaccel_iop_flip=1 (right after the release)
+2026-10-20 10:26:28.565 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1004 0x00000197 -> 0x00000000
+2026-10-20 10:26:28.565 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1010 0x00110a00 -> 0x10110000
+2026-10-20 10:26:28.565 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1014 0x00000003 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2060 0x00000003 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1080 0x0000000f -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1084 0x00000197 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1090 0x00100000 -> 0x10110000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x209c 0x000000e9 -> 0x000000cf
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1100 0x0000000f -> 0x00000001
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1104 0x00000197 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1110 0x00100000 -> 0x10110000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x215c 0x00000004 -> 0x019c2105
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2178 0x00000004 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1180 0x0000000f -> 0x00000001
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1184 0x00000197 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1190 0x00100000 -> 0x10110000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1200 0x0000000f -> 0x00000002
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1204 0x00000197 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1210 0x00100000 -> 0x10110000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2240 0x00000000 -> 0x00000001
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2244 0x00000000 -> 0x0000366c
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2248 0x00000000 -> 0x0000b718
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x224c 0x00000000 -> 0x0000127c
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2250 0x00000000 -> 0x00000020
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2254 0x00000000 -> 0x0000366c
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2258 0x00000000 -> 0x0000b718
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x225c 0x00000000 -> 0x0000127c
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2260 0x00000000 -> 0x00000020
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2264 0x00000000 -> 0x0000366c
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2268 0x00000000 -> 0x0000b718
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x226c 0x00000000 -> 0x0000127c
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2270 0x00000000 -> 0x00000020
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2280 0x00000000 -> 0x00040508
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1280 0x0000000f -> 0x00000002
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms HEAD0 +0x2284 0xcccccccc -> 0xffffffff
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1284 0x00000197 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1290 0x00100000 -> 0x10110000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1300 0x0000000f -> 0x00000003
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1304 0x00000197 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1310 0x00100000 -> 0x10110000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1380 0x0000000f -> 0x00000003
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1384 0x00000197 -> 0x00000000
+2026-10-20 10:26:28.566 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 147226 ms WIN    +0x1390 0x00100000 -> 0x10110000
+2026-10-20 10:26:28.593 Df kernel[0:b35] (NVRM) NVRM-xnu: headwatch: head 0 STOPPED at 147253 ms since boot (vline raw 0x00000000)
+2026-10-20 10:26:29.571 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 148231 ms WIN    +0x1304 0x00000000 -> 0x00000007
+2026-10-20 10:26:29.571 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 148231 ms WIN    +0x1310 0x10110000 -> 0x10110a16
+2026-10-20 10:26:29.571 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 148231 ms WIN    +0x1314 0x00000000 -> 0x00000001
+2026-10-20 10:26:29.572 Df kernel[0:b35] (NVRM) NVRM-xnu: armwatch: 148231 ms WIN    +0x1394 0x00000000 -> 0x00000002
+2026-10-20 10:26:29.578 Df kernel[0:431] (NVRM) NVRM-xnu: STUB nv_audio_dynamic_power
+2026-10-20 10:26:29.988 Df kernel[0:2a3] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC, enable 1) -> 0x0
+2026-10-20 10:26:29.988 Df kernel[0:2a3] (NVRM) NVRM-xnu: nvgfx TGP mode on (AC) -> 0x0

@@ -1,0 +1,13 @@
+# Geekbench 6 Metal, Bash's "Test 007", N-73 boot with runtime CONFIGURE_TGP_MODE(1): enforced limit 115 W
+# (NvGfx 2.1.0-nvgfx.8). Windows OpenCL on this laptop: 158,465 (evidence/windows/2026-10-16-geekbench).
+Metal Score        102689   (006 at 50 W: 98054, +4.7 %)   vs Windows OpenCL 158465: 65 %
+Background Blur     36390   150.6 images/sec   (006 35783, +1.7 %)
+Face Detection      38543   125.8 images/sec   (006 36685, +5.1 %)
+Horizon Detection  140397   4.37 Gpixels/sec   (006 138184, +1.6 %)
+Edge Detection     169852   6.30 Gpixels/sec   (006 162980, +4.2 %)
+Gaussian Blur       89705   3.91 Gpixels/sec   (006 87972, +2.0 %)
+Feature Matching    27370                      (006 26162, +4.6 %)
+Stereo Matching    514208                      (006 483651, +6.3 %)
+Particle Physics   292828                      (006 259675, +12.8 %)
+Reading: the sustained burn gained 46 % at 115 W, Geekbench only 4.7 %, so its short kernels are bound by the
+software path (submission, translation, NVK code), not GPU power.

@@ -1,0 +1,2 @@
+MtkWlan 0.11.0 7c28683322bc
+MtkWlanNative 0.2.0 82bac27b02b1

@@ -1,0 +1,21 @@
+{
+ "collected": "2026-10-17",
+ "component": "native",
+ "files": {
+  "check.txt": "f29322566479090f04cdf71652fe37537ec93c540b98908a03b1099702b69b15",
+  "label-target-passes.txt": "723895f87425700683cfc2685dc859a30e22096ef264840de67af3e3fb90fdbf",
+  "pass-n114-probe.txt": "0871cba7cb2a813d7fcbd504abc762ee8c081e212003307bac13ee06325b40ed",
+  "staged.txt": "f978de5ebf367b8e104feb236a072361780d0a0d1c8cf8bf06f722d3e2ab4dec"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-114",
+ "username": "watchthelight"
+}

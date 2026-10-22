@@ -1,0 +1,8 @@
+== plugin bca2ca123ef5; conf: 1 wstrace key(s)
+badge set 7
+trace ON 2026-10-17 20:41:37 (with alltex: full descriptors and small BGRA dumps)
+2026-10-17 20:41:38.609 badgeapp[1570:17327] HIToolbox: received notification of WindowServer event port death.
+2026-10-17 20:41:38.616 badgeapp[1570:17327] port matched the WindowServer port created in BindCGSToRunLoop
+2026-10-17 20:41:38.647 badgeapp[1570:17327] +[NSXPCSharedListener endpointForReply:withListenerName:replyErrorCode:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection interrupted
+Terminated: 15
+could not create image from display

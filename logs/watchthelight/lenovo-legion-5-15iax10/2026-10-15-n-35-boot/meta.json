@@ -1,0 +1,36 @@
+{
+ "collected": "2026-10-15",
+ "component": "native",
+ "files": {
+  "00-clock.txt": "eeae512639a3b2bb446ac3384517450baf8e46055e0b31a035c7a12f9158f064",
+  "captive-headers.txt": "233e123ac22260e6ac1679c6f41dc3fd4add134c8d6b3b898dcebdd8827dbe03",
+  "down.txt": "0f97309527e40cb116db04f418513ccc98d4542eaa26464efa0ca3c0f6e94dbf",
+  "mtkwlan-after.txt": "6032280a93d7b45037f88a25d856e78fa8631bd281eb8ccd9519daf8bbed0b27",
+  "mtkwlan.txt": "ba172d4730baeee633badb05c12de9cb084f04dc250246155d6a736b89b405a0",
+  "opencore-2026-10-15-165515.txt": "7a925c282c8f06141fd5bcee272c2283e3f30cd53263f05e8ac718864681e45e",
+  "ping-down.txt": "1a58a9d202f23fbfdabbf8dfc00186ee1fb46b497787fd848789e36b0c81b1a2",
+  "ping-idle.txt": "cedee11bd9eaa75380b6ed940c8bbb40a3307c9bd777d6671e9e0c3bee8279c0",
+  "ping-up.txt": "de1d49ed9a8b864a10c2feb71ad74d6f0c0c8321d2e3055db1c711c450d6e04c",
+  "ping.txt": "8816fd5e17c8223cc11a518c068f9043a2709f008ebfa40812d0810b0d46c657",
+  "routes.txt": "15c06b23f6402ea1f45daf3236323e39afd3dd4e1daf6a9ddae85559b8fb6701",
+  "up.txt": "fcd5064ca361f0e1bd4dcdbcb4fb7c1c1efd0ca81a08f34c75fe21d4188f5239",
+  "w6.txt": "4d020e8aca199a91f3622183ed8e77f48f4949b4a9e156ffd5c85d1ee2cbc0ed"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 79,
+   "MLB": 2,
+   "ROM": 2,
+   "SERIAL": 2,
+   "UUID": 38
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-35",
+ "username": "watchthelight"
+}

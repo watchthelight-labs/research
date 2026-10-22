@@ -1,0 +1,28 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "00-info.txt": "2e89caaaa4c7ee4b9a8a7d50b48f179eb50f8684ada835fce8ea42406d00f9ea",
+  "dmesg-nv.txt": "6fcbbf458a64e886b5491b3d0c81ee6f5f2f616f9cd6e2d9a74e2aa6dc2c41ef",
+  "log-nv-windowserver.txt": "22902dd52bcf0989dc5ce901fe75c3894572176e425688de83aff9873a1525f7",
+  "opencore-2026-10-16-045613.txt": "94a33675b56cb3ca941ce00428f25564c89e85911fe6fdbc8f4aa9cd9696c47e",
+  "sysctl-nv-300.txt": "8daadaca87cf36ae1cda1942769d2b1cc7f5d5f50b1c88a934132504230960d0",
+  "windowserver-crash-backtrace.txt": "7beb3be187ee6d8c75d55d5f8f398ec9d9949de48dc9ef32ec1a694cf3eb5c4d",
+  "ws-180.txt": "92f0ea610551fae7d6508d4d029b9c65329337fa0545d2eba1444cbc4837da4d",
+  "ws-20.txt": "92f0ea610551fae7d6508d4d029b9c65329337fa0545d2eba1444cbc4837da4d",
+  "ws-60.txt": "92f0ea610551fae7d6508d4d029b9c65329337fa0545d2eba1444cbc4837da4d"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "24H32",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 197
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-53",
+ "username": "watchthelight"
+}

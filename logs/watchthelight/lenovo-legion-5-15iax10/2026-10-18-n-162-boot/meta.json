@@ -1,0 +1,20 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "README-wifi.md": "b491dcd4c72a8fe641e7935af81836a665349c0b98be0f13e281b810a5525534"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 1
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-162",
+ "username": "watchthelight"
+}

@@ -1,0 +1,30 @@
++-o MtkWlan  <class MtkWlan, id 0x100000482, registered, matched, active, busy 0 (0 ms), retain 5>
+    {
+      "IOClass" = "MtkWlan"
+      "MtkPciCommand" = 6
+      "MtkBar0Size" = 2097152
+      "MtkDrvOwnTries" = 1
+      "IOMatchedAtBoot" = Yes
+      "MtkState" = "W1 pass: drv_own ok, chip 7925"
+      "IOProviderClass" = "IOPCIDevice"
+      "MtkPciCommandBefore" = 0
+      "MtkChipId" = 31013
+      "MtkBar0Phys" = 4294967296
+      "MtkHwRev" = 35328
+      "IOProbeScore" = 0
+      "MtkWfsysSwRst" = 17
+      "MtkConnOnMisc" = 3
+      "MtkAsicRevision" = 2032467968
+      "CFBundleIdentifierKernel" = "org.watchthelight.MtkWlan"
+      "IOPCIPrimaryMatch" = "0x792514c3"
+      "MtkLpctl" = 0
+      "IOMatchCategory" = "IODefaultMatchCategory"
+      "CFBundleIdentifier" = "org.watchthelight.MtkWlan"
+      "MtkLpctlBefore" = 4
+      "MtkFwOwnTries" = 1
+      "MtkBadAccess" = 0
+      "MtkMilestone" = "W1"
+      "MtkInterrupts" = "0:level 1:msi"
+    }
+    
+

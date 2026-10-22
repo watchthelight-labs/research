@@ -1,0 +1,60 @@
+2026-10-15 21:57:26.088 Df kernel[0:8b1] (NVAccel) NVAccel: registerService() called — Metal can now find MetalPluginName=NVMTLDriver
+2026-10-15 21:57:26.088 Df kernel[0:8b1] (NVAccel) NVAccel: registerService() called — Metal can now find MetalPluginName=NVMTLDriver
+2026-10-15 21:57:26.088 Df kernel[0:8b1] (NVAccel) NVAccel: headless check: armed for 60 s from now
+2026-10-15 21:57:26.088 Df kernel[0:8b1] (NVAccel) NVAccel: headless check: armed for 60 s from now
+2026-10-15 21:58:26.090 Df kernel[0:25c] (NVAccel) NVAccel: headless check: no NVIDIA display head after 60 s -- MetalPluginName restored WITHOUT arming: apps get the NVIDIA Metal device, WindowServer stays on the display's GPU (IONDRVFramebuffer)
+2026-10-15 21:58:26.090 Df kernel[0:25c] (NVAccel) NVAccel: headless check: no NVIDIA display head after 60 s -- MetalPluginName restored WITHOUT arming: apps get the NVIDIA Metal device, WindowServer stays on the display's GPU (IONDRVFramebuffer)
+2026-10-15 21:59:12.971 Df kernel[0:966] (NVRM) NVRM-xnu: boot hold RELEASED (display armed) — WindowServer's IOKitWaitQuiet may return
+2026-10-15 21:59:12.971 Df kernel[0:966] (NVRM) NVRM-xnu: boot hold RELEASED (display armed) — WindowServer's IOKitWaitQuiet may return
+2026-10-15 21:59:13.249 Df WindowServer[156:375] [com.apple.GPUWrangler:default] (reg) gpu 0xed3b flags 0x20 (DG) vid.did=10de.2d18 b:d:f=2:0:0 
+2026-10-15 22:00:04.959 Df WindowServer[156:375] (NVMTLDriver) NVMTL: NVMTLDevice +load in pid 156 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T22:00:04-0700
+2026-10-15 22:00:04.959 Df WindowServer[156:375] (NVMTLDriver) NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+2026-10-15 22:00:04.960 Df WindowServer[156:375] (NVMTLDriver) NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+2026-10-15 22:00:04.960 Df WindowServer[156:375] (NVMTLDriver) NVMTL: -[NVMTLDevice initWithAcceleratorPort:48167] in WindowServer
+2026-10-15 22:00:04.962 Df WindowServer[156:375] (NVMTLDriver) NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+2026-10-15 22:00:04.963 Df WindowServer[156:375] (NVMTLDriver) NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+2026-10-15 22:00:04.963 Df WindowServer[156:375] (NVMTLDriver) NVMTL:   not allow-listed: no device for WindowServer
+2026-10-15 22:00:05.120 Df WindowServer[444:d3d] [com.apple.GPUWrangler:default] (reg) gpu 0xed3b flags 0x20 (DG) vid.did=10de.2d18 b:d:f=2:0:0 
+2026-10-15 22:00:05.155 Df WindowServer[444:d3d] (NVMTLDriver) NVMTL: NVMTLDevice +load in pid 444 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T22:00:05-0700
+2026-10-15 22:00:05.156 Df WindowServer[444:d3d] (NVMTLDriver) NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+2026-10-15 22:00:05.156 Df WindowServer[444:d3d] (NVMTLDriver) NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+2026-10-15 22:00:05.156 Df WindowServer[444:d3d] (NVMTLDriver) NVMTL: -[NVMTLDevice initWithAcceleratorPort:45607] in WindowServer
+2026-10-15 22:00:05.157 Df WindowServer[444:d3d] (NVMTLDriver) NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+2026-10-15 22:00:05.157 Df WindowServer[444:d3d] (NVMTLDriver) NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+2026-10-15 22:00:05.157 Df WindowServer[444:d3d] (NVMTLDriver) NVMTL:   not allow-listed: no device for WindowServer
+2026-10-15 22:00:15.321 Df WindowServer[447:d84] [com.apple.GPUWrangler:default] (reg) gpu 0xed3b flags 0x20 (DG) vid.did=10de.2d18 b:d:f=2:0:0 
+2026-10-15 22:00:15.354 Df WindowServer[447:d84] (NVMTLDriver) NVMTL: NVMTLDevice +load in pid 447 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T22:00:15-0700
+2026-10-15 22:00:15.355 Df WindowServer[447:d84] (NVMTLDriver) NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+2026-10-15 22:00:15.355 Df WindowServer[447:d84] (NVMTLDriver) NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+2026-10-15 22:00:15.355 Df WindowServer[447:d84] (NVMTLDriver) NVMTL: -[NVMTLDevice initWithAcceleratorPort:62759] in WindowServer
+2026-10-15 22:00:15.355 Df WindowServer[447:d84] (NVMTLDriver) NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+2026-10-15 22:00:15.355 Df WindowServer[447:d84] (NVMTLDriver) NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+2026-10-15 22:00:15.355 Df WindowServer[447:d84] (NVMTLDriver) NVMTL:   not allow-listed: no device for WindowServer
+2026-10-15 22:00:25.520 Df WindowServer[451:de5] [com.apple.GPUWrangler:default] (reg) gpu 0xed3b flags 0x20 (DG) vid.did=10de.2d18 b:d:f=2:0:0 
+2026-10-15 22:00:25.555 Df WindowServer[451:de5] (NVMTLDriver) NVMTL: NVMTLDevice +load in pid 451 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T22:00:25-0700
+2026-10-15 22:00:25.555 Df WindowServer[451:de5] (NVMTLDriver) NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+2026-10-15 22:00:25.555 Df WindowServer[451:de5] (NVMTLDriver) NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+2026-10-15 22:00:25.556 Df WindowServer[451:de5] (NVMTLDriver) NVMTL: -[NVMTLDevice initWithAcceleratorPort:62503] in WindowServer
+2026-10-15 22:00:25.556 Df WindowServer[451:de5] (NVMTLDriver) NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+2026-10-15 22:00:25.556 Df WindowServer[451:de5] (NVMTLDriver) NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+2026-10-15 22:00:25.556 Df WindowServer[451:de5] (NVMTLDriver) NVMTL:   not allow-listed: no device for WindowServer
+2026-10-15 22:00:36.989 Df WindowServer[463:ead] [com.apple.GPUWrangler:default] (reg) gpu 0xed3b flags 0x20 (DG) vid.did=10de.2d18 b:d:f=2:0:0 
+2026-10-15 22:00:37.022 Df WindowServer[463:ead] (NVMTLDriver) NVMTL: NVMTLDevice +load in pid 463 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T22:00:37-0700
+2026-10-15 22:00:37.022 Df WindowServer[463:ead] (NVMTLDriver) NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+2026-10-15 22:00:37.023 Df WindowServer[463:ead] (NVMTLDriver) NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+2026-10-15 22:00:37.023 Df WindowServer[463:ead] (NVMTLDriver) NVMTL: -[NVMTLDevice initWithAcceleratorPort:45351] in WindowServer
+2026-10-15 22:00:37.023 Df WindowServer[463:ead] (NVMTLDriver) NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+2026-10-15 22:00:37.023 Df WindowServer[463:ead] (NVMTLDriver) NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+2026-10-15 22:00:37.023 Df WindowServer[463:ead] (NVMTLDriver) NVMTL:   not allow-listed: no device for WindowServer
+2026-10-15 22:00:47.185 Df WindowServer[465:ed2] [com.apple.GPUWrangler:default] (reg) gpu 0xed3b flags 0x20 (DG) vid.did=10de.2d18 b:d:f=2:0:0 
+2026-10-15 22:00:47.217 Df WindowServer[465:ed2] (NVMTLDriver) NVMTL: NVMTLDevice +load in pid 465 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T22:00:47-0700
+2026-10-15 22:00:47.218 Df WindowServer[465:ed2] (NVMTLDriver) NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+2026-10-15 22:00:47.218 Df WindowServer[465:ed2] (NVMTLDriver) NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)
+2026-10-15 22:00:47.218 Df WindowServer[465:ed2] (NVMTLDriver) NVMTL: -[NVMTLDevice initWithAcceleratorPort:46887] in WindowServer
+2026-10-15 22:00:47.218 Df WindowServer[465:ed2] (NVMTLDriver) NVMTL:   GPU vendor 10de (NVIDIA, NVK)
+2026-10-15 22:00:47.219 Df WindowServer[465:ed2] (NVMTLDriver) NVMTL:   headless GPU: no device for WindowServer (it composites on the GPU that owns the display)
+2026-10-15 22:00:47.219 Df WindowServer[465:ed2] (NVMTLDriver) NVMTL:   not allow-listed: no device for WindowServer
+2026-10-15 22:00:57.371 Df WindowServer[469:f4b] [com.apple.GPUWrangler:default] (reg) gpu 0xed3b flags 0x20 (DG) vid.did=10de.2d18 b:d:f=2:0:0 
+2026-10-15 22:00:57.402 Df WindowServer[469:f4b] (NVMTLDriver) NVMTL: NVMTLDevice +load in pid 469 (static class, image-owned) image UUID-188 /Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver at 2026-10-15T22:00:57-0700
+2026-10-15 22:00:57.402 Df WindowServer[469:f4b] (NVMTLDriver) NVMTL: NVMTLForward: forwarding net installed on 30 classes (was: log-then-abort on 20)
+2026-10-15 22:00:57.402 Df WindowServer[469:f4b] (NVMTLDriver) NVMTL: conf: 5 knob(s) read from /Library/GPUBundles/nvmtl/nvrm610.conf, 0 inherited conf knob(s) forgotten first (the environment still wins)

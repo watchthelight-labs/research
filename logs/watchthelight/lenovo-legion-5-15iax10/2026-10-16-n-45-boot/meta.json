@@ -1,0 +1,43 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "00-clock.txt": "5ebff94305e5192e4a47f86fc851476e101eff7989194827761f7298728cc304",
+  "captive-follow.txt": "55f71491e1abf8534acbc090033fc0a221d1e3d4099a7b46a74ebfdaa95bf2e8",
+  "captive-headers.txt": "c770ee30fbac34d6f8fadcd2dd12b76dd568f5ac9b1ee5998fbda1800425dc36",
+  "dhcp.txt": "aa0319dbaae8568a8c2170aa135b9a11885e958fffc1a9df9fd19d91b11ab5c5",
+  "dmesg.txt": "03f7a747158659908bf924300cca0c532cc68ee42afd17a059e633f6371da384",
+  "dns.txt": "a0da011f0d42775ec799cdea1e037769e8d35fb89e9e0c9b1a1ce0e9f49a9da4",
+  "down.txt": "535a4d70d229f3e026bfdba4afa8e45e8b319c811dbd8420479087ca752f7be7",
+  "i2cprobe.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ifconfig.txt": "093e5499cb9091653ed88c66cc2b1725d6332d1b1d47fdba2fcbb725dfdde93e",
+  "installed-os-state.txt": "3155242ff6e5501fc9f1db9ea2184d2192afe20143c94e5419f550fe5db10ded",
+  "kexts.txt": "d13048f37f06e63b80a107d0b5d70b0eff3e974f1d08ddd8d04352bcb9d8df72",
+  "mtkwlan-after.txt": "26c057c138986a6836a9a7c0e0d7c717efb775c7b2e5c9060dfddebeb4eaeceb",
+  "mtkwlan.txt": "75e939561aa5c707ac07489aa06f731a8c6dc475001d54a3df5229cd19ae26b3",
+  "opencore-2026-10-16-020739.txt": "c4d0b8ad4a1b17f8298e837f5d901d90400fb10621af2ddbf43376b03fd1723c",
+  "ping-down.txt": "0117048fbe4d7d5e318f417043a4bf90475abdc10bcfc9493d57cf44e1a25492",
+  "ping-idle.txt": "4c466e96edfc2a26671261a2ce31d79a8cfe49267486ae143f1dc0c0660801c4",
+  "ping-up.txt": "f853211cf9672b7e2da25d16a461736d0124ccc6efd50684f96e8fbd06a923cd",
+  "ping.txt": "f19ddb05e04ea3ac9c15aa096841c256e188b03b0c038b5eef446acff517d6e2",
+  "routes.txt": "11902f0e12da261c26b0a1e2c53035af73ee92486a8b791e01d48209869b9e36",
+  "rp08.txt": "809eb4c4f9a439cf2f698901e74614d9beaa7bd05426ac001015e0d2e38e1585",
+  "up.txt": "fc949352d421a525b117651979f5f035c9e7d0a9d94ba3d36d2af737a0c7282a",
+  "vtd.txt": "f43876eaa2a3a42bb4e84ebb83847203a8aaeb594b410df00d7a1089ea8f1030",
+  "w6.txt": "a97bfcd155964f44566424960b4624eb0c9fb1ae6d0b402f1c17a9963b148ce9"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "24H32",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 85,
+   "UUID": 197
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-45",
+ "username": "watchthelight"
+}

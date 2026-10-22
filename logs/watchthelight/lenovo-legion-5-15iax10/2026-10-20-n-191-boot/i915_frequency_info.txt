@@ -1,0 +1,13 @@
+PM MASK=0x80000000
+pm_intrmsk_mbz: 0x00000000
+RPSTAT1: 0x06331800
+RPNSWREQ: 550MHz
+Lowest (RPN) frequency: 550MHz
+Nominal (RP1) frequency: 550MHz
+Max non-overclocked (RP0) frequency: 1900MHz
+Current freq: 550 MHz
+Actual freq: 550 MHz
+Min freq: 550 MHz
+Boost freq: 1900 MHz
+Max freq: 1900 MHz
+efficient (RPe) frequency: 550 MHz

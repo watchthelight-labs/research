@@ -1,0 +1,133 @@
+[   50.769173]: NVRM-agdc: loaded; idle until `sysctl debug.nvrmfb_agdc=1`
+[   50.781127]: NVRM-xnu: probe 10de:2d18 class 03.00 subsystem 17aa:3e38
+[   50.781130]: NVRM-xnu: probe 10de:2d18 class 03.00 subsystem 17aa:3e38
+[   50.781136]: NVRM-xnu: rm_is_supported_pci_device OK; RM names 10de:2d18 "NVIDIA GeForce RTX 5070 Laptop GPU"
+[   50.781138]: NVRM-xnu: rm_is_supported_pci_device OK; RM names 10de:2d18 "NVIDIA GeForce RTX 5070 Laptop GPU"
+[   50.781147]: NVAccel: probe(GFX0) score 100
+[   50.781149]: NVAccel: probe(GFX0) score 100
+[   50.781154]: NVAccel: NVIDIA display device 10de:2d18 class 03.00 - claiming
+[   50.781155]: NVAccel: NVIDIA display device 10de:2d18 class 03.00 - claiming
+[   50.781179]: NVRMFB: NVRMFBClaim holds the IOFramebuffer match category on GFX0 - IONDRVFramebuffer blocked
+[   52.800838]: bpf0 attached to en1bpf0 closed and detached from en1 fcount 0 dcount 0Sandbox apply: distnoted[357] <bytes>Sandbox: dasd(137) deny(1) mach-lookup com.apple.OSIntelligence.chargingNVRM-xnu: boot screen: copied 2560x1600 pitch 16384 (25600 KB) from the console at 0x6018000000 in 4748 ms
+[   55.533378]: NVRM-xnu: boot screen: copied 2560x1600 pitch 16384 (25600 KB) from the console at 0x6018000000 in 4748 ms
+[   55.533395]: NVRM-xnu: bar1: Resizable BAR capability @0x134 says BAR1 = 64 MB (sizes supported mask 0x3fc0)
+[   55.533397]: NVRM-xnu: bar1: Resizable BAR capability @0x134 says BAR1 = 64 MB (sizes supported mask 0x3fc0)
+[   55.533400]: NVRM-xnu: bar1: BAR1 is 64 MB; will resize it to 8192 MB
+[   55.533402]: NVRM-xnu: bar1: BAR1 is 64 MB; will resize it to 8192 MB
+[   55.534007]: NVRM-xnu: bar1: BAR0 0x80000000+0x4000000 taken from assigned-addresses (nub stale)
+[   55.534009]: NVRM-xnu: bar1: BAR0 0x80000000+0x4000000 taken from assigned-addresses (nub stale)
+[   55.534012]: NVRM-xnu: bar1: BAR3 0x601c000000+0x2000000 taken from assigned-addresses (nub stale)
+[   55.534013]: NVRM-xnu: bar1: BAR3 0x601c000000+0x2000000 taken from assigned-addresses (nub stale)
+[   55.535321]: NVRM-xnu: bar1: host bridge 64-bit window 0x6000000000-0x3ffbfffffff (ACPI _CRS), CPU reaches 42 bits
+[   55.535323]: NVRM-xnu: bar1: host bridge 64-bit window 0x6000000000-0x3ffbfffffff (ACPI _CRS), CPU reaches 42 bits
+[   55.538177]: NVRM-xnu: bar1: placing BAR1 8192 MB @0x3fc00000000, BAR3 32 MB @0x3fe00000000, root port window 0x3fc00000000-0x3fe01ffffff (was 0x1df11801 00000060/00000060)
+[   55.538181]: NVRM-xnu: bar1: placing BAR1 8192 MB @0x3fc00000000, BAR3 32 MB @0x3fe00000000, root port window 0x3fc00000000-0x3fe01ffffff (was 0x1df11801 00000060/00000060)
+[   55.538192]: NVRM-xnu: bar1: resized BAR1 to 8192 MB
+[   55.538193]: NVRM-xnu: bar1: resized BAR1 to 8192 MB
+[   55.538224]: NVRM-xnu: bar1: PLACED \M-b\M^@\M^T BAR1 8192 MB live at 0x3fc00000000
+[   55.538227]: NVRM-xnu: bar1: PLACED \M-b\M^@\M^T BAR1 8192 MB live at 0x3fc00000000
+[   55.538411]: NVRM-xnu: aperture idx 0 phys 0x123800000 size 0x4000000: no BAR register matches \M-b\M^@\M^T skipped
+[   55.566449]: NVRM-xnu: aperture idx 1 phys 0x127800000 size 0x200000000: no BAR register matches \M-b\M^@\M^T skipped
+[   55.566580]: NVRM-xnu: aperture idx 2 phys 0x327800000 size 0x2000000: no BAR register matches \M-b\M^@\M^T skipped
+[   55.566589]: NVRM-xnu: aperture idx 3 phys 0x100400000 size 0x4000000: no BAR register matches \M-b\M^@\M^T skipped
+[   55.566597]: NVRM-xnu: aperture idx 4 phys 0x104400000 size 0x4000000: no BAR register matches \M-b\M^@\M^T skipped
+[   55.566605]: NVRM-xnu: aperture idx 5 phys 0x108400000 size 0x2000000: no BAR register matches \M-b\M^@\M^T skipped
+[   55.566614]: NVRM-xnu: aperture idx 6 phys 0x9000 size 0x80: no BAR register matches \M-b\M^@\M^T skipped
+[   55.566623]: NVRM-xnu: aperture idx 7 phys 0x100200000 size 0x80000: no BAR register matches \M-b\M^@\M^T skipped
+[   55.566627]: NVRM-xnu: BARS 
+[   55.566634]: NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+[   55.566636]: NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+[   55.566638]: NVRM-xnu: armed on 02:00.0 10de:2d18
+[   55.566640]: NVRM-xnu: armed on 02:00.0 10de:2d18
+[   55.566667]: NVRM-xnu: auto-go: go(2) in 500 ms on its own thread (BAR1 placed outside the console); registry held busy until the display is armed (cap settle + 40 s)
+[   55.566669]: NVRM-xnu: auto-go: go(2) in 500 ms on its own thread (BAR1 placed outside the console); registry held busy until the display is armed (cap settle + 40 s)
+[   55.566725]: NVAccel: NVRM owns 10de:2d18 (waited 0 ms) - starting
+[   55.566730]: NVAccel: NVRM owns 10de:2d18 (waited 0 ms) - starting
+[   55.566732]: NVAccel: start(GFX0): calling IOGraphicsAccelerator2::start \M-b\M^@\M^T the family's own bring-up
+[   55.566734]: NVAccel: start(GFX0): calling IOGraphicsAccelerator2::start \M-b\M^@\M^T the family's own bring-up
+[   55.566751]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   55.566756]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   55.567083]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   55.567085]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   55.567087]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   55.567089]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   55.567090]: NVAccel:    cfg+0x08 = 0x0000000000000000
+[   55.567091]: NVAccel:    cfg+0x08 = 0x0000000000000000
+[   55.567093]: NVAccel:    cfg+0x10 = 0x0000000000000000
+[   55.567094]: NVAccel:    cfg+0x10 = 0x0000000000000000
+[   55.567095]: NVAccel:    cfg+0x18 = 0x0000000000000001
+[   55.567096]: NVAccel:    cfg+0x18 = 0x0000000000000001
+[   55.567098]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   55.567099]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   55.567100]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   55.567101]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   55.567102]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   55.567104]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   55.567105]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   55.567106]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   55.567108]: NVAccel:    cfg+0x40 = 0x0000000100010000
+[   55.567109]: NVAccel:    cfg+0x40 = 0x0000000100010000
+[   55.567110]: NVAccel:    cfg+0x48 = 0x000000030000000c
+[   55.567111]: NVAccel:    cfg+0x48 = 0x000000030000000c
+[   55.567112]: NVAccel:    cfg+0x50 = 0x00007fff00000003
+[   55.567113]: NVAccel:    cfg+0x50 = 0x00007fff00000003
+[   55.567115]: NVAccel:    cfg+0x58 = 0x0000000000000000
+[   55.567116]: NVAccel:    cfg+0x58 = 0x0000000000000000
+[   55.567117]: NVAccel:    cfg+0x60 = 0x0000000000000000
+[   55.567118]: NVAccel:    cfg+0x60 = 0x0000000000000000
+[   55.567119]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   55.567120]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   55.567121]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   55.567123]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   55.567429]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   55.567431]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   55.567442]: NVAccel: newDisplayMachine -> <ptr>
+[   55.567443]: NVAccel: newDisplayMachine -> <ptr>
+[   55.567546]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   55.567547]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   55.567555]: NVAccel: IOGraphicsAccelerator2::start -> 1
+[   55.567560]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   55.567561]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   55.567662]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   55.567665]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   55.567667]: NVAccel: enableAccelerator() from start (call #1)
+[   55.567668]: NVAccel: enableAccelerator() from start (call #1)
+[   55.567672]: NVAccel: display machine framebuffer count after the family sweep = 0
+[   55.567673]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   55.567674]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   55.567727]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   55.567729]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   55.567733]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   55.567734]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   55.567743]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   55.567744]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   55.567746]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   55.567747]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   55.567749]: NVAccel: headless check: armed for 60 s from now
+[   56.067167]: NVRM-xnu: boot raster: BAR0 too small (0) \M-b\M^@\M^T unknown
+[   56.067172]: NVRM-xnu: boot raster: BAR0 too small (0) \M-b\M^@\M^T unknown
+[   56.067183]: NVRM-xnu: go(2) begins (fPassDone 0)
+[   56.067184]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[   56.067185]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[   56.067186]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[   56.067188]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[   56.067190]: NVRM-xnu: rm_init_rm()
+[   56.067223]: NVRM-xnu: >nv_is_chassis_notebook
+[   56.067224]: NVRM-xnu: >nv_acpi_is_battery_present
+[   56.067237]: NVRM-xnu: headwatch: done
+[   56.067246]: NVRM: _sysCreateOs: RM Access Sys Cap creation failed: 0x56
+[   56.077567]: NVRM-xnu: >nv_platform_supports_s0ix
+[   56.077961]: NVRM-xnu: rm_init_rm OK
+[   56.077962]: NVRM-xnu: rm_init_rm OK
+[   56.077965]: NVRM-xnu: event locks created for the control device and the GPU
+[   56.077966]: NVRM-xnu: event locks created for the control device and the GPU
+[   56.077969]: NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+[   56.077976]: NVRM-xnu: PHYSMAP FOREIGN-KMAP phys 0x0 +0x1000 extra 0x2a00dd
+[   56.078024]: NVRM-xnu:   md->map(cache=0x100) FAILED
+[   56.078032]: NVRM: failed to map registers!
+[   56.078033]: NVRM: failed to map registers!
+[   56.078035]: NVRM-xnu: rm_is_supported_device -> 0x59: RM will not drive device 0x2d18 - stopping, card untouched
+[   56.078037]: NVRM-xnu: rm_is_supported_device -> 0x59: RM will not drive device 0x2d18 - stopping, card untouched
+[   56.078039]: NVRM-xnu: auto-go: go(2) -> 0xe00002c7 (fPassDone 0)
+[   56.078065]: NVRM-xnu: boot hold RELEASED (go(2) failed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[   56.078066]: NVRM-xnu: boot hold RELEASED (go(2) failed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return

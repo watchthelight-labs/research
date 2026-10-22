@@ -1,0 +1,29 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "PR-fetch-set-per-pass.md": "59ab2accca1722a4b30c4834a10aae4a750eba291e68b799700b1a7e82b787ed",
+  "PR-function-memo.md": "9cadee0f734ec52f4ac499703e1a412b8651cf17acae7452ce58665a0be8396b",
+  "PR-submit-ahead-commit.md": "534ad697ea244d8fdb3c1a7e39234b428096c60b4f645035a5ea00a4c1b1168e",
+  "README.md": "ed6cec6d86ef4f37516e6f74a04c3de669e4bc57cf5caa20235819a7e9366992",
+  "airport-profile.txt": "4ec8bef8185407c1c59bd85dc0633a5122d6bfb4cf2fe9fc1feacba1dd457b14",
+  "configd-en1.txt": "1259aaf59f4b0755498603b8c22066947b32839eb32e35bfefdb1e98023b8994",
+  "netstat-rn.txt": "a6b10d5d44996ae8605293e09c301db686c5d04fd3532cc6b16da2f7b91236a4",
+  "quiet-watch-10min.txt": "838872930c7dc804d4f5e96d9f51da884a7ff01a4fef2c0a56a12d1e7cb298b2",
+  "staged-builds.txt": "03291da782b636efaba50429a4b4a899b9baaa2d6cdc696f1557df6dc41fe4db"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "25G241",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 51,
+   "MAC": 2
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-150",
+ "username": "watchthelight"
+}

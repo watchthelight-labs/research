@@ -1,0 +1,56 @@
+# unified log before the freeze (2026-10-16 04:54 PDT = 11:54 UTC). Log stops at 04:54:29.78; next boot 04:55 PDT.
+## Discord / Safari launch
+2026-10-16 04:54:19.000 Df Discord[1893:767c] [com.apple.AppKit:Window] window <ElectronNSWindow: 0x134014cf980> windowNumber=b8 finishing close
+2026-10-16 04:54:19.002 Df Discord[1893:767c] [com.apple.AppKit:Window] order window: b8 op: 0 relative: 0 related: 0
+2026-10-16 04:54:23.600 Df Discord[1893:767c] [com.apple.AppKit:Window] order window front conditionally: b9 related: 0
+2026-10-16 04:54:23.611 Df launchd[1:7259] [gui/501/application.com.apple.Safari.14073.14875 [2003]:] xpcproxy spawned with pid 2003
+2026-10-16 04:54:23.611 Df launchd[1:7259] [gui/501/application.com.apple.Safari.14073.14875 [2003]:] internal event: SPAWNED, code = 0
+2026-10-16 04:54:23.621 Df launchd[1:727c] [gui/501/application.com.apple.Safari.14073.14875 [2003]:] Successfully spawned Safari[2003] because launch job demand
+2026-10-16 04:54:24.778 Df launchd[1:727c] [pid/2003/com.apple.Safari.SandboxBroker [2011]:] xpcproxy spawned with pid 2011
+2026-10-16 04:54:24.778 Df launchd[1:727c] [pid/2003/com.apple.Safari.SandboxBroker [2011]:] internal event: SPAWNED, code = 0
+2026-10-16 04:54:24.785 Df launchd[1:7718] [pid/2003/com.apple.Safari.SandboxBroker [2011]:] Successfully spawned SandboxBroker[2011] because ipc (mach)
+2026-10-16 04:54:24.822 Df launchd[1:7259] [pid/2003/com.apple.Safari.SearchHelper [2012]:] xpcproxy spawned with pid 2012
+2026-10-16 04:54:24.822 Df launchd[1:7259] [pid/2003/com.apple.Safari.SearchHelper [2012]:] internal event: SPAWNED, code = 0
+2026-10-16 04:54:24.828 Df launchd[1:727c] [pid/2003/com.apple.Safari.SearchHelper [2012]:] Successfully spawned SearchHelper[2012] because ipc (mach)
+2026-10-16 04:54:28.155 Df Discord[1893:767c] [com.apple.AppKit:Window] Window <ElectronNSWindow: 0x13401d1b180> windowNumber=b9 ordered front from a non-active application and may order beneath the active application's windows.
+## last 40 GPU driver lines
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVAccel) NVAccel: newResource -> <private>
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVAccel) NVAccel: newResource -> <private>
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVAccel) NVAccel: newSysMemory -> <private>
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVAccel) NVAccel: newSysMemory -> <private>
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVAccel) NVAccel: newVidMemory -> <private>
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVAccel) NVAccel: newVidMemory -> <private>
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVRM) NVRM-xnu: >os_map_kernel_space start=0x3fc1d400000 size=0x270000 mode=2
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVRM) NVRM-xnu:   mapped -> 0x<private> (slot 189, high water 190/8192)
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 2555904 bytes of REAL VRAM -- phys 0x3fc1d400000 kva <private> [BAR1 411107328]
+2026-10-16 04:54:28.998 Df kernel[0:76f4] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 2555904 bytes of REAL VRAM -- phys 0x3fc1d400000 kva <private> [BAR1 411107328]
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVAccel) NVAccel: newResource -> <private>
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVAccel) NVAccel: newResource -> <private>
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVAccel) NVAccel: newSysMemory -> <private>
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVAccel) NVAccel: newSysMemory -> <private>
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVAccel) NVAccel: newVidMemory -> <private>
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVAccel) NVAccel: newVidMemory -> <private>
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVRM) NVRM-xnu: >os_map_kernel_space start=0x3fc1d800000 size=0x270000 mode=2
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVRM) NVRM-xnu:   mapped -> 0x<private> (slot 190, high water 191/8192)
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 2555904 bytes of REAL VRAM -- phys 0x3fc1d800000 kva <private> [BAR1 413663232]
+2026-10-16 04:54:28.999 Df kernel[0:76f4] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 2555904 bytes of REAL VRAM -- phys 0x3fc1d800000 kva <private> [BAR1 413663232]
+2026-10-16 04:54:29.001 Df kernel[0:76f4] (NVAccel) NVAccel: newResource -> <private>
+2026-10-16 04:54:29.001 Df kernel[0:76f4] (NVAccel) NVAccel: newResource -> <private>
+2026-10-16 04:54:29.001 Df kernel[0:76f4] (NVAccel) NVAccel: newSysMemory -> <private>
+2026-10-16 04:54:29.001 Df kernel[0:76f4] (NVAccel) NVAccel: newSysMemory -> <private>
+2026-10-16 04:54:29.001 Df kernel[0:76f4] (NVAccel) NVAccel: newVidMemory -> <private>
+2026-10-16 04:54:29.001 Df kernel[0:76f4] (NVAccel) NVAccel: newVidMemory -> <private>
+2026-10-16 04:54:29.002 Df kernel[0:76f4] (NVRM) NVRM-xnu: >os_map_kernel_space start=0x3fc1dc00000 size=0x270000 mode=2
+2026-10-16 04:54:29.002 Df kernel[0:76f4] (NVRM) NVRM-xnu:   mapped -> 0x<private> (slot 191, high water 192/8192)
+2026-10-16 04:54:29.002 Df kernel[0:76f4] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 2555904 bytes of REAL VRAM -- phys 0x3fc1dc00000 kva <private> [BAR1 416219136]
+2026-10-16 04:54:29.002 Df kernel[0:76f4] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 2555904 bytes of REAL VRAM -- phys 0x3fc1dc00000 kva <private> [BAR1 416219136]
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVAccel) NVAccel: newResource -> <private>
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVAccel) NVAccel: newResource -> <private>
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVAccel) NVAccel: newSysMemory -> <private>
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVAccel) NVAccel: newSysMemory -> <private>
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVAccel) NVAccel: newVidMemory -> <private>
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVAccel) NVAccel: newVidMemory -> <private>
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVRM) NVRM-xnu: >os_map_kernel_space start=0x3fc06c90000 size=0x10000 mode=2
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVRM) NVRM-xnu:   mapped -> 0x<private> (slot 192, high water 193/8192)
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 65536 bytes of REAL VRAM -- phys 0x3fc06c90000 kva <private> [BAR1 416284672]
+2026-10-16 04:54:29.009 Df kernel[0:376] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 65536 bytes of REAL VRAM -- phys 0x3fc06c90000 kva <private> [BAR1 416284672]

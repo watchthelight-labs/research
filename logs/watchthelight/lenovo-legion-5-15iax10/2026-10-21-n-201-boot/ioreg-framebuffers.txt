@@ -1,0 +1,32 @@
++-o .Display_boot  <class IONDRVFramebuffer, id 0x1000005e8, registered, matched, active, busy 0 (4 ms), retain 21>
+    {
+      "IOClass" = "IONDRVFramebuffer"
+      "IOFBConfig" = {"IOFB0Hz"=Yes,"IOFBModes"=({"ID"=100,"AID"=18446744072277895850,"DM"=<000a00004006000000000000000000000b00000000000000000000000000000000000000>,"DF"=3}),"dims"=<ffffffffffffffff0000000000000000>}
+      "IOFBIntegrated" = Yes
+      "IOPersonalityPublisher" = "com.apple.iokit.IONDRVSupport"
+      "IOPMStrictTreeOrder" = Yes
+      "IOFBGammaWidth" = 8
+      "IOPowerManagement" = {"ChildrenPowerState"=2,"MaxPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32784,"ChildProxyPowerState"=2,"DriverPowerState"=1}
+      "IOProviderClass" = "IOPCIDevice"
+      "IOFramebufferOpenGLIndex" = 0
+      "IOFBWaitCursorFrames" = 29
+      "IOProbeScore" = 20000
+      "IOFBUIScale" = <00000000>
+      "IOFBTransform" = 0
+      "IONameMatch" = "display"
+      "graphic-options" = 0
+      "IOFBMemorySize" = 16384000
+      "CFBundleIdentifierKernel" = "com.apple.iokit.IONDRVSupport"
+      "IOFBGammaHeaderSize" = 12
+      "IOMatchCategory" = "IOFramebuffer"
+      "CFBundleIdentifier" = "com.apple.iokit.IONDRVSupport"
+      "IONameMatched" = "display"
+      "IODisplayParameters" = "IOFramebufferParameterHandler is not serializable"
+      "IONDRVFramebufferGeneration" = <0100000001000000>
+      "IOGeneralInterest" = "IOCommand is not serializable"
+      "IOFBWaitCursorPeriod" = 33333333
+      "IOFBProbeOptions" = 1
+      "IOFBGammaCount" = 256
+    }
+    
+

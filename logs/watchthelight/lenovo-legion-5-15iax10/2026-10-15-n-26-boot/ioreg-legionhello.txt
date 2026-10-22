@@ -1,0 +1,15 @@
+    | +-o LegionHello  <class LegionHello, id 0x10000039c, registered, matched, active, busy 0 (0 ms), retain 5>
+    | |   {
+    | |     "IOProbeScore" = 0
+    | |     "CFBundleIdentifier" = "org.watchthelight.LegionHello"
+    | |     "IOMatchCategory" = "LegionHello"
+    | |     "IOClass" = "LegionHello"
+    | |     "IOProviderClass" = "IOResources"
+    | |     "CFBundleIdentifierKernel" = "org.watchthelight.LegionHello"
+    | |     "IOMatchedAtBoot" = Yes
+    | |     "LegionHello" = "cross-built kext is alive"
+    | |     "IOResourceMatch" = "IOKit"
+    | |   }
+    | |   
+    | +-o AppleUSBHostResources  <class AppleUSBHostResources, id 0x1000003aa, registered, matched, active, busy 0 (84 ms), retain 23>
+    | | | {

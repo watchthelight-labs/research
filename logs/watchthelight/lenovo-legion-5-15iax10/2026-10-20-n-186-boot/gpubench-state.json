@@ -1,0 +1,9 @@
+{
+ "attempt": "N-186",
+ "label": "2.4.3-nvgfx.1 boot",
+ "set": "boot",
+ "bench_boot": 1792506256,
+ "status": "done (run by hand after the comma bug)",
+ "started": "2026-10-20 10:27:20",
+ "finished": "2026-10-20 11:01:00"
+}

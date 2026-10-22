@@ -1,0 +1,39 @@
+1.840 console 0x70800000 (2560x1600 rowBytes 10240) is DSM+0x0: added as device memory 2 for IONDRVFramebuffer
+7.275 console 0x70800000 already in range 2
+52.186 /_SB/PC00@0/LPCB@1f0000/EC0: no such ACPI device
+52.201 /_SB/PC00@0/LPCB@1f0000/EC0: no such ACPI device
+52.219 /_SB/PC00@0/RP01@60000: no such ACPI device
+52.234 /_SB/PC00@0/LPCB@1f0000/EC0: no such ACPI device
+52.249 /_SB/WDGO DGST(0 args) -> 0x0 result 0x0
+52.263 NVIDIA GPU on PCI: no
+60.873 /_SB/WDGO \_SB.PC00.LPCB.EC0.REJF(1 args) -> 0xe00002c2 result none
+60.889 /_SB/WDGO \_SB.PC00.LPCB.EC0.REJF(1 args) -> 0xe00002c2 result none
+60.905 /_SB/WDGO \_SB.PC00.RP01.PSTA(0 args) -> 0xe00002c2 result none
+60.920 /_SB/WDGO \_SB.PC00.LPCB.EC0.GATY(0 args) -> 0xe00002c2 result none
+60.936 /_SB/WDGO \_SB.PC00.RP01.PXSX.NVID(0 args) -> 0xe00002c2 result none
+74.919 /_SB/PC00/LPCB@1f0000/EC0 REJF(1 args) -> 0x0 result 0x0
+74.933 /_SB/PC00/LPCB@1f0000/EC0 REJF(1 args) -> 0x0 result 0x0
+74.950 /_SB/PC00/LPCB@1f0000/EC0 GATY(0 args) -> 0x0 result 0x0
+74.964 /_SB/PC00/RP01@60000 PSTA(0 args) -> 0x0 result 0x0
+74.976 /_SB/PC00/RP01@60000 _ADR(0 args) -> 0x0 result 0x60000
+74.988 /_SB/PC00/RP01@60000 PXSX.NVID(0 args) -> 0xe00002c2 result none
+75.000 /_SB/PC00/RP01@60000/PXSX@0 NVID(0 args) -> 0x0 result 0xffff
+82.527 /_SB/PC00/LPCB@1f0000/EC0 REJF(1 args) -> 0x0 result 0x0
+82.542 /_SB/PC00/LPCB@1f0000/EC0 REJF(1 args) -> 0x0 result 0x0
+82.558 /_SB/PC00/LPCB@1f0000/EC0 REJF(1 args) -> 0x0 result 0x0
+89.254 /_SB/PC00/LPCB@1f0000/EC0 REJF(1 args) -> 0x0 result 0x0
+89.273 /_SB/PC00/LPCB@1f0000/EC0 REJF(1 args) -> 0x0 result 0x0
+89.294 /_SB/PC00/LPCB@1f0000/EC0 REJF(1 args) -> 0x0 result 0x0
+89.312 /_SB/PC00/LPCB@1f0000/EC0 GSTA(0 args) -> 0x0 result 0x0
+89.330 /_SB/PC00/LPCB@1f0000/EC0 TDGC(0 args) -> 0xe00002bc result none
+89.347 /_SB/PC00/RP01@60000 TDGC(0 args) -> 0xe00002bc result none
+106.374 /_SB/PC00 TDGC(0 args) -> 0x0 result 0x0
+106.394 /_SB/PC00 DGCX(0 args) -> 0x0 result 0x0
+106.412 /_SB/PC00/RP01@60000 DGPV(0 args) -> 0xe00002bc result none
+106.429 /_SB/PC00/RP01@60000 VDID(0 args) -> 0x0 result 0xae4d8086
+106.452 /_SB/PC00/RP01@60000 GPRS(1 args) -> 0x0 result 0x1
+106.470 /_SB/PC00/RP01@60000 DSMF(0 args) -> 0xe00002bc result none
+106.488 /_SB/PC00/RP01@60000 D3HT(0 args) -> 0x0 result 0x0
+106.507 /_SB/PC00/RP01@60000 LASX(0 args) -> 0x0 result 0x0
+106.527 /_SB/PC00/RP01@60000 D0ST(0 args) -> 0x0 result 0x0
+

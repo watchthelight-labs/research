@@ -1,0 +1,16 @@
++-o AppleACPIEC  <class AppleACPIEC, id 0x100000389, registered, matched, active, busy 0 (0 ms), retain 6>
+    {
+      "IOProbeScore" = 0
+      "CFBundleIdentifier" = "com.apple.driver.AppleACPIEC"
+      "IOProviderClass" = "IOACPIPlatformDevice"
+      "IOClass" = "AppleACPIEC"
+      "IOPersonalityPublisher" = "com.apple.driver.AppleACPIEC"
+      "CFBundleIdentifierKernel" = "com.apple.driver.AppleACPIEC"
+      "IOMatchedAtBoot" = Yes
+      "IONameMatch" = ("PNP0C09","boot-ec")
+      "IOMatchCategory" = "IODefaultMatchCategory"
+      "IONameMatched" = "PNP0C09"
+      "Statistics" = {"OBFSciTimeout"=0,"SpuriousQuery"=0,"CommandCount"=13,"MaxLatency"=7645627,"SCIActive"=Yes,"CommandRetry"=0,"SpuriousSCI"=18,"IBFSciTimeout"=0,"OBFPollTimeout"=0,"IBFPollTimeout"=0,"MissingSCI"=0}
+    }
+    
+

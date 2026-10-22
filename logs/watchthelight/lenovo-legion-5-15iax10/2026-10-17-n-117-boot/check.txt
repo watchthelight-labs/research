@@ -1,0 +1,5 @@
+n-117 check 2026-10-17 19:01 EDT, boot Sat Oct 17 18:59:25 2026
+plugin: 3c0e6fa09ae6 (expect 3c0e6fa09ae6)
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 
+running apps: Finder, Terminal, Spotify

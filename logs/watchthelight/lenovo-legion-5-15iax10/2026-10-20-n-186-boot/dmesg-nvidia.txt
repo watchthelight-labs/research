@@ -1,0 +1,400 @@
+[  202.422923]: NVAccel: newSysMemory -> <ptr>
+[  202.422924]: NVAccel: newSysMemory -> <ptr>
+[  202.422929]: NVAccel: newVidMemory -> <ptr>
+[  202.422929]: NVAccel: newVidMemory -> <ptr>
+[  202.423054]: NVRM-xnu: >os_map_kernel_space start=0x3fc069b0000 size=0x10000 mode=2
+[  202.423076]: NVRM-xnu:   mapped -> 0x<ptr> (slot 215, high water 216/8192)
+[  202.423098]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc069b0000 kva <ptr> [BAR1 321716224]
+[  202.423100]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc069b0000 kva <ptr> [BAR1 321716224]
+[  202.457499]: NVAccel: newResource -> <ptr>
+[  202.457505]: NVAccel: newResource -> <ptr>
+[  202.457511]: NVAccel: newSysMemory -> <ptr>
+[  202.457512]: NVAccel: newSysMemory -> <ptr>
+[  202.457516]: NVAccel: newVidMemory -> <ptr>
+[  202.457516]: NVAccel: newVidMemory -> <ptr>
+[  202.457623]: NVRM-xnu: >os_map_kernel_space start=0x3fc069c0000 size=0x10000 mode=2
+[  202.457641]: NVRM-xnu:   mapped -> 0x<ptr> (slot 216, high water 217/8192)
+[  202.457662]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc069c0000 kva <ptr> [BAR1 321781760]
+[  202.457663]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc069c0000 kva <ptr> [BAR1 321781760]
+so_gencnt: 5564 so_state: 0x0102 process: Spotify Helper:932 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x83cb9f33NVAccel: newResource -> <ptr>
+[  202.467603]: NVAccel: newResource -> <ptr>
+[  202.467609]: NVAccel: newSysMemory -> <ptr>
+[  202.467609]: NVAccel: newSysMemory -> <ptr>
+[  202.467613]: NVAccel: newVidMemory -> <ptr>
+[  202.467613]: NVAccel: newVidMemory -> <ptr>
+[  202.467708]: NVRM-xnu: >os_map_kernel_space start=0x3fc0a290000 size=0x10000 mode=2
+[  202.467722]: NVRM-xnu:   mapped -> 0x<ptr> (slot 217, high water 218/8192)
+[  202.467745]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0a290000 kva <ptr> [BAR1 321847296]
+[  202.467746]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0a290000 kva <ptr> [BAR1 321847296]
+[  202.468547]: NVAccel: newResource -> <ptr>
+[  202.468549]: NVAccel: newResource -> <ptr>
+[  202.468551]: NVAccel: newSysMemory -> <ptr>
+[  202.468552]: NVAccel: newSysMemory -> <ptr>
+[  202.468554]: NVAccel: newVidMemory -> <ptr>
+[  202.468554]: NVAccel: newVidMemory -> <ptr>
+[  202.468613]: NVRM-xnu: >os_map_kernel_space start=0x3fc0ca40000 size=0x10000 mode=2
+[  202.468624]: NVRM-xnu:   mapped -> 0x<ptr> (slot 218, high water 219/8192)
+[  202.468644]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ca40000 kva <ptr> [BAR1 321912832]
+[  202.468645]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0ca40000 kva <ptr> [BAR1 321912832]
+[  202.469672]: NVAccel: newResource -> <ptr>
+[  202.469675]: NVAccel: newResource -> <ptr>
+[  202.469680]: NVAccel: newSysMemory -> <ptr>
+[  202.469681]: NVAccel: newSysMemory -> <ptr>
+[  202.469683]: NVAccel: newVidMemory -> <ptr>
+[  202.469683]: NVAccel: newVidMemory -> <ptr>
+[  202.469743]: NVRM-xnu: >os_map_kernel_space start=0x3fc0cff0000 size=0x10000 mode=2
+[  202.469756]: NVRM-xnu:   mapped -> 0x<ptr> (slot 219, high water 220/8192)
+[  202.469774]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0cff0000 kva <ptr> [BAR1 321978368]
+[  202.469775]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc0cff0000 kva <ptr> [BAR1 321978368]
+[  202.470537]: NVAccel: newResource -> <ptr>
+[  202.470538]: NVAccel: newResource -> <ptr>
+[  202.470541]: NVAccel: newSysMemory -> <ptr>
+[  202.470541]: NVAccel: newSysMemory -> <ptr>
+[  202.470543]: NVAccel: newVidMemory -> <ptr>
+[  202.470543]: NVAccel: newVidMemory -> <ptr>
+[  202.470595]: NVRM-xnu: >os_map_kernel_space start=0x3fc109f0000 size=0x10000 mode=2
+[  202.470604]: NVRM-xnu:   mapped -> 0x<ptr> (slot 220, high water 221/8192)
+[  202.470627]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc109f0000 kva <ptr> [BAR1 322043904]
+[  202.470629]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc109f0000 kva <ptr> [BAR1 322043904]
+[  202.471257]: NVAccel: newResource -> <ptr>
+[  202.471259]: NVAccel: newResource -> <ptr>
+[  202.471261]: NVAccel: newSysMemory -> <ptr>
+[  202.471261]: NVAccel: newSysMemory -> <ptr>
+[  202.471263]: NVAccel: newVidMemory -> <ptr>
+[  202.471263]: NVAccel: newVidMemory -> <ptr>
+[  202.471308]: NVRM-xnu: >os_map_kernel_space start=0x3fc183f0000 size=0x10000 mode=2
+[  202.471320]: NVRM-xnu:   mapped -> 0x<ptr> (slot 221, high water 222/8192)
+[  202.471339]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc183f0000 kva <ptr> [BAR1 322109440]
+[  202.471340]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc183f0000 kva <ptr> [BAR1 322109440]
+[  202.471937]: NVAccel: newResource -> <ptr>
+[  202.471939]: NVAccel: newResource -> <ptr>
+[  202.471941]: NVAccel: newSysMemory -> <ptr>
+[  202.471941]: NVAccel: newSysMemory -> <ptr>
+[  202.471943]: NVAccel: newVidMemory -> <ptr>
+[  202.471943]: NVAccel: newVidMemory -> <ptr>
+[  202.472002]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c00000 size=0x10000 mode=2
+[  202.472013]: NVRM-xnu:   mapped -> 0x<ptr> (slot 222, high water 223/8192)
+[  202.472031]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c00000 kva <ptr> [BAR1 322174976]
+[  202.472032]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c00000 kva <ptr> [BAR1 322174976]
+[  202.472455]: NVAccel: newResource -> <ptr>
+[  202.472456]: NVAccel: newResource -> <ptr>
+[  202.472460]: NVAccel: newSysMemory -> <ptr>
+[  202.472461]: NVAccel: newSysMemory -> <ptr>
+[  202.472462]: NVAccel: newVidMemory -> <ptr>
+[  202.472462]: NVAccel: newVidMemory -> <ptr>
+[  202.472504]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c10000 size=0x10000 mode=2
+[  202.472514]: NVRM-xnu:   mapped -> 0x<ptr> (slot 223, high water 224/8192)
+[  202.472532]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c10000 kva <ptr> [BAR1 322240512]
+[  202.472533]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c10000 kva <ptr> [BAR1 322240512]
+[  202.473170]: NVAccel: newResource -> <ptr>
+[  202.473173]: NVAccel: newResource -> <ptr>
+[  202.473175]: NVAccel: newSysMemory -> <ptr>
+[  202.473176]: NVAccel: newSysMemory -> <ptr>
+[  202.473178]: NVAccel: newVidMemory -> <ptr>
+[  202.473178]: NVAccel: newVidMemory -> <ptr>
+[  202.473229]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c20000 size=0x10000 mode=2
+[  202.473242]: NVRM-xnu:   mapped -> 0x<ptr> (slot 224, high water 225/8192)
+[  202.473258]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c20000 kva <ptr> [BAR1 322306048]
+[  202.473259]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c20000 kva <ptr> [BAR1 322306048]
+[  202.474060]: NVAccel: newResource -> <ptr>
+[  202.474063]: NVAccel: newResource -> <ptr>
+[  202.474065]: NVAccel: newSysMemory -> <ptr>
+[  202.474066]: NVAccel: newSysMemory -> <ptr>
+[  202.474068]: NVAccel: newVidMemory -> <ptr>
+[  202.474068]: NVAccel: newVidMemory -> <ptr>
+[  202.474117]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c30000 size=0x10000 mode=2
+[  202.474131]: NVRM-xnu:   mapped -> 0x<ptr> (slot 225, high water 226/8192)
+[  202.474147]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c30000 kva <ptr> [BAR1 322371584]
+[  202.474149]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c30000 kva <ptr> [BAR1 322371584]
+[  202.475051]: NVAccel: newResource -> <ptr>
+[  202.475053]: NVAccel: newResource -> <ptr>
+[  202.475055]: NVAccel: newSysMemory -> <ptr>
+[  202.475055]: NVAccel: newSysMemory -> <ptr>
+[  202.475057]: NVAccel: newVidMemory -> <ptr>
+[  202.475058]: NVAccel: newVidMemory -> <ptr>
+[  202.475107]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c40000 size=0x10000 mode=2
+[  202.475119]: NVRM-xnu:   mapped -> 0x<ptr> (slot 226, high water 227/8192)
+[  202.475135]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c40000 kva <ptr> [BAR1 322437120]
+[  202.475136]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c40000 kva <ptr> [BAR1 322437120]
+so_gencnt: 5566 t_state: SYN_SENT process: Spotify Helper:932 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xb9fa8bfeNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  202.484681]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  202.486355]: NVAccel: newResource -> <ptr>
+[  202.486359]: NVAccel: newResource -> <ptr>
+[  202.486365]: NVAccel: newSysMemory -> <ptr>
+[  202.486365]: NVAccel: newSysMemory -> <ptr>
+[  202.486369]: NVAccel: newVidMemory -> <ptr>
+[  202.486370]: NVAccel: newVidMemory -> <ptr>
+[  202.486454]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c50000 size=0x10000 mode=2
+[  202.486475]: NVRM-xnu:   mapped -> 0x<ptr> (slot 227, high water 228/8192)
+[  202.486496]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c50000 kva <ptr> [BAR1 322502656]
+[  202.486497]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c50000 kva <ptr> [BAR1 322502656]
+[  202.487596]: NVAccel: newResource -> <ptr>
+[  202.487598]: NVAccel: newResource -> <ptr>
+[  202.487602]: NVAccel: newSysMemory -> <ptr>
+[  202.487603]: NVAccel: newSysMemory -> <ptr>
+[  202.487606]: NVAccel: newVidMemory -> <ptr>
+[  202.487606]: NVAccel: newVidMemory -> <ptr>
+[  202.487674]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c60000 size=0x10000 mode=2
+[  202.487691]: NVRM-xnu:   mapped -> 0x<ptr> (slot 228, high water 229/8192)
+[  202.487712]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c60000 kva <ptr> [BAR1 322568192]
+[  202.487713]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c60000 kva <ptr> [BAR1 322568192]
+[  202.488658]: NVAccel: newResource -> <ptr>
+[  202.488661]: NVAccel: newResource -> <ptr>
+[  202.488664]: NVAccel: newSysMemory -> <ptr>
+[  202.488665]: NVAccel: newSysMemory -> <ptr>
+[  202.488667]: NVAccel: newVidMemory -> <ptr>
+[  202.488668]: NVAccel: newVidMemory -> <ptr>
+[  202.488730]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c70000 size=0x10000 mode=2
+[  202.488746]: NVRM-xnu:   mapped -> 0x<ptr> (slot 229, high water 230/8192)
+[  202.488766]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c70000 kva <ptr> [BAR1 322633728]
+[  202.488767]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c70000 kva <ptr> [BAR1 322633728]
+[  202.489581]: NVAccel: newResource -> <ptr>
+[  202.489583]: NVAccel: newResource -> <ptr>
+[  202.489586]: NVAccel: newSysMemory -> <ptr>
+[  202.489587]: NVAccel: newSysMemory -> <ptr>
+[  202.489589]: NVAccel: newVidMemory -> <ptr>
+[  202.489589]: NVAccel: newVidMemory -> <ptr>
+[  202.489642]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c80000 size=0x10000 mode=2
+[  202.489656]: NVRM-xnu:   mapped -> 0x<ptr> (slot 230, high water 231/8192)
+[  202.489674]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c80000 kva <ptr> [BAR1 322699264]
+[  202.489675]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c80000 kva <ptr> [BAR1 322699264]
+[  202.490278]: NVAccel: newResource -> <ptr>
+[  202.490280]: NVAccel: newResource -> <ptr>
+[  202.490282]: NVAccel: newSysMemory -> <ptr>
+[  202.490283]: NVAccel: newSysMemory -> <ptr>
+[  202.490285]: NVAccel: newVidMemory -> <ptr>
+[  202.490285]: NVAccel: newVidMemory -> <ptr>
+[  202.490335]: NVRM-xnu: >os_map_kernel_space start=0x3fc18c90000 size=0x10000 mode=2
+[  202.490346]: NVRM-xnu:   mapped -> 0x<ptr> (slot 231, high water 232/8192)
+[  202.490363]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c90000 kva <ptr> [BAR1 322764800]
+[  202.490364]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18c90000 kva <ptr> [BAR1 322764800]
+[  202.491122]: NVAccel: newResource -> <ptr>
+[  202.491124]: NVAccel: newResource -> <ptr>
+[  202.491127]: NVAccel: newSysMemory -> <ptr>
+[  202.491127]: NVAccel: newSysMemory -> <ptr>
+[  202.491129]: NVAccel: newVidMemory -> <ptr>
+[  202.491130]: NVAccel: newVidMemory -> <ptr>
+[  202.491179]: NVRM-xnu: >os_map_kernel_space start=0x3fc18ca0000 size=0x10000 mode=2
+[  202.491191]: NVRM-xnu:   mapped -> 0x<ptr> (slot 232, high water 233/8192)
+[  202.491207]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18ca0000 kva <ptr> [BAR1 322830336]
+[  202.491208]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18ca0000 kva <ptr> [BAR1 322830336]
+[  202.491978]: NVAccel: newResource -> <ptr>
+[  202.491980]: NVAccel: newResource -> <ptr>
+[  202.491983]: NVAccel: newSysMemory -> <ptr>
+[  202.491983]: NVAccel: newSysMemory -> <ptr>
+[  202.491989]: NVAccel: newVidMemory -> <ptr>
+[  202.491990]: NVAccel: newVidMemory -> <ptr>
+[  202.492041]: NVRM-xnu: >os_map_kernel_space start=0x3fc18cb0000 size=0x10000 mode=2
+[  202.492054]: NVRM-xnu:   mapped -> 0x<ptr> (slot 233, high water 234/8192)
+[  202.492070]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18cb0000 kva <ptr> [BAR1 322895872]
+[  202.492071]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18cb0000 kva <ptr> [BAR1 322895872]
+[  202.492809]: NVAccel: newResource -> <ptr>
+[  202.492811]: NVAccel: newResource -> <ptr>
+[  202.492813]: NVAccel: newSysMemory -> <ptr>
+[  202.492814]: NVAccel: newSysMemory -> <ptr>
+[  202.492816]: NVAccel: newVidMemory -> <ptr>
+[  202.492816]: NVAccel: newVidMemory -> <ptr>
+[  202.492865]: NVRM-xnu: >os_map_kernel_space start=0x3fc18cc0000 size=0x10000 mode=2
+[  202.492881]: NVRM-xnu:   mapped -> 0x<ptr> (slot 234, high water 235/8192)
+[  202.492897]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18cc0000 kva <ptr> [BAR1 322961408]
+[  202.492898]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18cc0000 kva <ptr> [BAR1 322961408]
+[  202.493991]: NVAccel: newResource -> <ptr>
+[  202.493993]: NVAccel: newResource -> <ptr>
+[  202.493995]: NVAccel: newSysMemory -> <ptr>
+[  202.493995]: NVAccel: newSysMemory -> <ptr>
+[  202.493997]: NVAccel: newVidMemory -> <ptr>
+[  202.493998]: NVAccel: newVidMemory -> <ptr>
+[  202.494045]: NVRM-xnu: >os_map_kernel_space start=0x3fc18cd0000 size=0x10000 mode=2
+[  202.494057]: NVRM-xnu:   mapped -> 0x<ptr> (slot 235, high water 236/8192)
+[  202.494073]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18cd0000 kva <ptr> [BAR1 323026944]
+[  202.494074]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18cd0000 kva <ptr> [BAR1 323026944]
+[  202.494800]: NVAccel: newResource -> <ptr>
+[  202.494802]: NVAccel: newResource -> <ptr>
+[  202.494804]: NVAccel: newSysMemory -> <ptr>
+[  202.494804]: NVAccel: newSysMemory -> <ptr>
+[  202.494806]: NVAccel: newVidMemory -> <ptr>
+[  202.494806]: NVAccel: newVidMemory -> <ptr>
+[  202.494856]: NVRM-xnu: >os_map_kernel_space start=0x3fc18ce0000 size=0x10000 mode=2
+[  202.494871]: NVRM-xnu:   mapped -> 0x<ptr> (slot 236, high water 237/8192)
+[  202.494890]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18ce0000 kva <ptr> [BAR1 323092480]
+[  202.494891]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18ce0000 kva <ptr> [BAR1 323092480]
+[  202.495692]: NVAccel: newResource -> <ptr>
+[  202.495695]: NVAccel: newResource -> <ptr>
+[  202.495698]: NVAccel: newSysMemory -> <ptr>
+[  202.495698]: NVAccel: newSysMemory -> <ptr>
+[  202.495701]: NVAccel: newVidMemory -> <ptr>
+[  202.495701]: NVAccel: newVidMemory -> <ptr>
+[  202.495783]: NVRM-xnu: >os_map_kernel_space start=0x3fc18cf0000 size=0x10000 mode=2
+[  202.495796]: NVRM-xnu:   mapped -> 0x<ptr> (slot 237, high water 238/8192)
+[  202.495812]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18cf0000 kva <ptr> [BAR1 323158016]
+[  202.495813]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18cf0000 kva <ptr> [BAR1 323158016]
+[  202.496620]: NVAccel: newResource -> <ptr>
+[  202.496622]: NVAccel: newResource -> <ptr>
+[  202.496628]: NVAccel: newSysMemory -> <ptr>
+[  202.496629]: NVAccel: newSysMemory -> <ptr>
+[  202.496631]: NVAccel: newVidMemory -> <ptr>
+[  202.496631]: NVAccel: newVidMemory -> <ptr>
+[  202.496767]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d00000 size=0x10000 mode=2
+[  202.496780]: NVRM-xnu:   mapped -> 0x<ptr> (slot 238, high water 239/8192)
+[  202.496797]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d00000 kva <ptr> [BAR1 323223552]
+[  202.496798]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d00000 kva <ptr> [BAR1 323223552]
+[  202.497949]: NVAccel: newResource -> <ptr>
+[  202.497951]: NVAccel: newResource -> <ptr>
+[  202.497954]: NVAccel: newSysMemory -> <ptr>
+[  202.497954]: NVAccel: newSysMemory -> <ptr>
+[  202.497956]: NVAccel: newVidMemory -> <ptr>
+[  202.497957]: NVAccel: newVidMemory -> <ptr>
+[  202.500170]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d10000 size=0x10000 mode=2
+[  202.500183]: NVRM-xnu:   mapped -> 0x<ptr> (slot 239, high water 240/8192)
+[  202.500201]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d10000 kva <ptr> [BAR1 323289088]
+[  202.500202]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d10000 kva <ptr> [BAR1 323289088]
+[  202.500941]: NVAccel: newResource -> <ptr>
+[  202.500943]: NVAccel: newResource -> <ptr>
+[  202.500945]: NVAccel: newSysMemory -> <ptr>
+[  202.500945]: NVAccel: newSysMemory -> <ptr>
+[  202.500947]: NVAccel: newVidMemory -> <ptr>
+[  202.500947]: NVAccel: newVidMemory -> <ptr>
+[  202.500994]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d20000 size=0x10000 mode=2
+[  202.501007]: NVRM-xnu:   mapped -> 0x<ptr> (slot 240, high water 241/8192)
+[  202.501024]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d20000 kva <ptr> [BAR1 323354624]
+[  202.501025]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d20000 kva <ptr> [BAR1 323354624]
+[  202.501735]: NVAccel: newResource -> <ptr>
+[  202.501737]: NVAccel: newResource -> <ptr>
+[  202.501739]: NVAccel: newSysMemory -> <ptr>
+[  202.501739]: NVAccel: newSysMemory -> <ptr>
+[  202.501741]: NVAccel: newVidMemory -> <ptr>
+[  202.501742]: NVAccel: newVidMemory -> <ptr>
+[  202.501789]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d30000 size=0x10000 mode=2
+[  202.501803]: NVRM-xnu:   mapped -> 0x<ptr> (slot 241, high water 242/8192)
+[  202.501819]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d30000 kva <ptr> [BAR1 323420160]
+[  202.501821]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d30000 kva <ptr> [BAR1 323420160]
+[  202.502175]: System Policy: com.apple.StreamingUnzipService.(1068) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/hu.lprojSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/hu.lprojSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/License.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-create /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/ReadMeSummary.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/ReadMe.htmlSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-times /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/documentation.stringsSystem Policy: com.apple.StreamingUnzipService.(1068) allow file-write-mode /System/Library/AssetsV2/downloadDir/com_apple_MobileAsset_SoftwareUpdateDocumentation.8f06e1bd989d6153f6a962e0b53a999811def6aa/AssetData/ko.lproj/documentation.stringsNVAccel: newResource -> <ptr>
+[  202.502546]: NVAccel: newResource -> <ptr>
+[  202.502548]: NVAccel: newSysMemory -> <ptr>
+[  202.502549]: NVAccel: newSysMemory -> <ptr>
+[  202.502551]: NVAccel: newVidMemory -> <ptr>
+[  202.502551]: NVAccel: newVidMemory -> <ptr>
+[  202.502606]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d40000 size=0x10000 mode=2
+[  202.502618]: NVRM-xnu:   mapped -> 0x<ptr> (slot 242, high water 243/8192)
+[  202.502635]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d40000 kva <ptr> [BAR1 323485696]
+[  202.502636]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d40000 kva <ptr> [BAR1 323485696]
+[  202.503349]: NVAccel: newResource -> <ptr>
+[  202.503351]: NVAccel: newResource -> <ptr>
+[  202.503353]: NVAccel: newSysMemory -> <ptr>
+[  202.503353]: NVAccel: newSysMemory -> <ptr>
+[  202.503355]: NVAccel: newVidMemory -> <ptr>
+[  202.503355]: NVAccel: newVidMemory -> <ptr>
+[  202.503405]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d50000 size=0x10000 mode=2
+[  202.503418]: NVRM-xnu:   mapped -> 0x<ptr> (slot 243, high water 244/8192)
+[  202.503435]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d50000 kva <ptr> [BAR1 323551232]
+[  202.503436]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d50000 kva <ptr> [BAR1 323551232]
+[  202.504189]: NVAccel: newResource -> <ptr>
+[  202.504191]: NVAccel: newResource -> <ptr>
+[  202.504193]: NVAccel: newSysMemory -> <ptr>
+[  202.504193]: NVAccel: newSysMemory -> <ptr>
+[  202.504195]: NVAccel: newVidMemory -> <ptr>
+[  202.504195]: NVAccel: newVidMemory -> <ptr>
+[  202.504245]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d60000 size=0x10000 mode=2
+[  202.504256]: NVRM-xnu:   mapped -> 0x<ptr> (slot 244, high water 245/8192)
+[  202.504273]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d60000 kva <ptr> [BAR1 323616768]
+[  202.504274]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d60000 kva <ptr> [BAR1 323616768]
+[  202.504945]: NVAccel: newResource -> <ptr>
+[  202.504947]: NVAccel: newResource -> <ptr>
+[  202.504949]: NVAccel: newSysMemory -> <ptr>
+[  202.504950]: NVAccel: newSysMemory -> <ptr>
+[  202.504954]: NVAccel: newVidMemory -> <ptr>
+[  202.504954]: NVAccel: newVidMemory -> <ptr>
+[  202.505002]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d70000 size=0x10000 mode=2
+[  202.505012]: NVRM-xnu:   mapped -> 0x<ptr> (slot 245, high water 246/8192)
+[  202.505029]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d70000 kva <ptr> [BAR1 323682304]
+[  202.505030]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d70000 kva <ptr> [BAR1 323682304]
+[  202.505736]: NVAccel: newResource -> <ptr>
+[  202.505738]: NVAccel: newResource -> <ptr>
+[  202.505744]: NVAccel: newSysMemory -> <ptr>
+[  202.505744]: NVAccel: newSysMemory -> <ptr>
+[  202.505746]: NVAccel: newVidMemory -> <ptr>
+[  202.505747]: NVAccel: newVidMemory -> <ptr>
+[  202.505794]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d80000 size=0x10000 mode=2
+[  202.505809]: NVRM-xnu:   mapped -> 0x<ptr> (slot 246, high water 247/8192)
+[  202.505825]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d80000 kva <ptr> [BAR1 323747840]
+[  202.505826]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d80000 kva <ptr> [BAR1 323747840]
+so_gencnt: 5572 t_state: SYN_SENT process: 2.1.304:961 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x9f6579b8NVAccel: newResource -> <ptr>
+[  202.506640]: NVAccel: newResource -> <ptr>
+[  202.506645]: NVAccel: newSysMemory -> <ptr>
+[  202.506646]: NVAccel: newSysMemory -> <ptr>
+[  202.506648]: NVAccel: newVidMemory -> <ptr>
+[  202.506649]: NVAccel: newVidMemory -> <ptr>
+[  202.506696]: NVRM-xnu: >os_map_kernel_space start=0x3fc18d90000 size=0x10000 mode=2
+[  202.506706]: NVRM-xnu:   mapped -> 0x<ptr> (slot 247, high water 248/8192)
+[  202.506722]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d90000 kva <ptr> [BAR1 323813376]
+[  202.506724]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18d90000 kva <ptr> [BAR1 323813376]
+[  202.507401]: NVAccel: newResource -> <ptr>
+[  202.507403]: NVAccel: newResource -> <ptr>
+[  202.507405]: NVAccel: newSysMemory -> <ptr>
+[  202.507405]: NVAccel: newSysMemory -> <ptr>
+[  202.507407]: NVAccel: newVidMemory -> <ptr>
+[  202.507407]: NVAccel: newVidMemory -> <ptr>
+[  202.507454]: NVRM-xnu: >os_map_kernel_space start=0x3fc18da0000 size=0x10000 mode=2
+[  202.507464]: NVRM-xnu:   mapped -> 0x<ptr> (slot 248, high water 249/8192)
+[  202.507480]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18da0000 kva <ptr> [BAR1 323878912]
+[  202.507481]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18da0000 kva <ptr> [BAR1 323878912]
+so_gencnt: 5563 t_state: ESTABLISHED process: Spotify Helper:932 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x8fc1deefNVAccel: newResource -> <ptr>
+[  202.508173]: NVAccel: newResource -> <ptr>
+[  202.508175]: NVAccel: newSysMemory -> <ptr>
+[  202.508176]: NVAccel: newSysMemory -> <ptr>
+[  202.508177]: NVAccel: newVidMemory -> <ptr>
+[  202.508178]: NVAccel: newVidMemory -> <ptr>
+[  202.508223]: NVRM-xnu: >os_map_kernel_space start=0x3fc18db0000 size=0x10000 mode=2
+[  202.508234]: NVRM-xnu:   mapped -> 0x<ptr> (slot 249, high water 250/8192)
+[  202.508249]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18db0000 kva <ptr> [BAR1 323944448]
+[  202.508250]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18db0000 kva <ptr> [BAR1 323944448]
+[  202.508802]: NVAccel: newResource -> <ptr>
+[  202.508803]: NVAccel: newResource -> <ptr>
+[  202.508805]: NVAccel: newSysMemory -> <ptr>
+[  202.508806]: NVAccel: newSysMemory -> <ptr>
+[  202.508807]: NVAccel: newVidMemory -> <ptr>
+[  202.508808]: NVAccel: newVidMemory -> <ptr>
+[  202.508850]: NVRM-xnu: >os_map_kernel_space start=0x3fc18dc0000 size=0x10000 mode=2
+[  202.508860]: NVRM-xnu:   mapped -> 0x<ptr> (slot 250, high water 251/8192)
+[  202.508875]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18dc0000 kva <ptr> [BAR1 324009984]
+[  202.508876]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18dc0000 kva <ptr> [BAR1 324009984]
+[  202.509332]: NVAccel: newResource -> <ptr>
+[  202.509333]: NVAccel: newResource -> <ptr>
+[  202.509335]: NVAccel: newSysMemory -> <ptr>
+[  202.509336]: NVAccel: newSysMemory -> <ptr>
+[  202.509337]: NVAccel: newVidMemory -> <ptr>
+[  202.509338]: NVAccel: newVidMemory -> <ptr>
+[  202.509384]: NVRM-xnu: >os_map_kernel_space start=0x3fc18dd0000 size=0x10000 mode=2
+[  202.509394]: NVRM-xnu:   mapped -> 0x<ptr> (slot 251, high water 252/8192)
+[  202.509409]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18dd0000 kva <ptr> [BAR1 324075520]
+[  202.509410]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18dd0000 kva <ptr> [BAR1 324075520]
+[  202.509841]: NVAccel: newResource -> <ptr>
+[  202.509842]: NVAccel: newResource -> <ptr>
+[  202.509844]: NVAccel: newSysMemory -> <ptr>
+[  202.509845]: NVAccel: newSysMemory -> <ptr>
+[  202.509846]: NVAccel: newVidMemory -> <ptr>
+[  202.509847]: NVAccel: newVidMemory -> <ptr>
+[  202.509888]: NVRM-xnu: >os_map_kernel_space start=0x3fc18de0000 size=0x10000 mode=2
+[  202.509899]: NVRM-xnu:   mapped -> 0x<ptr> (slot 252, high water 253/8192)
+[  202.509914]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18de0000 kva <ptr> [BAR1 324141056]
+[  202.509915]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18de0000 kva <ptr> [BAR1 324141056]
+[  202.510497]: NVAccel: newResource -> <ptr>
+[  202.510499]: NVAccel: newResource -> <ptr>
+[  202.510501]: NVAccel: newSysMemory -> <ptr>
+[  202.510501]: NVAccel: newSysMemory -> <ptr>
+[  202.510503]: NVAccel: newVidMemory -> <ptr>
+[  202.510503]: NVAccel: newVidMemory -> <ptr>
+[  202.510545]: NVRM-xnu: >os_map_kernel_space start=0x3fc18df0000 size=0x10000 mode=2
+[  202.510555]: NVRM-xnu:   mapped -> 0x<ptr> (slot 253, high water 254/8192)
+[  202.510570]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18df0000 kva <ptr> [BAR1 324206592]
+[  202.510571]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18df0000 kva <ptr> [BAR1 324206592]
+so_gencnt: 5566 t_state: ESTABLISHED process: Spotify Helper:932 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xb9fa8bfeNVAccel: newResource -> <ptr>
+[  202.520070]: NVAccel: newResource -> <ptr>
+[  202.520074]: NVAccel: newSysMemory -> <ptr>
+[  202.520075]: NVAccel: newSysMemory -> <ptr>
+[  202.520078]: NVAccel: newVidMemory -> <ptr>
+[  202.520078]: NVAccel: newVidMemory -> <ptr>
+[  202.520189]: NVRM-xnu: >os_map_kernel_space start=0x3fc18e00000 size=0x10000 mode=2
+[  202.520206]: NVRM-xnu:   mapped -> 0x<ptr> (slot 254, high water 255/8192)
+[  202.520225]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18e00000 kva <ptr> [BAR1 324272128]
+[  202.520226]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc18e00000 kva <ptr> [BAR1 324272128]

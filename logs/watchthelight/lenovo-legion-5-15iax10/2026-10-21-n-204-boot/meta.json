@@ -1,0 +1,21 @@
+{
+ "collected": "2026-10-21",
+ "component": "native",
+ "files": {
+  "README.md": "49f1103d1834ecf818eb2975da5a3975196a021ce9353df163dd7e8ccd8acf10",
+  "opencore-2026-10-21-013604.txt": "2153dd8707997d788c02b4362d769b078f61a46177b3f1fe0d890f534c2bcd62"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 171
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-204",
+ "username": "watchthelight"
+}

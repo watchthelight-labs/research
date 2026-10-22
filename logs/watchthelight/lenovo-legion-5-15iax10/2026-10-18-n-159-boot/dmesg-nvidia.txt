@@ -1,0 +1,196 @@
+5ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/cb3ec8d9ec4d0389bdcd0b0fa738a8cdaccde798c0dad68f512ba70139ed2b4b.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d7789e38a727835fe071fb3fdfc8b55644ac973590c151f919b7cebcac198724.variant1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f3163eccf28dc38e522847dcf5fb6cec58e60fca7f861b7f86bd812fd6ae1206.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f3163eccf28dc38e522847dcf5fb6cec58e60fca7f861b7f86bd812fd6ae1206.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f6b22e4323a587cd966ee3583027f4035ded464557ab8b8c89d960838e3ac826.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/a630b64ac32433a4449189127bb72e23874220a40947bd840680460452dd06ea.variant1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f6b22e4323a587cd966ee3583027f4035ded464557ab8b8c89d960838e3ac826.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f6b22e4323a587cd966ee3583027f4035ded464557ab8b8c89d960838e3ac826.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/25b121553aa0f3bf2b2f8f58362fc7baff1e6344d0516d3d47a16b8d62bbdb7e.kernel.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/a89ec1238293ed248aab57f085357eca6e7ad274a2c29bdea5f3dd5f9784617f.kernel.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/6cd484bb2703a2f9879a5b69a75ed611e10452403069dd2469d9e1c99d91199c.variant1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7bcc370b4748ef58eb00293acb847436e611c62dfbea7dc69a3529e634faf26c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/63786d6267b2145b14176ec6c3ec38d6ddefac5ca94f17484e58f1e8376b6b13.variant1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7bcc370b4748ef58eb00293acb847436e611c62dfbea7dc69a3529e634faf26c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: surfvram dirty: surface 24 plane 0 type 0xc0 -> 0 (dirty 12282, refused 6)
+[  175.607836]: NVAccel: surfvram dirty: surface 24 plane 0 type 0xc0 -> 0 (dirty 12282, refused 6)
+[  175.761843]: NVAccel: newResource -> <ptr>
+[  175.761850]: NVAccel: newResource -> <ptr>
+[  175.761858]: NVAccel: newSysMemory -> <ptr>
+[  175.761859]: NVAccel: newSysMemory -> <ptr>
+[  175.761864]: NVAccel: newVidMemory -> <ptr>
+[  175.761865]: NVAccel: newVidMemory -> <ptr>
+[  175.761996]: 1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f6b22e4323a587cd966ee3583027f4035ded464557ab8b8c89d960838e3ac826.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/25b121553aa0f3bf2b2f8f58362fc7baff1e6344d0516d3d47a16b8d62bbdb7e.kernel.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc04270000 kva <ptr> [BAR1 286392320]
+[  175.762010]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc04270000 kva <ptr> [BAR1 286392320]
+[  175.763467]: Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/a89ec1238293ed248aab57f085357eca6e7ad274a2c29bdea5f3dd5f9784617f.kernel.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/6cd484bb2703a2f9879a5b69a75ed611e10452403069dd2469d9e1c99d91199c.variant1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  175.767225]: NVAccel: newResource -> <ptr>
+[  175.767234]: NVAccel: newSysMemory -> <ptr>
+[  175.767236]: NVAccel: newSysMemory -> <ptr>
+[  175.767243]: NVAccel: newVidMemory -> <ptr>
+[  175.767245]: NVAccel: newVidMemory -> <ptr>
+[  175.767451]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07ee0000 kva <ptr> [BAR1 286457856]
+[  175.767456]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07ee0000 kva <ptr> [BAR1 286457856]
+[  175.769369]: 1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7bcc370b4748ef58eb00293acb847436e611c62dfbea7dc69a3529e634faf26c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/63786d6267b2145b14176ec6c3ec38d6ddefac5ca94f17484e58f1e8376b6b13.variant1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7bcc370b4748ef58eb00293acb847436e611c62dfbea7dc69a3529e634faf26c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7bcc370b4748ef58eb00293acb847436e611c62dfbea7dc69a3529e634faf26c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/6a465b55a42232d1c480b05b4a53c8ca82cb636925616ac262b3ddadc58c6e10.kernel.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/80aa56768db59863042167e6ed6633d744720896569400a531a57232e4f9c3a5.kernel.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/df69710833f48cbaac44aac6ad164d7eb04d765ed22d21fd75c3085349845f2b.kernel.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/cb3ec8d9ec4d0389bdcd0b0fa738a8cdaccde798c0dad68f512ba70139ed2b4b.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f9506402298e6ee287e08aa50c13bef2477c34b60019f941791da9a5ee5b85bb.variant1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/cb3ec8d9ec4d0389bdcd0b0fa738a8cdaccde798c0dad68f512ba70139ed2b4b.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  175.778006]: NVAccel: newResource -> <ptr>
+[  175.778011]: NVAccel: newSysMemory -> <ptr>
+[  175.778011]: NVAccel: newSysMemory -> <ptr>
+[  175.778015]: NVAccel: newVidMemory -> <ptr>
+[  175.778015]: NVAccel: newVidMemory -> <ptr>
+[  175.778145]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07f10000 kva <ptr> [BAR1 286523392]
+[  175.778148]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07f10000 kva <ptr> [BAR1 286523392]
+[  175.806215]: Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/a89ec1238293ed248aab57f085357eca6e7ad274a2c29bdea5f3dd5f9784617f.kernel.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.811536]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.811769]: NVAccel: newResource -> <ptr>
+[  175.811772]: NVAccel: newResource -> <ptr>
+[  175.811779]: NVAccel: newSysMemory -> <ptr>
+[  175.811780]: NVAccel: newSysMemory -> <ptr>
+[  175.811786]: NVAccel: newVidMemory -> <ptr>
+[  175.811786]: NVAccel: newVidMemory -> <ptr>
+[  175.811968]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc07fb0000 kva <ptr> [BAR1 286720000]
+[  175.811971]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 196608 bytes of REAL VRAM -- phys 0x3fc07fb0000 kva <ptr> [BAR1 286720000]
+[  175.811975]: Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/6cd484bb2703a2f9879a5b69a75ed611e10452403069dd2469d9e1c99d91199c.variant1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.812453]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.812961]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.812963]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.831342]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.831348]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  175.847438]: NVAccel: newResource -> <ptr>
+[  175.847441]: NVAccel: newResource -> <ptr>
+[  175.847446]: NVAccel: newSysMemory -> <ptr>
+[  175.847447]: NVAccel: newSysMemory -> <ptr>
+[  175.847451]: NVAccel: newVidMemory -> <ptr>
+[  175.847451]: NVAccel: newVidMemory -> <ptr>
+[  175.849905]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc04260000 kva <ptr> [BAR1 286720000]
+[  175.849908]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc04260000 kva <ptr> [BAR1 286720000]
+[  175.958757]: 1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f6b22e4323a587cd966ee3583027f4035ded464557ab8b8c89d960838e3ac826.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/c1b2de891edb04f26dba3bfb74f4a4cdb17c2ec763e6c6981dce90e61fa299ff.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/8be56c39429d6908a388ede608eb1a4528811de86483b6d0f4089e4d63ba9b30.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d148fc9495e250d7c3a8b5718eb51b677875afbe468cc7f12f07879b2dd9feee.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d148fc9495e250d7c3a8b5718eb51b677875afbe468cc7f12f07879b2dd9feee.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/8be56c39429d6908a388ede608eb1a4528811de86483b6d0f4089e4d63ba9b30.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/8be56c39429d6908a388ede608eb1a4528811de86483b6d0f4089e4d63ba9b30.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7e151944f2b748ffb1da2c887018560db3bb695d67e2206aef0fc0d3c8f9fcf6.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/abd5e38ea36df1bd86b7ded8174d4082adb9fddf400514b12a7ae56c9a811936.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d148fc9495e250d7c3a8b5718eb51b677875afbe468cc7f12f07879b2dd9feee.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d148fc9495e250d7c3a8b5718eb51b677875afbe468cc7f12f07879b2dd9feee.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/abd5e38ea36df1bd86b7ded8174d4082adb9fddf400514b12a7ae56c9a811936.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  175.965254]: NVAccel: newResource -> <ptr>
+[  175.965261]: NVAccel: newSysMemory -> <ptr>
+[  175.965262]: NVAccel: newSysMemory -> <ptr>
+[  175.965267]: NVAccel: newVidMemory -> <ptr>
+[  175.965268]: NVAccel: newVidMemory -> <ptr>
+[  175.965405]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07f20000 kva <ptr> [BAR1 286785536]
+[  175.965407]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07f20000 kva <ptr> [BAR1 286785536]
+[  176.134273]: NVAccel: newResource -> <ptr>
+[  176.134284]: NVAccel: newResource -> <ptr>
+[  176.134295]: NVAccel: newSysMemory -> <ptr>
+[  176.134297]: NVAccel: newSysMemory -> <ptr>
+[  176.134305]: NVAccel: newVidMemory -> <ptr>
+[  176.134307]: NVAccel: newVidMemory -> <ptr>
+[  176.134657]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 262144 bytes of REAL VRAM -- phys 0x3fc07fe0000 kva <ptr> [BAR1 287047680]
+[  176.134662]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 262144 bytes of REAL VRAM -- phys 0x3fc07fe0000 kva <ptr> [BAR1 287047680]
+[  176.155863]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.155874]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.156433]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.156438]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.157001]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.157005]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.157589]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.157593]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.158334]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.158339]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.174466]: NVAccel: newResource -> <ptr>
+[  176.174470]: NVAccel: newResource -> <ptr>
+[  176.174477]: NVAccel: newSysMemory -> <ptr>
+[  176.174478]: NVAccel: newSysMemory -> <ptr>
+[  176.174482]: NVAccel: newVidMemory -> <ptr>
+[  176.174483]: NVAccel: newVidMemory -> <ptr>
+[  176.177203]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07f70000 kva <ptr> [BAR1 287113216]
+[  176.177205]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07f70000 kva <ptr> [BAR1 287113216]
+[  176.217734]: NVAccel: newResource -> <ptr>
+[  176.217739]: NVAccel: newResource -> <ptr>
+[  176.217746]: NVAccel: newSysMemory -> <ptr>
+[  176.217747]: NVAccel: newSysMemory -> <ptr>
+[  176.217751]: NVAccel: newVidMemory -> <ptr>
+[  176.217752]: NVAccel: newVidMemory -> <ptr>
+[  176.221329]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6422528 bytes of REAL VRAM -- phys 0x3fc0c200000 kva <ptr> [BAR1 293535744]
+[  176.221333]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6422528 bytes of REAL VRAM -- phys 0x3fc0c200000 kva <ptr> [BAR1 293535744]
+[  176.257122]: NVRM-fb: cursor apply 7000: ok 1 rc 0 at 1908,414 visible 1
+[  176.257130]: NVRM-fb: cursor apply 7000: ok 1 rc 0 at 1908,414 visible 1
+[  176.308279]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.308288]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.627028]: 1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/0b659e9c9ae8956bb152f5db96b11536f819ec5e93bf98b3d06be7ad5773c6e1.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/591ce91f73a468304ab9d9f433445785d2ab98d7e8e1779d7ab0d8f9da76db6c.fc1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/c5c7308da05492632a6535d1e63557783f25fd91ddbe1239bcfc2ba998bc0d1c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d148fc9495e250d7c3a8b5718eb51b677875afbe468cc7f12f07879b2dd9feee.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spv2 duplicate reports for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/d148fc9495e250d7c3a8b5718eb51b677875afbe468cc7f12f07879b2dd9feee.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/c5c7308da05492632a6535d1e63557783f25fd91ddbe1239bcfc2ba998bc0d1c.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvNVAccel: newResource -> <ptr>
+[  176.633934]: NVAccel: newResource -> <ptr>
+[  176.633942]: NVAccel: newSysMemory -> <ptr>
+[  176.633943]: NVAccel: newSysMemory -> <ptr>
+[  176.633949]: NVAccel: newVidMemory -> <ptr>
+[  176.633950]: NVAccel: newVidMemory -> <ptr>
+[  176.634106]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07f80000 kva <ptr> [BAR1 287178752]
+[  176.634109]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc07f80000 kva <ptr> [BAR1 287178752]
+[  176.710122]: NVAccel: newResource -> <ptr>
+[  176.710129]: NVAccel: newResource -> <ptr>
+[  176.710136]: NVAccel: newSysMemory -> <ptr>
+[  176.710137]: NVAccel: newSysMemory -> <ptr>
+[  176.710142]: NVAccel: newVidMemory -> <ptr>
+[  176.710142]: NVAccel: newVidMemory -> <ptr>
+[  176.711578]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 7077888 bytes of REAL VRAM -- phys 0x3fc0c200000 kva <ptr> [BAR1 294256640]
+[  176.711581]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 7077888 bytes of REAL VRAM -- phys 0x3fc0c200000 kva <ptr> [BAR1 294256640]
+[  176.715093]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.715099]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.729327]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.729335]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.729626]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.729629]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.731293]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.731299]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.761008]: NVAccel: newResource -> <ptr>
+[  176.761019]: NVAccel: newResource -> <ptr>
+[  176.761030]: NVAccel: newSysMemory -> <ptr>
+[  176.761033]: NVAccel: newSysMemory -> <ptr>
+[  176.761041]: NVAccel: newVidMemory -> <ptr>
+[  176.761043]: NVAccel: newVidMemory -> <ptr>
+[  176.761312]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc08020000 kva <ptr> [BAR1 294322176]
+[  176.761317]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 65536 bytes of REAL VRAM -- phys 0x3fc08020000 kva <ptr> [BAR1 294322176]
+[  176.790062]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.790068]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.791785]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.791789]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.793326]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.793329]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.809378]: NVAccel: newResource -> <ptr>
+[  176.809381]: NVAccel: newResource -> <ptr>
+[  176.809387]: NVAccel: newSysMemory -> <ptr>
+[  176.809388]: NVAccel: newSysMemory -> <ptr>
+[  176.809393]: NVAccel: newVidMemory -> <ptr>
+[  176.809393]: NVAccel: newVidMemory -> <ptr>
+[  176.815779]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 13959168 bytes of REAL VRAM -- phys 0x3fc0ca00000 kva <ptr> [BAR1 308281344]
+[  176.815782]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 13959168 bytes of REAL VRAM -- phys 0x3fc0ca00000 kva <ptr> [BAR1 308281344]
+[  176.864955]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.864962]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.866855]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.866859]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.944289]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.944300]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.947807]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.947816]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  176.957498]: NVAccel: newResource -> <ptr>
+[  176.957502]: NVAccel: newResource -> <ptr>
+[  176.957508]: NVAccel: newSysMemory -> <ptr>
+[  176.957509]: NVAccel: newSysMemory -> <ptr>
+[  176.957513]: NVAccel: newVidMemory -> <ptr>
+[  176.957514]: NVAccel: newVidMemory -> <ptr>
+[  176.959795]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3735552 bytes of REAL VRAM -- phys 0x3fc0ca00000 kva <ptr> [BAR1 298057728]
+[  176.959797]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3735552 bytes of REAL VRAM -- phys 0x3fc0ca00000 kva <ptr> [BAR1 298057728]
+[  176.987305]: NVAccel: newResource -> <ptr>
+[  176.987313]: NVAccel: newResource -> <ptr>
+[  176.987322]: NVAccel: newSysMemory -> <ptr>
+[  176.987324]: NVAccel: newSysMemory -> <ptr>
+[  176.987331]: NVAccel: newVidMemory -> <ptr>
+[  176.987333]: NVAccel: newVidMemory -> <ptr>
+[  176.990355]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3735552 bytes of REAL VRAM -- phys 0x3fc0ca00000 kva <ptr> [BAR1 298057728]
+[  176.990358]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 3735552 bytes of REAL VRAM -- phys 0x3fc0ca00000 kva <ptr> [BAR1 298057728]
+[  177.153059]: NVAccel: newResource -> <ptr>
+[  177.153070]: NVAccel: newResource -> <ptr>
+[  177.153082]: NVAccel: newSysMemory -> <ptr>
+[  177.153084]: NVAccel: newSysMemory -> <ptr>
+[  177.153092]: NVAccel: newVidMemory -> <ptr>
+[  177.153094]: NVAccel: newVidMemory -> <ptr>
+[  177.153962]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1638400 bytes of REAL VRAM -- phys 0x3fc0a830000 kva <ptr> [BAR1 295895040]
+[  177.153968]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1638400 bytes of REAL VRAM -- phys 0x3fc0a830000 kva <ptr> [BAR1 295895040]
+[  177.893777]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  177.893784]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  177.985236]: NVAccel: newResource -> <ptr>
+[  177.985244]: NVAccel: newResource -> <ptr>
+[  177.985252]: NVAccel: newSysMemory -> <ptr>
+[  177.985253]: NVAccel: newSysMemory -> <ptr>
+[  177.985258]: NVAccel: newVidMemory -> <ptr>
+[  177.985259]: NVAccel: newVidMemory -> <ptr>
+[  177.986631]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6422528 bytes of REAL VRAM -- phys 0x3fc0ca00000 kva <ptr> [BAR1 302317568]
+[  177.986633]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 6422528 bytes of REAL VRAM -- phys 0x3fc0ca00000 kva <ptr> [BAR1 302317568]
+[  178.223172]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  178.223179]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  179.067663]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  179.067670]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  179.486430]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  179.486438]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  179.801945]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  179.801952]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  181.001604]: NVRM-fb: cursor apply 8000: ok 1 rc 0 at 1802,414 visible 1
+[  181.001615]: NVRM-fb: cursor apply 8000: ok 1 rc 0 at 1802,414 visible 1
+[  181.004371]: Sandbox apply: mdworker_shared[1241] <bytes>Sandbox apply: mdworker_shared[1239] <bytes>Sandbox apply: mdworker_shared[1245] <bytes>Sandbox apply: mdworker_shared[1238] <bytes>Sandbox apply: mdworker_shared[1246] <bytes>Sandbox apply: mdworker_shared[1249] <bytes>Sandbox apply: mdworker_shared[1254] <bytes>Sandbox apply: mdworker_shared[1242] <bytes>Sandbox apply: mdworker_shared[1253] <bytes>Sandbox apply: mdworker_shared[1255] <bytes>Sandbox apply: mdworker_shared[1251] <bytes>Sandbox apply: mdworker_shared[1250] <bytes>Sandbox apply: mdworker_shared[1240] <bytes>Sandbox apply: mdworker_shared[1256] <bytes>Sandbox apply: mdworker_shared[1244] <bytes>Sandbox apply: mdworker_shared[1243] <bytes>Sandbox apply: mdworker_shared[1247] <bytes>Sandbox apply: mdworker_shared[1252] <bytes>Sandbox apply: mdworker_shared[1248] <bytes>Sandbox apply: spotlightknowledged[1257] <bytes>1 duplicate report for Sandbox: iconservicesagent(656) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/f6b22e4323a587cd966ee3583027f4035ded464557ab8b8c89d960838e3ac826.refl1.sha256-454a84d57bc8dd517f0cdeab62a8343825ec8815ef11d12cfa74819f5a874701-u2.c3.spvSandbox: spotlightknowledged(1257) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:region-infoNVRM-fb: present stats head 0: 510 flips in 10005 ms (51/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6347 us
+[  181.207305]: NVRM-fb: present stats head 0: 510 flips in 10005 ms (51/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6347 us

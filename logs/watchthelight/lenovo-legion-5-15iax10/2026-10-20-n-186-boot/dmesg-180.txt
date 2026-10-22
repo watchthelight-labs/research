@@ -1,0 +1,888 @@
+t=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.919996]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.920288]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.920342]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.920639]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.920958]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.921244]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_RSSI> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.921374]: Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.921554]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  191.926424]: 19 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: parsecd(795) deny(1) process-info-listpidsSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: parsecd(795) deny(1) process-info-listpidsSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbtx_flush:1344: disk1 xid 444024 tx stats: # 260 owait 27 2408us finish 255 bar2 255 f 12 enter 244 fq 17 21 84us close 0us prep 487us flush 4349us
+[  191.934736]: 28 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: assistantd(787) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  191.934847]: Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: assistantd(787) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  191.935224]: Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb18 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: parsecd(795) deny(1) mach-lookup com.apple.SystemConfiguration.configdSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb2 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: parsecd(795) deny(1) mach-register com.apple.aps.parsecdSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb4 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: assistantd(787) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  191.942708]: Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: assistantd(787) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  191.942996]: Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb3 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: parsecd(795) deny(1) mach-lookup com.apple.securityd.xpcSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb2 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: parsecd(795) deny(1) mach-lookup com.apple.xpc.amsengagementdSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox apply: itunescloudd[796] <bytes>5 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: parsecd(795) deny(1) mach-lookup com.apple.xpc.amsaccountsdSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb14 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: homed(766) deny(1) mach-lookup com.apple.powerlog.plxpclogger.xpcSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb22 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: assistantd(787) deny(1) mach-lookup com.apple.private.corewifi.readonly-xpcSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb66 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: itunescloudd(796) deny(1) mach-lookup com.apple.duetactivityschedulerSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSK[16]: flow_entry_alloc               fe "0 proc kernel_task(0)assistantd nx_port 1 flow_uuid UUID-385 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49170,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0xc848504c tp_proto=0x06"
+[  191.978448]: tcp connect outgoing: [<IPv4-redacted>:49170<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2715 t_state: SYN_SENT process: assistantd:787 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 600 flow: 0xb6ab76ea12 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: itunescloudd(796) deny(1) mach-lookup com.apple.symptom_analyticsSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb1 duplicate report for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: itunescloudd(796) deny(1) mach-lookup com.apple.symptom_analyticsSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb3 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: assistantd(787) deny(1) mach-lookup com.apple.cmio.registerassistantservice.system-extensionsSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb12 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: accessoryupdaterd(107) allow file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/com.apple.UARPiCloud.plist extension-class:com.apple.cfprefsd.readSandbox: accessoryupdaterd(107) allow file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: accessoryupdaterd(107) allow file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.readSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb15 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: accessoryupdaterd(107) allow mach-lookup com.apple.cloudd.systemSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb5 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: accessoryupdaterd(107) allow file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/com.apple.CloudKit.plist extension-class:com.apple.cfprefsd.readSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbtcp connected: [<IPv4-redacted>:49170<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2715 t_state: ESTABLISHED process: assistantd:787 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 600 flow: 0xb6ab76eaSandbox apply: SetStoreUpdateService[798] <bytes>118 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: SetStoreUpdateService(798) deny(1) mach-lookup com.apple.CoreServices.coreservicesdSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb3 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: SetStoreUpdateService(798) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb2 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: SetStoreUpdateService(798) deny(1) mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydb[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.047671]: 29 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.lsd.modifydbSandbox: milod(741) deny(1) file-read-data /Users/USER/Library/Preferences/com.apple.LaunchServices/com.apple.LaunchServices.plistSandbox: milod(741) deny(1) file-read-data /Users/USER/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist1 duplicate report for Sandbox: milod(741) deny(1) file-read-data /Users/USER/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plistSandbox: milod(741) deny(1) mach-lookup com.apple.coreservices.quarantine-resolver[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.049684]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.049741]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.050276]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.051120]: 5 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.coreservices.quarantine-resolverSandbox: itunescloudd(796) deny(1) mach-lookup com.apple.symptom_analytics[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.052435]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.053504]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.054517]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.055556]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.056635]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.057520]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_PHY_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.058131]: udp connect: [<IPv4-redacted>:51496<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2721 so_state: 0x0102 process: itunescloudd:796 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8b399510[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_RSSI> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.059743]: 1 duplicate report for Sandbox: itunescloudd(796) deny(1) mach-lookup com.apple.symptom_analyticsSandbox: itunescloudd(796) deny(1) file-write-create /Users/USER/Library/Application Support/com.apple.iTunesCloud/URLBags/itunescloudd[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.068427]: Sandbox: milod(741) deny(1) mach-lookup com.apple.coreservices.quarantine-resolver7 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.coreservices.quarantine-resolverSandbox: milod(741) deny(1) file-read-data /Users/USER/Library/Caches/GeoServicesSandbox: milod(741) deny(1) file-read-data /Users/USER/Library/Caches/GeoServices/networkDefaults.plistSandbox: milod(741) deny(1) mach-lookup com.apple.coreservices.quarantine-resolver3 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.coreservices.quarantine-resolverSandbox: milod(741) deny(1) file-read-data /Users/USER/Library/Caches/GeoServices/ActiveTileGroup.pbdSandbox: milod(741) deny(1) mach-lookup com.apple.coreservices.quarantine-resolverSandbox apply: corespeechd[799] <bytes>3 duplicate reports for Sandbox: milod(741) deny(1) mach-lookup com.apple.coreservices.quarantine-resolverSandbox: corespeechd(799) deny(1) mach-lookup com.apple.cmio.registerassistantservice.system-extensionsSandbox: corespeechd(799) deny(1) iokit-get-properties iokit-class:IOService property:apple-coprocessor-version1 duplicate report for Sandbox: corespeechd(799) deny(1) iokit-get-properties iokit-class:IOService property:apple-coprocessor-versionSandbox: corespeechd(799) deny(1) mach-lookup com.apple.tccdACMTRM-S: _saveAll: pushing *policy* -> daemon (gen=2 dataLen=105 ver=17).
+[  192.144505]: ACMTRM-S: _saveAll: pushing *analytics* -> daemon (gen=2 dataLen=400 ver=1).
+[  192.146685]: Sandbox: corespeechd(799) deny(1) user-preference-read com.apple.trialdSandbox: mobileassetd(248) deny(1) file-read-data /Library/Preferences/com.apple.networkextension.uuidcache.plistSK[10]: flow_entry_alloc               fe "0 proc kernel_task(0)mobileassetd nx_port 1 flow_uuid UUID-386 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49171,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0xbcc4ef7f tp_proto=0x06"
+[  192.174248]: tcp connect outgoing: [<IPv4-redacted>:49171<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2733 t_state: SYN_SENT process: mobileassetd:248 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 73 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x8d1159ebudp connect: [<IPv4-redacted>:60809<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2735 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x9585d3d5Sandbox apply: uarpd[633] <bytes>Sandbox: uarpd(633) allow file-read-data /Library/Preferences/com.apple.networkd.plistudp connect: [<IPv4-redacted>:62493<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2740 so_state: 0x0182 process: cloudd:284 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x99c47c9fSK[8]: flow_entry_alloc               fe "0 proc kernel_task(0)com.apple.geod nx_port 1 flow_uuid UUID-387 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49172,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x36de0de7 tp_proto=0x06"
+[  192.203304]: tcp connect outgoing: [<IPv4-redacted>:49172<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2744 t_state: SYN_SENT process: com.apple.geod:714 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 26 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x97a0cda8Sandbox apply: localspeechrecognition[803] <bytes>1 duplicate report for Sandbox: uarpd(633) allow file-read-data /Library/Preferences/com.apple.networkd.plistSandbox: localspeechrecognition(803) deny(1) user-preference-read com.apple.trialdSK[13]: flow_entry_alloc               fe "0 proc kernel_task(0)com.apple.geod nx_port 1 flow_uuid UUID-388 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49173,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x2deef2c2 tp_proto=0x06"
+[  192.247074]: tcp connect outgoing: [<IPv4-redacted>:49173<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2746 t_state: SYN_SENT process: com.apple.geod:714 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xa2017203tcp connected: [<IPv4-redacted>:49173<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2746 t_state: ESTABLISHED process: com.apple.geod:714 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xa2017203tcp connected: [<IPv4-redacted>:49172<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2744 t_state: ESTABLISHED process: com.apple.geod:714 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 26 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x97a0cda8udp connect: [<IPv4-redacted>:63666<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2754 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xa15c56dfSandbox: itunescloudd(796) deny(1) file-write-create /Users/USER/Library/Application Support/com.apple.iTunesCloud/URLBags/itunesclouddudp connect: [<IPv4-redacted>:56274<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2769 so_state: 0x0182 process: cloudd:284 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xb035c3d1tcp connected: [<IPv4-redacted>:49171<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2733 t_state: ESTABLISHED process: mobileassetd:248 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 73 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x8d1159ebSandbox: routined(665) deny(1) mach-lookup com.apple.CompanionLinkSandbox: routined(665) deny(1) mach-lookup com.apple.commcenter.coretelephony.xpc1 duplicate report for Sandbox: routined(665) deny(1) mach-lookup com.apple.commcenter.coretelephony.xpcSandbox: routined(665) allow mach-register com.apple.aps.routinedudp_connection_summary [<IPv4-redacted>:52193<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1975 so_state: 0x0102 process: cloudd:698 Duration: 1.417 sec Conn_Time: 1.417 sec bytes in/out: 5939/5120 pkts in/out: 7/8 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xa3b7cd5a flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:63615<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2168 so_state: 0x0102 process: cloudd:698 Duration: 1.097 sec Conn_Time: 1.097 sec bytes in/out: 6008/8123 pkts in/out: 10/14 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb5cef033 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:54329<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2002 so_state: 0x0102 process: cloudd:698 Duration: 1.277 sec Conn_Time: 1.277 sec bytes in/out: 5939/6968 pkts in/out: 7/11 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x889d15ad flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:58311<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1981 so_state: 0x0102 process: cloudd:698 Duration: 1.410 sec Conn_Time: 1.410 sec bytes in/out: 5939/8545 pkts in/out: 7/14 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xbdd129d0 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60335<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 1994 so_state: 0x0102 process: cloudd:698 Duration: 1.407 sec Conn_Time: 1.406 sec bytes in/out: 5938/5117 pkts in/out: 7/8 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x952692d5 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:57969<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2180 so_state: 0x0102 process: cloudd:698 Duration: 1.089 sec Conn_Time: 1.089 sec bytes in/out: 5940/6800 pkts in/out: 7/11 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x88fbe95b flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:59128<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2021 so_state: 0x0102 process: cloudd:698 Duration: 1.220 sec Conn_Time: 1.220 sec bytes in/out: 4057/3372 pkts in/out: 11/11 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x87d45d34 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:50158<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2203 so_state: 0x0102 process: cloudd:698 Duration: 1.073 sec Conn_Time: 1.073 sec bytes in/out: 4127/1460 pkts in/out: 7/7 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x971d23ef flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60430<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2047 so_state: 0x0102 process: cloudd:698 Duration: 1.205 sec Conn_Time: 1.204 sec bytes in/out: 4557/3097 pkts in/out: 17/13 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb831647d flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60828<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2073 so_state: 0x0102 process: cloudd:698 Duration: 1.191 sec Conn_Time: 1.191 sec bytes in/out: 7753/3343 pkts in/out: 19/14 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x92d9bb79 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:49533<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2034 so_state: 0x0102 process: cloudd:698 Duration: 1.210 sec Conn_Time: 1.209 sec bytes in/out: 8722/4822 pkts in/out: 13/11 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x81321684 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:54829<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2235 so_state: 0x0102 process: cloudd:698 Duration: 1.054 sec Conn_Time: 1.054 sec bytes in/out: 6992/6280 pkts in/out: 24/22 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb5be90f3 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:56751<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2789 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8a6150d3NVRM-xnu: post #1000 caller chain (nv_post_event at 0xffffff7fb01ef4f0, isr-thread 1)
+Backtrace 0xffffff7f96e7e6c2 0xffffff7f96e7e798 0xffffff7f9709b9e5 0xffffff7f96f7b385 0xffffff7f96fa5fff 0xffffff7f96fa29e3 0xffffff7f96fa26de
+[  192.444392]:       Kernel Extensions in backtrace:
+[  192.444394]:          com.nullmoth.NVRM(0.1)[UUID-389]@0xffffff7f96dde000->0xffffff7f97b5efff
+[  192.444398]:             dependency: com.apple.iokit.IOACPIFamily(1.4)[UUID-366]@0xffffff800249d000->0xffffff800249efff
+[  192.444400]:             dependency: com.apple.iokit.IOPCIFamily(2.9)[UUID-367]@0xffffff80029e5000->0xffffff8002a38fff
+[  192.445090]: NVAccel: newResource -> <ptr>
+[  192.445093]: NVAccel: newResource -> <ptr>
+[  192.445100]: NVAccel: newSysMemory -> <ptr>
+[  192.445100]: NVAccel: newSysMemory -> <ptr>
+[  192.445104]: NVAccel: newVidMemory -> <ptr>
+[  192.445104]: NVAccel: newVidMemory -> <ptr>
+[  192.445197]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e800000 size=0xfa0000 mode=2
+[  192.445363]: NVRM-xnu:   mapped -> 0x<ptr> (slot 31, high water 41/8192)
+[  192.448132]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc0e800000 kva <ptr> [BAR1 184877056]
+[  192.448134]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc0e800000 kva <ptr> [BAR1 184877056]
+[  192.449521]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  192.449540]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10017 -> status 0x0
+[  192.453339]: Sandbox: parsecd(795) deny(1) mach-lookup com.apple.apsdNVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  192.456847]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  192.456857]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  192.456858]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  192.456998]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  192.456999]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  192.457025]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  192.457027]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  192.461767]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -52 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  192.462143]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.462156]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  192.462343]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.462975]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.463042]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  192.465931]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.465938]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.468034]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  192.468039]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  192.468047]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  192.468049]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  192.468192]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  192.468193]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  192.468222]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  192.468223]: NVAccel: newUserClient(type 6 / 0x6) -> family returned 0x0, client IOAccelSharedUserClient2
+[  192.476398]: IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 359 bytes
+[  192.486699]: Sandbox: avconferenced(773) deny(1) user-preference-read com.apple.trialdNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  192.491502]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10024 -> status 0x0
+[  192.491881]: udp connect: [<IPv4-redacted>:55473<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2803 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xb54e805eNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.491944]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.501452]: ACM: createCredentialSet: Credential set created (auto=YES), CS[106]/3, LRU=34, mem=41(0), SUID=501, pool=[3/256 2a:1n], usedByAge=[1w+:0 1w:0 1d:0 12h:0 1h:0 30m:0 10m:1 1m:2].
+[  192.502535]: "AppleKeyStore":pid:713,:13297: operation failed (sel: 17 ret: e00002f0, 501)
+[  192.503038]: ACM: deleteCredentialSet: Deleting credential set, CS[106].
+[  192.503497]: NVAccel: newResource -> <ptr>
+[  192.503499]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.503500]: NVAccel: newResource -> <ptr>
+[  192.503503]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.503507]: NVAccel: newSysMemory -> <ptr>
+[  192.503508]: NVAccel: newSysMemory -> <ptr>
+[  192.503512]: NVAccel: newVidMemory -> <ptr>
+[  192.503512]: NVAccel: newVidMemory -> <ptr>
+[  192.503592]: NVRM-xnu: >os_map_kernel_space start=0x3fc0f800000 size=0xfa0000 mode=2
+[  192.503754]: NVRM-xnu:   mapped -> 0x<ptr> (slot 32, high water 41/8192)
+[  192.505696]: process_is_plugin_host: running binary "com.apple.audio.SandboxHelper" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationNVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc0f800000 kva <ptr> [BAR1 201261056]
+[  192.506560]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc0f800000 kva <ptr> [BAR1 201261056]
+[  192.512956]: NVRM-xnu: map fd 145: device 1 range(s) first 0x3fc0a220000+0x80000 caching 2
+[  192.514708]: NVRM-xnu: map fd 143: device 1 range(s) first 0x80bb0000+0x1000 caching 1
+[  192.516332]: Sandbox apply: mapssyncd[808] <bytes>NVRM-xnu: >os_free_mutex
+[  192.531269]: Sandbox apply: AudioConverterService[809] <bytes>Sandbox apply: com.apple.audio.SandboxHelper[811] <bytes>Sandbox: AudioConverterService(809) deny(1) file-read-data /Library/Preferences/.GlobalPreferences.plistSandbox apply: AudioConverterHardenedService[810] <bytes>Sandbox: AudioConverterHardenedService(810) deny(1) file-read-data /Library/Preferences/.GlobalPreferences.plistprocess_is_plugin_host: running binary "com.apple.audio.SandboxHelper" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  192.552143]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10026 -> status 0x0
+[  192.555918]: Sandbox: mapssyncd(808) deny(1) file-write-create /Users/USER/Library/Application Support/mapssyncdprocess_is_plugin_host: running binary "com.apple.audio.SandboxHelper" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationmemorystatus: Denying dirty-tracking opt-in for managed BatteriesAvocadoWidgetExtension [780]
+[  192.568337]: Sandbox apply: BatteriesAvocadoWidgetExtension[780] <bytes>Sandbox apply: com.apple.audio.SandboxHelper[813] <bytes>Sandbox apply: com.apple.audio.SandboxHelper[814] <bytes>NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  192.605401]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  192.606277]: ACM: createCredentialSet: Credential set created (auto=YES), CS[107]/3, LRU=37, mem=41(0), SUID=-1, pool=[3/256 2a:1n], usedByAge=[1w+:0 1w:0 1d:0 12h:0 1h:0 30m:0 10m:1 1m:2].
+[  192.607920]: ACM: Env_GetVariable: clearing readOnce var[39].
+[  192.615039]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.615045]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.618008]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.618013]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.618214]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.618215]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.618511]: NVAccel: newResource -> <ptr>
+[  192.618512]: NVAccel: newResource -> <ptr>
+[  192.618518]: NVAccel: newSysMemory -> <ptr>
+[  192.618519]: NVAccel: newSysMemory -> <ptr>
+[  192.618523]: NVAccel: newVidMemory -> <ptr>
+[  192.618524]: NVAccel: newVidMemory -> <ptr>
+[  192.618600]: NVRM-xnu: >os_map_kernel_space start=0x3fc0e680000 size=0x100000 mode=2
+[  192.618621]: NVRM-xnu:   mapped -> 0x<ptr> (slot 41, high water 42/8192)
+[  192.618842]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc0e680000 kva <ptr> [BAR1 202309632]
+[  192.618844]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc0e680000 kva <ptr> [BAR1 202309632]
+[  192.621228]: Sandbox apply: AirPlayUIAgent[826] <bytes>SK[15]: flow_entry_alloc               fe "0 proc kernel_task(0)identityservices nx_port 1 flow_uuid UUID-390 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49174,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x5f9233e4 tp_proto=0x06"
+[  192.629425]: tcp connect outgoing: [<IPv4-redacted>:49174<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2894 t_state: SYN_SENT process: identityservices:688 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xb7f2ec86NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10010 -> status 0x0
+[  192.630352]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000d -> status 0x0
+[  192.631046]: Sandbox apply: Siri[823] <bytes>tcp connected: [<IPv4-redacted>:49174<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2894 t_state: ESTABLISHED process: identityservices:688 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xb7f2ec86SK[11]: flow_entry_alloc               fe "0 proc kernel_task(0)cloudd nx_port 1 flow_uuid UUID-391 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49175,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x38cf8818 tp_proto=0x06"
+[  192.651696]: tcp connect outgoing: [<IPv4-redacted>:49175<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2896 t_state: SYN_SENT process: cloudd:698 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x92a65905NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  192.652183]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  192.652968]: udp connect: [<IPv4-redacted>:61530<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2897 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xb25ec793AMFI: [non-fatal] unable to accelerate context: com.apple.FolderActionsDispatcher | 65285
+[  192.656856]: Sandbox: syncdefaultsd(697) deny(1) mach-lookup com.apple.tccd.systemNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.659933]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.660564]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.660570]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.668243]: tcp connected: [<IPv4-redacted>:49175<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2896 t_state: ESTABLISHED process: cloudd:698 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x92a65905NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.671211]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.675298]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.675301]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.682252]: memorystatus: Denying dirty-tracking opt-in for managed CalendarWidgetExtension [838]
+[  192.682696]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  192.682713]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000d -> status 0x0
+[  192.683244]: process_is_plugin_host: running binary "StartUpHelper" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationudp connect: [<IPv4-redacted>:49710<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2914 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8f34c035SK[18]: flow_entry_alloc               fe "0 proc kernel_task(0)nsurlsessiond nx_port 1 flow_uuid UUID-392 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49176,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x5a7d931a tp_proto=0x06"
+[  192.686595]: tcp connect outgoing: [<IPv4-redacted>:49176<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2915 t_state: SYN_SENT process: nsurlsessiond:658 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 17 ms error: 0 so_error: 0 svc/tc: 100 flow: 0xb5a871f0tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49175<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2896 t_state: FIN_WAIT_1 process: cloudd:698 Duration: 0.037 sec Conn_Time: 0.017 sec bytes in/out: 0/0 pkts in/out: 0/0 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 17.000 ms rttvar: 8.500 ms base rtt: 17 ms so_error: 0 svc/tc: 0 flow: 0x92a65905tcp_connection_summary [<IPv4-redacted>:49175<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2896 t_state: FIN_WAIT_1 process: cloudd:698 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  192.688852]: udp_connection_summary [<IPv4-redacted>:61530<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2897 so_state: 0x0102 process: cloudd:698 Duration: 0.036 sec Conn_Time: 0.035 sec bytes in/out: 5087/2400 pkts in/out: 6/2 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb25ec793 flowctl: 0us (0x) tcp connected: [<IPv4-redacted>:49176<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2915 t_state: ESTABLISHED process: nsurlsessiond:658 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 17 ms error: 0 so_error: 0 svc/tc: 100 flow: 0xb5a871f0Sandbox apply: CalendarWidgetExtension[838] <bytes>NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10010 -> status 0x0
+[  192.750542]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  192.751450]: udp connect: [<IPv4-redacted>:56564<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2927 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xb65f4adcNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.753528]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.753876]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.753879]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.754127]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.754130]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.755033]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.755037]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.757372]: Sandbox apply: ctkahp[836] <bytes>NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.759689]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.759984]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.759988]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.760309]: NVAccel: newResource -> <ptr>
+[  192.760312]: NVAccel: newResource -> <ptr>
+[  192.760319]: NVAccel: newSysMemory -> <ptr>
+[  192.760320]: NVAccel: newSysMemory -> <ptr>
+[  192.760325]: NVAccel: newVidMemory -> <ptr>
+[  192.760326]: NVAccel: newVidMemory -> <ptr>
+[  192.760438]: NVRM-xnu: >os_map_kernel_space start=0x3fc10800000 size=0x100000 mode=2
+[  192.760471]: NVRM-xnu:   mapped -> 0x<ptr> (slot 42, high water 43/8192)
+[  192.760633]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc10800000 kva <ptr> [BAR1 203358208]
+[  192.760636]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc10800000 kva <ptr> [BAR1 203358208]
+[  192.764237]: AMFI: [non-fatal] unable to accelerate context: com.apple.UserSelector | 65285
+[  192.777801]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10009 -> status 0x0
+[  192.777830]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000d -> status 0x0
+[  192.782759]: ACM: deleteCredentialSet: Deleting credential set, CS[107].
+[  192.783500]: 1 duplicate report for Sandbox: syncdefaultsd(697) deny(1) mach-lookup com.apple.tccd.systemSandbox: parsecd(795) deny(1) mach-lookup com.apple.apsdNVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  192.783963]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  192.785507]: Sandbox apply: icdd[824] <bytes>Sandbox: icdd(824) allow mach-lookup com.apple.FSEvents2 duplicate reports for Sandbox: icdd(824) allow mach-lookup com.apple.FSEventsSandbox: assistantd(787) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  192.789490]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.789495]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.789600]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.789601]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.789659]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.789660]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.790687]: Sandbox apply: heard[815] <bytes>NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.791168]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.791225]: NVRM-xnu: map fd 206: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[  192.791242]: IOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  192.791864]: IOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  192.792167]: IOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  192.792461]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.792464]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.792589]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.792591]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.792656]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.792657]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.795325]: Sandbox apply: WeatherMenu[829] <bytes>3 duplicate reports for Sandbox: assistantd(787) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: icdd(824) allow file-read-data /Library/Image Capture/DevicesNVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.797522]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.797612]: NVRM-xnu: map fd 260: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[  192.797864]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.797868]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.798854]: 1 duplicate report for Sandbox: icdd(824) allow file-read-data /Library/Image Capture/DevicesSandbox: icdd(824) allow network-outbound /private/var/run/mDNSResponder9 duplicate reports for Sandbox: icdd(824) allow network-outbound /private/var/run/mDNSResponderSandbox: icdd(824) allow mach-lookup com.apple.DiskArbitration.diskarbitrationd2 duplicate reports for Sandbox: icdd(824) allow mach-lookup com.apple.DiskArbitration.diskarbitrationdSandbox: icdd(824) allow mach-lookup com.apple.coreservices.launchservicesdNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.801418]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.801665]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.801666]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.801718]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.801722]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  192.802417]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.802421]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.803008]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.803012]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.803025]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.803028]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.806444]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.806450]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.807747]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.807748]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.807752]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.807752]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.808111]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.808115]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.808155]: udp connect: [<IPv4-redacted>:60696<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2952 so_state: 0x0102 process: assistantd:787 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xbc76eda0NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.808840]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.812564]: SK[22]: flow_entry_alloc               fe "0 proc kernel_task(0)assistantd nx_port 1 flow_uuid UUID-393 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49177,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0xef1b19a4 tp_proto=0x06"
+[  192.812616]: tcp connect outgoing: [<IPv4-redacted>:49177<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2956 t_state: SYN_SENT process: assistantd:787 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x899e4c7aNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.813124]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.813175]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.813181]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.813501]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.813504]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814035]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814039]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814190]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814193]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814374]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814376]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814600]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814603]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814937]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814941]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.814986]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  192.814990]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  192.815019]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.815023]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.816642]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.816645]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.816895]: tx_flush:1344: disk1 xid 444044 tx stats: # 280 owait 28 2357us finish 275 bar2 275 f 12 enter 269 fq 39 48 147us close 0us prep 682us flush 1485us
+[  192.822299]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.822303]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.826321]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.826326]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.832470]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.832474]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.833085]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  192.833090]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  192.833095]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  192.833097]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  192.833105]: kPEDisableScreen 1
+[  192.833115]: IOReturn IOAccelDisplayPipe::display_change_handler(void *, IOFramebuffer *, IOIndex, void *) event = <1> at <192833115283>
+[  192.834103]: Sandbox apply: ctkahp[840] <bytes>NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.837257]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.840483]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.840490]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.840856]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10010 -> status 0x0
+[  192.841867]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  192.842137]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.842142]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.843307]: udp connect: [<IPv4-redacted>:54548<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2961 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xa6e38ce5NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.843698]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.843950]: tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49176<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2915 t_state: FIN_WAIT_1 process: nsurlsessiond:658 Duration: 0.157 sec Conn_Time: 0.015 sec bytes in/out: 0/2989 pkts in/out: 0/3 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 15.000 ms rttvar: 7.500 ms base rtt: 15 ms so_error: 0 svc/tc: 100 flow: 0xb5a871f0tcp_connection_summary [<IPv4-redacted>:49176<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2915 t_state: FIN_WAIT_1 process: nsurlsessiond:658 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  192.844177]: udp_connection_summary [<IPv4-redacted>:56564<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2927 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.093 sec Conn_Time: 0.092 sec bytes in/out: 0/2400 pkts in/out: 0/2 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xb65f4adc flowctl: 0us (0x) NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.845492]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.851140]: NVAccel: surfvram pageoff: staging buffer 16777216 B, physically contiguous
+[  192.851147]: NVAccel: surfvram pageoff: staging buffer 16777216 B, physically contiguous
+[  192.855255]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 881 us (staged) + cpu 3032 us (ok 4, failed 0, staged 4)
+[  192.855263]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 881 us (staged) + cpu 3032 us (ok 4, failed 0, staged 4)
+[  192.855897]: Sandbox: apsd(140) deny(1) mach-lookup com.apple.findmy.push.com.apple.findmy.containerNVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 732 us (staged) + cpu 2189 us (ok 5, failed 0, staged 5)
+[  192.858787]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 732 us (staged) + cpu 2189 us (ok 5, failed 0, staged 5)
+[  192.859201]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.859207]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  192.862047]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 600 us (staged) + cpu 2100 us (ok 6, failed 0, staged 6)
+[  192.862053]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 600 us (staged) + cpu 2100 us (ok 6, failed 0, staged 6)
+[  192.865215]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 599 us (staged) + cpu 1968 us (ok 7, failed 0, staged 7)
+[  192.865223]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 599 us (staged) + cpu 1968 us (ok 7, failed 0, staged 7)
+[  192.865306]: memorystatus: Denying dirty-tracking opt-in for managed StocksWidget [778]
+[  192.868544]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 599 us (staged) + cpu 2189 us (ok 8, failed 0, staged 8)
+[  192.868550]: NVAccel: surfvram pageoff: res <ptr> 16384000 B on the copy engine -> 0 in 599 us (staged) + cpu 2189 us (ok 8, failed 0, staged 8)
+[  192.878837]: NVAccel: surfvram pageoff: staging buffer 67108864 B, physically contiguous
+[  192.878843]: NVAccel: surfvram pageoff: staging buffer 67108864 B, physically contiguous
+[  192.882001]: Sandbox apply: StocksWidget[778] <bytes>NVAccel: DM displayModeWillChange
+[  192.901631]: NVAccel: DM displayModeWillChange
+[  192.901635]: IOReturn IOAccelDisplayPipe::display_change_handler(void *, IOFramebuffer *, IOIndex, void *) completed at <192901635529> taking <68520246> ns
+[  192.901654]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  192.901657]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  192.901659]: NVRM-fb: fb0 setDisplayMode 0x80001005 depth 0 (current 0x1)
+[  192.901660]: NVRM-fb: fb0 setDisplayMode 0x80001005 depth 0 (current 0x1)
+[  192.904763]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10005 -> status 0x0
+[  192.906254]: NVRM-fb: switchMode 0x80001005: test 3360x2100 -> raster 2560x1600 @165000 mHz pclk 782710000 -> 1 (flipResult 0)
+[  192.906261]: NVRM-fb: switchMode 0x80001005: test 3360x2100 -> raster 2560x1600 @165000 mHz pclk 782710000 -> 1 (flipResult 0)
+[  192.913783]: Sandbox apply: recentsd[843] <bytes>Sandbox apply: AssetCacheLocatorService[844] <bytes>udp connect: [<IPv4-redacted>:56265<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 2970 so_state: 0x0182 process: cloudd:284 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xbfeed115tcp connected: [<IPv4-redacted>:49177<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2956 t_state: ESTABLISHED process: assistantd:787 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x899e4c7atcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49174<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2894 t_state: FIN_WAIT_1 process: identityservices:688 Duration: 0.319 sec Conn_Time: 0.015 sec bytes in/out: 25869/2213 pkts in/out: 20/6 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 65.468 ms rttvar: 90.500 ms base rtt: 15 ms so_error: 0 svc/tc: 0 flow: 0xb7f2ec86tcp_connection_summary [<IPv4-redacted>:49174<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2894 t_state: FIN_WAIT_1 process: identityservices:688 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  192.963051]: IO80211PeerMonitor::checkForDPS()  Enter
+[  192.963063]: com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+[  192.963068]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  192.963074]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  192.963076]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  192.963077]: LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5001ms)
+
+[  192.963080]: com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface 
+[  192.963091]: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  192.963093]: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  192.963094]: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  192.963094]: LQM-WiFi: VO : Count: 0 avgLatencyMs:0 maxLatencyMs:0 
+[  192.963096]: LQM-WIFI: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+
+[  192.969369]: Sandbox: linkd(644) deny(1) file-read-data /usr/libexec1 duplicate report for Sandbox: linkd(644) deny(1) file-read-data /usr/libexecSandbox: linkd(644) deny(1) file-read-data /usr/libexec/linkdudp connect: [<IPv4-redacted>:63916<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3061 so_state: 0x0182 process: cloudd:284 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xad36140aNVKMS-rm: CONTROL obj 0x1000d cmd 0x731356 -> status 0x55
+[  193.008164]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0x55
+[  193.048328]: Sandbox: BackgroundShortcutRunner(788) deny(1) file-read-data /Users/USER/Library/Shortcuts/ToolKit/Tools-prod.v67-UUID-394.sqliteSandbox apply: seld[632] <bytes>Sandbox: ContextStoreAgent(662) deny(1) mach-lookup com.apple.coremedia.volumecontroller.xpcudp_connection_summary [<IPv4-redacted>:56751<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2789 so_state: 0x0102 process: cloudd:698 Duration: 0.746 sec Conn_Time: 0.746 sec bytes in/out: 5961/6879 pkts in/out: 8/11 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8a6150d3 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60809<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2735 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.971 sec Conn_Time: 0.971 sec bytes in/out: 5984/6847 pkts in/out: 9/12 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x9585d3d5 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:49710<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2914 so_state: 0x0102 process: cloudd:698 Duration: 0.462 sec Conn_Time: 0.462 sec bytes in/out: 5021/1417 pkts in/out: 12/6 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x8f34c035 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:63666<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2754 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.880 sec Conn_Time: 0.880 sec bytes in/out: 7225/5508 pkts in/out: 16/15 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xa15c56df flowctl: 0us (0x) udp connect: [<IPv4-redacted>:65470<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3083 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x897604d3Sandbox: liveactivitiesd(761) deny(1) user-preference-read com.apple.imessage.bagSandbox: linkd(644) deny(1) file-read-data /usr/libexec1 duplicate report for Sandbox: linkd(644) deny(1) file-read-data /usr/libexecSandbox: siriactionsd(701) deny(1) file-issue-extension target:/System/Library/PrivateFrameworks/StocksCore.framework extension-class:com.apple.app-sandbox.read6 duplicate reports for Sandbox: siriactionsd(701) deny(1) file-issue-extension target:/System/Library/PrivateFrameworks/StocksCore.framework extension-class:com.apple.app-sandbox.readSandbox: linkd(644) deny(1) file-read-data /usr/libexecSandbox: logd(96) deny(1) iokit-get-properties iokit-class:AppleAPFSVolume property:RoleValueSandbox: deleted(693) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 693, deleted
+[  193.280432]: IOUC AppleKeyStoreUserClient failed MACF in process pid 693, deleted
+[  193.281636]: IOUC AppleKeyStoreUserClient failed MACF in process pid 693, deleted
+[  193.281875]: IOUC AppleKeyStoreUserClient failed MACF in process pid 693, deleted
+[  193.282299]: AMFI: [non-fatal] unable to accelerate context: com.apple.geodMachServiceBridge | 65285
+[  193.294061]: udp connect: [<IPv4-redacted>:64006<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3091 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x82fa389bSandbox apply: triald_system[847] <bytes>3 duplicate reports for Sandbox: deleted(693) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: triald_system(847) deny(1) process-info-listpids1 duplicate report for Sandbox: triald_system(847) deny(1) process-info-listpidsSandbox: rapportd(659) deny(1) mach-lookup com.apple.system.opendirectoryd.apiSandbox apply: appstoreagent[850] <bytes>udp connect: [<IPv4-redacted>:49807<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3105 so_state: 0x0102 process: StocksWidget:778 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xa61d5223_process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  193.362720]: IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 355 bytes
+[  193.374612]: Sandbox: pkd(682) deny(1) mach-lookup com.apple.mobile.keybagd.UserManager.xpcSandbox: callservicesd(689) deny(1) user-preference-read com.apple.ttyudp connect: [<IPv4-redacted>:53885<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3107 so_state: 0x0102 process: appstoreagent:850 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x87ad2b31Sandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/6cd484bb2703a2f9879a5b69a75ed611e10452403069dd2469d9e1c99d91199c.variant1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvudp_connection_summary [<IPv4-redacted>:65470<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3083 so_state: 0x0102 process: cloudd:698 Duration: 0.292 sec Conn_Time: 0.292 sec bytes in/out: 5985/6675 pkts in/out: 9/11 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x897604d3 flowctl: 0us (0x) 1 duplicate report for Sandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b8e51ac0d9aa1992afebf17cabff4c8cc424cb9d1cd5894c207994619dbdcc2c.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/fe4a819079c0e9cd0867e2061bfc8c19ad681f22b0ddcb12cd84a1ca4af8a578.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvudp_connection_summary [<IPv4-redacted>:64006<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3091 so_state: 0x0102 process: cloudd:698 Duration: 0.151 sec Conn_Time: 0.151 sec bytes in/out: 2025/1417 pkts in/out: 6/6 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x82fa389b flowctl: 0us (0x) Sandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7bd161c9e47916e91f5cbdf705eaffd9ed64d75b2a5ffd236a552dfacdd16820.variant1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/fe4a819079c0e9cd0867e2061bfc8c19ad681f22b0ddcb12cd84a1ca4af8a578.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox apply: iCloudNotificationAgent[852] <bytes>tx_flush:1344: disk1 xid 444064 tx stats: # 300 owait 37 2731us finish 296 bar2 295 f 12 enter 60 fq 68 450 431us close 0us prep 170us flush 1285us
+[  193.491484]: Sandbox apply: installcoordinationd[853] <bytes>1 duplicate report for Sandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/fe4a819079c0e9cd0867e2061bfc8c19ad681f22b0ddcb12cd84a1ca4af8a578.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox: usernoted(664) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:region-infoudp connect: [<IPv4-redacted>:49686<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3123 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xbd2826e9[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CURRENT_NETWORK> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.516825]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.517203]: ACM: createCredentialSet: Credential set created (auto=YES), CS[108]/3, LRU=39, mem=41(0), SUID=501, pool=[3/256 2a:1n], usedByAge=[1w+:0 1w:0 1d:0 12h:0 1h:0 30m:0 10m:1 1m:2].
+[  193.518138]: "AppleKeyStore":pid:713,:13297: operation failed (sel: 17 ret: e00002f0, 501)
+[  193.518467]: ACM: deleteCredentialSet: Deleting credential set, CS[108].
+[  193.518949]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0x55
+[  193.525635]: com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -54 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  193.525760]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.525955]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  193.526536]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.526590]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  193.540319]: Sandbox apply: distnoted[855] <bytes>Sandbox apply: com.apple.AppStoreDaemon.StorePr[856] <bytes>udp connect: [<IPv4-redacted>:56542<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3139 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x99627fb1Sandbox apply: bluetoothuserd[845] <bytes>1 duplicate report for Sandbox: usernoted(664) deny(1) iokit-get-properties iokit-class:IOPlatformExpertDevice property:region-infoSandbox: homed(766) deny(1) mach-lookup com.apple.system.opendirectoryd.apiSandbox: imagent(699) deny(1) mach-lookup com.apple.contactsd.persistenceSandbox apply: TVCacheExtension[857] <bytes>udp connect: [<IPv4-redacted>:61719<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3143 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xb573b767udp connect: [<IPv4-redacted>:62682<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3147 so_state: 0x0102 process: appstoreagent:850 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x99902bc4udp_connection_summary [<IPv4-redacted>:62682<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3147 so_state: 0x0102 process: appstoreagent:850 Duration: 0.007 sec Conn_Time: 0.007 sec bytes in/out: 0/2400 pkts in/out: 0/2 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x99902bc4 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:63329<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3158 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x8ca26126udp connect: [<IPv4-redacted>:52545<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3171 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xb12efdd7udp connect: [<IPv4-redacted>:60709<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3184 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0x8fee825eSK[2]: flow_entry_alloc               fe "0 proc kernel_task(0)appstoreagent nx_port 1 flow_uuid UUID-395 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49178,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x6d0bca1b tp_proto=0x06"
+[  193.752633]: tcp connect outgoing: [<IPv4-redacted>:49178<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3203 t_state: SYN_SENT process: appstoreagent:850 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xb59bbc03tcp connected: [<IPv4-redacted>:49178<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3203 t_state: ESTABLISHED process: appstoreagent:850 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xb59bbc03Sandbox: siriactionsd(701) deny(1) user-preference-read com.apple.assistant.backedup2 duplicate reports for Sandbox: siriactionsd(701) deny(1) user-preference-read com.apple.assistant.backedupSandbox: siriactionsd(701) deny(1) user-preference-read com.apple.assistant.supportSandbox apply: searchpartyuseragent[772] <bytes>Sandbox: siriactionsd(701) deny(1) iokit-open-user-client RootDomainUserClientIOUC RootDomainUserClient failed MACF in process pid 701, siriactionsd
+[  193.813360]: Sandbox: knowledge-agent(635) deny(1) iokit-open-user-client RootDomainUserClientIOUC RootDomainUserClient failed MACF in process pid 635, knowledge-agent
+[  193.813727]: Sandbox: siriactionsd(701) deny(1) mach-lookup com.apple.logindSandbox: knowledge-agent(635) deny(1) mach-lookup com.apple.logindSandbox apply: BackgroundShortcutRunner[859] <bytes>Sandbox: BackgroundShortcutRunner(859) deny(1) file-read-data /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.WorkflowKit.BackgroundShortcutRunner.ShortcutsSandboxCacheSandbox: siriactionsd(701) deny(1) mach-lookup com.apple.identityservicesd.desktop.authSandbox: knowledge-agent(635) deny(1) mach-lookup com.apple.identityservicesd.desktop.authNVRM-fb: switchMode 0x80001005: COMMIT 3360x2100 -> raster 2560x1600 @165000 mHz pclk 782710000 -> 1 (flipResult 0)
+[  193.824474]: NVRM-fb: switchMode 0x80001005: COMMIT 3360x2100 -> raster 2560x1600 @165000 mHz pclk 782710000 -> 1 (flipResult 0)
+[  193.824825]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  193.824829]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  193.824832]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.824834]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.824980]: NVRM-fb: getApertureRange -> SUBRANGE of BAR1 (pa 0x3fc00000000 len 8589934592) off 0x200000 size 28492928
+[  193.824982]: NVRM-fb: getApertureRange -> SUBRANGE of BAR1 (pa 0x3fc00000000 len 8589934592) off 0x200000 size 28492928
+[  193.825195]: NVRM-fb: getAFC 'enab' -> enable 1
+[  193.825196]: NVRM-fb: getAFC 'enab' -> enable 1
+[  193.825199]: IOReturn IOAccelDisplayPipe::display_change_handler(void *, IOFramebuffer *, IOIndex, void *) event = <2> at <193825199140>
+[  193.825202]: NVAccel: DM displayModeDidChange -> true
+[  193.825204]: NVAccel: DM displayModeDidChange -> true
+[  193.825205]: NVAccel: enableAccelerator() from displayModeDidChange (call #6)
+[  193.825206]: NVAccel: enableAccelerator() from displayModeDidChange (call #6)
+[  193.825213]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.825214]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.825217]: NVRM-fb: nvScanoutInfo -> phys 0x3fc00200000 3360x2100 pitch 13568 (28492800 bytes)
+[  193.825218]: NVRM-fb: nvScanoutInfo -> phys 0x3fc00200000 3360x2100 pitch 13568 (28492800 bytes)
+[  193.825221]: NVAccel: newVidMemory -> <ptr>
+[  193.825221]: NVAccel: newVidMemory -> <ptr>
+[  193.825223]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 3360 x 2100 pitch 13568 (28492800 bytes)
+[  193.825224]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 3360 x 2100 pitch 13568 (28492800 bytes)
+[  193.825228]: NVAccel: newMemoryMap -> <ptr>
+[  193.825228]: NVAccel: newMemoryMap -> <ptr>
+[  193.825581]: NVRM-gpuva: va alloc 28492800 bytes align 0 -> gpuva 0x124000000 (hVirt 0xcaf00008)
+[  193.825583]: NVAccel: gpuVaAlloc: 28492800 bytes -> gpuVA 0x124000000 (hVirt 0xcaf00008)
+[  193.825584]: NVAccel: gpuVaAlloc: 28492800 bytes -> gpuVA 0x124000000 (hVirt 0xcaf00008)
+[  193.825586]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (28492800 bytes) -- already backed, nothing allocated
+[  193.825586]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (28492800 bytes) -- already backed, nothing allocated
+[  193.825588]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 28492800 (mem <ptr>)
+[  193.825589]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 28492800 (mem <ptr>)
+[  193.828232]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 28492800 (mem <ptr>)
+[  193.828235]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 28492800 (mem <ptr>)
+[  193.828409]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 28492800 (mem <ptr>)
+[  193.828411]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 28492800 (mem <ptr>)
+[  193.828549]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 28492800 (mem <ptr>)
+[  193.828550]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 28492800 (mem <ptr>)
+[  193.828552]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  193.828552]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  193.828649]: NVRM-xnu: >os_map_kernel_space start=0x3fc10a00000 size=0x1b30000 mode=2
+[  193.828871]: NVRM-xnu:   mapped -> 0x<ptr> (slot 25, high water 43/8192)
+[  193.832010]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28508160 bytes of REAL VRAM -- phys 0x3fc10a00000 kva <ptr> [BAR1 215482368]
+[  193.832013]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28508160 bytes of REAL VRAM -- phys 0x3fc10a00000 kva <ptr> [BAR1 215482368]
+[  193.832102]: NVRM-gpuva: MAPPED hVirt 0xcaf00008 <- hMem 0x10007  28492800 bytes vidmem  dmaOffset 0x124000000
+[  193.832104]: NVAccel: MM commit: MAPPED gpuVA 0x124000000 len 28492800 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[  193.832105]: NVAccel: MM commit: MAPPED gpuVA 0x124000000 len 28492800 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[  193.832121]: IOReturn IOAccelDisplayPipe::display_change_handler(void *, IOFramebuffer *, IOIndex, void *) completed at <193832121299> taking <6922159> ns
+[  193.832150]: kPEEnableScreen 1
+[  193.832238]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.832240]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.833362]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  193.833365]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  193.834514]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.834517]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.834593]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  193.834594]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  193.835347]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  193.835349]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  193.835355]: NVAccel: newSysMemory -> <ptr>
+[  193.835356]: NVAccel: newSysMemory -> <ptr>
+[  193.835357]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  193.835358]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  193.835409]: NVRM-fb: setAttribute 'capd' value 0 -> 0x0
+[  193.835411]: NVRM-fb: setAttribute 'capd' value 0 -> 0x0
+[  193.835795]: Sandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b3067437ce6b45f26791c03e31ac5881eea4462fa441f5380b7469b04989202e.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/71cc17156f5f7c3fbb76bad587070b255966fd11ad554913c61c858261b33543.variant1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b3067437ce6b45f26791c03e31ac5881eea4462fa441f5380b7469b04989202e.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvNVAccel: newResource -> <ptr>
+[  193.839683]: NVAccel: newResource -> <ptr>
+[  193.839688]: NVAccel: newSysMemory -> <ptr>
+[  193.839689]: NVAccel: newSysMemory -> <ptr>
+[  193.839693]: NVAccel: newVidMemory -> <ptr>
+[  193.839693]: NVAccel: newVidMemory -> <ptr>
+[  193.839787]: NVRM-xnu: >os_map_kernel_space start=0x3fc04200000 size=0xd0000 mode=2
+[  193.839806]: NVRM-xnu:   mapped -> 0x<ptr> (slot 43, high water 44/8192)
+[  193.839930]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 851968 bytes of REAL VRAM -- phys 0x3fc04200000 kva <ptr> [BAR1 216334336]
+[  193.839931]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 851968 bytes of REAL VRAM -- phys 0x3fc04200000 kva <ptr> [BAR1 216334336]
+[  193.845865]: NVAccel: newResource -> <ptr>
+[  193.845869]: NVAccel: newResource -> <ptr>
+[  193.845872]: NVAccel: newSysMemory -> <ptr>
+[  193.845872]: NVAccel: newSysMemory -> <ptr>
+[  193.845875]: NVAccel: newVidMemory -> <ptr>
+[  193.845876]: NVAccel: newVidMemory -> <ptr>
+[  193.845941]: NVRM-xnu: >os_map_kernel_space start=0x3fc04400000 size=0x1b60000 mode=2
+[  193.846169]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 44/8192)
+[  193.849432]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc04400000 kva <ptr> [BAR1 227999744]
+[  193.849434]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc04400000 kva <ptr> [BAR1 227999744]
+[  193.859603]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  193.859609]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  193.875163]: Sandbox apply: MusicCacheExtension[861] <bytes>NVAccel: newResource -> <ptr>
+[  193.877153]: NVAccel: newResource -> <ptr>
+[  193.877158]: NVAccel: newSysMemory -> <ptr>
+[  193.877159]: NVAccel: newSysMemory -> <ptr>
+[  193.877163]: NVAccel: newVidMemory -> <ptr>
+[  193.877163]: NVAccel: newVidMemory -> <ptr>
+[  193.877277]: NVRM-xnu: >os_map_kernel_space start=0x3fc12600000 size=0x1b60000 mode=2
+[  193.877491]: NVRM-xnu:   mapped -> 0x<ptr> (slot 40, high water 44/8192)
+[  193.880659]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc12600000 kva <ptr> [BAR1 256704512]
+[  193.880662]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc12600000 kva <ptr> [BAR1 256704512]
+[  193.881830]: 1 duplicate report for Sandbox: iconservicesagent(691) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b3067437ce6b45f26791c03e31ac5881eea4462fa441f5380b7469b04989202e.refl1.sha256-adee7bf50a4f1fd4d1e604cc87f736363eba2f5f23d2e82b1bb31143b92e50a2-u2.c3.spvSandbox: BackgroundShortcutRunner(859) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.882199]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.882861]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.882984]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.883442]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.883662]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.883936]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.884119]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.884524]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.884704]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.885001]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.885163]: IOUC AppleKeyStoreUserClient failed MACF in process pid 859, BackgroundShortc
+[  193.909173]: NVAccel: newMemoryMap -> <ptr>
+[  193.909179]: NVAccel: newMemoryMap -> <ptr>
+[  193.909576]: NVAccel: MM commit: MAPPED gpuVA 0x125c00000 len 28655616 <- hMem 0x10023  *** the GPU can reach these bytes ***
+[  193.909577]: NVAccel: MM commit: MAPPED gpuVA 0x125c00000 len 28655616 <- hMem 0x10023  *** the GPU can reach these bytes ***
+[  193.910019]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10023 -> status 0x0
+[  193.910132]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  193.912483]: NVAccel: newResource -> <ptr>
+[  193.912485]: NVAccel: newResource -> <ptr>
+[  193.912488]: NVAccel: newSysMemory -> <ptr>
+[  193.912489]: NVAccel: newSysMemory -> <ptr>
+[  193.912492]: NVAccel: newVidMemory -> <ptr>
+[  193.912493]: NVAccel: newVidMemory -> <ptr>
+[  193.912563]: NVRM-xnu: >os_map_kernel_space start=0x3fc14200000 size=0x1b60000 mode=2
+[  193.912877]: NVRM-xnu:   mapped -> 0x<ptr> (slot 29, high water 44/8192)
+[  193.917313]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc14200000 kva <ptr> [BAR1 269025280]
+[  193.917315]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc14200000 kva <ptr> [BAR1 269025280]
+[  193.953994]: NVAccel: newMemoryMap -> <ptr>
+[  193.954000]: NVAccel: newMemoryMap -> <ptr>
+[  193.954425]: NVAccel: MM commit: MAPPED gpuVA 0x127800000 len 28655616 <- hMem 0x1000c  *** the GPU can reach these bytes ***
+[  193.954427]: NVAccel: MM commit: MAPPED gpuVA 0x127800000 len 28655616 <- hMem 0x1000c  *** the GPU can reach these bytes ***
+[  193.954682]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  193.954697]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000d -> status 0x0
+[  193.955422]: NVAccel: newResource -> <ptr>
+[  193.955425]: NVAccel: newResource -> <ptr>
+[  193.955431]: NVAccel: newSysMemory -> <ptr>
+[  193.955431]: NVAccel: newSysMemory -> <ptr>
+[  193.955438]: NVAccel: newVidMemory -> <ptr>
+[  193.955439]: NVAccel: newVidMemory -> <ptr>
+[  193.960905]: NVRM-xnu: >os_map_kernel_space start=0x3fc15e00000 size=0x1b60000 mode=2
+[  193.961168]: NVRM-xnu:   mapped -> 0x<ptr> (slot 44, high water 45/8192)
+[  193.965528]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc15e00000 kva <ptr> [BAR1 297730048]
+[  193.965530]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc15e00000 kva <ptr> [BAR1 297730048]
+[  193.966998]: ACM: deleteCredentialSet: Deleting credential set, CS[102].
+[  193.978457]: NVAccel: newMemoryMap -> <ptr>
+[  193.978460]: NVAccel: newMemoryMap -> <ptr>
+[  193.978830]: NVAccel: MM commit: MAPPED gpuVA 0x129400000 len 28655616 <- hMem 0x1002a  *** the GPU can reach these bytes ***
+[  193.978833]: NVAccel: MM commit: MAPPED gpuVA 0x129400000 len 28655616 <- hMem 0x1002a  *** the GPU can reach these bytes ***
+[  193.979048]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1002a -> status 0x0
+[  193.979062]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  193.979330]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 2560x1600 bytesPerRow 10240
+[  193.979333]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 2560x1600 bytesPerRow 10240
+[  193.979341]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 2880x1800 bytesPerRow 11520
+[  193.979342]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 2880x1800 bytesPerRow 11520
+[  193.979347]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 3024x1890 bytesPerRow 12288
+[  193.979348]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 3024x1890 bytesPerRow 12288
+[  193.979351]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 3200x2000 bytesPerRow 12800
+[  193.979352]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 3200x2000 bytesPerRow 12800
+[  193.979357]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 3600x2250 bytesPerRow 14592
+[  193.979358]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 3600x2250 bytesPerRow 14592
+[  193.979362]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 3840x2400 bytesPerRow 15360
+[  193.979363]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 3840x2400 bytesPerRow 15360
+[  193.979367]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 4096x2560 bytesPerRow 16384
+[  193.979371]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 4096x2560 bytesPerRow 16384
+[  193.979376]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1440x900 bytesPerRow 5888
+[  193.979377]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1440x900 bytesPerRow 5888
+[  193.979384]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 1680x1050 bytesPerRow 6912
+[  193.979387]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 1680x1050 bytesPerRow 6912
+[  193.979392]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 1600x1200 bytesPerRow 6400
+[  193.979393]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 1600x1200 bytesPerRow 6400
+[  193.979396]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 1600x1000 bytesPerRow 6400
+[  193.979397]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 1600x1000 bytesPerRow 6400
+[  193.979401]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1920x1080 bytesPerRow 7680
+[  193.979401]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1920x1080 bytesPerRow 7680
+[  193.979405]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1920x1200 bytesPerRow 7680
+[  193.979406]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1920x1200 bytesPerRow 7680
+[  193.979409]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 2048x1280 bytesPerRow 8192
+[  193.979410]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 2048x1280 bytesPerRow 8192
+[  193.979414]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 2560x1440 bytesPerRow 10240
+[  193.979415]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 2560x1440 bytesPerRow 10240
+[  193.979419]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 2560x1600 bytesPerRow 10240
+[  193.979420]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 2560x1600 bytesPerRow 10240
+[  193.979423]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 2880x1800 bytesPerRow 11520
+[  193.979424]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 2880x1800 bytesPerRow 11520
+[  193.979428]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 3024x1890 bytesPerRow 12288
+[  193.979429]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 3024x1890 bytesPerRow 12288
+[  193.979432]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 3200x2000 bytesPerRow 12800
+[  193.979433]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 3200x2000 bytesPerRow 12800
+[  193.979437]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.979437]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 3360x2100 bytesPerRow 13568
+[  193.979441]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 3600x2250 bytesPerRow 14592
+[  193.979442]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 3600x2250 bytesPerRow 14592
+[  193.979446]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 3840x2400 bytesPerRow 15360
+[  193.979447]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 3840x2400 bytesPerRow 15360
+[  193.979451]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 4096x2560 bytesPerRow 16384
+[  193.979452]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 4096x2560 bytesPerRow 16384
+[  193.979456]: NVRM-fb: getPixelInformation 0x8000102c ap 0 -> 1440x900 bytesPerRow 5888
+[  193.979457]: NVRM-fb: getPixelInformation 0x8000102c ap 0 -> 1440x900 bytesPerRow 5888
+[  193.979462]: NVRM-fb: getPixelInformation 0x8000102d ap 0 -> 1680x1050 bytesPerRow 6912
+[  193.979463]: NVRM-fb: getPixelInformation 0x8000102d ap 0 -> 1680x1050 bytesPerRow 6912
+[  193.979467]: NVRM-fb: getPixelInformation 0x8000102e ap 0 -> 1600x1200 bytesPerRow 6400
+[  193.979468]: NVRM-fb: getPixelInformation 0x8000102e ap 0 -> 1600x1200 bytesPerRow 6400
+[  193.979471]: NVRM-fb: getPixelInformation 0x8000102f ap 0 -> 1600x1000 bytesPerRow 6400
+[  193.979472]: NVRM-fb: getPixelInformation 0x8000102f ap 0 -> 1600x1000 bytesPerRow 6400
+[  193.979476]: NVRM-fb: getPixelInformation 0x80001030 ap 0 -> 1920x1080 bytesPerRow 7680
+[  193.979477]: NVRM-fb: getPixelInformation 0x80001030 ap 0 -> 1920x1080 bytesPerRow 7680
+[  193.979481]: NVRM-fb: getPixelInformation 0x80001031 ap 0 -> 1920x1200 bytesPerRow 7680
+[  193.979482]: NVRM-fb: getPixelInformation 0x80001031 ap 0 -> 1920x1200 bytesPerRow 7680
+[  193.979485]: NVRM-fb: getPixelInformation 0x80001032 ap 0 -> 2048x1280 bytesPerRow 8192
+[  193.979486]: NVRM-fb: getPixelInformation 0x80001032 ap 0 -> 2048x1280 bytesPerRow 8192
+[  193.979490]: NVRM-fb: getPixelInformation 0x80001033 ap 0 -> 2560x1440 bytesPerRow 10240
+[  193.979491]: NVRM-fb: getPixelInformation 0x80001033 ap 0 -> 2560x1440 bytesPerRow 10240
+[  193.979497]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  193.979497]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  193.979510]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 640x480 bytesPerRow 2560
+[  193.979511]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 640x480 bytesPerRow 2560
+[  193.979515]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 800x600 bytesPerRow 3328
+[  193.979516]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 800x600 bytesPerRow 3328
+[  193.979520]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 800x500 bytesPerRow 3328
+[  193.979520]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 800x500 bytesPerRow 3328
+[  193.979524]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1024x768 bytesPerRow 4096
+[  193.979525]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1024x768 bytesPerRow 4096
+[  193.979529]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1024x640 bytesPerRow 4096
+[  193.979530]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1024x640 bytesPerRow 4096
+[  193.979533]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1280x720 bytesPerRow 5120
+[  193.979534]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1280x720 bytesPerRow 5120
+[  193.979538]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1280x960 bytesPerRow 5120
+[  193.979540]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1280x960 bytesPerRow 5120
+[  193.979544]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 1344x1008 bytesPerRow 5376
+[  193.979545]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 1344x1008 bytesPerRow 5376
+[  193.979550]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 1344x840 bytesPerRow 5376
+[  193.979551]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 1344x840 bytesPerRow 5376
+[  193.979564]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1280x800 bytesPerRow 5120
+[  193.979565]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1280x800 bytesPerRow 5120
+[  193.979578]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 640x480 bytesPerRow 2560
+[  193.979579]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 640x480 bytesPerRow 2560
+[  193.979585]: NVRM-fb: getPixelInformation 0x80001024 ap 0 -> 800x600 bytesPerRow 3328
+[  193.979586]: NVRM-fb: getPixelInformation 0x80001024 ap 0 -> 800x600 bytesPerRow 3328
+[  193.979589]: NVRM-fb: getPixelInformation 0x80001025 ap 0 -> 800x500 bytesPerRow 3328
+[  193.979590]: NVRM-fb: getPixelInformation 0x80001025 ap 0 -> 800x500 bytesPerRow 3328
+[  193.979594]: NVRM-fb: getPixelInformation 0x80001026 ap 0 -> 1024x768 bytesPerRow 4096
+[  193.979595]: NVRM-fb: getPixelInformation 0x80001026 ap 0 -> 1024x768 bytesPerRow 4096
+[  193.979599]: NVRM-fb: getPixelInformation 0x80001027 ap 0 -> 1024x640 bytesPerRow 4096
+[  193.979600]: NVRM-fb: getPixelInformation 0x80001027 ap 0 -> 1024x640 bytesPerRow 4096
+[  193.979604]: NVRM-fb: getPixelInformation 0x80001028 ap 0 -> 1280x720 bytesPerRow 5120
+[  193.979605]: NVRM-fb: getPixelInformation 0x80001028 ap 0 -> 1280x720 bytesPerRow 5120
+[  193.979608]: NVRM-fb: getPixelInformation 0x80001029 ap 0 -> 1280x960 bytesPerRow 5120
+[  193.979609]: NVRM-fb: getPixelInformation 0x80001029 ap 0 -> 1280x960 bytesPerRow 5120
+[  193.979613]: NVRM-fb: getPixelInformation 0x8000102a ap 0 -> 1344x1008 bytesPerRow 5376
+[  193.979614]: NVRM-fb: getPixelInformation 0x8000102a ap 0 -> 1344x1008 bytesPerRow 5376
+[  193.979618]: NVRM-fb: getPixelInformation 0x8000102b ap 0 -> 1344x840 bytesPerRow 5376
+[  193.979619]: NVRM-fb: getPixelInformation 0x8000102b ap 0 -> 1344x840 bytesPerRow 5376
+[  193.991804]: NVAccel: newResource -> <ptr>
+[  193.991809]: NVAccel: newResource -> <ptr>
+[  193.991812]: NVAccel: newSysMemory -> <ptr>
+[  193.991813]: NVAccel: newSysMemory -> <ptr>
+[  193.991816]: NVAccel: newVidMemory -> <ptr>
+[  193.991816]: NVAccel: newVidMemory -> <ptr>
+[  193.991892]: NVRM-xnu: >os_map_kernel_space start=0x3fc07200000 size=0x1b60000 mode=2
+[  193.992100]: NVRM-xnu:   mapped -> 0x<ptr> (slot 28, high water 45/8192)
+[  193.995445]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc07200000 kva <ptr> [BAR1 310050816]
+[  193.995447]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 28704768 bytes of REAL VRAM -- phys 0x3fc07200000 kva <ptr> [BAR1 310050816]
+[  194.037574]: tx_flush:1344: disk1 xid 444084 tx stats: # 320 owait 40 2558us finish 315 bar2 315 f 12 enter 356 fq 100 175 531us close 5us prep 558us flush 2368us
+[  194.072825]: Sandbox apply: MailCacheDelete[863] <bytes>udp_connection_summary [<IPv4-redacted>:55473<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2803 so_state: 0x0102 process: nsurlsessiond:658 Duration: 1.642 sec Conn_Time: 1.642 sec bytes in/out: 5984/6890 pkts in/out: 9/13 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xb54e805e flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:54548<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 2961 so_state: 0x0102 process: nsurlsessiond:658 Duration: 1.291 sec Conn_Time: 1.291 sec bytes in/out: 5800/3457 pkts in/out: 13/11 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xa6e38ce5 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:49686<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3123 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.628 sec Conn_Time: 0.628 sec bytes in/out: 6030/8529 pkts in/out: 11/16 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xbd2826e9 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:63329<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3158 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.426 sec Conn_Time: 0.426 sec bytes in/out: 5637/1460 pkts in/out: 10/7 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x8ca26126 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:56542<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3139 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.563 sec Conn_Time: 0.563 sec bytes in/out: 5984/6857 pkts in/out: 9/12 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x99627fb1 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60709<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3184 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.416 sec Conn_Time: 0.416 sec bytes in/out: 4951/1503 pkts in/out: 9/8 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0x8fee825e flowctl: 0us (0x) udp connect: [<IPv4-redacted>:64884<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3351 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8d68d948udp_connection_summary [<IPv4-redacted>:61719<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3143 so_state: 0x0102 process: cloudd:698 Duration: 0.468 sec Conn_Time: 0.468 sec bytes in/out: 5984/7578 pkts in/out: 9/12 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb573b767 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:52545<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3171 so_state: 0x0102 process: cloudd:698 Duration: 0.429 sec Conn_Time: 0.429 sec bytes in/out: 6453/5089 pkts in/out: 19/17 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0xb12efdd7 flowctl: 0us (0x) udp connect: [<IPv4-redacted>:54782<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3355 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x9348ae1budp connect: [<IPv4-redacted>:59638<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3359 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xb383d49audp connect: [<IPv4-redacted>:54223<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3363 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xbe281461tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49178<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3203 t_state: FIN_WAIT_1 process: appstoreagent:850 Duration: 0.403 sec Conn_Time: 0.016 sec bytes in/out: 7746/5916 pkts in/out: 9/9 pkt rxmit: 1 ooo pkts: 0 dup bytes in: 625 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 61.468 ms rttvar: 84.000 ms base rtt: 14 ms so_error: 0 svc/tc: 0 flow: 0xb59bbc03tcp_connection_summary [<IPv4-redacted>:49178<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3203 t_state: FIN_WAIT_1 process: appstoreagent:850 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  194.158289]: Sandbox apply: amsengagementd[865] <bytes>11 duplicate reports for Sandbox: BackgroundShortcutRunner(859) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: amsengagementd(865) deny(1) process-info-listpidsAMFI: [non-fatal] unable to accelerate context: com.apple.SafeEjectGPUAgent | 65285
+[  194.179675]: 1 duplicate report for Sandbox: amsengagementd(865) deny(1) process-info-listpidsSandbox: assistantd(787) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  194.179989]: IOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  194.180710]: IOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  194.180883]: IOUC AppleKeyStoreUserClient failed MACF in process pid 787, assistantd
+[  194.181066]: 3 duplicate reports for Sandbox: assistantd(787) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: amsengagementd(865) deny(1) mach-lookup com.apple.coreservices.launchservicesdSandbox: amsengagementd(865) deny(1) process-info-listpidsAMFI: [non-fatal] unable to accelerate context: com.apple.SafeEjectGPUService | 65285
+[  194.197674]: 3 duplicate reports for Sandbox: amsengagementd(865) deny(1) process-info-listpidsSandbox: amsengagementd(865) deny(1) file-read-data /Library/Preferences/com.apple.networkd.plistSandbox apply: promotedcontentd[866] <bytes>1 duplicate report for Sandbox: amsengagementd(865) deny(1) file-read-data /Library/Preferences/com.apple.networkd.plistSandbox: ContextStoreAgent(662) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.202274]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.203992]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.204200]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.204480]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  194.204484]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  194.204493]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  194.204495]: NVAccel: newUserClient(type 5 / 0x5) -> family returned 0x0, client IOAccelDevice2
+[  194.204635]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  194.204637]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  194.209507]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.209680]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.209870]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.210024]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.210142]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.210257]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.210375]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.210503]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.210696]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.210853]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.214943]: 13 duplicate reports for Sandbox: ContextStoreAgent(662) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: amsengagementd(865) deny(1) file-write-create /Users/USER/Library/HTTPStorages/com.apple.amsengagementdSK[10]: flow_entry_alloc               fe "0 proc kernel_task(0)amsengagementd nx_port 1 flow_uuid UUID-396 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49179,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x9990b2dd tp_proto=0x06"
+[  194.219567]: tcp connect outgoing: [<IPv4-redacted>:49179<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3369 t_state: SYN_SENT process: amsengagementd:865 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xa1699922Sandbox apply: duetexpertd[869] <bytes>Sandbox apply: amsondevicestoraged[870] <bytes>Sandbox: promotedcontentd(866) deny(1) user-preference-read com.apple.trialdSandbox: promotedcontentd(866) deny(1) distributed-notification-postSandbox: promotedcontentd(866) deny(1) user-preference-write com.apple.ap.configSystem Policy: mobileassetd(248) allow file-read-data /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSandbox: duetexpertd(869) deny(1) user-preference-read com.apple.trialdNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.344055]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.344196]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.344197]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.344258]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  194.344259]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  194.345431]: Sandbox: promotedcontentd(866) deny(1) file-write-create /Users/USER/Library/Caches/com.apple.ap.promotedcontentdNVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  194.345813]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  194.345882]: NVRM-xnu: map fd 293: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[  194.346991]: 1 duplicate report for Sandbox: promotedcontentd(866) deny(1) file-write-create /Users/USER/Library/Caches/com.apple.ap.promotedcontentdSandbox: promotedcontentd(866) deny(1) file-write-create /Users/USER/Library/HTTPStorages/com.apple.ap.promotedcontentdudp connect: [<IPv4-redacted>:53726<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3371 so_state: 0x0102 process: promotedcontentd:866 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x986b1619NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  194.354027]: NVAccel: newUserClient(0x4e560001) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 1)
+[  194.355124]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.355127]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.355342]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.355343]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.355495]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.355497]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.355629]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.355631]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.359788]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.359791]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.360475]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.360477]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.360724]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.360725]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.360882]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.360883]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361040]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361041]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361259]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361260]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361462]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361463]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361601]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361602]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361730]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.361732]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.373157]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.373162]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.373982]: Sandbox apply: fairplaydeviceidentityd[871] <bytes>SK[10]: flow_entry_alloc               fe "0 proc kernel_task(0)cloudd nx_port 1 flow_uuid UUID-397 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49180,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0xb319e6a2 tp_proto=0x06"
+[  194.382923]: SK[6]: flow_entry_alloc               fe "0 proc kernel_task(0)nsurlsessiond nx_port 1 flow_uuid UUID-398 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49181,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x8165a55a tp_proto=0x06"
+[  194.382936]: tcp connect outgoing: [<IPv4-redacted>:49180<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3375 t_state: SYN_SENT process: cloudd:698 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xbf1dc19etcp connect outgoing: [<IPv4-redacted>:49181<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3376 t_state: SYN_SENT process: nsurlsessiond:658 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 100 flow: 0x9f4b3a75SK[6]: flow_entry_alloc               fe "0 proc kernel_task(0)nsurlsessiond nx_port 1 flow_uuid UUID-399 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49182,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0xc77cee47 tp_proto=0x06"
+[  194.383291]: SK[10]: flow_entry_alloc               fe "0 proc kernel_task(0)cloudd nx_port 1 flow_uuid UUID-400 flags 0x14120<CONNECTED,QOS_MARKING,EXT_PORT,EXT_FLOWID> ipver=4,src=<IPv4-redacted>.49183,dst=<IPv4-redacted>.443,proto=0x06 mask=0x0000003f,hash=0x96739f76 tp_proto=0x06"
+[  194.383316]: tcp connect outgoing: [<IPv4-redacted>:49183<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3378 t_state: SYN_SENT process: cloudd:698 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 28 ms error: 0 so_error: 0 svc/tc: 0 flow: 0x8eb6546ftcp connect outgoing: [<IPv4-redacted>:49182<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3377 t_state: SYN_SENT process: nsurlsessiond:658 SYN in/out: 0/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 100 flow: 0xb5471b9atcp connected: [<IPv4-redacted>:49179<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3369 t_state: ESTABLISHED process: amsengagementd:865 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 0 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xa1699922udp connect: [<IPv4-redacted>:56103<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3383 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xb34fb714tcp_connection_summary (tcp_close:1820)[<IPv4-redacted>:49182<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3377 t_state: SYN_SENT process: nsurlsessiond:658 Duration: 0.012 sec Conn_Time: 0.000 sec bytes in/out: 0/0 pkts in/out: 0/0 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 0.000 ms rttvar: 250.000 ms base rtt: 15 ms so_error: 0 svc/tc: 100 flow: 0xb5471b9atcp_connection_summary [<IPv4-redacted>:49182<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3377 t_state: SYN_SENT process: nsurlsessiond:658 flowctl: 0us (0x) SYN in/out: 0/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  194.398402]: udp connect: [<IPv4-redacted>:59481<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3396 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xa36b5397tcp connected: [<IPv4-redacted>:49180<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3375 t_state: ESTABLISHED process: cloudd:698 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 0 flow: 0xbf1dc19etcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49180<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3375 t_state: FIN_WAIT_1 process: cloudd:698 Duration: 0.017 sec Conn_Time: 0.017 sec bytes in/out: 0/0 pkts in/out: 0/0 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 17.000 ms rttvar: 8.500 ms base rtt: 15 ms so_error: 0 svc/tc: 0 flow: 0xbf1dc19etcp_connection_summary [<IPv4-redacted>:49180<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3375 t_state: FIN_WAIT_1 process: cloudd:698 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  194.401467]: tcp connected: [<IPv4-redacted>:49181<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3376 t_state: ESTABLISHED process: nsurlsessiond:658 SYN in/out: 1/1 bytes in/out: 0/0 pkts in/out: 0/0 rtt: 0.0 ms rttvar: 250.0 ms base_rtt: 15 ms error: 0 so_error: 0 svc/tc: 100 flow: 0x9f4b3a75udp connect: [<IPv4-redacted>:60806<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3409 so_state: 0x0102 process: nsurlsessiond:658 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xbf78d756tcp_connection_summary (tcp_usrclosed:3249)[<IPv4-redacted>:49181<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3376 t_state: FIN_WAIT_1 process: nsurlsessiond:658 Duration: 0.020 sec Conn_Time: 0.019 sec bytes in/out: 0/0 pkts in/out: 0/0 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 19.000 ms rttvar: 9.500 ms base rtt: 15 ms so_error: 0 svc/tc: 100 flow: 0x9f4b3a75tcp_connection_summary [<IPv4-redacted>:49181<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3376 t_state: FIN_WAIT_1 process: nsurlsessiond:658 flowctl: 0us (0x) SYN in/out: 1/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  194.405589]: udp connect: [<IPv4-redacted>:61299<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3422 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x944f1ab7Sandbox: amsengagementd(865) deny(1) file-read-data /private/var/db/nsurlstoraged/dafsaData.bintcp_connection_summary (tcp_close:1820)[<IPv4-redacted>:49183<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3378 t_state: SYN_SENT process: cloudd:698 Duration: 0.023 sec Conn_Time: 0.000 sec bytes in/out: 0/0 pkts in/out: 0/0 pkt rxmit: 0 ooo pkts: 0 dup bytes in: 0 ACKs delayed: 0 delayed ACKs sent: 0
+rtt: 0.000 ms rttvar: 250.000 ms base rtt: 28 ms so_error: 0 svc/tc: 0 flow: 0x8eb6546ftcp_connection_summary [<IPv4-redacted>:49183<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3378 t_state: SYN_SENT process: cloudd:698 flowctl: 0us (0x) SYN in/out: 0/1 FIN in/out: 0/0 RST in/out: 0/0 AccECN (client/server): Disabled/Disabled
+[  194.440901]: Sandbox: sharingd(673) deny(1) syscall-unix 545Sandbox apply: logd_helper[872] <bytes>28 duplicate reports for Sandbox: sharingd(673) deny(1) syscall-unix 545Sandbox: ContextStoreAgent(662) deny(1) iokit-open-user-client AppleKeyStoreUserClientIOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.506508]: IOUC AppleKeyStoreUserClient failed MACF in process pid 662, ContextStoreAgen
+[  194.538765]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.538770]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.539376]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10023 -> status 0x0
+[  194.539409]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000d -> status 0x0
+[  194.539797]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.539800]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.543448]: udp_connection_summary [<IPv4-redacted>:54223<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3363 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.389 sec Conn_Time: 0.389 sec bytes in/out: 11048/10896 pkts in/out: 16/20 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xbe281461 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:56103<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3383 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.148 sec Conn_Time: 0.148 sec bytes in/out: 2649/1417 pkts in/out: 6/6 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xb34fb714 flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:59638<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3359 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.391 sec Conn_Time: 0.391 sec bytes in/out: 11002/9170 pkts in/out: 14/16 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xb383d49a flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:60806<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3409 so_state: 0x0102 process: nsurlsessiond:658 Duration: 0.141 sec Conn_Time: 0.141 sec bytes in/out: 1938/1374 pkts in/out: 4/5 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 100 flow: 0xbf78d756 flowctl: 0us (0x) com.apple.p2p.en1: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -49 noise 0 snr 0. Core0Rssi:0 Core1Rssi:0
+[  194.603525]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_LQM_SUMMARY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.603654]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NSS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  194.604206]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.604278]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.614538]: udp connect: [<IPv4-redacted>:49765<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3456 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xbf287a6fACM: createCredentialSet: Credential set created (auto=YES), CS[109]/2, LRU=43, mem=41(0), SUID=501, pool=[2/256 1a:1n], usedByAge=[1w+:0 1w:0 1d:0 12h:0 1h:0 30m:0 10m:1 1m:1].
+[  194.623300]: "AppleKeyStore":pid:713,:13297: operation failed (sel: 17 ret: e00002f0, 501)
+[  194.623631]: ACM: deleteCredentialSet: Deleting credential set, CS[109].
+[  194.634632]: Sandbox apply: maild[873] <bytes>[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_BSS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.646104]: {public}s[IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_TRAFFIC_COUNTERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.646121]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  194.666833]: _process_matches_constraint: error: Requirement not satisfied: Constraint not matched
+[  194.666843]: IOReturn CoreAnalyticsUserClient::sendDataToUser(uint8_t *, size_t)::309: sending 353 bytes
+[  194.741272]: Sandbox apply: CacheDeleteExtension[864] <bytes>NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.744855]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.745172]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.745174]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.745436]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.745438]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.745787]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.745788]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.776348]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.776349]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.776354]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.776354]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.776587]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.776589]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.790577]: NVAccel: newResource -> <ptr>
+[  194.790582]: NVAccel: newResource -> <ptr>
+[  194.790588]: NVAccel: newSysMemory -> <ptr>
+[  194.790589]: NVAccel: newSysMemory -> <ptr>
+[  194.790593]: NVAccel: newVidMemory -> <ptr>
+[  194.790594]: NVAccel: newVidMemory -> <ptr>
+[  194.790702]: NVRM-xnu: >os_map_kernel_space start=0x3fc042d0000 size=0x100000 mode=2
+[  194.790728]: NVRM-xnu:   mapped -> 0x<ptr> (slot 45, high water 46/8192)
+[  194.790886]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc042d0000 kva <ptr> [BAR1 311099392]
+[  194.790889]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc042d0000 kva <ptr> [BAR1 311099392]
+[  194.793801]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  194.793815]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  194.796885]: 1 duplicate report for Sandbox: ContextStoreAgent(662) deny(1) iokit-open-user-client AppleKeyStoreUserClientSandbox: parsecd(795) deny(1) mach-lookup com.apple.apsdSandbox: imagent(699) deny(1) user-preference-read com.apple.messages.commsafetySandbox: imagent(699) deny(1) user-preference-write com.apple.messages.commsafetyudp connect: [<IPv4-redacted>:59088<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3472 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8fb0af85udp_connection_summary [<IPv4-redacted>:54782<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3355 so_state: 0x0102 process: cloudd:698 Duration: 0.654 sec Conn_Time: 0.653 sec bytes in/out: 12147/9034 pkts in/out: 15/16 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x9348ae1b flowctl: 0us (0x) udp_connection_summary [<IPv4-redacted>:61299<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3422 so_state: 0x0102 process: cloudd:698 Duration: 0.399 sec Conn_Time: 0.399 sec bytes in/out: 7216/4820 pkts in/out: 16/12 rxnospace pkts/bytes: 0/0 so_error: 0 svc/tc: 0 flow: 0x944f1ab7 flowctl: 0us (0x) Sandbox: apsd(140) deny(1) user-preference-write com.apple.apsdudp connect: [<IPv4-redacted>:62198<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3489 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x80fd1e31udp connect: [<IPv4-redacted>:50162<-><IPv4-redacted>:443] interface:  (skipped: 0)
+so_gencnt: 3493 so_state: 0x0102 process: FeatureAccessAge:753 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xb96fdd03NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10023 -> status 0x0
+[  194.844337]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000d -> status 0x0
+[  194.850344]: udp connect: [<IPv4-redacted>:59807<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3506 so_state: 0x0102 process: cloudd:698 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0x8d1dbf3dudp connect: [<IPv4-redacted>:53016<-><IPv4-redacted>:443] interface: en1 (skipped: 0)
+so_gencnt: 3519 so_state: 0x0102 process: FeatureAccessAge:753 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 0 flow: 0xac4156d6Sandbox apply: ProtectedCloudKeySyncing[860] <bytes>NVAccel: newResource -> <ptr>
+[  194.863410]: NVAccel: newResource -> <ptr>
+[  194.863416]: NVAccel: newSysMemory -> <ptr>
+[  194.863416]: NVAccel: newSysMemory -> <ptr>
+[  194.863421]: NVAccel: newVidMemory -> <ptr>
+[  194.863421]: NVAccel: newVidMemory -> <ptr>
+[  194.863516]: NVRM-xnu: >os_map_kernel_space start=0x3fc06000000 size=0xd0000 mode=2
+[  194.863540]: NVRM-xnu:   mapped -> 0x<ptr> (slot 46, high water 47/8192)
+[  194.863709]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 851968 bytes of REAL VRAM -- phys 0x3fc06000000 kva <ptr> [BAR1 311951360]
+[  194.863711]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 851968 bytes of REAL VRAM -- phys 0x3fc06000000 kva <ptr> [BAR1 311951360]
+[  194.865454]: NVAccel: newResource -> <ptr>
+[  194.865457]: NVAccel: newResource -> <ptr>
+[  194.865460]: NVAccel: newSysMemory -> <ptr>
+[  194.865461]: NVAccel: newSysMemory -> <ptr>
+[  194.865463]: NVAccel: newVidMemory -> <ptr>
+[  194.865463]: NVAccel: newVidMemory -> <ptr>
+[  194.865507]: NVRM-xnu: >os_map_kernel_space start=0x3fc060d0000 size=0xd0000 mode=2
+[  194.865526]: NVRM-xnu:   mapped -> 0x<ptr> (slot 47, high water 48/8192)
+[  194.865697]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 851968 bytes of REAL VRAM -- phys 0x3fc060d0000 kva <ptr> [BAR1 312803328]
+[  194.865698]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 851968 bytes of REAL VRAM -- phys 0x3fc060d0000 kva <ptr> [BAR1 312803328]
+[  194.874460]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000c -> status 0x0
+[  194.874479]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000a -> status 0x0
+[  194.885065]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.885071]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  194.913112]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10023 -> status 0x0
+[  194.913128]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x1000d -> status 0x0
+[  194.914493]: 1 duplicate report for Sandbox: apsd(140) deny(1) user-preference-write com.apple.apsdSandbox: siriactionsd(701) deny(1) mach-lookup com.apple.CARenderServerNVAccel: newResource -> <ptr>
+[  194.915749]: NVAccel: newResource -> <ptr>
+[  194.915756]: NVAccel: newSysMemory -> <ptr>
+[  194.915757]: NVAccel: newSysMemory -> <ptr>
+[  194.915762]: NVAccel: newVidMemory -> <ptr>
+[  194.915763]: NVAccel: newVidMemory -> <ptr>
+[  194.918302]: NVRM-xnu: >os_map_kernel_space start=0x3fc08e00000 size=0x100000 mode=2
+[  194.918336]: NVRM-xnu:   mapped -> 0x<ptr> (slot 37, high water 48/8192)
+[  194.918564]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc08e00000 kva <ptr> [BAR1 312541184]
+[  194.918567]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc08e00000 kva <ptr> [BAR1 312541184]
+[  194.930531]: Sandbox: runningboardd(221) deny(1) mach-lookup com.apple.coreservices.launchservicesdmemorystatus: process WeatherMenu [829] opted in to both Management and ActivityTracking
+[  194.937563]: Sandbox: heard(815) deny(1) file-write-create /Users/USER/Library/Application Support/${EXECUTABLE_NAME}Sandbox apply: gamepolicyd[874] <bytes>Sandbox: heard(815) deny(1) mach-lookup com.apple.logind[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_PHY_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  195.031502]: tx_flush:1344: disk1 xid 444104 tx stats: # 340 owait 47 4581us finish 336 bar2 335 f 12 enter 157 fq 39 76 215us close 5us prep 285us flush 22384us
+[  195.048783]: NVRM-xnu: os_lock_user_pages(0x314223000, 12 pages) prepare -> 0x2
+[  195.051809]: NVRM-xnu: os_lock_user_pages(0x375f5c000, 288 pages) prepare -> 0x2
+[  195.053233]: Sandbox: heard(815) deny(1) user-preference-read com.apple.cloudkitSandbox apply: axassetsd[817] <bytes

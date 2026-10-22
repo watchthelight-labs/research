@@ -1,0 +1,20 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "fps.txt": "75e1b94b94311d2a89c1dff201c2d92cc6f4910a3df9925ab7ce33f03432bab5",
+  "geekbench6-metal-test006.txt": "c72f9e7fe23bae8f3463ba8d6b08adac3adcd9a637e5b856c349380c14b0eda6",
+  "smi-once-idle.txt": "90e4acffc0cca7f3124368140f8d28c0a602c6cc447f175a8832034f743e872c"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-72",
+ "username": "watchthelight"
+}

@@ -1,0 +1,24 @@
+{
+ "collected": "2026-10-14",
+ "component": "native",
+ "files": {
+  "opencore-2026-10-14-221535.txt": "fdf13b6ac82bb9dab0472bbf0b0a3fd15bcfb3cb7747aa3692f963648ec370c2",
+  "opencore-2026-10-14-221817.txt": "4866266fb463e1f229191d94c852fe3d3441f058d5ce03d3b656bbffd675f709"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "MLB": 4,
+   "ROM": 4,
+   "SERIAL": 4,
+   "UUID": 51
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-13",
+ "username": "watchthelight"
+}

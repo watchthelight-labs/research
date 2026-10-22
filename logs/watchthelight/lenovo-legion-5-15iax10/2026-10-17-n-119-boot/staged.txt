@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 91b7990, sha 4b5da96188d0: N-118 probe plus COMP FC / COMP BLEND / COMP VBUF / COMP FBUF / CAP draw lines for Dock composites of label-sized textures; conf unchanged

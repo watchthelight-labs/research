@@ -1,0 +1,2 @@
+Sink PSR status: 0x4 [transition to inactive, capture and display, timing re-sync]
+Sink PSR error status: 0x0

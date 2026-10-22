@@ -1,0 +1,12 @@
+2026-10-18 01:46:38 guard start: attempt=N-141 stage=D iface=en1 boot=1792302325 started_boot=none result=none auto_reboots=0 dry=0
+2026-10-18 01:46:59 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:47:37 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:48:19 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:48:57 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:49:36 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:50:15 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:50:54 join request 'SSID-1' on en1: Failed to join network SSID-1.
+2026-10-18 01:51:00 FAIL N-141 stage D after 240s: no IPv4 lease on en1
+2026-10-18 01:51:11 captured rollback -> /Users/USER/.cache/legion/wifi/N-141-rollback
+2026-10-18 01:51:11 restarting after rollback (N-141)
+2026-10-18 01:52:47 guard start: attempt=N-141 stage=D iface=en1 boot=1792302707 started_boot=1792302325 result=rolled-back auto_reboots=1 dry=0

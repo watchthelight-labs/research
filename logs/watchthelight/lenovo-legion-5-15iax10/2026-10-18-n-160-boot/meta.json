@@ -1,0 +1,25 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "README.md": "1a0c94528004089a8e7bdad4c66f4b58975becd320e6737eba219624a3a5e3aa",
+  "dmesg-nvidia.txt": "6da16859e6c56753e1ddcd7a3681fc58ceb829530b267b9f3ed21f66b4e205c7",
+  "drag.txt": "0b51b23dc3d59c0185f2fa4ee01acbc3047875ebe4359383c4be372bd6178682",
+  "kextstat.txt": "983abaa0ebc3691c11a5c0d7f580143aed1cdb2d5a8242254a249bb552061f91",
+  "mode.txt": "111450407578ff50604bd41bf76403a3b0b740ab017a463c0458975e0ecb75fc",
+  "sysctl-0.txt": "8819f8a2ea228bfc9a45a0bd20a41c5f1933dd1b97f0ac5a5da2a6ba8fac0531",
+  "sysctl-1.txt": "17b599575ddb6575de6c4122c54d71b2c86d14b29ef6f213f205b16f481eefd1",
+  "sysctl-2.txt": "aa69108688d45cf228fc2880164916c0bd4c019dacd87270ca8e73f70511de90"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-160",
+ "username": "watchthelight"
+}

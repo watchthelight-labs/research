@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 7699e0c, sha c0137c1e9ff3: N-120 probe plus a time gate: COMP lines only within 400 ms after a TGT FLAG (badge-like pass); conf unchanged

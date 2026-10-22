@@ -1,0 +1,20 @@
++-o AppleDisplay  <class AppleDisplay, id 0x10000073a, registered, matched, active, busy 0 (0 ms), retain 8>
+    {
+      "IOClass" = "AppleDisplay"
+      "CFBundleIdentifier" = "com.apple.iokit.IOGraphicsFamily"
+      "IOProviderClass" = "IODisplayConnect"
+      "DisplayProductID" = 1815
+      "IODisplayPrefsKeyOld" = "IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/RP01@6/IOPP/GFX0@0/.Display_boot/display0/AppleDisplay-756e6b6e-717"
+      "IODisplayPrefsKey" = "IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/RP01@6/IOPP/GFX0@0-756e6b6e-717-0"
+      "IOPowerManagement" = {"CapabilityFlags"=49152,"MaxPowerState"=3,"CurrentPowerState"=3}
+      "IOProbeScore" = 2000
+      "IODisplayParameters" = {"bgsc"={"min"=0,"max"=65536,"value"=65536},"rgsc"={"min"=0,"max"=65536,"value"=65536},"vblm"={"min"=0,"max"=196608,"value"=65536},"ownr"=4294969008,"ggsc"={"min"=0,"max"=65536,"value"=65536}}
+      "IOMatchCategory" = "IODefaultMatchCategory"
+      "IOPersonalityPublisher" = "com.apple.iokit.IOGraphicsFamily"
+      "IODisplayConnectFlags" = <00000000>
+      "CFBundleIdentifierKernel" = "com.apple.iokit.IOGraphicsFamily"
+      "DisplayVendorID" = 1970170734
+      "DisplaySerialNumber" = SERIAL-3
+    }
+    
+

@@ -1,0 +1,5 @@
+want:    1680x1050  pixels  3360x2100  @165 HiDPI hidden cgs 5
+switch: ok
+live:    1680x1050  pixels  3360x2100  @165 HiDPI hidden cgs 5 io -2147479549
+result: stuck
+ 1680x1050  pixels  3360x2100  @165 HiDPI hidden cgs 5 io -2147479549

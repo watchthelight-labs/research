@@ -1,0 +1,91 @@
+ok   SHA-1 FIPS 180 'abc'
+ok   SHA-1 FIPS 180 two-block
+ok   SHA-1 FIPS 180 million a
+ok   HMAC-SHA1 RFC 2202 case 1
+ok   HMAC-SHA1 RFC 2202 case 2 (split input)
+ok   HMAC-SHA1 RFC 2202 case 6 (80-byte key)
+ok   PBKDF2 RFC 6070 c=1
+ok   PBKDF2 RFC 6070 c=4096
+ok   PBKDF2 RFC 6070 c=4096 dkLen 25
+ok   PSK IEEE 802.11 Annex J 'password'/'IEEE'
+oracle-check psk1 f42c6fc52df0ebef9ebb4b90b38a5f902e83fe1b135a70e23aed762e9710a12e
+ok   PSK IEEE 802.11 Annex J 'ThisIsAPassword'/'ThisIsASSID'
+oracle-check psk2 0dc0d6eb90555ed6419756b9a15ec3e3209b63df707dd508d14581f8982721af
+ok   PRF-192 IEEE 802.11 Annex J case 1
+oracle-check prf1 bcd4c650b30b9684951829e0d75f9d54b862175ed9f00606
+ok   PRF-256 IEEE 802.11 Annex J case 2
+oracle-check prf2 47c4908e30c947521ad20be9053450ecbea23d3aa604b77326d8b3825ff7475c
+ok   PRF-384 IEEE 802.11 Annex J case 3
+oracle-check prf3 0ab6c33ccf70d0d736f4b04c8a7373255511abc5073713163bd0b8c9eeb7e1956fa066820a73ddee3f6d3bd407e0682a
+ok   PTK PRF-384 (oracle)
+oracle-check ptk 987f3dab2a210d258f739d0cb3d3cd92cd6ed513bf5acc1344f66d63704c5d893aa5092a2c1eb89ca5e36ba696565f1b
+ok   PTK symmetric in AA/SPA and nonces
+ok   EAPOL-Key MIC HMAC-SHA1-128 (oracle)
+oracle-check mic 6e52e670084a9f6c69c5e1f92c96745c
+ok   AES-128 FIPS 197 C.1 encrypt
+ok   AES-128 FIPS 197 C.1 decrypt
+ok   RFC 3394 4.1 wrap rc
+ok   RFC 3394 4.1 wrap
+ok   RFC 3394 4.1 unwrap rc
+ok   RFC 3394 4.1 unwrap
+ok   RFC 3394 unwrap rejects a modified block
+ok   RFC 3394 unwrap rejects a bad length
+ok   own RSN element (PSK, CCMP)
+ok   msg1 answered
+ok   msg2 sent in the clear
+ok   msg2 MIC verifies at the AP
+ok   msg2 key info 0x010a, replay 1
+ok   msg2 carries our RSN element
+ok   msg2 from a wrong PMK fails at the AP
+ok   msg1 retransmit answered
+ok   msg3 with a bad MIC rejected
+ok   no reply to a bad msg3
+ok   msg3 with another ANonce dropped
+ok   msg3 with a different RSN element rejected
+ok   msg3 accepted
+ok   msg4 sent before install, in the clear
+ok   msg4 key info 0x030a, replay 3
+ok   msg4 MIC verifies at the AP
+ok   PTK installed once, TK = PTK[32..47]
+ok   GTK installed with key id 1 and RSC
+ok   retransmitted msg3 answered
+ok   no PTK / GTK reinstallation (KRACK)
+ok   replayed msg3 dropped
+ok   stale msg1 dropped
+ok   group msg1 accepted
+ok   new GTK installed
+ok   group msg2 sent under the PTK
+ok   group msg2 key info 0x0302 and MIC
+ok   replayed group msg1 dropped
+ok   same GTK again: answered, not reinstalled
+ok   group msg1 with a bad MIC rejected
+ok   group msg1 with a 32-byte GTK accepted
+ok   32-byte GTK installed as given
+ok   24-byte GTK rejected
+ok   rekey msg1 answered
+ok   rekey: new SNonce, protected msg2
+ok   rekey msg3 accepted
+ok   rekey: new TK installed, msg4 under the old PTK
+ok   short frame rejected
+ok   descriptor version 1 rejected
+ok   clear zeroes every key
+ok   rsn: WPA2-PSK CCMP
+ok   rsn: mixed TKIP group
+ok   rsn: SAE only, MFP required
+ok   rsn: transition PSK + SAE, MFP capable
+ok   rsn: PSK-SHA256 only
+ok   rsn: 802.1X
+ok   rsn: defaults when fields are absent
+ok   wpa1: vendor element
+ok   rsn: oversized suite count rejected
+ok   rsn: truncated buffer rejected
+ok   rsn: other element rejected
+75 checks, 0 failures
+ok   oracle prf1
+ok   oracle prf2
+ok   oracle prf3
+ok   oracle psk1
+ok   oracle psk2
+ok   oracle ptk
+ok   oracle mic
+oracle: all values agree

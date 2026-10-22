@@ -1,0 +1,39 @@
+== plugin 3d0034576174; conf: 1 wstrace key(s)
+badge set 7
+trace ON 2026-10-17 18:54:09 (with alltex: full descriptors and small BGRA dumps)
+trace OFF 18:54:18
+   53862 /Users/USER/Hackintosh/evidence/native/N-116/dock/c-trace-badge.txt
+OFFS draw            3660
+SDF draw             490
+DISPATCH             0
+render pass target   6084
+SURFTEX              300
+GETBYTES             12
+BLIT                 14
+-- offscreen draw shaders:
+ 674 fixed_frag_lpf_cpf -> 128x128 fmt 80 com.apple.coreanimation.ImageOffscreen
+ 459 fixed_frag_lpf_cpf -> 384x192 fmt 80 com.apple.coreanimation.ImageCaptureBackdrop
+ 405 fixed_frag_lpf_cpf -> 192x192 fmt 80 com.apple.coreanimation.ImageCaptureBackdrop
+ 257 fixed_frag_lpf_cpf -> 384x320 fmt 115 com.apple.coreanimation.ImageOffscreen
+ 221 fixed_frag_lpf_cpf -> 320x256 fmt 80 com.apple.coreanimation.ImageOffscreen
+ 153 narrow_blur_11_frag_lpf -> 384x192 fmt 80 com.apple.coreanimation.ImageFilterBackdrop
+ 153 downsample_8_frag_lpf -> 384x192 fmt 80 com.apple.coreanimation.ImageCaptureBackdrop
+ 135 narrow_blur_11_frag_lpf -> 192x192 fmt 80 com.apple.coreanimation.ImageFilterBackdrop
+ 135 downsample_8_frag_lpf -> 192x192 fmt 80 com.apple.coreanimation.ImageCaptureBackdrop
+ 115 fixed_frag_lpf_cpf -> 640x256 fmt 80 com.apple.coreanimation.ImageOffscreen
+  95 variable_blur_downsample_frag_lpf -> 64x64 fmt 80 com.apple.coreanimation.surface
+  95 fixed_frag_lpf_cpf -> 64x64 fmt 80 com.apple.coreanimation.surface
+  95 downsample_4_frag_lpf -> 64x64 fmt 80 com.apple.coreanimation.ImageCaptureBackdrop
+  85 fixed_frag_lpf_cpf -> 128x128 fmt 80 com.apple.coreanimation.surface
+  82 fixed_frag_lpf_cpf -> 256x320 fmt 80 com.apple.coreanimation.ImageOffscreen
+  58 fixed_frag_lpf_cpf -> 384x128 fmt 80 com.apple.coreanimation.ImageOffscreen
+  56 fixed_frag_lpf_cpf -> 640x320 fmt 115 com.apple.coreanimation.ImageOffscreen
+  50 fixed_frag_lpf_cpf -> 1024x128 fmt 80 com.apple.coreanimation.ImageCaptureBackdrop
+  45 variable_blur_downsample_frag_lpf -> 128x128 fmt 80 com.apple.coreanimation.surface
+  43 fixed_frag_lpf_cpf -> 256x256 fmt 115 com.apple.coreanimation.ImageOffscreen
+  32 fixed_frag_lpf_cpf -> 384x256 fmt 115 com.apple.coreanimation.ImageOffscreen
+  28 fixed_frag_lpf_cpf -> 448x384 fmt 115 com.apple.coreanimation.surface
+  21 variable_blur_downsample_frag_lpf -> 1024x128 fmt 80 com.apple.coreanimation.surface
+  19 variable_blur_downsample_frag_lpf -> 128x64 fmt 80 com.apple.coreanimation.surface
+  19 glass_background_no_bleed_lpf -> 320x256 fmt 80 com.apple.coreanimation.ImageOffscreen
+-- dispatches:

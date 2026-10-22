@@ -1,0 +1,3 @@
+FBC enabled
+Compressing: no
+* [PLANE:33:plane 1A]: FBC possible

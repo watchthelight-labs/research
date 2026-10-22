@@ -1,0 +1,2 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-17 10:51:56.467 Df log[2589:950f] [com.apple.log:] log run noninteractively, parent: 2558 (bash), args: '/usr/bin/log' 'show' '--start' '2026-10-17 10:51:40' '--predicate' 'eventMessage CONTAINS "NvGfx wstrace"' '--style' 'compact'

@@ -1,0 +1,22 @@
+== headers for 25G241
+IO80211Controller            overrides 16 (0 not redeclared), new virtuals 69, pure unnamed -
+iface_stubs.inc: 200 pure slots, 11 implemented by hand
+abi.json: build 25G241 xnu-12377.161.15.700.19~2, 15 class sizes
+== compile
+== plist allow-list from abi/25G241/abi.json
+MtkNativeAbi builds: 25G241 (xnu-12377.161.15.700.19~2)
+== offline checks
+filetype: MH_KEXT_BUNDLE
+kmod_info: present
+undefined symbols: 747 (out/undefined.txt)
+MtkWlanNative vs AppleBCMWLANCore: 23 overrides on the right slot, 0 wrong (clang slots 466, Apple slots 635)
+MtkWlanNativeIf vs AppleBCMWLANSkywalkInterface: 224 overrides on the right slot, 0 wrong (clang slots 671, Apple slots 669)
+MtkWlanNative.kext: 747 undefined symbols, collection BootKernelExtensions.kc
+  com.apple.driver.corecapture                    3  ok
+  com.apple.iokit.IO80211Family                 204  ok
+  com.apple.iokit.IONetworkingFamily            124  ok
+  com.apple.iokit.IOSkywalkFamily               101  ok
+  com.apple.kernel                              311  ok
+  not exported, but the baseline MtkWlan.kext lacks them too: 4
+link check ok
+built org.watchthelight.MtkWlanNative 0.2.0 for 25G241: out/MtkWlanNative.kext/Contents/MacOS/MtkWlanNative (137528 bytes)

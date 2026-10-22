@@ -1,0 +1,35 @@
+Routing tables
+
+Internet:
+Destination        Gateway            Flags               Netif Expire
+default            IP-6        UGScIg                en1       
+100.70/16          link#7             UCS                   en1      !
+IP-187        0:50:56:10:1a:0    UHLWIi                en1   1194
+IP-188        0:50:56:10:1a:0    UHLWI                 en1   1199
+IP-62        0:50:56:10:2a:20   UHLWIi                en1   1198
+IP-6/32     link#7             UCS                   en1      !
+IP-6        0:50:56:10:1a:30   UHLWIir               en1   1194
+IP-55        0:50:56:10:1a:30   UHLWIi                en1   1198
+IP-185/32   link#7             UCS                   en1      !
+127                127.0.0.1          UCS                   lo0       
+127.0.0.1          127.0.0.1          UH                    lo0       
+169.254            link#7             UCS                   en1      !
+224.0.0/4          link#7             UmCS                  en1      !
+255.255.255.255/32 link#7             UCS                   en1      !
+
+Internet6:
+Destination                             Gateway                                 Flags               Netif Expire
+::1                                     ::1                                     UHL                   lo0       
+fe80::%lo0/64                           IP-1                             UcI                   lo0       
+IP-1                             link#1                                  UHLI                  lo0       
+fe80::%en1/64                           link#7                                  UCI                   en1       
+IP-186           MAC-53                       UHLI                  lo0       
+ff00::/8                                ::1                                     UmCI                  lo0       
+ff00::/8                                link#6                                  UmCI                  en0       
+ff00::/8                                link#7                                  UmCI                  en1       
+ff01::%lo0/32                           ::1                                     UmCI                  lo0       
+ff01::%en0/32                           link#6                                  UmCI                  en0       
+ff01::%en1/32                           link#7                                  UmCI                  en1       
+ff02::%lo0/32                           ::1                                     UmCI                  lo0       
+ff02::%en0/32                           link#6                                  UmCI                  en0       
+ff02::%en1/32                           link#7                                  UmCI                  en1       

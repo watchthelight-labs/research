@@ -1,0 +1,12 @@
+{
+ "attempt": "N-137",
+ "stage": "B",
+ "iface": "en1",
+ "boot_args": "mtkfe=native mtknativeif=1",
+ "auto_reboots": 1,
+ "repo_head": "1c554562",
+ "staged_at": "2026-10-18 00:35:16 EDT",
+ "started_boot": 1792298556,
+ "result": "pass-after-rollback",
+ "reason": "no default route (lease IP-12)"
+}

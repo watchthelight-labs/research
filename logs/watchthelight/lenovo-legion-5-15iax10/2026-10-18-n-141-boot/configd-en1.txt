@@ -1,0 +1,45 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-18 01:46:06.631 Df configd[107:457] [com.apple.SystemConfiguration:InterfaceNamer] addTimestamp: en1: 813995166.631893
+2026-10-18 01:46:06.742 Df configd[107:4f8] (IO80211) Apple80211GetWithIOCTL:13739 @[54.806148] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 01:46:06.742 Df configd[107:4f8] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 01:46:06.746 Df configd[107:4fb] [com.apple.SystemConfiguration:QoSMarking] QoS marking policy: en1: enable (default)
+2026-10-18 01:46:06.747 Df configd[107:4f7] [com.apple.SystemConfiguration:KernelEventMonitor] Process interface attach: en1
+2026-10-18 01:46:07.084 Df configd[107:4f8] [com.apple.IPConfiguration:Server] DHCP en1: start
+2026-10-18 01:46:07.087 Df configd[107:4f8] [com.apple.IPConfiguration:Server] en1 link INACTIVE
+2026-10-18 01:46:07.089 Df configd[107:4f8] (IO80211) Apple80211GetWithIOCTL:13739 @[55.153262] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 01:46:07.089 Df configd[107:4f8] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 01:46:07.090 Df configd[107:4f8] [com.apple.IPConfiguration:Server] RTADV en1: start
+2026-10-18 01:46:07.191 Df configd[107:403] [com.apple.IPConfiguration:Server] en1: link inactive timer fired
+2026-10-18 01:46:07.191 Df configd[107:403] [com.apple.IPConfiguration:Server] DHCP en1: status = 'media inactive'
+2026-10-18 01:46:07.191 Df configd[107:403] [com.apple.IPConfiguration:Server] DHCP en1: INACTIVE
+2026-10-18 01:46:07.191 Df configd[107:403] [com.apple.IPConfiguration:Server] RTADV en1: Inactive
+2026-10-18 01:46:07.191 Df configd[107:403] [com.apple.IPConfiguration:Server] RTADV en1: Inactive
+2026-10-18 01:46:07.191 Df configd[107:403] [com.apple.IPConfiguration:Server] AUTOMATIC-V6 en1: status = 'media inactive'
+2026-10-18 01:46:07.193 Df configd[107:403] [com.apple.IPConfiguration:Server] en1: acknowledged Wi-Fi connection ID 0
+2026-10-18 01:46:38.807 Df configd[107:457] [com.apple.SystemConfiguration:InterfaceNamer] addTimestamp: en1: 813995198.807188
+2026-10-18 01:46:58.678 Df configd[107:ba8] [com.apple.IPConfiguration:Server] DHCP en1: ForgetSSID <redacted>
+2026-10-18 01:46:58.678 Df airportd[225:78d] [com.apple.IPConfiguration:Library] ipconfig_forget_network(en1) succeeded
+2026-10-18 01:47:23.311 Df configd[107:4f6] [com.apple.captive:Controller] NetIFCopyCurrentWiFiNetwork returned NULL for en1
+2026-10-18 01:47:23.311 Df configd[107:bed] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceRank(en1) = Never (3)
+2026-10-18 01:47:23.312 Df configd[107:4f6] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 01:47:23.313 Df configd[107:1045] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceAdvisory(en1) = UplinkIssue (2) reason='WiFi is unavailable'
+2026-10-18 01:47:23.313 Df configd[107:4f6] [com.apple.captive:Controller] en1: SetAdvisory 'WiFi is unavailable'
+2026-10-18 01:47:23.315 Df configd[107:4f6] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 01:47:24.626 Df configd[107:4f6] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 01:47:24.635 Df configd[107:4f6] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 01:47:26.029 Df configd[107:4f6] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 01:47:26.034 Df configd[107:4f6] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 01:47:26.038 Df configd[107:4f6] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 01:47:26.040 Df configd[107:4f6] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 01:47:37.323 Df configd[107:be0] [com.apple.IPConfiguration:Server] DHCP en1: ForgetSSID <redacted>
+2026-10-18 01:47:37.323 Df airportd[225:bfa] [com.apple.IPConfiguration:Library] ipconfig_forget_network(en1) succeeded
+2026-10-18 01:48:18.614 Df configd[107:2319] [com.apple.IPConfiguration:Server] DHCP en1: ForgetSSID <redacted>
+2026-10-18 01:48:18.614 Df airportd[225:23fd] [com.apple.IPConfiguration:Library] ipconfig_forget_network(en1) succeeded
+2026-10-18 01:48:57.259 Df configd[107:286a] [com.apple.IPConfiguration:Server] DHCP en1: ForgetSSID <redacted>
+2026-10-18 01:48:57.259 Df airportd[225:2456] [com.apple.IPConfiguration:Library] ipconfig_forget_network(en1) succeeded
+2026-10-18 01:49:36.323 Df configd[107:286b] [com.apple.IPConfiguration:Server] DHCP en1: ForgetSSID <redacted>
+2026-10-18 01:49:36.323 Df airportd[225:291c] [com.apple.IPConfiguration:Library] ipconfig_forget_network(en1) succeeded
+2026-10-18 01:50:14.763 Df configd[107:2c74] [com.apple.IPConfiguration:Server] DHCP en1: ForgetSSID <redacted>
+2026-10-18 01:50:14.763 Df airportd[225:2bc3] [com.apple.IPConfiguration:Library] ipconfig_forget_network(en1) succeeded
+2026-10-18 01:50:53.884 Df configd[107:2f5d] [com.apple.IPConfiguration:Server] DHCP en1: ForgetSSID <redacted>
+2026-10-18 01:50:53.884 Df airportd[225:2f58] [com.apple.IPConfiguration:Library] ipconfig_forget_network(en1) succeeded

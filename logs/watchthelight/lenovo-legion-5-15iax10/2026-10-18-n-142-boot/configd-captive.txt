@@ -1,0 +1,13 @@
+2026-10-18 02:00:39.867 Df configd[107:de9] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceRank(en1) = Never (3)
+2026-10-18 02:00:39.868 Df configd[107:51c] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 02:00:39.880 Df configd[107:51c] [com.apple.captive:Controller] en1: SSID 'Bo*******Hz' setting interface rank Never (no cache entry)
+2026-10-18 02:00:39.880 Df configd[107:de8] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceRank(en1) = Never (3)
+2026-10-18 02:00:39.880 Df configd[107:51c] [com.apple.captive:Controller] CNPluginHandler en1: Evaluating
+2026-10-18 02:00:39.882 Df configd[107:51c] [com.apple.captive:Controller] en1: Probing the Wi-Fi network
+2026-10-18 02:00:39.884 Df configd[107:51c] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 02:00:40.445 Df configd[107:51c] [com.apple.captive:Controller] en1: WISPr detected for the Wi-Fi network
+2026-10-18 02:00:40.446 Df configd[107:c28] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceRank(en1) = Never (3)
+2026-10-18 02:00:40.447 Df configd[107:51c] [com.apple.captive:Controller] CNPluginHandler en1: Authenticating (__BUILTIN__)
+2026-10-18 02:00:40.455 Df configd[107:51c] [com.apple.captive:Controller] en1: Wi-Fi updated
+2026-10-18 02:00:40.456 Df configd[107:51c] [com.apple.captive:Controller] CNPluginHandler en1: PresentingUI (__BUILTIN__)
+2026-10-18 02:00:40.464 Df configd[107:51c] [com.apple.captive:Controller] en1: Launching Websheet with URL "http://captive.apple.com/hotspot-detect.html"

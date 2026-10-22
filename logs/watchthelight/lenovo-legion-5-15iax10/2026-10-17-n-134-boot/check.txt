@@ -1,0 +1,11 @@
+n-134 check 2026-10-17 23:21 EDT, boot Sat Oct 17 23:18:36 2026
+plugin: c2be5ab8776a (expect c2be5ab8776a)
+NVRM: 69c338d952c4 (expect 69c338d952c4)
+kexts: com.nullmoth.NVRMFB (2.3.5) com.nullmoth.NVRM (0.1) com.nullmoth.NVAccel (2.3.5) com.nullmoth.NVRMAGDC (2.3.5) 
+nvram: nullmoth-nv-ok=1
+crash reports since boot: 0
+fb:  Chipset Model: NVIDIA GeForce RTX 5070 Laptop GPU; Metal Support: Metal 3; Resolution: 3360 x 2100;
+tgp_applies: 1
+mode:  1680x1050  pixels  3360x2100  @165 HiDPI listed cgs 5 io -2147479547
+WindowServer start: Sat Oct 17 23:19:22 2026    
+n134 drag: finder 63/63/63 flips/s, empty window 64 (N-133: 35, 45)

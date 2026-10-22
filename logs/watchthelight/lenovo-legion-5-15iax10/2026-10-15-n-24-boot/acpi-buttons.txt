@@ -1,0 +1,47 @@
++-o AppleACPIButton  <class AppleACPIButton, id 0x10000038f, registered, matched, active, busy 0 (0 ms), retain 7>
+  | {
+  |   "IOClass" = "AppleACPIButton"
+  |   "PressCountDoublePressTimeout" = 300000
+  |   "IOMatchedAtBoot" = Yes
+  |   "HIDDefaultBehavior" = ""
+  |   "HIDServiceGlobalModifiersUsage" = 2
+  |   "IOProviderClass" = "IOACPIPlatformDevice"
+  |   "Built-In" = Yes
+  |   "PressCountTrackingEnabled" = Yes
+  |   "power-button-usage" = 48
+  |   "DeviceUsagePairs" = ({"DeviceUsagePage"=12,"DeviceUsage"=1})
+  |   "IOProbeScore" = 0
+  |   "PressCountTriplePressTimeout" = 600000
+  |   "VendorIDSource" = 0
+  |   "power-button-usagepage" = 12
+  |   "IOUserClientClass" = "IOHIDEventServiceUserClient"
+  |   "HIDServiceSupport" = Yes
+  |   "IONameMatch" = ("PNP0C0C","power-button","PNP0C0E","sleep-button")
+  |   "IOCFPlugInTypes" = {"UUID-17"="IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin","UUID-15"="IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin"}
+  |   "CountryCode" = 0
+  |   "VendorID" = 0
+  |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleACPIButtons"
+  |   "VersionNumber" = 0
+  |   "IOMatchCategory" = "IODefaultMatchCategory"
+  |   "CFBundleIdentifier" = "com.apple.driver.AppleACPIButtons"
+  |   "HIDEventServiceProperties" = {"UnifiedKeyMapping"=No,"HIDDefaultParameters"=Yes,"HIDClickSpace"=(0,0),"HIDMouseAcceleration"=45056,"HIDTrackpadAcceleration"=45056,"HIDTrackpadScrollAcceleration"=20480,"HIDF12EjectDelay"=250,"HIDInitialKeyRepeat"=500000000,"HIDStickyKeysDisabled"=0,"LogLevel"=6,"HIDPointerButtonMode"=2,"EjectDelay"=0,"MouseKeysStopsTrackpad"=0,"BatchInterval"=1,"HIDMouseScrollAcceleration"=20480,"HIDMouseKeysOptionToggles"=0,"HIDKeyRepeat"=83333333,"HIDFKeyMode"=0,"HIDScrollZoomModifierMask"=262144,"HIDSubinterfaceID"=3,"HIDStickyKeysShiftToggles"=0,"HIDClickTime"=500000000,"HIDScrollAcceleration"=20480,"HIDStickyKeysOn"=0,"HIDSlowKeysDelay"=0,"HIDMouseKeysOn"=0,"HIDPointerAcceleration"=45056,"DeviceOpenedByEventSystem"=Yes}
+  |   "IONameMatched" = "PNP0C0C"
+  |   "LocationID" = 0
+  |   "ProductID" = 0
+  |   "PrimaryUsage" = 1
+  |   "IOGeneralInterest" = "IOCommand is not serializable"
+  |   "ReportInterval" = 18000
+  |   "PrimaryUsagePage" = 12
+  | }
+  | 
+  +-o IOHIDEventServiceUserClient  <class IOHIDEventServiceUserClient, id 0x100000733, !registered, !matched, active, busy 0, retain 6>
+      {
+        "IOUserClientDefaultLockingSetProperties" = Yes
+        "IOUserClientDefaultLocking" = Yes
+        "IOUserClientCreator" = "pid 253, WindowServer"
+        "IOUserClientDefaultLockingSingleThreadExternalMethod" = No
+        "IOUserClientEntitlements" = No
+        "DebugState" = {"EventQueue"={"NoFullMsg"=0,"tail"=0,"NotificationForce"=0,"NotificationCount"=0,"head"=0}}
+      }
+      
+

@@ -1,0 +1,7 @@
+{
+ "id": "N-217a",
+ "result": "crash",
+ "stage": 3,
+ "reason": "machine went down during stage 3",
+ "panics": []
+}

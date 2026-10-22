@@ -1,0 +1,27 @@
+{
+ "collected": "2026-10-17",
+ "component": "native",
+ "files": {
+  "README.md": "81c52887eeb08db55f074a083e0e2973196aa6b2da88bc510fbc0e933198d00e",
+  "check.txt": "423a4e453cf8d0735185952c0459207e071a4dd106af249220e4070cba5fab7e",
+  "displaysext-profile.txt": "ad3934f1d5105e5da6afd09db332f16b2add2886f750f0eb2cc03479b7e16591",
+  "install.log": "db46c7ba8eab3e2306b52a23e0e210a7b319ccb8c1b1fb143e4c84a5dba10fd7",
+  "spindump-displaysext-n135.txt": "f9b2a191d6f566ddb4b85b9396b50f3a04260a129578487fdcc8ea531b2ae05b",
+  "spindump-displaysext-warm-cache.txt": "5f1ae57edf447e186c8cde984438b9a9951140cefb578ceccd7aa7d2cca1ff4a",
+  "spindump-windowserver-drag-n135.txt": "c2f87d5f2c9490c19acb7d2249eda0a330fc1e6b51cd4e7aea78383abcd824f4",
+  "windowserver-drag-n134-profile.txt": "955e8ed3b24659af9f912eb19ca82f27639a1f111c2316eefb71b5f68d7a5a54"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 211
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-135",
+ "username": "watchthelight"
+}

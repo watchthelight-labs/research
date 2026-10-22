@@ -1,0 +1,3 @@
+2026-10-16 07:26:48.830 Df kernel[0:915] (NVRM) NVRM-xnu: backlight registered: gpu 0x200 display 0x200 at 100%
+2026-10-16 07:26:48.859 Df kernel[0:915] (NVRMFB) NVRM-fb: fb0: panel backlight at 100% -- brightness keys and slider through AppleBacklightDisplay
+2026-10-16 07:26:50.481 Df kernel[0:38f] (NVRMFB) NVRM-fb: backlight: brightness parameters on AppleBacklightDisplay, panel at 100%

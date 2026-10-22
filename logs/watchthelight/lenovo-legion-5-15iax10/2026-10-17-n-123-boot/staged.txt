@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 ec6944b, sha 2a7fab7702d9: N-122 probe plus one Dock composite record per (size, format, 16 px screen cell) per arming, budget 200, and a COMP TEX dump of sampled tiles <= 64 px; conf unchanged

@@ -1,0 +1,16 @@
+{
+ "attempt": "N-182",
+ "label": "2.4.1-nvgfx.1 again after WindowServer aborts (I-083)",
+ "recovery": "/Users/USER/src/NvGfx-build/pkg/2.3.7-nvgfx.1",
+ "timeout": 300,
+ "auto_reboots": 0,
+ "repo_head": "64b047eb",
+ "staged_plugin": "fb7983353d66",
+ "staged_boot": 1792457859,
+ "staged_at": "2026-10-19 21:03:54 EDT",
+ "tests": "",
+ "runs": 3,
+ "started_boot": 1792458280,
+ "result": "pass",
+ "reason": "confirmed by Bash (dialog 1792458280)"
+}

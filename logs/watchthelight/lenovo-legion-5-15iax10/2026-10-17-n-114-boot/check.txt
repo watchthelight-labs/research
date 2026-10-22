@@ -1,0 +1,6 @@
+n-114 check 2026-10-17 18:06 EDT, boot Sat Oct 17 18:04:12 2026
+plugin: 8ad956eb6266 (trace build 8ad956eb6266)
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 
+WindowServer:  33.3 01:53
+running apps: Terminal, Code - Insiders, TextEdit, Spotify, Google Chrome, Discord, Finder

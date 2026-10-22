@@ -1,0 +1,4 @@
+2026-10-18 01:13:33 guard start: attempt=N-139 stage=C iface=en1 boot=1792300352 started_boot=none result=none auto_reboots=0 dry=0
+2026-10-18 01:13:54 PASS N-139 stage C: lease IP-88, gateway IP-6 answers
+2026-10-18 01:14:59 captured pass -> /Users/USER/.cache/legion/wifi/N-139-pass
+2026-10-18 01:16:15 guard start: attempt=N-139 stage=C iface=en1 boot=1792300533 started_boot=1792300352 result=pass auto_reboots=1 dry=0

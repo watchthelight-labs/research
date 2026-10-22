@@ -1,0 +1,20 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "geekbench6-metal-test007.txt": "080fc79c9a392a443a23c8a78f5971f1e32068d258aa95f07be8673e263e015a",
+  "geekbench6-opencl-test001cl.txt": "81b4b7cdb66ec27be01254825ae1962d17e2c69f1a55f809ba25774aa5e6f86d",
+  "power-tgpmode.txt": "64d9b06e2157bd56c728459ee873aca1dbee58417e960e5e54784949bff48a9a"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-73",
+ "username": "watchthelight"
+}

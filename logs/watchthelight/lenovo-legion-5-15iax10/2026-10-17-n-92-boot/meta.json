@@ -1,0 +1,21 @@
+{
+ "collected": "2026-10-17",
+ "component": "native",
+ "files": {
+  "opencore-2026-10-17-145528.txt": "20fee02c674cf0db7c9844a6a9b2757b26e4881792ecfea170330b766cb731f1",
+  "wifi-shutdown-log.md": "d5069c4dd12ad5c6c257287d3020cc2ca023da0c8ef85836e52c0d2d90f1b691"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 273
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-92",
+ "username": "watchthelight"
+}

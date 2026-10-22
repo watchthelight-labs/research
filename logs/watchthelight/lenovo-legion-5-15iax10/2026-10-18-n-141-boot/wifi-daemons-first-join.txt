@@ -1,0 +1,58 @@
+2026-10-18 01:46:58.660 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.660 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.660 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.660 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.660 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.660 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.660 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.660 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:5:0x5> handler=1
+2026-10-18 01:46:58.661 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.661 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.661 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 01:46:58.662 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.662 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.663 Df kernel[0:922] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.664 Df airportd[225:7c2] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Scan SUCCEEDED (duration=9651ms, results=48, error=((null)), liveCount=36, cacheOnly=0, maxCacheAge=0)
+2026-10-18 01:46:58.665 Df kernel[0:bc0] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.665 Df airportd[225:bc2] [com.apple.WiFiManager:] Assoc: <airport[225]> Router info doesn't match, assignning colocated scope id (UUID-342)
+2026-10-18 01:46:58.666 Df kernel[0:78e] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.667 Df kernel[0:7c1] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.667 Df kernel[0:bc1] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.667 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.668 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.669 Df kernel[0:bc1] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.670 Df kernel[0:78e] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.670 Df kernel[0:78e] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.670 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.671 Df kernel[0:78e] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.672 Df kernel[0:922] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.672 Df airportd[225:7c2] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: No matches found
+2026-10-18 01:46:58.673 Df kernel[0:922] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.673 Df kernel[0:bc1] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.674 Df kernel[0:bc1] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.675 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.675 Df kernel[0:922] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.676 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.676 Df kernel[0:bc3] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.677 Df kernel[0:922] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.678 Df airportd[225:bc2] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Successfully created private MAC (<redacted>) for network (<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[(null) ((null))], captive=[
+2026-10-18 01:46:58.678 Df airportd[225:bc2] [com.apple.WiFiManager:] Assoc: <airport[225]> Will use private MAC address for association (mac=MAC-53, macData=b2e1ac72bcaf, network=<redacted> - ssid=<redacted> (3167544656), security=open, channel=5g1
+2026-10-18 01:46:58.678 Df airportd[225:bc2] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Successfully set networkID (<redacted>) for association (<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[(null) ((null))], captive=[st
+2026-10-18 01:46:58.678 Df airportd[225:78d] [com.apple.WiFiManager:] [corewifi] PRIVATE MAC: Forgetting IP configuration for updated networkID for network (<redacted> - ssid=<redacted> (3167544656), security=owe-transition, privateMAC=[(null) ((null))], capti
+2026-10-18 01:46:58.678 Df kernel[0:bc3] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.678 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1
+2026-10-18 01:46:58.679 Df kernel[0:78d] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.679 Df airportd[225:bc2] [com.apple.WiFiManager:] Assoc: <airport[225]> Will associate to [ssid=<redacted>, bssid=(null), channel=(channel=108, width=20), ibss=no, cc=(null), rssi=-53, rsn=(null), wpa=(null), wep=no], hasPassword=0
+2026-10-18 01:46:58.681 Df kernel[0:bf6] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.682 Df kernel[0:bf6] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.682 Df kernel[0:922] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528340991:0xe0822801> handler=1
+2026-10-18 01:46:58.682 Df kernel[0:922] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.682 Df kernel[0:bf7] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.683 Df kernel[0:bf9] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.685 Df kernel[0:bbf] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.689 Df kernel[0:270] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_WCL_LOW_LATENCY_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-18 01:46:58.689 Df kernel[0:270] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_SET_MAC_ADDRESS> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 01:46:58.690 Df kernel[0:bc2] (IO80211Family) [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_ASSOCIATE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-18 01:46:58.690 Df airportd[225:bc2] [com.apple.WiFiManager:] Info: <airport[225]> <en1> Failed to associate to Wi-Fi network <redacted>, returned error code 58, retrying
+2026-10-18 01:46:58.690 Df airportd[225:7c2] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Auto-join aborted (requeued=0, cancelled=0, error=(1 'Auto-join is disabled'))
+2026-10-18 01:46:58.691 Df airportd[225:7c2] [com.apple.WiFiManager:] [corewifi] AUTO-JOIN: Auto-join aborted (requeued=0, cancelled=1, error=(53 'Auto-join disabled'))

@@ -1,0 +1,1 @@
+plugin: dock-trace-2.3.5 d724828, installed sha 8ad956eb6266 (backup of 2.3.5-nvgfx.1 plugin dd50681dfe21 in ~/.cache/legion/n113-plugin-bak); conf: fetch on + NVMTL_NVGFX_WSTRACE=1; flags raised by badge-trace.sh at capture time

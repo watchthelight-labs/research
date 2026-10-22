@@ -1,0 +1,18 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "tgp-auto.txt": "638dac90ba1c16a305cbdf72b66d621e4439e32ca3b5bb8ae8bcf6eed6fc36ad"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-74",
+ "username": "watchthelight"
+}

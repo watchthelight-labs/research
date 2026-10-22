@@ -1,0 +1,31 @@
+{
+ "collected": "2026-10-21",
+ "component": "native",
+ "files": {
+  "N-214b.json": "663133ae9d75ce98f93f4d6f83bba5bc6eb3106f38e53d203feab62e8741e453",
+  "N-214c.json": "555791431c6c0b5bf877d664abe53f59ee87d83797069bcd11b6a291fb78b68d",
+  "README.md": "e1b44c932f7cea960276ee9ba3ab8208bf185afad73183bb00e078966eb1931b",
+  "ioreg-XeGfxResident.txt": "24ee020f292a16b4a07b7ac8392d1b9925e0a34d56df90d2a274899c306ce642",
+  "ioreg.txt": "fd49c9f82f64df0c0d1b89f958b405963db28febf22e31970eaeeaa229727872",
+  "kernel-log.txt": "9d1571c81be42fe4e90c82cd39a1573e342c612980b39e9e0472074a285f2f55",
+  "kmutil.txt": "8e8aebb61c7f185dd81179aa1809bc38f43ada155c15e478d441dae0e12f2140",
+  "opencore-2026-10-21-130550.txt": "6b51c4ffe6126ac56cb951b9aa3f098fa565134e09e2aae499a526b8fa7a73f6",
+  "opencore-2026-10-21-145420.txt": "c7428fed3f7bf18a65495480e1a90ce4e4b7deecdee3c0bb8f23e174711cfe11",
+  "sysctl.txt": "fa2b7fcca74ed6bc492702c6055cfbf103970508cda0d308aeb23446a0b1ee6d",
+  "xe-guard.log": "1599c23292d4caf49d070d43c20c0325726d4d4e1d6a374a54033f637a211588",
+  "xegfx-log.txt": "588a31bde3790c9961f195c15e498f74fa588a5129b45f700a12fa8a282b4290"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 788
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-214",
+ "username": "watchthelight"
+}

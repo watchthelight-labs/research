@@ -1,0 +1,5 @@
+status connected
+enabled enabled
+modes:
+2560x1600
+2560x1600

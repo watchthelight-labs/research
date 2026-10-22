@@ -1,0 +1,116 @@
+# N-47 (boot 5A664324, 03:35 UTC) and N-48 (F7F423DA, 03:38 UTC): NullMoth 2.0.2 lines from the installed unified log
+# read from Windows: apfs-read.py + unifiedlog_iterator v0.7.0 (windows-msvc build, sha256 4776ac9c...)
+
+== 5A664324
+03:36:16.489 DumpPanic/DumpPanic: failed to look up hw.osenvironment: Invalid argument(22)
+03:36:16.489 DumpPanic/DumpPanic: DumpPanic launched after boot to check for device panic data
+03:36:23.892 DumpPanic/DumpPanic: detected MSSW (newer) mac
+03:36:23.893 DumpPanic/DumpPanic: found previous shutdown cause 5
+03:36:23.893 DumpPanic/DumpPanic: Flush preoslog
+03:36:23.893 DumpPanic/DumpPanic: preoslog buffer size is 0
+03:36:23.989 DumpPanic/DumpPanic: Skip handling kernel corefile which suggests 0 files present
+03:36:23.989 DumpPanic/DumpPanic: No launchd core found at /cores/core.1
+03:36:23.989 DumpPanic/DumpPanic: No launchd core found at /cores/core.1
+03:36:23.989 DumpPanic/DumpPanic: DumpPanic processed 0 files
+03:36:24.035 DumpPanic/DumpPanic: Reusing an existing key file
+03:36:24.935 kernelmanagerd/kernelmanagerd: Validate approval for /Library/Extensions/NVAccel.kext in auxKC: approved
+03:36:24.935 kernelmanagerd/kernelmanagerd: Validate approval for /Library/Extensions/NVRM.kext in auxKC: approved
+03:36:24.935 kernelmanagerd/kernelmanagerd: Validate approval for /Library/Extensions/NVRMAGDC.kext in auxKC: approved
+03:36:24.935 kernelmanagerd/kernelmanagerd: Validate approval for /Library/Extensions/NVRMFB.kext in auxKC: approved
+03:36:24.935 kernelmanagerd/kernelmanagerd: installation check: bundle for com.nullmoth.NVAccel is at /Library/Extensions/NVAccel.kext
+03:36:24.935 kernelmanagerd/kernelmanagerd: installation check: bundle for com.nullmoth.NVRM is at /Library/Extensions/NVRM.kext
+03:36:24.935 kernelmanagerd/kernelmanagerd: installation check: bundle for com.nullmoth.NVRMAGDC is at /Library/Extensions/NVRMAGDC.kext
+03:36:24.935 kernelmanagerd/kernelmanagerd: installation check: bundle for com.nullmoth.NVRMFB is at /Library/Extensions/NVRMFB.kext
+03:36:24.940 kernelmanagerd/kernelmanagerd: error: tried to insert an invalid codeful kernel extension in the restricted lookup table: Kext com.nullmoth.NVAccel v0.1 in executable kext bundle com.nullmoth.NVAccel at /Library/Extensions/NVAccel.kext
+03:36:24.800 syspolicyd/syspolicyd: canLoadKernelExtension - direct, evaluate, Kext ((null), com.nullmoth.NVAccel) version: 93817c75a706ff6ef08e57391f436b09870d3761
+03:36:24.885 syspolicyd/syspolicyd: Kernel Extension ALLOWED: Kext ((null), com.nullmoth.NVAccel) version: 93817c75a706ff6ef08e57391f436b09870d3761
+03:36:24.885 syspolicyd/syspolicyd: canLoadKernelExtension - direct, evaluate, Kext ((null), com.nullmoth.NVRM) version: 484a9c1d8f72f6b6eed65667cc7bae5489df3d65
+03:36:24.925 syspolicyd/syspolicyd: Kernel Extension ALLOWED: Kext ((null), com.nullmoth.NVRM) version: 484a9c1d8f72f6b6eed65667cc7bae5489df3d65
+03:36:24.926 syspolicyd/syspolicyd: canLoadKernelExtension - direct, evaluate, Kext ((null), com.nullmoth.NVRMAGDC) version: da469409e615f255de5c9c5ed60a99bc1f117a1f
+03:36:24.927 syspolicyd/syspolicyd: Kernel Extension ALLOWED: Kext ((null), com.nullmoth.NVRMAGDC) version: da469409e615f255de5c9c5ed60a99bc1f117a1f
+03:36:24.931 syspolicyd/syspolicyd: canLoadKernelExtension - direct, evaluate, Kext ((null), com.nullmoth.NVRMFB) version: 81a2bed56b2e39013fff3c7cac834f4b1c9cad28
+03:36:24.932 syspolicyd/syspolicyd: Kernel Extension ALLOWED: Kext ((null), com.nullmoth.NVRMFB) version: 81a2bed56b2e39013fff3c7cac834f4b1c9cad28
+03:36:25.000 kernelmanagerd/kernelmanagerd: error: tried to insert an invalid codeful kernel extension in the restricted lookup table: Kext com.nullmoth.NVRM v0.1 in executable kext bundle com.nullmoth.NVRM at /Library/Extensions/NVRM.kext
+03:36:25.089 kernelmanagerd/kernelmanagerd: error: tried to insert an invalid codeful kernel extension in the restricted lookup table: Kext com.nullmoth.NVRMAGDC v0.1 in executable kext bundle com.nullmoth.NVRMAGDC at /Library/Extensions/NVRMAGDC.kext
+03:36:02.915 kernel/watchdog: watchdog configured (source: platform configuration) to monitor userspace, SoC watchdog disabled, panic SoC watchdog disabled, halt on SoC watchdog expiration: no, userspace IOKit monitoring disabled, shutdown monitoring
+03:36:25.426 findmydeviced/findmydeviced: #nvram - Error retrieving data value from nvrm. result code -2
+03:36:25.426 findmydeviced/findmydeviced: #nvram - Error retrieving data value from nvrm. result code -2
+03:36:25.426 findmydeviced/findmydeviced: #nvram - Error retrieving data value from nvrm. result code -2
+03:36:25.783 kernel/NVRMFB: NVRMFB: NVRMFBClaim holds the IOFramebuffer match category on GFX0 - IONDRVFramebuffer blocked | 
+03:36:25.126 kernelmanagerd/kernelmanagerd: error: tried to insert an invalid codeful kernel extension in the restricted lookup table: Kext com.nullmoth.NVRMFB v0.1 in executable kext bundle com.nullmoth.NVRMFB at /Library/Extensions/NVRMFB.kext
+03:36:25.819 kernel/kernel: Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvrmnoflip -nvrmnogo
+03:36:25.819 kernel/kernel: Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvrmnoflip -nvrmnogo
+03:36:25.820 kernel/kernel: Found class: IOExtensiblePaniclog
+03:36:25.820 kernel/kernel: Found class: IOExtensiblePaniclog
+03:36:25.949 kernelmanagerd/kernelmanagerd: Received kext load notification: com.apple.iokit.IONDRVSupport
+03:36:25.949 kernelmanagerd/kernelmanagerd: Received kext load notification: com.nullmoth.NVRMFB
+03:36:25.953 kernelmanagerd/kernelmanagerd: Received kext load notification: com.nullmoth.NVRMAGDC
+03:36:25.954 kernelmanagerd/kernelmanagerd: Received kext load notification: com.nullmoth.NVRM
+03:36:16.197 /: (lint): _PanicOnCrash key: InternalOnly not enabled in the current environment
+03:36:16.240 /: (lint): _PanicOnCrash key: AutomationOnly not enabled in the current environment
+03:36:16.244 /: (lint): _PanicOnCrash key: InternalOnly not enabled in the current environment
+03:36:16.245 /: pending spawn, domain in on-demand-only mode: com.apple.DumpPanic
+03:36:16.262 /: Failed to bootstrap path: path = /System/Library/LaunchDaemons/com.apple.DumpPanic.plist, error = 37: Operation already in progress
+03:36:16.262 /: Failed to bootstrap path: path = /System/Library/LaunchDaemons/com.apple.DumpPanic.Accessory.plist, error = 37: Operation already in progress
+03:36:16.297 /: Successfully spawned DumpPanic[103] because speculative
+03:36:24.097 /: service inactive: com.apple.DumpPanic
+03:36:47.057 kernel/IONDRVSupport: IGPU: Not usable | 
+03:36:47.057 kernel/IOGraphicsFamily: IGPU-0x3b2-A: newUserClient failed: 0 0xFFFFFFFFE00002BE 0x100000563 IONDRVFramebuffer | 
+03:36:47.071 kernel/IOGraphicsFamily: IGPU-0x3b2-A: newUserClient failed: 0 0xFFFFFFFFE00002BE 0x100000563 IONDRVFramebuffer | 
+03:36:47.238 kernel/IOGraphicsFamily: IGPU-0x3b2-A: newUserClient failed: 0 0xFFFFFFFFE00002BE 0x100000563 IONDRVFramebuffer | 
+03:36:47.247 kernel/IOGraphicsFamily: IGPU-0x3b2-A: newUserClient failed: 0 0xFFFFFFFFE00002BE 0x100000563 IONDRVFramebuffer | 
+03:36:26.095 com.apple.MobileSoftwareUpdate.CleanupPreparePathService/com.apple.MobileSoftwa: 700002a96000 : msu_delete_nvram_variable_if_exists: NVRAM ota-conv-panic-indicator not found..Nothing to do |  | 
+== F7F423DA
+03:38:47.302 kernel/watchdog: watchdog configured (source: platform configuration) to monitor userspace, SoC watchdog disabled, panic SoC watchdog disabled, halt on SoC watchdog expiration: no, userspace IOKit monitoring disabled, shutdown monitoring
+03:39:04.247 DumpPanic/DumpPanic: failed to look up hw.osenvironment: Invalid argument(22)
+03:39:04.248 DumpPanic/DumpPanic: DumpPanic launched after boot to check for device panic data
+03:39:14.162 DumpPanic/DumpPanic: detected MSSW (newer) mac
+03:39:14.163 DumpPanic/DumpPanic: found previous shutdown cause 5
+03:39:14.163 DumpPanic/DumpPanic: Flush preoslog
+03:39:14.163 DumpPanic/DumpPanic: preoslog buffer size is 0
+03:39:14.233 DumpPanic/DumpPanic: Skip handling kernel corefile which suggests 0 files present
+03:39:14.233 DumpPanic/DumpPanic: No launchd core found at /cores/core.1
+03:39:14.233 DumpPanic/DumpPanic: No launchd core found at /cores/core.1
+03:39:14.233 DumpPanic/DumpPanic: DumpPanic processed 0 files
+03:39:14.279 DumpPanic/DumpPanic: Reusing an existing key file
+03:39:15.178 kernelmanagerd/kernelmanagerd: Validate approval for /Library/Extensions/NVRMFB.kext in auxKC: approved
+03:39:15.178 kernelmanagerd/kernelmanagerd: Validate approval for /Library/Extensions/NVRMAGDC.kext in auxKC: approved
+03:39:15.178 kernelmanagerd/kernelmanagerd: Validate approval for /Library/Extensions/NVRM.kext in auxKC: approved
+03:39:15.178 kernelmanagerd/kernelmanagerd: Validate approval for /Library/Extensions/NVAccel.kext in auxKC: approved
+03:39:15.178 kernelmanagerd/kernelmanagerd: installation check: bundle for com.nullmoth.NVRMFB is at /Library/Extensions/NVRMFB.kext
+03:39:15.178 kernelmanagerd/kernelmanagerd: installation check: bundle for com.nullmoth.NVRMAGDC is at /Library/Extensions/NVRMAGDC.kext
+03:39:15.178 kernelmanagerd/kernelmanagerd: installation check: bundle for com.nullmoth.NVRM is at /Library/Extensions/NVRM.kext
+03:39:15.178 kernelmanagerd/kernelmanagerd: installation check: bundle for com.nullmoth.NVAccel is at /Library/Extensions/NVAccel.kext
+03:39:15.184 kernelmanagerd/kernelmanagerd: error: tried to insert an invalid codeful kernel extension in the restricted lookup table: Kext com.nullmoth.NVRMFB v0.1 in executable kext bundle com.nullmoth.NVRMFB at /Library/Extensions/NVRMFB.kext
+03:39:15.043 syspolicyd/syspolicyd: canLoadKernelExtension - direct, evaluate, Kext ((null), com.nullmoth.NVRMFB) version: 81a2bed56b2e39013fff3c7cac834f4b1c9cad28
+03:39:15.120 syspolicyd/syspolicyd: Kernel Extension ALLOWED: Kext ((null), com.nullmoth.NVRMFB) version: 81a2bed56b2e39013fff3c7cac834f4b1c9cad28
+03:39:15.124 syspolicyd/syspolicyd: canLoadKernelExtension - direct, evaluate, Kext ((null), com.nullmoth.NVRMAGDC) version: da469409e615f255de5c9c5ed60a99bc1f117a1f
+03:39:15.124 syspolicyd/syspolicyd: Kernel Extension ALLOWED: Kext ((null), com.nullmoth.NVRMAGDC) version: da469409e615f255de5c9c5ed60a99bc1f117a1f
+03:39:15.124 syspolicyd/syspolicyd: canLoadKernelExtension - direct, evaluate, Kext ((null), com.nullmoth.NVRM) version: 484a9c1d8f72f6b6eed65667cc7bae5489df3d65
+03:39:15.172 syspolicyd/syspolicyd: Kernel Extension ALLOWED: Kext ((null), com.nullmoth.NVRM) version: 484a9c1d8f72f6b6eed65667cc7bae5489df3d65
+03:39:15.173 syspolicyd/syspolicyd: canLoadKernelExtension - direct, evaluate, Kext ((null), com.nullmoth.NVAccel) version: 93817c75a706ff6ef08e57391f436b09870d3761
+03:39:15.175 syspolicyd/syspolicyd: Kernel Extension ALLOWED: Kext ((null), com.nullmoth.NVAccel) version: 93817c75a706ff6ef08e57391f436b09870d3761
+03:39:15.331 kernelmanagerd/kernelmanagerd: error: tried to insert an invalid codeful kernel extension in the restricted lookup table: Kext com.nullmoth.NVRMAGDC v0.1 in executable kext bundle com.nullmoth.NVRMAGDC at /Library/Extensions/NVRMAGDC.kext
+03:39:15.431 kernelmanagerd/kernelmanagerd: error: tried to insert an invalid codeful kernel extension in the restricted lookup table: Kext com.nullmoth.NVRM v0.1 in executable kext bundle com.nullmoth.NVRM at /Library/Extensions/NVRM.kext
+03:39:15.468 kernelmanagerd/kernelmanagerd: error: tried to insert an invalid codeful kernel extension in the restricted lookup table: Kext com.nullmoth.NVAccel v0.1 in executable kext bundle com.nullmoth.NVAccel at /Library/Extensions/NVAccel.kext
+03:39:15.616 findmydeviced/findmydeviced: #nvram - Error retrieving data value from nvrm. result code -2
+03:39:15.616 findmydeviced/findmydeviced: #nvram - Error retrieving data value from nvrm. result code -2
+03:39:15.616 findmydeviced/findmydeviced: #nvram - Error retrieving data value from nvrm. result code -2
+03:39:17.054 kernel/NVRMFB: NVRMFB: NVRMFBClaim holds the IOFramebuffer match category on GFX0 - IONDRVFramebuffer blocked | 
+03:39:17.090 kernel/kernel: Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvrmnoflip -nvrmnogo
+03:39:17.090 kernel/kernel: Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvrmnoflip -nvrmnogo
+03:39:17.091 kernel/kernel: Found class: IOExtensiblePaniclog
+03:39:17.091 kernel/kernel: Found class: IOExtensiblePaniclog
+03:39:17.692 kernelmanagerd/kernelmanagerd: Received kext load notification: com.nullmoth.NVRMFB
+03:39:17.694 kernelmanagerd/kernelmanagerd: Received kext load notification: com.apple.iokit.IONDRVSupport
+03:39:17.699 kernelmanagerd/kernelmanagerd: Received kext load notification: com.nullmoth.NVRMAGDC
+03:39:17.700 kernelmanagerd/kernelmanagerd: Received kext load notification: com.nullmoth.NVRM
+03:39:17.701 kernelmanagerd/kernelmanagerd: Received kext load notification: com.nullmoth.NVAccel
+03:39:03.885 /: (lint): _PanicOnCrash key: InternalOnly not enabled in the current environment
+03:39:03.940 /: (lint): _PanicOnCrash key: AutomationOnly not enabled in the current environment
+03:39:03.946 /: (lint): _PanicOnCrash key: InternalOnly not enabled in the current environment
+03:39:03.948 /: pending spawn, domain in on-demand-only mode: com.apple.DumpPanic
+03:39:03.971 /: Failed to bootstrap path: path = /System/Library/LaunchDaemons/com.apple.DumpPanic.plist, error = 37: Operation already in progress
+03:39:03.971 /: Failed to bootstrap path: path = /System/Library/LaunchDaemons/com.apple.DumpPanic.Accessory.plist, error = 37: Operation already in progress
+03:39:04.004 /: Successfully spawned DumpPanic[103] because speculative
+03:39:14.325 /: service inactive: com.apple.DumpPanic

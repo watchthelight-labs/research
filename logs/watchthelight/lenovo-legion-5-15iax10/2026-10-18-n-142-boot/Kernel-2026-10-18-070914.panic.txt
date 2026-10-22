@@ -1,0 +1,76 @@
+{"bug_type":"210","timestamp":"2026-10-18 07:09:14.00 -0400","os_version":"macOS 26.7.1 (25G241)","roots_installed":0,"incident_id":"UUID-346"}
+
+panic(cpu 0 caller 0xffffff80160d528a): Kernel trap at 0xffffff8018eec678, type = 14=page fault, registers:
+CR0: 0x000000008001003b, CR2: 0x0000000000000000, CR3: 0x000000002cf5c000, CR4: 0x00000000003626e0
+RAX: 0xffffff8b9f2b97e0, RBX: 0xffffff86d265b200, RCX: 0x0000000000000000, RDX: 0x0000000001000000
+RSP: 0xfffffffffea48d00, RBP: 0xfffffffffea48d10, RSI: 0xffffff9a06499b30, RDI: 0x0000000000000000
+R8:  0xffffff9a051be3d0, R9:  0xffffff9a051be408, R10: 0x0200000110000000, R11: 0x0200000110000f28
+R12: 0xffffff9a04cd9010, R13: 0xffffff953886eca0, R14: 0x0000000000000000, R15: 0xffffff9a0487b9c0
+RFL: 0x0000000000010246, RIP: 0xffffff8018eec678, CS:  0x0000000000000008, SS:  0x0000000000000010
+Fault CR2: 0x0000000000000000, Error code: 0x0000000000000000, Fault CPU: 0x0, PL: 0, VF: 1
+
+Panicked task 0xffffff8b9f2eb9a0: 244 threads: pid 0: kernel_task
+Backtrace (CPU 0), panicked thread: 0xffffff9535643520, Frame : Return Address
+0xfffffffffea484a0 : 0xffffff8015f58d71 mach_kernel : _handle_debugger_trap + 0x421
+0xfffffffffea484f0 : 0xffffff80160e5982 mach_kernel : _kdp_i386_trap + 0x122
+0xfffffffffea48530 : 0xffffff80160d4c38 mach_kernel : _kernel_trap + 0x778
+0xfffffffffea485f0 : 0xffffff8015eeb971 mach_kernel : _return_from_trap + 0xc1
+0xfffffffffea48610 : 0xffffff8015f59147 mach_kernel : _DebuggerTrapWithState + 0x67
+0xfffffffffea48710 : 0xffffff8015f587d9 mach_kernel : _panic_trap_to_debugger + 0x269
+0xfffffffffea48880 : 0xffffff80167a1ced mach_kernel : _panic + 0x81
+0xfffffffffea48970 : 0xffffff80160d528a mach_kernel : _sync_iss_to_iks + 0x3fa
+0xfffffffffea48b30 : 0xffffff80160d4e44 mach_kernel : _kernel_trap + 0x984
+0xfffffffffea48bf0 : 0xffffff8015eeb971 mach_kernel : _return_from_trap + 0xc1
+0xfffffffffea48c10 : 0xffffff8018eec678 com.apple.driver.corecapture : __ZN10CCDataPipe11enqueueBlobEP14CCDataPipeBlob + 0x128
+0xfffffffffea48d10 : 0xffffff8018ef16e3 com.apple.driver.corecapture : __ZN12CCDataStream8saveDataEPKcP8OSStringPFvP8OSObjectiPvES5_P13CCDataSession + 0x15f
+0xfffffffffea48d80 : 0xffffff8018ef05d0 com.apple.driver.corecapture : __ZNK13CCFaultReport18triggerCoreCaptureEP12CCDataStreamP5OSSetb + 0x1c2
+0xfffffffffea48df0 : 0xffffff8018ef27f1 com.apple.driver.corecapture : __ZN15CCFaultReporter14completeReportEP13CCFaultReport + 0x1bd
+0xfffffffffea48e20 : 0xffffff80166d0203 mach_kernel : __ZN18IOTimerEventSource15timeoutSignaledEPvS0_ + 0x83
+0xfffffffffea48e70 : 0xffffff80166d0126 mach_kernel : __ZN18IOTimerEventSource17timeoutAndReleaseEPvS0_ + 0xc6
+0xfffffffffea48ea0 : 0xffffff8015fbc6d8 mach_kernel : _thread_call_delayed_timer + 0x588
+0xfffffffffea48ee0 : 0xffffff8015fbd6e8 mach_kernel : _thread_call_delayed_timer + 0x1598
+0xfffffffffea48fa0 : 0xffffff8015eeb19e mach_kernel : _call_continuation + 0x2e
+      Kernel Extensions in backtrace:
+         com.apple.driver.corecapture(1.0.4)[UUID-345]@0xffffff8018ee4000->0xffffff8018f07fff
+
+Process name corresponding to current thread (0xffffff9535643520): kernel_task
+Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm,cpuname revcpu=1 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvaccelnoheadless alcid=18 nvrmacpibl=1 nvrmphysctl=1 nvrmnvpcf=1 nv
+
+Mac OS version:
+25G241
+
+Kernel version:
+Darwin Kernel Version 25.6.0: Tue Aug 18 17:46:40 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_X86_64
+Kernel UUID: UUID-305
+roots installed: 0
+KernelCache slide: 0x0000000015c00000
+KernelCache base:  0xffffff8015e00000
+Kernel slide:      0x0000000015ce8000
+Kernel text base:  0xffffff8015ee8000
+__HIB  text base: 0xffffff8015d00000
+System model name: MacBookPro16,1 (Mac-E1008331FDC96864)
+System shutdown begun: NO
+Panic diags file available: YES (0x0)
+Hibernation exit count: 0
+
+System uptime in nanoseconds: 166080898229
+Last Sleep:           absolute           base_tsc          base_nano
+  Uptime  : 0x00000026ab316779
+  Sleep   : 0x0000000000000000 0x0000000000000000 0x0000000000000000
+  Wake    : 0x0000000000000000 0x0000000e58794e04 0x0000000000000000
+Compressor Info: 0% of compressed pages limit (OK) and 0% of segments limit (OK) with 0 swapfiles and OK swap space
+Zone info:
+  Zone map: 0xffffff806bfd9000 - 0xffffffa06bfd9000
+  . VM    : 0xffffff806bfd9000 - 0xffffff8538ca5000
+  . RO    : 0xffffff8538ca5000 - 0xffffff86d2649000
+  . GEN0  : 0xffffff86d2649000 - 0xffffff8b9f315000
+  . GEN1  : 0xffffff8b9f315000 - 0xffffff906bfe1000
+  . GEN2  : 0xffffff906bfe1000 - 0xffffff9538cad000
+  . GEN3  : 0xffffff9538cad000 - 0xffffff9a05979000
+  . DATA  : 0xffffff9a05979000 - 0xffffffa06bfd9000
+  Metadata: 0xffffffa06bfe9000 - 0xffffffa08bfe9000
+  Bitmaps : 0xffffffa08bfe9000 - 0xffffffa091fe9000
+  Extra   : 0 - 0
+
+
+

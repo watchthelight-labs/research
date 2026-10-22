@@ -1,0 +1,6 @@
+   66    1 0xffffff8004248000 0x13000    0x13000    com.alexandred.VoodooI2CServices (1) UUID-157 <6 3>
+   73    1 0xffffff80041b5000 0x1a000    0x1a000    as.acidanthera.voodoo.driver.PS2Controller (2.3.7) UUID-85 <17 9 7 6 3 1>
+   79    0 0xffffff80041cf000 0xf000     0xf000     as.acidanthera.voodoo.driver.PS2Keyboard (2.3.7) UUID-88 <73 71 9 7 6 3 1>
+   98    1 0xffffff80041fa000 0x4e000    0x4e000    org.coolstar.VoodooGPIO (1.1) UUID-158 <17 7 6 3>
+   99    0 0xffffff800425b000 0x2b000    0x2b000    com.alexandred.VoodooI2C (2.9.1) UUID-159 <98 71 66 18 17 7 6 3 1>
+  100    0 0xffffff80042c1000 0x19e000   0x19e000   org.watchthelight.MtkWlan (0.7.0) UUID-186 <53 18 7 6 3 1>

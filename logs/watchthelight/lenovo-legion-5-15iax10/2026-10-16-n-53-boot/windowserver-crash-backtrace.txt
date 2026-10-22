@@ -1,0 +1,18 @@
+# WindowServer crash, N-53 (2026-10-16 05:00:09 UTC), one of ~20 identical reports every 10 s; backtrace only (identifiers left out)
+exception: {"codes": "0x0000000000000000, 0x0000000000000000", "rawCodes": [0, 0], "type": "EXC_CRASH", "signal": "SIGABRT"}
+termination: Abort trap: 6
+consecutiveCrashCount: 1
+faulting thread: ws_main_thread
+  libsystem_kernel.dylib       __pthread_kill + 10
+  libsystem_pthread.dylib      pthread_kill + 259
+  libsystem_c.dylib            abort + 126
+  libsystem_c.dylib            __assert_rtn + 314
+  CoreDisplay                  CoreDisplay_CreateDisplayForCGXDisplayDevice + 3349
+  CoreDisplay                  UpdateCGXDisplayDevice + 1011
+  CoreDisplay                  AddCGXDisplayDeviceToDeviceList + 161
+  CoreDisplay                  CGXDisplayDriverInitialize + 1710
+  SkyLight                     WS::Displays::CoreDisplayManager::initialize() + 43
+  SkyLight                     WSInitialize + 3959
+  SkyLight                     SLXServer + 1309
+  WindowServer                 ? + 
+  dyld                         start + 3056

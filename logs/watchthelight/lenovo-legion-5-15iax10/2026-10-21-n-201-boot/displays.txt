@@ -1,0 +1,21 @@
+Graphics/Displays:
+
+    Display:
+
+      Type: GPU
+      Bus: Built-In
+      VRAM (Total): 15 MB
+      VRAM (Dynamic, Max): 
+      Vendor: Intel
+      Device ID: 0x7d67
+      Revision ID: 0x0006
+      Kernel Extension Info: No Kext Loaded
+      Displays:
+        Display:
+          Resolution: 2560 x 1600
+          UI Looks like: 2560 x 1600
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+

@@ -1,0 +1,31 @@
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz rdinit=/init quiet loglevel=3 efi=debug console=tty0 consoleblank=0 snd_intel_dspcfg.dsp_driver=1 p1401.mode=shell pcie_port_pm=off modprobe.blacklist=nouveau,nvidia,nvidia_drm,nvidia_modeset,nvidia_uvm
+[    0.040766] Kernel command line: BOOT_IMAGE=/boot/vmlinuz rdinit=/init quiet loglevel=3 efi=debug console=tty0 consoleblank=0 snd_intel_dspcfg.dsp_driver=1 p1401.mode=shell pcie_port_pm=off modprobe.blacklist=nouveau,nvidia,nvidia_drm,nvidia_modeset,nvidia_uvm
+[    0.835712] ACPI: bus type drm_connector registered
+[    0.851749] [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[    0.854309] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[    1.705147] intel_vpu 0000:00:0b.0: [drm] *ERROR* ivpu_fw_request(): Failed to request firmware: -2
+[    1.705231] intel_vpu 0000:00:0b.0: [drm] ivpu_hw_power_down(): NPU not idle during power down
+[  915.441946] i915 0000:00:02.0: [drm] Found meteorlake (device ID 7d67) integrated display version 14.00 stepping D0
+[  915.442868] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[  915.465443] i915 0000:00:02.0: vgaarb: deactivate vga console
+[  915.465459] i915 0000:00:02.0: [drm] Using Transparent Hugepages
+[  915.477883] i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io+mem,decodes=none:owns=io+mem
+[  915.485081] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/mtl_dmc.bin (v2.23)
+[  915.510094] i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+[  915.519458] i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+[  915.519459] i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+[  915.519701] i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+[  915.523791] i915 0000:00:02.0: [drm] GT1: can't init GSC proxy due to missing mei component
+[  915.524002] i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+[  915.524003] i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+[  915.546757] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+[  915.547137] i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+[  915.547138] i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+[  915.547238] i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+[  915.554476] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[  915.556159] snd_hda_intel 0000:80:1f.3: bound 0000:00:02.0 (ops intel_audio_component_bind_ops [i915])
+[  915.691338] i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+[  915.711501] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+[  915.711507] i915 0000:00:02.0: [drm] *ERROR* GT1: GSC proxy handler failed to init
+[  916.629406] i915 0000:00:02.0: [drm] PHY A failed to request refclk after 1us.
+[  916.847610] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device

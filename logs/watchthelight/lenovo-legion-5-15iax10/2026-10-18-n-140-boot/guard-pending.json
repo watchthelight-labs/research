@@ -1,0 +1,12 @@
+{
+ "attempt": "N-140",
+ "stage": "C",
+ "iface": "en1",
+ "boot_args": "mtkfe=native mtknativeif=1",
+ "auto_reboots": 1,
+ "repo_head": "0b636d9d",
+ "staged_at": "2026-10-18 01:24:25 EDT",
+ "started_boot": 1792301111,
+ "result": "pass",
+ "reason": "lease IP-88, gateway IP-6 answers"
+}

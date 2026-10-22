@@ -1,0 +1,43 @@
+2026-10-16 04:24:52.772 Df kernel[0:853] (NVRM) NVRM-xnu: bar1: -nvrmsmallbar set — BAR1 left as IOPCIFamily placed it
+2026-10-16 04:24:52.772 Df kernel[0:853] (NVRM) NVRM-xnu: auto-go: go(2) in 100000 ms on its own thread (BAR1 not placed); registry held busy until the display is armed (cap settle + 40 s)
+2026-10-16 04:24:52.772 Df kernel[0:92b] (NVRM) NVRM-xnu: starting the NVIDIA card: waiting 100 s before it takes over the screen, because its memory window (BAR1) is too small to move off the boot screen. This is not a freeze. To start in about a second instead, enable "Above 4G Decoding" and "Resizable BAR" in the BIOS.
+2026-10-16 04:26:35.963 Df kernel[0:92b] (NVRM) NVRM-xnu: PV-SENTINEL REFUSED: slid _pmap_verify_free text != BootKC 24G830 bytes (kernel or KC differs)
+2026-10-16 04:26:38.032 Df kernel[0:b46] (NVRMFB) NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+2026-10-16 04:26:39.626 Df kernel[0:b46] (NVRMFB) NVRM-fb: BAR1: pa 0x6018000000 len 67108864
+2026-10-16 04:26:39.634 Df kernel[0:92b] (NVRM) NVRM-xnu: auto-go: go(2) -> 0x0 (fPassDone 2)
+2026-10-16 04:26:39.634 Df kernel[0:92b] (NVRM) NVRM-xnu: auto-go: heads published mask 0x1 (1 of nvfbheads 4) after 0 s
+2026-10-16 04:26:39.634 Df kernel[0:b51] (NVRMFB) NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+2026-10-16 04:26:39.634 Df kernel[0:b52] (NVRMFB) NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+2026-10-16 04:26:39.634 Df kernel[0:b53] (NVRMFB) NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+2026-10-16 04:26:39.640 Df kernel[0:92b] (NVRMFB) NVRM-fb: nvAllocVram #1: 16384000 bytes REAL VRAM — kva <private> phys 0x601aa90000  [BAR1 16384000 / 33685504]
+2026-10-16 04:26:39.640 Df kernel[0:92b] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <private> [BAR1 16384000]
+2026-10-16 04:26:39.640 Df kernel[0:92b] (NVRM) NVRM-xnu: auto-go: accelerator level 1 took after 1 try, level 4 written
+2026-10-16 04:26:39.841 Df kernel[0:92b] (NVRM) NVRM-xnu: auto-go: display stack: heads 0x1 accel 4 agdc 1 k5 1 iop 1
+2026-10-16 04:26:40.134 Df kernel[0:378] (NVRMFB) NVRM-fb: getVRAMRange -> WHOLE BAR1 pa 0x6018000000 len 67108864 (was the 16384128-byte scanout subrange)
+2026-10-16 04:26:41.148 Df kernel[0:378] (NVRMFB) NVRM-fb: registerForInterruptType 'dpir' -> REFUSED (unsupported)
+2026-10-16 04:26:41.148 Df kernel[0:378] (NVRMFB) NVRM-fb: registerForInterruptType 'hdci' -> REFUSED (unsupported)
+2026-10-16 04:26:41.153 Df kernel[0:378] (NVRMFB) NVRM-fb: nvAllocVram #2: 16384000 bytes REAL VRAM — kva <private> phys 0x601aa90000  [BAR1 16384000 / 33685504]
+2026-10-16 04:26:41.153 Df kernel[0:378] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <private> [BAR1 16384000]
+2026-10-16 04:27:31.368 Df kernel[0:378] (NVRMFB) NVRM-fb: getApertureRange -> SUBRANGE of BAR1 (pa 0x6018000000 len 67108864) off 0x1ab0000 size 16384000
+2026-10-16 04:27:31.381 Df kernel[0:378] (NVRMFB) NVRM-fb: nvAllocVram #3: 16384000 bytes REAL VRAM — kva <private> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+2026-10-16 04:27:31.381 Df kernel[0:378] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <private> [BAR1 32768000]
+2026-10-16 04:27:31.435 Df WindowServer[156:378] (NVMTLDriver) NVMTL: vk: GPU wait budget 5000 ms for WindowServer (WindowServer keeps 5000 - a frozen desktop is worse than a dropped frame)
+2026-10-16 04:27:31.652 Df WindowServer[156:378] (NVMTLDriver) NVMTL: vk: VK_EXT_memory_budget present — VRAM budget is MEASURED
+2026-10-16 04:27:32.965 Df kernel[0:378] (NVRMFB) NVRM-fb: nvAllocVram(16384000): REFUSED — BAR1 budget spent (32768000 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+2026-10-16 04:27:32.965 Df kernel[0:378] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 16384000 bytes REFUSED by the framebuffer (0xe00002bd)
+2026-10-16 04:27:32.965 Df kernel[0:378] (NVAccel) NVAccel: surfvram: surface 1 plane 0 -> cache <private> res <private> vidmem <private> (0 B) -> client 0 mem 0 status 0x80000005 (ok 0, refused 1)
+2026-10-16 04:27:33.045 Df kernel[0:378] (NVAccel) NVAccel: surfvram: surface 2 plane 0 -> cache <private> res <private> vidmem <private> (0 B) -> client 0 mem 0 status 0x80000005 (ok 0, refused 2)
+2026-10-16 04:27:33.201 Df kernel[0:378] (NVAccel) NVAccel: surfvram: surface 3 plane 0 -> cache <private> res <private> vidmem <private> (0 B) -> client 0 mem 0 status 0x80000005 (ok 0, refused 3)
+2026-10-16 04:27:33.273 Df kernel[0:378] (NVAccel) NVAccel: surfvram: surface 4 plane 0 -> cache <private> res <private> vidmem <private> (0 B) -> client 0 mem 0 status 0x80000005 (ok 0, refused 4)
+2026-10-16 04:27:33.324 Df kernel[0:378] (NVAccel) NVAccel: surfvram: surface 5 plane 0 -> cache <private> res <private> vidmem <private> (0 B) -> client 0 mem 0 status 0x80000005 (ok 0, refused 5)
+2026-10-16 04:27:33.719 Df Installer Progress[118:33f] (NVMTLDriver) NVMTL: vk: GPU wait budget 60000 ms for Installer Progress (WindowServer keeps 5000 - a frozen desktop is worse than a dropped frame)
+2026-10-16 04:27:33.846 Df SecurityAgent[453:e3d] (NVMTLDriver) NVMTL: vk: GPU wait budget 60000 ms for SecurityAgent (WindowServer keeps 5000 - a frozen desktop is worse than a dropped frame)
+2026-10-16 04:27:34.058 Df Installer Progress[118:33f] (NVMTLDriver) NVMTL: vk: VK_EXT_memory_budget present — VRAM budget is MEASURED
+2026-10-16 04:27:34.063 Df SecurityAgent[453:e3d] (NVMTLDriver) NVMTL: vk: VK_EXT_memory_budget present — VRAM budget is MEASURED
+2026-10-16 04:27:42.051 Df kernel[0:378] (NVAccel) NVAccel: surfvram: surface 2 plane 0 -> cache <private> res <private> vidmem <private> (0 B) -> client 0 mem 0 status 0x80000005 (ok 0, refused 6)
+2026-10-16 04:27:58.566 Df kernel[0:f04] (NVAccel) NVAccel: NVVidMemory::allocPhysical(<private>): 40960 bytes REFUSED by the framebuffer (0xe00002bd)
+2026-10-16 04:27:58.566 Df kernel[0:f04] (NVAccel) NVAccel: surfvram: surface 6 plane 0 -> cache <private> res <private> vidmem <private> (0 B) -> client 0 mem 0 status 0x80000005 (ok 0, refused 7)
+2026-10-16 04:27:58.589 Df kernel[0:f04] (NVAccel) NVAccel: surfvram: surface 7 plane 0 -> cache <private> res <private> vidmem <private> (0 B) -> client 0 mem 0 status 0x80000005 (ok 0, refused 8)
+2026-10-16 04:27:58.858 Df kernel[0:378] (NVRMFB) NVRM-fb: nvAllocVram(16384000): REFUSED — BAR1 budget spent (33161216 of 33685504 bytes). This is the resizable-BAR ceiling, not a VRAM shortage.
+2026-10-16 04:27:59.818 Df loginwindow[190:3d8] (NVMTLDriver) NVMTL: vk: GPU wait budget 60000 ms for loginwindow (WindowServer keeps 5000 - a frozen desktop is worse than a dropped frame)
+2026-10-16 04:28:00.159 Df loginwindow[190:3d8] (NVMTLDriver) NVMTL: vk: VK_EXT_memory_budget present — VRAM budget is MEASURED

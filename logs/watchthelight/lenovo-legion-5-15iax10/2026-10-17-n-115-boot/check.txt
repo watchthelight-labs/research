@@ -1,0 +1,5 @@
+n-115 check 2026-10-17 18:31 EDT, boot Sat Oct 17 18:28:59 2026
+plugin: 3d013f7757cd (expect 3d013f7757cd)
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 
+running apps: Finder, Terminal, Spotify, Discord

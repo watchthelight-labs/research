@@ -1,0 +1,8 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-17 10:37:30.041 Df kernel[0:435] (NVAccel) NVAccel: surfvram: surface 6 plane 0 -> cache <private> res <private> vidmem <private> (16384000 B) -> client 0xc1d0000d mem 0x1000d status 0 (ok 7168, refused 0)
+2026-10-17 10:37:30.041 Df kernel[0:435] (NVAccel) NVAccel: surfvram: surface 6 plane 0 -> cache <private> res <private> vidmem <private> (16384000 B) -> client 0xc1d0000d mem 0x1000d status 0 (ok 7168, refused 0)
+2026-10-17 10:37:30.525 Df WindowServer[201:34fc] (NVMTLDriver) NvGfx wstrace render pipeline 'com.apple.coreanimation.PBGRAXb_TimgXvc_Isrc' vs VfxU10Xv fs TimgXvc_Isrc fmt0 80 blend 0
+2026-10-17 10:37:36.346 Df WindowServer[201:d2b] (NVMTLDriver) NvGfx wstrace render pipeline 'com.apple.coreanimation.PBGRABsovXb_TcimXcn_IsrcFmb' vs VfxU10 fs TcimXcn_IsrcFmb fmt0 80 blend 1
+2026-10-17 10:37:40.711 Df WindowServer[201:435] (NVMTLDriver) NvGfx wstrace render pipeline 'com.apple.coreanimation.PBGRABsovXb_Tds8_Isrc' vs downsample_blur_vert_lpf fs downsample_8_frag_lpf fmt0 80 blend 1
+2026-10-17 10:37:41.314 Df WindowServer[201:32a1] (NVMTLDriver) NvGfx wstrace render pipeline 'com.apple.coreanimation.PBGRAXb_TdffXc_Iscd' vs VfxU10 fs TdffXc_Iscd fmt0 80 blend 0
+2026-10-17 10:37:41.441 Df log[1276:38a5] [com.apple.log:] log run noninteractively, parent: 1228 (bash), args: '/usr/bin/log' 'show' '--start' '2026-10-17 10:37:26' '--predicate' 'eventMessage CONTAINS "NvGfx" OR eventMessage CONTAINS "surfvram"' '--style' 'compact'

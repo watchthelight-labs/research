@@ -1,0 +1,1381 @@
+]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.248442]:  (20160930/nsarguments-169)
+[  105.248542]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.248544]:  (20160930/nsarguments-169)
+[  105.248644]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.248647]:  (20160930/nsarguments-169)
+[  105.248746]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.248749]:  (20160930/nsarguments-169)
+[  105.248849]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.248852]:  (20160930/nsarguments-169)
+[  105.248951]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.248954]:  (20160930/nsarguments-169)
+[  105.249054]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249056]:  (20160930/nsarguments-169)
+[  105.249156]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249165]:  (20160930/nsarguments-169)
+[  105.249266]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249269]:  (20160930/nsarguments-169)
+[  105.249368]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249371]:  (20160930/nsarguments-169)
+[  105.249471]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249474]:  (20160930/nsarguments-169)
+[  105.249573]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249576]:  (20160930/nsarguments-169)
+[  105.249676]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249678]:  (20160930/nsarguments-169)
+[  105.249778]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249781]:  (20160930/nsarguments-169)
+[  105.249881]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249888]:  (20160930/nsarguments-169)
+[  105.249989]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.249992]:  (20160930/nsarguments-169)
+[  105.250092]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250094]:  (20160930/nsarguments-169)
+[  105.250194]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250196]:  (20160930/nsarguments-169)
+[  105.250295]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250298]:  (20160930/nsarguments-169)
+[  105.250398]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250400]:  (20160930/nsarguments-169)
+[  105.250500]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250502]:  (20160930/nsarguments-169)
+[  105.250601]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250604]:  (20160930/nsarguments-169)
+[  105.250704]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250708]:  (20160930/nsarguments-169)
+[  105.250808]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250811]:  (20160930/nsarguments-169)
+[  105.250912]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.250914]:  (20160930/nsarguments-169)
+[  105.251014]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251017]:  (20160930/nsarguments-169)
+[  105.251117]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251119]:  (20160930/nsarguments-169)
+[  105.251220]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251222]:  (20160930/nsarguments-169)
+[  105.251322]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251324]:  (20160930/nsarguments-169)
+[  105.251424]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251427]:  (20160930/nsarguments-169)
+[  105.251526]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251530]:  (20160930/nsarguments-169)
+[  105.251630]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251632]:  (20160930/nsarguments-169)
+[  105.251732]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251735]:  (20160930/nsarguments-169)
+[  105.251835]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251837]:  (20160930/nsarguments-169)
+[  105.251937]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.251939]:  (20160930/nsarguments-169)
+[  105.252039]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252041]:  (20160930/nsarguments-169)
+[  105.252142]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252144]:  (20160930/nsarguments-169)
+[  105.252245]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252249]:  (20160930/nsarguments-169)
+[  105.252350]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252353]:  (20160930/nsarguments-169)
+[  105.252453]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252455]:  (20160930/nsarguments-169)
+[  105.252555]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252557]:  (20160930/nsarguments-169)
+[  105.252657]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252660]:  (20160930/nsarguments-169)
+[  105.252759]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252762]:  (20160930/nsarguments-169)
+[  105.252861]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252864]:  (20160930/nsarguments-169)
+[  105.252964]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.252966]:  (20160930/nsarguments-169)
+[  105.253066]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253070]:  (20160930/nsarguments-169)
+[  105.253171]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253174]:  (20160930/nsarguments-169)
+[  105.253273]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253276]:  (20160930/nsarguments-169)
+[  105.253376]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253378]:  (20160930/nsarguments-169)
+[  105.253478]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253481]:  (20160930/nsarguments-169)
+[  105.253581]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253584]:  (20160930/nsarguments-169)
+[  105.253684]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253686]:  (20160930/nsarguments-169)
+[  105.253786]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253788]:  (20160930/nsarguments-169)
+[  105.253888]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.253896]:  (20160930/nsarguments-169)
+[  105.253997]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254000]:  (20160930/nsarguments-169)
+[  105.254099]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254102]:  (20160930/nsarguments-169)
+[  105.254202]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254204]:  (20160930/nsarguments-169)
+[  105.254303]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254306]:  (20160930/nsarguments-169)
+[  105.254405]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254408]:  (20160930/nsarguments-169)
+[  105.254508]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254510]:  (20160930/nsarguments-169)
+[  105.254610]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254618]:  (20160930/nsarguments-169)
+[  105.254718]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254721]:  (20160930/nsarguments-169)
+[  105.254821]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.254823]:  (20160930/nsarguments-169)
+[  105.254929]: NVRM-xnu: >os_acquire_rwlock_read
+[  105.254930]: NVRM-xnu: >os_release_rwlock_read
+[  105.258281]: NVRM-xnu: STUB os_cgroup_implementation
+[  105.261091]: NVRM-xnu: STUB nv_get_device_memory_config
+[  105.262336]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[  105.262343]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd821000
+[  105.262345]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[  105.262357]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x378dc000
+[  105.262358]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=1 cache=0 zeroed=1 (4 KB)
+[  105.262363]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd820000
+[  105.264279]: NVRM-xnu: >os_map_kernel_space start=0x3fe00000000 size=0x2000000 mode=2
+[  105.264512]: NVRM-xnu:   mapped -> 0x<ptr> (slot 1, high water 2/8192)
+[  105.277430]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.277434]:  (20160930/nsarguments-169)
+[  105.277639]: NVRM-xnu: NBCI _DSM 0x14 -> 0x0 (128 B, backlight table, first word 0x8000a450)
+[  105.286115]: NVRM-xnu: STUB nv_acpi_ddc_method
+[  105.298639]: NVRM-xnu: >nv_alloc_pages count=9 page_size=0x1000 contig=1 cache=0 zeroed=1 (36 KB)
+[  105.298650]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x378ec000
+[  105.312169]: NVRM-xnu: >os_put_pid_info
+[  105.312171]: NVRM-xnu: >os_free_rwlock
+[  105.312206]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=1 cache=0 zeroed=1 (64 KB)
+[  105.312226]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x378f5000
+[  105.313600]: NVRM-xnu: >nv_alloc_pages count=157 page_size=0x1000 contig=0 cache=1 zeroed=1 (628 KB)
+[  105.454419]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bedfb000
+[  105.456202]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[  105.456207]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd2b3000
+[  105.456261]: NVRM-xnu: STUB os_cgroup_for_pid
+[  105.456528]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  105.456539]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x37905000
+[  105.456541]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  105.456547]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x37909000
+[  105.458455]: NVRM-xnu: >os_map_kernel_space start=0x3fc00080000 size=0x10000 mode=2
+[  105.458466]: NVRM-xnu:   mapped -> 0x<ptr> (slot 2, high water 3/8192)
+[  105.594734]: NVRM-xnu: >nv_alloc_pages count=109 page_size=0x1000 contig=0 cache=1 zeroed=1 (436 KB)
+[  105.673790]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd92b000
+[  105.673815]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[  105.673819]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd929000
+[  105.674141]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  105.674148]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x3790d000
+[  105.674150]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  105.674159]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x37911000
+[  105.770894]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=1 zeroed=1 (4 KB)
+[  105.771795]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bda1e000
+[  105.772168]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  105.772176]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x37915000
+[  105.772177]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  105.772184]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x37919000
+[  105.803712]: NVRM-xnu: >nv_free_pages
+[  105.805627]: NVRM-xnu: >os_delay_us
+[  105.806664]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[  105.806669]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd372000
+[  105.808578]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  105.808586]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x3791d000
+[  105.808587]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  105.808596]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x37921000
+[  105.810316]: NVRM-xnu: >os_map_kernel_space start=0x3fc00090000 size=0x200 mode=2
+[  105.810325]: NVRM-xnu:   mapped -> 0x<ptr> (slot 3, high water 4/8192)
+[  105.812228]: NVRM-xnu: STUB nv_start_rc_timer
+[  105.813353]: NVRM-xnu: >os_delay
+[  105.819614]: NVRM-xnu: >os_snprintf
+[  105.819939]: NVRM-xnu: STUB nv_i2c_add_adapter
+[  105.827240]: NVRM: GPU 0000:02:00.0: RmInitAdapter succeeded!
+[  105.827241]: NVRM: GPU 0000:02:00.0: RmInitAdapter succeeded!
+[  105.827242]: NVRM-xnu: >nv_put_firmware
+[  105.831514]: NVRM-xnu: >os_enable_console_access
+[  105.831515]: NVRM-xnu: rm_init_adapter -> OK
+[  105.831516]: NVRM-xnu: rm_init_adapter -> OK
+[  105.831516]: NVRM-xnu: DMA buffers alive: 41
+[  105.832474]: NVRM-xnu:   #0 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.832476]: NVRM-xnu:   #1 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.832712]: NVRM-xnu:   #2 516 KB contig=0 nonzero=5674 first@0x1 head=00706e32 00000000
+[  105.832714]: NVRM-xnu:   #3 4 KB contig=1 nonzero=12 first@0x8 head=00000000 00000000
+[  105.832716]: NVRM-xnu:   #4 4 KB contig=1 nonzero=45 first@0x0 head=b3601a37 21ae3adc
+[  105.833464]: NVRM-xnu:   #5 4 KB contig=1 nonzero=116 first@0x0 head=54494e49 474f4c00
+[  105.833466]: NVRM-xnu:   #6 4 KB contig=1 nonzero=18 first@0x1 head=00706e32 00000000
+[  105.834025]: NVRM-xnu:   #7 4 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.834109]: NVRM-xnu:   #8 284 KB contig=1 nonzero=286015 first@0x0 head=a718b2c1 bb396481
+[  105.834111]: NVRM-xnu:   #9 4 KB contig=1 nonzero=1551 first@0x0 head=01000200 c8080000
+[  105.860947]: NVRM-xnu:   #10 82456 KB contig=0 nonzero=79520657 first@0x2 head=00007b32 00000000
+[  105.860970]: NVRM-xnu:   #11 64 KB contig=1 nonzero=2520 first@0x0 head=aa020000 00000000
+[  105.860994]: NVRM-xnu:   #12 64 KB contig=1 nonzero=11 first@0x0 head=02000000 00000000
+[  105.861016]: NVRM-xnu:   #13 64 KB contig=1 nonzero=1062 first@0x0 head=1b010000 00000000
+[  105.861037]: NVRM-xnu:   #14 64 KB contig=1 nonzero=3 first@0x9 head=00000000 00000000
+[  105.861057]: NVRM-xnu:   #15 64 KB contig=1 nonzero=3 first@0x9 head=00000000 00000000
+[  105.861059]: NVRM-xnu:   #16 4 KB contig=1 nonzero=19 first@0x0 head=04000000 00000000
+[  105.861061]: NVRM-xnu:   #17 4 KB contig=1 nonzero=13 first@0x0 head=04000000 00000000
+[  105.861090]: NVRM-xnu:   #18 64 KB contig=1 nonzero=399 first@0x0 head=64000000 00000000
+[  105.862219]: NVRM-xnu:   #19 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.862352]: NVRM-xnu:   #20 284 KB contig=1 nonzero=286027 first@0x0 head=03044800 00620400
+[  105.863417]: NVRM-xnu:   #21 4 KB contig=1 nonzero=541 first@0x2 head=00002c12 03040000
+[  105.863419]: NVRM-xnu:   #22 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.863444]: NVRM-xnu:   #23 64 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.863446]: NVRM-xnu:   #24 4 KB contig=1 nonzero=15 first@0x0 head=06000000 000000ff
+[  105.863460]: NVRM-xnu:   #25 36 KB contig=1 nonzero=184 first@0x0 head=b878250e 6417e018
+[  105.863483]: NVRM-xnu:   #26 64 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.935114]: NVRM-xnu:   #27 628 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.935117]: NVRM-xnu:   #28 4 KB contig=0 nonzero=13 first@0x10 head=00000000 00000000
+[  105.935122]: NVRM-xnu:   #29 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.935128]: NVRM-xnu:   #30 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.984746]: NVRM-xnu:   #31 436 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.984748]: NVRM-xnu:   #32 4 KB contig=0 nonzero=13 first@0x10 head=00000000 00000000
+[  105.984753]: NVRM-xnu:   #33 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.984758]: NVRM-xnu:   #34 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.984760]: NVRM-xnu:   #38 4 KB contig=0 nonzero=83 first@0x1 head=00600120 2d900000
+[  105.984766]: NVRM-xnu:   #39 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.984772]: NVRM-xnu:   #40 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  105.984807]: NVRM-xnu: regdump BOOT_0                                     @0x000000 = 0x1b6000a1
+[  105.984810]: NVRM-xnu: regdump PGSP_FALCON_MAILBOX0                       @0x110040 = 0x00000000
+[  105.984811]: NVRM-xnu: regdump PGSP_FALCON_MAILBOX1                       @0x110044 = 0x00000000
+[  105.984812]: NVRM-xnu: regdump PGSP_FALCON_HWCFG2(bit13=lockdown)         @0x1100f4 = 0x818787f7
+[  105.984814]: NVRM-xnu: regdump PGSP_FALCON_OS                             @0x110080 = 0x00000000
+[  105.984815]: NVRM-xnu: regdump PGSP_FALCON_IRQSTAT                        @0x110008 = 0x00000000
+[  105.984816]: NVRM-xnu: regdump PGSP_FALCON_ENGINE                         @0x1103c0 = 0xbadf5720
+[  105.984817]: NVRM-xnu: regdump GSP_RISCV_CPUCTL(bit7=active,bit4=halted)  @0x111388 = 0x00000180
+[  105.984819]: NVRM-xnu: regdump GSP_RISCV_BCR_CTRL                         @0x111668 = 0x00000011
+[  105.984820]: NVRM-xnu: regdump PGSP_MAILBOX(0)                            @0x110804 = 0x000826f3
+[  105.984821]: NVRM-xnu: regdump PGSP_MAILBOX(1)                            @0x110808 = 0x00082714
+[  105.984822]: NVRM-xnu: regdump PGSP_QUEUE_HEAD(0)                         @0x110c00 = 0x00000000
+[  105.984824]: NVRM-xnu: regdump PFB_PRI_MMU_WPR2_ADDR_LO                   @0x1fa824 = 0x01ee4800
+[  105.984825]: NVRM-xnu: regdump PFB_PRI_MMU_WPR2_ADDR_HI                   @0x1fa828 = 0x01fc2200
+[  105.984827]: NVRM-xnu: regdump GFW_BOOT_PROGRESS(scratch05_0)             @0x118234 = 0x00000000
+[  105.984853]: NVRM-xnu: PASS 2 REACHED: the adapter is up \M-b\M^@\M^T GSP-RM is running on the card under macOS
+[  105.984854]: NVRM-xnu: PASS 2 REACHED: the adapter is up \M-b\M^@\M^T GSP-RM is running on the card under macOS
+[  105.985700]: NVRM-fbinfo: gpu 0x00000200: RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB
+[  105.986214]: NVRM-xnu: published VRAM,totalsize=8546942976 bytes (RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB) from the card
+[  105.986215]: NVRM-xnu: published VRAM,totalsize=8546942976 bytes (RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB) from the card
+[  105.987069]: NVRM-fbinfo: profile: gpu 0x00000200 arch 0x1b0 impl 0x6 3d 0xce97 compute 0xcec0 copy 0xcab5 enc 0xcfb7 dec 0xcfb0 (120 classes)
+[  105.987590]: NVRM-xnu: gpu profile: Blackwell GB206, 3d 0xce97 copy 0xcab5 nvenc 0xcfb7 nvdec 0xcfb0, BAR1 8192 MB of 8151 MB VRAM -> scanout static-bar1
+[  105.987591]: NVRM-xnu: gpu profile: Blackwell GB206, 3d 0xce97 copy 0xcab5 nvenc 0xcfb7 nvdec 0xcfb0, BAR1 8192 MB of 8151 MB VRAM -> scanout static-bar1
+[  105.987596]: NVKMS INFO: Loading NVIDIA UNIX Open Kernel Module for x86_64 610.57.04 Release Build (NullMoth Systems)
+[  105.987597]: NVKMS INFO: Loading NVIDIA UNIX Open Kernel Module for x86_64 610.57.04 Release Build (NullMoth Systems)
+[  105.987603]: NVRM-xnu: nvKmsModuleLoad -> 1
+[  105.987608]: NVRM-xnu: NVKMS timers use serial ONCE worker; event callbacks ONCE at kernel priority
+[  105.987609]: NVRM-xnu: nvKmsKapiProbe gpu_id 0x200
+[  105.987676]: [PCIe:0 105987675824 ns] [childPublished()] child NVRMDisplay(0x10000064a) published
+[  105.987757]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[  105.987758]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[  105.987761]: NVRM-fb: WhateverGreen is loaded without boot-arg gfxrst=4: its boot screen copy can read freed memory when this display opens (kernel panic in IOFramebuffer::postOpen). Add gfxrst=4 to boot-args.
+[  105.987763]: NVRM-fb: WhateverGreen is loaded without boot-arg gfxrst=4: its boot screen copy can read freed memory when this display opens (kernel panic in IOFramebuffer::postOpen). Add gfxrst=4 to boot-args.
+[  105.990627]: NVRM-xnu: >os_map_kernel_space start=0x3fc000a0000 size=0x10000 mode=1
+[  105.990634]: NVRM-xnu:   mapped -> 0x<ptr> (slot 4, high water 5/8192)
+[  105.998520]: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: ACPI Warning: \134_SB.PC00.RP01.PXSX._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package]Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20160930/nsarguments-169)
+[  105.998525]:  (20160930/nsarguments-169)
+[  105.999708]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  105.999751]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c776f000
+[  105.999775]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  105.999808]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c776c000
+[  106.006742]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.006808]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7daa000
+[  106.006837]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.006894]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c8b66000
+[  106.008322]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.008404]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c8b65000
+[  106.008430]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.008479]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c8b64000
+[  106.009785]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.009813]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7a63000
+[  106.009838]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.009901]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7fdf000
+[  106.011776]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.011827]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c749b000
+[  106.011853]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.011902]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7499000
+[  106.013052]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.013105]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c6915000
+[  106.013127]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.013181]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c6914000
+[  106.014341]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.014395]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c640f000
+[  106.014415]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.014466]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c640e000
+[  106.017824]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.017878]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c6d4a000
+[  106.017899]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.017937]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c6d49000
+[  106.019139]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.019194]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c6d48000
+[  106.019219]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.019272]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7943000
+[  106.020397]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.020455]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7941000
+[  106.020476]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.020529]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7940000
+[  106.023908]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.023983]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c747f000
+[  106.024023]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.024097]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c947a000
+[  106.025402]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.025453]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c9478000
+[  106.025475]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.025531]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c78b7000
+[  106.030869]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.030925]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c78b3000
+[  106.030967]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.031031]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c78ac000
+[  106.032384]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.032439]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7eeb000
+[  106.032460]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.032511]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7eea000
+[  106.036030]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.036080]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c8ca6000
+[  106.036100]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.036131]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c8ca5000
+[  106.037294]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.037347]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c8ca4000
+[  106.037368]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.037461]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c7ba3000
+[  106.038841]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.038912]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c801f000
+[  106.038940]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.039015]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7c801c000
+[  106.048560]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x73138d -> status 0x56
+[  106.054207]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.067027]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.072561]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.077349]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.082136]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.086918]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.091718]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.096525]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.101303]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.106242]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.111281]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.116092]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.120898]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.125683]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.130472]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.135283]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.140117]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.144879]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.149643]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.154411]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.159187]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.163955]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.183532]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x73138d -> status 0x56
+[  106.183712]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  106.184014]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x730282 -> status 0x1f
+[  106.184306]: NVKMS INFO: GPU:0: backlight: internal displays status 0x0, mask 0x200, available mask 0x200
+[  106.184308]: NVKMS INFO: GPU:0: backlight: internal displays status 0x0, mask 0x200, available mask 0x200
+[  106.184646]: NVKMS INFO: GPU:0: backlight: display 0x200 brightness query status 0x0, level 100
+[  106.184647]: NVKMS INFO: GPU:0: backlight: display 0x200 brightness query status 0x0, level 100
+[  106.184654]: NVRM-xnu: backlight registered: gpu 0x200 display 0x200 at 100%
+[  106.184691]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.184764]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd013000
+[  106.184806]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.184865]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd012000
+[  106.184897]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.184952]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bd011000
+[  106.184988]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=2 zeroed=1 (4 KB)
+[  106.185047]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bc08d000
+[  106.185121]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185194]: NVRM-xnu: >os_map_kernel_space start=0x3fc000b0000 size=0x4200 mode=2
+[  106.185212]: NVRM-xnu:   mapped -> 0x<ptr> (slot 5, high water 6/8192)
+[  106.185243]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185299]: NVRM-xnu: >os_map_kernel_space start=0x3fc000c0000 size=0x4200 mode=2
+[  106.185307]: NVRM-xnu:   mapped -> 0x<ptr> (slot 6, high water 7/8192)
+[  106.185334]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185391]: NVRM-xnu: >os_map_kernel_space start=0x3fc000d0000 size=0x4200 mode=2
+[  106.185406]: NVRM-xnu:   mapped -> 0x<ptr> (slot 7, high water 8/8192)
+[  106.185433]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185485]: NVRM-xnu: >os_map_kernel_space start=0x3fc000e0000 size=0x4200 mode=2
+[  106.185492]: NVRM-xnu:   mapped -> 0x<ptr> (slot 8, high water 9/8192)
+[  106.185518]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185573]: NVRM-xnu: >os_map_kernel_space start=0x3fc000f0000 size=0x4200 mode=2
+[  106.185582]: NVRM-xnu:   mapped -> 0x<ptr> (slot 9, high water 10/8192)
+[  106.185609]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185661]: NVRM-xnu: >os_map_kernel_space start=0x3fc00100000 size=0x4200 mode=2
+[  106.185670]: NVRM-xnu:   mapped -> 0x<ptr> (slot 10, high water 11/8192)
+[  106.185697]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185756]: NVRM-xnu: >os_map_kernel_space start=0x3fc00110000 size=0x4200 mode=2
+[  106.185763]: NVRM-xnu:   mapped -> 0x<ptr> (slot 11, high water 12/8192)
+[  106.185789]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185842]: NVRM-xnu: >os_map_kernel_space start=0x3fc00120000 size=0x4200 mode=2
+[  106.185850]: NVRM-xnu:   mapped -> 0x<ptr> (slot 12, high water 13/8192)
+[  106.185876]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.185929]: NVRM-xnu: >os_map_kernel_space start=0x3fc00130000 size=0x4200 mode=2
+[  106.185936]: NVRM-xnu:   mapped -> 0x<ptr> (slot 13, high water 14/8192)
+[  106.185963]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.186015]: NVRM-xnu: >os_map_kernel_space start=0x3fc00140000 size=0x4200 mode=2
+[  106.186022]: NVRM-xnu:   mapped -> 0x<ptr> (slot 14, high water 15/8192)
+[  106.186048]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.186107]: NVRM-xnu: >os_map_kernel_space start=0x3fc00150000 size=0x4200 mode=2
+[  106.186117]: NVRM-xnu:   mapped -> 0x<ptr> (slot 15, high water 16/8192)
+[  106.186142]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.186195]: NVRM-xnu: >os_map_kernel_space start=0x3fc00160000 size=0x4200 mode=2
+[  106.186207]: NVRM-xnu:   mapped -> 0x<ptr> (slot 16, high water 17/8192)
+[  106.186234]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.186293]: NVRM-xnu: >os_map_kernel_space start=0x3fc00170000 size=0x4200 mode=2
+[  106.186302]: NVRM-xnu:   mapped -> 0x<ptr> (slot 17, high water 18/8192)
+[  106.186433]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.186523]: NVRM-xnu: >os_map_kernel_space start=0x3fc00180000 size=0x1000 mode=2
+[  106.186530]: NVRM-xnu:   mapped -> 0x<ptr> (slot 18, high water 19/8192)
+[  106.186548]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10075 -> status 0x0
+[  106.188363]: NVRM-xnu: >os_map_kernel_space start=0x3fc00180000 size=0x1000 mode=2
+[  106.188369]: NVRM-xnu:   mapped -> 0x<ptr> (slot 19, high water 20/8192)
+[  106.189098]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[  106.189106]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[  106.189113]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[  106.189467]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[  106.189476]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7be9a7000
+[  106.189560]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=2 zeroed=1 (64 KB)
+[  106.190356]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bc617000
+[  106.190724]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  106.190738]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x37925000
+[  106.190740]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[  106.190752]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x37929000
+[  106.193293]: NVRM-xnu: >os_map_kernel_space start=0x3fc00190000 size=0x200 mode=2
+[  106.193303]: NVRM-xnu:   mapped -> 0x<ptr> (slot 20, high water 21/8192)
+[  106.193331]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[  106.193345]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bca0b000
+[  106.194061]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[  106.194070]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x7bca09000
+[  106.194092]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10003 -> status 0x0
+[  106.194180]: NVRM-xnu: >os_map_kernel_space start=0x3fc001a0000 size=0x1000 mode=2
+[  106.194187]: NVRM-xnu:   mapped -> 0x<ptr> (slot 21, high water 22/8192)
+[  106.194204]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10004 -> status 0x0
+[  106.194254]: NVRM-xnu: >os_map_kernel_space start=0x3fc001a0000 size=0x1000 mode=2
+[  106.194262]: NVRM-xnu:   mapped -> 0x<ptr> (slot 22, high water 23/8192)
+[  106.194282]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  106.194286]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  106.194289]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  106.194291]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  106.194293]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  106.194296]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  106.194300]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  106.194301]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  106.194303]: NVRM-fb: getDisplays: 4 handle(s); this GPU has 4 heads and 4 connectors
+[  106.194305]: NVRM-fb: getDisplays: 4 handle(s); this GPU has 4 heads and 4 connectors
+[  106.195801]: NVRM-fb: dpy 0/4 0x100: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  106.195805]: NVRM-fb: dpy 0/4 0x100: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  106.197724]: NVRM-fb: dpy 1/4 0x200: connected 1 edid 384 B connector 0x2 headMask 0xf internal 1
+[  106.197726]: NVRM-fb: dpy 1/4 0x200: connected 1 edid 384 B connector 0x2 headMask 0xf internal 1
+[  106.197780]: NVRM-fb: dpy 2/4 0x400: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  106.197782]: NVRM-fb: dpy 2/4 0x400: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  106.199385]: NVRM-fb: dpy 3/4 0x800: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  106.199386]: NVRM-fb: dpy 3/4 0x800: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  106.199396]: NVRM-fb: ENUMERATED: 1 connected display(s) of 4 handle(s), 4 heads available
+[  106.199397]: NVRM-fb: ENUMERATED: 1 connected display(s) of 4 handle(s), 4 heads available
+[  106.203460]: NVRM-fb: boot pair: any-mode pass found 1 display(s)
+[  106.203461]: NVRM-fb: boot pair: any-mode pass found 1 display(s)
+[  106.204936]: NVRM-fb: boot pair: NVRM says head 0 2720x1744 pclk 782708000 (0x0); 1 display(s) match -> RESERVED for display 0x200 head 0
+[  106.204938]: NVRM-fb: boot pair: NVRM says head 0 2720x1744 pclk 782708000 (0x0); 1 display(s) match -> RESERVED for display 0x200 head 0
+[  106.204939]: NVRM-fb: fb0: display 0x200 is internal -- reporting kIOConnectionBuiltIn
+[  106.204940]: NVRM-fb: fb0: display 0x200 is internal -- reporting kIOConnectionBuiltIn
+[  106.204941]: NVRM-fb: fb0: EDID 384 B, panel 320x200 mm (imageWidth/imageHeight)
+[  106.204942]: NVRM-fb: fb0: EDID 384 B, panel 320x200 mm (imageWidth/imageHeight)
+[  106.204943]: NVRM-fb: index 0 -> display 0x200 connector 0x2 headMask 0xf -> head 0 (taken now 0x1)
+[  106.204944]: NVRM-fb: index 0 -> display 0x200 connector 0x2 headMask 0xf -> head 0 (taken now 0x1)
+[  106.208742]: NVRM-fb: boot pair: display 0x200 keeps the firmware's mode 2560x1600 @165000 on head 0
+[  106.208743]: NVRM-fb: boot pair: display 0x200 keeps the firmware's mode 2560x1600 @165000 on head 0
+[  106.210252]: NVRM-fb: nvfbhidpi: scaled desktops up to 5120x3200 on a 2560x1600 raster
+[  106.210253]: NVRM-fb: nvfbhidpi: scaled desktops up to 5120x3200 on a 2560x1600 raster
+[  106.210254]: NVRM-fb: fbmodes: boot raster 2560x1600 pitch 10240; scanout allocation sized for 5120x3200 (64000 KB, boot needs 16000 KB)
+[  106.210255]: NVRM-fb: fbmodes: boot raster 2560x1600 pitch 10240; scanout allocation sized for 5120x3200 (64000 KB, boot needs 16000 KB)
+[  106.210256]: NVRM-fb: display 0x200 head 0 connector 0x2 mode 2560x1600 @165000 pitch 10240 size 16000 KB
+[  106.210258]: NVRM-fb: display 0x200 head 0 connector 0x2 mode 2560x1600 @165000 pitch 10240 size 16000 KB
+[  106.210259]: NVRM-fb: console range BEFORE allocating: 0x6018000000 .. 0x6019900000 (26214400 B, rowBytes 16384)
+[  106.210260]: NVRM-fb: console range BEFORE allocating: 0x6018000000 .. 0x6019900000 (26214400 B, rowBytes 16384)
+[  106.253278]: kPEDisableScreen 1
+[  106.253279]: NVRM-fb: kernel console DISABLED (kPEDisableScreen) before allocating
+[  106.253280]: NVRM-fb: kernel console DISABLED (kPEDisableScreen) before allocating
+[  106.253362]: NVRM-xnu: >os_map_kernel_space start=0x3fc00200000 size=0x3e80000 mode=2
+[  106.253506]: [System Event] [106253506434] [INFO] [Subsystem: launchd] [Event: tzinit] Doing boot task
+[  106.253523]: [System Event] [106253523843] [INFO] [Subsystem: launchd] [Event: dirhelper] Doing boot task
+[  106.253533]: [System Event] [106253533969] [INFO] [Subsystem: launchd] [Event: rootless-init] Doing boot task
+[  106.253545]: [System Event] [106253545817] [INFO] [Subsystem: launchd] [Event: finish-demo-restore] Doing boot task
+[  106.253561]: [System Event] [106253561426] [INFO] [Subsystem: launchd] [Event: finish-demo-restore] optional boot task not present
+[  106.253570]: [System Event] [106253570725] [INFO] [Subsystem: launchd] [Event: systemstats] Doing boot task
+[  106.253579]: [System Event] [106253578983] [INFO] [Subsystem: launchd] [Event: prng_seedctl] Doing boot task
+[  106.253587]: [System Event] [106253587194] [INFO] [Subsystem: launchd] [Event: workload-properties-init] Doing boot task
+[  106.253599]: [System Event] [106253599031] [INFO] [Subsystem: launchd] [Event: init-exclavekit] Doing boot task
+[  106.253607]: [System Event] [106253607913] [ERROR] [Subsystem: launchd] [Event: init-exclavekit] posix_spawn(): 86: Bad CPU type in executable
+[  106.253651]: [System Event] [106253651770] [INFO] [Subsystem: launchd] [Event: boot] Early boot complete. Continuing system boot.
+[  106.253948]: NVRM-xnu:   mapped -> 0x<ptr> (slot 23, high water 24/8192)
+[  106.253959]: NVRM-fb: VIDMEM: kva set contiguous 1 kernelPhys <phys> userPhys <phys> (same)
+[  106.253960]: NVRM-fb: VIDMEM: kva set contiguous 1 kernelPhys <phys> userPhys <phys> (same)
+[  106.253999]: NVRM-fb: verifyAperture(kernelPhys) 0x3fc00200000: +0x1000=c0de1111 +0x2000=c0de2222  *** MATCH ***
+[  106.254015]: NVRM-fb: verifyAperture(kernelPhys) 0x3fc00200000: +0x1000=c0de1111 +0x2000=c0de2222  *** MATCH ***
+[  106.254022]: NVRM-fb: VIDMEM ACCEPTED -- aperture 0x3fc00200000
+[  106.254023]: NVRM-fb: VIDMEM ACCEPTED -- aperture 0x3fc00200000
+[  106.254058]: NVRM-xnu: >os_map_kernel_space start=0x3fc001b0000 size=0x40000 mode=2
+[  106.254064]: NVRM-xnu:   mapped -> 0x<ptr> (slot 24, high water 25/8192)
+[  106.254177]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10006 -> status 0x0
+[  106.254216]: NVRM-fb: cursor plane READY: 256x256 A8R8G8B8 pitch 1024 (device maxCursorSizeInPixels 256, validCompModes 0x3d)
+[  106.254218]: NVRM-fb: cursor plane READY: 256x256 A8R8G8B8 pitch 1024 (device maxCursorSizeInPixels 256, validCompModes 0x3d)
+[  106.254235]: NVRM-fb: fbmodes: published IOFBScalerInfo (up+down, max 5120x3200) + IOFBTimingRange (25 MHz..1.2 GHz, 23..500 Hz)
+[  106.254236]: NVRM-fb: fbmodes: published IOFBScalerInfo (up+down, max 5120x3200) + IOFBTimingRange (25 MHz..1.2 GHz, 23..500 Hz)
+[  106.254247]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000d obj 0x10005 -> status 0x0
+[  106.254290]: NVRM-fb: console info: base 0x6018000001 rowBytes 16384 2560x1600 depth 32
+[  106.254292]: NVRM-fb: console info: base 0x6018000001 rowBytes 16384 2560x1600 depth 32
+[  106.254294]: NVRM-fb: BAR0: pa 0x80000000 len 67108864
+[  106.254295]: NVRM-fb: BAR0: pa 0x80000000 len 67108864
+[  106.254295]: NVRM-fb: BAR1: pa 0x3fc00000000 len 8589934592
+[  106.254296]: NVRM-fb: BAR1: pa 0x3fc00000000 len 8589934592
+[  106.254297]: NVRM-fb: BAR2: pa 0x3fe00000000 len 33554432
+[  106.254298]: NVRM-fb: BAR2: pa 0x3fe00000000 len 33554432
+[  106.254298]: NVRM-fb: BAR3: pa 0x6018000000 len 67108864
+[  106.254299]: NVRM-fb: BAR3: pa 0x6018000000 len 67108864
+[  106.254300]: NVRM-fb: BAR4: pa 0x9000 len 128
+[  106.254301]: NVRM-fb: BAR4: pa 0x9000 len 128
+[  106.254301]: NVRM-fb: BAR5: pa 0x84080000 len 524288
+[  106.254302]: NVRM-fb: BAR5: pa 0x84080000 len 524288
+[  106.254302]: NVRM-fb: console probe: using NVKMS vtFb 0x6018000000 (26214400 B) instead of the platform's 0x6018000000
+[  106.254303]: NVRM-fb: console probe: using NVKMS vtFb 0x6018000000 (26214400 B) instead of the platform's 0x6018000000
+[  106.254584]: NVRM-fb: console probe phys <phys> pitch 16384 size 26214400 kva set | SURFACE phys <phys> pitch 10240 size 16384000
+[  106.254585]: NVRM-fb: console probe phys <phys> pitch 16384 size 26214400 kva set | SURFACE phys <phys> pitch 10240 size 16384000
+[  106.254590]: NVRM-fb: boot screen: NVRM's copy is one flat value 0x00000000 (unreadable aperture) - not painted, black takeover
+[  106.254591]: NVRM-fb: boot screen: NVRM's copy is one flat value 0x00000000 (unreadable aperture) - not painted, black takeover
+[  106.254592]: NVRM-fb: boot screen: NVRM had none (0x0, provider NVRM found) \M-b\M^@\M^T black takeover
+[  106.254593]: NVRM-fb: boot screen: NVRM had none (0x0, provider NVRM found) \M-b\M^@\M^T black takeover
+[  106.256183]: NVRM-xnu: boot screen: buffer released after the takeover
+[  106.256184]: NVRM-xnu: boot screen: buffer released after the takeover
+[  106.256412]: [System Event] [106256412288] [INFO] [Subsystem: launchd] [Event: cache-tag] Doing boot task
+[  106.259516]: [PCIe:0 106259515921 ns] [childPublished()] child backlight(0x10000064c) published
+[  106.259618]: 1 duplicate report for Sandbox: mobileassetd(251) deny(1) file-write-create /private/var/root/Library/Caches/com.apple.mobileassetdNVRM-fb: fb0: panel backlight at 100% -- brightness keys and slider through AppleBacklightDisplay
+[  106.259621]: NVRM-fb: fb0: panel backlight at 100% -- brightness keys and slider through AppleBacklightDisplay
+[  106.259622]: Sandbox: locationd(146) deny(1) mach-lookup com.apple.StatusKit.localGTrace synchronization point 4
+[  106.259640]: IOG CS_OFF: 0x203
+[  106.260044]: NVRM-fb: vbl timer armed (fallback)
+[  106.260051]: NVRM-fb: vbl timer armed (fallback)
+[  106.260056]: NVRM-fb: hw vblank on head 0: deferred until NVKMS latches a flip on this head
+[  106.260059]: NVRM-fb: hw vblank on head 0: deferred until NVKMS latches a flip on this head
+[  106.260062]: NVRM-fb: reflip keep-alive NOT armed: enableController's modeset owns the head, no boot-time re-syncs
+[  106.260064]: NVRM-fb: reflip keep-alive NOT armed: enableController's modeset owns the head, no boot-time re-syncs
+[  106.260067]: NVRM-fb: probe grid + HUD OFF -- macOS only (add nvhud=1 to boot-args to show them)
+[  106.260069]: NVRM-fb: probe grid + HUD OFF -- macOS only (add nvhud=1 to boot-args to show them)
+[  106.260070]: NVRM-fb: head probe retired (answered: we own head 0)
+[  106.260072]: NVRM-fb: head probe retired (answered: we own head 0)
+[  106.260074]: NVAccel: NVRMFramebuffer published -- display machine framebuffer count = 0 (index 0 kept)
+[  106.260075]: NVRM-fb: pixel sampler OFF -- add nvfbsample=1 to boot-args to arm it
+[  106.260077]: NVRM-fb: pixel sampler OFF -- add nvfbsample=1 to boot-args to arm it
+[  106.260078]: NVAccel: NVRMFramebuffer published -- display machine framebuffer count = 0 (index 0 kept)
+[  106.260080]: NVAccel:   to register it:  sudo sysctl -w debug.nvaccelfb=1   (2 = re-run the family's own sweep)
+[  106.260081]: NVAccel:   to register it:  sudo sysctl -w debug.nvaccelfb=1   (2 = re-run the family's own sweep)
+[  106.260082]: NVRM-fb: registerPowerDriver(2 states) done
+[  106.260083]: NVRM-fb: registerPowerDriver(2 states) done
+[  106.260085]: NVRM-fb: started on NVRMDisplay
+[  106.260086]: [PCIe:0 106260086199 ns] [childPublished()] child NVRMFramebuffer(0x10000064b) published
+[  106.260087]: NVRM-fb: started on NVRMDisplay
+[  106.260125]: PMRD: delayChildNotification for 0x10000038f
+[  106.260127]: NVRM: boot guard cleared: the framebuffer has its scanout memory and a display mode
+[  106.260131]: PMRD: NVRMFramebuffer tag flags 200
+[  106.260165]: NVRM-fb: setPowerState 1
+[  106.260167]: NVRM-fb: setPowerState 1
+[  106.260279]: [PCIe:0 106260279561 ns] [childPublished()] child AppleMCCSControlModule(0x10000064e) published
+[  106.260360]: [PCIe:0 106260360085 ns] [childPublished()] child AppleMCCSParameterHandler(0x100000650) published
+[  106.260438]: PMRD: setAggressiveness(0) kPMMinutesToSleep = 0
+[  106.260453]: PMRD: setAggressiveness(0) kPMMinutesToDim = 0
+[  106.260569]: [PCIe:0 106260569128 ns] [childPublished()] child AppleUpstreamUserClientDriver(0x10000064f) published
+[  106.260643]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.260650]: NVRM-xnu: nub 0 published first; its framebuffer started (waitQuiet 0x0) before nubs 1..3
+[  106.260697]: NVRM-xnu: 4 NVRMDisplay nub(s) published (kapi <ptr>, nvfbheads=4) \M-b\M^@\M^T NVRMFB.kext matches them
+[  106.260709]: NVRM-xnu: nvgfx TGP mode manager armed (nvrmtgp=1), first check in 2000 ms
+[  106.260712]: NVRM-xnu: auto-go: go(2) -> 0x0 (fPassDone 2)
+[  106.260725]: NVRM-xnu: auto-go: heads published mask 0x1 (1 of nvfbheads 4) after 0 s
+[  106.260727]: NVRM-xnu: auto-go: heads published mask 0x1 (1 of nvfbheads 4) after 0 s
+[  106.260734]: NVAccel: registerFramebuffer(1): framebuffer count before = 0
+[  106.260736]: NVAccel: registerFramebuffer(1): framebuffer count before = 0
+[  106.260738]: NVAccel:   sysctl: calling found_framebuffer(NVRMFramebuffer index 0) -- count before 0
+[  106.260740]: NVAccel:   sysctl: calling found_framebuffer(NVRMFramebuffer index 0) -- count before 0
+[  106.260746]: NVAccel: newDisplayPipe -> <ptr>
+[  106.260748]: NVAccel: newDisplayPipe -> <ptr>
+[  106.260756]: NVAccel: newResource -> <ptr>
+[  106.260757]: NVAccel: newResource -> <ptr>
+[  106.260782]: NVAccel:   sysctl: index 0 -> pipe 0 (<ptr>), count 1
+[  106.260784]: NVAccel:   sysctl: index 0 -> pipe 0 (<ptr>), count 1
+[  106.260785]: [PCIe:0 106260785744 ns] [childPublished()] child NVRMDisplay(0x100000654) published
+[  106.260786]: NVAccel:   framebuffer count after = 1
+[  106.260787]: [PCIe:0 106260787220 ns] [childPublished()] child NVRMDisplay(0x100000652) published
+[  106.260788]: NVAccel:   framebuffer count after = 1
+[  106.260791]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[  106.260793]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[  106.260794]: [PCIe:0 106260793719 ns] [childPublished()] child NVRMDisplay(0x100000653) published
+[  106.260798]: NVAccel: DM displayModeWillChange
+[  106.260800]: NVAccel: DM displayModeWillChange
+[  106.260801]: NVAccel: DM displayModeDidChange -> true
+[  106.260802]: NVAccel: DM displayModeDidChange -> true
+[  106.260804]: NVAccel: enableAccelerator() from displayModeDidChange (call #2)
+[  106.260806]: NVAccel: enableAccelerator() from displayModeDidChange (call #2)
+[  106.260813]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  106.260815]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  106.260818]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc set)
+[  106.260819]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc set)
+[  106.260822]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  106.260824]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  106.260827]: NVAccel: NVDisplayPipe::initFramebufferResource(index 0): scanout gate CLOSED -- returning NULL, which is the family's own default (sysctl debug.nvaccelfb=3 opens it)
+[  106.260830]: NVAccel: NVDisplayPipe::initFramebufferResource(index 0): scanout gate CLOSED -- returning NULL, which is the family's own default (sysctl debug.nvaccelfb=3 opens it)
+[  106.260836]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[  106.260839]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[  106.260841]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 0, wsaaDefer(+0x282) = 0
+[  106.260842]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 0, wsaaDefer(+0x282) = 0
+[  106.260846]: NVAccel:   MetalPluginName restored -- a NEW process that asks Metal for this accelerator can now load the plugin (already-running ones will not)
+[  106.260848]: NVAccel:   MetalPluginName restored -- a NEW process that asks Metal for this accelerator can now load the plugin (already-running ones will not)
+[  106.260853]: NVAccel:   IOGLBundleName=AppleMetalOpenGLRenderer -- NEW GL processes get a hardware renderer over Metal
+[  106.260854]: NVAccel:   IOGLBundleName=AppleMetalOpenGLRenderer -- NEW GL processes get a hardware renderer over Metal
+[  106.260856]: NVAccel:   debug.nvaccelfb now reads 1 -- armed-only Metal clients may have a device THIS BOOT ONLY (heads published 0x1, registered 0x1, piped 0x1)
+[  106.260858]: NVAccel:   debug.nvaccelfb now reads 1 -- armed-only Metal clients may have a device THIS BOOT ONLY (heads published 0x1, registered 0x1, piped 0x1)
+[  106.260865]: NVAccel:   level 4: registering any published head that has no pipe yet
+[  106.260866]: NVAccel:   level 4: registering any published head that has no pipe yet
+[  106.260868]: NVAccel: registerFramebuffer(1): framebuffer count before = 1
+[  106.260869]: NVAccel: registerFramebuffer(1): framebuffer count before = 1
+[  106.260871]: NVAccel:   framebuffer count after = 1
+[  106.260872]: NVAccel:   framebuffer count after = 1
+[  106.260873]: NVAccel: sysctl debug.nvaccelfb=4: scanout-backed display pipe ENABLED, re-delivering the mode change
+[  106.260874]: NVAccel: sysctl debug.nvaccelfb=4: scanout-backed display pipe ENABLED, re-delivering the mode change
+[  106.260876]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[  106.260877]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[  106.260879]: NVAccel: DM displayModeWillChange
+[  106.260880]: NVAccel: DM displayModeWillChange
+[  106.260881]: NVAccel: DM displayModeDidChange -> true
+[  106.260883]: NVAccel: DM displayModeDidChange -> true
+[  106.260884]: NVAccel: enableAccelerator() from displayModeDidChange (call #3)
+[  106.260885]: NVAccel: enableAccelerator() from displayModeDidChange (call #3)
+[  106.260888]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  106.260890]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  106.260893]: NVRM-fb: nvScanoutInfo -> phys 0x3fc00200000 2560x1600 pitch 10240 (16384000 bytes)
+[  106.260896]: NVRM-fb: nvScanoutInfo -> phys 0x3fc00200000 2560x1600 pitch 10240 (16384000 bytes)
+[  106.260900]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[  106.260900]: NVAccel: newVidMemory -> <ptr>
+[  106.260902]: NVAccel: newVidMemory -> <ptr>
+[  106.260902]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[  106.260903]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.260905]: NVRM-fb: fb3: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  106.260905]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[  106.260907]: NVRM-fb: fb3: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  106.260904]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  106.260909]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[  106.260911]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  106.260910]: NVRM-fb: index 3: reusing the shared NvKmsKapiDevice
+[  106.260916]: NVRM-fb: index 3: reusing the shared NvKmsKapiDevice
+[  106.260919]: NVAccel: newMemoryMap -> <ptr>
+[  106.260920]: NVAccel: newMemoryMap -> <ptr>
+[  106.260925]: NVRM-fb: nvRmHandles -> kapiDevice set
+[  106.260927]: NVRM-fb: nvRmHandles -> kapiDevice set
+[  106.260928]: NVAccel: RM handles: kapiDevice <ptr> (hClient/hDevice resolved inside NVRM by name) *** the accelerator can now build GPU page tables ***
+[  106.260930]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  106.260930]: NVAccel: RM handles: kapiDevice <ptr> (hClient/hDevice resolved inside NVRM by name) *** the accelerator can now build GPU page tables ***
+[  106.260932]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  106.260934]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  106.260935]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  106.260937]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  106.260939]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  106.260941]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  106.260942]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  106.260943]: NVRM-fb: index 3: only 1 display(s) connected -- nothing to drive, not starting
+[  106.260944]: NVRM-fb: index 3: only 1 display(s) connected -- nothing to drive, not starting
+[  106.260946]: NVRM-fb: index 3: spare framebuffer instance (a display-less index) -- not started, expected
+[  106.260947]: NVRM-fb: index 3: spare framebuffer instance (a display-less index) -- not started, expected
+[  106.260949]: NVRM-fb: fb1: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  106.260949]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[  106.260952]: NVRM-fb: fb1: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  106.260954]: NVRM-fb: BAR1 metadata: 8192 MB at 0x3fc00000000; normal surface budget 4096 MB
+[  106.260957]: NVRM-fb: index 1: reusing the shared NvKmsKapiDevice
+[  106.260958]: NVRM-fb: index 1: reusing the shared NvKmsKapiDevice
+[  106.260966]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  106.260968]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  106.260969]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  106.260971]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  106.260972]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  106.260973]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  106.260976]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  106.260977]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  106.260978]: NVRM-fb: index 1: only 1 display(s) connected -- nothing to drive, not starting
+[  106.260981]: NVRM-fb: index 1: only 1 display(s) connected -- nothing to drive, not starting
+[  106.260983]: NVRM-fb: index 1: spare framebuffer instance (a display-less index) -- not started, expected
+[  106.260984]: NVRM-fb: index 1: spare framebuffer instance (a display-less index) -- not started, expected
+[  106.260989]: NVRM-fb: fb2: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  106.260991]: NVRM-fb: fb2: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  106.260996]: NVRM-fb: index 2: reusing the shared NvKmsKapiDevice
+[  106.260997]: NVRM-fb: index 2: reusing the shared NvKmsKapiDevice
+[  106.261007]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  106.261010]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  106.261012]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  106.261014]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  106.261016]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  106.261021]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  106.261025]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  106.261026]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  106.261028]: NVRM-fb: index 2: only 1 display(s) connected -- nothing to drive, not starting
+[  106.261030]: NVRM-fb: index 2: only 1 display(s) connected -- nothing to drive, not starting
+[  106.261031]: NVRM-fb: index 2: spare framebuffer instance (a display-less index) -- not started, expected
+[  106.261033]: NVRM-fb: index 2: spare framebuffer instance (a display-less index) -- not started, expected
+[  106.261048]: telemetry: microstackshot every 12000000000 cycles
+[  106.262592]: NVRM-gpuva: FERMI_VASPACE_A 0xcaf00000 created for client 0xc1d0000d device 0x10001
+[  106.262874]: NVRM-gpuva: va alloc 16384000 bytes align 0 -> gpuva 0x120000000 (hVirt 0xcaf00001)
+[  106.262880]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00001)
+[  106.262882]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00001)
+[  106.262887]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (16384000 bytes) -- already backed, nothing allocated
+[  106.262889]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (16384000 bytes) -- already backed, nothing allocated
+[  106.262893]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00001 kapiMem 0 len 16384000 (mem <ptr>)
+[  106.262896]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00001 kapiMem 0 len 16384000 (mem <ptr>)
+[  106.262902]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  106.262904]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  106.262985]: NVRM-xnu: >os_map_kernel_space start=0x3fc04200000 size=0xfa0000 mode=2
+[  106.263221]: NVRM-xnu:   mapped -> 0x<ptr> (slot 25, high water 26/8192)
+[  106.263356]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_ROLE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[  106.263532]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_AP_IE_LIST> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.264577]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_WOW_ENABLED> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:22:0x16> handler=1 
+[  106.265021]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.265228]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_WOW_ENABLED> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.265361]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_WOW_PARAMETERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.265477]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_WOW_PARAMETERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.265610]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_EXTERNAL_POWER_STATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.265802]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_USB_HOST_NOTIFICATION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.265946]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NOISE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.266128]: AMFI: [non-fatal] unable to accelerate context: com.apple.DriverKit-IOUserDockChannelSerial | 65285
+[  106.266167]: Sandbox: locationd(146) deny(1) mach-lookup com.apple.PowerManagement.controlNVRM-fb: nvAllocVram #1: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva set phys <phys>  [BAR1 16384000 / 4294967296]
+[  106.266289]: NVRM-fb: nvAllocVram #1: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva set phys <phys>  [BAR1 16384000 / 4294967296]
+[  106.266296]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc04200000 kva <ptr> [BAR1 16384000]
+[  106.266300]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x3fc04200000 kva <ptr> [BAR1 16384000]
+[  106.266418]: NVRM-gpuva: MAPPED hVirt 0xcaf00001 <- hMem 0x10007  16384000 bytes vidmem  dmaOffset 0x120000000
+[  106.266423]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[  106.266425]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[  106.266441]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[  106.266443]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[  106.266452]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 1, wsaaDefer(+0x282) = 0
+[  106.266454]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 1, wsaaDefer(+0x282) = 0
+[  106.266458]: NVRM-xnu: auto-go: accelerator level 1 took after 1 try, level 4 written
+[  106.266460]: NVRM-xnu: auto-go: accelerator level 1 took after 1 try, level 4 written
+[  106.266492]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x10000064b (1 framebuffer node(s) seen)
+[  106.266510]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x10000064b (1 framebuffer node(s) seen)
+[  106.266545]: NVRM-agdc: AGDC: UP on GFX0 \M-b\M^@\M^T 1 framebuffer slot(s), maxFramebuffers 1; vendor calls 2, refused 0 (last 0)
+[  106.266600]: [PCIe:0 106266600470 ns] [childPublished()] child NVDADeviceControl(0x100000658) published
+[  106.266613]: NVRM-agdc: AGDC: command 0x3 (in 0 bytes) -> Unsupported [1/40]
+[  106.266869]: /System/Library/DriverExtensions/com.apple.DriverKit-IOUserDockChannelSerial.dext/com.apple.DriverKit-IOUserDockChannelSerial[377] ==> com.apple.dextSandbox: mobileassetd(251) deny(1) file-read-metadata /private/var/root/LibraryPMRD: setAggressiveness(0) kPMMinutesToSleep = 0
+[  106.267312]: NVRM-agdc: AGDC: command 0x941 (in 48 bytes) -> Unsupported [2/40]
+[  106.267607]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.267757]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.267870]: loadCardCapabilities status=<0x0> 
+[  106.267873]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_OS_FEATURE_FLAGS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.268048]: shared_region: 0x1f4f001a10badae7 [377(com.apple.Driver)] check_np(0x7ff7bbc0daa8) vm_shared_region_start_address() returned 0x1
+[  106.268273]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.268289]: lifs_mount:uid:0:gid:0lifs_req_callback_thread: thread <ptr> starting for mount <ptr>
+[  106.268335]: shared_region: 0x1f4f001a10badae7 [377(com.apple.Driver)] check_np(0x7ff7bbc0c9f8) vm_shared_region_start_address() returned 0x1
+[  106.268451]: 1 duplicate report for Sandbox: mobileassetd(251) deny(1) file-read-metadata /private/var/root/LibrarySandbox: mobileassetd(251) deny(1) file-read-data /Library/Preferences/com.apple.networkextension.uuidcache.plist[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.268633]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.268704]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.268838]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.269045]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_USB_HOST_NOTIFICATION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.269129]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.269173]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_NOISE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.269693]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.269969]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.270322]: shared_region: 0x1f4f001a10badae7 [377(com.apple.Driver)]: vnode_lookup(/System/DriverKit/System/Library/dyld/) failed (error=2)
+[  106.270432]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528340991:0xe0822801> handler=1 
+[  106.270478]: Sandbox: softwareupdated(119) deny(1) file-issue-extension target:/private/var/db/softwareupdate/Library/Preferences/com.apple.mobile.softwareupdated.plist extension-class:com.apple.cfprefsd.read[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.270931]: lifs_attach_mount_to_iouc_volume: mount <ptr> volume <ptr> client <ptr> device: disk0s3
+[  106.271167]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_IE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  106.271480]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_ROLE> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[  106.271519]: lifs_query_mountpoint: lmp <ptr> freespace 0x172cc33000Sandbox: softwareupdated(119) deny(1) file-issue-extension target:/private/var/db/softwareupdate/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: softwareupdated(119) deny(1) file-issue-extension target:/private/var/db/softwareupdate/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.read[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_AP_IE_LIST> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.271776]: lmp <ptr> max_filesize 0x3ffffffffffffffflifs_io_strategy_thread: thread <ptr> starting for mount <ptr>
+[  106.271809]: disk0s3: isssd 1 devblksize 512 devreadsize 0 devwritesize 0 maxreadcnt 8388608 segreadcnt 2048 maxwritecnt 8388608 segwritecnt 2048 mnt_flags 0x10201019
+[  106.271907]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_WOW_ENABLED> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:22:0x16> handler=1 
+[  106.272353]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.272529]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_WOW_ENABLED> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.272629]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_WOW_PARAMETERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.272714]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_WOW_PARAMETERS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.272822]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_EXTERNAL_POWER_STATE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.276030]: Sandbox: dasd(150) deny(1) mach-lookup com.apple.OSIntelligence.chargingBoot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm,cpuname revcpu=1 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvaccelnoheadless alcid=18 nvrmacpibl=1 n
+[  106.288411]: debug=0x0
+[  106.288673]: Found class: IOBufferMemoryDescriptor
+[  106.288676]: Found class: IOCommand
+[  106.288677]: Found class: IOCommandPool
+[  106.288678]: Found class: IODMACommand
+[  106.288691]: Found class: IODataQueueDispatchSource
+[  106.288693]: Found class: IODispatchQueue
+[  106.288694]: Found class: IODispatchSource
+[  106.288695]: Found class: IOInterruptDispatchSource
+[  106.288697]: Found class: IOMemoryDescriptor
+[  106.288708]: Found class: IOMemoryMap
+[  106.288709]: Found class: IOReporter
+[  106.288710]: Found class: IOSimpleReporter
+[  106.288712]: Found class: IOStateReporter
+[  106.288713]: Found class: IOHistogramReporter
+[  106.288714]: Found class: IOReportLegend
+[  106.288715]: Found class: IOService
+[  106.288720]: Found class: IOServiceNotificationDispatchSource
+[  106.288733]: Found class: IOServiceStateNotificationDispatchSource
+[  106.288735]: Found class: IOTimerDispatchSource
+[  106.288736]: Found class: IOUserClient
+[  106.288738]: Found class: OSAction_IOUserClient_KernelCompletion
+[  106.288739]: Found class: IOUserServer
+[  106.288749]: Found class: OSAction
+[  106.288750]: Found class: OSArray
+[  106.288752]: Found class: OSBoolean
+[  106.288753]: Found class: OSBundle
+[  106.288754]: Found class: OSCollection
+[  106.288755]: Found class: OSContainer
+[  106.288756]: Found class: OSData
+[  106.288758]: Found class: OSDictionary
+[  106.288759]: Found class: OSMappedFile
+[  106.288760]: Found class: OSNumber
+[  106.288761]: Found class: OSObject
+[  106.288762]: Found class: OSOrderedSet
+[  106.288763]: Found class: OSSerialization
+[  106.288765]: Found class: OSSet
+[  106.288766]: Found class: OSString
+[  106.288767]: Found class: _IOBlockStorageDevice
+[  106.288769]: Found class: OSAction__IOBlockStorageDevice_KernelCompletion
+[  106.288771]: Found class: IOEventLink
+[  106.288772]: Found class: IOExtensiblePaniclog
+[  106.288774]: Found class: IOThread
+[  106.288775]: Found class: IOWorkGroup
+[  106.289169]: Found class: IOUserDockChannelSerial
+[  106.289180]: Found class: IOUserDockChannelSerialClient
+[  106.289481]: Found class: IOUserSerial
+[  106.289483]: Found class: IOUserPseudoSerialUserClient
+[  106.289484]: Found class: IOUserPseudoSerial
+[  106.290807]: OnQueue SDK version 0x190600
+[  106.290849]: DK: IOUserDockChannelSerial-0x1000005b4 server launched, validating
+[  106.291143]: IOUserDockChannelSerial::<private> start
+[  106.291199]: DK: IOUserDockChannelSerial-0x1000005b4::start(IOUserResources-0x100000120) ok
+[  106.291238]: DK: IOUserServer(com.apple.IOUserDockChannelSerial-0x1000005b4)-0x10000065a::systemPower(0x30) effective 1 current 1
+[  106.291250]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x380064
+[  106.291254]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[  106.291326]: PMRD: PowerChangeOverride (ON_STATE->ON_STATE, f, 0x2) tag 0x390064
+[  106.291329]: PMRD: PowerChangeDone: ON_STATE->ON_STATE
+[  106.302554]: /System/Library/DriverExtensions/com.apple.AppleUserHIDDrivers.dext/com.apple.AppleUserHIDDrivers[384] ==> com.apple.dextBoot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm,cpuname revcpu=1 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvaccelnoheadless alcid=18 nvrmacpibl=1 n
+[  106.304184]: debug=0x0
+[  106.304211]: Found class: IOBufferMemoryDescriptor
+[  106.304213]: Found class: IOCommand
+[  106.304215]: Found class: IOCommandPool
+[  106.304216]: Found class: IODMACommand
+[  106.304219]: Found class: IODataQueueDispatchSource
+[  106.304221]: Found class: IODispatchQueue
+[  106.304222]: Found class: IODispatchSource
+[  106.304228]: Found class: IOInterruptDispatchSource
+[  106.304231]: Found class: IOMemoryDescriptor
+[  106.304233]: Found class: IOMemoryMap
+[  106.304234]: Found class: IOReporter
+[  106.304236]: Found class: IOSimpleReporter
+[  106.304237]: Found class: IOStateReporter
+[  106.304239]: Found class: IOHistogramReporter
+[  106.304240]: Found class: IOReportLegend
+[  106.304241]: Found class: IOService
+[  106.304243]: Found class: IOServiceNotificationDispatchSource
+[  106.304247]: Found class: IOServiceStateNotificationDispatchSource
+[  106.304249]: Found class: IOTimerDispatchSource
+[  106.304252]: Found class: IOUserClient
+[  106.304254]: Found class: OSAction_IOUserClient_KernelCompletion
+[  106.304256]: Found class: IOUserServer
+[  106.304258]: Found class: OSAction
+[  106.304259]: Found class: OSArray
+[  106.304260]: Found class: OSBoolean
+[  106.304262]: Found class: OSBundle
+[  106.304263]: Found class: OSCollection
+[  106.304265]: Found class: OSContainer
+[  106.304266]: Found class: OSData
+[  106.304268]: Found class: OSDictionary
+[  106.304269]: Found class: OSMappedFile
+[  106.304271]: Found class: OSNumber
+[  106.304272]: Found class: OSObject
+[  106.304273]: Found class: OSOrderedSet
+[  106.304274]: Found class: OSSerialization
+[  106.304276]: Found class: OSSet
+[  106.304277]: Found class: OSString
+[  106.304279]: Found class: _IOBlockStorageDevice
+[  106.304281]: Found class: OSAction__IOBlockStorageDevice_KernelCompletion
+[  106.304282]: Found class: IOEventLink
+[  106.304284]: Found class: IOExtensiblePaniclog
+[  106.304286]: Found class: IOThread
+[  106.304288]: Found class: IOWorkGroup
+[  106.304515]: Found class: AppleUserUSBHostHIDDevice
+[  106.304518]: Found class: AppleUserHIDEventDriver
+[  106.304826]: Found class: IOUSBHostDevice
+[  106.304835]: Found class: IOUSBHostInterface
+[  106.304864]: Found class: IOUSBHostPipe
+[  106.305364]: Found class: IOHIDElementPrivate
+[  106.305367]: Found class: IOHIDElementContainer
+[  106.305384]: Found class: IOHIDDigitizerCollection
+[  106.305386]: Found class: IOHIDEvent
+[  106.305388]: Found class: IOHIDInterfaceElementContainer
+[  106.305390]: Found class: IOUserUSBHostHIDDevice
+[  106.305392]: Found class: OSAction_IOUserUSBHostHIDDevice_CompleteInputReport
+[  106.305393]: Found class: OSAction_IOUserUSBHostHIDDevice_CompleteOutputReport
+[  106.305395]: Found class: OSAction_IOUserUSBHostHIDDevice_CompleteOutputRequest
+[  106.305397]: Found class: OSAction_IOUserUSBHostHIDDevice_TimerOccurred
+[  106.305399]: Found class: OSAction_IOUserUSBHostHIDDevice_CompleteZLP
+[  106.305400]: Found class: AppleUserHIDEventService
+[  106.305411]: Found class: OSAction_AppleUserHIDEventService_TimerOccurred
+[  106.305424]: Found class: IOHIDTransducerState
+[  106.305429]: Found class: IOUserHIDEventService
+[  106.305431]: Found class: OSAction_IOUserHIDEventService_ReportAvailable
+[  106.305433]: Found class: IOUserHIDDevice
+[  106.305435]: Found class: IOHIDInterface
+[  106.305437]: Found class: IOHIDEventService
+[  106.305450]: Found class: OSAction_IOHIDEventService__SetLED
+[  106.305453]: Found class: OSAction_IOHIDEventService__SetUserProperties
+[  106.305455]: Found class: OSAction_IOHIDEventService__CopyEvent
+[  106.305457]: Found class: IOHIDElement
+[  106.305460]: Found class: IOHIDDevice
+[  106.305462]: Found class: OSAction_IOHIDDevice__CompleteReport
+[  106.305465]: Found class: IOUserHIDEventDriver
+[  106.305467]: Found class: IOHIDEventElementCollection
+[  106.306260]: OnQueue SDK version 0x190600
+[  106.306427]: DK: AppleUserUSBHostHIDDevice-0x1000005f4 server launched, validating
+[  106.306427]: DK: AppleUserUSBHostHIDDevice-0x1000005f9 server launched, validating
+[  106.306427]: DK: AppleUserUSBHostHIDDevice-0x1000005fb server launched, validating
+[  106.306427]: DK: AppleUserUSBHostHIDDevice-0x1000005fc server launched, validating
+[  106.306431]: DK: AppleUserUSBHostHIDDevice-0x100000609 server launched, validating
+[  106.306430]: DK: AppleUserHIDEventDriver-0x100000605 server launched, validating
+[  106.306436]: DK: AppleUserUSBHostHIDDevice-0x10000060b server launched, validating
+[  106.306450]: AppleUserHIDEventDriver:0x100000605 start (state:0x0)
+
+[  106.306491]: AppleUserUSBHostHIDDevice:0x100000609 start (state:0x0)
+
+[  106.306494]: AppleUserUSBHostHIDDevice:0x1000005fb start (state:0x0)
+
+[  106.306494]: AppleUserUSBHostHIDDevice:0x1000005f4 start (state:0x0)
+
+[  106.306495]: AppleUserUSBHostHIDDevice:0x1000005fc start (state:0x0)
+
+[  106.306497]: AppleUserUSBHostHIDDevice:0x1000005f9 start (state:0x0)
+
+[  106.306501]: AppleUserUSBHostHIDDevice:0x10000060b start (state:0x0)
+
+[  106.307479]: [AppleUserHIDEventDriver.cpp:257][0x100000605] Target macOS
+[  106.307511]: AppleUserHIDEventDriver:0x100000605 start (state:0x4)
+
+[  106.307513]: AppleUserHIDEventDriver:0x100000605 start
+
+[  106.307584]: AppleUserHIDEventDriver:0x100000605 HIDRM: External device detected, state = Unknown
+
+[  106.308178]: IOHIDKeyboardEventDevice:0x10000045f open by AppleUserHIDEventDriver:0x100000605 (0x0)
+[  106.308316]: [IOUserHIDEventService.cpp:161][0x100000605] Open interface: 0x100000462
+[  106.308628]: [AppleUserHIDEventDriver.cpp:211][0x100000605] parseElements: led: 2
+[  106.308669]: [AppleUserHIDEventService.cpp:1026][0x100000605] parseElements: vendor (primary): 0 vendor (child): 0 multiaxis: 0 keyboard: 0 unicode: 0 0 biometric: 0 accel 0 gyro: 0 compass: 0 temperature: 0 orientation 0 0 sensorPropsCaps 0
+[  106.308960]: [IOUserHIDEventDriver.cpp:994][0x100000605] parseElements: keyboard: 497 pointer: 0 0 scroll: 0 led: 0 digitizer: 0 proximity: 0 gameController: 2
+[  106.309035]: [AppleUserHIDEventService.cpp:253][0x100000605] Start ret: 0x0
+[  106.309040]: [AppleUserHIDEventDriver.cpp:322][0x100000605] Start ret: 0x0
+[  106.309043]: [AppleUserHIDEventDriver.cpp:116][0x100000605] Keyboard usagePage: 1 usage: 6 vid: 1452 pid: 65535
+[  106.309069]: DK: AppleUserHIDEventDriver-0x100000605::start(IOHIDInterface-0x100000462) ok
+[  106.309595]: [IOUserUSBHostHIDDevice.cpp:1156][0x100000609] bulk pipe support:0 (reason: vendorID (5426))
+[  106.309639]: [IOUserUSBHostHIDDevice.cpp:552][0x100000609] Open interface: 0x1000004c1
+[  106.310017]: [IOUserUSBHostHIDDevice.cpp:1222][0x100000609] found in pipe (addr:132, type:3)
+[  106.310479]: [IOUserUSBHostHIDDevice.cpp:709][0x100000609] HID descriptor interface:3 index:0 length:22 22 22
+[  106.310548]: AppleUserUSBHostHIDDevice:0x100000609 start (state:0x4)
+
+[  106.310550]: AppleUserUSBHostHIDDevice:0x100000609 start
+
+[  106.310593]: [ElementContainer] Element value capacity 2344
+
+[  106.310598]: [ElementContainer] Report count: 1
+
+[  106.310598]: [ElementContainer] Report ID: 0 input:0 output:0 feature:720
+
+[  106.310802]: <dict ID="0"><key>IORegistryEntryID</key><integer size="64" ID="1">0x100000609</integer><key>IOName</key><string ID="2">AppleUserUSBHostHIDDevice</string><key>Transport</key><string ID="3">USB</string><key>VendorID</key><integer size="64" ID="4">0x1532</integer><key>ProductID</key><integer size="64" ID="5">0x99</integer><key>VersionNumber</key><integer size="64" ID="6">0x200</integer><key>Manufacturer</key><string ID="7">Razer</string><key>Product</key><string ID="8">Razer Basilisk V3</string><key>LocationID</key><integer size="32" ID="9">0x14800000</integer><key>CountryCode</key><integer size="64" ID="10">0x0</integer><key>ReportDescriptor</key><data ID="11">BQwJAaEBBgD/CQIVACUBdQiVWrEBwA==</data></dict>
+[  106.310894]: [IOUserUSBHostHIDDevice.cpp:340][0x100000609] inPipe:1  inputReportSize:8 inMaxPacketSize:8 inBufferSize:8
+[  106.310897]: [IOUserUSBHostHIDDevice.cpp:383][0x100000609] outPipe:0  outMaxPacketSize:0
+[  106.311027]: [AppleUserUSBHostHIDDevice.cpp:126][0x100000609] Start ret: 0x0
+[  106.311035]: DK: AppleUserUSBHostHIDDevice-0x100000609::start(IOUSBHostInterface-0x1000004c1) ok
+[  106.311180]: [PCIe:0 106311180257 ns] [childPublished()] child AppleUserUSBHostHIDDevice(0x100000609) published
+[  106.311351]: [IOUserUSBHostHIDDevice.cpp:1156][0x1000005fb] bulk pipe support:0 (reason: vendorID (5426))
+[  106.311375]: [IOUserUSBHostHIDDevice.cpp:552][0x1000005fb] Open interface: 0x1000004be
+[  106.311534]: AppleUserUSBHostHIDDevice:0x100000609 creating interfaces
+
+[  106.311737]: [IOUserUSBHostHIDDevice.cpp:1222][0x1000005fb] found in pipe (addr:129, type:3)
+[  106.311744]: IOHIDInterface:0x100000666 start for AppleUserUSBHostHIDDevice:0x100000609
+
+[  106.312215]: [IOUserUSBHostHIDDevice.cpp:709][0x1000005fb] HID descriptor interface:0 index:0 length:79 79 79
+[  106.312269]: AppleUserUSBHostHIDDevice:0x1000005fb start (state:0x4)
+
+[  106.312271]: AppleUserUSBHostHIDDevice:0x1000005fb start
+
+[  106.312298]: [ElementContainer] Element value capacity 292
+
+[  106.312301]: [ElementContainer] Report count: 1
+
+[  106.312302]: [ElementContainer] Report ID: 0 input:64 output:0 feature:0
+
+[  106.312483]: <dict ID="0"><key>IORegistryEntryID</key><integer size="64" ID="1">0x1000005fb</integer><key>IOName</key><string ID="2">AppleUserUSBHostHIDDevice</string><key>Transport</key><string ID="3">USB</string><key>VendorID</key><integer size="64" ID="4">0x1532</integer><key>ProductID</key><integer size="64" ID="5">0x99</integer><key>VersionNumber</key><integer size="64" ID="6">0x200</integer><key>Manufacturer</key><string ID="7">Razer</string><key>Product</key><string ID="8">Razer Basilisk V3</string><key>LocationID</key><integer size="32" ID="9">0x14800000</integer><key>CountryCode</key><integer size="64" ID="10">0x0</integer><key>ReportDescriptor</key><data ID="11">BQEJAqEBCQGhAAUJGQEpBRUAJQF1AZUFgQJ1AZULgQMFDAo4AhWBJX91CJUBgQYFAQk4FYElf3UIlQGBBgkwCTEWAIAm/391EJUCgQbAwA==</data></dict>
+[  106.312571]: [IOUserUSBHostHIDDevice.cpp:340][0x1000005fb] inPipe:1  inputReportSize:8 inMaxPacketSize:8 inBufferSize:8
+[  106.312574]: [IOUserUSBHostHIDDevice.cpp:383][0x1000005fb] outPipe:0  outMaxPacketSize:0
+[  106.312669]: [PCIe:0 106312669661 ns] [childPublished()] child IOHIDInterface(0x100000666) published
+[  106.312839]: AppleUserUSBHostHIDDevice:0x100000609 Matching has vendor DeviceUsagePage : ff0c bundleIdentifier com.apple.AppleUserHIDDrivers ioclass AppleUserHIDEventService but transport and vendorID is missing
+
+[  106.312885]: [AppleUserUSBHostHIDDevice.cpp:126][0x1000005fb] Start ret: 0x0
+[  106.312895]: DK: AppleUserUSBHostHIDDevice-0x1000005fb::start(IOUSBHostInterface-0x1000004be) ok
+[  106.313094]: [PCIe:0 106313094456 ns] [childPublished()] child AppleUserUSBHostHIDDevice(0x1000005fb) published
+[  106.313179]: Sandbox apply: audioclocksyncd[378] <bytes>[IOUserUSBHostHIDDevice.cpp:1156][0x1000005f4] bulk pipe support:0 (reason: vendorID (5426))
+[  106.313244]: [IOUserUSBHostHIDDevice.cpp:552][0x1000005f4] Open interface: 0x1000004c0
+[  106.313617]: [IOUserUSBHostHIDDevice.cpp:1222][0x1000005f4] found in pipe (addr:131, type:3)
+[  106.314061]: [IOUserUSBHostHIDDevice.cpp:709][0x1000005f4] HID descriptor interface:2 index:0 length:61 61 61
+[  106.314116]: AppleUserUSBHostHIDDevice:0x1000005f4 start (state:0x4)
+
+[  106.314118]: AppleUserUSBHostHIDDevice:0x1000005f4 start
+
+[  106.314234]: [ElementContainer] Element value capacity 6656
+
+[  106.314242]: [ElementContainer] Report count: 1
+
+[  106.314243]: [ElementContainer] Report ID: 0 input:64 output:8 feature:0
+
+[  106.314272]: AppleUserUSBHostHIDDevice:0x1000005fb creating interfaces
+
+[  106.314303]: IOHIDInterface:0x10000066a start for AppleUserUSBHostHIDDevice:0x1000005fb
+
+[  106.314517]: <dict ID="0"><key>IORegistryEntryID</key><integer size="64" ID="1">0x1000005f4</integer><key>IOName</key><string ID="2">AppleUserUSBHostHIDDevice</string><key>Transport</key><string ID="3">USB</string><key>VendorID</key><integer size="64" ID="4">0x1532</integer><key>ProductID</key><integer size="64" ID="5">0x99</integer><key>VersionNumber</key><integer size="64" ID="6">0x200</integer><key>Manufacturer</key><string ID="7">Razer</string><key>Product</key><string ID="8">Razer Basilisk V3</string><key>LocationID</key><integer size="32" ID="9">0x14800000</integer><key>CountryCode</key><integer size="64" ID="10">0x0</integer><key>ReportDescriptor</key><data ID="11">BQEJBqEBBQcZ4CnnFQAlAXUBlQiBAoEBGQAq/wAVACb/AHUIlQaBAAUIGQEpAxUAJQF1AZUDkQKVBZEBwA==</data></dict>
+[  106.314607]: [IOUserUSBHostHIDDevice.cpp:340][0x1000005f4] inPipe:1  inputReportSize:8 inMaxPacketSize:8 inBufferSize:8
+[  106.314610]: [IOUserUSBHostHIDDevice.cpp:383][0x1000005f4] outPipe:0  outMaxPacketSize:0
+[  106.314716]: [AppleUserUSBHostHIDDevice.cpp:126][0x1000005f4] Start ret: 0x0
+[  106.314723]: DK: AppleUserUSBHostHIDDevice-0x1000005f4::start(IOUSBHostInterface-0x1000004c0) ok
+[  106.314856]: [PCIe:0 106314856786 ns] [childPublished()] child AppleUserUSBHostHIDDevice(0x1000005f4) published
+[  106.314950]: [IOUserUSBHostHIDDevice.cpp:1156][0x1000005fc] bulk pipe support:0 (reason: vendorID (1165))
+[  106.314975]: [IOUserUSBHostHIDDevice.cpp:552][0x1000005fc] Open interface: 0x1000004a6
+[  106.315258]: AppleUserUSBHostHIDDevice:0x1000005f4 creating interfaces
+
+[  106.315263]: [PCIe:0 106315262920 ns] [childPublished()] child IOHIDInterface(0x10000066a) published
+[  106.315280]: IOHIDInterface:0x10000066e start for AppleUserUSBHostHIDDevice:0x1000005f4
+
+[  106.315342]: [IOUserUSBHostHIDDevice.cpp:1222][0x1000005fc] found in pipe (addr:129, type:3)
+[  106.315468]: Driver com.apple.AppleUserHIDDrivers has crashed 0 time(s)
+[  106.315476]: AppleUserUSBHostHIDDevice:0x1000005fb Matching has vendor DeviceUsagePage : ff0c bundleIdentifier com.apple.AppleUserHIDDrivers ioclass AppleUserHIDEventService but transport and vendorID is missing
+
+[  106.315493]: AppleUserHIDEventDriver:0x10000066f start (state:0x0)
+
+[  106.315520]: IOTimeSyncDaemonService::registerProcess 378
+[  106.315919]: IOTimeSyncClockManager::addgPTPServices adding IOTimeSyncgPTPManager
+[  106.316023]: [PCIe:0 106316022821 ns] [childPublished()] child IOHIDInterface(0x10000066e) published
+[  106.316063]: IOTimeSyncgPTPManager::init created and initing
+[  106.316106]: Using soft DMA false for model MacBookPro16,1
+[  106.316354]: IOTimeSyncgPTPManager::start creating system domain
+[  106.316381]:   IOTimeSyncDomain(0x183d2d9f34ef0008): Started PTP Domain 0x183d2d9f34ef0008
+[  106.316512]: priorityCalculationInputs en1 isWiFiInterface:0  IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): Battery Powered: true
+[  106.316519]:   IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): Has Wired Ethernet Link: false
+[  106.316520]:   IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): Has Ethernet HW Timestamps: false
+[  106.316521]:   IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): Has WiFi HW Timestamps: false
+[  106.316521]:   IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): External Power Connected: true
+[  106.316527]:   IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): Device is battery powered
+[  106.316542]:   IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): Created general notifier <ptr> for local clock port <ptr>
+[  106.316552]: priorityCalculationInputs en1 isWiFiInterface:0  IOTimeSyncDomain(0x183d2d9f34ef0008): Set lock state to Locking from Not Locking  IOTimeSyncDomain(0x183d2d9f34ef0008): [Lock state] Kernel notifying kIOTimeSyncNotificationChangeClockLockState to Locking  IOTimeSyncDomain(0x183d2d9f34ef0008): [BMCA] Starting port role changes  IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): messagePriorityVector 250, 248, 33, 17258, 247, 0x183d2d9f34ef0008, 0, 0x183d2d9f34ef0008, 0, 0
+[  106.316568]:   IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): AnnounceInfo 250, 248, 33, 17258, 247, 0x183d2d9f34ef0008, 0 | 0x0008, 37, 160
+[  106.316570]:   IOTimeSyncTimeSyncTimePort(0x183d2d9f34ef0008): Set role to Slave from Disabled  IOTimeSyncDomain(0x183d2d9f34ef0008): [GM Change] Kernel notifying kIOTimeSyncDomainNotificationEndGrandmasterChange GMID 0x183d2d9f34ef0008, port 0  IOTimeSyncDomain(0x183d2d9f34ef0008): Set lock state to Locked from Locking  IOTimeSyncDomain(0x183d2d9f34ef0008): [Lock state] Took 0 milliseconds to lock  IOTimeSyncDomain(0x183d2d9f34ef0008): [Lock state] Kernel notifying kIOTimeSyncNotificationChangeClockLockState to Locked  IOTimeSyncDomain(0x183d2d9f34ef0008): [BMCA] Finished port role changes  IOTimeSyncDomain(0x183d2d9f34ef0008): Set clock slave port to 0, grandmaster Identity 0x183d2d9f34ef0008
+[  106.316588]:   IOTimeSyncDomain(0x183d2d9f34ef0008): start registered service
+[  106.316598]: Instantiated system domain 0x183d2d9f34ef0008
+[  106.316604]: IOTimeSyncgPTPManager::start registered service
+[  106.316858]: Driver com.apple.AppleUserHIDDrivers has crashed 0 time(s)
+[  106.316873]: [IOUserUSBHostHIDDevice.cpp:709][0x1000005fc] HID descriptor interface:0 index:0 length:231 231 231
+[  106.316879]: AppleUserHIDEventDriver:0x100000677 start (state:0x0)
+
+[  106.316931]: AppleUserUSBHostHIDDevice:0x1000005fc start (state:0x4)
+
+[  106.316933]: AppleUserUSBHostHIDDevice:0x1000005fc start
+
+[  106.317344]: Driver com.apple.AppleUserHIDDrivers has crashed 0 time(s)
+[  106.317355]: AppleUserHIDEventDriver:0x10000067a start (state:0x0)
+
+[  106.317387]: [ElementContainer] Element value capacity 52516
+
+[  106.317434]: [ElementContainer] Report count: 8
+
+[  106.317435]: [ElementContainer] Report ID: 0 input:0 output:0 feature:0
+
+[  106.317452]: [ElementContainer] Report ID: 90 input:8 output:8 feature:136
+
+[  106.317463]: IOTimeSyncDaemonService::registerProcess 229
+[  106.317468]: [ElementContainer] Report ID: 7 input:8 output:8 feature:7680
+
+[  106.317487]: [ElementContainer] Report ID: 204 input:8 output:8 feature:264
+
+[  106.317503]: [ElementContainer] Report ID: 1 input:344 output:16 feature:8
+
+[  106.317521]: [ElementContainer] Report ID: 5 input:80 output:8 feature:8
+
+[  106.317537]: [ElementContainer] Report ID: 2 input:24 output:8 feature:8
+
+[  106.317555]: [ElementContainer] Report ID: 3 input:16 output:8 feature:8
+
+[  106.317690]: Sandbox apply: wifip2pd[380] <bytes><dict ID="0"><key>IORegistryEntryID</key><integer size="64" ID="1">0x1000005fc</integer><key>IOName</key><string ID="2">AppleUserUSBHostHIDDevice</string><key>Transport</key><string ID="3">USB</string><key>VendorID</key><integer size="64" ID="4">0x48d</integer><key>ProductID</key><integer size="64" ID="5">0xc195</integer><key>VersionNumber</key><integer size="64" ID="6">0x16</integer><key>Manufacturer</key><string ID="7">ITE Tech. Inc.</string><key>Product</key><string ID="8">ITE Device(8258)</string><key>LocationID</key><integer size="32" ID="9">0x14500000</integer><key>CountryCode</key><integer size="64" ID="10">0x0</integer><key>ReportDescriptor</key><data ID="11">Bon/CRChAYVaCQEVACb/AHUIlRCxAMAGif8JB6EBhQcJARUAJv8AdQiWvwOxAMAGif8JzKEBhcwJARUAJv8AdQiVILEAwAUBCQahAYUBdQGVCAUHGeAp5xUAJQGBApUBdQiBAwUIGQEpBZUFdQGRApUBdQORAwUHGQAq/wAVACb/AJUMdQiBAAUHGQAp3xUAJQGV4HUBgQLABpn/CRChAYUFGgD/KhD/FgD/JhD/dQiVCYEAwAUMCQGhAYUCGQAqPAIVACY8AnUQlQGBAMAFAQkMoQGFAxUAJQEJxpUBdQGBBnUHgQPA</data></dict>
+[  106.318136]: [IOUserUSBHostHIDDevice.cpp:340][0x1000005fc] inPipe:1  inputReportSize:43 inMaxPacketSize:64 inBufferSize:64
+[  106.318140]: [IOUserUSBHostHIDDevice.cpp:383][0x1000005fc] outPipe:0  outMaxPacketSize:0
+[  106.318142]: [IOUserUSBHostHIDDevice.cpp:1057][0x1000005fc] SetIdle:24ms
+[  106.318959]: [AppleUserUSBHostHIDDevice.cpp:126][0x1000005fc] Start ret: 0x0
+[  106.318968]: DK: AppleUserUSBHostHIDDevice-0x1000005fc::start(IOUSBHostInterface-0x1000004a6) ok
+[  106.319095]: [PCIe:0 106319095531 ns] [childPublished()] child AppleUserUSBHostHIDDevice(0x1000005fc) published
+[  106.319278]: [IOUserUSBHostHIDDevice.cpp:1156][0x1000005f9] bulk pipe support:0 (reason: vendorID (6127))
+[  106.319306]: [IOUserUSBHostHIDDevice.cpp:552][0x1000005f9] Open interface: 0x1000004c3
+[  106.319429]: AppleUserUSBHostHIDDevice:0x1000005fc creating interfaces
+
+[  106.319448]: IOHIDInterface:0x100000683 start for AppleUserUSBHostHIDDevice:0x1000005fc
+
+[  106.319655]: [IOUserUSBHostHIDDevice.cpp:1222][0x1000005f9] found in pipe (addr:131, type:3)
+[  106.320289]: [PCIe:0 106320288884 ns] [childPublished()] child IOHIDInterface(0x100000683) published
+[  106.320467]: AppleUserUSBHostHIDDevice:0x1000005fc Matching has vendor DeviceUsagePage : ff0c bundleIdentifier com.apple.AppleUserHIDDrivers ioclass AppleUserHIDEventService but transport and vendorID is missing
+
+[  106.321240]: [IOUserUSBHostHIDDevice.cpp:709][0x1000005f9] HID descriptor interface:1 index:0 length:160 160 160
+[  106.321329]: AppleUserUSBHostHIDDevice:0x1000005f9 start (state:0x4)
+
+[  106.321332]: AppleUserUSBHostHIDDevice:0x1000005f9 start
+
+[  106.321398]: [ElementContainer] Element value capacity 2728
+
+[  106.321404]: [ElementContainer] Report count: 8
+
+[  106.321405]: [ElementContainer] Report ID: 0 input:0 output:0 feature:0
+
+[  106.321407]: [ElementContainer] Report ID: 193 input:136 output:1096 feature:488
+
+[  106.321410]: [ElementContainer] Report ID: 194 input:136 output:136 feature:8
+
+[  106.321412]: [ElementContainer] Report ID: 91 input:8 output:8 feature:136
+
+[  106.321414]: [ElementContainer] Report ID: 81 input:2048 output:8 feature:8
+
+[  106.321416]: [ElementContainer] Report ID: 82 input:8 output:2048 feature:8
+
+[  106.321417]: [ElementContainer] Report ID: 83 input:8 output:8 feature:2048
+
+[  106.321419]: [ElementContainer] Report ID: 84 input:8 output:8 feature:2048
+
+[  106.321688]: <dict ID="0"><key>IORegistryEntryID</key><integer size="64" ID="1">0x1000005f9</integer><key>IOName</key><string ID="2">AppleUserUSBHostHIDDevice</string><key>Transport</key><string ID="3">USB</string><key>VendorID</key><integer size="64" ID="4">0x17ef</integer><key>ProductID</key><integer size="64" ID="5">0xf006</integer><key>VersionNumber</key><integer size="64" ID="6">0x78</integer><key>Manufacturer</key><string ID="7">ZEPHYR</string><key>Product</key><string ID="8">Idea5003</string><key>LocationID</key><integer size="32" ID="9">0x14200000</integer><key>CountryCode</key><integer size="64" ID="10">0x0</integer><key>SerialNumber</key><string ID="11">0123456789ABCDEF</string><key>ReportDescriptor</key><data ID="12">Bs//CaChAYXBCWIVACb/AHUIlTyxAglmFQAm/wB1CJUQgQIJYRUAJv8AdQiViJEChcIJihUAJv8AdQiVEIECCY4VACb/AHUIlRCRAsAGUP8JA6EBhVsJARUAJv8AdQiVELEAwAX/CQChARUAJv8AhVF1CJX/CQCBgoVSdQiV/wkAkYKFUxUAJf91CJX/CQCxgoVUFQAl/3UIlf8JALGCwA==</data></dict>
+[  106.321792]: Driver com.apple.AppleUserHIDDrivers has crashed 0 time(s)
+[  106.321806]: AppleUserHIDEventDriver:0x100000686 start (state:0x0)
+
+[  106.322015]: [IOUserUSBHostHIDDevice.cpp:340][0x1000005f9] inPipe:1  inputReportSize:256 inMaxPacketSize:64 inBufferSize:256
+[  106.322020]: [IOUserUSBHostHIDDevice.cpp:383][0x1000005f9] outPipe:0  outMaxPacketSize:0
+[  106.322406]: [AppleUserUSBHostHIDDevice.cpp:126][0x1000005f9] Start ret: 0x0
+[  106.322415]: DK: AppleUserUSBHostHIDDevice-0x1000005f9::start(IOUSBHostInterface-0x1000004c3) ok
+[  106.322522]: Sandbox apply: distnoted[375] <bytes>[PCIe:0 106322587039 ns] [childPublished()] child AppleUserUSBHostHIDDevice(0x1000005f9) published
+[  106.322782]: [IOUserUSBHostHIDDevice.cpp:1156][0x10000060b] bulk pipe support:0 (reason: vendorID (5426))
+[  106.322809]: [IOUserUSBHostHIDDevice.cpp:552][0x10000060b] Open interface: 0x1000004bf
+[  106.323123]: AppleUserUSBHostHIDDevice:0x1000005f9 creating interfaces
+
+[  106.323151]: IOHIDInterface:0x10000068d start for AppleUserUSBHostHIDDevice:0x1000005f9
+
+[  106.323196]: [IOUserUSBHostHIDDevice.cpp:1222][0x10000060b] found in pipe (addr:130, type:3)
+[  106.323604]: Sandbox apply: kernelmanager_helper[382] <bytes>[IOUserUSBHostHIDDevice.cpp:709][0x10000060b] HID descriptor interface:1 index:0 length:159 159 159
+[  106.323849]: AppleUserUSBHostHIDDevice:0x10000060b start (state:0x4)
+
+[  106.323851]: AppleUserUSBHostHIDDevice:0x10000060b start
+
+[  106.323926]: [PCIe:0 106323925952 ns] [childPublished()] child IOHIDInterface(0x10000068d) published
+[  106.324098]: [ElementContainer] Element value capacity 21864
+
+[  106.324122]: [ElementContainer] Report count: 6
+
+[  106.324122]: [ElementContainer] Report ID: 0 input:0 output:0 feature:0
+
+[  106.324130]: [ElementContainer] Report ID: 1 input:128 output:8 feature:8
+
+[  106.324138]: [ElementContainer] Report ID: 2 input:128 output:8 feature:8
+
+[  106.324147]: [ElementContainer] Report ID: 3 input:128 output:8 feature:8
+
+[  106.324154]: [ElementContainer] Report ID: 4 input:128 output:8 feature:8
+
+[  106.324162]: [ElementContainer] Report ID: 5 input:128 output:8 feature:8
+
+[  106.324412]: <dict ID="0"><key>IORegistryEntryID</key><integer size="64" ID="1">0x10000060b</integer><key>IOName</key><string ID="2">AppleUserUSBHostHIDDevice</string><key>Transport</key><string ID="3">USB</string><key>VendorID</key><integer size="64" ID="4">0x1532</integer><key>ProductID</key><integer size="64" ID="5">0x99</integer><key>VersionNumber</key><integer size="64" ID="6">0x200</integer><key>Manufacturer</key><string ID="7">Razer</string><key>Product</key><string ID="8">Razer Basilisk V3</string><key>LocationID</key><integer size="32" ID="9">0x14800000</integer><key>CountryCode</key><integer size="64" ID="10">0x0</integer><key>ReportDescriptor</key><data ID="11">BQEJBqEBhQEFBxngKecVACUBdQGVCIECGQAq/wAVACb/AHUIlQ6BAMAFDAkBoQGFAhkAKjwCFQAmPAKVAXUQgQB1CJUNgQHABQEJgKEBhQMZgSmDFQAlAXUBlQOBApUFgQF1CJUOgQHABQEJAKEBhQQJAxUAJv8ANQBG/wB1CJUPgQDABQEJAKEBhQUJAxUAJv8ANQBG/wB1CJUPgQDA</data></dict>
+[  106.324638]: [IOUserUSBHostHIDDevice.cpp:340][0x10000060b] inPipe:1  inputReportSize:16 inMaxPacketSize:16 inBufferSize:16
+[  106.324642]: [IOUserUSBHostHIDDevice.cpp:383][0x10000060b] outPipe:0  outMaxPacketSize:0
+[  106.324879]: [AppleUserUSBHostHIDDevice.cpp:126][0x10000060b] Start ret: 0x0
+[  106.324888]: DK: AppleUserUSBHostHIDDevice-0x10000060b::start(IOUSBHostInterface-0x1000004bf) ok
+[  106.325068]: [PCIe:0 106325067872 ns] [childPublished()] child AppleUserUSBHostHIDDevice(0x10000060b) published
+[  106.325153]: [AppleUserHIDEventDriver.cpp:257][0x10000066f] Target macOS
+[  106.325176]: AppleUserHIDEventDriver:0x10000066f start (state:0x4)
+
+[  106.325177]: AppleUserHIDEventDriver:0x10000066f start
+
+[  106.325215]: AppleUserHIDEventDriver:0x10000066f HIDRM: External device detected, state = Unknown
+
+[  106.325386]: [IOUserHIDEventService.cpp:187][0x10000066f] Max input report size = 0
+[  106.325389]: [IOUserHIDEventService.cpp:147][0x10000066f] Failed to create report pool
+[  106.325391]: [IOUserHIDEventService.cpp:168][0x10000066f] Start failed: 0x0
+[  106.325393]: [IOUserHIDEventDriver.cpp:201][0x10000066f] Start failed: 0xe00002bc
+[  106.325395]: [AppleUserHIDEventService.cpp:235][0x10000066f] Start: 0xe00002bc
+[  106.325397]: [AppleUserHIDEventService.cpp:253][0x10000066f] Start ret: 0xe00002bc
+[  106.325399]: [AppleUserHIDEventDriver.cpp:311][0x10000066f] Start: 0xe00002bc
+[  106.325401]: [AppleUserHIDEventDriver.cpp:318][0x10000066f] Start failed: 0xe00002bc
+[  106.325407]: [IOUserHIDEventService.cpp:360][0x10000066f] Close interface: 0x100000666 0x0
+[  106.325409]: [AppleUserHIDEventDriver.cpp:333][0x10000066f] Stop: 0x0
+[  106.325411]: [AppleUserHIDEventDriver.cpp:322][0x10000066f] Start ret: 0xe00002bc
+[  106.325414]: [AppleUserHIDEventDriver.cpp:116][0x10000066f] Razer Basilisk V3 usagePage: 12 usage: 1 vid: 5426 pid: 153
+[  106.325426]: AppleUserHIDEventDriver:0x10000066f AppleUserHIDEventService::Start:0xe00002bc
+
+
+[  106.325430]: DK: AppleUserHIDEventDriver-0x10000066f::start(IOHIDInterface-0x100000666) fail
+[  106.325439]: IOHIDEventDriver:0x100000670 start
+
+[  106.325450]: AppleUserUSBHostHIDDevice:0x100000609 open by IOHIDEventDriver:0x100000670 (0x0)
+[  106.325515]: IOHIDEventDriver:0x100000670 Invalid digitizer transducer
+
+[  106.325518]: IOHIDEventDriver:0x100000670 keyboard: 0 digitizer: 0 gameController: 0 multiAxis: 0 proximity: 0 relative: 0 scroll: 0 led: 0 unicode: 0 0compass: 0 orientation 0 0 vendor (child): 0 vendor (primary): 0 biometric: 0 gyro: 0 temperature: 0 accel: 0 heartrate:0
+
+[  106.325521]: IOHIDEventDriver:0x100000670 failed to parse elements.
+
+[  106.325522]: IOHIDEventDriver:0x100000670 start failed.
+
+[  106.325523]: AppleUserUSBHostHIDDevice:0x100000609 close by IOHIDEventDriver:0x100000670 (0x0)
+[  106.325679]: [AppleUserHIDEventDriver.cpp:257][0x100000677] Target macOS
+[  106.325699]: AppleUserUSBHostHIDDevice:0x10000060b creating interfaces
+
+[  106.325713]: AppleUserHIDEventDriver:0x100000677 start (state:0x4)
+
+[  106.325715]: AppleUserHIDEventDriver:0x100000677 start
+
+[  106.325726]: IOHIDInterface:0x100000691 start for AppleUserUSBHostHIDDevice:0x10000060b
+
+[  106.325756]: AppleUserHIDEventDriver:0x100000677 HIDRM: External device detected, state = Unknown
+
+[  106.325951]: Sandbox apply: com.apple.MobileAsset.DownloadSe[381] <bytes>AppleUserUSBHostHIDDevice:0x1000005fb open by AppleUserHIDEventDriver:0x100000677 (0x0)
+[  106.326440]: [IOUserHIDEventService.cpp:161][0x100000677] Open interface: 0x10000066a
+[  106.326450]: [AppleUserHIDEventDriver.cpp:211][0x100000677] parseElements: led: 0
+[  106.326456]: [AppleUserHIDEventService.cpp:1026][0x100000677] parseElements: vendor (primary): 0 vendor (child): 0 multiaxis: 0 keyboard: 0 unicode: 0 0 biometric: 0 accel 0 gyro: 0 compass: 0 temperature: 0 orientation 0 0 sensorPropsCaps 0
+[  106.326510]: [IOUserHIDEventDriver.cpp:994][0x100000677] parseElements: keyboard: 0 pointer: 7 0 scroll: 2 led: 0 digitizer: 0 proximity: 0 gameController: 0
+[  106.326540]: [AppleUserHIDEventService.cpp:253][0x100000677] Start ret: 0x0
+[  106.326545]: [AppleUserHIDEventDriver.cpp:322][0x100000677] Start ret: 0x0
+[  106.326548]: [AppleUserHIDEventDriver.cpp:116][0x100000677] Razer Basilisk V3 usagePage: 1 usage: 2 vid: 5426 pid: 153
+[  106.326560]: [PCIe:0 106326560143 ns] [childPublished()] child IOHIDInterface(0x100000691) published
+[  106.326562]: DK: AppleUserHIDEventDriver-0x100000677::start(IOHIDInterface-0x10000066a) ok
+[  106.326724]: [PCIe:0 106326724249 ns] [childPublished()] child AppleUserHIDEventDriver(0x100000677) published
+[  106.326765]: [AppleUserHIDEventDriver.cpp:257][0x10000067a] Target macOS
+[  106.326774]: AppleUserUSBHostHIDDevice:0x10000060b Matching has vendor DeviceUsagePage : ff0c bundleIdentifier com.apple.AppleUserHIDDrivers ioclass AppleUserHIDEventService but transport and vendorID is missing
+
+[  106.326786]: AppleUserHIDEventDriver:0x10000067a start (state:0x4)
+
+[  106.326788]: AppleUserHIDEventDriver:0x10000067a start
+
+[  106.326832]: AppleUserHIDEventDriver:0x10000067a HIDRM: External device detected, state = Unknown
+
+[  106.327107]: AppleUserUSBHostHIDDevice:0x1000005f4 open by AppleUserHIDEventDriver:0x10000067a (0x0)
+[  106.327115]: [IOUserHIDEventService.cpp:161][0x10000067a] Open interface: 0x10000066e
+[  106.327194]: [AppleUserHIDEventDriver.cpp:211][0x10000067a] parseElements: led: 3
+[  106.327200]: [AppleUserHIDEventService.cpp:1026][0x10000067a] parseElements: vendor (primary): 0 vendor (child): 0 multiaxis: 0 keyboard: 0 unicode: 0 0 biometric: 0 accel 0 gyro: 0 compass: 0 temperature: 0 orientation 0 0 sensorPropsCaps 0
+[  106.327326]: [IOUserHIDEventDriver.cpp:994][0x10000067a] parseElements: keyboard: 236 pointer: 0 0 scroll: 0 led: 0 digitizer: 0 proximity: 0 gameController: 3
+[  106.327363]: [AppleUserHIDEventService.cpp:253][0x10000067a] Start ret: 0x0
+[  106.327368]: [AppleUserHIDEventDriver.cpp:322][0x10000067a] Start ret: 0x0
+[  106.327371]: [AppleUserHIDEventDriver.cpp:116][0x10000067a] Razer Basilisk V3 usagePage: 1 usage: 6 vid: 5426 pid: 153
+[  106.327382]: DK: AppleUserHIDEventDriver-0x10000067a::start(IOHIDInterface-0x10000066e) ok
+[  106.327547]: [PCIe:0 106327547201 ns] [childPublished()] child AppleUserHIDEventDriver(0x10000067a) published
+[  106.327600]: [AppleUserHIDEventDriver.cpp:257][0x100000686] Target macOS
+[  106.327621]: AppleUserHIDEventDriver:0x100000686 start (state:0x4)
+
+[  106.327622]: AppleUserHIDEventDriver:0x100000686 start
+
+[  106.327729]: AppleUserHIDEventDriver:0x100000686 HIDRM: Built-in device detected, state = Allowed
+
+[  106.328021]: Driver com.apple.AppleUserHIDDrivers has crashed 0 time(s)
+[  106.328035]: AppleUserHIDEventDriver:0x100000696 start (state:0x0)
+
+[  106.328950]: AppleUserUSBHostHIDDevice:0x1000005fc open by AppleUserHIDEventDriver:0x100000686 (0x0)
+[  106.328959]: [IOUserHIDEventService.cpp:161][0x100000686] Open interface: 0x100000683
+[  106.329519]: [AppleUserHIDEventDriver.cpp:211][0x100000686] parseElements: led: 5
+[  106.329525]: [AppleUserHIDEventService.cpp:1026][0x100000686] parseElements: vendor (primary): 0 vendor (child): 0 multiaxis: 0 keyboard: 0 unicode: 0 0 biometric: 0 accel 0 gyro: 0 compass: 0 temperature: 0 orientation 0 0 sensorPropsCaps 0
+[  106.329700]: Sandbox: wifip2pd(380) deny(1) file-read-data /usr/libexec/wifip2pd[IOUserHIDEventDriver.cpp:994][0x100000686] parseElements: keyboard: 1026 pointer: 0 0 scroll: 1 led: 0 digitizer: 0 proximity: 1 gameController: 5
+[  106.330062]: [AppleUserHIDEventService.cpp:253][0x100000686] Start ret: 0x0
+[  106.330067]: [AppleUserHIDEventDriver.cpp:322][0x100000686] Start ret: 0x0
+[  106.330071]: [AppleUserHIDEventDriver.cpp:116][0x100000686] ITE Device(8258) usagePage: 65417 usage: 16 vid: 1165 pid: 49557
+[  106.330089]: DK: AppleUserHIDEventDriver-0x100000686::start(IOHIDInterface-0x100000683) ok
+[  106.330283]: [AppleUserHIDEventDriver.cpp:257][0x100000696] Target macOS
+[  106.330303]: AppleUserHIDEventDriver:0x100000696 start (state:0x4)
+
+[  106.330305]: AppleUserHIDEventDriver:0x100000696 start
+
+[  106.330342]: [PCIe:0 106330341895 ns] [childPublished()] child AppleUserHIDEventDriver(0x100000686) published
+[  106.330372]: AppleUserHIDEventDriver:0x100000696 HIDRM: External device detected, state = Unknown
+
+[  106.330946]: AppleUserUSBHostHIDDevice:0x10000060b open by AppleUserHIDEventDriver:0x100000696 (0x0)
+[  106.330956]: [IOUserHIDEventService.cpp:161][0x100000696] Open interface: 0x100000691
+[  106.331177]: [AppleUserHIDEventDriver.cpp:211][0x100000696] parseElements: led: 0
+[  106.331183]: [AppleUserHIDEventService.cpp:1026][0x100000696] parseElements: vendor (primary): 0 vendor (child): 0 multiaxis: 0 keyboard: 0 unicode: 0 0 biometric: 0 accel 0 gyro: 0 compass: 0 temperature: 0 orientation 0 0 sensorPropsCaps 0
+[  106.331229]: com.apple.p2p.stats.en1: [wifip2pd] succeeded in calling newUserClient, type[0x00000000], role[1], ret[0x00000000]
+[  106.331288]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_DRIVER_VERSION> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.331356]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.331476]: [IOUserHIDEventDriver.cpp:994][0x100000696] parseElements: keyboard: 809 pointer: 0 0 scroll: 1 led: 0 digitizer: 0 proximity: 1 gameController: 0
+[  106.331547]: [AppleUserHIDEventService.cpp:253][0x100000696] Start ret: 0x0
+[  106.331552]: [AppleUserHIDEventDriver.cpp:322][0x100000696] Start ret: 0x0
+[  106.331555]: [AppleUserHIDEventDriver.cpp:116][0x100000696] Razer Basilisk V3 usagePage: 1 usage: 6 vid: 5426 pid: 153
+[  106.331566]: DK: AppleUserHIDEventDriver-0x100000696::start(IOHIDInterface-0x100000691) ok
+[  106.331691]: [PCIe:0 106331691263 ns] [childPublished()] child AppleUserHIDEventDriver(0x100000696) published
+[  106.331897]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_VIRTUAL_IF_PARENT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:6:0x6> handler=1 
+[  106.342123]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_USERSPACE_P2P_OPTIONS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.342450]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.342602]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.343240]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_COUNTRY_CODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.344514]: extEventMonitorInit: enter
+[  106.344518]: createEventPipe: enter: pipe count: 2
+[  106.344543]: ClientMemoryForType[0x1]
+[  106.344547]: getRingMD: enter : pipe count 3
+[  106.344558]: ClientMemoryForType[0x2]
+[  106.344559]: getRingMD: enter : pipe count 3
+[  106.344569]: extSubscribeEvent: enter
+[  106.345551]: Sandbox: wifip2pd(380) deny(1) mach-lookup com.apple.PowerManagement.control[IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_HAS_BATTERY> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.345847]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CARD_CAPABILITIES> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.350804]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.351743]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.352161]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.352472]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.352567]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.353400]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.353909]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.354165]: Sandbox apply: distnoted[388] <bytes>[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.355703]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_PRODUCT_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.355964]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.356060]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.358177]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.358237]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.358295]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1 
+[  106.358352]: extEventMonitorInit: enter
+[  106.358354]: createEventPipe: enter: pipe count: 3
+[  106.358381]: ClientMemoryForType[0x1]
+[  106.358382]: getRingMD: enter : pipe count 4
+[  106.358389]: ClientMemoryForType[0x2]
+[  106.358389]: getRingMD: enter : pipe count 4
+[  106.358396]: extSubscribeEvent: enter
+[  106.358431]: IO80211ScanManager::startScan: scanType = 2
+[  106.358457]: [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.358465]:  Passive scan
+[  106.358466]: Scan type to FW 2
+ MtkWlanNative: scan:request rc=0 ssidLen=0
+[  106.358490]: [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.358497]: [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.359551]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.359994]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.360373]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.361995]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.362270]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.362605]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.363285]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.363614]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.364321]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.367268]: Sandbox apply: distnoted[393] <bytes>[IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.368491]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.368699]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.369351]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.369628]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.370345]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.370573]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.370816]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1 
+[  106.371454]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.371760]: [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:-528342013:0xe0822403> handler=1 
+[  106.374104]: + IOAudioControl[<ptr>]::setValue(int = 100)
+[  106.374107]: + IOAudioLevelControl::validateValue[<ptr>] (<ptr>)
+[  106.374108]:   IOAudioLevelControl::validateValue[<ptr>] - newIntValue = 100, min = 0, max = 100
+[  106.374109]: - IOAudioLevelControl::validateValue[<ptr>] (<ptr>) returns 0x0
+[  106.374372]: - IOAudioControl[<ptr>]::setValue(int = 100) returns 0x0
+[  106.374809]: + IOAudioControl[<ptr>]::setValue(int = 100)
+[  106.374811]: + IOAudioLevelControl::validateValue[<ptr>] (<ptr>)
+[  106.374812]:   IOAudioLevelControl::validateValue[<ptr>] - newIntValue = 100, min = 0, max = 100
+[  106.374813]: - IOAudioLevelControl::validateValue[<ptr>] (<ptr>) returns 0x0
+[  106.374975]: - IOAudioControl[<ptr>]::setValue(int = 100) returns 0x0
+[  106.375222]: + IOAudioControl[<ptr>]::setValue(int = 56)
+[  106.375225]: + IOAudioLevelControl::validateValue[<ptr>] (<ptr>)
+[  106.375226]:   IOAudioLevelControl::validateValue[<ptr>] - newIntValue = 56, min = 0, max = 100
+[  106.375227]: - IOAudioLevelControl::validateValue[<ptr>] (<ptr>) returns 0x0
+[  106.375231]: - IOAudioControl[<ptr>]::setValue(int = 56) returns 0x0
+[  106.375536]: + IOAudioControl[<ptr>]::setValue(int = 56)
+[  106.375538]: + IOAudioLevelControl::validateValue[<ptr>] (<ptr>)
+[  106.375539]:   IOAudioLevelControl::validateValue[<ptr>] - newIntValue = 56, min = 0, max = 100
+[  106.375540]: - IOAudioLevelControl::validateValue[<ptr>] (<ptr>) returns 0x0
+[  106.375543]: - IOAudioControl[<ptr>]::setValue(int = 56) returns 0x0
+[  106.375801]: + IOAudioControl[<ptr>]::setValue(int = 0)
+[  106.375804]: - IOAudioControl[<ptr>]::setValue(int = 0) returns 0x0
+[  106.380061]: Sandbox apply: secinitd[404] <bytes>Sandbox: mediaremoted(102) allow file-read-data /private/var/root/Library/MediaRemote/DeviceInfo.plistSystem Policy: diskarbitrationd(129) allow file-read-data /dev/rdisk1s8s1bufattr_get_apfs:9372: Only accept buf I/O, no raw disk access
+[  106.395109]: disk1s8s1: device is not readable.

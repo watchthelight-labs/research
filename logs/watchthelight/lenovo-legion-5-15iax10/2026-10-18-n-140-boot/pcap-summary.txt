@@ -1,0 +1,16 @@
+01:26:23.970140 IP IP-88 > IP-6: ICMP echo request, id 52737, seq 0, length 64
+01:26:24.109650 IP IP-6 > IP-88: ICMP echo reply, id 52737, seq 0, length 64
+01:26:24.739552 IP IP-88 > IP-6: ICMP echo request, id 55809, seq 0, length 64
+01:26:24.842625 IP IP-6 > IP-88: ICMP echo reply, id 55809, seq 0, length 64
+01:26:25.642107 IP6 IP-124 > IP-19 ICMP6, router solicitation, length 16
+01:26:27.949075 ARP, Reply IP-88 is-at MAC-3, length 28
+01:26:41.609597 IP6 :: > IP-24 ICMP6, neighbor solicitation, who has IP-25, length 32
+01:26:41.609605 IP6 IP-25 > IP-19 ICMP6, router solicitation, length 8
+01:26:46.419938 IP6 IP-25 > IP-19 ICMP6, router solicitation, length 16
+01:26:56.496783 IP6 IP-124 > IP-19 ICMP6, router solicitation, length 8
+01:27:21.323078 IP6 :: > IP-177 ICMP6, neighbor solicitation, who has IP-178, length 32
+01:27:21.323093 IP6 IP-178 > IP-19 ICMP6, router solicitation, length 8
+01:27:25.357239 IP6 IP-178 > IP-19 ICMP6, router solicitation, length 16
+01:27:26.314718 IP6 :: > IP-179 ICMP6, neighbor solicitation, who has IP-180, length 32
+01:27:26.314742 IP6 IP-180 > IP-19 ICMP6, router solicitation, length 16
+01:27:26.393638 IP6 IP-181 > IP-19 ICMP6, router solicitation, length 16

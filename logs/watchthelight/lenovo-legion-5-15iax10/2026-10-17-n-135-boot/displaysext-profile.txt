@@ -1,0 +1,26 @@
+thread 'canvasTransferQueue': 5911 frames, root samples 846
+   523 NVMTLDriver    nvmtl_air_state
+   380 NVMTLDriver    -[NVMTLComputeCommandEncoder dispatchThreadgroups:threadsPerThreadgroup:]
+   376 NVMTLDriver    -[NVMTLComputeCommandEncoder nvmtlSamplerPipeline]
+   331 NVMTLDriver    nvmtl_reflect_air_cached
+   260 NVMTLDriver    nvmtl_bind_embedded
+   136 NVMTLDriver    -[NVMTLComputeCommandEncoder setTexture:atIndex:]
+   123 NVMTLDriver    nvmtl_function_reflection
+   122 NVMTLDriver    -[NVMTLLibrary newFunctionWithName:constantValues:error:]
+   118 NVMTLDriver    nvmtl_translate_with_fc_cached
+   110 NVMTLDriver    nvmtl_embedded_bindings
+   105 NVMTLDriver    nvmtl_translate_variant
+    82 NVMTLDriver    -[NVMTLDevice newComputePipelineStateWithFunction:error:]
+    76 NVMTLDriver    nvmtl_air_max_tg
+    26 NVMTLDriver    -[NVMTLCommandBuffer waitUntilCompleted]
+    16 IOKit          IOConnectCallMethod
+    16 IOKit          io_connect_method
+    15 libvulkan_nouv nvrm_xnu_ioctl
+    12 NVMTLDriver    nvmtl_vk_compute_pipeline_create_g
+    12 NVMTLDriver    -[NVMTLDevice newDefaultLibraryWithBundle:error:]
+    12 NVMTLDriver    -[NVMTLDevice newLibraryWithURL:error:]
+    12 NVMTLDriver    nvmtl_vk_submit_finish
+    12 libvulkan_nouv vk_common_WaitForFences
+    12 libvulkan_nouv __vk_sync_wait_many
+    12 libvulkan_nouv nvrm_gsub_wait
+    12 NVMTLDriver    nvmtl_surface_in_for_cb

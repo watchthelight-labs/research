@@ -1,0 +1,4 @@
+2026-10-18 00:24:21 guard start: attempt=N-136 stage=B iface=en1 boot=1792297420 started_boot=none result=none auto_reboots=0 dry=0
+2026-10-18 00:28:22 FAIL N-136 stage B after 240s: no default route (lease IP-10)
+2026-10-18 00:28:25 restarting after rollback (N-136)
+2026-10-18 00:30:24 guard start: attempt=N-136 stage=B iface=en1 boot=1792297750 started_boot=1792297420 result=rolled-back auto_reboots=1 dry=0

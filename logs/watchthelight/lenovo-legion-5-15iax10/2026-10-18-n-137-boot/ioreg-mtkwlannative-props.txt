@@ -1,0 +1,12 @@
+"MtkNativeRejected" = 257
+"MtkNativeInterface" = No
+"MtkNativeTrace" = "ctl:start; ctl:core ops v4; ctl:work queue ok; ctl:logger ok; ctl:fault reporter ok; base start begin; ctl:base start ok; ctl:media auto=1; mk:withController=ok; mk:attachInterface=1; sw:deferBSDAttach=0; sw:IO80211InfraInterface::start=1; sw:getWorkQueue=ok; sw:pool=ok; sw:queues rxSub=1 txComp=1 rxComp=1; sw:addEventSource x6 ok; dp:bound, set_mode=0; sw:registerInfraEthernetInterface=0; sw:published, running state false; mk:startWithInfo ok; mk:deferBSDAttach(false)=0; if:hardware assists=0; if:first media query result=0; ioctl:CARD_CAPABILITIES answered; if:enable options=0; if:setInterfaceEnable=1; dp:enable queues; dp:enabled; if:enable result=0; dp:link=1 family=1 state=2; dp:first TX batch 1; dp:first RX delivered; ioctl:setPOWER=1 (recorded only)"
+"MtkNativeLast" = "ioctl:setPOWER=1 (recorded only)"
+"MtkNativeCalls" = "I:216=1 I:2c=1 C:2c=1 I:2b=64 C:2b=64 I:33=12 C:33=12 I:1c=1 B:c02c6938=117 W:0=62 I:c=93 C:c=93 B:c0206944=1 E:1=1 B:80206910=3 B:80206931=5 I:5=1 S:226=1 I:200=1 S:200=1 I:13=519 C:13=518 I:1d5=2 S:1d5=2 I:cf=160 C:80000013=1 I:f=931 S:1db=931 B:c120693f=1 B:c020693f=1 I:16b=3 S:16b=3 I:1b=36 S:1dd=36 I:c0=1 I:4=22 S:1d7=22 I:55=1 B:8020690c=1 I:bf=1 B:c331693d=1 I:1b9=90 I:10=12 S:1dc=12 I:ff=25 I:103=4 I:39=10 I:161=10 I:8=10 S:1da=10"
+"MtkNativeEnabled" = Yes
+"MtkNativeVersion" = "0.2.0"
+"MtkNativeTx" = "tx 108 dropped 0 stalled 0 completed 108 pending 0"
+"MtkNativeRx" = "rx 1141 delivered 1141 dropped 0 ringfull 0 oversize 0 peak 53"
+"MtkNativeDatapath" = Yes
+"MtkNativeRadioLink" = Yes
+"MtkNativeOsFeatureFlags" = 67671676

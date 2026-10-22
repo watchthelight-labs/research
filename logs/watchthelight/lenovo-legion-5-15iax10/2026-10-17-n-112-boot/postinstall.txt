@@ -1,0 +1,25 @@
+postinstall 2026-10-17 17:33 EDT
+driver-version: 2.3.5
+backup: /Library/NullMoth/backup-20261017-173242.vC9SbI
+--- installed vs package:
+NVRM 001e77004b43 001e77004b43 same
+NVRMFB 01fd20d1a068 01fd20d1a068 same
+NVAccel a9bae265ed1e 8c7e57cb5cf4 DIFF
+NVRMAGDC 223a327f0b94 223a327f0b94 same
+NVMTLDriver dd50681dfe21 dd50681dfe21 same
+libnvmtl_translate.dylib f782e60d75c9 f782e60d75c9 same
+aux kc: 19333120 Oct 17 17:32
+--- conf:
+NVMTL_VRAM_WS_NONIMAGE_MB=0
+NVMTL_VRAM_HEADROOM_MB=256
+NVMTL_RES2_WS=0
+NVMTL_GSUB_HOSTPTR_LIFT=1
+NVMTL_NAK_ARR_SCRATCH=0
+# --- my settings, kept on update ---
+NVMTL_NO_FBFETCH=1
+# --- end my settings ---
+--- caches: aircache 0 spvcache 0 (installer started aircache empty)
+--- nvram: none
+--- lastgood: /Library/LaunchDaemons/com.nullmoth.lastgood.plist /Library/NullMoth/lastgood.sh 
+Could not find service "com.nullmoth.lastgood" in domain for system
+NVAccel (installed = package kexts/26 copy for macOS 26) a9bae265ed1e a9bae265ed1e same

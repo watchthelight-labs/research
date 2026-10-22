@@ -1,0 +1,107 @@
+# N-45 installed macOS state, captured by Claude Code on the machine, 2026-10-16 02:23 UTC
+## sw_vers
+ProductName:		macOS
+ProductVersion:		15.8.1
+BuildVersion:		24H32
+## boot-args / csr
+boot-args	-v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm
+System Integrity Protection status: enabled.
+kern.hv_vmm_present: 0
+## third-party kexts
+as.vit9696.Lilu (1.7.2)
+org.lvs1974.driver.CpuTscSync (1.1.2)
+as.vit9696.VirtualSMC (1.3.8)
+ru.usrsse2.SMCBatteryManager (1.3.8)
+as.vit9696.WhateverGreen (1.7.1)
+as.vit9696.RestrictEvents (1.1.6)
+com.1Revenger1.ECEnabler (1.0.6)
+org.acidanthera.NVMeFix (1.1.3)
+com.alexandred.VoodooI2CServices (1)
+as.acidanthera.voodoo.driver.PS2Controller (2.3.7)
+as.acidanthera.voodoo.driver.PS2Keyboard (2.3.7)
+org.coolstar.VoodooGPIO (1.1)
+com.alexandred.VoodooI2C (2.9.1)
+org.watchthelight.MtkWlan (0.7.0)
+com.insanelymac.RealtekRTL8111 (3.0.4)
+## displays
+Graphics/Displays:
+
+    Display:
+
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 
+      Vendor: Intel
+      Device ID: 0x7d67
+      Revision ID: 0x0006
+      Kernel Extension Info: No Kext Loaded
+
+    Display:
+
+      Type: GPU
+      Bus: PCIe
+      Slot: Slot-1
+      PCIe Lane Width: x8
+      VRAM (Total): 25 MB
+      Vendor: NVIDIA (0x10de)
+      Device ID: 0x2d18
+      Revision ID: 0x00a1
+      Kernel Extension Info: No Kext Loaded
+      Displays:
+        Display:
+          Resolution: 2560 x 1600
+          UI Looks like: 2560 x 1600
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+
+## network (MACs removed)
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=46b<RXCSUM,TXCSUM,VLAN_HWTAGGING,TSO4,TSO6,CHANNEL_IO>
+	ether xx:xx:xx:xx:xx:xx
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect (<unknown type>)
+	status: inactive
+en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether xx:xx:xx:xx:xx:xx
+	inet6 IP-3 prefixlen 64 secured scopeid 0x5 
+	inet IP-4 netmask 0xffff0000 broadcast IP-5
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type> (autoselect)
+	status: active
+    gateway: IP-6
+  interface: en1
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 14.880/15.359/15.790/0.361 ms
+## disks
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:                        EFI NO NAME                 209.7 MB   disk0s1
+   2:         Microsoft Reserved                         16.8 MB    disk0s2
+   3:       Microsoft Basic Data                         748.2 GB   disk0s3
+   4:                 Apple_APFS Container disk1         275.8 GB   disk0s4
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +275.8 GB   disk1
+                                 Physical Store disk0s4
+   1:                APFS Volume Macintosh HD - Data     20.7 GB    disk1s1
+   2:                APFS Volume Preboot                 2.4 GB     disk1s2
+   3:                APFS Volume Recovery                1.3 GB     disk1s3
+   4:                APFS Volume Macintosh HD            11.3 GB    disk1s4
+   5:              APFS Snapshot com.apple.os.update-... 11.3 GB    disk1s4s1
+   6:                APFS Volume VM                      1.1 MB     disk1s6
+## pmset
+ standby              0
+ disksleep            0
+ sleep                0 (sleep prevented by nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond, nsurlsessiond, bluetoothd, cloudd, cloudd, cloudd, cloudd, cloudd, caffeinate)
+ hibernatemode        0
+## boot history (wtmp, local PDT)
+reboot time                                Thu Oct 15 19:08
+reboot time                                Thu Oct 15 18:45
+reboot time                                Thu Oct 15 14:43
+reboot time                                Thu Oct 15 18:01
+## setup done
+-r--------  1 root  wheel  0 Oct 15 18:47 /var/db/.AppleSetupDone

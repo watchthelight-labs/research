@@ -1,0 +1,6 @@
+HuC firmware: i915/mtl_huc_gsc.bin
+	status: RUNNING
+	version: found 8.5.4
+	uCode: 558656 bytes
+	RSA: 384 bytes
+HuC status: 0x00100001

@@ -1,0 +1,20 @@
+{
+ "collected": "2026-10-15",
+ "component": "native",
+ "files": {
+  "opencore-2026-10-15-233619.txt": "3c28615686218cc7689ffa25b61fc62758c99859dd87957e0cbd8c493f0ce42e"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 194
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-38",
+ "username": "watchthelight"
+}

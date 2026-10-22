@@ -1,0 +1,20 @@
+{
+ "collected": "2026-10-17",
+ "component": "native",
+ "files": {
+  "badge-trace.out": "05c3ed1be251c5da56e5a97cadb737e0e1f80fdba6c8e689c698e9d90939af65",
+  "check.txt": "ad13436e2ba7f74de5b3b2793def7bd99aefac79e4bfe68ec68efc177e83d382",
+  "staged.txt": "7ab01942361ebf3d1664bca0ffb3dce1afdbcb3476d30f15e4049953bed9cbb7"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-122",
+ "username": "watchthelight"
+}

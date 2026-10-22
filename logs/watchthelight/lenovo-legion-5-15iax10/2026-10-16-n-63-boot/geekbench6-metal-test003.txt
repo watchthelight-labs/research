@@ -1,0 +1,10 @@
+# Geekbench 6.7.1 for macOS AVX2, Metal, uploaded 2026-10-16 15:09 UTC (Bash's "Test 003", N-63 boot: NullMoth 2.1.0, flips on)
+Metal Score         94097   (Test 001 2.0.2 copy mode: 98094; Test 002 2.0.2 flips: 96975)
+Background Blur     35608   147.4 images/sec
+Face Detection      36501   119.2 images/sec
+Horizon Detection  136286   4.24 Gpixels/sec
+Edge Detection     162528   6.03 Gpixels/sec
+Gaussian Blur       80848   3.52 Gpixels/sec
+Feature Matching    24944   983.4 Mpixels/sec
+Stereo Matching    430651   409.4 Gpixels/sec
+Particle Physics   245820

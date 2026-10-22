@@ -1,0 +1,3 @@
+N-159 stock+nvrm run1 flips/s=60 presents/s=60
+N-159 stock+nvrm run2 flips/s=63 presents/s=63
+N-159 stock+nvrm run3 flips/s=44 presents/s=44

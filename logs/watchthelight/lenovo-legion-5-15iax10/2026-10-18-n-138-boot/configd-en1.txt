@@ -1,0 +1,157 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-18 00:55:51.110 Df configd[107:46f] [com.apple.SystemConfiguration:InterfaceNamer] addTimestamp: en1: 813992151.1103359
+2026-10-18 00:55:51.208 Df configd[107:517] (IO80211) Apple80211GetWithIOCTL:13739 @[54.900025] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:55:51.208 Df configd[107:517] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:55:51.213 Df configd[107:527] [com.apple.SystemConfiguration:QoSMarking] QoS marking policy: en1: enable (default)
+2026-10-18 00:55:51.213 Df configd[107:419] [com.apple.SystemConfiguration:KernelEventMonitor] Process interface attach: en1
+2026-10-18 00:55:51.550 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: start
+2026-10-18 00:55:51.560 Df configd[107:419] [com.apple.SystemConfiguration:KernelEventMonitor] Process interface link status active: en1
+2026-10-18 00:55:51.587 Df configd[107:517] [com.apple.IPConfiguration:Server] en1 link ACTIVE
+2026-10-18 00:55:51.588 Df configd[107:517] (IO80211) Apple80211GetWithIOCTL:13739 @[55.280873] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:55:51.589 Df configd[107:517] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:55:51.589 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: INIT
+2026-10-18 00:55:51.589 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: not supplying hostname
+2026-10-18 00:55:51.589 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: INIT waiting at 0 for 1.152897
+2026-10-18 00:55:51.590 Df configd[107:517] [com.apple.IPConfiguration:Server] RTADV en1: link-local address is ready, starting
+2026-10-18 00:55:51.590 Df configd[107:517] [com.apple.IPConfiguration:Server] RTADV en1: Solicit
+2026-10-18 00:55:51.590 Df configd[107:517] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 00:55:51.590 Df configd[107:517] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 00:55:51.590 Df configd[107:517] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 00:55:51.590 Df configd[107:517] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 00:55:51.590 Df configd[107:517] [com.apple.IPConfiguration:Server] RTADV en1: sending Router Solicitation (1 of 3)
+2026-10-18 00:55:52.351 Df configd[107:515] [com.apple.captive:Controller] NetIFCopyCurrentWiFiNetwork returned NULL for en1
+2026-10-18 00:55:52.351 Df configd[107:519] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceRank(en1) = Never (3)
+2026-10-18 00:55:52.352 Df configd[107:515] [com.apple.captive:Controller] interface en1 is not active
+2026-10-18 00:55:52.352 Df configd[107:517] [com.apple.SystemConfiguration:IPMonitor] configd[107] SetInterfaceAdvisory(en1) = UplinkIssue (2) reason='WiFi is unavailable'
+2026-10-18 00:55:52.352 Df configd[107:515] [com.apple.captive:Controller] en1: SetAdvisory 'WiFi is unavailable'
+2026-10-18 00:55:52.378 Df configd[107:527] [com.apple.IPConfiguration:Server] en1 link ACTIVE
+2026-10-18 00:55:52.378 Df configd[107:419] [com.apple.SystemConfiguration:KernelEventMonitor] Process interface link status inactive: en1
+2026-10-18 00:55:52.380 Df configd[107:527] (IO80211) Apple80211GetWithIOCTL:13739 @[56.072829] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:55:52.380 Df configd[107:527] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:55:52.405 Df configd[107:419] [com.apple.SystemConfiguration:KernelEventMonitor] Process interface link status active: en1
+2026-10-18 00:55:52.405 Df configd[107:517] [com.apple.IPConfiguration:Server] en1 link ACTIVE
+2026-10-18 00:56:08.491 Df configd[107:517] (IO80211) Apple80211GetWithIOCTL:13739 @[72.183623] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:08.491 Df configd[107:517] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:08.492 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: INIT waiting at 16.9023 for 2.154400
+2026-10-18 00:56:08.492 Df configd[107:517] [com.apple.IPConfiguration:Server] RTADV en1: sending Router Solicitation (2 of 3)
+2026-10-18 00:56:08.492 Df configd[107:517] [com.apple.IPConfiguration:Server] en1 link ACTIVE
+2026-10-18 00:56:08.493 Df configd[107:517] (IO80211) Apple80211GetWithIOCTL:13739 @[72.185791] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:08.493 Df configd[107:517] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:08.493 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: INIT
+2026-10-18 00:56:08.493 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: not supplying hostname
+2026-10-18 00:56:08.494 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: INIT waiting at 0 for 1.160014
+2026-10-18 00:56:08.494 Df configd[107:517] [com.apple.IPConfiguration:Server] RTADV en1: link-local address is ready, starting
+2026-10-18 00:56:08.494 Df configd[107:517] [com.apple.IPConfiguration:Server] RTADV en1: Solicit
+2026-10-18 00:56:08.494 Df configd[107:517] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 00:56:08.494 Df configd[107:517] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 00:56:08.494 Df configd[107:517] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 00:56:08.494 Df configd[107:517] [com.apple.IPConfiguration:Server] ioctl(en1, SIOCDIFADDR) failed status, Can't assign requested address
+2026-10-18 00:56:08.494 Df configd[107:517] [com.apple.IPConfiguration:Server] RTADV en1: sending Router Solicitation (1 of 3)
+2026-10-18 00:56:08.502 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: INIT gathering began at 0.00805998
+2026-10-18 00:56:09.507 Df configd[107:526] [com.apple.IPConfiguration:Server] DHCP en1: SELECT
+2026-10-18 00:56:09.507 Df configd[107:526] [com.apple.IPConfiguration:Server] DHCP en1: not supplying hostname
+2026-10-18 00:56:09.507 Df configd[107:526] [com.apple.IPConfiguration:Server] DHCP en1: SELECT waiting at 1.01321 for 1.000000
+2026-10-18 00:56:09.550 Df configd[107:517] [com.apple.IPConfiguration:Server] DHCP en1: BOUND
+2026-10-18 00:56:11.158 Df configd[107:527] [com.apple.IPConfiguration:Server] DHCP en1: setting IP-87 netmask IP-7 broadcast IP-5
+2026-10-18 00:56:11.158 Df configd[107:527] [com.apple.IPConfiguration:Server] dhcp_bound(en1) IP-87
+2026-10-18 00:56:11.159 Df configd[107:527] [com.apple.IPConfiguration:Server] LINKLOCAL en1: status = 'success'
+2026-10-18 00:56:11.170 Df configd[107:527] [com.apple.IPConfiguration:Server] DHCP en1: publish success { IPv4, DNS, DHCP }
+2026-10-18 00:56:11.202 Df configd[107:517] [com.apple.SystemConfiguration:IPMonitor] Publishing data to agent DNSAgent-@en1 (111 bytes)
+2026-10-18 00:56:12.320 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:56:12.802 Df configd[107:527] (IO80211) Apple80211GetWithIOCTL:13739 @[76.494643] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:12.802 Df configd[107:527] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:12.805 Df configd[107:527] (IO80211) Apple80211GetWithIOCTL:13739 @[76.497112] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:12.805 Df configd[107:527] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:12.815 Df configd[107:526] (IO80211) Apple80211GetWithIOCTL:13739 @[76.507007] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:12.815 Df configd[107:526] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:29.031 Df configd[107:419] (IO80211) Apple80211GetWithIOCTL:13739 @[92.723483] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:29.031 Df configd[107:419] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:29.031 Df configd[107:419] [com.apple.IPConfiguration:Server] RTADV en1: sending Router Solicitation (2 of 3)
+2026-10-18 00:56:29.032 Df configd[107:419] (IO80211) Apple80211GetWithIOCTL:13739 @[92.724834] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:29.032 Df configd[107:419] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:31.077 Df configd[107:abc] (IO80211) Apple80211GetWithIOCTL:13739 @[94.769733] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:31.077 Df configd[107:abc] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:31.093 Df configd[107:419] (IO80211) Apple80211GetWithIOCTL:13739 @[94.785144] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:31.093 Df configd[107:419] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:33.339 Df configd[107:517] [com.apple.IPConfiguration:Server] RTADV en1: sending Router Solicitation (3 of 3)
+2026-10-18 00:56:36.520 Df configd[107:517] (IO80211) Apple80211GetWithIOCTL:13739 @[100.212103] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:36.520 Df configd[107:517] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:36.551 Df configd[107:517] (IO80211) Apple80211GetWithIOCTL:13739 @[100.242954] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:36.551 Df configd[107:517] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:49.108 Df configd[107:517] (IO80211) Apple80211GetWithIOCTL:13739 @[112.800120] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:49.108 Df configd[107:517] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:49.110 Df configd[107:517] (IO80211) Apple80211GetWithIOCTL:13739 @[112.802148] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:56:49.110 Df configd[107:517] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:56:53.831 Df configd[107:46f] [com.apple.SystemConfiguration:InterfaceNamer] addTimestamp: en1: 813992213.831652
+2026-10-18 00:57:39.972 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:57:39.978 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:57:40.785 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:57:40.821 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:57:41.964 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:57:41.970 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:57:41.981 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:57:41.984 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:57:42.661 Df configd[107:1079] (IO80211) Apple80211GetWithIOCTL:13739 @[166.353415] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:42.661 Df configd[107:1079] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:42.741 Df configd[107:121f] (IO80211) Apple80211GetWithIOCTL:13739 @[166.433302] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:42.741 Df configd[107:121f] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:48.122 Df configd[107:1221] (IO80211) Apple80211GetWithIOCTL:13739 @[171.814818] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:48.122 Df configd[107:1221] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:48.290 Df configd[107:ec8] (IO80211) Apple80211GetWithIOCTL:13739 @[171.982039] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:48.290 Df configd[107:ec8] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:50.525 Df configd[107:ec8] (IO80211) Apple80211GetWithIOCTL:13739 @[174.217536] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:50.525 Df configd[107:ec8] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:50.600 Df configd[107:1221] (IO80211) Apple80211GetWithIOCTL:13739 @[174.291927] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:50.600 Df configd[107:1221] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:50.608 Df configd[107:ec8] (IO80211) Apple80211GetWithIOCTL:13739 @[174.299961] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:50.608 Df configd[107:ec8] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:55.621 Df configd[107:121e] (IO80211) Apple80211GetWithIOCTL:13739 @[179.313761] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:55.621 Df configd[107:121e] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:55.628 Df configd[107:1221] (IO80211) Apple80211GetWithIOCTL:13739 @[179.320127] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:55.628 Df configd[107:1221] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:57:55.647 Df configd[107:1221] (IO80211) Apple80211GetWithIOCTL:13739 @[179.339823] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:57:55.647 Df configd[107:1221] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:01.153 Df configd[107:121f] (IO80211) Apple80211GetWithIOCTL:13739 @[184.845415] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:01.153 Df configd[107:121f] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:01.197 Df configd[107:1221] (IO80211) Apple80211GetWithIOCTL:13739 @[184.889831] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:01.197 Df configd[107:1221] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:06.200 Df configd[107:121f] (IO80211) Apple80211GetWithIOCTL:13739 @[189.892420] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:06.200 Df configd[107:121f] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:06.237 Df configd[107:121f] (IO80211) Apple80211GetWithIOCTL:13739 @[189.929275] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:06.237 Df configd[107:121f] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:15.597 Df configd[107:ec8] (IO80211) Apple80211GetWithIOCTL:13739 @[199.289538] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:15.597 Df configd[107:ec8] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:15.655 Df configd[107:121f] (IO80211) Apple80211GetWithIOCTL:13739 @[199.347694] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:15.655 Df configd[107:121f] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:26.469 Df configd[107:1ce2] (IO80211) Apple80211GetWithIOCTL:13739 @[210.161194] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:26.469 Df configd[107:1ce2] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:26.529 Df configd[107:121f] (IO80211) Apple80211GetWithIOCTL:13739 @[210.221311] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:26.529 Df configd[107:121f] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:35.807 Df configd[107:121f] (IO80211) Apple80211GetWithIOCTL:13739 @[219.498943] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:35.807 Df configd[107:121f] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:35.862 Df configd[107:ec8] (IO80211) Apple80211GetWithIOCTL:13739 @[219.554246] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:35.862 Df configd[107:ec8] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:46.177 Df configd[107:1ce2] (IO80211) Apple80211GetWithIOCTL:13739 @[229.869067] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:46.177 Df configd[107:1ce2] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:46.230 Df configd[107:2895] (IO80211) Apple80211GetWithIOCTL:13739 @[229.922127] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:46.230 Df configd[107:2895] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:58:56.832 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:58:56.835 Df configd[107:515] [com.apple.captive:Controller] interface en1 is active
+2026-10-18 00:58:57.197 Df configd[107:2895] (IO80211) Apple80211GetWithIOCTL:13739 @[240.889850] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:58:57.197 Df configd[107:2895] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:59:02.206 Df configd[107:2895] (IO80211) Apple80211GetWithIOCTL:13739 @[245.898504] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:59:02.206 Df configd[107:2895] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:59:13.163 Df configd[107:2b33] (IO80211) Apple80211GetWithIOCTL:13739 @[256.855086] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:59:13.163 Df configd[107:2b33] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:59:18.171 Df configd[107:2b34] (IO80211) Apple80211GetWithIOCTL:13739 @[261.863663] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:59:18.171 Df configd[107:2b34] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:59:27.317 Df configd[107:2c16] (IO80211) Apple80211GetWithIOCTL:13739 @[271.009515] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:59:27.317 Df configd[107:2c16] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:59:32.329 Df configd[107:2c17] (IO80211) Apple80211GetWithIOCTL:13739 @[276.021832] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:59:32.329 Df configd[107:2c17] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:59:42.234 Df configd[107:2c4b] (IO80211) Apple80211GetWithIOCTL:13739 @[285.926174] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:59:42.234 Df configd[107:2c4b] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:59:47.244 Df configd[107:2c4b] (IO80211) Apple80211GetWithIOCTL:13739 @[290.936327] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:59:47.244 Df configd[107:2c4b] [com.apple.IPConfiguration:Server] en1: no SSID
+2026-10-18 00:59:56.697 Df configd[107:2ea7] (IO80211) Apple80211GetWithIOCTL:13739 @[300.388892] ifname['en1'] IOCTL type 1/'APPLE80211_IOC_SSID' return -528342013/0xe0822403
+2026-10-18 00:59:56.697 Df configd[107:2ea7] [com.apple.IPConfiguration:Server] en1: no SSID

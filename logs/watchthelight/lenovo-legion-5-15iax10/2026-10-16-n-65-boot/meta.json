@@ -1,0 +1,20 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "panic-2026-10-16-0846-clang.panic": "31a9eceb0995496b9cab9fff282e7014ad1f771d092b1fe67a08700165fadba7"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "24H32",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 2
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-65",
+ "username": "watchthelight"
+}

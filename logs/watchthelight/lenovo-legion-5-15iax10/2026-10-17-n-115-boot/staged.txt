@@ -1,0 +1,1 @@
+plugin dock-trace-2.3.5 9ff2ca1, sha 3d013f7757cd; conf unchanged from N-114 (fetch on, WSTRACE armed); probe: COMP draw lines + DISP READBACK of a 320x200 screen region around the label composite

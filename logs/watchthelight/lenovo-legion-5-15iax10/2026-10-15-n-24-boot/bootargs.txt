@@ -1,0 +1,1 @@
+kern.bootargs: -v keepsyms=1 -wegnoigpu debug=0x100

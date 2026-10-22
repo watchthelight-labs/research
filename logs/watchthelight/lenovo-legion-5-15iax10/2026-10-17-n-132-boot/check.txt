@@ -1,0 +1,6 @@
+n-132 check 2026-10-17 22:18 EDT, boot Sat Oct 17 22:16:23 2026
+NVRM: 69c338d952c4 (expect 69c338d952c4)  plugin: 6d061f1b605e
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 
+kexts: nullmoth.NVAccel nullmoth.NVRM nullmoth.NVRMAGDC nullmoth.NVRMFB 
+tgp: debug.nvgfx_tgp_applies: 1 debug.nvgfx_tgp_state: 1 

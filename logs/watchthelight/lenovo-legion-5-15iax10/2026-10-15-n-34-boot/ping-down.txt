@@ -1,0 +1,35 @@
+PING IP-2 (IP-2): 56 data bytes
+64 bytes from IP-2: icmp_seq=0 ttl=57 time=15.739 ms
+64 bytes from IP-2: icmp_seq=1 ttl=57 time=46.737 ms
+64 bytes from IP-2: icmp_seq=2 ttl=57 time=33.927 ms
+64 bytes from IP-2: icmp_seq=3 ttl=57 time=41.936 ms
+64 bytes from IP-2: icmp_seq=4 ttl=57 time=51.395 ms
+64 bytes from IP-2: icmp_seq=5 ttl=57 time=48.658 ms
+64 bytes from IP-2: icmp_seq=6 ttl=57 time=38.409 ms
+64 bytes from IP-2: icmp_seq=7 ttl=57 time=40.159 ms
+64 bytes from IP-2: icmp_seq=8 ttl=57 time=34.093 ms
+64 bytes from IP-2: icmp_seq=9 ttl=57 time=34.060 ms
+64 bytes from IP-2: icmp_seq=10 ttl=57 time=34.683 ms
+64 bytes from IP-2: icmp_seq=11 ttl=57 time=44.036 ms
+64 bytes from IP-2: icmp_seq=12 ttl=57 time=37.099 ms
+64 bytes from IP-2: icmp_seq=13 ttl=57 time=51.058 ms
+64 bytes from IP-2: icmp_seq=14 ttl=57 time=42.753 ms
+64 bytes from IP-2: icmp_seq=15 ttl=57 time=44.926 ms
+64 bytes from IP-2: icmp_seq=16 ttl=57 time=42.261 ms
+64 bytes from IP-2: icmp_seq=17 ttl=57 time=44.194 ms
+64 bytes from IP-2: icmp_seq=18 ttl=57 time=37.669 ms
+64 bytes from IP-2: icmp_seq=19 ttl=57 time=35.347 ms
+64 bytes from IP-2: icmp_seq=20 ttl=57 time=44.110 ms
+64 bytes from IP-2: icmp_seq=21 ttl=57 time=15.845 ms
+64 bytes from IP-2: icmp_seq=22 ttl=57 time=15.175 ms
+64 bytes from IP-2: icmp_seq=23 ttl=57 time=15.071 ms
+64 bytes from IP-2: icmp_seq=24 ttl=57 time=15.040 ms
+64 bytes from IP-2: icmp_seq=25 ttl=57 time=15.218 ms
+64 bytes from IP-2: icmp_seq=26 ttl=57 time=15.062 ms
+64 bytes from IP-2: icmp_seq=27 ttl=57 time=15.070 ms
+64 bytes from IP-2: icmp_seq=28 ttl=57 time=21.459 ms
+64 bytes from IP-2: icmp_seq=29 ttl=57 time=15.060 ms
+
+--- IP-2 ping statistics ---
+30 packets transmitted, 30 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 15.040/32.875/51.395/12.872 ms

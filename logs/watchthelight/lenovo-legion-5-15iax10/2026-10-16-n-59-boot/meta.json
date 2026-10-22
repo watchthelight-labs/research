@@ -1,0 +1,22 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "bluetooth-controller.txt": "e559b02e8034048fbfa7c88c1a8a75ebaf552842bdb2c4e358b93db6b9ce3451",
+  "mtkbt-registry.txt": "832b70243032e88ea2f6357c5b476df1fb800d68baccb93997fee2e309668d2f",
+  "opencore-2026-10-16-135910.txt": "934069b4a4ecd6d8a10d231f03287bc579c7e2a82b5d57e4cb70b951fb90c058"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 155
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-59",
+ "username": "watchthelight"
+}

@@ -1,0 +1,8 @@
+n-135 check 2026-10-17 23:52 EDT, boot Sat Oct 17 23:50:27 2026
+plugin: 08c59a70009c (expect 08c59a70009c)
+kexts: com.nullmoth.NVRMFB (2.3.5) com.nullmoth.NVRMAGDC (2.3.5) com.nullmoth.NVRM (0.1) com.nullmoth.NVAccel (2.3.5) 
+nvram: nullmoth-nv-ok=1
+crash reports since boot: 0
+tgp_applies: 1
+mode:  1680x1050  pixels  3360x2100  @165 HiDPI listed cgs 5 io -2147479547
+n135 drag: finder 48/45/43 then 49/49/50 flips/s, empty window 36; caanim 113/s; drawcost 5.5 us/draw; corespotlightd 5:26 cpu since boot; WindowServer idle 12.7%

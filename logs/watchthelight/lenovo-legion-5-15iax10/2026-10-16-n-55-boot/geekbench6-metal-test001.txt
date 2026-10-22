@@ -1,0 +1,14 @@
+# Geekbench 6.7.1 for macOS AVX2, Metal, uploaded 2026-10-16 12:04 UTC (Bash's "Test 001", N-55 boot)
+OS: macOS 15.8.1 (24H32), model MacBookPro16,1 (OpenCore SMBIOS)
+CPU: Intel Core Ultra 9 275HX, 24 cores, 32 GB RAM 5600 MT/s
+Metal device: NVIDIA GeForce RTX 5070 Laptop GPU (NVMTL over NVIDIA GeForce RTX 5070 Laptop GPU (NVK GB206-A))
+
+Metal Score         98094
+Background Blur     35704   147.8 images/sec
+Face Detection      37025   120.9 images/sec
+Horizon Detection  133181   4.14 Gpixels/sec
+Edge Detection     164767   6.11 Gpixels/sec
+Gaussian Blur       86221   3.76 Gpixels/sec
+Feature Matching    26553   1.05 Gpixels/sec
+Stereo Matching    496931   472.4 Gpixels/sec
+Particle Physics   259763   11432.4 FPS

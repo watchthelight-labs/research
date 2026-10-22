@@ -1,0 +1,15 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-21 11:10:08.425 Df kernel[0:2750] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-21 11:10:16.628 Df kernel[0:2b86] (XeGfx) XeGfx: ran 56 sysinit_set entries
+2026-10-21 11:12:56.560 Df kernel[0:725a] [com.apple.sandbox.reporting:violation] System Policy: cp(5006) allow file-write-flags /Library/XeGfx/backup-20261021-111256/AuxiliaryKernelExtensions.kc
+2026-10-21 11:12:56.560 Df kernel[0:725a] (Sandbox) /bin/cp set rootless flags on /Library/XeGfx/backup-20261021-111256/AuxiliaryKernelExtensions.kc with flags=524288
+2026-10-21 11:12:56.560 Df kernel[0:725a] [com.apple.sandbox.reporting:violation] System Policy: cp(5006) allow file-write-mode /Library/XeGfx/backup-20261021-111256/AuxiliaryKernelExtensions.kc
+2026-10-21 11:12:56.820 Df kernel[0:7285] [com.apple.sandbox.reporting:violation] 1 duplicate report for System Policy: cp(5006) allow file-write-mode /Library/XeGfx/backup-20261021-111256/AuxiliaryKernelExtensions.kc
+2026-10-21 11:12:57.191 Df kernel[0:2a00] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-21 11:14:50.567 Df kernel[0:9f0] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-21 11:22:35.271 Df kernel[0:718b] [com.apple.sandbox.reporting:violation] System Policy: cp(4928) allow file-write-flags /Library/XeGfx/backup-20261021-112235/AuxiliaryKernelExtensions.kc
+2026-10-21 11:22:35.271 Df kernel[0:718b] (Sandbox) /bin/cp set rootless flags on /Library/XeGfx/backup-20261021-112235/AuxiliaryKernelExtensions.kc with flags=524288
+2026-10-21 11:22:35.271 Df kernel[0:718b] [com.apple.sandbox.reporting:violation] System Policy: cp(4928) allow file-write-mode /Library/XeGfx/backup-20261021-112235/AuxiliaryKernelExtensions.kc
+2026-10-21 11:22:35.527 Df kernel[0:71c1] [com.apple.sandbox.reporting:violation] 1 duplicate report for System Policy: cp(4928) allow file-write-mode /Library/XeGfx/backup-20261021-112235/AuxiliaryKernelExtensions.kc
+2026-10-21 11:22:35.895 Df kernel[0:2b8d] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-21 11:24:28.085 Df kernel[0:260e] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable

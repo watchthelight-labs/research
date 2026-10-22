@@ -1,0 +1,9 @@
+22:29:36 0/6 keeping the NVIDIA GPU and its PCIe root port out of runtime suspend
+22:29:36 1/6 PCI view as the firmware left it
+22:29:36 2/6 display and stolen-access registers before any Intel driver
+22:29:37 3/6 loading i915 (the screen may go black or flicker; wait up to 3 minutes)
+22:29:39 modprobe returned after 2 s
+22:29:44 4/6 what i915 reports (debugfs, sysfs)
+22:29:45 5/6 registers after i915, kernel log
+22:29:46 6/6 checksums
+22:29:46 DONE: /mnt/usb/REPORTS/legion-xe-20261020-222936

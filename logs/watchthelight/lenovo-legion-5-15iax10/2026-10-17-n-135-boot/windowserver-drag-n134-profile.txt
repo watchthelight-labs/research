@@ -1,0 +1,26 @@
+thread 'ws_main_thread': 4038 frames, root samples 600
+   196 NVMTLDriver    -[NVMTLRenderCommandEncoder drawIndexedPrimitives:indexCount:indexType:indexBuffer:indexBufferO
+    85 NVMTLDriver    -[NVMTLRenderCommandEncoder nvmtlBindSamplerPipeline]
+    65 NVMTLDriver    nvmtl_vk_cmd_bind_set
+    54 NVMTLDriver    nvmtl_snapshot_set_c
+    52 NVMTLDriver    nvmtl_snapshot_set_md
+    30 IOKit          IOConnectCallMethod
+    30 IOKit          io_connect_method
+    28 libvulkan_nouv nvrm_xnu_ioctl
+    26 NVMTLDriver    -[NVMTLDevice newTextureWithDescriptor:iosurface:plane:]
+    26 NVMTLDriver    -[NVMTLDevice nvmtlNewSurfaceTexture:surface:plane:cache:]
+    25 libvulkan_nouv nvk_UpdateDescriptorSets
+    25 NVMTLDriver    nvmtl_vk_cmd_draw_indexed
+    25 libvulkan_nouv nvk_AllocateMemory
+    23 libvulkan_nouv vk_common_CmdPipelineBarrier
+    23 NVMTLDriver    nvmtl_vk_surface_vram
+    20 libvulkan_nouv nvkmd_dev_import_dma_buf
+    20 libvulkan_nouv nvkmd_nvrm_import_dma_buf
+    19 libvulkan_nouv nvk_CmdPipelineBarrier2
+    18 NVMTLDriver    -[NVMTLRenderCommandEncoder drawPrimitives:vertexStart:vertexCount:instanceCount:baseInstance:]
+    16 libvulkan_nouv nvk_AllocateDescriptorSets
+    16 libvulkan_nouv create_mem_or_close_bo
+    16 NVMTLDriver    -[NVMTLCommandBuffer commitAndWaitUntilSubmitted]
+    15 NVMTLDriver    -[NVMTLRenderCommandEncoder drawPrimitives:vertexStart:vertexCount:instanceCount:]
+    13 libvulkan_nouv nvRmApiAlloc
+    12 NVMTLDriver    -[NVMTLRenderCommandEncoder setRenderPipelineState:]

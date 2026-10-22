@@ -1,0 +1,42 @@
+
+== 1. this Mac
+   ok  macOS 26.7.1, x86_64, NVIDIA GPU present
+
+== 2. package integrity
+   ok  every file matches SHA256SUMS and both OS accelerators are present
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 10.12.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+
+== 3. test kernel collection
+   ok  test collection holds all four kexts
+
+== 4. back up what is there now -> /Library/NullMoth/backup-20261017-221427.AghQaw
+   ok  backup written
+
+== 5. install
+   ok  kept your settings in nvrm610.conf (2 line(s))
+   ok  installed
+
+== 6. boot-args
+
+== 6b. falling back to the previous driver if this one cannot start
+   ok  previous driver kept as the fallback (/Library/NullMoth/backup-20261017-221427.AghQaw)
+   NOTE: WhateverGreen is loaded and boot-args lack 'gfxrst=4' — add it in your OpenCore config.plist, or the Mac can panic when the NVIDIA display first opens
+
+Done. Reboot now: sudo shutdown -r now
+If macOS asks, allow the extensions in System Settings > Privacy & Security, then reboot once more.
+Undo: sudo ./uninstall.sh /Library/NullMoth/backup-20261017-221427.AghQaw

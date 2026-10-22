@@ -1,0 +1,11 @@
+# Geekbench 6.7.1 for macOS AVX2, Metal (Bash's "Test 006", N-72 boot: NvGfx 2.1.0-nvgfx.7 = our NVRM + present-path
+# NVRMFB/NVAccel + parked-VRAM unpark fix + our plugin with copy-out trace, shipped NVK/translator, NVMTL_NO_FBFETCH=1)
+Metal Score         98054   (005 95342; 004 95373; 003 2.1.0 stock 94097; 002 2.0.2 flips 96975; 001 2.0.2 copy 98094)
+Background Blur     35783   148.1 images/sec   (005 33286)
+Face Detection      36685   119.8 images/sec   (005 36311)
+Horizon Detection  138184   4.30 Gpixels/sec   (005 133598)
+Edge Detection     162980   6.05 Gpixels/sec   (005 157365)
+Gaussian Blur       87972   3.83 Gpixels/sec   (005 85328)
+Feature Matching    26162   1.03 Gpixels/sec   (005 25781)
+Stereo Matching    483651   459.8 Gpixels/sec  (005 477534)
+Particle Physics   259675   11428.5 FPS        (005 255774)

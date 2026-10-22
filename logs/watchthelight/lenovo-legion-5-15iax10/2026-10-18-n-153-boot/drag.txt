@@ -1,0 +1,3 @@
+N-153 stock-2.3.6 run1 flips/s=24 presents/s=24
+N-153 stock-2.3.6 run2 flips/s=21 presents/s=22
+N-153 stock-2.3.6 run3 flips/s=26 presents/s=26

@@ -1,0 +1,23 @@
+{
+ "collected": "2026-10-17",
+ "component": "native",
+ "files": {
+  "ioreg-mtknative.txt": "0219bad830f57273392520e292897b8776a913f37e9bb843fa20e05f06a478b5",
+  "opencore-2026-10-17-165353.txt": "f769f2da79c28cf5164df0c97f3797c5bdcdb5ed5f44d4bc945c7e2b0452bf18",
+  "wifi-summary.md": "1a085ef19748fc868e28324df3e93530d69ad32faceef04621ba283bcb1f526b"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "25G241",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 1,
+   "UUID": 273
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-95",
+ "username": "watchthelight"
+}

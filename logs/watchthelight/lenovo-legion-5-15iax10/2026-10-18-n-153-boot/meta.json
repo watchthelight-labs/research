@@ -1,0 +1,32 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "README.md": "bddfa4723ae1d533b79eae51761295699570b11bed5029b90779873bdfce198d",
+  "crashes.txt": "8c318ed51384bb3234bbee34596cf3789491e8644d29e32ce6b75394a9d05aa7",
+  "dmesg-nvidia.txt": "3d8f0fdf0e214dc9726c8aaa2eb1205a88694548d3d7923a1d93961d5b45bc35",
+  "drag.txt": "77e79e8550e0884fabb77a9255d84bc2b31efaebf15bbe508eee40387211cac7",
+  "ioreg-fb.txt": "487c02c123bcff93b69559fdae1fabb28c4ef333c3ab14024811d17dde57e054",
+  "kextstat.txt": "540b8c2e8648ce4487cd49b173c189487af89d802fdb525d5895d477a1e5eae6",
+  "opencore-2026-10-18-151251.txt": "2fa0bcc6ef8127e14a9434fa09672668035cf3375be714affb6f32163b31e45b",
+  "opencore-2026-10-18-153026.txt": "413ce8572cd3b0bd52070e042d0c528bf00421f83aa6b38a7e6bfa77c6bbb399",
+  "opencore-2026-10-18-154445.txt": "175824a73f4bce0b725d5f87d906070e3d36c4558eb20c23a5c1a64166f0695b",
+  "package-sums.txt": "46174cd7a3e2fb507d594f10f58f8b6618bc991d44e59031bb5304cf32bd473d",
+  "sysctl-0.txt": "99c77d2044fc43b9cc9703b240918710faaecc242f7b645652f6d96a36a05b2e",
+  "sysctl-1.txt": "d28e1c2bf38802906f0c8a48d0b4b7fc27cbd1db9b63fb6240bf50e61f749ed2",
+  "windows-check.md": "dbcc3a7e0b2f5877aa5a99f3837f8b41a07be51c5ad10efae6f3a5af6ac0a123"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 820
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-153",
+ "username": "watchthelight"
+}

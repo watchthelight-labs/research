@@ -1,0 +1,1 @@
+kern.bootargs: -v keepsyms=1 -wegnoigpu debug=0x100 -vi2c-force-polling msgbuf=1048576

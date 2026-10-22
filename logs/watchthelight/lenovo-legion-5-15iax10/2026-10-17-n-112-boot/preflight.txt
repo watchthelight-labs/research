@@ -1,0 +1,57 @@
+preflight 2026-10-17 17:22 EDT
+--- nvram nullmoth:
+none
+--- /Library/NullMoth:
+backup-20261015-195058.eZFf85
+backup-20261016-080145.A5Y6Xj
+backup-20261016-081157.QIO6xf
+backup-20261016-092606.ydNo9Z
+backup-20261016-094533.OZ7WdI
+backup-20261016-095159.uCxz5Z
+backup-20261016-100123.UU3iOL
+backup-20261016-101239.pSMKJQ
+backup-20261016-101754.mKHNIM
+backup-20261016-102310.ID9gGN
+2.1.0
+26
+--- caches:
+total   219456
+drwxr-xr-x root 384 .
+drwxr-xr-x@ root 192 ..
+-rwxr-xr-x root 92283456 air-opt
+drwxr-xr-x _windowserver 448 aircache
+-rwxr-xr-x root 19243104 libvulkan_nouveau.dylib
+-rw-r--r-- root 209895 libvulkan_nouveau.dylib.syms
+-rwxr-xr-x root 604064 libvulkan.1.4.362.dylib
+lrwxr-xr-x root 49 /Library/GPUBundles/nvmtl/libvulkan.1.4.362.dylib
+lrwxr-xr-x root 43 /Library/GPUBundles/nvmtl/libvulkan.1.dylib
+-rw-r--r-- root 139 nvk_icd.json
+-rw-r--r-- root 292 nvrm610.conf
+drwxr-xr-x _windowserver 64 spvcache
+aircache entries:       12, spvcache:        0
+132f178dd31e8d3d54f3265e76a6cc4b46b3c3fcab9cb7ae5e5f421d2f21ade0.ll
+45b121b508231ae153dfcdcf0db10465ff57bb6c6a4ae41a319fa50b4b0735a1.ll
+5d822c9e46130e9a2cfdba331278dbbe7a7b91030611cd6f42432f4649c702f0.ll
+9b1a198a9ef099dbc697078c9bba73dc545a6dc2ab9495f3f126833b6843803d.ll
+ad0998429c1f9f516a1dc9bda973bd365ba8b62ab9a20602fd5eaa93095c31cd.ll
+d3a364bd1d57e6346fae70b8f63c4cbb2e1c2ebf2489adb4f2c39d764fdcefb2.ll
+e471268288a4447d7cf2f7609e040da46fba664327a3f26e9c949b7285eb5244.ll
+eedc59496693deb35d1d62db5075a377d1f7e6ab43a78df755a1df104c9bd4ac.ll
+f510a9f02d948541a9d38e74e30f42a6e8c2020f601af1b12cf1b50d860bd4e8.ll
+ff5bb2dde9667059deb0c33578412cf3dcc4faa9a7484d5c10133b728eab59fb.ll
+idx2-c8877635485cf10ee694d19a1f69eb3e71c20b6ce1f91284443ea3802b01ff5d.plist
+lk1-05002f42a2058ccbf5e2f8ad.bin
+--- loaded kexts:
+as.vit9696.Lilu (1.7.2)
+as.vit9696.WhateverGreen (1.7.1)
+com.nullmoth.NVRMFB (0.1)
+com.nullmoth.NVRM (0.1)
+com.nullmoth.NVAccel (0.1)
+com.nullmoth.NVRMAGDC (0.1)
+--- installed kext hashes:
+NVRM 7f6350d95720
+NVRMFB 7044711ebb8b
+NVAccel 77dd54473a54
+NVRMAGDC 223a327f0b94
+--- disk free: 16Gi
+--- launchd nullmoth: 0

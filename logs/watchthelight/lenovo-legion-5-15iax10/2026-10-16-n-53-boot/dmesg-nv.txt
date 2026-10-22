@@ -1,0 +1,1940 @@
+[   49.551943]: MtkWlan: W6 pass: en1 passing traffic
+[   50.854770]: NVRM-xnu: probe 10de:2d18 class 03.00 subsystem 17aa:3e38
+[   50.854773]: NVRM-xnu: probe 10de:2d18 class 03.00 subsystem 17aa:3e38
+[   50.854778]: NVRM-xnu: rm_is_supported_pci_device OK; RM names 10de:2d18 "NVIDIA GeForce RTX 5070 Laptop GPU"
+[   50.854780]: NVRM-xnu: rm_is_supported_pci_device OK; RM names 10de:2d18 "NVIDIA GeForce RTX 5070 Laptop GPU"
+[   50.854790]: NVAccel: probe(GFX0) score 100
+[   50.854793]: NVAccel: probe(GFX0) score 100
+[   50.854802]: NVAccel: NVIDIA display device 10de:2d18 class 03.00 - claiming
+[   50.854804]: NVAccel: NVIDIA display device 10de:2d18 class 03.00 - claiming
+[   50.854836]: NVRMFB: NVRMFBClaim holds the IOFramebuffer match category on GFX0 - IONDRVFramebuffer blocked
+[   50.866349]: NVRM-agdc: loaded; idle until `sysctl debug.nvrmfb_agdc=1`
+[   52.781822]: Sandbox apply: distnoted[361] <bytes>bpf0 attached to en1bpf0 closed and detached from en1 fcount 0 dcount 0Sandbox: dasd(137) deny(1) mach-lookup com.apple.OSIntelligence.chargingNVRM-xnu: boot screen: copied 2560x1600 pitch 16384 (25600 KB) from the console at 0x6018000000 in 4722 ms
+[   55.582234]: NVRM-xnu: boot screen: copied 2560x1600 pitch 16384 (25600 KB) from the console at 0x6018000000 in 4722 ms
+[   55.582238]: NVRM-xnu: bar1: -nvrmsmallbar set \M-b\M^@\M^T BAR1 left as IOPCIFamily placed it
+[   55.582239]: NVRM-xnu: bar1: -nvrmsmallbar set \M-b\M^@\M^T BAR1 left as IOPCIFamily placed it
+[   55.582260]: NVRM-xnu: BARS bar0@0x10:0x80000000+0x4000000 bar1@0x14:0x6018000000+0x4000000 bar2@0x1c:0x601c000000+0x2000000 
+[   55.582265]: NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+[   55.582266]: NVRM-xnu: published model="NVIDIA GeForce RTX 5070 Laptop GPU" from RM's released-chip table
+[   55.582267]: NVRM-xnu: armed on 02:00.0 10de:2d18
+[   55.582282]: NVRM-xnu: auto-go: go(2) in 100000 ms on its own thread (BAR1 not placed); registry held busy until the display is armed (cap settle + 40 s)
+[   55.582283]: NVRM-xnu: auto-go: go(2) in 100000 ms on its own thread (BAR1 not placed); registry held busy until the display is armed (cap settle + 40 s)
+[   55.582314]: NVAccel: NVRM owns 10de:2d18 (waited 0 ms) - starting
+[   55.582317]: NVAccel: NVRM owns 10de:2d18 (waited 0 ms) - starting
+[   55.582319]: NVAccel: start(GFX0): calling IOGraphicsAccelerator2::start \M-b\M^@\M^T the family's own bring-up
+[   55.582330]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   55.582332]: NVAccel: configureDevice(<ptr>) 10de:2d18 \M-b\M^@\M^T RM owns the card (NVRM.kext); nothing to do here yet
+[   55.582434]: NVRM-xnu: starting the NVIDIA card: waiting 100 s before it takes over the screen, because its memory window (BAR1) is too small to move off the boot screen. This is not a freeze. To start in about a second instead, enable "Above 4G Decoding" and "Resizable BAR" in the BIOS.
+[   55.582441]: NVRM-xnu: starting the NVIDIA card: waiting 100 s before it takes over the screen, because its memory window (BAR1) is too small to move off the boot screen. This is not a freeze. To start in about a second instead, enable "Above 4G Decoding" and "Resizable BAR" in the BIOS.
+[   55.582526]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   55.582527]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T what the FAMILY pre-filled, before we write a byte:
+[   55.582528]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   55.582529]: NVAccel:    cfg+0x00 = 0x0000000000000000
+[   55.582530]: NVAccel:    cfg+0x08 = 0x0000000000000000
+[   55.582531]: NVAccel:    cfg+0x10 = 0x0000000000000000
+[   55.582532]: NVAccel:    cfg+0x18 = 0x0000000000000001
+[   55.582533]: NVAccel:    cfg+0x20 = 0x0000000000000000
+[   55.582534]: NVAccel:    cfg+0x28 = 0x0000000100000001
+[   55.582535]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   55.582536]: NVAccel:    cfg+0x30 = 0x0000400010001000
+[   55.582536]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   55.582537]: NVAccel:    cfg+0x38 = 0x0000020000040000
+[   55.582538]: NVAccel:    cfg+0x40 = 0x0000000100010000
+[   55.582539]: NVAccel:    cfg+0x48 = 0x000000030000000c
+[   55.582540]: NVAccel:    cfg+0x50 = 0x00007fff00000003
+[   55.582541]: NVAccel:    cfg+0x58 = 0x0000000000000000
+[   55.582542]: NVAccel:    cfg+0x60 = 0x0000000000000000
+[   55.582543]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   55.582544]: NVAccel:    cfg+0x68 = 0x0000000100000005
+[   55.582544]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   55.582545]: NVAccel: populateAccelConfig(<ptr>) \M-b\M^@\M^T filled: AccelCaps=15, flags=0x30844300, maxtex=16384x16384, maxfb=5 written (cfg+0x2c left 1)
+[   55.582691]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   55.582692]: NVAccel: newEventMachine -> <ptr> (family inits it)
+[   55.582703]: NVAccel: newDisplayMachine -> <ptr>
+[   55.582704]: NVAccel: newDisplayMachine -> <ptr>
+[   55.582817]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   55.582818]: NVAccel: createKernelGPUTask -> <ptr> init=1
+[   55.582828]: NVAccel: IOGraphicsAccelerator2::start -> 1
+[   55.582829]: NVAccel: IOGraphicsAccelerator2::start -> 1
+[   55.582835]: NVAccel: registerService() called \M-b\M^@\M^T Metal can now find MetalPluginName=NVMTLDriver
+[   55.583099]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   55.583100]: NVAccel: user-client carriers: 32 of 32 ready (each holds ~1019 clients before IOService::attach starts sleeping)
+[   55.583102]: NVAccel: enableAccelerator() from start (call #1)
+[   55.583103]: NVAccel: enableAccelerator() from start (call #1)
+[   55.583105]: NVAccel: display machine framebuffer count after the family sweep = 0
+[   55.583106]: NVAccel: display machine framebuffer count after the family sweep = 0
+[   55.583107]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   55.583108]: NVAccel: multi-head: up to 5 heads, registration lock <ptr>
+[   55.583110]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   55.583113]: NVAccel: watching for NVRMFramebuffer to publish -> notifier <ptr>
+[   55.583116]: NVAccel: watching for an Intel built-in panel (NMIntelFB) -> notifier <ptr>
+[   55.583125]: NVAccel: sysctl debug.nvaccelfb installed -- `sudo sysctl -w debug.nvaccelfb=1` registers the framebuffer
+[   55.583127]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   55.583128]: NVAccel: MetalPluginName withheld -- nothing will load the Metal plugin until `sysctl -w debug.nvaccelfb=1` puts it back, and a reboot takes it away again
+[   55.583130]: NVAccel: headless check: armed for 60 s from now
+[  156.166602]: busy timeout[1], (60s): 'NVRM' (1e,1)
+[  156.211579]: NVRM-xnu: boot raster: head 0 vline wraps 41 moves 71930 max 1743 -> 165.001 Hz MEASURED | armed raster 2720x1744 pclk 782708000 Hz -> 165.000 Hz
+[  156.211586]: NVRM-xnu: boot raster: head 0 vline wraps 41 moves 71930 max 1743 -> 165.001 Hz MEASURED | armed raster 2720x1744 pclk 782708000 Hz -> 165.000 Hz
+[  156.461599]: NVRM-xnu: boot raster: head 1 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+[  156.461601]: NVRM-xnu: boot raster: head 1 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+[  156.790823]: NVRM-xnu: boot raster: head 2 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 8x5 pclk 0 Hz -> 0.000 Hz
+[  156.790825]: NVRM-xnu: boot raster: head 2 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 8x5 pclk 0 Hz -> 0.000 Hz
+[  157.119280]: NVRM-xnu: boot raster: head 3 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+[  157.119282]: NVRM-xnu: boot raster: head 3 vline wraps 0 moves 0 max 0 -> 0.000 Hz (not running / unknown) | armed raster 0x0 pclk 9642 Hz -> 0.000 Hz
+[  157.197177]: NVRM-xnu: go(2) begins (fPassDone 0)
+[  157.197178]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[  157.197179]: NVRM-xnu: go(pass 2) \M-b\M^@\M^T done so far: 0
+[  157.198000]: NVRM-xnu: armwatch: baseline taken (firmware) head0 SET_CONTROL 0x00000000 RASTER_SIZE 0x06d00aa0
+[  157.198009]: NVRM-xnu: headwatch: head 0 RUNNING at 157198 ms since boot (vline raw 0x76630313)
+[  157.198014]: NVRM-xnu: headwatch: head 1 RUNNING at 157198 ms since boot (vline raw 0x00000000)
+[  157.221171]: NVRM-xnu: headwatch: head 1 STOPPED at 157221 ms since boot (vline raw 0x00000000)
+[  157.262789]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[  157.262791]: NVRM-xnu: anchor: os_mem_set runtime 0x<ptr> (slide = runtime - its nm link address)
+[  157.333422]: NVRM-xnu: rm_init_rm()
+[  157.333423]: NVRM-xnu: rm_init_rm()
+[  157.397561]: NVRM: _sysCreateOs: RM Access Sys Cap creation failed: 0x56
+[  157.405218]: NVRM-xnu: rm_init_rm OK
+[  157.405219]: NVRM-xnu: rm_init_rm OK
+[  157.469024]: NVRM-xnu: event locks created for the control device and the GPU
+[  157.469025]: NVRM-xnu: event locks created for the control device and the GPU
+[  157.537203]: NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+[  157.537204]: NVRM-xnu: registry: RmMsg=":" ResmanDebugLevel=0 (verbose RM)
+[  157.604602]: NVRM-xnu:   mapped -> 0x<ptr> (slot 0, high water 1/8192)
+[  157.604617]: NVRM-xnu: rm_is_supported_device OK - this chip has a HAL and a GSP
+[  157.604619]: NVRM-xnu: rm_is_supported_device OK - this chip has a HAL and a GSP
+[  157.671533]: NVRM-xnu: rm_init_private_state()
+[  157.671534]: NVRM-xnu: rm_init_private_state()
+[  157.734998]: NVRM-xnu:   mapped -> 0x<ptr> (slot 0, high water 1/8192)
+[  157.735014]: NVRM-xnu:   dma address size 52 bits
+[  157.735035]: NVRM-xnu: rm_init_private_state OK
+[  157.735036]: NVRM-xnu: rm_init_private_state OK
+[  157.797120]: NVRM-xnu: PASS 1 REACHED: RM initialised, private state built, GSP firmware requested
+[  157.797121]: NVRM-xnu: PASS 1 REACHED: RM initialised, private state built, GSP firmware requested
+[  157.864746]: NVRM-xnu: bus master + memory enabled (command 0x0007)
+[  157.864748]: NVRM-xnu: bus master + memory enabled (command 0x0007)
+[  157.928820]: NVRM-xnu:   interrupt source 0 type 0x1
+[  157.928821]: NVRM-xnu:   interrupt source 0 type 0x1
+[  157.991626]: NVRM-xnu:   interrupt source 1 type 0x10000 (MSI)
+[  157.991628]: NVRM-xnu:   interrupt source 1 type 0x10000 (MSI)
+[  158.054558]: NVRM-xnu: MSI 1 armed; calling rm_init_adapter() \M-b\M^@\M^T GSP boot from inside macOS
+[  158.054559]: NVRM-xnu: MSI 1 armed; calling rm_init_adapter() \M-b\M^@\M^T GSP boot from inside macOS
+[  158.121108]: NVRM-xnu: nv_get_screen_info -> base 0x6018000000 2560x1600 depth 32 pitch 16384 size 26214400
+[  158.121113]: NVRM: GPU 0000:02:00.0: RmInitAdapter
+[  158.182764]: NVRM: GPU 0000:02:00.0: RmSetupRegisters for 0x10de:0x2d18
+[  158.182765]: NVRM: GPU 0000:02:00.0: RmSetupRegisters for 0x10de:0x2d18
+[  158.246547]: NVRM: GPU 0000:02:00.0: pci config info:
+[  158.246548]: NVRM: GPU 0000:02:00.0: pci config info:
+[  158.307497]: NVRM: GPU 0000:02:00.0:    registers look  like: 0x80000000 0x4000000NVRM: GPU 0000:02:00.0:    registers look  like: 0x80000000 0x4000000NVRM: GPU 0000:02:00.0:    fb        looks like: 0x6018000000 0x4000000
+[  158.313936]: NVRM: GPU 0000:02:00.0:    fb        looks like: 0x6018000000 0x4000000
+[  158.379934]: NVRM-xnu:   mapped -> 0x<ptr> (slot 0, high water 1/8192)
+[  158.379935]: NVRM: GPU 0000:02:00.0: Successfully mapped framebuffer and registers
+[  158.379936]: NVRM: GPU 0000:02:00.0: Successfully mapped framebuffer and registers
+[  158.443732]: NVRM: GPU 0000:02:00.0: final mappings:
+[  158.443733]: NVRM: GPU 0000:02:00.0: final mappings:
+[  158.504588]: NVRM: GPU 0000:02:00.0:     regs: 0x80000000 0x4000000 0x0xffffffe4f8089000
+[  158.504589]: NVRM: GPU 0000:02:00.0:     regs: 0x80000000 0x4000000 0x0xffffffe4f8089000
+[  158.612332]: NVRM-xnu:   firmware loaded: 84310168 bytes
+[  158.613176]: NVRM-xnu: PHYSMAP armed, selftest ok (2 hit, 3 miss)
+[  158.613186]: NVRM-xnu: PV-SENTINEL REFUSED: slid _pmap_verify_free text != BootKC 24G830 bytes (kernel or KC differs)
+[  158.613188]: NVRM-xnu: WATCHPAGE armed, selftest ok (hit/miss/next-slot)
+[  158.613323]: NVRM-xnu: QUARANTINE armed, selftest ok (count/clean/found/blind, whole+sampled)
+[  158.617656]: NVRM-xnu: STUB os_get_acpi_rsdp_from_uefi
+[  159.853779]: NVRM-xnu: STUB os_cgroup_implementation
+[  159.855756]: NVRM-xnu: STUB nv_get_device_memory_config
+[  159.859620]: NVRM-xnu:   mapped -> 0x<ptr> (slot 1, high water 2/8192)
+[  159.870719]: NVRM-xnu: STUB nv_acpi_ddc_method
+[  159.985713]: NVRM-xnu: STUB os_cgroup_for_pid
+[  159.988995]: NVRM-xnu:   mapped -> 0x<ptr> (slot 2, high water 3/8192)
+[  160.262467]: NVRM-xnu:   mapped -> 0x<ptr> (slot 3, high water 4/8192)
+[  160.264415]: NVRM-xnu: STUB nv_start_rc_timer
+[  160.272347]: NVRM-xnu: STUB nv_i2c_add_adapter
+[  160.273311]: NVRM-xnu: STUB nv_acpi_get_powersource
+[  160.273313]: NVRM: GPU 0000:02:00.0: RmInitAdapter succeeded!
+[  160.273315]: NVRM: GPU 0000:02:00.0: RmInitAdapter succeeded!
+[  160.341663]: NVRM-xnu: rm_init_adapter -> OK
+[  160.399357]: NVRM-xnu: DMA buffers alive: 41
+[  160.399937]: NVRM-xnu:   #0 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.399941]: NVRM-xnu:   #1 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.400178]: NVRM-xnu:   #2 516 KB contig=0 nonzero=5645 first@0x1 head=0080fa3c 00000000
+[  160.400182]: NVRM-xnu:   #3 4 KB contig=1 nonzero=11 first@0x8 head=00000000 00000000
+[  160.400185]: NVRM-xnu:   #4 4 KB contig=1 nonzero=44 first@0x0 head=b3601a37 21ae3adc
+[  160.400652]: NVRM-xnu:   #5 4 KB contig=1 nonzero=116 first@0x0 head=54494e49 474f4c00
+[  160.400655]: NVRM-xnu:   #6 4 KB contig=1 nonzero=18 first@0x1 head=0080fa3c 00000000
+[  160.401119]: NVRM-xnu:   #7 4 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.401237]: NVRM-xnu:   #8 284 KB contig=1 nonzero=286015 first@0x0 head=a718b2c1 bb396481
+[  160.401240]: NVRM-xnu:   #9 4 KB contig=1 nonzero=1551 first@0x0 head=01000200 c8080000
+[  160.435178]: NVRM-xnu:   #10 82456 KB contig=0 nonzero=79520658 first@0x1 head=0010073d 00000000
+[  160.435206]: NVRM-xnu:   #11 64 KB contig=1 nonzero=2682 first@0x0 head=aa020000 00000000
+[  160.435235]: NVRM-xnu:   #12 64 KB contig=1 nonzero=12 first@0x0 head=02000000 00000000
+[  160.435266]: NVRM-xnu:   #13 64 KB contig=1 nonzero=1150 first@0x0 head=1e010000 00000000
+[  160.435296]: NVRM-xnu:   #14 64 KB contig=1 nonzero=3 first@0x9 head=00000000 00000000
+[  160.435327]: NVRM-xnu:   #15 64 KB contig=1 nonzero=3 first@0x9 head=00000000 00000000
+[  160.435330]: NVRM-xnu:   #16 4 KB contig=1 nonzero=20 first@0x0 head=04000000 00000000
+[  160.435333]: NVRM-xnu:   #17 4 KB contig=1 nonzero=14 first@0x0 head=04000000 00000000
+[  160.435363]: NVRM-xnu:   #18 64 KB contig=1 nonzero=422 first@0x0 head=64000000 00000000
+[  160.435832]: NVRM-xnu:   #19 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.435953]: NVRM-xnu:   #20 284 KB contig=1 nonzero=286027 first@0x0 head=03044800 00620400
+[  160.436417]: NVRM-xnu:   #21 4 KB contig=1 nonzero=590 first@0x2 head=00009609 03040000
+[  160.436420]: NVRM-xnu:   #22 4 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.436452]: NVRM-xnu:   #23 64 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.436455]: NVRM-xnu:   #24 4 KB contig=1 nonzero=14 first@0x0 head=08000000 000000ff
+[  160.436470]: NVRM-xnu:   #25 36 KB contig=1 nonzero=207 first@0x0 head=c840d6ea c8e9de18
+[  160.436497]: NVRM-xnu:   #26 64 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.509159]: NVRM-xnu:   #27 628 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.509162]: NVRM-xnu:   #28 4 KB contig=0 nonzero=13 first@0x10 head=00000000 00000000
+[  160.509170]: NVRM-xnu:   #29 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.509179]: NVRM-xnu:   #30 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.559611]: NVRM-xnu:   #31 436 KB contig=0 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.559614]: NVRM-xnu:   #32 4 KB contig=0 nonzero=13 first@0x10 head=00000000 00000000
+[  160.559622]: NVRM-xnu:   #33 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.559630]: NVRM-xnu:   #34 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.559633]: NVRM-xnu:   #38 4 KB contig=0 nonzero=83 first@0x1 head=00600120 2d900000
+[  160.559641]: NVRM-xnu:   #39 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.559650]: NVRM-xnu:   #40 16 KB contig=1 nonzero=0 first@0xffffffffffffffff head=00000000 00000000
+[  160.559702]: NVRM-xnu: regdump BOOT_0                                     @0x000000 = 0x1b6000a1
+[  160.559707]: NVRM-xnu: regdump PGSP_FALCON_MAILBOX0                       @0x110040 = 0x00000000
+[  160.559708]: NVRM-xnu: regdump PGSP_FALCON_MAILBOX1                       @0x110044 = 0x00000000
+[  160.559710]: NVRM-xnu: regdump PGSP_FALCON_HWCFG2(bit13=lockdown)         @0x1100f4 = 0x818787f7
+[  160.559712]: NVRM-xnu: regdump PGSP_FALCON_OS                             @0x110080 = 0x00000000
+[  160.559715]: NVRM-xnu: regdump PGSP_FALCON_IRQSTAT                        @0x110008 = 0x00000000
+[  160.559716]: NVRM-xnu: regdump PGSP_FALCON_ENGINE                         @0x1103c0 = 0xbadf5720
+[  160.559718]: NVRM-xnu: regdump GSP_RISCV_CPUCTL(bit7=active,bit4=halted)  @0x111388 = 0x00000180
+[  160.559720]: NVRM-xnu: regdump GSP_RISCV_BCR_CTRL                         @0x111668 = 0x00000011
+[  160.559722]: NVRM-xnu: regdump PGSP_MAILBOX(0)                            @0x110804 = 0x0018a1f9
+[  160.559723]: NVRM-xnu: regdump PGSP_MAILBOX(1)                            @0x110808 = 0x0018a20a
+[  160.559725]: NVRM-xnu: regdump PGSP_QUEUE_HEAD(0)                         @0x110c00 = 0x00000000
+[  160.559727]: NVRM-xnu: regdump PFB_PRI_MMU_WPR2_ADDR_LO                   @0x1fa824 = 0x01ee4800
+[  160.559729]: NVRM-xnu: regdump PFB_PRI_MMU_WPR2_ADDR_HI                   @0x1fa828 = 0x01fc2200
+[  160.559731]: NVRM-xnu: regdump GFW_BOOT_PROGRESS(scratch05_0)             @0x118234 = 0x00000000
+[  160.559742]: NVRM-xnu: PASS 2 REACHED: the adapter is up \M-b\M^@\M^T GSP-RM is running on the card under macOS
+[  160.559743]: NVRM-xnu: PASS 2 REACHED: the adapter is up \M-b\M^@\M^T GSP-RM is running on the card under macOS
+[  160.623925]: NVRM-fbinfo: gpu 0x00000200: RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB
+[  160.624762]: NVRM-xnu: published VRAM,totalsize=8546942976 bytes (RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB) from the card
+[  160.624764]: NVRM-xnu: published VRAM,totalsize=8546942976 bytes (RAM_SIZE 8346624 KB, TOTAL_RAM_SIZE 8346624 KB) from the card
+[  160.690909]: NVKMS INFO: Loading NVIDIA UNIX Open Kernel Module for x86_64 610.57.04 Release Build (NullMoth Systems)
+[  160.690911]: NVKMS INFO: Loading NVIDIA UNIX Open Kernel Module for x86_64 610.57.04 Release Build (NullMoth Systems)
+[  160.756931]: NVRM-xnu: nvKmsModuleLoad -> 1
+[  160.756938]: NVRM-xnu: NVKMS timers use serial ONCE worker; event callbacks ONCE at kernel priority
+[  160.756940]: NVRM-xnu: nvKmsKapiProbe gpu_id 0x200
+[  160.757152]: NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+[  160.819886]: NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+[  160.822967]: NVRM-xnu:   mapped -> 0x<ptr> (slot 4, high water 5/8192)
+[  160.875943]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x73138d -> status 0x56
+[  160.881769]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.894533]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.900066]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.904849]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.909632]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.914420]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.919211]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.924001]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.928784]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.933566]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.938351]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.943149]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.947950]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.952726]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.957514]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.962292]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.967065]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.971851]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.976633]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.981408]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.986423]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  160.991251]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  161.009247]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x73138d -> status 0x56
+[  161.009423]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0xffff
+[  161.009735]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x730282 -> status 0x1f
+[  161.009977]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x730291 -> status 0x56
+[  161.010210]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010278]: NVRM-xnu:   mapped -> 0x<ptr> (slot 5, high water 6/8192)
+[  161.010298]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010345]: NVRM-xnu:   mapped -> 0x<ptr> (slot 6, high water 7/8192)
+[  161.010364]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010409]: NVRM-xnu:   mapped -> 0x<ptr> (slot 7, high water 8/8192)
+[  161.010426]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010475]: NVRM-xnu:   mapped -> 0x<ptr> (slot 8, high water 9/8192)
+[  161.010493]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010542]: NVRM-xnu:   mapped -> 0x<ptr> (slot 9, high water 10/8192)
+[  161.010559]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010623]: NVRM-xnu:   mapped -> 0x<ptr> (slot 10, high water 11/8192)
+[  161.010640]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010683]: NVRM-xnu:   mapped -> 0x<ptr> (slot 11, high water 12/8192)
+[  161.010700]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010745]: NVRM-xnu:   mapped -> 0x<ptr> (slot 12, high water 13/8192)
+[  161.010762]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010804]: NVRM-xnu:   mapped -> 0x<ptr> (slot 13, high water 14/8192)
+[  161.010821]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010871]: NVRM-xnu:   mapped -> 0x<ptr> (slot 14, high water 15/8192)
+[  161.010888]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010935]: NVRM-xnu:   mapped -> 0x<ptr> (slot 15, high water 16/8192)
+[  161.010952]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.010997]: NVRM-xnu:   mapped -> 0x<ptr> (slot 16, high water 17/8192)
+[  161.011021]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.011062]: NVRM-xnu:   mapped -> 0x<ptr> (slot 17, high water 18/8192)
+[  161.011144]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.011222]: NVRM-xnu:   mapped -> 0x<ptr> (slot 18, high water 19/8192)
+[  161.011235]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000b obj 0x10075 -> status 0x0
+[  161.012970]: NVRM-xnu:   mapped -> 0x<ptr> (slot 19, high water 20/8192)
+[  161.013586]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[  161.013591]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[  161.013596]: NVKMS-rm: CONTROL obj 0x10002 cmd 0x20802a03 -> status 0x56
+[  161.017023]: NVRM-xnu:   mapped -> 0x<ptr> (slot 20, high water 21/8192)
+[  161.017842]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10003 -> status 0x0
+[  161.017915]: NVRM-xnu:   mapped -> 0x<ptr> (slot 21, high water 22/8192)
+[  161.017927]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10004 -> status 0x0
+[  161.017966]: NVRM-xnu:   mapped -> 0x<ptr> (slot 22, high water 23/8192)
+[  161.017979]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  161.082938]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  161.082946]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  161.146537]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  161.146541]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  161.215090]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  161.215095]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  161.280241]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  161.280244]: NVRM-fb: getDisplays: 4 handle(s); this GPU has 4 heads and 4 connectors
+[  161.344318]: NVRM-fb: getDisplays: 4 handle(s); this GPU has 4 heads and 4 connectors
+[  161.345848]: NVRM-fb: dpy 0/4 0x100: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  161.411900]: NVRM-fb: dpy 0/4 0x100: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  161.412138]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x730291 -> status 0x56
+[  161.413333]: NVRM-fb: dpy 1/4 0x200: connected 1 edid 384 B connector 0x2 headMask 0xf internal 1
+[  161.477671]: NVRM-fb: dpy 1/4 0x200: connected 1 edid 384 B connector 0x2 headMask 0xf internal 1
+[  161.477693]: NVRM-fb: dpy 2/4 0x400: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  161.541999]: NVRM-fb: dpy 2/4 0x400: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  161.543696]: NVRM-fb: dpy 3/4 0x800: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  161.607310]: NVRM-fb: dpy 3/4 0x800: connected 0 edid 0 B connector 0x0 headMask 0x0 internal 0
+[  161.607322]: NVRM-fb: ENUMERATED: 1 connected display(s) of 4 handle(s), 4 heads available
+[  161.670268]: NVRM-fb: ENUMERATED: 1 connected display(s) of 4 handle(s), 4 heads available
+[  161.673786]: NVRM-fb: boot pair: any-mode pass found 1 display(s)
+[  161.733560]: NVRM-fb: boot pair: any-mode pass found 1 display(s)
+[  161.734770]: NVRM-fb: boot pair: NVRM says head 0 2720x1744 pclk 782708000 (0x0); 1 display(s) match -> RESERVED for display 0x200 head 0
+[  161.802273]: NVRM-fb: boot pair: NVRM says head 0 2720x1744 pclk 782708000 (0x0); 1 display(s) match -> RESERVED for display 0x200 head 0
+[  161.802278]: NVRM-fb: fb0: display 0x200 is internal -- reporting kIOConnectionBuiltIn
+[  161.864324]: NVRM-fb: fb0: display 0x200 is internal -- reporting kIOConnectionBuiltIn
+[  161.864327]: NVRM-fb: fb0: EDID 384 B, panel 320x200 mm (imageWidth/imageHeight)
+[  161.926299]: NVRM-fb: fb0: EDID 384 B, panel 320x200 mm (imageWidth/imageHeight)
+[  161.926302]: NVRM-fb: index 0 -> display 0x200 connector 0x2 headMask 0xf -> head 0 (taken now 0x1)
+[  161.989646]: NVRM-fb: index 0 -> display 0x200 connector 0x2 headMask 0xf -> head 0 (taken now 0x1)
+[  161.991757]: NVRM-fb: boot pair: display 0x200 keeps the firmware's mode 2560x1600 @165000 on head 0
+[  162.054498]: NVRM-fb: boot pair: display 0x200 keeps the firmware's mode 2560x1600 @165000 on head 0
+[  162.055698]: NVRM-fb: fbmodes: boot raster 2560x1600 pitch 10240; scanout allocation sized for 2560x1600 (16000 KB, boot needs 16000 KB)
+[  162.122217]: NVRM-fb: fbmodes: boot raster 2560x1600 pitch 10240; scanout allocation sized for 2560x1600 (16000 KB, boot needs 16000 KB)
+[  162.122222]: NVRM-fb: display 0x200 head 0 connector 0x2 mode 2560x1600 @165000 pitch 10240 size 16000 KB
+[  162.186487]: NVRM-fb: display 0x200 head 0 connector 0x2 mode 2560x1600 @165000 pitch 10240 size 16000 KB
+[  162.186491]: NVRM-fb: console range BEFORE allocating: 0x6018000000 .. 0x6019900000 (26214400 B, rowBytes 16384)
+[  162.250860]: NVRM-fb: console range BEFORE allocating: 0x6018000000 .. 0x6019900000 (26214400 B, rowBytes 16384)
+[  162.250867]: NVRM-fb: kernel console DISABLED (kPEDisableScreen) before allocating
+[  162.250868]: NVRM-fb: kernel console DISABLED (kPEDisableScreen) before allocating
+[  162.251260]: NVRM-xnu:   mapped -> 0x<ptr> (slot 23, high water 24/8192)
+[  162.251270]: NVRM-fb: VIDMEM: kva <ptr> contiguous 1 kernelPhys 0x6019ab0000 userPhys 0x6019ab0000 (same)
+[  162.251273]: NVRM-fb: VIDMEM: kva <ptr> contiguous 1 kernelPhys 0x6019ab0000 userPhys 0x6019ab0000 (same)
+[  162.251294]: NVRM-fb: verifyAperture(kernelPhys) 0x6019ab0000: +0x1000=c0de1111 +0x2000=c0de2222  *** MATCH ***
+[  162.251296]: NVRM-fb: verifyAperture(kernelPhys) 0x6019ab0000: +0x1000=c0de1111 +0x2000=c0de2222  *** MATCH ***
+[  162.251305]: NVRM-fb: VIDMEM ACCEPTED -- aperture 0x6019ab0000
+[  162.251307]: NVRM-fb: VIDMEM ACCEPTED -- aperture 0x6019ab0000
+[  162.251351]: NVRM-xnu:   mapped -> 0x<ptr> (slot 24, high water 25/8192)
+[  162.251423]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10006 -> status 0x0
+[  162.251460]: NVRM-fb: cursor plane READY: 256x256 A8R8G8B8 pitch 1024 (device maxCursorSizeInPixels 256, validCompModes 0x3d)
+[  162.251462]: NVRM-fb: cursor plane READY: 256x256 A8R8G8B8 pitch 1024 (device maxCursorSizeInPixels 256, validCompModes 0x3d)
+[  162.251468]: NVRM-fb: fbmodes: published IOFBScalerInfo (up+down, max 2560x1600) + IOFBTimingRange (25 MHz..1.2 GHz, 23..500 Hz)
+[  162.251470]: NVRM-fb: fbmodes: published IOFBScalerInfo (up+down, max 2560x1600) + IOFBTimingRange (25 MHz..1.2 GHz, 23..500 Hz)
+[  162.251482]: NVKMS-rm: DUP_OBJECT src client 0xc1d0000c obj 0x10005 -> status 0x0
+[  162.251511]: NVRM-fb: console info: base 0x6018000001 rowBytes 16384 2560x1600 depth 32
+[  162.251513]: NVRM-fb: console info: base 0x6018000001 rowBytes 16384 2560x1600 depth 32
+[  162.251518]: NVRM-fb: BAR0: pa 0x80000000 len 67108864
+[  162.251520]: NVRM-fb: BAR0: pa 0x80000000 len 67108864
+[  162.251522]: NVRM-fb: BAR1: pa 0x6018000000 len 67108864
+[  162.251523]: NVRM-fb: BAR1: pa 0x6018000000 len 67108864
+[  162.251526]: NVRM-fb: BAR2: pa 0x601c000000 len 33554432
+[  162.251529]: NVRM-fb: BAR3: pa 0x9000 len 128
+[  162.251530]: NVRM-fb: BAR3: pa 0x9000 len 128
+[  162.251532]: NVRM-fb: BAR4: pa 0x84080000 len 524288
+[  162.251533]: NVRM-fb: BAR4: pa 0x84080000 len 524288
+[  162.251535]: NVRM-fb: console probe: using NVKMS vtFb 0x6018000000 (26214400 B) instead of the platform's 0x6018000000
+[  162.251536]: NVRM-fb: console probe: using NVKMS vtFb 0x6018000000 (26214400 B) instead of the platform's 0x6018000000
+[  162.251835]: NVRM-fb: console probe phys 0x6018000000 pitch 16384 size 26214400 kva <ptr> | SURFACE phys 0x6019ab0000 pitch 10240 size 16384000
+[  162.251837]: NVRM-fb: console probe phys 0x6018000000 pitch 16384 size 26214400 kva <ptr> | SURFACE phys 0x6019ab0000 pitch 10240 size 16384000
+[  162.251843]: NVRM-fb: boot screen: NVRM's copy is one flat value 0x00000000 (unreadable aperture) - not painted, black takeover
+[  162.251845]: NVRM-fb: boot screen: NVRM's copy is one flat value 0x00000000 (unreadable aperture) - not painted, black takeover
+[  162.251847]: NVRM-fb: boot screen: NVRM had none (0x0, provider NVRM found) \M-b\M^@\M^T black takeover
+[  162.251849]: NVRM-fb: boot screen: NVRM had none (0x0, provider NVRM found) \M-b\M^@\M^T black takeover
+[  162.253322]: NVRM-xnu: boot screen: buffer released after the takeover
+[  162.253323]: NVRM-xnu: boot screen: buffer released after the takeover
+[  162.257461]: NVRM-fb: fb0: internal panel, but NVKMS registered no backlight (0xe00002f0) -- no brightness control
+[  162.257463]: NVRM-fb: fb0: internal panel, but NVKMS registered no backlight (0xe00002f0) -- no brightness control
+[  162.257540]: NVRM-fb: vbl timer armed (fallback)
+[  162.257541]: NVRM-fb: vbl timer armed (fallback)
+[  162.257549]: NVRM-fb: hw vblank on head 0: deferred until NVKMS latches a flip on this head
+[  162.257550]: NVRM-fb: hw vblank on head 0: deferred until NVKMS latches a flip on this head
+[  162.257554]: NVRM-fb: reflip keep-alive NOT armed: enableController's modeset owns the head, no boot-time re-syncs
+[  162.257555]: NVRM-fb: reflip keep-alive NOT armed: enableController's modeset owns the head, no boot-time re-syncs
+[  162.257558]: NVRM-fb: probe grid + HUD OFF -- macOS only (add nvhud=1 to boot-args to show them)
+[  162.257559]: NVRM-fb: probe grid + HUD OFF -- macOS only (add nvhud=1 to boot-args to show them)
+[  162.257562]: NVRM-fb: head probe retired (answered: we own head 0)
+[  162.257563]: NVRM-fb: head probe retired (answered: we own head 0)
+[  162.257569]: NVRM-fb: pixel sampler OFF -- add nvfbsample=1 to boot-args to arm it
+[  162.257570]: NVRM-fb: pixel sampler OFF -- add nvfbsample=1 to boot-args to arm it
+[  162.257575]: NVRM-fb: registerPowerDriver(2 states) done
+[  162.257576]: NVRM-fb: registerPowerDriver(2 states) done
+[  162.257579]: NVRM-fb: started on NVRMDisplay
+[  162.257619]: PMRD: NVRMFramebuffer tag flags 200
+[  162.257649]: NVRM-fb: setPowerState 1
+[  162.257655]: NVRM-fb: setPowerState 1
+[  162.257861]: NVRM-fb: getAttribute 'gnps' -> 0xe00002c7 val 0
+[  162.257864]: NVRM-fb: getAttribute 'gnps' -> 0xe00002c7 val 0
+[  162.258041]: NVAccel: NVRMFramebuffer published -- display machine framebuffer count = 0 (index 0 kept)
+[  162.258044]: NVAccel: NVRMFramebuffer published -- display machine framebuffer count = 0 (index 0 kept)
+[  162.258047]: NVAccel:   to register it:  sudo sysctl -w debug.nvaccelfb=1   (2 = re-run the family's own sweep)
+[  162.258048]: NVAccel:   to register it:  sudo sysctl -w debug.nvaccelfb=1   (2 = re-run the family's own sweep)
+[  162.258707]: NVRM-xnu: nub 0 published first; its framebuffer started (waitQuiet 0x0) before nubs 1..3
+[  162.258734]: NVRM-xnu: 4 NVRMDisplay nub(s) published (kapi <ptr>, nvfbheads=4) \M-b\M^@\M^T NVRMFB.kext matches them
+[  162.258737]: NVRM-xnu: auto-go: go(2) -> 0x0 (fPassDone 2)
+[  162.258751]: NVRM-xnu: auto-go: heads published mask 0x1 (1 of nvfbheads 4) after 0 s
+[  162.258752]: NVRM-xnu: auto-go: heads published mask 0x1 (1 of nvfbheads 4) after 0 s
+[  162.258757]: NVAccel: registerFramebuffer(1): framebuffer count before = 0
+[  162.258759]: NVAccel: registerFramebuffer(1): framebuffer count before = 0
+[  162.258760]: NVAccel:   sysctl: calling found_framebuffer(NVRMFramebuffer index 0) -- count before 0
+[  162.258762]: NVAccel:   sysctl: calling found_framebuffer(NVRMFramebuffer index 0) -- count before 0
+[  162.258767]: NVAccel: newDisplayPipe -> <ptr>
+[  162.258769]: NVAccel: newDisplayPipe -> <ptr>
+[  162.258776]: NVAccel: newResource -> <ptr>
+[  162.258777]: NVAccel: newResource -> <ptr>
+[  162.258799]: NVAccel:   sysctl: index 0 -> pipe 0 (<ptr>), count 1
+[  162.258801]: NVAccel:   sysctl: index 0 -> pipe 0 (<ptr>), count 1
+[  162.258802]: NVAccel:   framebuffer count after = 1
+[  162.258803]: NVAccel:   framebuffer count after = 1
+[  162.258804]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[  162.258806]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[  162.258811]: NVAccel: DM displayModeWillChange
+[  162.258812]: NVAccel: DM displayModeWillChange
+[  162.258813]: NVAccel: DM displayModeDidChange -> true
+[  162.258814]: NVAccel: DM displayModeDidChange -> true
+[  162.258816]: NVAccel: enableAccelerator() from displayModeDidChange (call #2)
+[  162.258817]: NVAccel: enableAccelerator() from displayModeDidChange (call #2)
+[  162.258821]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  162.258826]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  162.258833]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc <ptr>)
+[  162.258835]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc <ptr>)
+[  162.258842]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  162.258844]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  162.258851]: NVAccel: NVDisplayPipe::initFramebufferResource(index 0): scanout gate CLOSED -- returning NULL, which is the family's own default (sysctl debug.nvaccelfb=3 opens it)
+[  162.258853]: NVAccel: NVDisplayPipe::initFramebufferResource(index 0): scanout gate CLOSED -- returning NULL, which is the family's own default (sysctl debug.nvaccelfb=3 opens it)
+[  162.258856]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[  162.258857]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[  162.258859]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 0, wsaaDefer(+0x282) = 0
+[  162.258861]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 0, wsaaDefer(+0x282) = 0
+[  162.258866]: NVAccel:   IOGLBundleName=AppleMetalOpenGLRenderer -- NEW GL processes get a hardware renderer over Metal
+[  162.258867]: NVAccel:   IOGLBundleName=AppleMetalOpenGLRenderer -- NEW GL processes get a hardware renderer over Metal
+[  162.258869]: NVAccel:   debug.nvaccelfb now reads 1 -- armed-only Metal clients may have a device THIS BOOT ONLY (heads published 0x1, registered 0x1, piped 0x1)
+[  162.258871]: NVAccel:   debug.nvaccelfb now reads 1 -- armed-only Metal clients may have a device THIS BOOT ONLY (heads published 0x1, registered 0x1, piped 0x1)
+[  162.258877]: NVAccel:   level 4: registering any published head that has no pipe yet
+[  162.258878]: NVAccel:   level 4: registering any published head that has no pipe yet
+[  162.258880]: NVAccel: registerFramebuffer(1): framebuffer count before = 1
+[  162.258881]: NVAccel: registerFramebuffer(1): framebuffer count before = 1
+[  162.258882]: NVAccel:   framebuffer count after = 1
+[  162.258883]: NVAccel:   framebuffer count after = 1
+[  162.258884]: NVAccel: sysctl debug.nvaccelfb=4: scanout-backed display pipe ENABLED, re-delivering the mode change
+[  162.258885]: NVAccel: sysctl debug.nvaccelfb=4: scanout-backed display pipe ENABLED, re-delivering the mode change
+[  162.258887]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[  162.258888]: NVAccel:   delivering display_mode_will_change/did_change (nest 0, pipes 1)
+[  162.258890]: NVAccel: DM displayModeWillChange
+[  162.258891]: NVAccel: DM displayModeWillChange
+[  162.258892]: NVAccel: DM displayModeDidChange -> true
+[  162.258893]: NVAccel: DM displayModeDidChange -> true
+[  162.258894]: NVAccel: enableAccelerator() from displayModeDidChange (call #3)
+[  162.258896]: NVAccel: enableAccelerator() from displayModeDidChange (call #3)
+[  162.258898]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  162.258900]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  162.258905]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  162.258907]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  162.258914]: NVRM-fb: nvScanoutInfo -> phys 0x6019ab0000 2560x1600 pitch 10240 (16384000 bytes)
+[  162.258918]: NVRM-fb: nvScanoutInfo -> phys 0x6019ab0000 2560x1600 pitch 10240 (16384000 bytes)
+[  162.258925]: NVAccel: newVidMemory -> <ptr>
+[  162.258926]: NVAccel: newVidMemory -> <ptr>
+[  162.258928]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  162.258931]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  162.258937]: NVAccel: newMemoryMap -> <ptr>
+[  162.258939]: NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+[  162.258941]: NVRM-fb: nvRmHandles -> kapiDevice <ptr>
+[  162.258943]: NVRM-fb: nvRmHandles -> kapiDevice <ptr>
+[  162.258945]: NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+[  162.258948]: NVAccel: RM handles: kapiDevice <ptr> (hClient/hDevice resolved inside NVRM by name) *** the accelerator can now build GPU page tables ***
+[  162.258950]: NVAccel: RM handles: kapiDevice <ptr> (hClient/hDevice resolved inside NVRM by name) *** the accelerator can now build GPU page tables ***
+[  162.258955]: NVRM-fb: fb1: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  162.258958]: NVRM-fb: fb1: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  162.258966]: NVRM-fb: index 1: reusing the shared NvKmsKapiDevice
+[  162.258967]: NVRM-fb: index 1: reusing the shared NvKmsKapiDevice
+[  162.258983]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  162.258987]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  162.258993]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  162.258996]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  162.259001]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  162.259005]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  162.259006]: NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+[  162.259011]: NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+[  162.259016]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  162.259018]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  162.259027]: NVRM-fb: index 1: only 1 display(s) connected -- nothing to drive, not starting
+[  162.259029]: NVRM-fb: index 1: only 1 display(s) connected -- nothing to drive, not starting
+[  162.259039]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[  162.259042]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[  162.259052]: NVRM-fb: fb2: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  162.259054]: NVRM-fb: fb2: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  162.259067]: NVRM-fb: index 2: reusing the shared NvKmsKapiDevice
+[  162.259068]: NVRM-fb: index 2: reusing the shared NvKmsKapiDevice
+[  162.259079]: NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+[  162.259082]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  162.259084]: NVRM-fb: BAR1 metadata: 64 MB at 0x6018000000; normal surface budget 48 MB
+[  162.259084]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  162.259091]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  162.259093]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  162.259105]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  162.259108]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  162.259113]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  162.259114]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  162.259117]: NVRM-fb: index 2: only 1 display(s) connected -- nothing to drive, not starting
+[  162.259119]: NVRM-fb: index 2: only 1 display(s) connected -- nothing to drive, not starting
+[  162.259124]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[  162.259126]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[  162.259148]: NVRM-fb: fb3: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  162.259154]: NVRM-fb: fb3: a display appeared after boot -- the connect interrupt will be fired once the head has a mode
+[  162.259170]: NVRM-fb: index 3: reusing the shared NvKmsKapiDevice
+[  162.259172]: NVRM-fb: index 3: reusing the shared NvKmsKapiDevice
+[  162.259189]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  162.259192]: NVRM-fb: device: heads 4 connectors 4 pitchAlignment 256 hasVideoMemory 1 max 65535x65535
+[  162.259200]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  162.259202]: NVRM-fb: vtFb (NVKMS's view of the console fb): base 0x6018000000 size 26214400
+[  162.259210]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  162.259213]: NVRM-fb: primary layer: formats 0x9ffffefff X8R8G8B8 SUPPORTED | compModes 0x1 OPAQUE ok | contiguousPhysMappings 1
+[  162.259222]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  162.259223]: NVRM-fb: declareEventInterest ok (dpy-changed | dynamic-dpy-connected | flip-occurred)
+[  162.259230]: NVRM-fb: index 3: only 1 display(s) connected -- nothing to drive, not starting
+[  162.259232]: NVRM-fb: index 3: only 1 display(s) connected -- nothing to drive, not starting
+[  162.259238]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[  162.259241]: NVRM-fb: kapiInit failed -- refusing to start. super::start() was NOT called, so there is nothing half-registered to unwind and the machine stays up without a display.
+[  162.260087]: NVRM-gpuva: FERMI_VASPACE_A 0xcaf00000 created for client 0xc1d0000c device 0x10001
+[  162.260305]: NVRM-gpuva: va alloc 16384000 bytes align 0 -> gpuva 0x120000000 (hVirt 0xcaf00001)
+[  162.260308]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00001)
+[  162.260309]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00001)
+[  162.260312]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  162.260314]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  162.260317]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00001 kapiMem 0 len 16384000 (mem <ptr>)
+[  162.260319]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00001 kapiMem 0 len 16384000 (mem <ptr>)
+[  162.260324]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  162.260326]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  162.260773]: NVRM-xnu:   mapped -> 0x<ptr> (slot 25, high water 26/8192)
+[  162.264091]: NVRM-fb: nvAllocVram #1: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 16384000 / 33685504]
+[  162.264094]: NVRM-fb: nvAllocVram #1: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 16384000 / 33685504]
+[  162.264105]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 16384000]
+[  162.264107]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 16384000]
+[  162.264176]: NVRM-gpuva: MAPPED hVirt 0xcaf00001 <- hMem 0x10007  16384000 bytes vidmem  dmaOffset 0x120000000
+[  162.264179]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[  162.264181]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10007  *** the GPU can reach these bytes ***
+[  162.264190]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[  162.264191]: NVAccel:   GATES after deliverModeChange: accel+0xc78 = 0x02 (enabled bit 0x2 SET)
+[  162.264194]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 1, wsaaDefer(+0x282) = 0
+[  162.264195]: NVAccel:   GATES after deliverModeChange: pipe 0 active(+0x298) = 1, wsaaDefer(+0x282) = 0
+[  162.264198]: NVRM-xnu: auto-go: accelerator level 1 took after 1 try, level 4 written
+[  162.264199]: NVRM-xnu: auto-go: accelerator level 1 took after 1 try, level 4 written
+[  162.264223]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000638 (1 framebuffer node(s) seen)
+[  162.264239]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000638 (1 framebuffer node(s) seen)
+[  162.264266]: NVRM-agdc: AGDC: UP on GFX0 \M-b\M^@\M^T 1 framebuffer slot(s), maxFramebuffers 1; vendor calls 2, refused 0 (last 0)
+[  162.264344]: NVRM-agdc: AGDC: command 0x3 (in 0 bytes) -> Unsupported [1/40]
+[  162.264486]: NVRM-agdc: AGDC: command 0x941 (in 48 bytes) -> Unsupported [2/40]
+[  162.464951]: NVAccel: iop: debug.nvaccel_iop=1 -- capabilities published, transaction hooks OPEN
+[  162.464956]: NVAccel: iop: debug.nvaccel_iop=1 -- capabilities published, transaction hooks OPEN
+[  162.464967]: NVRM-xnu: auto-go: display stack: heads 0x1 accel 4 agdc 1 k5 1 iop 1
+[  162.464969]: NVRM-xnu: auto-go: display stack: heads 0x1 accel 4 agdc 1 k5 1 iop 1
+[  162.465435]: NVRM-xnu: boot hold RELEASED (display armed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[  162.465438]: NVRM-xnu: boot hold RELEASED (display armed) \M-b\M^@\M^T WindowServer's IOKitWaitQuiet may return
+[  162.744068]: NVRM-fb: getVRAMRange -> WHOLE BAR1 pa 0x6018000000 len 67108864 (was the 16384128-byte scanout subrange)
+[  162.744070]: NVRM-fb: getVRAMRange -> WHOLE BAR1 pa 0x6018000000 len 67108864 (was the 16384128-byte scanout subrange)
+[  162.744323]: NVAccel: DM displayModeWillChange
+[  162.744324]: NVAccel: DM displayModeWillChange
+[  162.744335]: NVRM-fb: enableController
+[  162.744336]: NVRM-fb: enableController
+[  162.768758]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1004 0x00000197 -> 0x00000000
+[  162.768773]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1010 0x00110a00 -> 0x10110000
+[  162.768778]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1014 0x00000003 -> 0x00000000
+[  162.768817]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2060 0x00000003 -> 0x00000000
+[  162.768836]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1080 0x0000000f -> 0x00000000
+[  162.768839]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1084 0x00000197 -> 0x00000000
+[  162.768846]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1090 0x00100000 -> 0x10110000
+[  162.768853]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x209c 0x000000e9 -> 0x000000cf
+[  162.768908]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1100 0x0000000f -> 0x00000001
+[  162.768912]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1104 0x00000197 -> 0x00000000
+[  162.768919]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1110 0x00100000 -> 0x10110000
+[  162.768962]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x215c 0x00000004 -> 0x019c2105
+[  162.768979]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2178 0x00000004 -> 0x00000000
+[  162.768985]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1180 0x0000000f -> 0x00000001
+[  162.768989]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1184 0x00000197 -> 0x00000000
+[  162.768995]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1190 0x00100000 -> 0x10110000
+[  162.769051]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1200 0x0000000f -> 0x00000002
+[  162.769054]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1204 0x00000197 -> 0x00000000
+[  162.769061]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1210 0x00100000 -> 0x10110000
+[  162.769085]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2240 0x00000000 -> 0x00000001
+[  162.769088]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2244 0x00000000 -> 0x0000366c
+[  162.769091]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2248 0x00000000 -> 0x0000b718
+[  162.769095]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x224c 0x00000000 -> 0x0000127c
+[  162.769098]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2250 0x00000000 -> 0x00000020
+[  162.769100]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2254 0x00000000 -> 0x0000366c
+[  162.769104]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2258 0x00000000 -> 0x0000b718
+[  162.769106]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x225c 0x00000000 -> 0x0000127c
+[  162.769109]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2260 0x00000000 -> 0x00000020
+[  162.769113]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2264 0x00000000 -> 0x0000366c
+[  162.769116]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2268 0x00000000 -> 0x0000b718
+[  162.769119]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x226c 0x00000000 -> 0x0000127c
+[  162.769123]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2270 0x00000000 -> 0x00000020
+[  162.769132]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2280 0x00000000 -> 0x00040508
+[  162.769134]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1280 0x0000000f -> 0x00000002
+[  162.769137]: NVRM-xnu: armwatch: 162768 ms HEAD0 +0x2284 0xcccccccc -> 0xffffffff
+[  162.769138]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1284 0x00000197 -> 0x00000000
+[  162.769145]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1290 0x00100000 -> 0x10110000
+[  162.769199]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1300 0x0000000f -> 0x00000003
+[  162.769202]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1304 0x00000197 -> 0x00000000
+[  162.769209]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1310 0x00100000 -> 0x10110000
+[  162.769267]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1380 0x0000000f -> 0x00000003
+[  162.769271]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1384 0x00000197 -> 0x00000000
+[  162.769278]: NVRM-xnu: armwatch: 162768 ms WIN    +0x1390 0x00100000 -> 0x10110000
+[  162.791590]: NVRM-xnu: headwatch: head 0 STOPPED at 162791 ms since boot (vline raw 0x00000000)
+[  162.831887]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0x55
+[  163.343125]: NVKMS-rm: CONTROL obj 0x1000d cmd 0x731341 -> status 0x55
+[  163.742408]: NVRM-xnu: armwatch: 163742 ms WIN    +0x1304 0x00000000 -> 0x00000007
+[  163.742420]: NVRM-xnu: armwatch: 163742 ms WIN    +0x1310 0x10110000 -> 0x10110a16
+[  163.742426]: NVRM-xnu: armwatch: 163742 ms WIN    +0x1314 0x00000000 -> 0x00000001
+[  163.742488]: NVRM-xnu: armwatch: 163742 ms WIN    +0x1394 0x00000000 -> 0x00000002
+[  163.750153]: NVRM-xnu: STUB nv_audio_dynamic_power
+[  163.751076]: NVRM-fb: applyModeSetConfig -> 1 (flipResult 0)
+[  163.751080]: NVRM-fb: applyModeSetConfig -> 1 (flipResult 0)
+[  163.752864]: NVRM-fb: framebufferConsoleDisabled() sent -- NVKMS releases the old GOP console
+[  163.752866]: NVRM-fb: framebufferConsoleDisabled() sent -- NVKMS releases the old GOP console
+[  163.752922]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc <ptr>)
+[  163.752924]: NVRM-fb: registerForInterruptType 'vbl ' -> VBL REGISTERED (proc <ptr>)
+[  163.752935]: NVRM-fb: getAttribute 'vclt' -> 0xe00002c7 val 12297829382473034410
+[  163.752938]: NVRM-fb: getAttribute 'vclt' -> 0xe00002c7 val 12297829382473034410
+[  163.752954]: NVRM-fb: registerForInterruptType 'dci ' -> CONNECT REGISTERED
+[  163.752955]: NVRM-fb: registerForInterruptType 'dci ' -> CONNECT REGISTERED
+[  163.752961]: NVRM-fb: registerForInterruptType 'dpir' -> REFUSED (unsupported)
+[  163.752962]: NVRM-fb: registerForInterruptType 'dpir' -> REFUSED (unsupported)
+[  163.752967]: NVRM-fb: registerForInterruptType 'hdci' -> REFUSED (unsupported)
+[  163.752969]: NVRM-fb: registerForInterruptType 'hdci' -> REFUSED (unsupported)
+[  163.752973]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  163.752975]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  163.753139]: NVRM-fb: fb0 getAFC HLDDCSense -> YES (EDID 384 B)
+[  163.753141]: NVRM-fb: fb0 getAFC HLDDCSense -> YES (EDID 384 B)
+[  163.753191]: loadPrefs: IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/RP01@6/IOPP/GFX0@0-148f-4245-28372fb4532fd090 creating preferences under new keyNVRM-fb: getAFC 'enab' -> enable 1
+[  163.753506]: NVRM-fb: getAFC 'enab' -> enable 1
+[  163.753570]: NVAccel: DM displayModeDidChange -> true
+[  163.753571]: NVAccel: DM displayModeDidChange -> true
+[  163.753573]: NVAccel: enableAccelerator() from displayModeDidChange (call #4)
+[  163.753574]: NVAccel: enableAccelerator() from displayModeDidChange (call #4)
+[  163.753579]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  163.753580]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  163.753587]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  163.753590]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  163.753599]: NVAccel: newVidMemory -> <ptr>
+[  163.753601]: NVAccel: newVidMemory -> <ptr>
+[  163.753603]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  163.753606]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  163.753611]: NVAccel: newMemoryMap -> <ptr>
+[  163.753612]: NVAccel: newMemoryMap -> <ptr>
+[  163.753862]: NVRM-gpuva: va alloc 16384000 bytes align 0 -> gpuva 0x120000000 (hVirt 0xcaf00002)
+[  163.753864]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00002)
+[  163.753866]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00002)
+[  163.753868]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  163.753869]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  163.753872]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00002 kapiMem 0 len 16384000 (mem <ptr>)
+[  163.753874]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00002 kapiMem 0 len 16384000 (mem <ptr>)
+[  163.753881]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  163.753882]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  163.754333]: NVRM-xnu:   mapped -> 0x<ptr> (slot 25, high water 26/8192)
+[  163.754337]: NVRM-fb: nvAllocVram: attempt 0 phys 0x6018000000 OVERLAPS THE CONSOLE \M-b\M^@\M^T parking it and rolling again
+[  163.754339]: NVRM-fb: nvAllocVram: attempt 0 phys 0x6018000000 OVERLAPS THE CONSOLE \M-b\M^@\M^T parking it and rolling again
+[  163.754594]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 27/8192)
+[  163.757720]: NVRM-fb: nvAllocVram #2: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 16384000 / 33685504]
+[  163.757722]: NVRM-fb: nvAllocVram #2: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 16384000 / 33685504]
+[  163.757728]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 16384000]
+[  163.757733]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 16384000]
+[  163.757784]: NVRM-gpuva: MAPPED hVirt 0xcaf00002 <- hMem 0x10008  16384000 bytes vidmem  dmaOffset 0x120000000
+[  163.757786]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  163.757787]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  164.118037]: NVRM-fb: hw vblank on head 0: REGISTERED after 0 latched flips, 60 mode ticks
+[  164.118044]: NVRM-fb: hw vblank on head 0: REGISTERED after 0 latched flips, 60 mode ticks
+[  164.123077]: NVRM-fb: hw vblank: first VBL from head 0's real vblank (period 6060584 abs)
+[  164.123080]: NVRM-fb: hw vblank: first VBL from head 0's real vblank (period 6060584 abs)
+[  174.244001]: Sandbox apply: remotemanagementd[409] <bytes>11 duplicate reports for Sandbox: findmybeaconingd(408) deny(1) mach-lookup com.apple.timed.xpcSandbox: remotemanagementd(409) deny(1) file-issue-extension target:/private/var/db/rmd/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: remotemanagementd(409) deny(1) file-issue-extension target:/private/var/db/rmd/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.readSandbox apply: distnoted[411] <bytes>Sandbox apply: SecuritySubscriber[410] <bytes>Sandbox: SecuritySubscriber(410) deny(1) file-issue-extension target:/private/var/db/rmd/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: SecuritySubscriber(410) deny(1) file-issue-extension target:/private/var/db/rmd/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.readSandbox apply: InteractiveLegacyProfilesSubscri[412] <bytes>Sandbox apply: ScreenSharingSubscriber[413] <bytes>Sandbox: ScreenSharingSubscriber(413) deny(1) file-read-data /private/var/db/rmd/Library/Preferences2 duplicate reports for Sandbox: ScreenSharingSubscriber(413) deny(1) file-read-data /private/var/db/rmd/Library/PreferencesSandbox: ScreenSharingSubscriber(413) deny(1) user-preference-read kcfpreferencesanyapplicationSandbox: ScreenSharingSubscriber(413) deny(1) file-read-data /private/var/db/rmd/Library/PreferencesSandbox: ScreenSharingSubscriber(413) deny(1) user-preference-read com.apple.mdmclientSandbox apply: LegacyProfilesSubscriber[416] <bytes>Sandbox apply: PasscodeSettingsSubscriber[417] <bytes>Sandbox apply: DiskManagementSubscriber[418] <bytes>Sandbox apply: SoftwareUpdateSubscriber[419] <bytes>Sandbox: SoftwareUpdateSubscriber(419) deny(1) user-preference-read com.apple.softwareupdateSandbox: SoftwareUpdateSubscriber(419) deny(1) file-read-data /private/var/db/rmd/Library/PreferencesSandbox apply: ManagementTestSubscriber[420] <bytes>2 duplicate reports for Sandbox: SoftwareUpdateSubscriber(419) deny(1) file-read-data /private/var/db/rmd/Library/PreferencesSandbox: ManagementTestSubscriber(420) deny(1) file-issue-extension target:/private/var/db/rmd/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: ManagementTestSubscriber(420) deny(1) file-issue-extension target:/private/var/db/rmd/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.readSandbox apply: ManagedConfigurationFilesSubscri[421] <bytes>NVRM-xnu: headwatch: done
+[  255.410473]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  255.410478]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  255.412889]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.412892]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.412898]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.412899]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.412903]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.412904]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.412907]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  255.412909]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  255.412912]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  255.412913]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  255.412916]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  255.412917]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  255.412920]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  255.412921]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  255.412924]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  255.412925]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  255.412928]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  255.412929]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  255.412932]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  255.412933]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  255.412936]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  255.412937]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  255.412940]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  255.412941]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  255.412944]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  255.412945]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  255.412948]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  255.412949]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  255.412952]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  255.412960]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  255.412963]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  255.412965]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  255.412967]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  255.412969]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  255.412971]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  255.412972]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  255.412975]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  255.412976]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  255.412979]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  255.412980]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  255.412983]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  255.412984]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  255.412987]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  255.412988]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  255.412991]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  255.412992]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  255.412995]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  255.412996]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  255.412999]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  255.413000]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  255.413003]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  255.413004]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  255.413007]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  255.413008]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  255.415199]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.415202]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.415207]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.415208]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.415220]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  255.415221]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  255.415225]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  255.415226]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  255.415547]: NVAccel: DM displayModeWillChange
+[  255.415548]: NVAccel: DM displayModeWillChange
+[  255.415556]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  255.415557]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  255.415559]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  255.415560]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  255.415562]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  255.415563]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  255.415564]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.415565]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.415731]: NVRM-fb: getAFC 'enab' -> enable 1
+[  255.415732]: NVRM-fb: getAFC 'enab' -> enable 1
+[  255.415735]: NVAccel: DM displayModeDidChange -> true
+[  255.415736]: NVAccel: DM displayModeDidChange -> true
+[  255.415737]: NVAccel: enableAccelerator() from displayModeDidChange (call #10)
+[  255.415738]: NVAccel: enableAccelerator() from displayModeDidChange (call #10)
+[  255.415741]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  255.415742]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  255.415744]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.415745]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.415747]: NVAccel: newVidMemory -> <ptr>
+[  255.415748]: NVAccel: newVidMemory -> <ptr>
+[  255.415749]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  255.415751]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  255.415754]: NVAccel: newMemoryMap -> <ptr>
+[  255.415755]: NVAccel: newMemoryMap -> <ptr>
+[  255.416181]: NVRM-gpuva: va alloc 16384000 bytes align 0 -> gpuva 0x120000000 (hVirt 0xcaf00008)
+[  255.416183]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00008)
+[  255.416184]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00008)
+[  255.416186]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  255.416187]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  255.416189]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[  255.416190]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[  255.416194]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  255.416195]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  255.416816]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 27/8192)
+[  255.428160]: NVRM-fb: nvAllocVram #8: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  255.428163]: NVRM-fb: nvAllocVram #8: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  255.428165]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  255.428166]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  255.428272]: NVRM-gpuva: MAPPED hVirt 0xcaf00008 <- hMem 0x10008  16384000 bytes vidmem  dmaOffset 0x120000000
+[  255.428274]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  255.428275]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  255.428289]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  255.428290]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  255.428891]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  255.428894]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  255.428896]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.428897]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.429961]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.429963]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.429973]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.429974]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  255.429981]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  255.429982]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  255.429988]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  255.429989]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  255.429995]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  255.429996]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  255.430001]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  255.430002]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  255.430008]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  255.430009]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  255.430014]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  255.430015]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  255.430020]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  255.430021]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  255.430026]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  255.430027]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  255.430032]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  255.430034]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  255.430039]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  255.430040]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  255.430045]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  255.430046]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  255.430051]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  255.430052]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  255.430057]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  255.430058]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  255.430063]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  255.430064]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  255.430069]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  255.430070]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  255.430075]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  255.430076]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  255.430087]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  255.430088]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  255.430094]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  255.430095]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  255.430100]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  255.430101]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  255.430106]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  255.430107]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  255.430112]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  255.430113]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  255.430119]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  255.430120]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  255.430125]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  255.430126]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  255.430131]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  255.430132]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  255.430137]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  255.430138]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  255.430144]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  255.430145]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  255.430150]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  255.430151]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  255.430156]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  255.430157]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  255.430162]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  255.430163]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  255.430169]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  255.430170]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  255.430175]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  255.430176]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  255.430181]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  255.430182]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  255.430189]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  255.430190]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  255.430195]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  255.430196]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  255.430201]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  255.430202]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  255.430207]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  255.430208]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  255.432272]: NVAccel: new2DContext -> <ptr>
+[  255.432275]: NVAccel: new2DContext -> <ptr>
+[  255.432936]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000638 (1 framebuffer node(s) seen)
+[  255.443183]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  255.443188]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  255.443297]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  255.443298]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  255.443843]: NVAccel: newSurface -> <ptr>
+[  255.443845]: NVAccel: newSurface -> <ptr>
+[  255.443864]: NVAccel: newResource -> <ptr>
+[  255.443865]: NVAccel: newResource -> <ptr>
+[  255.443867]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  255.443868]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  255.443870]: NVAccel: newVidMemory -> <ptr>
+[  255.443871]: NVAccel: newVidMemory -> <ptr>
+[  255.443872]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  255.443874]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  255.443912]: NVAccel: newSysMemory -> <ptr>
+[  255.443913]: NVAccel: newSysMemory -> <ptr>
+[  255.443914]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  255.443915]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  255.443937]: NVAccel: newSurface -> <ptr>
+[  255.443987]: NVAccel: newSurface -> <ptr>
+[  255.443988]: NVAccel: newSurface -> <ptr>
+[  255.444040]: NVAccel: newSurface -> <ptr>
+[  255.444041]: NVAccel: newSurface -> <ptr>
+[  255.444086]: NVAccel: newSurface -> <ptr>
+[  265.595737]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  265.595741]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  265.598128]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.598131]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.598136]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.598138]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.598141]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.598142]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.598146]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  265.598147]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  265.598150]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  265.598151]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  265.598155]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  265.598156]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  265.598159]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  265.598160]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  265.598163]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  265.598164]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  265.598167]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  265.598168]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  265.598171]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  265.598172]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  265.598175]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  265.598176]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  265.598179]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  265.598180]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  265.598183]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  265.598184]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  265.598187]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  265.598188]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  265.598191]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  265.598192]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  265.598195]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  265.598196]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  265.598199]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  265.598200]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  265.598203]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  265.598204]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  265.598207]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  265.598208]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  265.598211]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  265.598212]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  265.598215]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  265.598220]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  265.598224]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  265.598225]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  265.598228]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  265.598229]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  265.598232]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  265.598233]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  265.598236]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  265.598237]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  265.598240]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  265.598241]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  265.598245]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  265.598246]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  265.600436]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.600439]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.600445]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.600446]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.600458]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  265.600459]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  265.600463]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  265.600464]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  265.600931]: NVAccel: DM displayModeWillChange
+[  265.600933]: NVAccel: DM displayModeWillChange
+[  265.600941]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  265.600942]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  265.600943]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  265.600945]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  265.600946]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  265.600947]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  265.600948]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.600949]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.601115]: NVRM-fb: getAFC 'enab' -> enable 1
+[  265.601116]: NVRM-fb: getAFC 'enab' -> enable 1
+[  265.601119]: NVAccel: DM displayModeDidChange -> true
+[  265.601120]: NVAccel: DM displayModeDidChange -> true
+[  265.601121]: NVAccel: enableAccelerator() from displayModeDidChange (call #11)
+[  265.601123]: NVAccel: enableAccelerator() from displayModeDidChange (call #11)
+[  265.601125]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  265.601126]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  265.601128]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.601129]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.601131]: NVAccel: newVidMemory -> <ptr>
+[  265.601132]: NVAccel: newVidMemory -> <ptr>
+[  265.601133]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  265.601135]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  265.601138]: NVAccel: newMemoryMap -> <ptr>
+[  265.601139]: NVAccel: newMemoryMap -> <ptr>
+[  265.601558]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  265.601560]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  265.601562]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00009 kapiMem 0 len 16384000 (mem <ptr>)
+[  265.601564]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00009 kapiMem 0 len 16384000 (mem <ptr>)
+[  265.601567]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  265.601568]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  265.602053]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 27/8192)
+[  265.613400]: NVRM-fb: nvAllocVram #9: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  265.613402]: NVRM-fb: nvAllocVram #9: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  265.613406]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  265.613408]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  265.613518]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  265.613524]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  265.613539]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  265.613541]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  265.614142]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  265.614145]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  265.614147]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.614148]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.615235]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.615237]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.615247]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.615248]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  265.615257]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  265.615258]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  265.615264]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  265.615265]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  265.615271]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  265.615272]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  265.615277]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  265.615278]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  265.615283]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  265.615285]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  265.615290]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  265.615291]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  265.615296]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  265.615297]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  265.615302]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  265.615303]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  265.615308]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  265.615310]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  265.615315]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  265.615316]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  265.615321]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  265.615322]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  265.615327]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  265.615328]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  265.615333]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  265.615335]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  265.615340]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  265.615341]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  265.615346]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  265.615347]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  265.615352]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  265.615353]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  265.615360]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  265.615361]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  265.615367]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  265.615368]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  265.615373]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  265.615374]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  265.615379]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  265.615380]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  265.615386]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  265.615387]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  265.615392]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  265.615393]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  265.615398]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  265.615399]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  265.615405]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  265.615406]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  265.615411]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  265.615415]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  265.615421]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  265.615423]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  265.615428]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  265.615429]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  265.615434]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  265.615435]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  265.615441]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  265.615442]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  265.615447]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  265.615448]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  265.615454]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  265.615455]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  265.615460]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  265.615461]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  265.615468]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  265.615469]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  265.615474]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  265.615475]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  265.615480]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  265.615482]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  265.615487]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  265.615488]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  265.617700]: NVAccel: new2DContext -> <ptr>
+[  265.617702]: NVAccel: new2DContext -> <ptr>
+[  265.618401]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000638 (1 framebuffer node(s) seen)
+[  265.627239]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  265.627243]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  265.627355]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  265.627356]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  265.627906]: NVAccel: newSurface -> <ptr>
+[  265.627908]: NVAccel: newSurface -> <ptr>
+[  265.627929]: NVAccel: newResource -> <ptr>
+[  265.627930]: NVAccel: newResource -> <ptr>
+[  265.627932]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  265.627933]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  265.627936]: NVAccel: newVidMemory -> <ptr>
+[  265.627937]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  265.627939]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  265.627973]: NVAccel: newSysMemory -> <ptr>
+[  265.627974]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  265.627975]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  265.627993]: NVAccel: newSurface -> <ptr>
+[  265.628044]: NVAccel: newSurface -> <ptr>
+[  265.628045]: NVAccel: newSurface -> <ptr>
+[  265.628089]: NVAccel: newSurface -> <ptr>
+[  265.628090]: NVAccel: newSurface -> <ptr>
+[  265.628132]: NVAccel: newSurface -> <ptr>
+[  275.795085]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  275.795089]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  275.797604]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.797607]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.797612]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.797613]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.797617]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.797618]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.797621]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  275.797622]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  275.797625]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  275.797627]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  275.797630]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  275.797631]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  275.797634]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  275.797635]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  275.797637]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  275.797639]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  275.797641]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  275.797642]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  275.797645]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  275.797646]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  275.797649]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  275.797650]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  275.797653]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  275.797654]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  275.797657]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  275.797659]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  275.797662]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  275.797663]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  275.797666]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  275.797667]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  275.797670]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  275.797672]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  275.797675]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  275.797676]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  275.797679]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  275.797680]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  275.797683]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  275.797684]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  275.797686]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  275.797688]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  275.797690]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  275.797691]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  275.797694]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  275.797696]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  275.797698]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  275.797699]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  275.797702]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  275.797703]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  275.797706]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  275.797713]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  275.797716]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  275.797717]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  275.797721]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  275.797722]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  275.799811]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.799814]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.799819]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.799821]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.799833]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  275.799834]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  275.799838]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  275.799839]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  275.800162]: NVAccel: DM displayModeWillChange
+[  275.800163]: NVAccel: DM displayModeWillChange
+[  275.800172]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  275.800173]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  275.800174]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  275.800176]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  275.800178]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  275.800179]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  275.800180]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.800181]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.800405]: NVRM-fb: getAFC 'enab' -> enable 1
+[  275.800406]: NVRM-fb: getAFC 'enab' -> enable 1
+[  275.800409]: NVAccel: DM displayModeDidChange -> true
+[  275.800410]: NVAccel: DM displayModeDidChange -> true
+[  275.800412]: NVAccel: enableAccelerator() from displayModeDidChange (call #12)
+[  275.800413]: NVAccel: enableAccelerator() from displayModeDidChange (call #12)
+[  275.800416]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  275.800417]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  275.800418]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.800420]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.800422]: NVAccel: newVidMemory -> <ptr>
+[  275.800423]: NVAccel: newVidMemory -> <ptr>
+[  275.800424]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  275.800426]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  275.800429]: NVAccel: newMemoryMap -> <ptr>
+[  275.800430]: NVAccel: newMemoryMap -> <ptr>
+[  275.800835]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  275.800837]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  275.800839]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf0000a kapiMem 0 len 16384000 (mem <ptr>)
+[  275.800840]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf0000a kapiMem 0 len 16384000 (mem <ptr>)
+[  275.800843]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  275.800844]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  275.801362]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 27/8192)
+[  275.812707]: NVRM-fb: nvAllocVram #10: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  275.812710]: NVRM-fb: nvAllocVram #10: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  275.812713]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  275.812715]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  275.812819]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  275.812821]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  275.812839]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  275.812842]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  275.813345]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  275.813353]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  275.813354]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.813355]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.814447]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.814449]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.814458]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.814460]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  275.814465]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  275.814466]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  275.814472]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  275.814473]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  275.814478]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  275.814479]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  275.814484]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  275.814485]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  275.814492]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  275.814493]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  275.814498]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  275.814499]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  275.814504]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  275.814505]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  275.814510]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  275.814511]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  275.814516]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  275.814517]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  275.814522]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  275.814523]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  275.814527]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  275.814529]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  275.814533]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  275.814534]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  275.814539]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  275.814540]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  275.814545]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  275.814546]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  275.814551]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  275.814552]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  275.814557]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  275.814558]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  275.814563]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  275.814564]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  275.814568]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  275.814570]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  275.814575]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  275.814576]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  275.814580]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  275.814581]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  275.814588]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  275.814589]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  275.814593]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  275.814594]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  275.814599]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  275.814600]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  275.814605]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  275.814606]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  275.814611]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  275.814612]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  275.814617]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  275.814618]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  275.814623]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  275.814624]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  275.814628]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  275.814630]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  275.814638]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  275.814640]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  275.814644]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  275.814646]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  275.814650]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  275.814652]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  275.814656]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  275.814657]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  275.814662]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  275.814663]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  275.814668]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  275.814669]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  275.814674]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  275.814675]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  275.814680]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  275.814681]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  275.817747]: NVAccel: new2DContext -> <ptr>
+[  275.817750]: NVAccel: new2DContext -> <ptr>
+[  275.818649]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000638 (1 framebuffer node(s) seen)
+[  275.831669]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  275.831673]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  275.831785]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  275.831786]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  275.832332]: NVAccel: newSurface -> <ptr>
+[  275.832334]: NVAccel: newSurface -> <ptr>
+[  275.832353]: NVAccel: newResource -> <ptr>
+[  275.832354]: NVAccel: newResource -> <ptr>
+[  275.832357]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  275.832359]: NVAccel: newVidMemory -> <ptr>
+[  275.832360]: NVAccel: newVidMemory -> <ptr>
+[  275.832361]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  275.832363]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  275.832394]: NVAccel: newSysMemory -> <ptr>
+[  275.832395]: NVAccel: newSysMemory -> <ptr>
+[  275.832396]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  275.832397]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  275.832419]: NVAccel: newSurface -> <ptr>
+[  275.832468]: NVAccel: newSurface -> <ptr>
+[  275.832469]: NVAccel: newSurface -> <ptr>
+[  275.832507]: NVAccel: newSurface -> <ptr>
+[  275.832508]: NVAccel: newSurface -> <ptr>
+[  275.832546]: NVAccel: newSurface -> <ptr>
+[  285.996733]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  285.996741]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  285.999288]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  285.999292]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  285.999297]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  285.999298]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  285.999301]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  285.999303]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  285.999306]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  285.999308]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  285.999311]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  285.999312]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  285.999315]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  285.999316]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  285.999319]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  285.999320]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  285.999323]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  285.999324]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  285.999327]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  285.999328]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  285.999331]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  285.999332]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  285.999335]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  285.999336]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  285.999339]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  285.999340]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  285.999343]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  285.999344]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  285.999347]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  285.999348]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  285.999351]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  285.999352]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  285.999355]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  285.999356]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  285.999359]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  285.999360]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  285.999362]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  285.999364]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  285.999367]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  285.999368]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  285.999370]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  285.999371]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  285.999374]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  285.999375]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  285.999378]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  285.999379]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  285.999382]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  285.999383]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  285.999386]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  285.999387]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  285.999390]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  285.999391]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  285.999394]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  285.999395]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  285.999398]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  285.999399]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  286.001555]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.001558]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.001563]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.001565]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.001577]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  286.001578]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  286.001581]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  286.001583]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  286.002053]: NVAccel: DM displayModeWillChange
+[  286.002054]: NVAccel: DM displayModeWillChange
+[  286.002063]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  286.002064]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  286.002065]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  286.002067]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  286.002069]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  286.002070]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  286.002071]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.002072]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.002295]: NVRM-fb: getAFC 'enab' -> enable 1
+[  286.002296]: NVRM-fb: getAFC 'enab' -> enable 1
+[  286.002300]: NVAccel: DM displayModeDidChange -> true
+[  286.002302]: NVAccel: enableAccelerator() from displayModeDidChange (call #13)
+[  286.002303]: NVAccel: enableAccelerator() from displayModeDidChange (call #13)
+[  286.002306]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  286.002307]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  286.002308]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.002310]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.002312]: NVAccel: newVidMemory -> <ptr>
+[  286.002313]: NVAccel: newVidMemory -> <ptr>
+[  286.002314]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  286.002316]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  286.002319]: NVAccel: newMemoryMap -> <ptr>
+[  286.002320]: NVAccel: newMemoryMap -> <ptr>
+[  286.002732]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  286.002733]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  286.002735]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf0000b kapiMem 0 len 16384000 (mem <ptr>)
+[  286.002737]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf0000b kapiMem 0 len 16384000 (mem <ptr>)
+[  286.002741]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  286.003279]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 27/8192)
+[  286.014624]: NVRM-fb: nvAllocVram #11: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  286.014627]: NVRM-fb: nvAllocVram #11: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  286.014629]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  286.014630]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  286.014732]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  286.014733]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  286.014749]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  286.014751]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  286.015252]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  286.015254]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  286.015256]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.015257]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.016309]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.016312]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.016321]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.016323]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  286.016328]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  286.016329]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  286.016334]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  286.016336]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  286.016341]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  286.016342]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  286.016351]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  286.016353]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  286.016357]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  286.016359]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  286.016363]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  286.016365]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  286.016372]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  286.016373]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  286.016380]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  286.016382]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  286.016389]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  286.016391]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  286.016399]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  286.016401]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  286.016409]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  286.016411]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  286.016418]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  286.016419]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  286.016424]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  286.016425]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  286.016430]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  286.016431]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  286.016438]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  286.016439]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  286.016444]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  286.016445]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  286.016450]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  286.016451]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  286.016456]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  286.016457]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  286.016462]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  286.016463]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  286.016468]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  286.016469]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  286.016474]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  286.016475]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  286.016479]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  286.016480]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  286.016485]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  286.016486]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  286.016491]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  286.016492]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  286.016497]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  286.016498]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  286.016503]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  286.016504]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  286.016509]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  286.016510]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  286.016515]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  286.016516]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  286.016520]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  286.016521]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  286.016526]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  286.016527]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  286.016534]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  286.016535]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  286.016540]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  286.016541]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  286.016546]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  286.016547]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  286.016552]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  286.016553]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  286.016558]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  286.016559]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  286.016566]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  286.016567]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  286.018749]: NVAccel: new2DContext -> <ptr>
+[  286.018755]: NVAccel: new2DContext -> <ptr>
+[  286.019709]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000638 (1 framebuffer node(s) seen)
+[  286.030921]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  286.030927]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  286.031084]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  286.031086]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  286.031878]: NVAccel: newSurface -> <ptr>
+[  286.031881]: NVAccel: newSurface -> <ptr>
+[  286.031907]: NVAccel: newResource -> <ptr>
+[  286.031908]: NVAccel: newResource -> <ptr>
+[  286.031912]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  286.031913]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  286.031916]: NVAccel: newVidMemory -> <ptr>
+[  286.031917]: NVAccel: newVidMemory -> <ptr>
+[  286.031919]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  286.031921]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  286.031966]: NVAccel: newSysMemory -> <ptr>
+[  286.031967]: NVAccel: newSysMemory -> <ptr>
+[  286.031969]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  286.031970]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  286.031996]: NVAccel: newSurface -> <ptr>
+[  286.031997]: NVAccel: newSurface -> <ptr>
+[  286.032064]: NVAccel: newSurface -> <ptr>
+[  286.032065]: NVAccel: newSurface -> <ptr>
+[  286.032125]: NVAccel: newSurface -> <ptr>
+[  286.032126]: NVAccel: newSurface -> <ptr>
+[  286.032185]: NVAccel: newSurface -> <ptr>
+[  286.032186]: NVAccel: newSurface -> <ptr>
+[  296.182225]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  296.182232]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  296.186254]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.186259]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.186268]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.186270]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.186276]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.186278]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.186283]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  296.186286]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  296.186291]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  296.186293]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  296.186299]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  296.186300]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  296.186314]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  296.186316]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  296.186321]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  296.186324]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  296.186330]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  296.186332]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  296.186338]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  296.186340]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  296.186345]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  296.186347]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  296.186352]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  296.186354]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  296.186359]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  296.186361]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  296.186366]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  296.186368]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  296.186373]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  296.186375]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  296.186380]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  296.186382]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  296.186387]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  296.186389]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  296.186394]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  296.186395]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  296.186400]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  296.186402]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  296.186407]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  296.186409]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  296.186414]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  296.186415]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  296.186421]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  296.186422]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  296.186427]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  296.186429]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  296.186434]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  296.186436]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  296.186441]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  296.186443]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  296.186448]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  296.186450]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  296.186455]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  296.186457]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  296.190156]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.190162]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.190171]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.190173]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.190193]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  296.190194]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  296.190200]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  296.190202]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  296.190757]: NVAccel: DM displayModeWillChange
+[  296.190759]: NVAccel: DM displayModeWillChange
+[  296.190773]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  296.190775]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  296.190777]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  296.190779]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  296.190782]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  296.190783]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  296.190785]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.190787]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.191069]: NVRM-fb: getAFC 'enab' -> enable 1
+[  296.191076]: NVRM-fb: getAFC 'enab' -> enable 1
+[  296.191082]: NVAccel: DM displayModeDidChange -> true
+[  296.191083]: NVAccel: DM displayModeDidChange -> true
+[  296.191086]: NVAccel: enableAccelerator() from displayModeDidChange (call #14)
+[  296.191087]: NVAccel: enableAccelerator() from displayModeDidChange (call #14)
+[  296.191092]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  296.191094]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  296.191098]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.191102]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.191109]: NVAccel: newVidMemory -> <ptr>
+[  296.191111]: NVAccel: newVidMemory -> <ptr>
+[  296.191115]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  296.191123]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  296.191133]: NVAccel: newMemoryMap -> <ptr>
+[  296.191135]: NVAccel: newMemoryMap -> <ptr>
+[  296.191583]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  296.191586]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  296.191589]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf0000c kapiMem 0 len 16384000 (mem <ptr>)
+[  296.191591]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf0000c kapiMem 0 len 16384000 (mem <ptr>)
+[  296.191596]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  296.191597]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  296.192241]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 27/8192)
+[  296.203592]: NVRM-fb: nvAllocVram #12: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  296.203596]: NVRM-fb: nvAllocVram #12: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  296.203599]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  296.203602]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  296.203722]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  296.203724]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  296.203746]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  296.203748]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  296.204456]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  296.204460]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  296.204462]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.204465]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.206373]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.206379]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.206398]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.206400]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  296.206411]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  296.206413]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  296.206424]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  296.206426]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  296.206436]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  296.206438]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  296.206447]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  296.206449]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  296.206458]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  296.206460]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  296.206469]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  296.206471]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  296.206481]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  296.206482]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  296.206492]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  296.206494]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  296.206503]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  296.206505]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  296.206514]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  296.206516]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  296.206530]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  296.206533]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  296.206543]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  296.206545]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  296.206556]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  296.206558]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  296.206570]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  296.206572]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  296.206581]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  296.206583]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  296.206593]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  296.206595]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  296.206604]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  296.206606]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  296.206615]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  296.206617]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  296.206626]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  296.206628]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  296.206637]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  296.206639]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  296.206648]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  296.206650]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  296.206659]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  296.206661]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  296.206666]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  296.206667]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  296.206672]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  296.206673]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  296.206679]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  296.206680]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  296.206685]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  296.206686]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  296.206691]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  296.206692]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  296.206698]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  296.206699]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  296.206704]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  296.206705]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  296.206712]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  296.206713]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  296.206721]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  296.206723]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  296.206732]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  296.206734]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  296.206743]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  296.206745]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  296.206754]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  296.206756]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  296.206765]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  296.206767]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  296.206776]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  296.206778]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  296.209791]: NVAccel: new2DContext -> <ptr>
+[  296.209795]: NVAccel: new2DContext -> <ptr>
+[  296.210495]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000638 (1 framebuffer node(s) seen)
+[  296.223111]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  296.223115]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  296.223290]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  296.223293]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  296.224084]: NVAccel: newSurface -> <ptr>
+[  296.224086]: NVAccel: newSurface -> <ptr>
+[  296.224114]: NVAccel: newResource -> <ptr>
+[  296.224115]: NVAccel: newResource -> <ptr>
+[  296.224119]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  296.224125]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  296.224129]: NVAccel: newVidMemory -> <ptr>
+[  296.224130]: NVAccel: newVidMemory -> <ptr>
+[  296.224132]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  296.224135]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  296.224185]: NVAccel: newSysMemory -> <ptr>
+[  296.224186]: NVAccel: newSysMemory -> <ptr>
+[  296.224188]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  296.224190]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  296.224219]: NVAccel: newSurface -> <ptr>
+[  296.224221]: NVAccel: newSurface -> <ptr>
+[  296.224296]: NVAccel: newSurface -> <ptr>
+[  296.224298]: NVAccel: newSurface -> <ptr>
+[  296.224357]: NVAccel: newSurface -> <ptr>
+[  296.224395]: NVAccel: newSurface -> <ptr>
+[  296.224396]: NVAccel: newSurface -> <ptr>
+[  306.368532]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  306.368536]: NVRM-fb: getAttribute 'mrdf' -> 0xe00002c7 val 0
+[  306.371043]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.371046]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.371051]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.371053]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.371056]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.371057]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.371060]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  306.371062]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  306.371065]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  306.371066]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  306.371069]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  306.371070]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  306.371073]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  306.371074]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  306.371077]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  306.371078]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  306.371081]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  306.371082]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  306.371085]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  306.371086]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  306.371089]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  306.371090]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  306.371093]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  306.371094]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  306.371097]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  306.371098]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  306.371106]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  306.371107]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  306.371110]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  306.371111]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  306.371114]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  306.371115]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  306.371118]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  306.371119]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  306.371122]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  306.371123]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  306.371126]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  306.371127]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  306.371130]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  306.371131]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  306.371134]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  306.371135]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  306.371138]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  306.371139]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  306.371141]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  306.371142]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  306.371145]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  306.371146]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  306.371149]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  306.371151]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  306.371153]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  306.371154]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  306.371157]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  306.371159]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  306.373234]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.373237]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.373242]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.373243]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.373256]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  306.373257]: NVRM-fb: getAttribute 'wsrv' -> 1
+[  306.373260]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  306.373261]: NVRM-fb: setAttribute 'sHDC' value 0 -> 0x0
+[  306.373738]: NVAccel: DM displayModeWillChange
+[  306.373740]: NVAccel: DM displayModeWillChange
+[  306.373748]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  306.373750]: NVRM-fb: setAttribute 'hdcp' value 0 -> 0xe00002c7
+[  306.373751]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  306.373752]: NVRM-fb: fb0 setDisplayMode 0x10000 depth 0 (current 0x10000)
+[  306.373754]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  306.373755]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  306.373756]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.373757]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.373981]: NVRM-fb: getAFC 'enab' -> enable 1
+[  306.373982]: NVRM-fb: getAFC 'enab' -> enable 1
+[  306.373985]: NVAccel: DM displayModeDidChange -> true
+[  306.373986]: NVAccel: DM displayModeDidChange -> true
+[  306.373987]: NVAccel: enableAccelerator() from displayModeDidChange (call #15)
+[  306.373988]: NVAccel: enableAccelerator() from displayModeDidChange (call #15)
+[  306.373992]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  306.373993]: NVRM-fb: getAttribute 'mirr' -> 0xe00002c7 val 0
+[  306.373994]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.373995]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.373998]: NVAccel: newVidMemory -> <ptr>
+[  306.374000]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  306.374002]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x6019ab0000 2560 x 1600 pitch 10240 (16384000 bytes)
+[  306.374010]: NVAccel: newMemoryMap -> <ptr>
+[  306.374011]: NVAccel: newMemoryMap -> <ptr>
+[  306.374419]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  306.374420]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x6019ab0000 (16384000 bytes) -- already backed, nothing allocated
+[  306.374422]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf0000d kapiMem 0 len 16384000 (mem <ptr>)
+[  306.374424]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf0000d kapiMem 0 len 16384000 (mem <ptr>)
+[  306.374427]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  306.374428]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[  306.374985]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 27/8192)
+[  306.386328]: NVRM-fb: nvAllocVram #13: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  306.386331]: NVRM-fb: nvAllocVram #13: 16384000 bytes REAL VRAM \M-b\M^@\M^T kva <ptr> phys 0x601aa90000  [BAR1 32768000 / 33685504]
+[  306.386333]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  306.386334]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 16384000 bytes of REAL VRAM -- phys 0x601aa90000 kva <ptr> [BAR1 32768000]
+[  306.386435]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  306.386437]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10008  *** the GPU can reach these bytes ***
+[  306.386453]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  306.386454]: NVRM-fb: getAttribute 'vrsv' -> 0xe00002c7 val 12297829382473034410
+[  306.386946]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  306.386949]: NVRM-fb: getAttribute 'crsr' -> 1 (hardware cursor)
+[  306.386950]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.386951]: NVRM-fb: getPixelInformation 0x10000 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.388004]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.388006]: NVRM-fb: getPixelInformation 0x1 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.388015]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.388017]: NVRM-fb: getPixelInformation 0x10100 ap 0 -> 2560x1600 bytesPerRow 10240
+[  306.388022]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  306.388023]: NVRM-fb: getPixelInformation 0x80001000 ap 0 -> 1280x800 bytesPerRow 5120
+[  306.388029]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  306.388030]: NVRM-fb: getPixelInformation 0x80001001 ap 0 -> 640x480 bytesPerRow 2560
+[  306.388035]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  306.388036]: NVRM-fb: getPixelInformation 0x80001002 ap 0 -> 800x600 bytesPerRow 3328
+[  306.388041]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  306.388042]: NVRM-fb: getPixelInformation 0x80001003 ap 0 -> 800x500 bytesPerRow 3328
+[  306.388049]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  306.388050]: NVRM-fb: getPixelInformation 0x80001004 ap 0 -> 1024x768 bytesPerRow 4096
+[  306.388055]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  306.388056]: NVRM-fb: getPixelInformation 0x80001005 ap 0 -> 1024x640 bytesPerRow 4096
+[  306.388061]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  306.388062]: NVRM-fb: getPixelInformation 0x80001006 ap 0 -> 1280x720 bytesPerRow 5120
+[  306.388067]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  306.388068]: NVRM-fb: getPixelInformation 0x80001007 ap 0 -> 1280x960 bytesPerRow 5120
+[  306.388072]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  306.388073]: NVRM-fb: getPixelInformation 0x80001008 ap 0 -> 1344x1008 bytesPerRow 5376
+[  306.388078]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  306.388079]: NVRM-fb: getPixelInformation 0x80001009 ap 0 -> 1344x840 bytesPerRow 5376
+[  306.388084]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  306.388085]: NVRM-fb: getPixelInformation 0x8000100a ap 0 -> 1440x900 bytesPerRow 5888
+[  306.388089]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  306.388091]: NVRM-fb: getPixelInformation 0x8000100b ap 0 -> 1680x1050 bytesPerRow 6912
+[  306.388095]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  306.388096]: NVRM-fb: getPixelInformation 0x8000100c ap 0 -> 1600x1200 bytesPerRow 6400
+[  306.388101]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  306.388102]: NVRM-fb: getPixelInformation 0x8000100d ap 0 -> 1600x1000 bytesPerRow 6400
+[  306.388107]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  306.388108]: NVRM-fb: getPixelInformation 0x8000100e ap 0 -> 1920x1080 bytesPerRow 7680
+[  306.388113]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  306.388114]: NVRM-fb: getPixelInformation 0x8000100f ap 0 -> 1920x1200 bytesPerRow 7680
+[  306.388118]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  306.388119]: NVRM-fb: getPixelInformation 0x80001010 ap 0 -> 2048x1280 bytesPerRow 8192
+[  306.388129]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  306.388130]: NVRM-fb: getPixelInformation 0x80001011 ap 0 -> 2560x1440 bytesPerRow 10240
+[  306.388135]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  306.388136]: NVRM-fb: getPixelInformation 0x80001012 ap 0 -> 1280x800 bytesPerRow 5120
+[  306.388141]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  306.388142]: NVRM-fb: getPixelInformation 0x80001013 ap 0 -> 640x480 bytesPerRow 2560
+[  306.388148]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  306.388149]: NVRM-fb: getPixelInformation 0x80001014 ap 0 -> 800x600 bytesPerRow 3328
+[  306.388154]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  306.388155]: NVRM-fb: getPixelInformation 0x80001015 ap 0 -> 800x500 bytesPerRow 3328
+[  306.388160]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  306.388161]: NVRM-fb: getPixelInformation 0x80001016 ap 0 -> 1024x768 bytesPerRow 4096
+[  306.388166]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  306.388167]: NVRM-fb: getPixelInformation 0x80001017 ap 0 -> 1024x640 bytesPerRow 4096
+[  306.388172]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  306.388173]: NVRM-fb: getPixelInformation 0x80001018 ap 0 -> 1280x720 bytesPerRow 5120
+[  306.388177]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  306.388178]: NVRM-fb: getPixelInformation 0x80001019 ap 0 -> 1280x960 bytesPerRow 5120
+[  306.388183]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  306.388184]: NVRM-fb: getPixelInformation 0x8000101a ap 0 -> 1344x1008 bytesPerRow 5376
+[  306.388189]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  306.388190]: NVRM-fb: getPixelInformation 0x8000101b ap 0 -> 1344x840 bytesPerRow 5376
+[  306.388195]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  306.388196]: NVRM-fb: getPixelInformation 0x8000101c ap 0 -> 1440x900 bytesPerRow 5888
+[  306.388201]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  306.388202]: NVRM-fb: getPixelInformation 0x8000101d ap 0 -> 1680x1050 bytesPerRow 6912
+[  306.388207]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  306.388208]: NVRM-fb: getPixelInformation 0x8000101e ap 0 -> 1600x1200 bytesPerRow 6400
+[  306.388212]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  306.388214]: NVRM-fb: getPixelInformation 0x8000101f ap 0 -> 1600x1000 bytesPerRow 6400
+[  306.388218]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  306.388219]: NVRM-fb: getPixelInformation 0x80001020 ap 0 -> 1920x1080 bytesPerRow 7680
+[  306.388224]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  306.388225]: NVRM-fb: getPixelInformation 0x80001021 ap 0 -> 1920x1200 bytesPerRow 7680
+[  306.388230]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  306.388231]: NVRM-fb: getPixelInformation 0x80001022 ap 0 -> 2048x1280 bytesPerRow 8192
+[  306.388236]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  306.388237]: NVRM-fb: getPixelInformation 0x80001023 ap 0 -> 2560x1440 bytesPerRow 10240
+[  306.390266]: NVAccel: new2DContext -> <ptr>
+[  306.390270]: NVAccel: new2DContext -> <ptr>
+[  306.390919]: NVRM-agdc: AGDC: slot table n=1 [0]id 0x100000638 (1 framebuffer node(s) seen)
+[  306.402263]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  306.402268]: NVAccel: getStampMemory(<ptr>) -> descriptor <ptr> (4096 stamps, 16 KB)
+[  306.402440]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  306.402443]: NVAccel: createUserGPUTask -> <ptr> init=1
+[  306.403370]: NVAccel: newSurface -> <ptr>
+[  306.403373]: NVAccel: newSurface -> <ptr>
+[  306.403402]: NVAccel: newResource -> <ptr>
+[  306.403403]: NVAccel: newResource -> <ptr>
+[  306.403407]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  306.403408]: NVAccel: NVSurface::getDirtyBufferBitsFromPrivateModeBits(0x24)
+[  306.403411]: NVAccel: newVidMemory -> <ptr>
+[  306.403412]: NVAccel: newVidMemory -> <ptr>
+[  306.403414]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  306.403417]: NVAccel: NVSurface::shapeSurface(mode 0x1, 8192 x 4320) smode 0x24 bpp 4 pitch 32768 size 141557760 -> 1 present, 1 shaped
+[  306.403471]: NVAccel: newSysMemory -> <ptr>
+[  306.403472]: NVAccel: newSysMemory -> <ptr>
+[  306.403474]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  306.403475]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[  306.403504]: NVAccel: newSurface -> <ptr>
+[  306.403505]: NVAccel: newSurface -> <ptr>
+[  306.403582]: NVAccel: newSurface -> <ptr>
+[  306.403584]: NVAccel: newSurface -> <ptr>
+[  306.403668]: NVAccel: newSurface -> <ptr>
+[  306.403670]: NVAccel: newSurface -> <ptr>
+[  306.403723]: NVAccel: newSurface -> <ptr>
+[  306.403724]: NVAccel: newSurface -> <ptr>

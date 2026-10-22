@@ -1,0 +1,8 @@
+      Bluetooth Controller:
+          State: On
+          Chipset: THIRD_PARTY_DONGLE
+          Discoverable: Off
+          Firmware Version: v9736 c4881
+          Supported services: 0x392039 < HFP AVRCP A2DP HID Braille LEA AACP GATT SerialPort >
+          Transport: UART
+          Vendor ID: 0x004C (Apple)

@@ -1,0 +1,9 @@
+date -u: Thu Oct 15 13:36:55 UTC 2026
+date:    Thu Oct 15 13:36:56 UTC 2026
+kern.boottime: { sec = 1792071045, usec = 0 } Thu Oct 15 13:30:45 2026
+dyld[447]: Library not loaded: /usr/lib/libsbuf.dylib
+  Referenced from: <UUID-156> /usr/bin/uptime
+  Reason: tried: '/usr/lib/libsbuf.dylib' (no such file, no dyld cache)
+uptime: 
+phone time typed by Bash: 13:36
+end date -u: Thu Oct 15 13:37:16 UTC 2026

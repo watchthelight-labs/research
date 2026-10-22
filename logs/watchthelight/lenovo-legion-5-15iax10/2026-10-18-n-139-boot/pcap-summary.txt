@@ -1,0 +1,18 @@
+01:13:54.184915 IP IP-88 > IP-6: ICMP echo request, id 48385, seq 0, length 64
+01:13:54.188730 IP IP-6 > IP-88: ICMP echo reply, id 48385, seq 0, length 64
+01:13:54.833069 IP IP-88 > IP-6: ICMP echo request, id 54785, seq 0, length 64
+01:13:54.836630 IP IP-6 > IP-88: ICMP echo reply, id 54785, seq 0, length 64
+01:14:26.114945 IP6 :: > IP-24 ICMP6, neighbor solicitation, who has IP-25, length 32
+01:14:26.154129 IP6 IP-25 > IP-19 ICMP6, router solicitation, length 8
+01:14:30.800281 IP6 IP-25 > IP-19 ICMP6, router solicitation, length 16
+01:14:32.323704 IP6 :: > IP-169 ICMP6, neighbor solicitation, who has IP-170, length 32
+01:14:32.326083 IP6 IP-170 > IP-19 ICMP6, router solicitation, length 8
+01:14:34.831695 IP6 IP-25 > IP-19 ICMP6, router solicitation, length 16
+01:14:36.411323 IP6 IP-170 > IP-19 ICMP6, router solicitation, length 16
+01:14:38.682812 IP6 :: > IP-21 ICMP6, neighbor solicitation, who has IP-22, length 32
+01:14:38.700640 IP6 IP-22 > IP-19 ICMP6, router solicitation, length 8
+01:14:42.257631 IP6 :: > IP-171 ICMP6, neighbor solicitation, who has IP-172, length 32
+01:14:42.257649 IP6 IP-172 > IP-19 ICMP6, router solicitation, length 8
+01:14:50.847372 IP6 IP-172 > IP-19 ICMP6, router solicitation, length 16
+01:14:56.717798 IP6 IP-173 > IP-19 ICMP6, router solicitation, length 16
+total frames 254 (ARP requests from others dropped from this summary)

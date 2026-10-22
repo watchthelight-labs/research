@@ -1,0 +1,13 @@
+{
+ "attempt": "N-143",
+ "stage": "E",
+ "iface": "en1",
+ "boot_args": "mtkfe=native mtknativeif=1",
+ "ssid": "SSID-1",
+ "auto_reboots": 1,
+ "repo_head": "c7ee2e46",
+ "staged_at": "2026-10-18 07:30:54 EDT",
+ "started_boot": 1792323907,
+ "result": "stuck",
+ "reason": "rollback boot failed too: no SSID reported on en1 (lease IP-4, gateway ok)"
+}

@@ -1,0 +1,2 @@
+N-158 2.3.5-nvgfx.5 run1 flips/s=94 presents/s=94
+N-158 2.3.5-nvgfx.5 run2 flips/s=58 presents/s=58

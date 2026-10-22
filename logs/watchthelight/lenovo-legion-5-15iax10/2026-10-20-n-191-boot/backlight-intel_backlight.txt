@@ -1,0 +1,4 @@
+type raw
+max_brightness 504
+brightness 504
+actual_brightness 504

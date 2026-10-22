@@ -1,0 +1,18 @@
+{
+ "collected": "2026-10-16",
+ "component": "native",
+ "files": {
+  "n82-failing-fc.json": "1ce9a903526f912ccf68ba6dd7c8e0ee9e103f01efcd6ff1a607ec2de3cb996d"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-81",
+ "username": "watchthelight"
+}

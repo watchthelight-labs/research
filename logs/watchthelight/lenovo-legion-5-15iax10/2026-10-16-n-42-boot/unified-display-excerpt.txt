@@ -1,0 +1,48 @@
+# I-037 unified-log excerpt (installed macOS 15.8.1 24H32, read from Windows with apfs-read.py + unifiedlog_iterator v0.7.0)
+# boot 818A = installer pass (N-40, NVIDIA GOP), EB5D = N-41, 289D = N-42 (Intel GOP). Times are the log's own (RTC was local time until NTP).
+
+818A 2026-10-15T23:52:35.482Z kernel: IOG flags 0x3 (0x51) | 
+818A 2026-10-15T23:52:35.571Z kernel: GTrace synchronization point 1 | 
+818A 2026-10-15T23:52:35.577Z kernel: GTrace synchronization point 3 | 
+818A 2026-10-15T23:52:35.623Z kernel: Boot args: -v keepsyms=1 -wegnoigpu debug=0x100 -vi2c-force-polling revpatch=sbvmm -bsdmgroot
+818A 2026-10-15T23:52:35.623Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] Entered AGPMController::start()  | 
+818A 2026-10-15T23:52:35.623Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] init fSlotControl, fSlotControl = 0 | 
+818A 2026-10-15T23:52:35.623Z kernel: [AGPM][INFO ][CONTROLLER  ][createAGPMClass         ] machines_dict->getObject(modelName MacBookPro16,1) | 
+818A 2026-10-15T23:52:35.623Z kernel: [AGPM][INFO ][CONTROLLER  ][createAGPMClass         ] gpuDict GFX0 | 
+818A 2026-10-15T23:52:35.623Z kernel: [AGPM][INFO ][CONTROLLER  ][createAGPMClass         ] build gpuDict by GPU GFX0. | 
+818A 2026-10-15T23:52:35.623Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] fIsExternalGPU 0 | 
+818A 2026-10-15T23:52:35.623Z kernel: X86PlatformPlugin::cgRegisterCallbackHandler - entered, type gpu-external-plimit-notification, target AGPM | 
+818A 2026-10-15T23:52:35.623Z kernel: X86PlatformPlugin::cgRegisterCallbackHandler - entered, type gpu-external-plimit-notification, target AGPM | 
+818A 2026-10-15T23:52:35.623Z kernel: X86PlatformPlugin::cgRegisterPLimitCallbackHandler - There are 0 entries in the linked list before target name AGPM | 
+818A 2026-10-15T23:52:35.623Z kernel: X86PlatformPlugin::cgRegisterPLimitCallbackHandler - There are 0 entries in the linked list before target name AGPM | 
+818A 2026-10-15T23:52:35.623Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] GPU = GFX0 Initialized, Control ID 17 | 
+818A 2026-10-15T23:52:35.623Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] Exited AGPMController::start() | 
+818A 2026-10-15T23:52:57.886Z kernel: GTrace synchronization point 8 | 
+818A 2026-10-15T23:52:35.623Z kernelmanagerd: Received kext load notification: com.apple.driver.AGPM
+EB5D 2026-10-15T20:01:48.509Z kernel: IOG flags 0x3 (0x51) | 
+EB5D 2026-10-15T20:01:48.621Z kernel: GTrace synchronization point 1 | 
+EB5D 2026-10-15T20:01:48.702Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] Entered AGPMController::start()  | 
+EB5D 2026-10-15T20:01:48.702Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] init fSlotControl, fSlotControl = 0 | 
+EB5D 2026-10-15T20:01:48.702Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] Exited AGPMController::start() | 
+EB5D 2026-10-15T20:01:48.708Z kernel: Boot args: -v keepsyms=1 -wegnoigpu debug=0x100 -vi2c-force-polling revpatch=sbvmm
+EB5D 2026-10-15T20:01:48.708Z kernel: Boot args: -v keepsyms=1 -wegnoigpu debug=0x100 -vi2c-force-polling revpatch=sbvmm
+289D 2026-10-16T01:02:02.226Z kernel: IOG flags 0x3 (0x51) | 
+289D 2026-10-16T01:02:02.252Z kernel: GTrace synchronization point 1 | 
+289D 2026-10-16T01:02:02.294Z kernel: Boot args: -v keepsyms=1 -wegnoigpu debug=0x100 -vi2c-force-polling revpatch=sbvmm
+289D 2026-10-16T01:02:02.294Z kernel: Boot args: -v keepsyms=1 -wegnoigpu debug=0x100 -vi2c-force-polling revpatch=sbvmm
+289D 2026-10-16T01:02:02.812Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] Entered AGPMController::start()  | 
+289D 2026-10-16T01:02:02.812Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] init fSlotControl, fSlotControl = 0 | 
+289D 2026-10-16T01:02:02.812Z kernel: [AGPM][INFO ][CONTROLLER  ][start                   ] Exited AGPMController::start() | 
+818A 2026-10-15T23:52:57.859Z WindowServer: [WARN] - Creating FB 1 of 1
+818A 2026-10-15T23:52:57.894Z WindowServer: [WARN] - IOFBSetDisplayModeAndDepth: Setting mode 0x0 with depth 0x0 on displayID: 0x0 fbRegID: 0x10000053c
+818A 2026-10-15T23:52:57.894Z WindowServer: [WARN] - IOFBSetDisplayModeAndDepth: IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/RP01@6/IOPP/GFX0@0-756e6b6e-717-0
+818A 2026-10-15T23:52:57.894Z WindowServer: [WARN] - IOFBSetDisplayModeAndDepth: Failed to obtain mode info from IOFBGetDisplayModeInformation()
+818A 2026-10-15T23:52:57.898Z WindowServer: [ERROR] - 	 | 	0  	    0x7ff818c209b8	std::__1::pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<unsigned long long, CoreDisplay::DisplayPipe>, void*>*>, bool> std::__1::__hash_table<std::__1::__hash_value_type<unsigned long long, CoreDisplay::DisplayPipe>, std::__1::__unordered_map_hasher<unsigned long long, std::__1::__hash_value_type<unsigned long long, CoreDisplay
+818A 2026-10-15T23:52:57.898Z WindowServer: [WARN] - Created FB 1 of 1
+818A 2026-10-15T23:52:57.900Z WindowServer: [WARN] - GPU: FB: 1 of 1 opened | Can't get value for key 'AppleIntelFramebuffer' | Can't get value for key 'AMDFramebuffer' | Can't get value for key 'AppleParavirtFramebuffer' | IOFramebufferUserClient = 1 | No property 'FB_Triage', or property isn't a string | LER:IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER,...) => NULL | IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_Busy_2,...) => NULL
+EB5D 2026-10-15T20:01:49.014Z WindowServer: [WARN] - CGXMappedDisplayStart: FB: 0 of 0 opened, succeeded 1 times, failed 0 times; WS: 1st PID 98, is on installer | Can't get value for key 'AppleIntelFramebuffer' | Can't get value for key 'AMDFramebuffer' | Can't get value for key 'AppleParavirtFramebuffer' | IOFramebufferUserClient = 0 | No property 'FB_Triage', or property isn't a string | Can't get value for key 'Triage' | 
+EB5D 2026-10-15T20:01:49.014Z WindowServer: [ERROR] - CGXMappedDisplayStart: can't open any framebuffer
+EB5D 2026-10-15T20:01:49.014Z WindowServer: [ERROR] - CGXDisplayDriverInitialize: No Display drivers loaded
+289D 2026-10-16T01:02:05.747Z WindowServer: [WARN] - CGXMappedDisplayStart: FB: 0 of 0 opened, succeeded 1 times, failed 0 times; WS: 1st PID 149, is on installer | Can't get value for key 'AppleIntelFramebuffer' | Can't get value for key 'AMDFramebuffer' | Can't get value for key 'AppleParavirtFramebuffer' | IOFramebufferUserClient = 0 | No property 'FB_Triage', or property isn't a string | Can't get value for key 'Triage' | 
+289D 2026-10-16T01:02:05.747Z WindowServer: [ERROR] - CGXMappedDisplayStart: can't open any framebuffer
+289D 2026-10-16T01:02:05.747Z WindowServer: [ERROR] - CGXDisplayDriverInitialize: No Display drivers loaded

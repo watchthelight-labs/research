@@ -1,0 +1,32 @@
+dyld[487]: Library not loaded: /System/Library/PrivateFrameworks/perfdata.framework/Versions/A/perfdata
+  Referenced from: <UUID-12> /usr/sbin/ioclasscount
+  Reason: tried: '/System/Library/PrivateFrameworks/perfdata.framework/Versions/A/perfdata' (no such file, no dyld cache)
+== IOUSBHostHIDDevice
+== IOHIDEventDriver
+== AppleUserHIDEventService
++-o AppleUserHIDEventDriver  <class AppleUserHIDEventService, id 0x1000006ed, registered, matched, active, busy 0 (0 ms), retain 16>
+  | {
+  |   "kOSBundleDextUniqueIdentifier" = <b796d15d9354eae826f370c78da5a69a0107352f2c064353231d0efec890df26>
+  |   "HIDServiceSupport" = Yes
+  |   "IOGeneralInterest" = "IOCommand is not serializable"
+  |   "PrimaryUsagePage" = 1
+  |   "SensorProperties" = {}
+  |   "IOUserClientClass" = "IOHIDEventServiceUserClient"
+  |   "VersionNumber" = 0
+  |   "VendorID" = 1452
+  |   "IOUserServerOneProcess" = Yes
+  |   "Product" = "Keyboard"
+  |   "Transport" = "PS2"
+  |   "HIDKeyboardSupportedModifiers" = 18751743
+  |   "IOServiceDEXTEntitlements" = "com.apple.developer.driverkit.family.hid.eventservice"
+  |   "GameControllerType" = 0
+  |   "IOUserClasses" = ("AppleUserHIDEventDriver","AppleUserHIDEventService","IOUserHIDEventDriver","IOUserHIDEventService","IOHIDEventService","IOService","OSObject")
+  |   "Manufacturer" = "Apple"
+  |   "IOUserServerCDHash" = "f836cbf40fc98b0fb8c7509a6627b5402244e27c"
+  |   "ProductID" = 65535
+  |   "DeviceUsagePairs" = ({"DeviceUsagePage"=1,"DeviceUsage"=6})
+  |   "RegisterService" = No
+  |   "LED" = {"Elements"=({"VariableSize"=0,"UnitExponent"=0,"IsRelative"=No,"UsagePage"=8,"Max"=1,"IsArray"=No,"Type"=129,"Size"=1,"Min"=0,"Flags"=134217730,"ReportID"=0,"Usage"=1,"ReportCount"=1,"Unit"=0,"HasNullState"=No,"ReportSize"=1,"HasPreferredState"=Yes,"IsNonLinear"=No,"ScaledMin"=0,"IsWrapping"=No,"ScaledMax"=1,"ElementCookie"=538},{"VariableSize"=0,"UnitExponent"=0,"IsRelative"=No,"UsagePage"=8,"Max"=1,"IsArray"=No,"Type"=129,"Size"=1,"Min"=0,"Flags"=134217730,"ReportID"=0,"Usage"=2,"ReportCount"=1,"Unit"=0,"HasNullState"=No,"ReportSize"=1,"HasPreferredState"=Yes,"IsNonLinear"=No,"ScaledMin"=0,"IsWrapping"=No,"ScaledMax"=1,"ElementCookie"=539})}
+  |   "GameControllerPointer" = {"Elements"=({"VariableSize"=0,"UnitExponent"=0,"IsRelative"=No,"UsagePage"=8,"Max"=1,"IsArray"=No,"Type"=129,"Size"=1,"Min"=0,"Flags"=134217730,"ReportID"=0,"Usage"=1,"ReportCount"=1,"Unit"=0,"HasNullState"=No,"ReportSize"=1,"HasPreferredState"=Yes,"IsNonLinear"=No,"ScaledMin"=0,"IsWrapping"=No,"ScaledMax"=1,"ElementCookie"=538},{"VariableSize"=0,"UnitExponent"=0,"IsRelative"=No,"UsagePage"=8,"Max"=1,"IsArray"=No,"Type"=129,"Size"=1,"Min"=0,"Flags"=134217730,"ReportID"=0,"Usage"=2,"ReportCount"=1,"Unit"=0,"HasNullState"=No,"ReportSize"=1,"HasPreferredState"=Yes,"IsNonLinear"=No,"ScaledMin"=0,"IsWrapping"=No,"ScaledMax"=1,"ElementCookie"=539}),"GameControllerCapabilities"=0}
+  |   "IOUserServerName" = "com.apple.driverkit.AppleUserHIDDrivers"
+  |   "Keyboard" = {"Elements"=({"VariableSize"=0,"UnitExponent"=0,"IsRelative"=No,"UsagePage"=7,"Max"=1,"IsArray"=No,"Type"=2,"Size"=1,"Min"=0,"Flags"=134217730,"ReportID"=0,"Usage"=224,"ReportCount"=1,"Unit"=0,"HasNullState"=No,"ReportSize"=1,"HasPreferredState"=Yes,"IsNonLinear"=No,"ScaledMin"=0,"IsWrapping"=No,"ScaledMax"=1,"ElementCookie"=4},{"VariableSize"=0,"UnitExponent"=0,"IsRelative"=No,"UsagePage"=7,"Max"=1,"IsArray"=No,"Type"=2,"Size"=1,"Min"=0,"Flags"=134217730,"ReportID"=0,"Usage"=225,"ReportCount"=1,"Unit"=0,"HasNullState"=No,"ReportSize"=1,"HasPreferredState"=Yes,"IsNonLinear"=No,"ScaledMin"=0,"IsWrapping"=No,"ScaledMax"=1,"ElementCookie"=5},{"VariableSize"=0,"UnitExponent"=0,"IsRelative"=No,"UsagePage"=7,"Max"=1,"IsArray"=No,"Type"=2,"Size"=1,"Min"=0,"Flags"=134217730,"ReportID"=0,"Usage"=226,"ReportCount"=1,"Unit"=0,"HasNullState"=No,"ReportSize"=1,"HasPreferredState"=Yes,"IsNonLinear"=No,"ScaledMin"=0,"IsWrapping"=No,"ScaledMax"=1,"ElementCookie"=6},{"VariableSize"=0,"UnitEx

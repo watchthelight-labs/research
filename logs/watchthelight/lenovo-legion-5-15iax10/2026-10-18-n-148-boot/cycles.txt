@@ -1,0 +1,142 @@
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+2026-10-18 09:36:56.852[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss
+2026-10-18 09:36:56.901INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:36:57.334(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:36:57.334(WiFiPolicy) -[WiFiUsageNetworkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: network se
+2026-10-18 09:36:57.334(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+    WiFiNetworkDisconnectReason = Uninitialized;
+    WiFiNetworkPreviousDisconnectReason = Uninitialized;
+2026-10-18 09:37:59.605(corecapture) CoreCapture errorCodeStr for fault missed beacons  timeout
+2026-10-18 09:38:04.606INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:38:15.869[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss
+2026-10-18 09:38:15.893INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:38:21.040(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:38:21.040(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 1;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 09:39:21.033INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:39:51.357[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss
+2026-10-18 09:39:51.368INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:39:56.686(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:39:56.686(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+2026-10-18 09:39:56.720INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:39:56.765(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: stopped joini
+2026-10-18 09:39:56.765(WiFiPolicy) -[WiFiUsageNetworkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: network se
+2026-10-18 09:39:56.765[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss
+2026-10-18 09:39:56.766(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+2026-10-18 09:39:56.779INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:39:56.875(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:39:56.875(WiFiPolicy) -[WiFiUsageNetworkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: network se
+2026-10-18 09:39:56.875(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 2;
+    WiFiDisconnectReasonControlCenter = 1;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+    WiFiDisconnectReasonBeaconLoss = 2;
+    WiFiDisconnectReasonControlCenter = 1;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+2026-10-18 09:40:19.866INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:40:19.913(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: stopped joini
+2026-10-18 09:40:19.913(WiFiPolicy) -[WiFiUsageNetworkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: network se
+2026-10-18 09:40:19.914(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+2026-10-18 09:40:36.713[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss
+2026-10-18 09:40:36.728INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:40:36.826(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:40:36.826(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 2;
+    WiFiDisconnectReasonControlCenter = 4;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+2026-10-18 09:40:44.349INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:40:44.397(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: stopped joini
+2026-10-18 09:40:44.397(WiFiPolicy) -[WiFiUsageNetworkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: network se
+2026-10-18 09:40:44.397[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=100, width=20), ibs
+2026-10-18 09:40:44.397(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+2026-10-18 09:40:44.417INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:40:44.507(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:40:44.507(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 2;
+    WiFiDisconnectReasonControlCenter = 6;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+2026-10-18 09:41:44.501INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:41:47.417[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=108, width=20), ibs
+2026-10-18 09:41:47.428INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:41:52.734(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:41:52.734(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 3;
+    WiFiDisconnectReasonControlCenter = 6;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 09:42:36.232INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:42:36.234(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: stopped joini
+2026-10-18 09:42:36.234(WiFiPolicy) -[WiFiUsageNetworkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: network se
+2026-10-18 09:42:36.234(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+2026-10-18 09:42:45.269[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=108, width=20), ibs
+2026-10-18 09:42:45.280INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:42:50.646(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:42:50.646(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 3;
+    WiFiDisconnectReasonControlCenter = 8;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;
+2026-10-18 09:43:50.639INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:43:55.979[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=108, width=20), ibs
+2026-10-18 09:43:55.991INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:43:56.090(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:43:56.090(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 4;
+    WiFiDisconnectReasonControlCenter = 8;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 09:44:56.078INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:44:59.927[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss
+2026-10-18 09:44:59.940INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:45:04.985(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:45:04.985(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 5;
+    WiFiDisconnectReasonControlCenter = 8;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 09:46:04.978INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:46:58.755[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss
+2026-10-18 09:46:58.766INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:47:03.754(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:47:03.754(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 6;
+    WiFiDisconnectReasonControlCenter = 8;
+    WiFiNetworkDisconnectReason = BeaconLoss;
+    WiFiNetworkPreviousDisconnectReason = BeaconLoss;
+2026-10-18 09:47:18.553INTERNAL: Set type=<APPLE80211_IOC_WCL_LEAVE_NETWORK> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:47:18.556(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: stopped joini
+2026-10-18 09:47:18.556(WiFiPolicy) -[WiFiUsageNetworkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: network se
+2026-10-18 09:47:18.556[com.apple.WiFiManager:] Assoc: <airport[229]> Will associate to [ssid=<redacted>, bssid=<redacted>, channel=(channel=52, width=20), ibss
+2026-10-18 09:47:18.556(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+2026-10-18 09:47:18.601INTERNAL: Set type=<APPLE80211_IOC_WCL_ASSOCIATE> res=<GOOD:0:0x0> handler=1
+2026-10-18 09:47:18.708(WiFiPolicy) -[WiFiUsageLinkSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:]: started joini
+2026-10-18 09:47:18.708(WiFiPolicy) -[WiFiUsageRealTimeCoexSession joinStateDidChange:withReason:lastDisconnectReason:lastJoinFailure:andNetworkDetails:] - firs
+    WiFiDisconnectReasonBeaconLoss = 6;
+    WiFiDisconnectReasonControlCenter = 10;
+    WiFiNetworkDisconnectReason = ControlCenter;
+    WiFiNetworkPreviousDisconnectReason = ControlCenter;

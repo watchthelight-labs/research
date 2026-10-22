@@ -1,0 +1,5 @@
++-o Root  <class IORegistryEntry, id 0x100000100, retain 8>
+  +-o AppleUSBXHCI Root Hub Simulation@14000000  <class AppleUSBRootHubDevice, id 0x1000004f5, registered, matched, active, busy 0 (0 ms), retain 11>
+    +-o Razer Basilisk V3@14300000  <class AppleUSBDevice, id 0x1000004f7, registered, matched, active, busy 0 (0 ms), retain 17>
+    +-o  SanDisk 3.2Gen1@14700000  <class AppleUSBDevice, id 0x100000507, registered, matched, active, busy 0 (0 ms), retain 11>
+    +-o ITE Device(8258)@14400000  <class AppleUSBDevice, id 0x100000533, registered, matched, active, busy 0 (0 ms), retain 13>

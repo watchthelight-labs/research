@@ -1,0 +1,31 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "configd-en1.txt": "414bb8dac6c98ef9c753ae368d1613f09b226cd34c2d9bbd3c947ec7fe507636",
+  "guard-log.txt": "8938ed2446b2ae77d00b9e547c8675cf198ba8373edfddd6f82707b4c41a7b1f",
+  "guard-pending.json": "04832ecfdc518e69db1f8b23e7574cea46627262f119c7c312f15f09dbb2b046",
+  "ifconfig.txt": "96bf9cc9ec446a4f2f5596042f081f835de7787a7035ae6eba1f2801bed39f2f",
+  "ioreg-mtkwlan-props.txt": "4edc01b16c82f83b4a299bdc879b21d1d2c9664deefb109114d22e1095af3939",
+  "ioreg-mtkwlannative-props.txt": "a17759191a07f55512d51b0e50f5631c239cb11eeb350219bc3368bd213341c5",
+  "kextstat.txt": "7fac32d17f5d4731b4085e42e9701d0d74a441c4e694ccce89e6b069086e5ceb",
+  "netstat-rn.txt": "f2b6876d457e3842cb61a631bc2e66a615505a29a0a254b618bb4338ffd3812e",
+  "next-build.txt": "bf0e5747ce66dc00917a0b4cad04ad9244e711f2bfc272f1ef4e425d3bc654ec",
+  "pcap-summary.txt": "6d90a8b1880991d19cf4c98bdc6504bf558f122a0a1fe40c1d52a332f8a977f7"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "25G241",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 1740,
+   "MAC": 1736,
+   "UUID": 9
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-137",
+ "username": "watchthelight"
+}

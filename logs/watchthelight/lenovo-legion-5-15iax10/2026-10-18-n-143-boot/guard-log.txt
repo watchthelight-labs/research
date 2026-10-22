@@ -1,0 +1,5 @@
+2026-10-18 07:33:28 guard start: attempt=N-143 stage=E iface=en1 boot=1792323106 started_boot=none result=none auto_reboots=0 dry=0
+2026-10-18 07:43:19 guard start: attempt=N-143 stage=E iface=en1 boot=1792323732 started_boot=1792323106 result=none auto_reboots=0 dry=0
+2026-10-18 07:44:11 captured rollback -> /Users/USER/.cache/legion/wifi/N-143-rollback
+2026-10-18 07:44:16 restarting after rollback (N-143)
+2026-10-18 07:46:08 guard start: attempt=N-143 stage=E iface=en1 boot=1792323907 started_boot=1792323106 result=rolled-back auto_reboots=1 dry=0

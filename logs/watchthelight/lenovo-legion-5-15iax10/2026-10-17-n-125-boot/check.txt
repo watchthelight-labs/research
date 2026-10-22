@@ -1,0 +1,4 @@
+n-125 check 2026-10-17 20:38 EDT, boot Sat Oct 17 20:36:34 2026
+plugin: bca2ca123ef5 (expect bca2ca123ef5)
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 

@@ -1,0 +1,40 @@
+02:00:35.985037 IP6 :: > IP-189 ICMP6, neighbor solicitation, who has IP-190, length 32
+02:00:35.985921 IP 0.0.0.0.68 > 255.255.255.255.67: BOOTP/DHCP, Request from MAC-53, length 300
+02:00:35.986496 IP6 IP-190 > IP-19 ICMP6, router solicitation, length 8
+02:00:37.110875 IP IP-73.67 > IP-185.68: BOOTP/DHCP, Reply, length 300
+02:00:37.110880 IP IP-75.67 > IP-207.68: BOOTP/DHCP, Reply, length 300
+02:00:38.113971 IP 0.0.0.0.68 > 255.255.255.255.67: BOOTP/DHCP, Request from MAC-53, length 300
+02:00:38.217938 IP IP-73.67 > IP-185.68: BOOTP/DHCP, Reply, length 300
+02:00:38.218330 ARP, Probe IP-185, length 28
+02:00:38.540609 ARP, Probe IP-185, length 28
+02:00:38.861740 ARP, Probe IP-185, length 28
+02:00:39.182795 ARP, Announcement IP-185, length 28
+02:00:39.503632 ARP, Announcement IP-185, length 28
+02:00:39.824827 ARP, Announcement IP-185, length 28
+02:00:39.835355 ARP, Reply IP-6 is-at MAC-4, length 46
+02:00:40.152577 ARP, Reply IP-62 is-at MAC-8, length 46
+02:00:40.157153 IP IP-185 > IP-62: ICMP IP-185 udp port 56936 unreachable, length 36
+02:00:40.157348 IP IP-185 > IP-62: ICMP IP-185 udp port 55500 unreachable, length 36
+02:00:40.174985 ARP, Reply IP-6 is-at MAC-4, length 46
+02:00:40.234845 ARP, Reply IP-187 is-at MAC-54, length 46
+02:00:40.316488 IP6 IP-190 > IP-19 ICMP6, router solicitation, length 16
+02:00:45.213040 IP6 IP-190 > IP-19 ICMP6, router solicitation, length 16
+02:00:45.327089 ARP, Reply IP-185 is-at MAC-53, length 28
+02:00:45.650923 ARP, Reply IP-185 is-at MAC-53, length 28
+02:00:45.819575 IP IP-185 > IP-6: ICMP echo request, id 4098, seq 0, length 64
+02:00:46.069859 IP IP-6 > IP-185: ICMP echo reply, id 4098, seq 0, length 64
+02:00:46.883690 IP IP-185 > IP-6: ICMP echo request, id 7682, seq 0, length 64
+02:00:46.888588 IP IP-6 > IP-185: ICMP echo reply, id 7682, seq 0, length 64
+02:00:48.042637 IP6 :: > IP-24 ICMP6, neighbor solicitation, who has IP-25, length 32
+02:00:48.088168 IP6 IP-25 > IP-19 ICMP6, router solicitation, length 8
+02:00:52.479815 IP6 IP-25 > IP-19 ICMP6, router solicitation, length 16
+02:01:12.903317 IP IP-191 > IP-185: ICMP IP-191 udp port 443 unreachable, length 556
+02:01:12.903334 IP IP-191 > IP-185: ICMP IP-191 udp port 443 unreachable, length 556
+02:01:12.911781 IP IP-192 > IP-185: ICMP IP-192 udp port 443 unreachable, length 556
+02:01:12.911801 IP IP-192 > IP-185: ICMP IP-192 udp port 443 unreachable, length 556
+02:01:12.917940 IP IP-193 > IP-185: ICMP IP-193 udp port 443 unreachable, length 556
+02:01:12.917950 IP IP-193 > IP-185: ICMP IP-193 udp port 443 unreachable, length 556
+02:01:12.922373 IP IP-194 > IP-185: ICMP IP-194 udp port 443 unreachable, length 556
+02:01:12.922384 IP IP-194 > IP-185: ICMP IP-194 udp port 443 unreachable, length 556
+02:01:12.928739 IP IP-195 > IP-185: ICMP IP-195 udp port 443 unreachable, length 556
+02:01:12.928749 IP IP-195 > IP-185: ICMP IP-195 udp port 443 unreachable, length 556

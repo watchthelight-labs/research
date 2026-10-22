@@ -1,0 +1,198 @@
++-o MtkWlan  <class MtkWlan, id 0x1000004b3, registered, matched, active, busy 0 (0 ms), retain 7>
+  | {
+  |   "MtkW4NicCapElements" = 24
+  |   "MtkW4ScanDone" = 4012
+  |   "MtkW4EventShort" = 0
+  |   "MtkW6RxDropped" = 523
+  |   "MtkW6RxPartial" = 0
+  |   "IOProviderClass" = "IOPCIDevice"
+  |   "IOMaxPacketSize" = 1518
+  |   "MtkLpctlBefore" = 4
+  |   "MtkW4Eeprom" = 0
+  |   "MtkW4Rts" = 0
+  |   "MtkIrqLastStatus" = 1
+  |   "MtkW3PatchSemRelease" = 3
+  |   "MtkW5StaAssoc" = 0
+  |   "IOClass" = "MtkWlan"
+  |   "MtkFwVersion" = "____000000-20260813113118"
+  |   "IOActiveMedium" = "00000020"
+  |   "MtkW5Roc" = 0
+  |   "MtkBar0Phys" = 4294967296
+  |   "MtkW6RxBad" = 0
+  |   "IOLinkSpeed" = 54000000
+  |   "MtkW3RamResult" = 0
+  |   "MtkW3FwBytes" = 1275712
+  |   "MtkW6RxOwn" = 0
+  |   "MtkW6RxProtected" = 0
+  |   "MtkW5RocGrant" = 0
+  |   "MtkW4NicCap" = 0
+  |   "MtkW6RxTypes" = "0:6 2:812 6:184 7:1695"
+  |   "IOProbeScore" = 0
+  |   "MtkW2RxMcuIova" = 2273280
+  |   "MtkW5AuthTx" = 1
+  |   "MtkW2IrqRegister" = 0
+  |   "MtkW6Deauths" = 0
+  |   "MtkWfsysSwRst" = 17
+  |   "MtkW3RamRegions" = 5
+  |   "MtkW6TxDrop" = 0
+  |   "MtkW5AssocTx" = 1
+  |   "MtkW4Beacons" = 126
+  |   "MtkW4Domain" = 0
+  |   "MtkHt" = Yes
+  |   "MtkHwRev" = 35328
+  |   "IOVendor" = "MediaTek"
+  |   "IOPacketFilters" = {"IONetworkFilterGroup"=275,"IOEthernetWakeOnLANFilterGroup"=0}
+  |   "MtkW6EventIds" = "01:15 0c:2 0e:1 27:1 29:2 43:1"
+  |   "MtkW4Rx2Desc0Ctrl" = 0
+  |   "MtkRxEvents" = 30
+  |   "MtkW4ConnOnMiscAfter" = 3
+  |   "MtkFwPatchSha256" = "8eb46014d2a6b4124472eee7476d995008a6f40b1daffef87eb42f30d98699e1"
+  |   "MtkPciCommandBefore" = 0
+  |   "MtkW3FwOwnTries" = 1
+  |   "MtkW4EventIds" = "01:7 0e:1 29:1 43:1"
+  |   "MtkW5AuthResp" = 512
+  |   "MtkW4RxFrames" = 142
+  |   "MtkW6LastDeauth" = 0
+  |   "MtkSsid" = "SSID-1"
+  |   "CFBundleIdentifierKernel" = "org.watchthelight.MtkWlan"
+  |   "MtkMacAddr" = "REDACTED-MAC"
+  |   "MtkConnOnMisc" = 3
+  |   "MtkW3PatchInit1" = 0
+  |   "IOMatchCategory" = "IODefaultMatchCategory"
+  |   "MtkAsicRevision" = 2032467968
+  |   "MtkW4BssInfo" = 0
+  |   "MtkW4Rx2CpuDmaAfter" = 1
+  |   "MtkW8RxAmsdu" = 0
+  |   "MtkW6RxTrans" = 0
+  |   "IOMACAddress" = <REDACTED-MAC>
+  |   "MtkEvDump0" = "ac010038000000000000000000000000000000000000000000000000000000008c010038430a0200000000001800000000002000020000808001000020000000"
+  |   "IOFeatures" = 0
+  |   "MtkW4IrqStatusOr" = 33554437
+  |   "MtkDataRate" = 0
+  |   "CFBundleIdentifier" = "org.watchthelight.MtkWlan"
+  |   "MtkW6TxCapped" = 0
+  |   "MtkW6Keepalives" = 12
+  |   "MtkTarget" = "ch 36 cap 1501 bi 100 ies 334"
+  |   "MtkTargetSsid" = "SSID-1"
+  |   "MtkW4OtherFrames" = 16
+  |   "MtkW6TxFailed" = 0
+  |   "MtkW6TxLostFree" = 0
+  |   "MtkW6TxRingFull" = 0
+  |   "MtkEvDump1" = "3800003800000000000000000000000000000000000000000000000000000000180000382900060000000000000000000000080000000000"
+  |   "MtkW3FwStart" = 0
+  |   "MtkW4Rx2CpuDmaBefore" = 16711680
+  |   "MtkBar0Size" = 2097152
+  |   "MtkW8AddbaDeclined" = 4
+  |   "MtkChipId" = 31013
+  |   "IOModel" = "MT7925 (MtkWlan)"
+  |   "MtkW8AssocHtStatus" = 0
+  |   "MtkW3DrvOwnTries" = 1
+  |   "MtkW4DevInfo" = 0
+  |   "MtkW6Ticks" = 136000
+  |   "MtkFwRamSha256" = "23ff53b4bb639b30481e2e06bb1688569ad1ba971b897936db539882abfbd120"
+  |   "IOMatchedAtBoot" = Yes
+  |   "MtkW8Mode" = "VHT, 80 MHz, 2 streams"
+  |   "MtkMapper" = "none (physical addresses)"
+  |   "MtkW5AssocStatus" = 0
+  |   "MtkEvDump2" = "6c010038000000000000000000000000000000000000000000000000000000004c0100380e000600000000008100000000000c00240704008a00000001000800"
+  |   "MtkW6RxFrames" = 2503
+  |   "MtkMaxBw" = 2
+  |   "MtkW2GloCfg" = 1345370229
+  |   "MtkW2ConnOnMiscAfterReset" = 0
+  |   "MtkBoingoSeen" = Yes
+  |   "MtkW8Ap" = "ht 1 cap 09ef ampdu 13 mcs ffff op 05 vht 1 cap 338b79b2 rx ffaa tx ffaa bw 80 ctr 42"
+  |   "MtkW5Aid" = 2
+  |   "IOMinPacketSize" = 64
+  |   "MtkW4DmaDcr0" = 41365504
+  |   "MtkDrvOwnTries" = 1
+  |   "MtkEvDump3" = "3800003800000000000000000000000000000000000000000000000000000000180000382900060000000000000000000000080000000000"
+  |   "MtkW6RxNonSnap" = 0
+  |   "MtkW4RfcrAfterFilter" = 1368074
+  |   "MtkW5StaNone" = 0
+  |   "MtkW2MsiIndex" = 1
+  |   "MtkW3PatchSections" = 2
+  |   "MtkW4Rx0CpuDmaAfter" = 2097185
+  |   "MtkW4RxFilter" = 0
+  |   "MtkPciCommand" = 6
+  |   "MtkW3PatchSemGet" = 2
+  |   "IOLinkStatus" = 3
+  |   "MtkW6Rejoins" = 0
+  |   "MtkRxUnmatched" = 2
+  |   "IOSelectedMedium" = ""
+  |   "MtkW4ScanReq" = 0
+  |   "MtkW5ApRates" = 64532
+  |   "MtkW5BssAdd" = 0
+  |   "MtkScan" = "Boingo_Wireless/11; Boingo_Wireless/11; Boingo_Wireless/11; Boingo_Wireless/11; Boingo_Wireless/11; Boingo_Wireless/36; SSID-1/36; SSID-1/52; Boingo_Wireless/64; SSID-1/64; Boingo_Wireless/100; SSID-1/100; Boingo_Wireless/100; SSID-1/100; Boingo_Wireless/104; SSID-1/104; Boingo_Wireless/149; SSID-1/149 (+46 other networks redacted)"
+  |   "MtkW6TxFreed" = 192
+  |   "MtkInterrupts" = "0:level 1:msi"
+  |   "MtkW3PatchResult" = 0
+  |   "MtkBadAccess" = 0
+  |   "AVBControllerState" = 1
+  |   "MtkW3PatchInit0" = 0
+  |   "MtkIrqCount" = 464
+  |   "MtkW4Rfcr" = 1896218
+  |   "MtkW4Aps" = 64
+  |   "IOMediumDictionary" = {"00000020"={"Index"=0,"Type"=32,"Flags"=0,"Speed"=54000000}}
+  |   "MtkW5BssUp" = 0
+  |   "MtkW6TxFreeEvents" = 184
+  |   "MtkLpctl" = 0
+  |   "IOPCIPrimaryMatch" = "0x792514c3"
+  |   "MtkW6TxFreeBadVer" = 0
+  |   "MtkW6TxStall" = 0
+  |   "MtkW6TxInFlightPeak" = 7
+  |   "MtkMilestone" = "W6"
+  |   "MtkW4DmaDcr0Before" = 41366528
+  |   "MtkW3PatchFinish" = 0
+  |   "MtkState" = "W6 pass: en1 passing traffic"
+  |   "MtkW6RxPackets" = 288
+  |   "MtkW4LpctlAfter" = 0
+  |   "MtkW6TxPackets" = 174
+  |   "MtkFwOwnTries" = 1
+  |   "MtkW6Link" = 7
+  | }
+  | 
+  +-o en1  <class IOEthernetInterface, id 0x10000054f, registered, matched, active, busy 0 (0 ms), retain 11>
+    | {
+    |   "IOLocation" = ""
+    |   "IORequiredPacketFilters" = {"IONetworkFilterGroup"=19,"IOEthernetWakeOnLANFilterGroup"=0}
+    |   "IOLinkActiveCount" = 1
+    |   "BSD Name" = "en1"
+    |   "IOMulticastAddressList" = <01005e0000013333ff3bc9593333000000013333ffaca963>
+    |   "IOInterfaceType" = 6
+    |   "IOMaxTransferUnit" = 1500
+    |   "IOInterfaceFlags" = 34915
+    |   "IOInterfaceState" = 3
+    |   "IOMediaAddressLength" = 6
+    |   "IOMediaHeaderLength" = 14
+    |   "IOActivePacketFilters" = {"IONetworkFilterGroup"=19,"IOEthernetWakeOnLANFilterGroup"=0}
+    |   "IOInterfaceExtraFlags" = 1090521152
+    |   "IOPrimaryInterface" = No
+    |   "IOControllerEnabled" = Yes
+    |   "IOInterfaceUnit" = 1
+    |   "IOInterfaceNamePrefix" = "en"
+    |   "IOBuiltin" = Yes
+    |   "IONetworkData" = {"IOOutputQueueStatsKey"={"Size"=44,"Data"=<40000000000000000000000000000000ae000000000000000000000000000000000000000000000000000000>,"Access Types"=9},"IONetworkStatsKey"={"Size"=20,"Data"=<0000000000000000000000000000000000000000>,"Access Types"=9},"IOEthernetStatsKey"={"Size"=216,"Data"=<000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000>,"Access Types"=9}}
+    | }
+    | 
+    +-o IONetworkStack  <class IONetworkStack, id 0x100000400, registered, matched, active, busy 0 (0 ms), retain 10>
+      | {
+      |   "IOProbeScore" = 0
+      |   "CFBundleIdentifier" = "com.apple.iokit.IONetworkingFamily"
+      |   "IOMatchCategory" = "IONetworkStack"
+      |   "IOClass" = "IONetworkStack"
+      |   "IOPersonalityPublisher" = "com.apple.iokit.IONetworkingFamily"
+      |   "IOProviderClass" = "IOResources"
+      |   "CFBundleIdentifierKernel" = "com.apple.iokit.IONetworkingFamily"
+      |   "IOMatchedAtBoot" = Yes
+      |   "IOUserClientClass" = "IONetworkStackUserClient"
+      |   "IOResourceMatch" = "IOBSD"
+      |   "IONetworkMbufDMADrivers" = ("com.insanelymac.RealtekRTL8111")
+      | }
+      | 
+      +-o IONetworkStackUserClient  <class IONetworkStackUserClient, id 0x100000691, !registered, !matched, active, busy 0, retain 5>
+          {
+            "IOUserClientCreator" = "pid 179, configd"
+            "IOUserClientDefaultLocking" = Yes
+          }
+          
+

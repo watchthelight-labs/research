@@ -1,0 +1,32 @@
+{
+ "collected": "2026-10-15",
+ "component": "native",
+ "files": {
+  "00-info.txt": "278f22b6729e28d6b2ef7f1a2b60b854e329ded527b56c186fac3bfe8bdc0ca0",
+  "classcount-head.txt": "c8ffca1ed8cc278d5fbdaceca88607b302240db0ffeea8ce56846c48ef791a82",
+  "ioreg-ec.txt": "72e213c7268f631272fd4cccb0e163883b5471b968beedbdb0b92f0803b58e95",
+  "ioreg-ite-hs05.txt": "65a2d8de0b8bab302cf5a0c9e1da6eb961732b4c1184df05ab5c536a0e5af468",
+  "ioreg-rtc.txt": "005b6ffaa5b143ce02307d78c269056f1077027524607eb997dcad821023348c",
+  "kexts.txt": "82afaabf191da282c4ffcf227736ca08aa176549f4b257da684e66a2077549c8",
+  "opencore-2026-10-15-113209.txt": "1870ee04e68991d7dc58ec909a85adde16eebc798d7a95baa60b67b90101789e",
+  "usbdev-t1.txt": "c0280197e5355de4612c629be42c022f4f2bcea94e898c7cbe8a3e889242f99f",
+  "usbdev-t2.txt": "c0280197e5355de4612c629be42c022f4f2bcea94e898c7cbe8a3e889242f99f",
+  "windows-usb-ports.txt": "db4796b2b3f30b4f18dbaf4007bacbe54ce537ebc8c1c6a82e19ee3b8ff83bb6"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "24E263",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "MLB": 2,
+   "ROM": 2,
+   "SERIAL": 3,
+   "UUID": 197
+  },
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-23",
+ "username": "watchthelight"
+}

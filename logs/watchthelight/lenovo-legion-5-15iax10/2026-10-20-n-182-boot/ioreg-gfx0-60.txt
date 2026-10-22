@@ -1,0 +1,357 @@
++-o GFX0@0  <class IOPCIDevice, id 0x1000003ea, registered, matched, active, busy 1 (9729 ms), retain 22>
+  | {
+  |   "acpi-device" = "IOACPIPlatformDevice is not serializable"
+  |   "@0,connector-type" = <00080000>
+  |   "assigned-addresses" = <1000028200000000000000800000000000000004140002c2600000000000001800000000000000041c0002c2600000000000001c000000000000000224000281000000000090000000000000800000003000028200000000000008840000000000000800>
+  |   "vendor-id" = <de100000>
+  |   "class-code" = <00000300>
+  |   "subsystem-vendor-id" = <aa170000>
+  |   "IOPCIExpressLinkCapabilities" = 4716805
+  |   "hda-gfx" = <"onboard-2">
+  |   "IOName" = "display"
+  |   "@5,connector-type" = <00080000>
+  |   "nvrm-bar1-placed" = 4380866641920
+  |   "nvrm-claimed" = Yes
+  |   "IOInterruptSpecifiers" = (<1000000007000000>,<0600000000000100>)
+  |   "IOPCIMSIMode" = Yes
+  |   "VRAM,totalsize" = 8546942976
+  |   "pcidebug" = "2:0:0"
+  |   "IOChildIndex" = 1
+  |   "@4,connector-type" = <00080000>
+  |   "IOPCIExpressLinkStatus" = 4229
+  |   "IOPCIExpressCapabilities" = 18
+  |   "Capability Offsets" = {"PowerManagementCapability"=64,"PCIExpressCapability"=96,"SPCIe"=256,"LaneMarginingRx"=512,"PL32GTs"=392,"LatencyToleranceReportingCapability"=300,"PL16GTs"=344,"VendorSpecificCapability"=156,"DataLinkFeature"=332,"AlternativeRoutingID"=584,"PowerBudgetCapability"=700,"VSEC"=676,"MSIXCapability"=176,"MSICapability"=72,"ResizableBAR"=308,"DeviceSerialNumberCapability"=756,"ErrorReportingCapability"=440}
+  |   "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci"))
+  |   "@3,connector-type" = <00080000>
+  |   "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+  |   "built-in" = <00>
+  |   "IOBusyInterest" = "IOCommand is not serializable"
+  |   "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+  |   "IOPCIResourced" = Yes
+  |   "IODeviceMemory" = (({"address"=2147483648,"length"=67108864}),({"address"=4380866641920,"length"=8589934592}),({"address"=4389456576512,"length"=33554432}),({"address"=412719513600,"length"=67108864}),"IOSubMemoryDescriptor is not serializable",({"address"=2215116800,"length"=524288}))
+  |   "IOPCIMSIMessageControl" = 904
+  |   "name" = <"display">
+  |   "subsystem-id" = <383e0000>
+  |   "acpi-pmcap-offset" = 64
+  |   "AAPL,slot-name" = <"Slot-1">
+  |   "model" = <"NVIDIA GeForce RTX 5070 Laptop GPU">
+  |   "@2,connector-type" = <00080000>
+  |   "VRAM,totalMB" = 8151
+  |   "nvrm-gpu-profile" = {"class-3d"=52887,"class-compute"=52928,"generation"="Blackwell","class-copy"=51893,"video-layout"="blackwell","impl"=6,"class-nvenc"=53175,"arch"=432,"chip"="GB206","scanout"="static-bar1","vram-mb"=8151,"native-shaders"="sm_120","class-nvdec"=53168,"bar1-mb"=8192}
+  |   "compatible" = <"pci17aa,3e38","pci10de,2d18","pciclass,030000","PXSX","GFX0">
+  |   "IOPCIExpressDeviceCapabilities2" = 461203
+  |   "@1,connector-type" = <00080000>
+  |   "IOPCIExpressDeviceCapabilities" = 288132641
+  |   "IOReportLegendPublic" = Yes
+  |   "reg" = <0000020000000000000000000000000000000000100002020000000000000000000000000000000414000242000000000000000000000000000000041c0002420000000000000000000000000000000224000201000000000000000000000000800000003000020200000000000000000000000000000800>
+  |   "IOPCIPowerManagementCapabilities" = 1209223169
+  |   "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="GFX0 1"})
+  |   "device-id" = <182d0000>
+  |   "revision-id" = <a1000000>
+  |   "IOPCIAERCapabilities" = 160
+  |   "IOPCIExpressLinkCapabilities2" = 25165886
+  |   "acpi-path" = "IOACPIPlane:/_SB/PC00/RP01@60000/PXSX@0"
+  | }
+  | 
+  +-o NVRMFBClaim  <class NVRMFBClaim, id 0x1000005d5, !registered, !matched, active, busy 0, retain 4>
+  |   {
+  |     "IOPCIPrimaryMatch" = "0x000010de&0x0000ffff"
+  |     "CFBundleIdentifier" = "com.nullmoth.NVRMFB"
+  |     "IOMatchCategory" = "IOFramebuffer"
+  |     "IOClass" = "NVRMFBClaim"
+  |     "IOPCIClassMatch" = "0x03000000&0xff000000"
+  |     "IOPersonalityPublisher" = "com.nullmoth.NVRMFB"
+  |     "IOProbeScore" = 30000
+  |     "IONameMatch" = "display"
+  |     "IOProviderClass" = "IOPCIDevice"
+  |     "CFBundleIdentifierKernel" = "com.nullmoth.NVRMFB"
+  |     "IONameMatched" = "display"
+  |   }
+  |   
+  +-o NVRM  <class NVRM, id 0x1000005d8, registered, matched, active, busy 1 (4082 ms), retain 16>
+  | | {
+  | |   "IOClass" = "NVRM"
+  | |   "CFBundleIdentifier" = "com.nullmoth.NVRM"
+  | |   "IOProviderClass" = "IOPCIDevice"
+  | |   "nvrm-bars" = "bar0@0x10:0x80000000+0x4000000 bar1@0x14:0x3fc00000000+0x200000000 bar2@0x1c:0x3fe00000000+0x2000000 "
+  | |   "IOPCIClassMatch" = "0x03000000&0xff000000"
+  | |   "IOUserClientClass" = "NVRMUserClient"
+  | |   "nvrm-boot-hold" = "holding"
+  | |   "IOProbeScore" = 1000
+  | |   "nvrm-autogo-settle-ms" = 500
+  | |   "IOPowerManagement" = {"ChildrenPowerState"=1,"CurrentPowerState"=1,"CapabilityFlags"=32770,"MaxPowerState"=1,"DriverPowerState"=1}
+  | |   "IOMatchCategory" = "IODefaultMatchCategory"
+  | |   "nvrm-pm" = "running"
+  | |   "nvrm-boot-raster" = "head0 165.000Hz"
+  | |   "nvrm-kext-version" = "0.1"
+  | |   "IOPersonalityPublisher" = "com.nullmoth.NVRM"
+  | |   "IOPCIPrimaryMatch" = "0x000010de&0x0000ffff"
+  | |   "CFBundleIdentifierKernel" = "com.nullmoth.NVRM"
+  | |   "nvrm-autogo" = "up"
+  | | }
+  | | 
+  | +-o NVRMDisplay  <class NVRMDisplay, id 0x10000064a, registered, matched, active, busy 0 (273 ms), retain 7>
+  | | | {
+  | | |   "gpu-id" = 512
+  | | |   "fb-index" = 0
+  | | |   "connected-displays" = 1
+  | | |   "phys-for-va" = 18446743522506649120
+  | | |   "nvkms-kapi" = 18446743522521417320
+  | | | }
+  | | | 
+  | | +-o NVRMFramebuffer  <class NVRMNVDAFramebuffer, id 0x10000064b, registered, matched, active, busy 0 (1 ms), retain 19>
+  | |   | {
+  | |   |   "IOClass" = "NVRMNVDAFramebuffer"
+  | |   |   "CFBundleIdentifier" = "com.nullmoth.NVRMFB"
+  | |   |   "IOProviderClass" = "NVRMDisplay"
+  | |   |   "IOPMStrictTreeOrder" = Yes
+  | |   |   "IOPowerManagement" = {"CurrentPowerState"=1,"CapabilityFlags"=32768,"ChildProxyPowerState"=1,"MaxPowerState"=1}
+  | |   |   "NVRMTiming" = <0100354bf034a72e000a0000500a0000700a0000a00a000040060000860600008e060000d0060000888402000000000001000000>
+  | |   |   "IOFBDependentIndex" = 0
+  | |   |   "IOProbeScore" = 1000
+  | |   |   "IOCFPlugInTypes" = {"UUID-189"="IOAccelerator2D.plugin"}
+  | |   |   "IOAccelTypes" = "IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/RP01@6/IOPP/GFX0@0/NVAccel"
+  | |   |   "IOMatchCategory" = "IODefaultMatchCategory"
+  | |   |   "IOFBDependentID" = 5644789673621454849
+  | |   |   "IOFBTimingRange" = <000000000000000000000000000000000000000000000000000000000000000040787d0100000000008c8647000000000000000001000000000000000100000017000000f40100001027000040420f0000400000004000000000000000000000010101010101010101010101010100004001000000200000000000000020000000000000002000000100000000200000c800000000200000000000000020000000000000002000000100000000200000000000000000000000000000000000000000000000000000000000000000000001000000a8610000804f12000000000000000000010002000300010000000000>
+  | |   |   "IOPersonalityPublisher" = "com.nullmoth.NVRMFB"
+  | |   |   "IOAccelRevision" = 2
+  | |   |   "CFBundleIdentifierKernel" = "com.nullmoth.NVRMFB"
+  | |   |   "IOFBMemorySize" = 8589934592
+  | |   |   "IOFBScalerInfo" = <000000000000000000000000000000000600000000140000800c00000000000000000000000000000000000000000000>
+  | |   |   "IOAccelIndex" = 0
+  | |   | }
+  | |   | 
+  | |   +-o backlight  <class NVRMBacklightHandler, id 0x10000064c, registered, matched, active, busy 0 (0 ms), retain 6>
+  | |   |   {
+  | |   |   }
+  | |   |   
+  | |   +-o AppleMCCSControlModule  <class AppleMCCSControlModule, id 0x10000064e, registered, matched, active, busy 0 (0 ms), retain 7>
+  | |   | | {
+  | |   | |   "IOProbeScore" = 0
+  | |   | |   "CFBundleIdentifier" = "com.apple.driver.AppleMCCSControl"
+  | |   | |   "IOMatchCategory" = "AppleMCCSControlFamily"
+  | |   | |   "IOClass" = "AppleMCCSControlModule"
+  | |   | |   "IOPersonalityPublisher" = "com.apple.driver.AppleMCCSControl"
+  | |   | |   "IOKitDebug" = 0
+  | |   | |   "IOProviderClass" = "IOFramebuffer"
+  | |   | |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleMCCSControl"
+  | |   | |   "IOUserClientClass" = "AppleMCCSUserClient"
+  | |   | |   "IOResourceMatch" = "IOKit"
+  | |   | | }
+  | |   | | 
+  | |   | +-o AppleMCCSParameterHandler  <class AppleMCCSParameterHandler, id 0x100000650, registered, matched, active, busy 0 (0 ms), retain 5>
+  | |   |     {
+  | |   |       "IOProbeScore" = 0
+  | |   |       "CFBundleIdentifier" = "com.apple.driver.AppleMCCSControl"
+  | |   |       "IOMatchCategory" = "IODisplayParameters"
+  | |   |       "IOClass" = "AppleMCCSParameterHandler"
+  | |   |       "IOPersonalityPublisher" = "com.apple.driver.AppleMCCSControl"
+  | |   |       "IOKitDebug" = 0
+  | |   |       "AppleMCCSFeatures" = 1
+  | |   |       "IOProviderClass" = "AppleMCCSControlFamily"
+  | |   |       "CFBundleIdentifierKernel" = "com.apple.driver.AppleMCCSControl"
+  | |   |       "IOResourceMatch" = "IOKit"
+  | |   |     }
+  | |   |     
+  | |   +-o AppleUpstreamUserClientDriver  <class AppleUpstreamUserClientDriver, id 0x10000064f, registered, matched, active, busy 0 (0 ms), retain 5>
+  | |       {
+  | |         "IOProbeScore" = 0
+  | |         "CFBundleIdentifier" = "com.apple.driver.AppleUpstreamUserClient"
+  | |         "IOMatchCategory" = "AppleUpstreamUserClientDriver"
+  | |         "IOClass" = "AppleUpstreamUserClientDriver"
+  | |         "IOPersonalityPublisher" = "com.apple.driver.AppleUpstreamUserClient"
+  | |         "IOProviderClass" = "IOFramebuffer"
+  | |         "CFBundleIdentifierKernel" = "com.apple.driver.AppleUpstreamUserClient"
+  | |         "IOUserClientClass" = "AppleUpstreamUserClient"
+  | |         "IOResourceMatch" = "IOKit"
+  | |       }
+  | |       
+  | +-o NVRMDisplay  <class NVRMDisplay, id 0x100000652, registered, matched, active, busy 0 (0 ms), retain 6>
+  | |   {
+  | |     "gpu-id" = 512
+  | |     "fb-index" = 1
+  | |     "phys-for-va" = 18446743522506649120
+  | |     "nvkms-kapi" = 18446743522521417320
+  | |   }
+  | |   
+  | +-o NVRMDisplay  <class NVRMDisplay, id 0x100000653, registered, matched, active, busy 0 (0 ms), retain 6>
+  | |   {
+  | |     "gpu-id" = 512
+  | |     "fb-index" = 2
+  | |     "phys-for-va" = 18446743522506649120
+  | |     "nvkms-kapi" = 18446743522521417320
+  | |   }
+  | |   
+  | +-o NVRMDisplay  <class NVRMDisplay, id 0x100000654, registered, matched, active, busy 0 (0 ms), retain 6>
+  |     {
+  |       "gpu-id" = 512
+  |       "fb-index" = 3
+  |       "phys-for-va" = 18446743522506649120
+  |       "nvkms-kapi" = 18446743522521417320
+  |     }
+  |     
+  +-o NVAccel  <class NVAccel, id 0x1000005d9, registered, matched, active, busy 0 (0 ms), retain 38>
+  | | {
+  | |   "IOClass" = "NVAccel"
+  | |   "NVAccelEnabledFrom" = "displayModeDidChange"
+  | |   "IOPersonalityPublisher" = "com.nullmoth.NVAccel"
+  | |   "NVAccelSurfaceWait" = 1
+  | |   "IOReportLegendPublic" = Yes
+  | |   "AGCInfo" = {"fBusyCount"=0,"poweredOffByAGC"=No,"fSubmissionsSinceLastCheck"=0,"fLastSubmissionPID"=0}
+  | |   "IOProviderClass" = "IOPCIDevice"
+  | |   "NVAccelEnableCount" = 3
+  | |   "IOGLBundleName" = "AppleMetalOpenGLRenderer"
+  | |   "MetalPluginName" = "../../../Library/GPUBundles/NVMTLDriver"
+  | |   "IOProbeScore" = 100
+  | |   "SurfaceList" = ()
+  | |   "PerformanceStatisticsAccum" = {"orphanedReusableVidMemoryHitRate"=0,"texturePageOutBytes"=0,"swapCompleteVideoWaitTime"=0,"orphanedReusableSysMemoryHitRate"=0,"dataBufferCount"=0,"oolTexturePageInBytes"=0,"textureCount"=1,"iosurfaceTextureCreationCount"=0,"surfaceReadLockIdleWaitTime"=0,"freeDataBufferWaitTime"=0,"orphanedReusableSysMemoryBytes"=0,"ioSurfaceReadOutBytes"=0,"agprefTextureCreationCount"=0,"orphanedReusableSysMemoryCount"=0,"finishAll2DWaitTime"=0,"orphanedNonReusableSysMemoryCount"=0,"ioSurfacePageOutBytes"=0,"surfaceBufferReadOutBytes"=0,"surfaceTextureCreationCount"=0,"textureReadOutBytes"=0,"gartMapInBytesPerSample"=0,"swapBytesPerSample"=0,"dataBytesPerSample"=0,"surfaceCount"=0,"clientGLWaitTime"=0,"surfaceCopyInWaitTime"=0,"clientSharedAllocatedBytes"=0,"surfaceCopyOutWaitTime"=0,"gartMapOutBytesPerSample"=0,"ioSurfacePageInBytes"=0,"gartCacheBytes"=33554432,"volatileSurfaceCount"=0,"vramEvictionWaitTime"=0,"oolTextureCreationBytes"=0,"freeToAllocGPUAddressWaitTime"=0,"oolTextureCreationCount"=0,"orphanedReusableVidMemoryCount"=0,"orphanedReusableVidMemoryBytes"=0,"context2DCount"=0,"inUseSysMemoryBytes"=0,"bufferSwapCount"=0,"orphanedNonReusableVidMemoryBytes"=0,"contextGLCount"=0,"finish2DWaitTime"=0,"gartSizeBytes"=11453247488,"recoveryCount"=0,"stdTexturePageInBytes"=0,"agprefTextureCreationBytes"=0,"gartUsedBytes"=0,"surfaceWriteLockIdleWaitTime"=0,"surfaceBufferPageInBytes"=0,"finishGLWaitTime"=0,"iosurfaceTextureCreationBytes"=0,"finishCLWaitTime"=0,"finishVideoWaitTime"=0,"contextCLCount"=0,"freeSurfaceBackingWaitTime"=0,"swapCompleteGLWaitTime"=0,"orphanedNonReusableSysMemoryBytes"=0,"inUseVidMemoryBytes"=16384000,"agpTextureCreationBytes"=0,"stdTextureCreationBytes"=0,"agpTextureCreationCount"=0,"stdTextureCreationCount"=0,"surfaceSetShapeIdleWaitTime"=0,"gartFreeBytes"=11453247488,"textureVolunteerUnloadBytes"=0,"bufferFlipCount"=0,"hardwareSubmitWaitTime"=0,"swapComplete2DWaitTime"=0,"surfaceBufferPageOutBytes"=0,"surfaceBufferTextureCreationCount"=0,"hardwareWaitTime"=0,"contextVideoCount"=0,"freeSurfaceSwapBufferWaitTime"=0,"orphanedNonReusableVidMemoryCount"=0}
+  | |   "IOAccelRevision" = 2
+  | |   "MetalPluginClassName" = "NVMTLDevice"
+  | |   "IOCFPlugInTypes" = {"UUID-189"="IOAccelerator2D.plugin"}
+  | |   "CFBundleIdentifierKernel" = "com.nullmoth.NVAccel"
+  | |   "IOPCIPrimaryMatch" = "0x000010de&0x0000ffff"
+  | |   "InternalStatisticsAccm" = {}
+  | |   "IOMatchCategory" = "IOAccelerator"
+  | |   "CFBundleIdentifier" = "com.nullmoth.NVAccel"
+  | |   "PerformanceStatistics" = {"orphanedReusableVidMemoryHitRate"=0,"texturePageOutBytes"=0,"swapCompleteVideoWaitTime"=0,"orphanedReusableSysMemoryHitRate"=0,"dataBufferCount"=0,"oolTexturePageInBytes"=0,"textureCount"=1,"iosurfaceTextureCreationCount"=0,"surfaceReadLockIdleWaitTime"=0,"freeDataBufferWaitTime"=0,"orphanedReusableSysMemoryBytes"=0,"ioSurfaceReadOutBytes"=0,"agprefTextureCreationCount"=0,"orphanedReusableSysMemoryCount"=0,"finishAll2DWaitTime"=0,"orphanedNonReusableSysMemoryCount"=0,"ioSurfacePageOutBytes"=0,"surfaceBufferReadOutBytes"=0,"surfaceTextureCreationCount"=0,"textureReadOutBytes"=0,"gartMapInBytesPerSample"=0,"swapBytesPerSample"=0,"dataBytesPerSample"=0,"surfaceCount"=0,"clientGLWaitTime"=0,"surfaceCopyInWaitTime"=0,"clientSharedAllocatedBytes"=0,"surfaceCopyOutWaitTime"=0,"gartMapOutBytesPerSample"=0,"ioSurfacePageInBytes"=0,"gartCacheBytes"=33554432,"volatileSurfaceCount"=0,"vramEvictionWaitTime"=3529302,"oolTextureCreationBytes"=0,"freeToAllocGPUAddressWaitTime"=0,"oolTextureCreationCount"=0,"orphanedReusableVidMemoryCount"=0,"orphanedReusableVidMemoryBytes"=0,"context2DCount"=0,"inUseSysMemoryBytes"=0,"bufferSwapCount"=0,"orphanedNonReusableVidMemoryBytes"=0,"contextGLCount"=0,"finish2DWaitTime"=0,"gartSizeBytes"=11453247488,"recoveryCount"=0,"stdTexturePageInBytes"=0,"agprefTextureCreationBytes"=0,"gartUsedBytes"=0,"surfaceWriteLockIdleWaitTime"=0,"surfaceBufferPageInBytes"=0,"finishGLWaitTime"=0,"iosurfaceTextureCreationBytes"=0,"finishCLWaitTime"=0,"finishVideoWaitTime"=0,"contextCLCount"=0,"freeSurfaceBackingWaitTime"=0,"swapCompleteGLWaitTime"=0,"orphanedNonReusableSysMemoryBytes"=0,"inUseVidMemoryBytes"=16384000,"agpTextureCreationBytes"=0,"stdTextureCreationBytes"=0,"agpTextureCreationCount"=0,"stdTextureCreationCount"=0,"surfaceSetShapeIdleWaitTime"=0,"gartFreeBytes"=11453247488,"textureVolunteerUnloadBytes"=0,"bufferFlipCount"=0,"hardwareSubmitWaitTime"=0,"swapComplete2DWaitTime"=0,"surfaceBufferPageOutBytes"=0,"surfaceBufferTextureCreationCount"=0,"hardwareWaitTime"=0,"contextVideoCount"=0,"freeSurfaceSwapBufferWaitTime"=0,"orphanedNonReusableVidMemoryCount"=0}
+  | |   "InternalStatistics" = {}
+  | |   "IOReportLegend" = ({"IOReportChannels"=((0,6442450945,"Command Buffer Bytes"),(1,6442450945,"GL Command Buffer Bytes"),(2,6442450945,"CL Command Buffer Bytes"),(3,6442450945,"2D Command Buffer Bytes"),(4,6442450945,"Video Command Buffer Bytes"),(5,6442450945,"Out-Of-Line Texture Creation Bytes"),(6,6442450945,"Shared System Memory Texture Creation Bytes"),(7,6442450945,"Private Video Memory Texture Creation Bytes"),(8,6442450945,"Private System Memory Texture Creation Bytes"),(9,6442450945,"IOSurface Backed Texture Creation Bytes"),(10,6442450945,"Out-Of-Line Texture Creation Count"),(11,6442450945,"Private Video Memory Texture Creation Count"),(12,6442450945,"Private System Memory Texture Creation Count"),(13,6442450945,"Shared System Memory Texture Creation Count"),(14,6442450945,"IOAccelSurfaceRef Texture Creation Count"),(15,6442450945,"IOAccelSurfaceBufferRef Texture Creation Count"),(16,6442450945,"IOSurface Backed Texture Creation Count"),(17,6442450945,"Texture Count"),(20,6442450945,"Bytes mapped into the GPU"),(21,6442450945,"Bytes unmapped from the GPU"),(82,6442450945,"IOAccelClientShared allocated bytes"),(22,6442450945,"Private textures bytes paged on"),(23,6442450945,"Out of line texture bytes paged on"),(24,6442450945,"IOAccelSurface bytes paged on"),(25,6442450945,"IOSurface bytes paged on"),(26,6442450945,"IOSurface bytes evicted"),(27,6442450945,"IOAccelSurface bytes evicted"),(28,6442450945,"Texture bytes evicted"),(29,6442450945,"IOSurface bytes paged off"),(30,6442450945,"IOAccelSurface bytes paged off"),(31,6442450945,"Texture bytes paged off"),(32,6442450945,"Texture bytes voluntarily paged off"),(33,6442450945,"IOAccelSurface count"),(34,6442450945,"Volatile IOAccelSurface count"),(35,6442450945,"2D context count"),(36,6442450945,"Video context count"),(37,6442450945,"OpenGL context count"),(38,6442450945,"OpenCL context count"),(39,6442450945,"Buffer swap count"),(40,6442450945,"Buffer flip count"),(41,6442450945,"Databuffer count"),(42,6442450945,"VRAM eviction wait time"),(43,6442450945,"CPU wait on GPU"),(44,6442450945,"CPU wait to submit to GPU"),(45,6442450945,"GL Client wait on GPU"),(46,6442450945,"CL Client wait on GPU"),(47,6442450945,"CPU Wait to evict resource"),(49,6442450945,"CPU wait for free databuffer"),(53,6442450945,"GL Client wait for swap complete"),(55,6442450945,"CPU Wait to copy in surface"),(56,6442450945,"CPU Wait to copy out surface"),(59,6442450945,"CPU Wait for surface idle"),(60,6442450945,"CPU Wait for resource read"),(61,6442450945,"CPU Wait for resource write"),(62,6442450945,"CPU Wait for all 2D finish"),(63,6442450945,"CPU Wait for 2D finish"),(64,6442450945,"CPU Wait for video finish"),(65,6442450945,"CPU Wait for GL finish"),(66,6442450945,"CPU Wait for CL finish"),(106,6442450945,"In use system memory"),(105,6442450945,"In use video memory"),(103,6442450945,"Command Queue Count"),(104,6442450945,"GPU Restart Count")),"IOReportGroupName"="Internal Statistics","IOReportChannelInfo"={"IOReportChannelUnit"=0}})
+  | |   "AccelCaps" = 15
+  | |   "IOPCIClassMatch" = "0x03000000&0xff000000"
+  | | }
+  | | 
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000062a, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000062b, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000062c, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000062d, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000062e, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000062f, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000630, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000631, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000632, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000633, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000634, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000635, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000636, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000637, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000638, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000639, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000063a, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000063b, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000063c, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000063d, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000063e, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x10000063f, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000640, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000641, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000642, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000643, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000644, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000645, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000646, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000647, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000648, !registered, !matched, active, busy 0, retain 5>
+  | |   {
+  | |   }
+  | |   
+  | +-o IOAccelNVRMCarrier  <class IOAccelNVRMCarrier, id 0x100000649, !registered, !matched, active, busy 0, retain 5>
+  |     {
+  |     }
+  |     
+  +-o NVDADeviceControl  <class NVDADeviceControl, id 0x100000658, registered, matched, active, busy 0 (0 ms), retain 7>
+      {
+        "IOUserClientClass" = "AppleGraphicsDeviceControlClient"
+      }
+      
+

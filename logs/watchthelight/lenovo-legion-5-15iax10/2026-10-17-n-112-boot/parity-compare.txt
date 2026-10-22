@@ -1,0 +1,48 @@
+file size: shipped 16792576  ours 16785616  delta -6960
+load commands: identical
+sections (shipped / ours / delta):
+  __DATA,__bss                0xe8a00    0xe89de -34
+  __DATA,__common             0x2117a    0x21178 -2
+  __DATA,__const              0x53200    0x531e8 -24
+  __DATA,__data               0x11441    0x11420 -33
+  __DATA,__got                  0xd60      0xd60 +0
+  __DATA,__mod_init_func          0x8        0x8 +0
+  __DATA,__mod_term_func          0x8        0x8 +0
+  __TEXT,__const             0x81b410   0x81b370 -160
+  __TEXT,__cstring            0xdafd6    0xdb07c +166
+  __TEXT,__text              0x489ffb   0x48a14e +339
+  __TEXT,__ustring                0xc        0xc +0
+undefined: shipped 472 ours 472  only-shipped []  only-ours []
+exported (global defined): shipped 17679 ours 17679  only-shipped 0  only-ours 0
+all defined symbols (with multiplicity): shipped 33836 ours 33836  only-shipped 0  only-ours 0
+functions with a unique name in both: 29432  same size 29401  different size 31  total delta +339 B
+    -112 shipped    192 _kfspStateDestroy_IMPL
+     -32 shipped   9568 _nvRmAllocDisplays
+     -32 shipped   1136 _nvrm_query_vram_kb
+     -16 shipped   3856 _ApplyModeSetConfig
+     -16 shipped    576 __ZL12nv_pm_sysctlP10sysctl_oidPviP10sysctl_req
+     -16 shipped    928 __ZL12nv_pv_sysctlP10sysctl_oidPviP10sysctl_req
+     -16 shipped   1616 __ZN4NVRM18snapshotBootScreenEv
+     -16 shipped    448 _nvRmFreeCoreRGSyncpts
+     -16 shipped    336 _nv_alloc_kernel_mapping
+     -16 shipped    304 _nv_post_event
+     -16 shipped     64 _nvrm_kapi_dev_handles
+     -16 shipped     32 _nvrm_kapi_mem_handle
+     -16 shipped   1616 _nvrm_query_gpu_profile
+      -2 shipped     32 _libosExtractLogs.cold.3
+      +5 shipped     27 _zbcapiCtrlCmdGetZbcClearTableSize_VF.cold.1
+     +16 shipped    432 __ZL19nv_xnu_acpi_extractP8OSObjectPhjPj
+     +16 shipped    736 __ZL20nvrm_display_publishP9IOServicej
+     +16 shipped    384 __ZL8fbiAllocjjjPvjPj
+     +16 shipped    496 __ZN14NVRMUserClient11clientCloseEv
+     +16 shipped   1248 __ZN4NVRM9headWatchEPvi
+     +16 shipped    160 _kfspCleanupBootState_IMPL
+     +16 shipped    800 _nv_acpi_dsm_method
+     +16 shipped    112 _nv_xnu_kmap_overlap
+     +32 shipped   2688 __ZL8nv_q_putP12nv_xnu_alloc
+     +32 shipped    576 _nvRMAllocateWindowChannels
+     +32 shipped   1120 _nvRMSetupEvoCoreChannel
+     +48 shipped   3552 _NvKmsKapiLayerConfigToKms
+     +48 shipped   1520 _nvrm_ce_copy_to_pages
+     +48 shipped   1520 _nvrm_gpuva_alloc
+    +288 shipped    512 _RgVBlankDeferredWork

@@ -1,0 +1,5 @@
+debug.xegfx_stage: 4
+debug.xegfx_running: 0
+debug.xegfx_progress: 40
+debug.xegfx_env: compat.linuxkpi.i915_disable_display=1
+debug.xegfx_wdog: 180

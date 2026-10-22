@@ -1,0 +1,23 @@
+{
+ "collected": "2026-10-18",
+ "component": "native",
+ "files": {
+  "README.md": "1f82072dec8c5f228dfad98cb94d1a0b362a3d04c7315c79a4952bfd9d03219e",
+  "dmesg-nvidia.txt": "4af1d9fb4ba3e176e7e58bac6d6e7c38b59db460b5cd6f7d501d6fda63deb3c8",
+  "drag.txt": "18cfc2481a7d7befed03eb458ed25d477088856d7bd0fe116aa89a8aa5531834",
+  "kextstat.txt": "1d3736425d2e8e5ec8619c18f9b729e900ebeb806dcc1e3f8d448f91032e71da",
+  "sysctl-0.txt": "e2258691672a65eb9a4180f11aeb94abd7c4ac4f3000db66ba0dec00ff48362d",
+  "sysctl-1.txt": "1202945d55e0e830b36491f8bf0507e04ec525e68279a38140ec35d84a545891"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v1"
+ },
+ "source": "N-159",
+ "username": "watchthelight"
+}

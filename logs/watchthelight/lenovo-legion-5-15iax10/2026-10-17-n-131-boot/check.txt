@@ -1,0 +1,7 @@
+n-131 check 2026-10-17 21:42 EDT, boot Sat Oct 17 21:39:58 2026
+plugin: 6d061f1b605e (expect 6d061f1b605e)
+driver-version: 2.3.5 
+crash reports since boot: 0
+nvram: nullmoth-nv-ok=1 
+lastgood: /Library/LaunchDaemons/com.nullmoth.lastgood.plist
+kexts: nullmoth.NVAccel nullmoth.NVRM nullmoth.NVRMAGDC nullmoth.NVRMFB 

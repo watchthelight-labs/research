@@ -1,0 +1,28 @@
+badge label pass enc 0x7fafe7ae0600 (128x128 ImageOffscreen), N-114 probe lines:
+OFFS GLYPH enc 0x7fafe7ae0600 slot 3 0x7fb111f2b6f0 46x24 fmt 30 swz 0 key 0x5040302 view 0 surf 0 parent 0 usage 1 storage 1
+OFFS IDX enc 0x7fafe7ae0600 ib 0x7fb110722a10 off 0 count 6 type 0 base 0 inst 1 size 262144 buf 0x600009994fc0 map 0 shadow 1 host 0 sysmem 0 placed 0 imported 0 pool 0
+OFFS PASSDRAW enc 0x7fafe7ae0600 fs fixed_frag_lpf_cpf blend 1 rgb(1,7,op 0) a(1,7,op 0) mask f fmt 44
+OFFS TARGET enc 0x7fafe7ae0600 0x7fb111a17340 img 0x7fb015861a00 mem 0x600001da8c80 view 0x7fb111a0e570 vkfmt 44 layout 6 storage 0 placed 0 sysmem 0 flags 0x8 usage 0x17 alloc 65536 mtl 2 mips 1 layers 1 heap 0 sub 0 back 0 parent 0 surf 0 swz 0
+OFFS PASSDRAW enc 0x7fafe7ae0600 fs fixed_frag_lpf_cpf blend 1 rgb(1,7,op 0) a(1,7,op 0) mask f fmt 44
+OFFS TARGET enc 0x7fafe7ae0600 0x7fb111a17340 img 0x7fb015861a00 mem 0x600001da8c80 view 0x7fb111a0e570 vkfmt 44 layout 6 storage 0 placed 0 sysmem 0 flags 0x8 usage 0x17 alloc 65536 mtl 2 mips 1 layers 1 heap 0 sub 0 back 0 parent 0 surf 0 swz 0
+OFFS IDX enc 0x7fafe7ae0600 ib 0x7fb110722a10 off 1472 count 48 type 0 base 0 inst 1 size 262144 buf 0x600009994fc0 map 0 shadow 1 host 0 sysmem 0 placed 0 imported 0 pool 0
+OFFS PASSDRAW enc 0x7fafe7ae0600 fs fixed_frag_lpf_cpf blend 1 rgb(1,7,op 0) a(1,7,op 0) mask f fmt 44
+OFFS TARGET enc 0x7fafe7ae0600 0x7fb111a17340 img 0x7fb015861a00 mem 0x600001da8c80 view 0x7fb111a0e570 vkfmt 44 layout 6 storage 0 placed 0 sysmem 0 flags 0x8 usage 0x17 alloc 65536 mtl 2 mips 1 layers 1 heap 0 sub 0 back 0 parent 0 surf 0 swz 0
+OFFS GLYPH enc 0x7fafe7ae0600 slot 3 0x7fb111f2bca0 4x24 fmt 30 swz 0 key 0x5040302 view 0 surf 0 parent 0 usage 1 storage 1
+OFFS IDX enc 0x7fafe7ae0600 ib 0x7fb110722a10 off 1760 count 6 type 0 base 0 inst 1 size 262144 buf 0x600009994fc0 map 0 shadow 1 host 0 sysmem 0 placed 0 imported 0 pool 0
+OFFS PASSDRAW enc 0x7fafe7ae0600 fs fixed_frag_lpf_cpf blend 1 rgb(0,7,op 0) a(0,7,op 0) mask f fmt 44
+OFFS TARGET enc 0x7fafe7ae0600 0x7fb111a17340 img 0x7fb015861a00 mem 0x600001da8c80 view 0x7fb111a0e570 vkfmt 44 layout 6 storage 0 placed 0 sysmem 0 flags 0x8 usage 0x17 alloc 65536 mtl 2 mips 1 layers 1 heap 0 sub 0 back 0 parent 0 surf 0 swz 0
+OFFS GLYPH enc 0x7fafe7ae0600 slot 3 0x7fb111f2f530 22x28 fmt 80 swz 0 key 0x5040302 view 0 surf 0 parent 0 usage 1 storage 1
+OFFS IDX enc 0x7fafe7ae0600 ib 0x7fb110722a10 off 1984 count 6 type 0 base 0 inst 1 size 262144 buf 0x600009994fc0 map 0 shadow 1 host 0 sysmem 0 placed 0 imported 0 pool 0
+OFFS PASSDRAW enc 0x7fafe7ae0600 fs fixed_frag_lpf_cpf blend 1 rgb(1,7,op 0) a(1,7,op 0) mask f fmt 44
+OFFS TARGET enc 0x7fafe7ae0600 0x7fb111a17340 img 0x7fb015861a00 mem 0x600001da8c80 view 0x7fb111a0e570 vkfmt 44 layout 6 storage 0 placed 0 sysmem 0 flags 0x8 usage 0x17 alloc 65536 mtl 2 mips 1 layers 1 heap 0 sub 0 back 0 parent 0 surf 0 swz 0
+OFFS GLYPH enc 0x7fafe7ae0600 slot 3 0x7fb111f2f950 22x28 fmt 80 swz 0 key 0x5040302 view 0 surf 0 parent 0 usage 1 storage 1
+OFFS IDX enc 0x7fafe7ae0600 ib 0x7fb110722a10 off 2208 count 6 type 0 base 0 inst 1 size 262144 buf 0x600009994fc0 map 0 shadow 1 host 0 sysmem 0 placed 0 imported 0 pool 0
+OFFS GLYPH enc 0x7fafe7ae0600 slot 3 0x7fb111a13450 64x56 fmt 80 swz 0 key 0x5040302 view 0 surf 0 parent 0 usage 1 storage 1
+OFFS IDX enc 0x7fafe7ae0600 ib 0x7fb110722a10 off 28800 count 6 type 0 base 0 inst 1 size 262144 buf 0x600009994fc0 map 0 shadow 1 host 0 sysmem 0 placed 0 imported 0 pool 0
+
+OFFS GLYPH 0x7fb111f2b6f0 IMAGE img 0x7fb11208e600 mem 0x600001cc8580 view 0x7fb111f2b9a0 vkfmt 16 layout 8 storage 0 placed 1 sysmem 0 flags 0 usage 0x7 alloc 0 mtl 2 mips 1 layers 1 heap 0 sub 0 back 1 tbview 0
+OFFS GLYPH 0x7fb111f2bca0 IMAGE img 0x7fb11208f200 mem 0x600001cc8580 view 0x7fb111f2bf50 vkfmt 16 layout 8 storage 0 placed 1 sysmem 0 flags 0 usage 0x7 alloc 0 mtl 2 mips 1 layers 1 heap 0 sub 0 back 1 tbview 0
+OFFS GLYPH 0x7fb111f2f530 IMAGE img 0x7fb11208fe00 mem 0x600001cfdc00 view 0x7fb111f2c250 vkfmt 44 layout 8 storage 0 placed 1 sysmem 0 flags 0x8 usage 0x7 alloc 0 mtl 2 mips 1 layers 1 heap 0 sub 0 back 1 tbview 0
+OFFS GLYPH 0x7fb111f2f950 IMAGE img 0x7fb112090a00 mem 0x600001cfdd00 view 0x7fb111f2fc00 vkfmt 44 layout 8 storage 0 placed 1 sysmem 0 flags 0x8 usage 0x7 alloc 0 mtl 2 mips 1 layers 1 heap 0 sub 0 back 1 tbview 0
+OFFS GLYPH 0x7fb111a13450 IMAGE img 0x7fb0120ae600 mem 0x600001e95d80 view 0x7fb111a13700 vkfmt 44 layout 8 storage 0 placed 1 sysmem 0 flags 0x8 usage 0x7 alloc 0 mtl 2 mips 1 layers 1 heap 0 sub 0 back 1 tbview 0

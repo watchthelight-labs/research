@@ -1,0 +1,7 @@
+Camera:
+
+    Integrated Camera:
+
+      Model ID: UVC Camera VendorID_1266 ProductID_47166
+      Unique ID: 0x1470000004f2b83e
+

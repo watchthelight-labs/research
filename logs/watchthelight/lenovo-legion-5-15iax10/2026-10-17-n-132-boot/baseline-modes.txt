@@ -1,0 +1,39 @@
+baseline before 2.3.5-nvgfx.3 (N-131 kernel), 2026-10-17 22:13 EDT
+ 2560x1600  pixels  2560x1600  @165 1x    gui id 1
+ 2560x1600  pixels  2560x1600  @ 60 1x    gui id 65536
+ 2560x1600  pixels  2560x1600  @165 1x    gui id 65792
+ 1280x800   pixels  1280x800   @165 1x    gui id -2147479552
+  640x480   pixels   640x480   @165 1x    gui id -2147479545
+  800x600   pixels   800x600   @165 1x    gui id -2147479544
+  800x500   pixels   800x500   @165 1x    gui id -2147479543
+ 1024x768   pixels  1024x768   @165 1x    gui id -2147479542
+ 1024x640   pixels  1024x640   @165 1x    gui id -2147479541
+ 1280x960   pixels  1280x960   @165 1x    gui id -2147479539
+ 1344x1008  pixels  1344x1008  @165 1x    gui id -2147479538
+ 1344x840   pixels  1344x840   @165 1x    gui id -2147479537
+ 1600x1200  pixels  1600x1200  @165 1x    gui id -2147479534
+ 1600x1000  pixels  1600x1000  @165 1x    gui id -2147479533
+ 2048x1280  pixels  2048x1280  @165 1x    gui id -2147479530
+ 1280x800   pixels  1280x800   @ 60 1x    gui id -2147479528
+  640x480   pixels   640x480   @ 60 1x    gui id -2147479521
+  800x600   pixels   800x600   @ 60 1x    gui id -2147479520
+  800x500   pixels   800x500   @ 60 1x    gui id -2147479519
+ 1024x768   pixels  1024x768   @ 60 1x    gui id -2147479518
+ 1024x640   pixels  1024x640   @ 60 1x    gui id -2147479517
+ 1280x960   pixels  1280x960   @ 60 1x    gui id -2147479515
+ 1344x1008  pixels  1344x1008  @ 60 1x    gui id -2147479514
+ 1344x840   pixels  1344x840   @ 60 1x    gui id -2147479513
+ 1600x1200  pixels  1600x1200  @ 60 1x    gui id -2147479510
+ 1600x1000  pixels  1600x1000  @ 60 1x    gui id -2147479509
+ 2048x1280  pixels  2048x1280  @ 60 1x    gui id -2147479506
+current:  1280x800   pixels  2560x1600  @165 HiDPI gui id 1
+
+set 1600x1000 (1x) for 6 s:
+want:    1600x1000  pixels  1600x1000  @165 1x    gui id -2147479533
+switch: ok
+live:    1280x800   pixels  2560x1600  @165 HiDPI gui id 1
+result: bounced back
+revert: ok  1280x800   pixels  2560x1600  @165 HiDPI gui id 1
+
+set 2880x1800 --hidpi:
+no such mode

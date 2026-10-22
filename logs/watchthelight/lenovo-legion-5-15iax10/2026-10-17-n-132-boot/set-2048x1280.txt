@@ -1,0 +1,5 @@
+want:    2048x1280  pixels  2048x1280  @165 1x    gui id -2147479530
+switch: ok
+live:    2048x1280  pixels  2048x1280  @165 1x    gui id -2147479530
+result: stuck
+revert: ok  1280x800   pixels  2560x1600  @165 HiDPI gui id 1

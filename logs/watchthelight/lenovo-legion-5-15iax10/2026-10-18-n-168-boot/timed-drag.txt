@@ -1,0 +1,16 @@
++42s n168 flips/s=46 presents/s=46 load 13.31
++51s n168 flips/s=50 presents/s=50 load 15.28
++63s n168 flips/s=146 presents/s=146 load 13.70
++72s n168 flips/s=11 presents/s=11 load 12.13
++81s n168 flips/s=11 presents/s=12 load 13.10
++90s n168 flips/s=12 presents/s=12 load 12.21
++99s n168 flips/s=11 presents/s=11 load 10.71
++108s n168 flips/s=11 presents/s=11 load 9.44
++117s n168 flips/s=11 presents/s=11 load 8.22
++126s n168 flips/s=23 presents/s=23 load 7.48
++135s n168 flips/s=11 presents/s=11 load 7.12
++144s n168 flips/s=11 presents/s=11 load 6.26
++153s n168 flips/s=20 presents/s=20 load 5.77
++162s n168 flips/s=26 presents/s=26 load 5.26
++171s n168 flips/s=13 presents/s=13 load 4.84
++180s n168 flips/s=21 presents/s=22 load 4.78

@@ -1,0 +1,13 @@
+{
+ "attempt": "N-141",
+ "stage": "D",
+ "iface": "en1",
+ "boot_args": "mtkfe=native mtknativeif=1",
+ "ssid": "SSID-1",
+ "auto_reboots": 1,
+ "repo_head": "bbf1925d",
+ "staged_at": "2026-10-18 01:44:34 EDT",
+ "started_boot": 1792302707,
+ "result": "stuck",
+ "reason": "rollback boot failed too: no SSID reported on en1 (lease IP-9, gateway ok)"
+}

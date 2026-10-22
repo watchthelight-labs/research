@@ -1,0 +1,6 @@
+Sink support: PSR = yes [0x03], Panel Replay = no, Panel Replay Selective Update = no (Early Transport)
+PSR mode: PSR1 enabled
+Source PSR/PanelReplay ctl: enabled [0x81f00ee6]
+Source PSR/PanelReplay status: IDLE [0x04020001]
+Busy frontbuffer bits: 0x00000000
+Performance counter: 10

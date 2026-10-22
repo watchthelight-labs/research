@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz rdinit=/init quiet loglevel=3 efi=debug console=tty0 consoleblank=0 snd_intel_dspcfg.dsp_driver=1 p1401.mode=shell pcie_port_pm=off modprobe.blacklist=nouveau,nvidia,nvidia_drm,nvidia_modeset,nvidia_uvm

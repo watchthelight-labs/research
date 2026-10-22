@@ -1,0 +1,2 @@
+/sys/class/drm/card1/device/driver -> ../../../bus/pci/drivers/i915
+/sys/bus/pci/devices/0000:00:02.0/driver -> ../../../bus/pci/drivers/i915

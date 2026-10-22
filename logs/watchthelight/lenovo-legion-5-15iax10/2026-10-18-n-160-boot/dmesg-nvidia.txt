@@ -1,0 +1,30 @@
+[  159.975166]: process_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  159.990067]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+so_gencnt: 5853 so_state: 0x0102 process: nsurlsessiond:640 bytes in/out: 0/0 pkts in/out: 0/0 error: 0 so_error: 0 svc/tc: 100 flow: 0xbfc707afNVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  160.223818]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  160.781881]: NVAccel: newResource -> <ptr>
+[  160.781889]: NVAccel: newResource -> <ptr>
+[  160.781895]: NVAccel: newSysMemory -> <ptr>
+[  160.781896]: NVAccel: newSysMemory -> <ptr>
+[  160.781900]: NVAccel: newVidMemory -> <ptr>
+[  160.781901]: NVAccel: newVidMemory -> <ptr>
+[  160.782224]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc0c000000 kva <ptr> [BAR1 255066112]
+[  160.782226]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 1048576 bytes of REAL VRAM -- phys 0x3fc0c000000 kva <ptr> [BAR1 255066112]
+[  160.872963]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  160.872969]: NVAccel: newUserClient(0x4e560000) -> IOAccelNVRMBridge on the ACCELERATOR (rm type 0)
+[  162.253580]: Sandbox: imagent(668) deny(1) mach-lookup com.apple.contactsd.persistenceNVRM-fb: cursor apply 2000: ok 1 rc 0 at 1762,414 visible 1
+[  162.682482]: NVRM-fb: cursor apply 2000: ok 1 rc 0 at 1762,414 visible 1
+[  164.911572]: NVRM-fb: present stats head 0: 776 flips in 10042 ms (77/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6379 us
+[  164.911581]: NVRM-fb: present stats head 0: 776 flips in 10042 ms (77/s, panel 165 Hz), 0 not on the panel within a refresh period and a quarter, 0 presents skipped for a flip still pending, longest completion wait 6379 us
+[  167.380716]: priorityCalculationInputs en1 isWiFiInterface:01 duplicate report for Sandbox: imagent(668) deny(1) file-map-executable /System/Library/Address Book Plug-Ins/DirectoryServices.sourcebundle/Contents/MacOS/DirectoryServicesSandbox: dasd(150) deny(1) iokit-get-properties iokit-class:AppleSmartBattery property:SkipperNEIgnoreAtCriticalSandbox: imagent(668) deny(1) mach-lookup com.apple.system.opendirectoryd.apiNVRM-fb: cursor apply 3000: ok 1 rc 0 at 1652,414 visible 1
+[  167.635484]: NVRM-fb: cursor apply 3000: ok 1 rc 0 at 1652,414 visible 1
+[  169.223669]: NVAccel: newResource -> <ptr>
+[  169.223676]: NVAccel: newResource -> <ptr>
+[  169.223684]: NVAccel: newSysMemory -> <ptr>
+[  169.223684]: NVAccel: newSysMemory -> <ptr>
+[  169.223690]: NVAccel: newVidMemory -> <ptr>
+[  169.223691]: NVAccel: newVidMemory -> <ptr>
+[  169.223951]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 262144 bytes of REAL VRAM -- phys 0x3fc0b370000 kva <ptr> [BAR1 241172480]
+[  169.223954]: NVAccel: NVVidMemory::allocPhysical(<ptr>): 262144 bytes of REAL VRAM -- phys 0x3fc0b370000 kva <ptr> [BAR1 241172480]
+[  173.407502]: NVRM-fb: cursor apply 4000: ok 1 rc 0 at 2042,414 visible 1
+[  173.407510]: NVRM-fb: cursor apply 4000: ok 1 rc 0 at 2042,414 visible 1
