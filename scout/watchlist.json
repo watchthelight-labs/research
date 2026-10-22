@@ -148,6 +148,16 @@
       "commits",
       "issues"
      ]
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "iivn1026/ASUSTXGaming6ProSequoiaEFI"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "wsjj-official/EFI-2025Y9000P"
     }
    ],
    "title": "Arrow Lake I2C touchpad (LegionI2CArrowLake)"
@@ -306,6 +316,16 @@
      "credited": true,
      "relation": "same-problem",
      "repo": "Ammarrrrrrr/legion-pro5-hackintosh"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "saspol/UltraWake"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "johnfanv2/LenovoLegionLinux"
     }
    ],
    "title": "Legion 5 15IAX10 OpenCore EFI"
@@ -362,6 +382,16 @@
       "releases",
       "commits"
      ]
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "BelikPePe-UA/legion5-15irx10-hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "Game-5040/hackintosh-hp-8f06-macos26"
     }
    ],
    "title": "MT7925 Bluetooth (MtkBt + LegionBtFix)"
@@ -437,6 +467,16 @@
      "watch": [
       "commits"
      ]
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "hbyonly1/itlmt7922-wifi"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "BelikPePe-UA/legion5-15irx10-hackintosh"
     }
    ],
    "title": "MT7925 Wi-Fi driver (MtkWlan)"
@@ -485,6 +525,11 @@
       "releases",
       "commits"
      ]
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "f0xeri/qwz-macos"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
@@ -572,6 +617,16 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "Jakiewbe/honor-hackintosh-lab"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "Game-5040/hackintosh-hp-8f06-macos26"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "BelikPePe-UA/legion5-15irx10-hackintosh"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
