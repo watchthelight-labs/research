@@ -292,7 +292,7 @@
     {
      "credited": true,
      "relation": "built-on",
-     "repo": "1Revenger1/ECEnabler",
+     "repo": "averycblack/ECEnabler",
      "watch": [
       "releases"
      ]
@@ -336,6 +336,11 @@
      "credited": true,
      "relation": "studied",
      "repo": "johnfanv2/LenovoLegionLinux"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "JungyoKim/Y540-17IRH-TAHOE"
     }
    ],
    "title": "Legion 5 15IAX10 OpenCore EFI"
@@ -402,6 +407,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "Game-5040/hackintosh-hp-8f06-macos26"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "flxxxxddd/SimpleMtkBtFw"
     }
    ],
    "title": "MT7925 Bluetooth (MtkBt + LegionBtFix)"
@@ -487,6 +497,26 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "BelikPePe-UA/legion5-15irx10-hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "yusufcanyavic/YYavicWiFi"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "lincyppq/AirportMtkWlan-RZ616"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "eiyuumiru/SimpleMtkWlan"
+    },
+    {
+     "credited": false,
+     "relation": "uses-ours",
+     "repo": "Game-5040/hackintosh-hp-8f06-macos26"
     }
    ],
    "title": "MT7925 Wi-Fi driver (MtkWlan)"
@@ -540,6 +570,21 @@
      "credited": true,
      "relation": "same-problem",
      "repo": "f0xeri/qwz-macos"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "Dino-VN/SimpleMtkWlan"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "Youtubefan01/airportitlwmtahoe"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "kgp-macPro/AirportItlwm-Tahoe"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
@@ -606,7 +651,7 @@
      "repo": "nullmoth/1401-probe"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "same-problem",
      "repo": "thanhnndev/nvidia-macos-driver"
     },
@@ -642,6 +687,16 @@
      "credited": false,
      "relation": "parallel",
      "repo": "mickys/kvm-tahoe-nvidia"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "mickys/nvidia-macos-driver"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "jixx-choi/Razer-Blade-18-2024-Hackintosh"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
@@ -793,6 +848,21 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "pongpan-bk/First-Custom-iGPU-Driver-for-Intel-Core-5-120U-on-macOS"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "samranahmad09/WhateverXe-RaptorLakeP"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "WilliamAlexanda/macOS-for-RedmiBook-Pro-15-2021"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "kumibrr/oc-tahoe-pavilionplus14-ew0000"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"
