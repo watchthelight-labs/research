@@ -517,6 +517,11 @@
      "credited": false,
      "relation": "uses-ours",
      "repo": "Game-5040/hackintosh-hp-8f06-macos26"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "Royiii3/r9000p-adr10-hackintosh-notes"
     }
    ],
    "title": "MT7925 Wi-Fi driver (MtkWlan)"
@@ -585,6 +590,16 @@
      "credited": false,
      "relation": "studied",
      "repo": "kgp-macPro/AirportItlwm-Tahoe"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "HuajiFruit/AirportBZ"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "ofonsecavictor/aic-8800d80-macos"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
@@ -697,6 +712,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "jixx-choi/Razer-Blade-18-2024-Hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "MegaMind2566/Lenovo-IdeaPad-S540-15IWL-GTX-OSX86"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"

@@ -2,7 +2,7 @@ boot Tue Oct 20 23:14:31 UTC 2026
 ProductName:		macOS
 ProductVersion:		26.7.1
 BuildVersion:		25G241
-Darwin HOST-7.local 25.6.0 Darwin Kernel Version 25.6.0: Tue Aug 18 17:46:40 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_X86_64 x86_64
+Darwin HOST-1111.local 25.6.0 Darwin Kernel Version 25.6.0: Tue Aug 18 17:46:40 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_X86_64 x86_64
 -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm,cpuname revcpu=1 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvaccelnoheadless alcid=18 nvrmacpibl=1 nvrmphysctl=1 nvrmnvpcf=1 nvrmtgp=1 nvfbhidpi=1 nvrmdiag=1 mtkfe=native mtknativeif=1 
 System Integrity Protection status: unknown (Custom Configuration).
 
