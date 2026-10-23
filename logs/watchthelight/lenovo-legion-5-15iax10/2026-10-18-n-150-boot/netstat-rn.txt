@@ -4,10 +4,10 @@ Internet:
 Destination        Gateway            Flags               Netif Expire
 default            IP-6        UGScg                 en1       
 100.70/16          link#7             UCS                   en1      !
-IP-62        0:50:56:10:2a:20   UHLWIi                en1   1196
+IP-62        MAC-8   UHLWIi                en1   1196
 IP-6/32     link#7             UCS                   en1      !
-IP-6        0:50:56:10:1a:30   UHLWIir               en1   1193
-IP-55        0:50:56:10:1a:30   UHLWI                 en1   1200
+IP-6        MAC-4   UHLWIir               en1   1193
+IP-55        MAC-4   UHLWI                 en1   1200
 IP-185/32   link#7             UCS                   en1      !
 IP-5     ff:ff:ff:ff:ff:ff  UHLWbI                en1      !
 127                127.0.0.1          UCS                   lo0       

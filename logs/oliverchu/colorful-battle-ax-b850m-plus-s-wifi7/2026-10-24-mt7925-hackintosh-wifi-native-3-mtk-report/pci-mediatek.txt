@@ -1,0 +1,9 @@
+        |     |   "vendor-id" = <c3140000>
+        |     |   "subsystem-vendor-id" = <c3140000>
+        |     |   "IOName" = "pci14c3,717"
+        |     |   "pcidebug" = "11:0:0"
+        |     |   "IOPCIExpressLinkStatus" = 4114
+        |     |   "name" = <"pci14c3,717">
+        |     |   "subsystem-id" = <17070000>
+        |     |   "device-id" = <17070000>
+        |     |   "revision-id" = <00000000>

@@ -2,7 +2,7 @@
  "collected": "2026-10-16",
  "component": "native",
  "files": {
-  "00-info.txt": "223099ff4f0ec3991591f9daf5709d515147e90550d8fccbe304e473ccaadb1a",
+  "00-info.txt": "4f140b5ea45c5bdd7978a7c799f140142264515338b79c0614be3ca44961d67e",
   "dmesg-nv.txt": "97ef14648c02477fa930393dc012ee92250c04a050b4919282d77bb72240eddd",
   "log-nv-bar1-refusals.txt": "3a6c00d23c5169c0667c7ee6c53a3fbbe8817343dadcb7ce9c173bf52514eff9",
   "opencore-2026-10-16-112338.txt": "f71cf4182c6a0d0e2247835852d5db4f1982ceab495c85cecbeb3b97cfbe23bf",

@@ -1,0 +1,1 @@
+7 MAC addresses and 137 SSIDs replaced by placeholders (same placeholder for the same value throughout).

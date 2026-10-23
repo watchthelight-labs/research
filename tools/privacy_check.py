@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from redact import PLACEHOLDER, leftovers, load_map, redact, save_map  # noqa: E402
+from redact import PLACEHOLDER, PUBLIC_VALUES, TOKEN_SHAPE,leftovers, load_map, redact, save_map  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SKIP_DIRS = {".git", "tests", "__pycache__"}
@@ -72,7 +72,7 @@ def main():
     values = []
     if mapping:
         values = sorted({v.lower() for m in mapping["machines"].values() for t in m.values() for v in t
-                         if len(v) >= 4 and not PLACEHOLDER.match(v)})
+                         if len(v) >= 4 and not PLACEHOLDER.match(v) and v.lower() not in PUBLIC_VALUES and not TOKEN_SHAPE.match(v)})
     bad, n = [], 0
     for p in files():
         try:

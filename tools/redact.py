@@ -17,7 +17,13 @@ import re
 import sys
 from pathlib import Path
 
-VERSION = "1"
+VERSION = "2"
+
+# Map values that are also published defaults, so they appear in every user's logs: MtkWlan's shipped
+# MtkAutoOpenSsids list (Info.plist, README). They stay tokens in our own logs but do not block anyone else's.
+PUBLIC_VALUES = {"boingo 5ghz", "boingo"}
+# our own tokens; an old run stored a few of them as values, and they must not block a log that uses the same token
+TOKEN_SHAPE = re.compile(r"(?i)^(?:SERIAL|MLB|ROM|UUID|SSID|MAC|HOST|IP|EMAIL|USER)-\d+$")
 
 # Public constants that look like identifiers but identify nobody: EFI variable GUIDs OpenCore and Apple
 # use, GPT partition types, all-zero/broadcast values, loopback and unspecified addresses.
@@ -44,6 +50,10 @@ ALLOW = {
 HEX = r"[0-9A-Fa-f]"
 UUID_RE = re.compile(rf"\b{HEX}{{8}}-{HEX}{{4}}-{HEX}{{4}}-{HEX}{{4}}-{HEX}{{12}}\b")
 MAC_RE = re.compile(rf"(?<![0-9A-Fa-f:-]){HEX}{{2}}([:-]){HEX}{{2}}(?:\1{HEX}{{2}}){{4}}(?![0-9A-Fa-f:-])")
+# netstat drops the leading zero of each MAC octet ("0c" prints as "c"); the short form needs one such octet
+MAC_SHORT_RE = re.compile(rf"(?<![\w:.-])((?:{HEX}{{1,2}}:){{5}}{HEX}{{1,2}})(?![\w:])")
+# Bonjour host names ending in .local (uname prints one); service names start with "_" and are left alone
+LOCAL_HOST_RE = re.compile(r"(?<![\w.-])([A-Za-z0-9][A-Za-z0-9-]{1,62})\.local\b")
 # a full stop right after an address ends a sentence; only a digit (or ".digit") means it is part of a longer number
 IPV4_RE = re.compile(r"(?<!\d)(?<!\d\.)((?:25[0-5]|2[0-4]\d|1?\d?\d)(?:\.(?:25[0-5]|2[0-4]\d|1?\d?\d)){3})(?!\d|\.\d)")
 # IPv6 candidates; _is_ipv6 then keeps only "::" forms or the full eight groups, so clock times (12:34:56)
@@ -88,7 +98,8 @@ SECRETS = [
     (re.compile(r"\bgh[pousr]_[A-Za-z0-9]{20,}"), "GitHub token"),
     (re.compile(r"\b(?:xox[bpa]-[A-Za-z0-9-]{10,}|sk-[A-Za-z0-9]{20,})"), "API token"),
     (re.compile(r"\b[MN][A-Za-z\d]{23,25}\.[\w-]{6}\.[\w-]{27,38}\b"), "Discord token"),
-    (re.compile(r"(?i)\b(?:passphrase|password|psk|pmk)\b\s*[:=]\s*\S{6,}"), "credential"),
+    # an Objective-C selector ("associateToWiFiNetwork:password:is8021X:") names a parameter, it holds no value
+    (re.compile(r"(?i)\b(?:passphrase|password|psk|pmk)\b\s*[:=]\s*(?![A-Za-z]\w*:)\S{6,}"), "credential"),
 ]
 
 
@@ -153,6 +164,17 @@ def _pattern(text: str, regex, kind: str, tok: Tokens, hits: dict, group: int = 
     return regex.sub(sub, text)
 
 
+def _short_mac(m, tok: Tokens, hits: dict) -> str:
+    v = m.group(1)
+    if all(len(g) == 2 for g in v.split(":")):
+        return v
+    full = ":".join(g.zfill(2) for g in v.split(":"))
+    if full.upper() in ALLOW:
+        return v
+    hits["MAC"] = hits.get("MAC", 0) + 1
+    return tok.get("MAC", full.lower())
+
+
 def _ssid_blocks(text: str, tok: Tokens, hits: dict) -> str:
     # system_profiler SPAirPortDataType lists networks as an indented "<name>:" line under
     # "Current Network Information:" and "Other Local Wi-Fi Networks:"
@@ -184,6 +206,8 @@ def redact(text: str, machine: str, mapping: dict):
     text = _ssid_blocks(text, tok, hits)
     text = _pattern(text, UUID_RE, "UUID", tok, hits)
     text = _pattern(text, MAC_RE, "MAC", tok, hits)
+    text = MAC_SHORT_RE.sub(lambda m: _short_mac(m, tok, hits), text)
+    text = _pattern(text, LOCAL_HOST_RE, "HOST", tok, hits, 1)
     text = _pattern(text, IPV6_RE, "IP", tok, hits, 1)
     text = _pattern(text, IPV4_PORT_RE, "IP", tok, hits, 1)
     text = _pattern(text, IPV4_RE, "IP", tok, hits, 1)
@@ -210,6 +234,11 @@ def leftovers(text: str, mapping: dict = None):
         for m in MAC_RE.finditer(line):
             if m.group(0).upper().replace("-", ":") not in ALLOW:
                 problems.append(f"line {n}: MAC address")
+        for m in MAC_SHORT_RE.finditer(line):
+            if not all(len(g) == 2 for g in m.group(1).split(":")):
+                problems.append(f"line {n}: MAC address (short form)")
+        if LOCAL_HOST_RE.search(line) and not re.search(r"HOST-\d+\.local", line):
+            problems.append(f"line {n}: .local host name")
         # a serial key ("IOPlatformSerialNumber", "Serial Number (system)", "MLB") followed by a serial-shaped value;
         # "serial" must end the word, so ioreg's "not serializable" next to an address is not a hit
         if re.search(r"(?i)\b(?:\w*serial(?:[ _-]?(?:number|no))?(?: \(system\))?|MLB|BoardSerial)\b\"?\s*[:=]\s*\"?"
@@ -220,6 +249,8 @@ def leftovers(text: str, mapping: dict = None):
         for machine in mapping.get("machines", {}).values():
             for table in machine.values():
                 for value in table:
+                    if value.lower() in PUBLIC_VALUES or TOKEN_SHAPE.match(value):
+                        continue
                     if len(value) >= 4 and not PLACEHOLDER.match(value) and value.lower() in low:
                         problems.append("a value from the private map is still present")
                         break

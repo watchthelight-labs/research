@@ -9,7 +9,7 @@
   "ioreg-mtkwlan-props.txt": "5568ec89fc782fecfcf190d64e9cba56cec52357bdd60faa0e6288a15f75f47b",
   "ioreg-mtkwlannative-props.txt": "3d18b0b1c5ff2bea74c73876f7f8dffc1caa4b36df8911c496be429fb70f5564",
   "kextstat.txt": "fb4ac62f11c1f78af6edbcf70fdbaa8d8075618ad846f80d0ee2052634329eea",
-  "netstat-rn.txt": "07a436046c9a8175a4900ca9ddaa2cdd1a332c4fc8764fcea8e3b1a42cb518e5",
+  "netstat-rn.txt": "5e6b695c16a5de42e80f88eaea69bdb9d87505d3fd05397cdaef30132a3613e1",
   "pcap-summary.txt": "4cc057ad396434291c94a0709e0a2d5142929584b7899cc22b782b5665b88e44"
  },
  "kexts": {},

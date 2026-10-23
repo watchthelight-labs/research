@@ -10,6 +10,16 @@
   "model": "ASUS TUF Gaming B850-Plus WiFi",
   "username": "ikurina"
  },
+ "oliverchu/colorful-battle-ax-b850m-plus-s-wifi7": {
+  "first_seen": "2026-10-23",
+  "last_seen": "2026-10-23",
+  "machine": "colorful-battle-ax-b850m-plus-s-wifi7",
+  "macos_builds": [
+   "25G241"
+  ],
+  "model": "COLORFUL BATTLE-AX B850M-PLUS S WIFI7",
+  "username": "oliverchu"
+ },
  "watchthelight/lenovo-legion-5-15iax10": {
   "chips": "MediaTek MT7925",
   "cpu": "Intel Core Ultra 9 275HX (Arrow Lake-HX)",
