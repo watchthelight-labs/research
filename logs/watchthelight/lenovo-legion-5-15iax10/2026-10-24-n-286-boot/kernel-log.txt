@@ -1,0 +1,11 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-24 10:25:42.191 Df kernel[0:8e9] (XeGfxIntelFB) XeGfxIntelFB: boot guard: start 1 without WindowServer so far (off after 2)
+2026-10-24 10:25:42.192 Df kernel[0:960] (IOPCIFamily) [PCIe:0 8662324911 ns] [childPublished()] child XeGfxIntelFramebuffer(0x1000005ff) published
+2026-10-24 10:27:42.773 Df kernel[0:204] (XeGfxIntelFB) XeGfxIntelFB: boot guard cleared: still up 120 s after start
+2026-10-24 10:34:03.938 Df kernel[0:8d0] (XeGfxIntelFB) XeGfxIntelFB: boot guard: start 1 without WindowServer so far (off after 2)
+2026-10-24 10:34:03.938 Df kernel[0:947] (IOPCIFamily) [PCIe:0 8330054569 ns] [childPublished()] child XeGfxIntelFramebuffer(0x100000612) published
+2026-10-24 10:35:10.526 Df kernel[0:1d3b] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 10:35:18.024 Df kernel[0:2857] (XeGfx) XeGfx: ran 57 sysinit_set entries
+2026-10-24 10:35:18.124 Df kernel[0:2857] (XeGfx) XeGfx: boot surface GGTT 0xff000000 + 16384000 reserved: -28
+2026-10-24 10:35:25.272 Df kernel[0:2930] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
+2026-10-24 10:35:25.272 Df kernel[0:2930] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1

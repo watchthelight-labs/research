@@ -1,0 +1,12 @@
+{
+ "id": "N-286",
+ "result": "crash",
+ "stage": 7,
+ "reason": "machine went down during stage 7",
+ "panics": [
+  "/Library/Logs/DiagnosticReports/Kernel-2026-10-24-110447.panic"
+ ],
+ "nvram_step": "s0 p70  0x42) inst 366 pid 625 -> errno 2|xegfx: ioctl 0xc0186475 (nr 0x75) inst 366 pid 625 -> errno 1|xegfx: ioctl 0xc0106446 (nr 0x46) inst 366 pid 625 -> errno 19|xegfx: ioctl 0xc0106446 (nr 0x46) inst 366 pid 625 -> errno 19|xegfx: ioctl 0xc0186473 (nr 0x73) inst 392 pid 775 -> errno 22|xegfx: ioctl 0xc0106446 (nr 0x46) inst 392 pid 775 -> errno 19|xegfx: ioctl 0x80104e42 (nr 0x42) inst 392 pid 775 -> errno 2|xegfx: ioctl 0xc0186475 (nr 0x75) inst 392 pid 775 -> errno 1|xegfx: ioctl 0xc0106446 (nr 0x46) inst 392 pid 775 -> errno 19|xegfx: ioctl 0xc0106446 (nr 0x46) inst 392 pid 775 -> errno 19|",
+ "ws_fails_in_a_row": 1,
+ "nvram_accel": "spin 5563 us/0 copies 0 pipe 4/4026/4026/4026 iop4 4026 vm 4"
+}

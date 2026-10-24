@@ -1,0 +1,37 @@
+panic(cpu 1 caller 0xffffff801258f18d): thread_invoke: preemption_level 1, possible cause: blocking while holding a spinlock, or within interrupt context @sched_prim.c:3033
+Panicked task 0xffffff90882029a0: 10 threads: pid 1944: WindowServer
+Backtrace (CPU 1), panicked thread: 0xffffff9087ca3fd8, Frame : Return Address
+0xffffffc9a8fe81b0 : 0xffffff8012558d71 mach_kernel : _handle_debugger_trap + 0x421
+0xffffffc9a8fe8200 : 0xffffff80126e5982 mach_kernel : _kdp_i386_trap + 0x122
+0xffffffc9a8fe8240 : 0xffffff80126d4c38 mach_kernel : _kernel_trap + 0x778
+0xffffffc9a8fe8300 : 0xffffff80124eb971 mach_kernel : _return_from_trap + 0xc1
+0xffffffc9a8fe8320 : 0xffffff8012559147 mach_kernel : _DebuggerTrapWithState + 0x67
+0xffffffc9a8fe8420 : 0xffffff80125587d9 mach_kernel : _panic_trap_to_debugger + 0x269
+0xffffffc9a8fe8590 : 0xffffff8012da1ced mach_kernel : _panic + 0x81
+0xffffffc9a8fe8680 : 0xffffff801258f18d mach_kernel : _thread_block_reason + 0x1c7d
+0xffffffc9a8fe86f0 : 0xffffff801258d600 mach_kernel : _thread_block_reason + 0xf0
+0xffffffc9a8fe8740 : 0xffffff7faa094d74 org.watchthelight.XeGfx : ___rw_rlock + 0xf4
+0xffffffc9a8fe8790 : 0xffffff7faa1353f5 org.watchthelight.XeGfx : _xg_map_ioctl + 0x145
+0xffffffc9a8fe87f0 : 0xffffff7faa0914f5 org.watchthelight.XeGfx : _xg_fd_dev_ioctl + 0x105
+0xffffffc9a8fe8830 : 0xffffff7faa238000 org.watchthelight.XeGfx : _xg_fd_remote_ioctl + 0x150
+0xffffffc9a8fe89a0 : 0xffffff7faa238d5c org.watchthelight.XeGfx : __ZN13XeGfxResident20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3_ + 0x5c
+0xffffffc9a8fe89f0 : 0xffffff7faa5c22b5 org.watchthelight.XeGfxAccel : __ZN21IOAccelXeGfxDRMClient14externalMethodEjP25IOExternalMethodArgumentsP24IOExternalMethodDispatchP8OSObjectPv + 0xa5
+0xffffffc9a8fe8a20 : 0xffffff8012d0b279 mach_kernel : __ZN12IOUserClient18callExternalMethodEjP25IOExternalMethodArguments + 0x89
+0xffffffc9a8fe8a50 : 0xffffff8012d0b5dd mach_kernel : _is_io_connect_method + 0x31d
+0xffffffc9a8fe8bc0 : 0xffffff8012687377 mach_kernel : _iokit_server_routine + 0x4547
+0xffffffc9a8fe8ce0 : 0xffffff8012533a9e mach_kernel : _ipc_kmsg_send + 0x6ee
+0xffffffc9a8fe8d90 : 0xffffff8012547a87 mach_kernel : _mach_msg_overwrite_trap + 0x5f7
+0xffffffc9a8fe8de0 : 0xffffff801254824f mach_kernel : _mach_msg2_trap + 0x45f
+0xffffffc9a8fe8ee0 : 0xffffff80126b9284 mach_kernel : _mach_call_munger64 + 0x234
+0xffffffc9a8fe8fa0 : 0xffffff80124ebdd6 mach_kernel : _hndl_mach_scall64 + 0x16
+      Kernel Extensions in backtrace:
+         org.watchthelight.XeGfx(0.0.39)[UUID-604]@0xffffff7fa9ff7000->0xffffff7faa30efff
+            dependency: com.apple.driver.AppleACPIPlatform(6.1)[UUID-423]@0xffffff8013671000->0xffffff80136e8fff
+            dependency: com.apple.iokit.IOPCIFamily(2.9)[UUID-367]@0xffffff8014be5000->0xffffff8014c38fff
+         org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7faa5b7000->0xffffff7faa5cafff
+            dependency: com.apple.iokit.IOAcceleratorFamily2(487.4.4)[UUID-301]@0xffffff7fa7a4b000->0xffffff7fa7ab4fff
+            dependency: com.apple.iokit.IOGraphicsFamily(600)[UUID-330]@0xffffff7fa7bca000->0xffffff7fa7bf8fff
+            dependency: com.apple.iokit.IOPCIFamily(2.9)[UUID-367]@0xffffff8014be5000->0xffffff8014c38fff
+            dependency: com.apple.iokit.IOSurface(393.5.8)[UUID-309]@0xffffff8014d80000->0xffffff8014dacfff
+
+Process name corresponding to current thread (0xffffff9087ca3fd8): WindowServer
