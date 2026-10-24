@@ -1,0 +1,17 @@
++-o XeGfxResident  <class XeGfxResident, id 0x1000008e1, registered, matched, active, busy 0 (0 ms), retain 7>
+    {
+      "IOClass" = "XeGfxResident"
+      "CFBundleIdentifier" = "org.watchthelight.XeGfx"
+      "IOProviderClass" = "IOResources"
+      "XeGfxGt" = {"wedged"=0,"guc-fw-status"=10,"render-minor"=128,"result"=1,"huc-fw-status"=18446744073709551615,"gts"=1,"guc-version"=4601088,"guc-submission"=1,"engines"=3,"gsc-fw-status"=18446744073709551615}
+      "XeGfxExec" = {"result"=1,"rcs0-ns"=699566,"bcs0-err"=0,"ccs0-ns"=218275,"bcs0-ns"=193503,"irqs"=3,"ccs0-err"=0,"engines"=3,"done"=3,"rcs0-err"=0}
+      "IOResourceMatch" = "XeGfxArm"
+      "IOProbeScore" = 0
+      "XeGfxStore" = {"ccs0-got"=1483145732,"bcs0-err"=0,"ok"=3,"rcs0-got"=1483145216,"result"=1,"bcs0-got"=1483145473,"ccs0-err"=0,"engines"=3,"rcs0-err"=0}
+      "IOMatchCategory" = "XeGfxArmed"
+      "IOPersonalityPublisher" = "org.watchthelight.XeGfx"
+      "XeGfxProbe" = {"plane-surf-1-a"=18446744073692774400,"pipe-a-lit"=1,"pipe-frmcount-a"=14419,"tco-ctl"=256,"tco2-sts"=0,"bar2-size"=268435456,"tco1-cnt"=6144,"gmd-id-graphics"=51478532,"tco2-cnt"=8,"revision"=6,"subsystem"=1043863466,"bar0-base"=412719513600,"boot-fb-size"=16384000,"transconf-a"=18446744072635809792,"bar2-base"=412316860416,"dsm-base-lo"=1887436800,"device-id"=32103,"plane-size-1-a"=104794623,"ggtt-pte-surf"=8388611,"tco-base"=36352,"tco-rld"=3,"dsm-base-hi"=0,"tco-tmr"=4,"command"=7,"ggc"=1216,"gmd-id-display"=58720268,"pcode-stolen-access"=1,"plane-stride-1-a"=160,"tco1-sts"=0,"result"=1,"plane-ctl-1-a"=18446744071629176840,"bar0-size"=16777216}
+      "CFBundleIdentifierKernel" = "org.watchthelight.XeGfx"
+      "XeGfxStage" = 7
+      "XeGfxPost" = {"ggtt-pte-surf"=8388611,"result"=1,"frmcount-delta"=17,"plane-surf-1-a"=18446744073692774400}
+    }

@@ -1,0 +1,16 @@
+Timeout, server IP-209 not responding.
+10:14:00 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+10:14:02 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+10:14:04 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+10:14:06 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+10:14:07 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+10:14:08 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+10:14:10 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+10:14:12 stream ended, rc 141 255

@@ -1,0 +1,140 @@
+xegfx: vm: vmap selftest 0
+xegfx: iGPU 8086:7d67 stolen base 0x0 size 0 MiB (unused: i915 reads GGC/LMEMBAR on this IP)
+xegfx: no IOMMU, DMA addresses are physical
+xegfx: newbus root0 state 30 driver root
+xegfx: newbus   pcib0 state 30 driver pcib
+xegfx: newbus     pci0 state 30 driver pci
+xegfx: newbus       hostb0 state 30 driver hostb pci 8086:7d1c class 060000
+xegfx: newbus       vgapci0 state 30 driver vgapci pci 8086:7d67 class 030000
+xegfx: newbus         drmn0 state 10 driver -
+xegfx: newbus       ? state 10 driver - pci 8086:ae10 class 060100
+xegfx: devclass root:
+xegfx: devclass pcib:
+xegfx: devclass pci:
+xegfx: devclass hostb:
+xegfx: devclass vgapci:
+xegfx: devclass drmn:
+<6>[drm] Got Intel graphics stolen memory base 0x0, size 0x0
+drmn0: [drm] xegfx: display left alone (compat.linuxkpi.i915_xegfx_no_display)
+drmn0: [drm] Skipping GT1 (Standalone Media GT) - MEI driver not available on FreeBSD
+drmn0: [drm] xegfx: stolen allocator starts at 0xfa0000, after the boot framebuffer
+drmn0: successfully loaded firmware image 'i915/mtl_guc_70.bin'
+drmn0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+drmn0: [drm] GT0: GUC: submission enabled
+drmn0: [drm] GT0: GUC: SLPC enabled
+drmn0: [drm] GT0: GUC: RC enabled
+<6>[drm] Initialized i915 1.6.0 for drmn0 on minor 0
+XeGfx: ran 57 sysinit_set entries
+xegfx: newbus root0 state 30 driver root
+xegfx: newbus   pcib0 state 30 driver pcib
+xegfx: newbus     pci0 state 30 driver pci
+xegfx: newbus       hostb0 state 30 driver hostb pci 8086:7d1c class 060000
+xegfx: newbus       vgapci0 state 30 driver vgapci pci 8086:7d67 class 030000
+xegfx: newbus         drmn0 state 30 driver drmn
+xegfx: newbus           drm128 state 10 driver -
+xegfx: newbus           drm0 state 10 driver -
+xegfx: newbus       ? state 10 driver - pci 8086:ae10 class 060100
+xegfx: devclass root:
+xegfx: devclass pcib:
+xegfx: devclass pci:
+xegfx: devclass hostb:
+xegfx: devclass vgapci: drmn
+xegfx: devclass drmn:
+xegfx: devclass misc:
+xegfx: devclass drm:
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 14 pid 210 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 14 pid 210 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 14 pid 210 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 14 pid 210 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 14 pid 210 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 14 pid 210 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 41 pid 783 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 41 pid 783 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 41 pid 783 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 41 pid 783 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 41 pid 783 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 41 pid 783 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 65 pid 777 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 65 pid 777 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 65 pid 777 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 65 pid 777 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 65 pid 777 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 65 pid 777 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 89 pid 215 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 89 pid 215 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 89 pid 215 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 89 pid 215 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 89 pid 215 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 89 pid 215 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 113 pid 873 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 113 pid 873 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 113 pid 873 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 113 pid 873 -> errno 1
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 138 pid 661 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 138 pid 661 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 138 pid 661 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 138 pid 661 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 113 pid 873 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 113 pid 873 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 138 pid 661 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 138 pid 661 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 167 pid 810 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 167 pid 810 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 167 pid 810 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 167 pid 810 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 167 pid 810 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 167 pid 810 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 200 pid 753 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 200 pid 753 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 200 pid 753 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 200 pid 753 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 200 pid 753 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 200 pid 753 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 224 pid 760 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 224 pid 760 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 224 pid 760 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 224 pid 760 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 224 pid 760 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 224 pid 760 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 255 pid 627 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 255 pid 627 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 255 pid 627 -> errno 2
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 260 pid 754 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 260 pid 754 -> errno 19
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 255 pid 627 -> errno 1
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 260 pid 754 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 260 pid 754 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 260 pid 754 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 260 pid 754 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 255 pid 627 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 255 pid 627 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 296 pid 623 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 296 pid 623 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 296 pid 623 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 296 pid 623 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 296 pid 623 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 296 pid 623 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 320 pid 622 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 320 pid 622 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 320 pid 622 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 320 pid 622 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 320 pid 622 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 320 pid 622 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 344 pid 778 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 344 pid 778 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 344 pid 778 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 344 pid 778 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 344 pid 778 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 344 pid 778 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 368 pid 621 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 368 pid 621 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 368 pid 621 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 368 pid 621 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 368 pid 621 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 368 pid 621 -> errno 19
+xegfx: ioctl 0xc0186473 (nr 0x73) inst 392 pid 770 -> errno 22
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 392 pid 770 -> errno 19
+xegfx: ioctl 0x80104e42 (nr 0x42) inst 392 pid 770 -> errno 2
+xegfx: ioctl 0xc0186475 (nr 0x75) inst 392 pid 770 -> errno 1
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 392 pid 770 -> errno 19
+xegfx: ioctl 0xc0106446 (nr 0x46) inst 392 pid 770 -> errno 19
