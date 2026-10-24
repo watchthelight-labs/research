@@ -1,0 +1,24 @@
+mp_kdp_enter() timed-out on cpu 5, NMI-ing
+mp_kdp_enter() NMI pending on cpus: 0 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+mp_kdp_enter() timed-out during locked wait after NMI;expected 24 acks but received 1 after 19459876 loops in 1536000000 ticks
+panic(cpu 5 caller 0xffffff80170e0b50): mp_rv_action() entry: 23 of 24 responses, start: 0xb53c4c39d4, cur: 0xb6aa823a5c @mp.c:908
+Panicked task 0xffffff9b05f849a0: 308 threads: pid 0: kernel_task
+Backtrace (CPU 5), panicked thread: 0xffffff87d2ce2520, Frame : Return Address
+0xffffffca8db1c9c0 : 0xffffff8016f58d71 mach_kernel : _handle_debugger_trap + 0x421
+0xffffffca8db1ca10 : 0xffffff80170e5982 mach_kernel : _kdp_i386_trap + 0x122
+0xffffffca8db1ca50 : 0xffffff80170d4c38 mach_kernel : _kernel_trap + 0x778
+0xffffffca8db1cb10 : 0xffffff8016eeb971 mach_kernel : _return_from_trap + 0xc1
+0xffffffca8db1cb30 : 0xffffff8016f59147 mach_kernel : _DebuggerTrapWithState + 0x67
+0xffffffca8db1cc30 : 0xffffff8016f587d9 mach_kernel : _panic_trap_to_debugger + 0x269
+0xffffffca8db1cda0 : 0xffffff80177a1ced mach_kernel : _panic + 0x81
+0xffffffca8db1ce90 : 0xffffff80170e0b50 mach_kernel : _mp_safe_spin_lock + 0x3d0
+0xffffffca8db1cec0 : 0xffffff80170dfe63 mach_kernel : _mp_cpus_call_cpu_init + 0x493
+0xffffffca8db1cf20 : 0xffffff80170df966 mach_kernel : _cpu_signal_handler + 0x256
+0xffffffca8db1cf60 : 0xffffff80170de8fa mach_kernel : _lapic_interrupt + 0x4a
+0xffffffca8db1cf80 : 0xffffff80170d41e1 mach_kernel : _interrupt + 0xc1
+0xffffffca8db1cfe0 : 0xffffff8016eeba9a mach_kernel : _hndl_allintrs + 0x9a
+0xffffffd3a7c78f10 : 0xffffff8016f93982 mach_kernel : _processor_idle + 0x102
+0xffffffd3a7c78f60 : 0xffffff8016f93c0c mach_kernel : _idle_thread + 0x5c
+0xffffffd3a7c78fa0 : 0xffffff8016eeb19e mach_kernel : _call_continuation + 0x2e
+
+Process name corresponding to current thread (0xffffff87d2ce2520): kernel_task

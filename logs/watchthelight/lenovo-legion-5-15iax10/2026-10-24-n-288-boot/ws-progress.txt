@@ -1,0 +1,8 @@
+11:38:13 ws 1973 copies/iop/vm/perform/clientset 0 547 5 547 3 | self/last/max/sum us 0 0 0 0 | max_us 6041 long 0 panic 1 irqs 7002 handled 7002
+11:38:19 ws 1973 copies/iop/vm/perform/clientset 0 566 5 566 3 | self/last/max/sum us 0 0 0 0 | max_us 6041 long 0 panic 1 irqs 7359 handled 7359
+11:38:24 ws 1973 copies/iop/vm/perform/clientset 0 587 5 587 3 | self/last/max/sum us 0 0 0 0 | max_us 6041 long 0 panic 1 irqs 7735 handled 7735
+11:38:30 ws 1973 copies/iop/vm/perform/clientset 0 607 5 607 3 | self/last/max/sum us 0 0 0 0 | max_us 6041 long 0 panic 1 irqs 8113 handled 8113
+11:38:35 ws 1973 copies/iop/vm/perform/clientset 0 693 5 693 3 | self/last/max/sum us 0 0 0 0 | max_us 6041 long 0 panic 1 irqs 8895 handled 8895
+11:38:41 ws 1973 copies/iop/vm/perform/clientset 0 774 5 774 3 | self/last/max/sum us 0 0 0 0 | max_us 6041 long 0 panic 1 irqs 9645 handled 9645
+11:38:46 ws 1973 copies/iop/vm/perform/clientset 0 912 5 913 3 | self/last/max/sum us 0 0 0 0 | max_us 6041 long 0 panic 1 irqs 10995 handled 10995
+11:38:52 ws 1973 copies/iop/vm/perform/clientset 0 1013 5 1013 3 | self/last/max/sum us 0 0 0 0 | max_us 6041 long 0 panic 1 irqs 11881 handled 11881
