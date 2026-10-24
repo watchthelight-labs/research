@@ -1,0 +1,15 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-24 09:12:00.008 Df kernel[0:ffdf] [com.apple.sandbox.reporting:violation] System Policy: cp(7351) allow file-write-flags /Library/XeGfx/backup-xeintelfb-20261024-091159/AuxiliaryKernelExtensions.kc
+2026-10-24 09:12:00.008 Df kernel[0:ffdf] (Sandbox) /bin/cp set rootless flags on /Library/XeGfx/backup-xeintelfb-20261024-091159/AuxiliaryKernelExtensions.kc with flags=524288
+2026-10-24 09:12:00.008 Df kernel[0:ffdf] [com.apple.sandbox.reporting:violation] System Policy: cp(7351) allow file-write-mode /Library/XeGfx/backup-xeintelfb-20261024-091159/AuxiliaryKernelExtensions.kc
+2026-10-24 09:12:00.287 Df kernel[0:1000b] [com.apple.sandbox.reporting:violation] 1 duplicate report for System Policy: cp(7351) allow file-write-mode /Library/XeGfx/backup-xeintelfb-20261024-091159/AuxiliaryKernelExtensions.kc
+2026-10-24 09:12:01.474 Df kernel[0:4409] KextLog: AuxKC bundle org.watchthelight.XeGfxAGDC marked as loadable
+2026-10-24 09:12:01.474 Df kernel[0:4409] KextLog: AuxKC bundle org.watchthelight.XeGfxAccel marked as loadable
+2026-10-24 09:12:01.475 Df kernel[0:4409] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 09:15:20.684 Df kernel[0:8b5] (XeGfxIntelFB) XeGfxIntelFB: boot guard: start 1 without WindowServer so far (off after 2)
+2026-10-24 09:15:20.685 Df kernel[0:91c] (IOPCIFamily) [PCIe:0 9140503278 ns] [childPublished()] child XeGfxIntelFramebuffer(0x100000605) published
+2026-10-24 09:16:24.653 Df kernel[0:2422] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 09:16:30.390 Df kernel[0:28c3] (XeGfx) XeGfx: ran 57 sysinit_set entries
+2026-10-24 09:16:30.490 Df kernel[0:28c3] (XeGfx) XeGfx: boot surface GGTT 0xff000000 + 16384000 reserved: -28
+2026-10-24 09:16:36.092 Df kernel[0:29e3] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
+2026-10-24 09:16:36.092 Df kernel[0:29e3] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
