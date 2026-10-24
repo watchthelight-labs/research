@@ -1,0 +1,10 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-24 06:01:44.833 Df kernel[0:4107a] [com.apple.sandbox.reporting:violation] System Policy: cp(7038) allow file-write-flags /Library/XeGfx/plugin-backup-20261024-060144/NVMTLDriver
+2026-10-24 06:01:44.833 Df kernel[0:4107a] (Sandbox) /bin/cp set rootless flags on /Library/XeGfx/plugin-backup-20261024-060144/NVMTLDriver with flags=524288
+2026-10-24 06:01:44.833 Df kernel[0:4107a] [com.apple.sandbox.reporting:violation] System Policy: cp(7038) allow file-write-mode /Library/XeGfx/plugin-backup-20261024-060144/NVMTLDriver
+2026-10-24 06:01:44.834 Df kernel[0:4107c] [com.apple.sandbox.reporting:violation] 1 duplicate report for System Policy: cp(7038) allow file-write-mode /Library/XeGfx/plugin-backup-20261024-060144/NVMTLDriver
+2026-10-24 06:04:33.427 Df kernel[0:246d] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 06:04:39.125 Df kernel[0:2974] (XeGfx) XeGfx: ran 57 sysinit_set entries
+2026-10-24 06:04:39.226 Df kernel[0:2974] (XeGfx) XeGfx: boot surface GGTT 0xff000000 + 16384000 reserved: -28
+2026-10-24 06:04:44.687 Df kernel[0:2b6a] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
+2026-10-24 06:04:44.687 Df kernel[0:2b6a] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1

@@ -2,11 +2,17 @@
  "collected": "2026-10-24",
  "component": "native",
  "files": {
-  "README.md": "f8eb02327f6b0e6fe8eeb6fe2802fd6e9dd4cc5c0cab2eaca8b842972aec8d59",
-  "windowserver-crash-060555-summary.txt": "45ad22af039f46b8d6b8efcd9ece763c3d3a7826a5ecdce2d4f6d26e3c11987a",
-  "ws-progress.txt": "205e4b3176b86116c4693f4d1e7b66f65536c73b6463fb45dab08b48bd647131",
-  "ws.txt": "3db5814990a45204a265d6a911660846eec466b97ef69a423840afed2c1d8402",
-  "xe-guard-state-after.json": "b3a4410afafb51a57441db01c9140c6e07e8a1fc53c2058b5f5955e462ea2b1d"
+  "README.md": "677835cb5e39447b9a4c9777adfa8c64675e9fcea9fa979f08666e1f23cf2792",
+  "ioreg.txt": "17904fc058f7356743622ecf795d07f577b8e60d0e43243e71726e1649b610fa",
+  "kernel-log.txt": "994bb5311c5bf38b92843079126cda04a01bb0f0ca9ef4f6894a618410422bd1",
+  "kmutil.txt": "72cf31f8b12e6b53f948e04cede98d829568eb419324f576f183e9f09f0ecfd1",
+  "last-log-0607.txt": "75f7b8ea484b44b61b752de00e5584066455e82657b91b48a4cc6a9743ffbd76",
+  "post.txt": "0fbc6a32412c035c5110ce294ad44c3d345de567f24e82ea6379cfa78ad2ce98",
+  "remote-log-err.txt": "fd121c3bc46939a1271bfa749957434ad8f69d03b152d4c465e68cde736c1254",
+  "remote-log.txt": "4ba762d426dbf808740a7cff0a5822221518c047fa42e5bb4e2088b716aed572",
+  "result.json": "08cf6af41abab944bd74b4d4f23f782b0e28ee4f28ab4ffee35d26f5cb36394d",
+  "sysctl.txt": "d91a97fcc2fb5c6a4d3956266b31b5e719a68475005996e061063dc0066502b3",
+  "xegfx-log.txt": "e15953efdf45b77271ee30bc08bf74eb2292b34a7013835e53ad14bd4d480b58"
  },
  "kexts": {},
  "machine": "lenovo-legion-5-15iax10",
@@ -14,7 +20,10 @@
  "opencore": "",
  "project": "project-legion",
  "redaction": {
-  "replaced": {},
+  "replaced": {
+   "IP": 3,
+   "UUID": 183
+  },
   "tool": "tools/redact.py v2"
  },
  "source": "N-277",

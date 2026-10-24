@@ -1,0 +1,10 @@
+{
+ "id": "N-277",
+ "result": "crash",
+ "stage": 7,
+ "reason": "machine went down during stage 7",
+ "panics": [],
+ "nvram_step": "s0 p70  30 driver pcib|xegfx: newbus     pci0 state 30 driver pci|xegfx: newbus       hostb0 state 30 driver hostb pci 8086:7d1c class 060000|xegfx: newbus       vgapci0 state 30 driver vgapci pci 8086:7d67 class 030000|xegfx: newbus         drmn0 state 30 driver drmn|xegfx: newbus           drm128 state 10 driver -|xegfx: newbus           drm0 state 10 driver -|xegfx: newbus       ? state 10 driver - pci 8086:ae10 class 060100|xegfx: devclass root:xegfx: devclass pcib:xegfx: devclass pci:xegfx: devclass hostb:xegfx: devclass vgapci: drmnxegfx: devclass drmn:xegfx: devclass misc:xegfx: devclass drm:",
+ "ws_fails_in_a_row": 3,
+ "nvram_accel": "spin 48 us/0 copies 241 pipe 5/0/0/0 iop4 0 vm 9"
+}

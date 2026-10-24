@@ -40,3 +40,21 @@ KEXTS_OFF empty. The release plugin 139d1ae4 stays installed (its changes are In
 at boot). The backup is in /Library/XeGfx/plugin-backup-20261024-060144.
 
 Files: ws.txt (xe-guard's ws capture), ws-progress.txt, xe-guard-state-after.json, windowserver-crash-060555-summary.txt.
+
+## Mac follow-up (2026-10-24 06:30, after the 06:24 boot)
+- xe-guard wrote its verdict at 06:25:56 as `crash during stage 7, panic reports []` (guard/result.json). That is
+  the guard's reading of a restart it did not make: Bash's restart to Windows at about 06:07:40 (SMC previous
+  shutdown cause 5, a normal restart) came before the 120 s settle ended. Not a freeze, not a panic.
+- Unified log 06:05:35-06:05:54, kernel: no i915, GuC, reset or hang line at all. Expected: the i915 console only
+  goes to the XeGfx ring (debug.xegfx_log), which the guard snapshots at 06:04 (guard/xegfx-log.txt), before the
+  ws step, and the ring is gone after the restart. The only plugin lines are at 06:05:53.866: `vk: queue submit -> -4;
+  disabling backend` and `replaceRegion: upload FAILED`. So the kernel side of I-113 was not captured anywhere.
+- WindowServer 2141 and 2183 log "Metal compositor activated" and no NVMTLDriver line, so it is not shown that they
+  ran on our Vulkan backend.
+- NVRAM xegfx-accel after the boot: `spin 48 us/0 copies 241 pipe 5/0/0/0 iop4 0 vm 9` (guard/result.json).
+- Plugin: the Mac session restored 4a50e082 (cp beside + mv) at 06:26 before reading the Windows record. Either
+  is fine with XeGfx not loading at boot; reinstall 139d1ae4 for the next ws run.
+- Gap to close before the next ws run: the guard should save debug.xegfx_log (fsync'd) during the ws step, so a
+  device lost leaves the i915 side (GuC/engine reset, hang detection) on disk.
+- guard/ holds the guard's own evidence folder (post.txt, ws.txt, ws-progress.txt, xegfx-log.txt...) and
+  last-log-0607.txt (the last unified log lines before the restart).

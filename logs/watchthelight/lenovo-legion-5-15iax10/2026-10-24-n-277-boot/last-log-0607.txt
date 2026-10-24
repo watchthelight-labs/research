@@ -1,0 +1,60 @@
+2026-10-24 06:07:19.935 Df kernel[0:7a] PMRD: power event 3 args 0x0 0x0
+2026-10-24 06:07:19.946 Df kernel[0:45e5] process_is_plugin_host: running binary "SecurityAgent" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validation
+2026-10-24 06:07:19.960 Df kernel[0:2b5] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SET_SCAN_HOME_AWAY_TIME> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.960 Df kernel[0:419f] (AppleKeyStore) "AppleKeyStore":pid:143,msgid:0,msgno:0:4332: user ef84860a7c1144e49d0f1c98f3da4542 unlock failed (-5)
+2026-10-24 06:07:19.960 Df kernel[0:419f] (AppleKeyStore) "AppleKeyStore":pid:143,:13297: operation failed (sel: 75 ret: e00002ce, -1)
+2026-10-24 06:07:19.960 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.960 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.960 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.960 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.960 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SCAN_RESULT> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:5:0x5> handler=1
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) ClientMemoryForType[0x1]
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) getRingMD: enter : pipe count 4
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) ClientMemoryForType[0x2]
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) getRingMD: enter : pipe count 4
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) extEventMonitorExit: enter
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) IO80211APIUserClient::destroyEventPipe(2232) _onWLANQueue(0)
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) destroyEventPipe: enter : pipe count 4
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) IO80211IOUCEventPipe::free
+2026-10-24 06:07:19.960 Df kernel[0:3ba5] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SUPPORTED_CHANNELS> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.961 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.961 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.961 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-24 06:07:19.962 Df kernel[0:3ba4] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_POWER> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.962 Df kernel[0:3f6a] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.962 Df kernel[0:3baa] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNELS_INFO> Int=<Infrastructure> isDriverAvailable=<0> res=<FAIL:58:0x3a> handler=1
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) extEventMonitorInit: enter
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) createEventPipe: enter: pipe count: 3
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) ClientMemoryForType[0x1]
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) getRingMD: enter : pipe count 4
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) ClientMemoryForType[0x2]
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) getRingMD: enter : pipe count 4
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) extSubscribeEvent: enter
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) IO80211ScanManager::startScan: scanType = 1
+2026-10-24 06:07:19.963 Df kernel[0:2b5] (IO80211Family) [IOC DEBUG] INTERNAL: Get type=<APPLE80211_IOC_OP_MODE> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.963 Df kernel[0:2b5] (IO80211Family)  Active scan
+2026-10-24 06:07:19.963 Df kernel[0:2b5] (IO80211Family) Scan type to FW 1
+2026-10-24 06:07:19.963 Df kernel[0:2b5] (IO80211Family) [IOC DEBUG] INTERNAL: Set type=<APPLE80211_IOC_WCL_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.963 Df kernel[0:3bb0] (IO80211Family) [IOC DEBUG] EXTERNAL: Set type=<APPLE80211_IOC_SCAN_REQ> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.971 Df kernel[0:3f6a] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.971 Df kernel[0:3f6a] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.971 Df kernel[0:3f71] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.971 Df kernel[0:3f71] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.971 Df kernel[0:3f71] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.972 Df kernel[0:3f6f] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_CHANNEL> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.972 Df kernel[0:3ba4] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_RSSI> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.972 Df kernel[0:3f6a] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_SSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.972 Df kernel[0:3f6a] (IO80211Family) [IOC DEBUG] EXTERNAL: Get type=<APPLE80211_IOC_BSSID> Int=<Infrastructure> isDriverAvailable=<0> res=<GOOD:0:0x0> handler=1
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) IO80211PeerMonitor::checkForDPS()  Enter
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) com.apple.p2p.en1: MonitorTimer en1/5000: packet counts: I0 Q0 O0
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) LQM-WIFI: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (5000ms)
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) com.apple.p2p.en1: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0
+2026-10-24 06:07:19.999 Df kernel[0:452d] (IO80211Family) LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0
+2026-10-24 06:07:20.175 Df WindowServer[2183:3ccf] [com.apple.iohid:default] Connection added: IOHIDEventSystemConnection uuid:UUID-589 pid:2489 process:com.apple.hiservices-xpcservice type:Monitor entitlements:0x2 caller:com.apple.hiservices-xpcservice: com.apple.hiservices-xpcservice + 7992 attributes:(null) state:0x0 events:0 mask:0x0 dropped:0 dropStatus:0 droppedMask:0x0 lastDroppedTime:NONE
