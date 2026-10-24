@@ -1,0 +1,33 @@
+{
+ "collected": "2026-10-24",
+ "component": "native",
+ "files": {
+  "README.md": "e7a367c23b3f4faa760d061681e224fdc4156a4fc31abdba90e24e7a5d92067a",
+  "ioreg.txt": "6202545f26154bb0abf477cfcbdb1658c4e59f3176b3ed7a198ee42379506d8d",
+  "kernel-log.txt": "8bd64ef4446682447108a9969fe305f6ff4394acb6c2a0de148f9a398fa32cdb",
+  "kmutil.txt": "0545060f86d1432d157ef2149516da5320287074ba69b2c6aa4402eee48d2f5d",
+  "opencore-2026-10-24-151532.txt": "d5eab120e04dbb81f840b352d0d45064c0a7b58408302ca6c1c54e3aa6b3c3be",
+  "panic-string.txt": "64313b087b71aa286386ce7627439f69110ad3c232b488b2471d69932308d5a3",
+  "post.txt": "973f17aedb93c2e47a1841e1b22c9128d315325e4caebc83c2c4aa6f94e8badd",
+  "remote-log-err.txt": "b5f8860208316a02a92837320681399922c9d2e1f7d8ede5788669493f2a1252",
+  "remote-log.txt": "f94ea77c493324e4812c8cd1680d83466266c52c75cc3dadaecb2c58bdf9a3eb",
+  "result.json": "f505ba3305e7b13df0bfdbd74b373b1611c4beb3088f837bf90e691586522bd7",
+  "ws-progress.txt": "382e2810e743cbe8b8dcdd5292e910903318879ffbc03942109ab67fcf39cd33",
+  "ws-xegfx-log.txt": "b417a6a41bf31ff1e131b93945d393f373f1350e6db1d37ddb6635584a8226c3",
+  "ws.txt": "c9e556e2cdeeb12c6afe618ea6e30a4d937c37cfa3af61cde93c60ab1e5a98e2"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "IP": 7,
+   "UUID": 326
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "N-287",
+ "username": "watchthelight"
+}

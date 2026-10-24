@@ -43,3 +43,10 @@ The shim's mutex slow path already spins inside critical sections (N-239); the r
 Next: N-287, the same 900 s ws run on 0.0.40.
 
 XeGfxBlock was put back on after this run (config.n286-post.plist.bak) and off again for N-287 (config.n287-pre.plist.bak).
+
+## Correction (11:30): which OpenCore logs are which
+
+`opencore-2026-10-24-143350.txt` is the N-286 boot (10:33 EDT). `opencore-2026-10-24-144648-second-boot.txt` is a
+second OpenCore start at 10:46, after the panic: it got to the boot.efi handover, but macOS did not come up (the panic
+report was only written by the 11:04 boot, and no session saw a 10:46 kernel). So the first restart after the panic
+hung early, possibly with the iGPU still wedged across the warm reset. Not followed up yet.
