@@ -1,0 +1,14 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-24 09:53:38.339 Df kernel[0:8a0] (XeGfxIntelFB) XeGfxIntelFB: boot guard: start 1 without WindowServer so far (off after 2)
+2026-10-24 09:53:38.340 Df kernel[0:8f5] (IOPCIFamily) [PCIe:0 8853250505 ns] [childPublished()] child XeGfxIntelFramebuffer(0x1000005f0) published
+2026-10-24 09:54:45.590 Df kernel[0:23bc] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 09:54:51.595 Df kernel[0:279e] (XeGfx) XeGfx: ran 57 sysinit_set entries
+2026-10-24 09:54:51.696 Df kernel[0:279e] (XeGfx) XeGfx: boot surface GGTT 0xff000000 + 16384000 reserved: -28
+2026-10-24 09:54:57.408 Df kernel[0:285d] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
+2026-10-24 09:54:57.408 Df kernel[0:285d] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
+2026-10-24 09:55:45.510 Df kernel[0:2f98] (IOPCIFamily) [PCIe:0 134904643527 ns] [childPublished()] child XeGfxDeviceControl(0x100000951) published
+2026-10-24 09:55:47.591 Df kernel[0:305e]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b7000->0xffffff7f983cafff
+2026-10-24 09:55:47.593 Df kernel[0:3062]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b7000->0xffffff7f983cafff
+2026-10-24 09:55:47.593 Df kernel[0:3062]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b7000->0xffffff7f983cafff
+2026-10-24 09:55:47.593 Df kernel[0:3062]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b7000->0xffffff7f983cafff
+2026-10-24 09:55:47.593 Df kernel[0:3062]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b7000->0xffffff7f983cafff

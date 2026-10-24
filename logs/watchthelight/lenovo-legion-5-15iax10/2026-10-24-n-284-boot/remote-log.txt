@@ -1,0 +1,1 @@
+bash-ec2:legion-logs/N-284-20261024-095547.log

@@ -1,0 +1,19 @@
+{
+ "id": "N-284",
+ "started": 1792850085.041684,
+ "result": "fail",
+ "reason": "WindowServer 1969 died during the 45 s wait (now 2754)",
+ "post_rc": 0,
+ "agdc": "1",
+ "results": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "ws_fails_in_a_row": 7
+}
