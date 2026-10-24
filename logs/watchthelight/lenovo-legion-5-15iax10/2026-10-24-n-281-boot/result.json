@@ -1,0 +1,17 @@
+{
+ "id": "N-281",
+ "started": 1792844815.561585,
+ "result": "pass",
+ "reason": "stages 1-7 passed, WindowServer stable 60 s",
+ "post_rc": 0,
+ "results": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ]
+}

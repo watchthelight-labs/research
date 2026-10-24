@@ -1,0 +1,20 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-24 08:18:22.804 Df kernel[0:2a889] [com.apple.sandbox.reporting:violation] System Policy: cp(26680) allow file-write-flags /Library/XeGfx/backup-20261024-081822/AuxiliaryKernelExtensions.kc
+2026-10-24 08:18:22.804 Df kernel[0:2a889] (Sandbox) /bin/cp set rootless flags on /Library/XeGfx/backup-20261024-081822/AuxiliaryKernelExtensions.kc with flags=524288
+2026-10-24 08:18:22.804 Df kernel[0:2a889] [com.apple.sandbox.reporting:violation] System Policy: cp(26680) allow file-write-mode /Library/XeGfx/backup-20261024-081822/AuxiliaryKernelExtensions.kc
+2026-10-24 08:18:23.018 Df kernel[0:2a8e4] [com.apple.sandbox.reporting:violation] 1 duplicate report for System Policy: cp(26680) allow file-write-mode /Library/XeGfx/backup-20261024-081822/AuxiliaryKernelExtensions.kc
+2026-10-24 08:18:23.789 Df kernel[0:22737] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 08:18:24.141 Df kernel[0:22741] KextLog: AuxKC bundle org.watchthelight.XeGfxAGDC marked as loadable
+2026-10-24 08:18:25.240 Df kernel[0:22737] KextLog: AuxKC bundle org.watchthelight.XeGfxAccel marked as loadable
+2026-10-24 08:18:25.240 Df kernel[0:22737] KextLog: AuxKC bundle org.watchthelight.XeGfxAGDC marked as loadable
+2026-10-24 08:18:25.608 Df kernel[0:22741] KextLog: AuxKC bundle org.watchthelight.XeGfxAGDC marked as loadable
+2026-10-24 08:18:25.612 Df kernel[0:2a9bc] KextLog: AuxKC bundle org.watchthelight.XeGfxAccel marked as loadable
+2026-10-24 08:18:25.965 Df kernel[0:22741] KextLog: AuxKC bundle org.watchthelight.XeGfxAGDC marked as loadable
+2026-10-24 08:22:14.458 Df kernel[0:2baed] [com.apple.sandbox.reporting:violation] System Policy: cp(27322) allow file-write-flags /Library/XeGfx/plugin-backup-20261024-082214/NVMTLDriver
+2026-10-24 08:22:14.458 Df kernel[0:2baed] [com.apple.sandbox.reporting:violation] System Policy: cp(27322) allow file-write-mode /Library/XeGfx/plugin-backup-20261024-082214/NVMTLDriver
+2026-10-24 08:22:14.460 Df kernel[0:2baef] [com.apple.sandbox.reporting:violation] 1 duplicate report for System Policy: cp(27322) allow file-write-mode /Library/XeGfx/plugin-backup-20261024-082214/NVMTLDriver
+2026-10-24 08:26:56.101 Df kernel[0:25db] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 08:27:02.313 Df kernel[0:2850] (XeGfx) XeGfx: ran 57 sysinit_set entries
+2026-10-24 08:27:02.415 Df kernel[0:2850] (XeGfx) XeGfx: boot surface GGTT 0xff000000 + 16384000 reserved: -28
+2026-10-24 08:27:08.187 Df kernel[0:293b] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
+2026-10-24 08:27:08.187 Df kernel[0:293b] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
