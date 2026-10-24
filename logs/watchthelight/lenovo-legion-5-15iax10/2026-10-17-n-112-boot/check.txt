@@ -16,9 +16,9 @@ plugin dd50681dfe21 same
 --- nvram: nullmoth-nv-ok=1 
 --- lastgood: /Library/LaunchDaemons/com.nullmoth.lastgood.plist /Library/NullMoth/lastgood.sh 
 --- crash reports since boot: 0
-shutdown_stall_2026-10-17-173453_HOST-115.shutdownStall
-shutdown_stall_2026-10-17-134646_HOST-115.shutdownStall
-shutdown_stall_2026-10-17-133602_HOST-115.shutdownStall
+shutdown_stall_2026-10-17-173453_HOST-116.shutdownStall
+shutdown_stall_2026-10-17-134646_HOST-116.shutdownStall
+shutdown_stall_2026-10-17-133602_HOST-116.shutdownStall
 --- power:
 debug.nvrmfb_guard_cleared: 1
 debug.nvgfx_tgp_enable: 1

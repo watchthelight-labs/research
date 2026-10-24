@@ -1,0 +1,32 @@
+WindowServer-2026-10-24-064756.ips pid 1925 launched 2026-10-24 06:47:44.1014 -0400
+ exception: {'codes': '0x0000000000000000, 0x0000000000000000', 'rawCodes': [0, 0], 'type': 'EXC_CRASH', 'signal': 'SIGABRT'}
+ termination: {'flags': 0, 'code': 6, 'namespace': 'SIGNAL', 'indicator': 'Abort trap: 6', 'byProc': 'WindowServer', 'byPid': 1925}
+   libsystem_kernel.dylib __pthread_kill
+   libsystem_pthread.dylib pthread_kill
+   libsystem_c.dylib abort
+   libsystem_c.dylib __assert_rtn
+   QuartzCore CA::OGL::Context::push_surface(CA::OGL::Surface*, bool, unsigned int, unsigned int)
+   QuartzCore CA::OGL::FlattenNode::retain_surface(float&, unsigned int)
+   QuartzCore CA::OGL::ImagingNode::render(CA::OGL::ImagingNode::RenderClosure*, unsigned int)
+   QuartzCore CA::OGL::render_layers(CA::OGL::Renderer&, CA::OGL::Layer*)
+   QuartzCore CA::OGL::LayerNode::apply(float, CA::OGL::Surface**, float*)
+   QuartzCore CA::OGL::ImagingNode::render(CA::OGL::ImagingNode::RenderClosure*, unsigned int)
+   QuartzCore CA::OGL::render_layers(CA::OGL::Renderer&, CA::OGL::Layer*)
+   QuartzCore CA::OGL::LayerNode::apply(float, CA::OGL::Surface**, float*)
+
+WindowServer-2026-10-24-064818.ips pid 2181 launched 2026-10-24 06:47:55.6169 -0400
+ exception: {'codes': '0x0000000000000000, 0x0000000000000000', 'rawCodes': [0, 0], 'type': 'EXC_CRASH', 'signal': 'SIGABRT'}
+ termination: {'flags': 518, 'code': 4, 'namespace': 'COREANIMATION', 'details': ['spec=PBGRAXb_BvcmXh', 'pipeline: Vulkan is not up in this process']}
+   libsystem_kernel.dylib __abort_with_payload
+   libsystem_kernel.dylib abort_with_payload_wrapper_internal
+   libsystem_kernel.dylib abort_with_payload
+   QuartzCore CA::OGL::MetalContext::create_pipeline_state(CA::OGL::MetalContext::Pipeline::Spec const&, unsigned int*, std::__1::atomic<bool>*)
+   QuartzCore CA::OGL::MetalContext::draw(MTLPrimitiveType, unsigned int, unsigned int, void const*, unsigned long, unsigned long, unsigned int, unsigned int, unsigned short const*, CA::OGL::ClipPlane const*, CA::OGL::MetalBufferPool::MetalBuffer const*)
+   QuartzCore CA::OGL::MetalContext::draw_elements(CA::OGL::PrimitiveMode, unsigned int, unsigned short const*, CA::OGL::Vertex const*, unsigned int, unsigned int, CA::OGL::ClipPlane const*)
+   QuartzCore CA::OGL::Context::array_flush()
+   QuartzCore CA::OGL::Context::ClippedArray::next_rect(CA::Bounds&)
+   QuartzCore CA::OGL::emit_one_part_rect(CA::OGL::Context&, CA::OGL::RectState const&, float const*, float const*, unsigned int)
+   QuartzCore CA::OGL::fill_rect(CA::OGL::Context&, CA::OGL::RectState const&)
+   QuartzCore CA::OGL::fill_round_rect(CA::OGL::Context&, CA::OGL::RectState const&, CA::Vec2<double>, unsigned int, unsigned int)
+   QuartzCore CA::OGL::render_solid_background(CA::OGL::Renderer&, CA::OGL::Layer const*, CA::OGL::ExtendedColor, CA::Render::Pattern*, float)
+

@@ -1,0 +1,19 @@
+{
+ "id": "N-278",
+ "started": 1792838802.513118,
+ "result": "fail",
+ "reason": "WindowServer 1925 died during the 45 s wait (now 2236)",
+ "post_rc": 0,
+ "agdc": "1",
+ "results": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "ws_fails_in_a_row": 4
+}

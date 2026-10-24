@@ -2,7 +2,7 @@
  "collected": "2026-10-16",
  "component": "native",
  "files": {
-  "00-info.txt": "37ceff67cd9b49d27b91a839b7f24e76ada0b50162933f295df2fe18b5010031",
+  "00-info.txt": "bf5a3c8c8dc54754fe4db0d24cc179f3826fe5485d76067ba092db08085a4036",
   "dmesg-nv.txt": "6fcbbf458a64e886b5491b3d0c81ee6f5f2f616f9cd6e2d9a74e2aa6dc2c41ef",
   "log-nv-windowserver.txt": "22902dd52bcf0989dc5ce901fe75c3894572176e425688de83aff9873a1525f7",
   "opencore-2026-10-16-045613.txt": "5ebf069f7aa01d6036f7cfe8afdd55537b809e8ef5008c09e77ffa505b799471",

@@ -1,0 +1,22 @@
+{
+ "collected": "2026-10-24",
+ "component": "native",
+ "files": {
+  "README.md": "66d79b6739f52e41aba3709ed77a9f90673a5dca62f742d51a27c35ecbaea93b",
+  "windowserver-crashes-summary.txt": "ed533f0f9bc3daa764e024a6d862629b49d1a78fd8b05d9d3d0685302b2fd9b5",
+  "ws-xegfx-log.txt": "6e20781ee3c7b546d28ab07619e6fa56f5ddf06806f551fd4e4c1b68656a8f8f",
+  "ws.txt": "426d2f75f2b0cdbf64954555cebc59104a4027461db7a5470aab907128829d52",
+  "xe-guard-result.json": "8cd82ed65092bb23c07089dda2f1421bde0445b937c9d938e11451450aa8b8f5"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v2"
+ },
+ "source": "N-278",
+ "username": "watchthelight"
+}

@@ -2,7 +2,7 @@
  "collected": "2026-10-19",
  "component": "native",
  "files": {
-  "00-info.txt": "775ef3b6bc902468f56b512ad6263206eb5d050cebe364fe0ebb12958b2c470f",
+  "00-info.txt": "ad6f14df3335a07212fa119647f167d320682702c230357d0fc53157892c713c",
   "README.md": "d287c2a5774cbd4e9ee4ef1fe614603b74461f53416136c0a5cacab130f51f6c",
   "dmesg-mtkwlan-n176.txt": "ff54e55d07550fad3e251066e943c4d2c88b5288c36540c8073be1926ae76ad7",
   "dmesg-mtkwlan-n177.txt": "cfea52e5194bcd1a904e9a76b4d71b53d72577e1e516bbe6818e5e0f72b0c301"
