@@ -1,0 +1,23 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-24 09:19:19.819 Df kernel[0:3be8] [com.apple.sandbox.reporting:violation] System Policy: cp(2275) allow file-write-flags /Library/XeGfx/backup-xeintelfb-20261024-091919/AuxiliaryKernelExtensions.kc
+2026-10-24 09:19:19.819 Df kernel[0:3be8] (Sandbox) /bin/cp set rootless flags on /Library/XeGfx/backup-xeintelfb-20261024-091919/AuxiliaryKernelExtensions.kc with flags=524288
+2026-10-24 09:19:19.819 Df kernel[0:3be8] [com.apple.sandbox.reporting:violation] System Policy: cp(2275) allow file-write-mode /Library/XeGfx/backup-xeintelfb-20261024-091919/AuxiliaryKernelExtensions.kc
+2026-10-24 09:19:20.263 Df kernel[0:3c10] [com.apple.sandbox.reporting:violation] 1 duplicate report for System Policy: cp(2275) allow file-write-mode /Library/XeGfx/backup-xeintelfb-20261024-091919/AuxiliaryKernelExtensions.kc
+2026-10-24 09:19:20.342 Df kernel[0:29e8] KextLog: AuxKC bundle org.watchthelight.XeGfxIntelFB marked as loadable
+2026-10-24 09:19:20.716 Df kernel[0:2733] KextLog: AuxKC bundle org.watchthelight.XeGfxAccel marked as loadable
+2026-10-24 09:19:20.716 Df kernel[0:2733] KextLog: AuxKC bundle org.watchthelight.XeGfxAGDC marked as loadable
+2026-10-24 09:19:20.729 Df kernel[0:2733] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 09:30:11.891 Df kernel[0:8ac] (XeGfxIntelFB) XeGfxIntelFB: boot guard: start 1 without WindowServer so far (off after 2)
+2026-10-24 09:30:11.892 Df kernel[0:909] (IOPCIFamily) [PCIe:0 9390424307 ns] [childPublished()] child XeGfxIntelFramebuffer(0x1000005f7) published
+2026-10-24 09:30:13.297 Df kernel[0:40d] (XeGfxIntelFB) XeGfxIntelFB: boot guard cleared: WindowServer is active on the panel
+2026-10-24 09:31:20.894 Df kernel[0:2729] KextLog: AuxKC bundle org.watchthelight.XeGfx marked as loadable
+2026-10-24 09:31:26.791 Df kernel[0:285a] (XeGfx) XeGfx: ran 57 sysinit_set entries
+2026-10-24 09:31:26.892 Df kernel[0:285a] (XeGfx) XeGfx: boot surface GGTT 0xff000000 + 16384000 reserved: -28
+2026-10-24 09:31:32.774 Df kernel[0:2920] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
+2026-10-24 09:31:32.774 Df kernel[0:2920] (XeGfxAccel) NMXAccel: Intel accelerator over XeGfx: watching for NMIntelFB (head 4); register with sysctl debug.nvaccelfb=1
+2026-10-24 09:32:20.203 Df kernel[0:30d3] (IOPCIFamily) [PCIe:0 135020826318 ns] [childPublished()] child XeGfxDeviceControl(0x100000953) published
+2026-10-24 09:32:22.281 Df kernel[0:30e7]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b6000->0xffffff7f983c9fff
+2026-10-24 09:32:22.284 Df kernel[0:30eb]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b6000->0xffffff7f983c9fff
+2026-10-24 09:32:22.284 Df kernel[0:30eb]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b6000->0xffffff7f983c9fff
+2026-10-24 09:32:22.284 Df kernel[0:30eb]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b6000->0xffffff7f983c9fff
+2026-10-24 09:32:22.284 Df kernel[0:30eb]          org.watchthelight.XeGfxAccel(0.1)[UUID-592]@0xffffff7f983b6000->0xffffff7f983c9fff

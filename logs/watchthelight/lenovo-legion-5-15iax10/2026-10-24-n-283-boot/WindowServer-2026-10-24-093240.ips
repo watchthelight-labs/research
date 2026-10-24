@@ -1,0 +1,3612 @@
+{"app_name": "WindowServer", "timestamp": "2026-10-24 09:32:40.00 -0400", "app_version": "600.00", "slice_uuid": "UUID-196", "build_version": "", "platform": 1, "share_with_app_devs": 0, "is_first_party": 1, "bug_type": "309", "os_version": "macOS 26.7.1 (25G241)", "roots_installed": 0, "incident_id": "UUID-596", "name": "WindowServer"}
+{
+ "uptime": 150,
+ "procRole": "Graphics",
+ "version": 2,
+ "userID": 88,
+ "deployVersion": 210,
+ "modelCode": "MacBookPro16,1",
+ "coalitionID": 149,
+ "osVersion": {
+  "train": "macOS 26.7.1",
+  "build": "25G241",
+  "releaseType": "User"
+ },
+ "captureTime": "2026-10-24 09:32:39.9085 -0400",
+ "codeSigningMonitor": 0,
+ "incident": "UUID-596",
+ "pid": 2164,
+ "cpuType": "X86-64",
+ "procLaunch": "2026-10-24 09:32:34.1007 -0400",
+ "procStartAbsTime": 148918227706,
+ "procExitAbsTime": 154409451437,
+ "procName": "WindowServer",
+ "procPath": "/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer",
+ "bundleInfo": {
+  "CFBundleShortVersionString": "600.00"
+ },
+ "parentProc": "launchd",
+ "parentPid": 1,
+ "coalitionName": "com.apple.WindowServer",
+ "crashReporterKey": "REDACTED",
+ "appleIntelligenceStatus": {
+  "reasons": [
+   "deviceNotCapable"
+  ],
+  "state": "unavailable"
+ },
+ "developerMode": 1,
+ "consecutiveCrashCount": 1,
+ "throttleTimeout": 10,
+ "codeSigningID": "com.apple.WindowServer",
+ "codeSigningTeamID": "",
+ "codeSigningFlags": 570518017,
+ "codeSigningValidationCategory": 1,
+ "codeSigningTrustLevel": 4294967295,
+ "codeSigningAuxiliaryInfo": 432345564227567624,
+ "bootSessionUUID": "REDACTED",
+ "sip": "enabled",
+ "exception": {
+  "codes": "0x0000000000000000, 0x0000000000000000",
+  "rawCodes": [
+   0,
+   0
+  ],
+  "type": "EXC_CRASH",
+  "signal": "SIGABRT"
+ },
+ "termination": {
+  "flags": 0,
+  "code": 6,
+  "namespace": "SIGNAL",
+  "indicator": "Abort trap: 6",
+  "byProc": "WindowServer",
+  "byPid": 2164
+ },
+ "ktriageinfo": "VM - (arg = 0x0) Returned success with no page\nVM - (arg = 0x0) Returned success with no page\nVM - (arg = 0x0) Returned success with no page\nVM - (arg = 0x0) Returned success with no page\nVM - (arg = 0x0) Returned success with no page\n",
+ "asi": {
+  "libsystem_c.dylib": [
+   "abort() called"
+  ]
+ },
+ "extMods": {
+  "caller": {
+   "thread_create": 0,
+   "thread_set_state": 0,
+   "task_for_pid": 0
+  },
+  "system": {
+   "thread_create": 0,
+   "thread_set_state": 0,
+   "task_for_pid": 0
+  },
+  "targeted": {
+   "thread_create": 0,
+   "thread_set_state": 0,
+   "task_for_pid": 0
+  },
+  "warnings": 0
+ },
+ "faultingThread": 0,
+ "threads": [
+  {
+   "threadState": {
+    "r13": {
+     "value": 206158430216
+    },
+    "rax": {
+     "value": 0
+    },
+    "rflags": {
+     "value": 582
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 259
+    },
+    "rsi": {
+     "value": 6
+    },
+    "r8": {
+     "value": 140704613656432,
+     "symbolLocation": 448,
+     "symbol": "__sFX"
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 0
+    },
+    "r10": {
+     "value": 140704616036160,
+     "symbolLocation": 0,
+     "symbol": "_os_xbs_chrooted"
+    },
+    "r9": {
+     "value": 0
+    },
+    "r15": {
+     "value": 22
+    },
+    "rbx": {
+     "value": 6
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554760
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530035166,
+     "matchesCrashFrame": 1
+    },
+    "rbp": {
+     "value": 140701806624368
+    },
+    "rsp": {
+     "value": 140701806624328
+    },
+    "r12": {
+     "value": 140704616005176,
+     "symbolLocation": 0,
+     "symbol": "__stderrp"
+    },
+    "rcx": {
+     "value": 140701806624328
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 259
+    }
+   },
+   "id": 16402,
+   "triggered": true,
+   "name": "ws_main_thread",
+   "queue": "com.apple.main-thread",
+   "frames": [
+    {
+     "imageOffset": 30686,
+     "symbol": "__pthread_kill",
+     "symbolLocation": 10,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 23131,
+     "symbol": "pthread_kill",
+     "symbolLocation": 259,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 522068,
+     "symbol": "abort",
+     "symbolLocation": 126,
+     "imageIndex": 32
+    },
+    {
+     "imageOffset": 80076,
+     "symbol": "__abort_message",
+     "symbolLocation": 235,
+     "imageIndex": 33
+    },
+    {
+     "imageOffset": 11087,
+     "symbol": "demangling_terminate_handler()",
+     "symbolLocation": 222,
+     "imageIndex": 33
+    },
+    {
+     "imageOffset": 114259,
+     "symbol": "_objc_terminate()",
+     "symbolLocation": 104,
+     "imageIndex": 34
+    },
+    {
+     "imageOffset": 69915,
+     "symbol": "std::__terminate(void (*)())",
+     "symbolLocation": 6,
+     "imageIndex": 33
+    },
+    {
+     "imageOffset": 78846,
+     "symbol": "__cxxabiv1::call_terminate(bool, _Unwind_Exception*)",
+     "symbolLocation": 35,
+     "imageIndex": 33
+    },
+    {
+     "imageOffset": 8491,
+     "symbol": "__gxx_personality_v0",
+     "symbolLocation": 723,
+     "imageIndex": 33
+    },
+    {
+     "imageOffset": 9394,
+     "symbol": "_Unwind_RaiseException",
+     "symbolLocation": 242,
+     "imageIndex": 35
+    },
+    {
+     "imageOffset": 7604,
+     "symbol": "__cxa_throw",
+     "symbolLocation": 61,
+     "imageIndex": 33
+    },
+    {
+     "imageOffset": 440510,
+     "symbol": "CoreDisplay::DisplaySurface::GetMTLTexture(CoreDisplay::MetalDevice*) const",
+     "symbolLocation": 1618,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 931651,
+     "symbol": "CoreDisplay::MetalDevice::SurfaceColorFill(CoreDisplay::DisplaySurface&, float, float, float, float) const",
+     "symbolLocation": 153,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 943775,
+     "symbol": "CoreDisplay::DisplaySurfacePool::GetNextSurface(int, int, CGSRegionObject*, CGSRegionObject*, CGSRegionObject*, double, double, unsigned int, CGColorSpace*, bool, unsigned long long)",
+     "symbolLocation": 1159,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 816194,
+     "symbol": "CoreDisplay::DisplayPipe::RunGPUDisplayPipe()",
+     "symbolLocation": 7408,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 833099,
+     "symbol": "CoreDisplay::DisplayPipe::Commit(CoreDisplay::DisplayPipe::Transaction const&, bool)",
+     "symbolLocation": 10183,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 249631,
+     "symbol": "CoreDisplay::Display::Commit(std::__1::vector<std::__1::unique_ptr<CoreDisplay::DisplayPipe::Transaction, std::__1::default_delete<CoreDisplay::DisplayPipe::Transaction>>, std::__1::allocator<std::__1::unique_ptr<CoreDisplay::DisplayPipe::Transaction, std::__1::default_delete<CoreDisplay::DisplayPipe::Transaction>>>>&)",
+     "symbolLocation": 61,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 276496,
+     "symbol": "CoreDisplay::Display::Present(std::__1::shared_ptr<CoreDisplay::DisplaySurface>, CGRect, CGRect, PresentSyncType, bool, PresentOptionsType, unsigned long long)",
+     "symbolLocation": 1092,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 274927,
+     "symbol": "CoreDisplay::Display::Present(CoreDisplay::DisplaySurface*, PresentSyncType, unsigned long long)",
+     "symbolLocation": 311,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 3222383,
+     "symbol": "WS::Displays::CDDisplay::present_update(WS::Displays::Update&, WS::Displays::SyncType)",
+     "symbolLocation": 853,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 1168858,
+     "symbol": "WS::Updater::UpdateDisplays(CGXConnection*, bool, std::__1::vector<std::__1::shared_ptr<WS::Displays::Display>, std::__1::allocator<std::__1::shared_ptr<WS::Displays::Display>>>)",
+     "symbolLocation": 20950,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 1147868,
+     "symbol": "CGXUpdateDisplay",
+     "symbolLocation": 91,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 2749157,
+     "symbol": "update_display_callback(void*, double)",
+     "symbolLocation": 2473,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 718415,
+     "symbol": "run_timer_pass",
+     "symbolLocation": 560,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 718658,
+     "symbol": "non_coalesced_timer_handler",
+     "symbolLocation": 16,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 1004399,
+     "symbol": "post_port_data",
+     "symbolLocation": 277,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 1003693,
+     "symbol": "CGXRunOneServicesPass",
+     "symbolLocation": 1743,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 1006200,
+     "symbol": "server_loop",
+     "symbolLocation": 98,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 1005796,
+     "symbol": "SLXServer",
+     "symbolLocation": 1311,
+     "imageIndex": 37
+    },
+    {
+     "imageOffset": 1745,
+     "imageIndex": 0
+    },
+    {
+     "imageOffset": 78280,
+     "symbol": "start",
+     "symbolLocation": 3240,
+     "imageIndex": 38
+    }
+   ]
+  },
+  {
+   "id": 16403,
+   "name": "com.apple.coreanimation.render-server",
+   "threadState": {
+    "r13": {
+     "value": 4294967552
+    },
+    "rax": {
+     "value": 260
+    },
+    "rflags": {
+     "value": 583
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 4294967552
+    },
+    "r8": {
+     "value": 0
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 0
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 160
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145318486016
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554737
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530018578
+    },
+    "rbp": {
+     "value": 123145318468016
+    },
+    "rsp": {
+     "value": 123145318467864
+    },
+    "r12": {
+     "value": 22
+    },
+    "rcx": {
+     "value": 123145318467864
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 140704618853096,
+     "symbolLocation": 0,
+     "symbol": "CA::Render::Fence::_bwait_cond_writer"
+    }
+   },
+   "frames": [
+    {
+     "imageOffset": 14098,
+     "symbol": "__psynch_cvwait",
+     "symbolLocation": 10,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 25079,
+     "symbol": "_pthread_cond_wait",
+     "symbolLocation": 994,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 3395226,
+     "symbol": "CA::Render::Fence::resolve_batches(double)",
+     "symbolLocation": 1245,
+     "imageIndex": 40
+    },
+    {
+     "imageOffset": 3393742,
+     "symbol": "CA::Render::Fence::btimeout_callback(double, void*)",
+     "symbolLocation": 542,
+     "imageIndex": 40
+    },
+    {
+     "imageOffset": 310756,
+     "symbol": "CA::Render::Server::server_thread(void*)",
+     "symbolLocation": 445,
+     "imageIndex": 40
+    },
+    {
+     "imageOffset": 310299,
+     "symbol": "thread_fun(void*)",
+     "symbolLocation": 25,
+     "imageIndex": 40
+    },
+    {
+     "imageOffset": 23881,
+     "symbol": "_pthread_start",
+     "symbolLocation": 115,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 6191,
+     "symbol": "thread_start",
+     "symbolLocation": 15,
+     "imageIndex": 31
+    }
+   ]
+  },
+  {
+   "id": 16404,
+   "threadState": {
+    "r13": {
+     "value": 140512859972344
+    },
+    "rax": {
+     "value": 0
+    },
+    "rflags": {
+     "value": 582
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 123145319006176
+    },
+    "rsi": {
+     "value": 16
+    },
+    "r8": {
+     "value": 166
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145319002512
+    },
+    "r10": {
+     "value": 140512859972344
+    },
+    "r9": {
+     "value": 4834026096,
+     "symbolLocation": 0,
+     "symbol": "nir_opt_algebraic_variable_cond"
+    },
+    "r15": {
+     "value": 123145319006048
+    },
+    "rbx": {
+     "value": 0
+    },
+    "trap": {
+     "value": 222
+    },
+    "err": {
+     "value": 0
+    },
+    "r11": {
+     "value": 744
+    },
+    "rip": {
+     "value": 4810271547
+    },
+    "rbp": {
+     "value": 123145319006160
+    },
+    "rsp": {
+     "value": 123145319004016
+    },
+    "r12": {
+     "value": 4818704304,
+     "symbolLocation": 6912,
+     "symbol": "nir_opt_algebraic_transforms"
+    },
+    "rcx": {
+     "value": 1
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145319002512
+    }
+   },
+   "queue": "com.apple.coreanimation.pipelines",
+   "frames": [
+    {
+     "imageOffset": 6171451,
+     "symbol": "nir_algebraic_impl",
+     "symbolLocation": 1323,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 4549621,
+     "symbol": "nir_opt_algebraic",
+     "symbolLocation": 2837,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 10574852,
+     "symbol": "brw_nir_optimize",
+     "symbolLocation": 996,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 10576935,
+     "symbol": "brw_preprocess_nir",
+     "symbolLocation": 1223,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 489079,
+     "symbol": "anv_shader_preprocess_nir",
+     "symbolLocation": 199,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 3606810,
+     "symbol": "vk_pipeline_precompile_shader",
+     "symbolLocation": 442,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 3571642,
+     "symbol": "vk_common_CreateGraphicsPipelines",
+     "symbolLocation": 1066,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 818434,
+     "symbol": "nvmtl_opaque_CreateGraphicsPipelines",
+     "symbolLocation": 98,
+     "imageIndex": 25
+    },
+    {
+     "imageOffset": 589252,
+     "symbol": "nvmtl_vk_pipeline_create_impl",
+     "symbolLocation": 9364,
+     "imageIndex": 25
+    },
+    {
+     "imageOffset": 100373,
+     "symbol": "nvmtl_vk_pipeline_create_rt",
+     "symbolLocation": 373,
+     "imageIndex": 25
+    },
+    {
+     "imageOffset": 72261,
+     "symbol": "-[NVMTLDevice newRenderPipelineStateWithDescriptor:error:]",
+     "symbolLocation": 6373,
+     "imageIndex": 25
+    },
+    {
+     "imageOffset": 391063,
+     "symbol": "CA::OGL::MetalContext::create_pipeline_state(CA::OGL::MetalContext::Pipeline::Spec const&, unsigned int*, std::__1::atomic<bool>*)",
+     "symbolLocation": 5851,
+     "imageIndex": 40
+    },
+    {
+     "imageOffset": 2438810,
+     "symbol": "invocation function for block in CA::OGL::MetalContext::dispatch_async_pipeline(CA::OGL::MetalContext::Pipeline::Spec const&, CA::OGL::MetalContext::Pipeline*, bool, bool)",
+     "symbolLocation": 121,
+     "imageIndex": 40
+    },
+    {
+     "imageOffset": 57780,
+     "symbol": "_dispatch_block_async_invoke2",
+     "symbolLocation": 85,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 96434,
+     "symbol": "_dispatch_client_callout",
+     "symbolLocation": 6,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 33271,
+     "symbol": "_dispatch_lane_serial_drain",
+     "symbolLocation": 775,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 35909,
+     "symbol": "_dispatch_lane_invoke",
+     "symbolLocation": 382,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 72179,
+     "symbol": "_dispatch_root_queue_drain_deferred_wlh",
+     "symbolLocation": 275,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 70581,
+     "symbol": "_dispatch_workloop_worker_thread",
+     "symbolLocation": 867,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 10271,
+     "symbol": "_pthread_wqthread",
+     "symbolLocation": 298,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 6171,
+     "symbol": "start_wqthread",
+     "symbolLocation": 15,
+     "imageIndex": 31
+    }
+   ]
+  },
+  {
+   "id": 16406,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 1
+    },
+    "rsi": {
+     "value": 12807
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145319034880
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 123145319558008
+    },
+    "rbx": {
+     "value": 123145319559168
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145319559168
+    },
+    "r12": {
+     "value": 5193732
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145319559168
+    }
+   }
+  },
+  {
+   "id": 16407,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 12547
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145319571456
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145320095744
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145320095744
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145320095744
+    }
+   }
+  },
+  {
+   "id": 16418,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 24075
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145320108032
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145320632320
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145320632320
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145320632320
+    }
+   }
+  },
+  {
+   "id": 16419,
+   "name": "IOHIDService - RunLoopCompatibilityThread",
+   "threadState": {
+    "r13": {
+     "value": 21592279046
+    },
+    "rax": {
+     "value": 268451845
+    },
+    "rflags": {
+     "value": 518
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 2
+    },
+    "rsi": {
+     "value": 21592279046
+    },
+    "r8": {
+     "value": 0
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 8589934592
+    },
+    "r10": {
+     "value": 128535486267392
+    },
+    "r9": {
+     "value": 128535486267392
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145321164800
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 16777263
+    },
+    "r11": {
+     "value": 518
+    },
+    "rip": {
+     "value": 140703530007374
+    },
+    "rbp": {
+     "value": 123145321164640
+    },
+    "rsp": {
+     "value": 123145321164536
+    },
+    "r12": {
+     "value": 128535486267392
+    },
+    "rcx": {
+     "value": 123145321164536
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145321164800
+    }
+   },
+   "frames": [
+    {
+     "imageOffset": 2894,
+     "symbol": "mach_msg2_trap",
+     "symbolLocation": 10,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 61271,
+     "symbol": "mach_msg2_internal",
+     "symbolLocation": 83,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 31590,
+     "symbol": "mach_msg_overwrite",
+     "symbolLocation": 586,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 3670,
+     "symbol": "mach_msg",
+     "symbolLocation": 19,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 509631,
+     "symbol": "__CFRunLoopServiceMachPort",
+     "symbolLocation": 145,
+     "imageIndex": 42
+    },
+    {
+     "imageOffset": 504152,
+     "symbol": "__CFRunLoopRun",
+     "symbolLocation": 1354,
+     "imageIndex": 42
+    },
+    {
+     "imageOffset": 1323879,
+     "symbol": "_CFRunLoopRunSpecificWithOptions",
+     "symbolLocation": 496,
+     "imageIndex": 42
+    },
+    {
+     "imageOffset": 972062,
+     "symbol": "CFRunLoopRun",
+     "symbolLocation": 40,
+     "imageIndex": 42
+    },
+    {
+     "imageOffset": 665645,
+     "symbol": "__IOHIDServiceRunLoopCompatibilityThread",
+     "symbolLocation": 299,
+     "imageIndex": 43
+    },
+    {
+     "imageOffset": 23881,
+     "symbol": "_pthread_start",
+     "symbolLocation": 115,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 6191,
+     "symbol": "thread_start",
+     "symbolLocation": 15,
+     "imageIndex": 31
+    }
+   ]
+  },
+  {
+   "id": 16423,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 62243
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145321181184
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145321705472
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145321705472
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145321705472
+    }
+   }
+  },
+  {
+   "id": 16433,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 51211
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145321717760
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145322242048
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145322242048
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145322242048
+    }
+   }
+  },
+  {
+   "id": 16434,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 51971
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145322254336
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145322778624
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145322778624
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145322778624
+    }
+   }
+  },
+  {
+   "id": 16435,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 52227
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145322790912
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145323315200
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145323315200
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145323315200
+    }
+   }
+  },
+  {
+   "id": 16436,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 52751
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145323327488
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145323851776
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145323851776
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145323851776
+    }
+   }
+  },
+  {
+   "id": 16437,
+   "threadState": {
+    "r13": {
+     "value": 21525170178
+    },
+    "rax": {
+     "value": 268451845
+    },
+    "rflags": {
+     "value": 514
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 2
+    },
+    "rsi": {
+     "value": 21525170178
+    },
+    "r8": {
+     "value": 0
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 8589934592
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 394737559273472
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145324386128
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 16777263
+    },
+    "r11": {
+     "value": 514
+    },
+    "rip": {
+     "value": 140703530007374
+    },
+    "rbp": {
+     "value": 123145324385968
+    },
+    "rsp": {
+     "value": 123145324385864
+    },
+    "r12": {
+     "value": 394737559273472
+    },
+    "rcx": {
+     "value": 123145324385864
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145324386128
+    }
+   },
+   "queue": "com.apple.VirtualDisplayListener",
+   "frames": [
+    {
+     "imageOffset": 2894,
+     "symbol": "mach_msg2_trap",
+     "symbolLocation": 10,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 61271,
+     "symbol": "mach_msg2_internal",
+     "symbolLocation": 83,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 31590,
+     "symbol": "mach_msg_overwrite",
+     "symbolLocation": 586,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 39878,
+     "symbol": "mach_msg_server_once",
+     "symbolLocation": 266,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 66051,
+     "symbol": "-[VirtualDisplayListener rx]",
+     "symbolLocation": 77,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 5654,
+     "symbol": "_dispatch_call_block_and_release",
+     "symbolLocation": 12,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 96434,
+     "symbol": "_dispatch_client_callout",
+     "symbolLocation": 6,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 33271,
+     "symbol": "_dispatch_lane_serial_drain",
+     "symbolLocation": 775,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 35909,
+     "symbol": "_dispatch_lane_invoke",
+     "symbolLocation": 382,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 72179,
+     "symbol": "_dispatch_root_queue_drain_deferred_wlh",
+     "symbolLocation": 275,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 70581,
+     "symbol": "_dispatch_workloop_worker_thread",
+     "symbolLocation": 867,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 10271,
+     "symbol": "_pthread_wqthread",
+     "symbolLocation": 298,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 6171,
+     "symbol": "start_wqthread",
+     "symbolLocation": 15,
+     "imageIndex": 31
+    }
+   ]
+  },
+  {
+   "id": 16438,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 1
+    },
+    "rsi": {
+     "value": 99607
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145324400640
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 123145324923768
+    },
+    "rbx": {
+     "value": 123145324924928
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145324924928
+    },
+    "r12": {
+     "value": 5193732
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145324924928
+    }
+   }
+  },
+  {
+   "id": 16439,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 116127
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145324937216
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145325461504
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145325461504
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145325461504
+    }
+   }
+  },
+  {
+   "id": 16459,
+   "name": "Window:traceq0",
+   "threadState": {
+    "r13": {
+     "value": 4294967552
+    },
+    "rax": {
+     "value": 260
+    },
+    "rflags": {
+     "value": 583
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 4294967552
+    },
+    "r8": {
+     "value": 0
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 0
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 160
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145325998080
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554737
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530018578
+    },
+    "rbp": {
+     "value": 123145325997696
+    },
+    "rsp": {
+     "value": 123145325997544
+    },
+    "r12": {
+     "value": 22
+    },
+    "rcx": {
+     "value": 123145325997544
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 140513126810312
+    }
+   },
+   "frames": [
+    {
+     "imageOffset": 14098,
+     "symbol": "__psynch_cvwait",
+     "symbolLocation": 10,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 25079,
+     "symbol": "_pthread_cond_wait",
+     "symbolLocation": 994,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 4502521,
+     "symbol": "cnd_wait",
+     "symbolLocation": 9,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 4217311,
+     "symbol": "util_queue_thread_func",
+     "symbolLocation": 591,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 4503097,
+     "symbol": "impl_thrd_routine",
+     "symbolLocation": 25,
+     "imageIndex": 26
+    },
+    {
+     "imageOffset": 23881,
+     "symbol": "_pthread_start",
+     "symbolLocation": 115,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 6191,
+     "symbol": "thread_start",
+     "symbolLocation": 15,
+     "imageIndex": 31
+    }
+   ]
+  },
+  {
+   "id": 16468,
+   "name": "com.apple.windowserver.root_queue",
+   "threadState": {
+    "r13": {
+     "value": 18446744071411073023
+    },
+    "rax": {
+     "value": 14
+    },
+    "rflags": {
+     "value": 518
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 140513100452752
+    },
+    "rsi": {
+     "value": 4294966960992550916
+    },
+    "r8": {
+     "value": 1
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 999999922
+    },
+    "r10": {
+     "value": 4999999922
+    },
+    "r9": {
+     "value": 203
+    },
+    "r15": {
+     "value": 1000000000
+    },
+    "rbx": {
+     "value": 159406048030
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 16777254
+    },
+    "r11": {
+     "value": 518
+    },
+    "rip": {
+     "value": 140703530007266
+    },
+    "rbp": {
+     "value": 123145326534464
+    },
+    "rsp": {
+     "value": 123145326534424
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 123145326534424
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 8451
+    }
+   },
+   "frames": [
+    {
+     "imageOffset": 2786,
+     "symbol": "semaphore_timedwait_trap",
+     "symbolLocation": 10,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 196999,
+     "symbol": "_dispatch_sema4_timedwait",
+     "symbolLocation": 52,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 11903,
+     "symbol": "_dispatch_semaphore_wait_slow",
+     "symbolLocation": 58,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 67438,
+     "symbol": "_dispatch_worker_thread",
+     "symbolLocation": 322,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 23881,
+     "symbol": "_pthread_start",
+     "symbolLocation": 115,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 6191,
+     "symbol": "thread_start",
+     "symbolLocation": 15,
+     "imageIndex": 31
+    }
+   ]
+  },
+  {
+   "id": 16474,
+   "frames": [
+    {
+     "imageOffset": 2894,
+     "symbol": "mach_msg2_trap",
+     "symbolLocation": 10,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 61271,
+     "symbol": "mach_msg2_internal",
+     "symbolLocation": 83,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 31590,
+     "symbol": "mach_msg_overwrite",
+     "symbolLocation": 586,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 3670,
+     "symbol": "mach_msg",
+     "symbolLocation": 19,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 188556,
+     "symbol": "CoreDisplay::Mach::Message::Receive(unsigned int)",
+     "symbolLocation": 80,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 941750,
+     "symbol": "CoreDisplay::Mach::Server::Start()",
+     "symbolLocation": 92,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 941917,
+     "symbol": "void* std::__1::__thread_proxy[abi:nqe210106]<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct>>, void (CoreDisplay::Mach::Server::*)(), CoreDisplay::Mach::Server*>>(void*)",
+     "symbolLocation": 79,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 23881,
+     "symbol": "_pthread_start",
+     "symbolLocation": 115,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 6191,
+     "symbol": "thread_start",
+     "symbolLocation": 15,
+     "imageIndex": 31
+    }
+   ],
+   "threadState": {
+    "r13": {
+     "value": 21525170182
+    },
+    "rax": {
+     "value": 268451845
+    },
+    "rflags": {
+     "value": 518
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 2
+    },
+    "rsi": {
+     "value": 21525170182
+    },
+    "r8": {
+     "value": 0
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 8589934592
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 540216691523584
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145327070640
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 16777263
+    },
+    "r11": {
+     "value": 518
+    },
+    "rip": {
+     "value": 140703530007374
+    },
+    "rbp": {
+     "value": 123145327070480
+    },
+    "rsp": {
+     "value": 123145327070376
+    },
+    "r12": {
+     "value": 540216691523584
+    },
+    "rcx": {
+     "value": 123145327070376
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145327070640
+    }
+   }
+  },
+  {
+   "id": 16530,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 99195
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145327083520
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145327607808
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145327607808
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145327607808
+    }
+   }
+  },
+  {
+   "id": 16531,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 99843
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145327620096
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145328144384
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145328144384
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145328144384
+    }
+   }
+  },
+  {
+   "id": 16532,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 115203
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145328156672
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145328680960
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145328680960
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145328680960
+    }
+   }
+  },
+  {
+   "id": 16533,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 100099
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145328693248
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145329217536
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145329217536
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145329217536
+    }
+   }
+  },
+  {
+   "id": 16534,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 100355
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145329229824
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145329754112
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145329754112
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145329754112
+    }
+   }
+  },
+  {
+   "id": 16535,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 100611
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145329766400
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145330290688
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145330290688
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145330290688
+    }
+   }
+  },
+  {
+   "id": 16536,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 100867
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145330302976
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145330827264
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145330827264
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145330827264
+    }
+   }
+  },
+  {
+   "id": 16537,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 101123
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145330839552
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145331363840
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145331363840
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145331363840
+    }
+   }
+  },
+  {
+   "id": 16538,
+   "threadState": {
+    "r13": {
+     "value": 123145331898344
+    },
+    "rax": {
+     "value": 14
+    },
+    "rflags": {
+     "value": 514
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 105553169039424
+    },
+    "rsi": {
+     "value": 4294952250729562116
+    },
+    "r8": {
+     "value": 1
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 999996497
+    },
+    "r10": {
+     "value": 4999996497
+    },
+    "r9": {
+     "value": 457409722056704
+    },
+    "r15": {
+     "value": 1000000000
+    },
+    "rbx": {
+     "value": 156481146504
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 16777254
+    },
+    "r11": {
+     "value": 514
+    },
+    "rip": {
+     "value": 140703530007266
+    },
+    "rbp": {
+     "value": 123145331898192
+    },
+    "rsp": {
+     "value": 123145331898152
+    },
+    "r12": {
+     "value": 123145331898256
+    },
+    "rcx": {
+     "value": 123145331898152
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 117775
+    }
+   },
+   "queue": "com.apple.CoreDisplay.subsidiary.services.queue",
+   "frames": [
+    {
+     "imageOffset": 2786,
+     "symbol": "semaphore_timedwait_trap",
+     "symbolLocation": 10,
+     "imageIndex": 30
+    },
+    {
+     "imageOffset": 196999,
+     "symbol": "_dispatch_sema4_timedwait",
+     "symbolLocation": 52,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 11903,
+     "symbol": "_dispatch_semaphore_wait_slow",
+     "symbolLocation": 58,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 7804,
+     "symbol": "serviceSendMessageWithReplyAndTimeout",
+     "symbolLocation": 303,
+     "imageIndex": 44
+    },
+    {
+     "imageOffset": 102981,
+     "symbol": "AMBDapplyIntentionFromPreferencesForDisplayID",
+     "symbolLocation": 936,
+     "imageIndex": 44
+    },
+    {
+     "imageOffset": 500769,
+     "symbol": "invocation function for block in ColorSyncUtilsUpdateDisplayProfilesCallback(void*, double)",
+     "symbolLocation": 47,
+     "imageIndex": 36
+    },
+    {
+     "imageOffset": 5654,
+     "symbol": "_dispatch_call_block_and_release",
+     "symbolLocation": 12,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 96434,
+     "symbol": "_dispatch_client_callout",
+     "symbolLocation": 6,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 33271,
+     "symbol": "_dispatch_lane_serial_drain",
+     "symbolLocation": 775,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 35909,
+     "symbol": "_dispatch_lane_invoke",
+     "symbolLocation": 382,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 72179,
+     "symbol": "_dispatch_root_queue_drain_deferred_wlh",
+     "symbolLocation": 275,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 70581,
+     "symbol": "_dispatch_workloop_worker_thread",
+     "symbolLocation": 867,
+     "imageIndex": 41
+    },
+    {
+     "imageOffset": 10271,
+     "symbol": "_pthread_wqthread",
+     "symbolLocation": 298,
+     "imageIndex": 31
+    },
+    {
+     "imageOffset": 6171,
+     "symbol": "start_wqthread",
+     "symbolLocation": 15,
+     "imageIndex": 31
+    }
+   ]
+  },
+  {
+   "id": 16539,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 101635
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145331912704
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145332436992
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145332436992
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145332436992
+    }
+   }
+  },
+  {
+   "id": 16540,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 114947
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145332449280
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145332973568
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145332973568
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145332973568
+    }
+   }
+  },
+  {
+   "id": 16541,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 114691
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145332985856
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145333510144
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145333510144
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145333510144
+    }
+   }
+  },
+  {
+   "id": 16542,
+   "frames": [],
+   "threadState": {
+    "r13": {
+     "value": 0
+    },
+    "rax": {
+     "value": 33554800
+    },
+    "rflags": {
+     "value": 512
+    },
+    "cpu": {
+     "value": 0
+    },
+    "r14": {
+     "value": 0
+    },
+    "rsi": {
+     "value": 114435
+    },
+    "r8": {
+     "value": 409604
+    },
+    "cr2": {
+     "value": 0
+    },
+    "rdx": {
+     "value": 123145333522432
+    },
+    "r10": {
+     "value": 0
+    },
+    "r9": {
+     "value": 18446744073709551615
+    },
+    "r15": {
+     "value": 0
+    },
+    "rbx": {
+     "value": 123145334046720
+    },
+    "trap": {
+     "value": 133
+    },
+    "err": {
+     "value": 33554800
+    },
+    "r11": {
+     "value": 582
+    },
+    "rip": {
+     "value": 140703530268684
+    },
+    "rbp": {
+     "value": 0
+    },
+    "rsp": {
+     "value": 123145334046720
+    },
+    "r12": {
+     "value": 0
+    },
+    "rcx": {
+     "value": 0
+    },
+    "flavor": "x86_THREAD_STATE",
+    "rdi": {
+     "value": 123145334046720
+    }
+   }
+  }
+ ],
+ "usedImages": [
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4542087168,
+   "size": 8192,
+   "uuid": "UUID-196",
+   "path": "/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/WindowServer",
+   "name": "WindowServer"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4560027648,
+   "size": 8396800,
+   "uuid": "UUID-200",
+   "path": "/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/CursorAsset",
+   "name": "CursorAsset"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4543401984,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.iokit.hid.IOHIDNXEventTranslatorSessionFilter",
+   "size": 40960,
+   "uuid": "UUID-201",
+   "path": "/System/Library/HIDPlugins/IOHIDNXEventTranslatorSessionFilter.plugin/Contents/MacOS/IOHIDNXEventTranslatorSessionFilter",
+   "name": "IOHIDNXEventTranslatorSessionFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4543324160,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.iokit.hid.IOHIDDFREventFilter",
+   "size": 12288,
+   "uuid": "UUID-202",
+   "path": "/System/Library/HIDPlugins/IOHIDDFREventFilter.plugin/Contents/MacOS/IOHIDDFREventFilter",
+   "name": "IOHIDDFREventFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4543504384,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.HIDRMSessionFilter",
+   "size": 12288,
+   "uuid": "UUID-203",
+   "path": "/System/Library/HIDPlugins/SessionFilters/HIDRMSessionFilter.plugin/Contents/MacOS/HIDRMSessionFilter",
+   "name": "HIDRMSessionFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4544282624,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.IOAnalytics",
+   "size": 143360,
+   "uuid": "UUID-204",
+   "path": "/System/Library/HIDPlugins/SessionFilters/IOAnalytics.plugin/Contents/MacOS/IOAnalytics",
+   "name": "IOAnalytics",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4543889408,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.IOHIDRemoteSensorSessionFilter",
+   "size": 8192,
+   "uuid": "UUID-205",
+   "path": "/System/Library/HIDPlugins/SessionFilters/IOHIDRemoteSensorSessionFilter.plugin/Contents/MacOS/IOHIDRemoteSensorSessionFilter",
+   "name": "IOHIDRemoteSensorSessionFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4543938560,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.IOHIDTelemetrySessionFilter",
+   "size": 12288,
+   "uuid": "UUID-206",
+   "path": "/System/Library/HIDPlugins/SessionFilters/IOHIDTelemetrySessionFilter.plugin/Contents/MacOS/IOHIDTelemetrySessionFilter",
+   "name": "IOHIDTelemetrySessionFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4543164416,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.CoreRCPlugin",
+   "size": 32768,
+   "uuid": "UUID-207",
+   "path": "/System/Library/HIDPlugins/SessionFilters/CoreRCPlugin.plugin/Contents/MacOS/CoreRCPlugin",
+   "name": "CoreRCPlugin",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4543238144,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.MultitouchSessionFilter",
+   "size": 36864,
+   "uuid": "UUID-208",
+   "path": "/System/Library/HIDPlugins/SessionFilters/MultitouchSessionFilter.plugin/Contents/MacOS/MultitouchSessionFilter",
+   "name": "MultitouchSessionFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4549165056,
+   "CFBundleIdentifier": "com.apple.hid.HSTouchHIDService",
+   "size": 1077248,
+   "uuid": "UUID-209",
+   "path": "/System/Library/HIDPlugins/ServicePlugins/HSTouchHIDService.plugin/Contents/MacOS/HSTouchHIDService",
+   "name": "HSTouchHIDService"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4544131072,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.IOHIDEventServicePlugin",
+   "size": 16384,
+   "uuid": "UUID-210",
+   "path": "/System/Library/HIDPlugins/ServicePlugins/IOHIDEventServicePlugin.plugin/Contents/MacOS/IOHIDEventServicePlugin",
+   "name": "IOHIDEventServicePlugin",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4544978944,
+   "CFBundleShortVersionString": "2.0.0",
+   "CFBundleIdentifier": "com.apple.iokit.IOHIDLib",
+   "size": 94208,
+   "uuid": "UUID-211",
+   "path": "/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDLib.plugin/Contents/MacOS/IOHIDLib",
+   "name": "IOHIDLib",
+   "CFBundleVersion": "2.0.0"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4543991808,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.iokit.hid.IOHIDNXEventTranslatorServiceFilter",
+   "size": 12288,
+   "uuid": "UUID-212",
+   "path": "/System/Library/HIDPlugins/IOHIDNXEventTranslatorServiceFilter.plugin/Contents/MacOS/IOHIDNXEventTranslatorServiceFilter",
+   "name": "IOHIDNXEventTranslatorServiceFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4544622592,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.hid.ColourSensorFilterPlugin",
+   "size": 106496,
+   "uuid": "UUID-213",
+   "path": "/System/Library/HIDPlugins/ColourSensorFilterPlugin.plugin/Contents/MacOS/ColourSensorFilterPlugin",
+   "name": "ColourSensorFilterPlugin",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4544790528,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.iokit.hid.IOHIDPointerScrollFilter",
+   "size": 45056,
+   "uuid": "UUID-214",
+   "path": "/System/Library/HIDPlugins/IOHIDPointerScrollFilter.plugin/Contents/MacOS/IOHIDPointerScrollFilter",
+   "name": "IOHIDPointerScrollFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4544045056,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.iokit.hid.IOHIDEventProcessorFilter",
+   "size": 20480,
+   "uuid": "UUID-215",
+   "path": "/System/Library/HIDPlugins/IOHIDEventProcessorFilter.plugin/Contents/MacOS/IOHIDEventProcessorFilter",
+   "name": "IOHIDEventProcessorFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4544188416,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.hid.ReportIntervalServiceFilter",
+   "size": 24576,
+   "uuid": "UUID-216",
+   "path": "/System/Library/HIDPlugins/ServiceFilters/ReportIntervalServiceFilter.plugin/Contents/MacOS/ReportIntervalServiceFilter",
+   "name": "ReportIntervalServiceFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4547026944,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.universalcontrol.servicefilter",
+   "size": 651264,
+   "uuid": "UUID-217",
+   "path": "/System/Library/HIDPlugins/ServiceFilters/UniversalControlServiceFilter.plugin/Contents/MacOS/UniversalControlServiceFilter",
+   "name": "UniversalControlServiceFilter",
+   "CFBundleVersion": "174.4.1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4544913408,
+   "CFBundleShortVersionString": "2.0.0",
+   "CFBundleIdentifier": "com.apple.iokit.IOHIDNXEventRouter",
+   "size": 8192,
+   "uuid": "UUID-218",
+   "path": "/System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDNXEventRouter.plugin/Contents/MacOS/IOHIDNXEventRouter",
+   "name": "IOHIDNXEventRouter",
+   "CFBundleVersion": "2.0.0"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4545486848,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.iokit.hid.IOHIDKeyboardFilter",
+   "size": 53248,
+   "uuid": "UUID-220",
+   "path": "/System/Library/HIDPlugins/IOHIDKeyboardFilter.plugin/Contents/MacOS/IOHIDKeyboardFilter",
+   "name": "IOHIDKeyboardFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4545314816,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.KeyboardTelemetryServiceFilter",
+   "size": 24576,
+   "uuid": "UUID-221",
+   "path": "/System/Library/HIDPlugins/ServiceFilters/KeyboardTelemetryServiceFilter.plugin/Contents/MacOS/KeyboardTelemetryServiceFilter",
+   "name": "KeyboardTelemetryServiceFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4545138688,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.HIDRMServiceFilter",
+   "size": 36864,
+   "uuid": "UUID-219",
+   "path": "/System/Library/HIDPlugins/ServiceFilters/HIDRMServiceFilter.plugin/Contents/MacOS/HIDRMServiceFilter",
+   "name": "HIDRMServiceFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4545216512,
+   "CFBundleShortVersionString": "1.0",
+   "CFBundleIdentifier": "com.apple.corebrightness.KeyboardBacklightServiceFilter",
+   "size": 53248,
+   "uuid": "UUID-222",
+   "path": "/System/Library/HIDPlugins/ServiceFilters/KeyboardBacklightServiceFilter.plugin/Contents/MacOS/KeyboardBacklightServiceFilter",
+   "name": "KeyboardBacklightServiceFilter",
+   "CFBundleVersion": "1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4546334720,
+   "CFBundleShortVersionString": "487.4.4",
+   "CFBundleIdentifier": "com.apple.driver.IOAccelerator2D",
+   "size": 4096,
+   "uuid": "UUID-223",
+   "path": "/System/Library/Extensions/IOAccelerator2D.plugin/Contents/MacOS/IOAccelerator2D",
+   "name": "IOAccelerator2D",
+   "CFBundleVersion": "487.4.4"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4586463232,
+   "CFBundleShortVersionString": "0.1",
+   "CFBundleIdentifier": "com.nullmoth.NVMTLDriver",
+   "size": 1073152,
+   "uuid": "UUID-597",
+   "path": "/Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/NVMTLDriver",
+   "name": "NVMTLDriver",
+   "CFBundleVersion": "0.1"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4804100096,
+   "size": 29704192,
+   "uuid": "UUID-598",
+   "path": "/Library/GPUBundles/*/libvulkan_intel.dylib",
+   "name": "libvulkan_intel.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4547969024,
+   "size": 61440,
+   "uuid": "UUID-599",
+   "path": "/Library/GPUBundles/*/libdrm.2.dylib",
+   "name": "libdrm.2.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 5545070592,
+   "size": 11919360,
+   "uuid": "UUID-590",
+   "path": "/Library/GPUBundles/NVMTLDriver.bundle/Contents/MacOS/libnvmtl_translate.dylib",
+   "name": "libnvmtl_translate.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 4548579328,
+   "size": 73728,
+   "uuid": "UUID-227",
+   "path": "/System/Library/CoreServices/TouchBarEvent.bundle",
+   "name": "TouchBarEvent.bundle"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703530004480,
+   "size": 255440,
+   "uuid": "UUID-228",
+   "path": "/usr/lib/system/libsystem_kernel.dylib",
+   "name": "libsystem_kernel.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703530262528,
+   "size": 48832,
+   "uuid": "UUID-229",
+   "path": "/usr/lib/system/libsystem_pthread.dylib",
+   "name": "libsystem_pthread.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703528779776,
+   "size": 556704,
+   "uuid": "UUID-230",
+   "path": "/usr/lib/system/libsystem_c.dylib",
+   "name": "libsystem_c.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703529906176,
+   "size": 95736,
+   "uuid": "UUID-326",
+   "path": "/usr/lib/libc++abi.dylib",
+   "name": "libc++abi.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64h",
+   "base": 140703525646336,
+   "size": 279436,
+   "uuid": "UUID-238",
+   "path": "/usr/lib/libobjc.A.dylib",
+   "name": "libobjc.A.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703798513664,
+   "size": 34152,
+   "uuid": "UUID-600",
+   "path": "/usr/lib/system/libunwind.dylib",
+   "name": "libunwind.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703568789504,
+   "CFBundleShortVersionString": "291.4",
+   "CFBundleIdentifier": "com.apple.CoreDisplay",
+   "size": 1216063,
+   "uuid": "UUID-234",
+   "path": "/System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay",
+   "name": "CoreDisplay",
+   "CFBundleVersion": "291.4"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703634468864,
+   "CFBundleShortVersionString": "1.600.0",
+   "CFBundleIdentifier": "com.apple.SkyLight",
+   "size": 5617701,
+   "uuid": "UUID-260",
+   "path": "/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight",
+   "name": "SkyLight"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703526121472,
+   "size": 706640,
+   "uuid": "UUID-243",
+   "path": "/usr/lib/dyld",
+   "name": "dyld"
+  },
+  {
+   "size": 0,
+   "source": "A",
+   "base": 0,
+   "uuid": "00000000-0000-0000-0000-000000000000"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703700135936,
+   "CFBundleShortVersionString": "1195.17.2",
+   "CFBundleIdentifier": "com.apple.QuartzCore",
+   "size": 4091859,
+   "uuid": "UUID-231",
+   "path": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+   "name": "QuartzCore",
+   "CFBundleVersion": "1195.17.2"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703528472576,
+   "size": 294290,
+   "uuid": "UUID-235",
+   "path": "/usr/lib/system/libdispatch.dylib",
+   "name": "libdispatch.dylib"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64h",
+   "base": 140703530545152,
+   "CFBundleShortVersionString": "6.9",
+   "CFBundleIdentifier": "com.apple.CoreFoundation",
+   "size": 4971013,
+   "uuid": "UUID-232",
+   "path": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+   "name": "CoreFoundation",
+   "CFBundleVersion": "5026.6.7.2"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140703595044864,
+   "CFBundleShortVersionString": "2.0.2",
+   "CFBundleIdentifier": "com.apple.framework.IOKit",
+   "size": 841048,
+   "uuid": "UUID-233",
+   "path": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+   "name": "IOKit"
+  },
+  {
+   "source": "P",
+   "arch": "x86_64",
+   "base": 140707783725056,
+   "CFBundleShortVersionString": "150",
+   "CFBundleIdentifier": "com.apple.AmbientDisplay",
+   "size": 192789,
+   "uuid": "UUID-601",
+   "path": "/System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/AmbientDisplay",
+   "name": "AmbientDisplay",
+   "CFBundleVersion": "150"
+  }
+ ],
+ "sharedCache": {
+  "base": 140703481466880,
+  "size": 30064771072,
+  "uuid": "UUID-236"
+ },
+ "vmSummary": "ReadOnly portion of Libraries: Total=800.0M resident=0K(0%) swapped_out_or_unallocated=800.0M(100%)\nWritable regions: Total=5.5G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=5.5G(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nActivity Tracing                   256K        1 \nCG backing stores                   16K        3 \nCG framebuffers                  903.0M        8 \nCG framebuffers (reserved)       582.1M        7         reserved VM address space (unallocated)\nColorSync                            8K        2 \nCoreAnimation                       44K        3 \nCoreGraphics                        16K        3 \nFoundation                        7620K       12 \nKernel Alloc Once                    8K        1 \nMALLOC                             4.0G      130 \nMALLOC guard page                   48K       12 \nMach message                         8K        1 \nMach message (reserved)              4K        1         reserved VM address space (unallocated)\nSTACK GUARD                       56.1M       31 \nStack                             23.7M       31 \nVM_ALLOCATE                       15.2M       17 \nVM_ALLOCATE (reserved)               4K        1         reserved VM address space (unallocated)\n__CGSERVER                           4K        1 \n__CTF                               824        1 \n__DATA                            16.7M      502 \n__DATA_CONST                      69.0M      549 \n__DATA_DIRTY                      2884K      437 \n__FONT_DATA                        2352        1 \n__LINKEDIT                       162.0M       32 \n__OBJC_RO                         65.2M        1 \n__OBJC_RW                         2598K        3 \n__SLSERVER                           4K        1 \n__TEXT                           638.0M      562 \n__TPRO_CONST                         16        2 \nmapped file                       34.5M       13 \nshared memory                     1256K       30 \n===========                     =======  ======= \nTOTAL                              6.5G     2399 \nTOTAL, minus reserved VM space     5.9G     2399 \n",
+ "legacyInfo": {
+  "threadTriggered": {
+   "name": "ws_main_thread",
+   "queue": "com.apple.main-thread"
+  }
+ },
+ "logWritingSignature": "48f0e0fa26a90be885a2b92908c0f48978f5ba6a",
+ "roots_installed": 0,
+ "bug_type": "309",
+ "trmStatus": 2105856
+}
