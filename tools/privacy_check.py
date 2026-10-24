@@ -41,7 +41,7 @@ def rescrub(mapping) -> int:
         machine = "/".join(meta_p.parts[-4:-2])
         table = mapping["machines"].get(machine, {})
         pairs = sorted(((v, t) for kind in table.values() for v, t in kind.items()
-                        if len(v) >= 4 and not PLACEHOLDER.match(v)), key=lambda p: -len(p[0]))
+                        if len(v) >= 4 and not PLACEHOLDER.match(v) and not TOKEN_SHAPE.match(v)), key=lambda p: -len(p[0]))
         meta = json.loads(meta_p.read_text(encoding="utf-8"))
         for f in meta_p.parent.iterdir():
             if f.name == "meta.json":

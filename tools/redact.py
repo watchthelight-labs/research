@@ -115,6 +115,8 @@ class Tokens:
 
     def get(self, kind: str, value: str) -> str:
         key = value.strip().strip("\"<>").strip()
+        if TOKEN_SHAPE.match(key):     # already one of ours (HOST-1.local): a rescrub must not renumber it
+            return key
         norm = key.upper() if kind in ("MAC", "UUID", "SERIAL", "MLB", "ROM") else key
         if kind == "MAC":
             norm = norm.replace("-", ":")
