@@ -1,0 +1,22 @@
+{
+ "collected": "2026-10-24",
+ "component": "native",
+ "files": {
+  "README.md": "f8eb02327f6b0e6fe8eeb6fe2802fd6e9dd4cc5c0cab2eaca8b842972aec8d59",
+  "windowserver-crash-060555-summary.txt": "45ad22af039f46b8d6b8efcd9ece763c3d3a7826a5ecdce2d4f6d26e3c11987a",
+  "ws-progress.txt": "205e4b3176b86116c4693f4d1e7b66f65536c73b6463fb45dab08b48bd647131",
+  "ws.txt": "3db5814990a45204a265d6a911660846eec466b97ef69a423840afed2c1d8402",
+  "xe-guard-state-after.json": "b3a4410afafb51a57441db01c9140c6e07e8a1fc53c2058b5f5955e462ea2b1d"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v2"
+ },
+ "source": "N-277",
+ "username": "watchthelight"
+}

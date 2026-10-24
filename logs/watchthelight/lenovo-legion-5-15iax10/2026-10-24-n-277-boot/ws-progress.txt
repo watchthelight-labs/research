@@ -1,0 +1,11 @@
+06:06:28 ws 2183 copies/iop/vm/perform/clientset 77 0 8 0 11 | max_us 48 long 0 panic 1
+06:06:33 ws 2183 copies/iop/vm/perform/clientset 89 0 8 0 11 | max_us 48 long 0 panic 1
+06:06:38 ws 2183 copies/iop/vm/perform/clientset 101 0 8 0 11 | max_us 48 long 0 panic 1
+06:06:44 ws 2183 copies/iop/vm/perform/clientset 113 0 8 0 11 | max_us 48 long 0 panic 1
+06:06:49 ws 2183 copies/iop/vm/perform/clientset 125 0 9 0 11 | max_us 48 long 0 panic 1
+06:06:54 ws 2183 copies/iop/vm/perform/clientset 137 0 9 0 11 | max_us 48 long 0 panic 1
+06:07:00 ws 2183 copies/iop/vm/perform/clientset 149 0 9 0 11 | max_us 48 long 0 panic 1
+06:07:05 ws 2183 copies/iop/vm/perform/clientset 161 0 9 0 11 | max_us 48 long 0 panic 1
+06:07:10 ws 2183 copies/iop/vm/perform/clientset 173 0 9 0 11 | max_us 48 long 0 panic 1
+06:07:16 ws 2183 copies/iop/vm/perform/clientset 185 0 9 0 11 | max_us 48 long 0 panic 1
+06:07:21 ws 2183 copies/iop/vm/perform/clientset 197 0 9 0 11 | max_us 48 long 0 panic 1

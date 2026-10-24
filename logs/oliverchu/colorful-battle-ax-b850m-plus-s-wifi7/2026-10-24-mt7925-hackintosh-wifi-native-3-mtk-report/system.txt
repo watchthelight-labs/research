@@ -1,5 +1,5 @@
 ProductName:		macOS
 ProductVersion:		26.7.1
 BuildVersion:		25G241
-Darwin HOST-5.local 25.6.0 Darwin Kernel Version 25.6.0: Tue Aug 18 17:46:40 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_X86_64 x86_64
+Darwin HOST-6.local 25.6.0 Darwin Kernel Version 25.6.0: Tue Aug 18 17:46:40 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_X86_64 x86_64
 -v debug=0x100 keepsyms=1 -amfipassbeta revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 gfxrst=4 mtkfe=native mtknativeif=1 

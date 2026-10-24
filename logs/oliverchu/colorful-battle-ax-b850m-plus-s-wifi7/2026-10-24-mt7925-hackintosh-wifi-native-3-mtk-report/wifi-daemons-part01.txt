@@ -7373,7 +7373,7 @@
 2026-10-24 04:12:27.595 Df configd[105:472] [com.apple.IPConfiguration:Server] en0 link ACTIVE
 2026-10-24 04:12:27.596 Df configd[105:472] [com.apple.IPConfiguration:Server] DHCP en0: INIT/REBOOT
 2026-10-24 04:12:27.596 Df configd[105:472] [com.apple.IPConfiguration:Server] dhcp_init_reboot(en0) requesting IP-18
-2026-10-24 04:12:27.596 Df configd[105:472] [com.apple.IPConfiguration:Server] DHCP en0: supplying hostname 'HOST-5'
+2026-10-24 04:12:27.596 Df configd[105:472] [com.apple.IPConfiguration:Server] DHCP en0: supplying hostname 'HOST-6'
 2026-10-24 04:12:27.596 Df configd[105:472] [com.apple.IPConfiguration:Server] DHCP en0: ARP router: No leases to query for
 2026-10-24 04:12:27.597 Df configd[105:472] [com.apple.IPConfiguration:Server] DHCP en0: INIT-REBOOT (IP-18) waiting at 0 for 1.843761
 2026-10-24 04:12:27.597 Df configd[105:472] [com.apple.IPConfiguration:Server] RTADV en0: link-local address is ready, starting
@@ -7434,10 +7434,10 @@
     "State:/Network/Global/IPv4",
     "State:/Network/Global/IPv6"
 ))
-2026-10-24 04:12:33.528 Df configd[105:476] [com.apple.IPConfiguration:Server] DHCPv6 en0: added FQDN option for 'HOST-5'
+2026-10-24 04:12:33.528 Df configd[105:476] [com.apple.IPConfiguration:Server] DHCPv6 en0: added FQDN option for 'HOST-6'
 2026-10-24 04:12:33.712 Df configd[105:46f] [com.apple.IPConfiguration:Server] AUTOMATIC-V6 en0: publish success { IPv6, DNS, DHCPv6 }
 2026-10-24 04:12:33.712 Df configd[105:46f] [com.apple.IPConfiguration:Server] en0: DHCPv6 client still active
-2026-10-24 04:12:34.223 Df configd[105:476] [com.apple.IPConfiguration:Server] DHCPv6 en0: added FQDN option for 'HOST-5'
+2026-10-24 04:12:34.223 Df configd[105:476] [com.apple.IPConfiguration:Server] DHCPv6 en0: added FQDN option for 'HOST-6'
 2026-10-24 04:12:34.224 Df configd[105:476] [com.apple.IPConfiguration:Server] DHCPv6-NA en0: set address IP-16/64 valid 43200 preferred 43200
 2026-10-24 04:12:34.225 Df configd[105:476] [com.apple.IPConfiguration:Server] AUTOMATIC-V6 en0: publish success { IPv6, DNS, DHCPv6 }
 2026-10-24 04:12:34.226 Df airportd[220:6e2] [com.apple.WiFiManager:] [corewifi] @[12.167853] __SCDynamicStoreCallBack (CWFSCNetworkConfiguration.m:61) SCNetworkConfiguration event: keys=<private>
@@ -14814,7 +14814,7 @@ Invalidation reason: Connection init failed at lookup with error 3 - No such pro
 2026-10-24 04:19:08.972 Df configd[105:3b4] [com.apple.IPConfiguration:Server] DHCP en0: INIT/REBOOT
 2026-10-24 04:19:08.972 Df configd[105:3b4] [com.apple.IPConfiguration:Server] dhcp_init_reboot(en0) requesting IP-18
 2026-10-24 04:19:08.972 I  configd[105:3b4] [com.apple.IPConfiguration:Server] en0: IPv6OnlyPreferred is possible
-2026-10-24 04:19:08.972 Df configd[105:3b4] [com.apple.IPConfiguration:Server] DHCP en0: supplying hostname 'HOST-5'
+2026-10-24 04:19:08.972 Df configd[105:3b4] [com.apple.IPConfiguration:Server] DHCP en0: supplying hostname 'HOST-6'
 2026-10-24 04:19:08.972 I  configd[105:3b4] [com.apple.IPConfiguration:Server] en0: SIOCAUTOADDR success
 2026-10-24 04:19:08.972 I  configd[105:3b4] [com.apple.IPConfiguration:Server] DHCP en0: busy
 2026-10-24 04:19:08.972 I  configd[105:3b4] [com.apple.IPConfiguration:Server] en0: busy
@@ -15586,7 +15586,7 @@ Invalidation reason: Connection init failed at lookup with error 3 - No such pro
 ))
 2026-10-24 04:19:14.303 Df airportd[220:6d7] [com.apple.wifi.analytics:Default] -[WAClient _wakeUpNotificationForThisClientReceived:]_block_invoke::1125:XPC: Received 'wake up' notification, but this client has no indication the connection is dead (daemonConnectionValid == true). Not starting connection recovery
 2026-10-24 04:19:14.368 I  configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6-NA en0: Solicit Transmit (try=1)
-2026-10-24 04:19:14.368 Df configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6 en0: added FQDN option for 'HOST-5'
+2026-10-24 04:19:14.368 Df configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6 en0: added FQDN option for 'HOST-6'
 2026-10-24 04:19:14.368 I  configd[105:3b4] [com.apple.IPConfiguration:Server] [en0] Transmit SOLICIT (1) [79 bytes]
 2026-10-24 04:19:14.370 I  configd[105:3b4] [com.apple.IPConfiguration:Server] [en0] Receive ADVERTISE (2) [108 bytes] [xid=0x44d1b3] from IP-17
 2026-10-24 04:19:14.370 I  configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6-NA en0: Solicit Received ADVERTISE (try=1) IAADDR IP-16 Preferred 43200 Valid=43200
@@ -15685,7 +15685,7 @@ Invalidation reason: Connection init failed at lookup with error 3 - No such pro
 2026-10-24 04:19:15.311 Df airportd[220:6fa] [com.apple.WiFiManager:] [corewifi] END REQ [GET BSSID] took 0.000338144s (pid=142 proc=locationd bundleID=com.apple.locationd codesignID=com.apple.locationd service=com.apple.corewlan-xpc qos=21 intf=(null) uuid=05855 err=-528342013 reply=(null)
 2026-10-24 04:19:15.380 I  configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6-NA en0: Request
 2026-10-24 04:19:15.380 I  configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6-NA en0: Request Transmit (try=1)
-2026-10-24 04:19:15.380 Df configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6 en0: added FQDN option for 'HOST-5'
+2026-10-24 04:19:15.380 Df configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6 en0: added FQDN option for 'HOST-6'
 2026-10-24 04:19:15.380 I  configd[105:3b4] [com.apple.IPConfiguration:Server] [en0] Transmit REQUEST (3) [121 bytes]
 2026-10-24 04:19:15.382 I  configd[105:3b4] [com.apple.IPConfiguration:Server] [en0] Receive REPLY (7) [108 bytes] [xid=0xfa0384] from IP-17
 2026-10-24 04:19:15.382 I  configd[105:3b4] [com.apple.IPConfiguration:Server] DHCPv6-NA en0: Request Received REPLY (try=1) IAADDR IP-16 Preferred 43200 Valid=43200
