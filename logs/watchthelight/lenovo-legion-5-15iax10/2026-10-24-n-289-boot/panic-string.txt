@@ -1,0 +1,83 @@
+mp_kdp_enter() timed-out on cpu 3, NMI-ing
+mp_kdp_enter() NMI pending on cpus: 0 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+mp_kdp_enter() timed-out during locked wait after NMI;expected 24 acks but received 1 after 19459861 loops in 1536000000 ticks
+panic(cpu 3 caller 0xffffff8013ae0b50): mp_rv_action() entry: 23 of 24 responses, start: 0xa913cc4a94, cur: 0xaa82024b62 @mp.c:908
+Panicked task 0xffffff99e29369a0: 305 threads: pid 0: kernel_task
+Backtrace (CPU 3), panicked thread: 0xffffff90446344d0, Frame : Return Address
+0xffffffd3a518a9c0 : 0xffffff8013958d71 mach_kernel : _handle_debugger_trap + 0x421
+0xffffffd3a518aa10 : 0xffffff8013ae5982 mach_kernel : _kdp_i386_trap + 0x122
+0xffffffd3a518aa50 : 0xffffff8013ad4c38 mach_kernel : _kernel_trap + 0x778
+0xffffffd3a518ab10 : 0xffffff80138eb971 mach_kernel : _return_from_trap + 0xc1
+0xffffffd3a518ab30 : 0xffffff8013959147 mach_kernel : _DebuggerTrapWithState + 0x67
+0xffffffd3a518ac30 : 0xffffff80139587d9 mach_kernel : _panic_trap_to_debugger + 0x269
+0xffffffd3a518ada0 : 0xffffff80141a1ced mach_kernel : _panic + 0x81
+0xffffffd3a518ae90 : 0xffffff8013ae0b50 mach_kernel : _mp_safe_spin_lock + 0x3d0
+0xffffffd3a518aec0 : 0xffffff8013adfe63 mach_kernel : _mp_cpus_call_cpu_init + 0x493
+0xffffffd3a518af20 : 0xffffff8013adf966 mach_kernel : _cpu_signal_handler + 0x256
+0xffffffd3a518af60 : 0xffffff8013ade8fa mach_kernel : _lapic_interrupt + 0x4a
+0xffffffd3a518af80 : 0xffffff8013ad41e1 mach_kernel : _interrupt + 0xc1
+0xffffffd3a518afe0 : 0xffffff80138eba9a mach_kernel : _hndl_allintrs + 0x9a
+0xffffffdc7e728a20 : 0xffffff8013ab4b4b mach_kernel : _pmap_remove_range + 0x27b
+0xffffffdc7e728af0 : 0xffffff8013ab576f mach_kernel : _pmap_remove_options + 0x23f
+0xffffffdc7e728b40 : 0xffffff8013a1dba1 mach_kernel : _vm_map_lookup_or_next + 0x471
+0xffffffdc7e728ba0 : 0xffffff8013a1d3a4 mach_kernel : _vm_map_destroy_options + 0x6e4
+0xffffffdc7e728cb0 : 0xffffff8013a2a104 mach_kernel : _vm_map_synthesize_guard_exception + 0xd4
+0xffffffdc7e728cf0 : 0xffffff8013a1beea mach_kernel : _kmem_alloc_pageable + 0x137a
+0xffffffdc7e728d30 : 0xffffff80140858f4 mach_kernel : _IOKernelFreePhysical + 0xc4
+0xffffffdc7e728d50 : 0xffffff80140d0d7c mach_kernel : __ZN24IOBufferMemoryDescriptor4freeEv + 0x13c
+0xffffffdc7e728db0 : 0xffffff7fab63d41f org.watchthelight.XeGfx : _xg_vm_x_release + 0x3f
+0xffffffdc7e728dd0 : 0xffffff7fab483147 org.watchthelight.XeGfx : _xg_vm_run_destroy + 0xf7
+0xffffffdc7e728e00 : 0xffffff7fab484438 org.watchthelight.XeGfx : _xg_vm_object_destroy + 0x118
+0xffffffdc7e728e60 : 0xffffff7fab459ef5 org.watchthelight.XeGfx : _linux_file_free + 0x55
+0xffffffdc7e728e80 : 0xffffff7fab65a7a6 org.watchthelight.XeGfx : ___i915_gem_free_object + 0x46
+0xffffffdc7e728ea0 : 0xffffff7fab65a8ca org.watchthelight.XeGfx : ___i915_gem_free_objects.cold.1 + 0x1a
+0xffffffdc7e728ec0 : 0xffffff7fab4b99d8 org.watchthelight.XeGfx : ___i915_gem_free_objects + 0x48
+0xffffffdc7e728ee0 : 0xffffff7fab468002 org.watchthelight.XeGfx : _linux_work_fn + 0xd2
+0xffffffdc7e728f40 : 0xffffff7fab4800b8 org.watchthelight.XeGfx : _xg_tq_worker + 0xa8
+0xffffffdc7e728fa0 : 0xffffff80138eb19e mach_kernel : _call_continuation + 0x2e
+      Kernel Extensions in backtrace:
+         org.watchthelight.XeGfx(0.0.42)[UUID-609]@0xffffff7fab3f7000->0xffffff7fab70efff
+            dependency: com.apple.driver.AppleACPIPlatform(6.1)[UUID-423]@0xffffff8014a71000->0xffffff8014ae8fff
+            dependency: com.apple.iokit.IOPCIFamily(2.9)[UUID-367]@0xffffff8015fe5000->0xffffff8016038fff
+
+Process name corresponding to current thread (0xffffff90446344d0): kernel_task
+Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm,cpuname revcpu=1 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvaccelnoheadless alcid=18 nvrmacpibl=1 nvrmphysctl=1 nvrmnvpcf=1 nv
+
+Mac OS version:
+25G241
+
+Kernel version:
+Darwin Kernel Version 25.6.0: Tue Aug 18 17:46:40 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_X86_64
+Kernel UUID: UUID-305
+roots installed: 0
+KernelCache slide: 0x0000000013600000
+KernelCache base:  0xffffff8013800000
+Kernel slide:      0x00000000136e8000
+Kernel text base:  0xffffff80138e8000
+__HIB  text base: 0xffffff8013700000
+System model name: MacBookPro16,1 (Mac-E1008331FDC96864)
+System shutdown begun: NO
+Panic diags file available: YES (0x0)
+Hibernation exit count: 0
+
+System uptime in nanoseconds: 222168696312
+Last Sleep:           absolute           base_tsc          base_nano
+  Uptime  : 0x00000033ba49479a
+  Sleep   : 0x0000000000000000 0x0000000000000000 0x0000000000000000
+  Wake    : 0x0000000000000000 0x0000000c50e87c99 0x0000000000000000
+Compressor Info: 0% of compressed pages limit (OK) and 0% of segments limit (OK) with 0 swapfiles and OK swap space
+Zone info:
+  Zone map: 0xffffff8048fae000 - 0xffffffa048fae000
+  . VM    : 0xffffff8048fae000 - 0xffffff8515c7a000
+  . RO    : 0xffffff8515c7a000 - 0xffffff86af61e000
+  . GEN0  : 0xffffff86af61e000 - 0xffffff8b7c2ea000
+  . GEN1  : 0xffffff8b7c2ea000 - 0xffffff9048fb6000
+  . GEN2  : 0xffffff9048fb6000 - 0xffffff9515c82000
+  . GEN3  : 0xffffff9515c82000 - 0xffffff99e294e000
+  . DATA  : 0xffffff99e294e000 - 0xffffffa048fae000
+  Metadata: 0xffffffc0493fe000 - 0xffffffc0693fe000
+  Bitmaps : 0xffffffc0693fe000 - 0xffffffc06f3fe000
+  Extra   : 0 - 0
+
+
+
