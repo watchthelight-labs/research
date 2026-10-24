@@ -3,7 +3,7 @@
  "component": "native",
  "files": {
   "00-clock.txt": "7e51aa9645dd8c7e00f2d14e561e87e94b9b6783ab143bab9beffd4191f47180",
-  "01-system.txt": "e9f94252e33c61298c103b0cd359e443f5dbf0cd65da8174ed52067b982d32b6",
+  "01-system.txt": "1a408c5e236b6aa81b9ce56e9c694b37914c6ab846c93941bf6014f7330c5776",
   "acpi-buttons.txt": "60461a4758d98f2493364677df0f6acf56250e0ebb0bcb2bfb4cb8fcd6057584",
   "audio-hdas.txt": "df4ffa848ede9fcc26ff4b7bd54eeb0a7a4e114376c1832b53468e2bd24dbedd",
   "battery.txt": "cfef1a95a94721a840dcea6eecded1097b537e71d69af58fdcb5936ac3979a43",
