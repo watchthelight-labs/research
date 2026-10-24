@@ -1,0 +1,15 @@
+Read from remote host IP-209: Can't assign requested address
+client_loop: send disconnect: Broken pipe
+12:09:53 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+12:09:55 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+12:09:56 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+12:09:58 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+12:09:59 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+12:10:00 stream ended, rc 141 255
+ssh: connect to host IP-209 port 22: Network is unreachable
+12:10:01 stream ended, rc 141 255
