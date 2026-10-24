@@ -1,0 +1,6 @@
+WM0 6 (6.0 usec)
+WM1 51 (51.0 usec)
+WM2 70 (70.0 usec)
+WM3 96 (96.0 usec)
+WM4 97 (97.0 usec)
+WM5 144 (144.0 usec)

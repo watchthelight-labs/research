@@ -1,0 +1,339 @@
+File appears to be binary: found 209199 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file dsdt.dat, Length 0x9CB65 (641893) bytes
+ACPI: DSDT 0x0000000000000000 09CB65 (v02 LENOVO CB-01    00000001 ACPI 00040000)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+ iASL Warning: There were 120 external control methods found during
+ disassembly, but only 632 were resolved (4294966784 unresolved). Additional
+ ACPI tables may be required to properly disassemble the code. This
+ resulting disassembler output file may not compile because the
+ disassembler did not know how many arguments to assign to the
+ unresolved methods. Note: SSDTs can be dynamically loaded at
+ runtime and may or may not be available via the host OS.
+
+ To specify the tables needed to resolve external control method
+ references, the -e option can be used to specify the filenames.
+ Example iASL invocations:
+     iasl -e ssdt1.aml ssdt2.aml ssdt3.aml -d dsdt.aml
+     iasl -e dsdt.aml ssdt2.aml -d ssdt1.aml
+     iasl -e ssdt*.aml -d dsdt.aml
+
+ In addition, the -fe option can be used to specify a file containing
+ control method external declarations with the associated method
+ argument counts. Each line of the file must be of the form:
+     External (<method pathname>, MethodObj, <argument count>)
+ Invocation:
+     iasl -fe refs.txt -d dsdt.aml
+
+File appears to be binary: found 485 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt1.dat, Length 0x38C (908) bytes
+ACPI: SSDT 0x0000000000000000 00038C (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 773 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt10.dat, Length 0xFBB (4027) bytes
+ACPI: SSDT 0x0000000000000000 000FBB (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 3503 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt11.dat, Length 0x3BC8 (15304) bytes
+ACPI: SSDT 0x0000000000000000 003BC8 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 3147 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt12.dat, Length 0x233A (9018) bytes
+ACPI: SSDT 0x0000000000000000 00233A (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 9193 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt13.dat, Length 0x9ABF (39615) bytes
+ACPI: SSDT 0x0000000000000000 009ABF (v02 INTEL  TcssSsdt 00001000 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 723 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt14.dat, Length 0x77B (1915) bytes
+ACPI: SSDT 0x0000000000000000 00077B (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 4071 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt15.dat, Length 0x39E5 (14821) bytes
+ACPI: SSDT 0x0000000000000000 0039E5 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 1294 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt16.dat, Length 0x137C (4988) bytes
+ACPI: SSDT 0x0000000000000000 00137C (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 690 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt17.dat, Length 0x53F (1343) bytes
+ACPI: SSDT 0x0000000000000000 00053F (v01 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 2589 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt18.dat, Length 0x33C1 (13249) bytes
+ACPI: SSDT 0x0000000000000000 0033C1 (v02 LENOVO CB-01    00000001      01000013)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 686 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt19.dat, Length 0xCA6 (3238) bytes
+ACPI: SSDT 0x0000000000000000 000CA6 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 4051 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt2.dat, Length 0x1B60 (7008) bytes
+ACPI: SSDT 0x0000000000000000 001B60 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 5429 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt20.dat, Length 0x5E42 (24130) bytes
+ACPI: SSDT 0x0000000000000000 005E42 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 2022 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt21.dat, Length 0x212A (8490) bytes
+ACPI: SSDT 0x0000000000000000 00212A (v01 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 1435 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt22.dat, Length 0x149B (5275) bytes
+ACPI: SSDT 0x0000000000000000 00149B (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 1635 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt23.dat, Length 0x281A (10266) bytes
+ACPI: SSDT 0x0000000000000000 00281A (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 2316 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt24.dat, Length 0x28D3 (10451) bytes
+ACPI: SSDT 0x0000000000000000 0028D3 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 1837 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt25.dat, Length 0x2CD3 (11475) bytes
+ACPI: SSDT 0x0000000000000000 002CD3 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 68 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt26.dat, Length 0xF8 (248) bytes
+ACPI: SSDT 0x0000000000000000 0000F8 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 982 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt3.dat, Length 0x626 (1574) bytes
+ACPI: SSDT 0x0000000000000000 000626 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 807 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt4.dat, Length 0x5FB (1531) bytes
+ACPI: SSDT 0x0000000000000000 0005FB (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 171 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt5.dat, Length 0x1AB (427) bytes
+ACPI: SSDT 0x0000000000000000 0001AB (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 385 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt6.dat, Length 0x394 (916) bytes
+ACPI: SSDT 0x0000000000000000 000394 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 1537 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt7.dat, Length 0x1BAF (7087) bytes
+ACPI: SSDT 0x0000000000000000 001BAF (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 1114 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt8.dat, Length 0x1620 (5664) bytes
+ACPI: SSDT 0x0000000000000000 001620 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+File appears to be binary: found 997 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file ssdt9.dat, Length 0x1349 (4937) bytes
+ACPI: SSDT 0x0000000000000000 001349 (v02 LENOVO CB-01    00000001 INTL 20200717)
+Pass 1 parse of [SSDT]
+Pass 2 parse of [SSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+
+Parsing completed
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20251212
+Copyright (c) 2000 - 2025 Intel Corporation
+
+Disassembly completed
+ASL Output:    dsdt.dsl - 4737107 bytes
+Disassembly completed
+ASL Output:    ssdt1.dsl - 9883 bytes
+Disassembly completed
+ASL Output:    ssdt10.dsl - 18454 bytes
+Disassembly completed
+ASL Output:    ssdt11.dsl - 83984 bytes
+Disassembly completed
+ASL Output:    ssdt12.dsl - 52750 bytes
+
+Found 2 external control methods, reparsing with new information
+Disassembly completed
+ASL Output:    ssdt13.dsl - 224169 bytes
+Disassembly completed
+ASL Output:    ssdt14.dsl - 16577 bytes
+Disassembly completed
+ASL Output:    ssdt15.dsl - 74073 bytes
+Disassembly completed
+ASL Output:    ssdt16.dsl - 33321 bytes
+Disassembly completed
+ASL Output:    ssdt17.dsl - 12889 bytes
+Disassembly completed
+ASL Output:    ssdt18.dsl - 39951 bytes
+Disassembly completed
+ASL Output:    ssdt19.dsl - 12753 bytes
+Disassembly completed
+ASL Output:    ssdt2.dsl - 86440 bytes
+Disassembly completed
+ASL Output:    ssdt20.dsl - 172287 bytes
+Disassembly completed
+ASL Output:    ssdt21.dsl - 47409 bytes
+
+Found 2 external control methods, reparsing with new information
+Disassembly completed
+ASL Output:    ssdt22.dsl - 34507 bytes
+Disassembly completed
+ASL Output:    ssdt23.dsl - 31240 bytes
+Disassembly completed
+ASL Output:    ssdt24.dsl - 36240 bytes
+Disassembly completed
+ASL Output:    ssdt25.dsl - 35354 bytes
+Disassembly completed
+ASL Output:    ssdt26.dsl - 1929 bytes
+Disassembly completed
+ASL Output:    ssdt3.dsl - 11478 bytes
+Disassembly completed
+ASL Output:    ssdt4.dsl - 15735 bytes
+Disassembly completed
+ASL Output:    ssdt5.dsl - 2748 bytes
+Disassembly completed
+ASL Output:    ssdt6.dsl - 6041 bytes
+Disassembly completed
+ASL Output:    ssdt7.dsl - 37677 bytes
+Disassembly completed
+ASL Output:    ssdt8.dsl - 23509 bytes
+Disassembly completed
+ASL Output:    ssdt9.dsl - 20838 bytes

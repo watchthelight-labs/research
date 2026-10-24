@@ -1,0 +1,4 @@
+FBC enabled
+Compressing: no
+Using system cache: no
+* [PLANE:34:plane 1A]: FBC possible

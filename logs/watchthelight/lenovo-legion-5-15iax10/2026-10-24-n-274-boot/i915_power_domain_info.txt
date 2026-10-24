@@ -1,0 +1,170 @@
+Runtime power status: enabled
+Power well/domain         Use count
+always-on                 6
+  DISPLAY_CORE            1
+  PIPE_A                  1
+  PIPE_B                  0
+  PIPE_C                  0
+  PIPE_D                  0
+  PIPE_PANEL_FITTER_A     0
+  PIPE_PANEL_FITTER_B     0
+  PIPE_PANEL_FITTER_C     0
+  PIPE_PANEL_FITTER_D     0
+  TRANSCODER_A            1
+  TRANSCODER_B            0
+  TRANSCODER_C            0
+  TRANSCODER_D            0
+  TRANSCODER_EDP          0
+  TRANSCODER_DSI_A        0
+  TRANSCODER_DSI_C        0
+  TRANSCODER_VDSC_PW2     0
+  PORT_DDI_LANES_A        1
+  PORT_DDI_LANES_B        0
+  PORT_DDI_LANES_C        0
+  PORT_DDI_LANES_D        0
+  PORT_DDI_LANES_E        0
+  PORT_DDI_LANES_F        0
+  PORT_DDI_LANES_TC1      0
+  PORT_DDI_LANES_TC2      0
+  PORT_DDI_LANES_TC3      0
+  PORT_DDI_LANES_TC4      0
+  PORT_DDI_LANES_TC5      0
+  PORT_DDI_LANES_TC6      0
+  PORT_DDI_IO_A           0
+  PORT_DDI_IO_B           0
+  PORT_DDI_IO_C           0
+  PORT_DDI_IO_D           0
+  PORT_DDI_IO_E           0
+  PORT_DDI_IO_F           0
+  PORT_DDI_IO_TC1         0
+  PORT_DDI_IO_TC2         0
+  PORT_DDI_IO_TC3         0
+  PORT_DDI_IO_TC4         0
+  PORT_DDI_IO_TC5         0
+  PORT_DDI_IO_TC6         0
+  PORT_DSI                0
+  PORT_CRT                0
+  PORT_OTHER              0
+  VGA                     0
+  AUDIO_MMIO              0
+  AUDIO_PLAYBACK          0
+  AUX_IO_A                1
+  AUX_IO_B                0
+  AUX_IO_C                0
+  AUX_IO_D                0
+  AUX_IO_E                0
+  AUX_IO_F                0
+  AUX_A                   0
+  AUX_B                   0
+  AUX_C                   0
+  AUX_D                   0
+  AUX_E                   0
+  AUX_F                   0
+  AUX_USBC1               0
+  AUX_USBC2               0
+  AUX_USBC3               0
+  AUX_USBC4               0
+  AUX_USBC5               0
+  AUX_USBC6               0
+  AUX_TBT1                0
+  AUX_TBT2                0
+  AUX_TBT3                0
+  AUX_TBT4                0
+  AUX_TBT5                0
+  AUX_TBT6                0
+  GMBUS                   0
+  GT_IRQ                  1
+  DC_OFF                  0
+  TC_COLD_OFF             0
+  INIT                    0
+PW_1                      0
+DC_off                    0
+  PIPE_C                  0
+  PIPE_D                  0
+  PIPE_PANEL_FITTER_C     0
+  PIPE_PANEL_FITTER_D     0
+  TRANSCODER_C            0
+  TRANSCODER_D            0
+  PORT_DDI_LANES_C        0
+  PORT_DDI_LANES_D        0
+  PORT_DDI_LANES_E        0
+  PORT_DDI_LANES_TC1      0
+  PORT_DDI_LANES_TC2      0
+  PORT_DDI_LANES_TC3      0
+  PORT_DDI_LANES_TC4      0
+  PORT_DSI                0
+  VGA                     0
+  AUDIO_MMIO              0
+  AUDIO_PLAYBACK          0
+  AUX_IO_C                0
+  AUX_IO_D                0
+  AUX_IO_E                0
+  AUX_A                   0
+  AUX_B                   0
+  AUX_C                   0
+  AUX_D                   0
+  AUX_E                   0
+  AUX_USBC1               0
+  AUX_USBC2               0
+  AUX_USBC3               0
+  AUX_USBC4               0
+  AUX_TBT1                0
+  AUX_TBT2                0
+  AUX_TBT3                0
+  AUX_TBT4                0
+  DC_OFF                  0
+  INIT                    0
+PW_2                      0
+  PIPE_B                  0
+  PIPE_C                  0
+  PIPE_D                  0
+  PIPE_PANEL_FITTER_B     0
+  PIPE_PANEL_FITTER_C     0
+  PIPE_PANEL_FITTER_D     0
+  TRANSCODER_B            0
+  TRANSCODER_C            0
+  TRANSCODER_D            0
+  PORT_DDI_LANES_TC1      0
+  PORT_DDI_LANES_TC2      0
+  PORT_DDI_LANES_TC3      0
+  PORT_DDI_LANES_TC4      0
+  VGA                     0
+  AUDIO_PLAYBACK          0
+  INIT                    0
+PW_A                      1
+  PIPE_A                  1
+  PIPE_PANEL_FITTER_A     0
+  INIT                    0
+PW_B                      0
+  PIPE_B                  0
+  PIPE_PANEL_FITTER_B     0
+  TRANSCODER_B            0
+  INIT                    0
+PW_C                      0
+  PIPE_C                  0
+  PIPE_PANEL_FITTER_C     0
+  TRANSCODER_C            0
+  INIT                    0
+PW_D                      0
+  PIPE_D                  0
+  PIPE_PANEL_FITTER_D     0
+  TRANSCODER_D            0
+  INIT                    0
+AUX_A                     1
+  AUX_IO_A                1
+  AUX_A                   0
+AUX_B                     0
+  AUX_IO_B                0
+  AUX_B                   0
+AUX_TC1                   0
+  AUX_USBC1               0
+  AUX_TBT1                0
+AUX_TC2                   0
+  AUX_USBC2               0
+  AUX_TBT2                0
+AUX_TC3                   0
+  AUX_USBC3               0
+  AUX_TBT3                0
+AUX_TC4                   0
+  AUX_USBC4               0
+  AUX_TBT4                0

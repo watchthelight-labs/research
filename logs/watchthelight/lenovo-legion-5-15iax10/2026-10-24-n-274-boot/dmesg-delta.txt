@@ -1,0 +1,1 @@
+[ 3082.309102] nouveau 0000:02:00.0: Enabling HDA controller

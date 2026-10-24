@@ -1,0 +1,18 @@
+SSEU Device Info
+  Available Slice Mask: 0001
+  Available Slice Total: 1
+  Available Subslice Total: 4
+  Available Geometry DSS: 4
+  Available Compute DSS: 4
+  Available EU Total: 64
+  Available EU Per Subslice: 16
+  Has Pooled EU: no
+  Has Slice Power Gating: no
+  Has Subslice Power Gating: no
+  Has EU Power Gating: no
+SSEU Device Status
+  Enabled Slice Mask: 0000
+  Enabled Slice Total: 0
+  Enabled Subslice Total: 0
+  Enabled EU Total: 0
+  Enabled EU Per Subslice: 0

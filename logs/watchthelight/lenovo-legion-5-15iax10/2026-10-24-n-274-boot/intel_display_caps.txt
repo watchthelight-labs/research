@@ -1,0 +1,50 @@
+PCH type: 1026
+display version: 14
+display stepping: D0
+cursor_needs_physical: no
+has_cdclk_crawl: yes
+has_cdclk_squash: yes
+has_ddi: yes
+has_dp_mst: yes
+has_dsb: yes
+has_fpga_dbg: yes
+has_gmch: no
+has_hotplug: yes
+has_hti: no
+has_ipc: yes
+has_overlay: no
+has_psr: yes
+has_psr_hw_tracking: no
+overlay_needs_physical: no
+supports_tv: no
+has_hdcp: yes
+has_dmc: yes
+has_dsc: yes
+rawclk rate: 38400 kHz
+i915.dmc_firmware_path=
+i915.vbt_firmware=
+i915.lvds_channel_mode=0
+i915.panel_use_ssc=-1
+i915.vbt_sdvo_panel_type=-1
+i915.enable_dc=-1
+i915.enable_dpt=yes
+i915.enable_dsb=yes
+i915.enable_flipq=no
+i915.enable_sagv=yes
+i915.disable_power_well=1
+i915.enable_ips=yes
+i915.invert_brightness=0
+i915.edp_vswing=0
+i915.enable_dpcd_backlight=-1
+i915.load_detect_test=no
+i915.force_reset_modeset_test=no
+i915.disable_display=no
+i915.verbose_state_checks=yes
+i915.nuclear_pageflip=no
+i915.enable_dp_mst=yes
+i915.enable_fbc=1
+i915.enable_psr=-1
+i915.enable_panel_replay=-1
+i915.psr_safest_params=no
+i915.enable_psr2_sel_fetch=yes
+i915.enable_dmc_wl=0

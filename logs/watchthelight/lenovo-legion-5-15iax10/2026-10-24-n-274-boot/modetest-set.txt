@@ -1,0 +1,2 @@
+opened device `Intel Graphics` on driver `i915` (version 1.6.0 at 0)
+setting mode 2560x1600-165.00Hz on connectors 507, crtc 150

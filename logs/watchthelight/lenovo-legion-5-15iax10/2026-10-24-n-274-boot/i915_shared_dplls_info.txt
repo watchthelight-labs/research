@@ -1,0 +1,127 @@
+PLL refclks: non-SSC: 38400 kHz, SSC: 0 kHz
+DPLL0: DPLL 0, id: 0
+ pipe_mask: 0x1, active: 0x1, on: yes
+ tracked hardware state:
+cx0pll_hw_state: lane_count: 4, ssc_enabled: no, use_c10: yes, tbt_mode: no
+c10pll_hw_state: clock: 810000, fracen: yes, quot: 61440, rem: 0, den: 1,
+multiplier: 210, tx_clk_div: 0.
+c10pll_rawhw_state:tx: 0x10, cmn: 0x21
+pll[0] = 0x34, pll[1] = 0x0, pll[2] = 0x84, pll[3] = 0x1
+pll[4] = 0x0, pll[5] = 0x0, pll[6] = 0x0, pll[7] = 0x0
+pll[8] = 0x0, pll[9] = 0x1, pll[10] = 0x0, pll[11] = 0x0
+pll[12] = 0xf0, pll[13] = 0x0, pll[14] = 0x0, pll[15] = 0x0
+pll[16] = 0x84, pll[17] = 0xf, pll[18] = 0xe5, pll[19] = 0x23
+DPLL1: DPLL 1, id: 1
+ pipe_mask: 0x0, active: 0x0, on: no
+ tracked hardware state:
+cx0pll_hw_state: lane_count: 0, ssc_enabled: no, use_c10: no, tbt_mode: no
+c20pll_hw_state: clock: 0
+tx[0] = 0x0000, tx[1] = 0x0000, tx[2] = 0x0000
+cmn[0] = 0x0000, cmn[1] = 0x0000, cmn[2] = 0x0000, cmn[3] = 0x0000
+mplla[0] = 0x0000
+mplla[1] = 0x0000
+mplla[2] = 0x0000
+mplla[3] = 0x0000
+mplla[4] = 0x0000
+mplla[5] = 0x0000
+mplla[6] = 0x0000
+mplla[7] = 0x0000
+mplla[8] = 0x0000
+mplla[9] = 0x0000
+mpllb[10] = 0x0000
+vdr: custom width: 0x00, serdes rate: 0x00, hdmi rate: 0x00
+DPLL2: TBT PLL, id: 2
+ pipe_mask: 0x0, active: 0x0, on: no
+ tracked hardware state:
+cx0pll_hw_state: lane_count: 0, ssc_enabled: no, use_c10: no, tbt_mode: yes
+c20pll_hw_state: clock: 0
+tx[0] = 0x0000, tx[1] = 0x0000, tx[2] = 0x0000
+cmn[0] = 0x0000, cmn[1] = 0x0000, cmn[2] = 0x0000, cmn[3] = 0x0000
+mplla[0] = 0x0000
+mplla[1] = 0x0000
+mplla[2] = 0x0000
+mplla[3] = 0x0000
+mplla[4] = 0x0000
+mplla[5] = 0x0000
+mplla[6] = 0x0000
+mplla[7] = 0x0000
+mplla[8] = 0x0000
+mplla[9] = 0x0000
+mpllb[10] = 0x0000
+vdr: custom width: 0x00, serdes rate: 0x00, hdmi rate: 0x00
+DPLL3: TC PLL 1, id: 3
+ pipe_mask: 0x0, active: 0x0, on: no
+ tracked hardware state:
+cx0pll_hw_state: lane_count: 0, ssc_enabled: no, use_c10: no, tbt_mode: no
+c20pll_hw_state: clock: 0
+tx[0] = 0x0000, tx[1] = 0x0000, tx[2] = 0x0000
+cmn[0] = 0x0000, cmn[1] = 0x0000, cmn[2] = 0x0000, cmn[3] = 0x0000
+mplla[0] = 0x0000
+mplla[1] = 0x0000
+mplla[2] = 0x0000
+mplla[3] = 0x0000
+mplla[4] = 0x0000
+mplla[5] = 0x0000
+mplla[6] = 0x0000
+mplla[7] = 0x0000
+mplla[8] = 0x0000
+mplla[9] = 0x0000
+mpllb[10] = 0x0000
+vdr: custom width: 0x00, serdes rate: 0x00, hdmi rate: 0x00
+DPLL4: TC PLL 2, id: 4
+ pipe_mask: 0x0, active: 0x0, on: no
+ tracked hardware state:
+cx0pll_hw_state: lane_count: 0, ssc_enabled: no, use_c10: no, tbt_mode: no
+c20pll_hw_state: clock: 0
+tx[0] = 0x0000, tx[1] = 0x0000, tx[2] = 0x0000
+cmn[0] = 0x0000, cmn[1] = 0x0000, cmn[2] = 0x0000, cmn[3] = 0x0000
+mplla[0] = 0x0000
+mplla[1] = 0x0000
+mplla[2] = 0x0000
+mplla[3] = 0x0000
+mplla[4] = 0x0000
+mplla[5] = 0x0000
+mplla[6] = 0x0000
+mplla[7] = 0x0000
+mplla[8] = 0x0000
+mplla[9] = 0x0000
+mpllb[10] = 0x0000
+vdr: custom width: 0x00, serdes rate: 0x00, hdmi rate: 0x00
+DPLL5: TC PLL 3, id: 5
+ pipe_mask: 0x0, active: 0x0, on: no
+ tracked hardware state:
+cx0pll_hw_state: lane_count: 0, ssc_enabled: no, use_c10: no, tbt_mode: no
+c20pll_hw_state: clock: 0
+tx[0] = 0x0000, tx[1] = 0x0000, tx[2] = 0x0000
+cmn[0] = 0x0000, cmn[1] = 0x0000, cmn[2] = 0x0000, cmn[3] = 0x0000
+mplla[0] = 0x0000
+mplla[1] = 0x0000
+mplla[2] = 0x0000
+mplla[3] = 0x0000
+mplla[4] = 0x0000
+mplla[5] = 0x0000
+mplla[6] = 0x0000
+mplla[7] = 0x0000
+mplla[8] = 0x0000
+mplla[9] = 0x0000
+mpllb[10] = 0x0000
+vdr: custom width: 0x00, serdes rate: 0x00, hdmi rate: 0x00
+DPLL6: TC PLL 4, id: 6
+ pipe_mask: 0x0, active: 0x0, on: no
+ tracked hardware state:
+cx0pll_hw_state: lane_count: 0, ssc_enabled: no, use_c10: no, tbt_mode: no
+c20pll_hw_state: clock: 0
+tx[0] = 0x0000, tx[1] = 0x0000, tx[2] = 0x0000
+cmn[0] = 0x0000, cmn[1] = 0x0000, cmn[2] = 0x0000, cmn[3] = 0x0000
+mplla[0] = 0x0000
+mplla[1] = 0x0000
+mplla[2] = 0x0000
+mplla[3] = 0x0000
+mplla[4] = 0x0000
+mplla[5] = 0x0000
+mplla[6] = 0x0000
+mplla[7] = 0x0000
+mplla[8] = 0x0000
+mplla[9] = 0x0000
+mpllb[10] = 0x0000
+vdr: custom width: 0x00, serdes rate: 0x00, hdmi rate: 0x00

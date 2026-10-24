@@ -1,0 +1,8 @@
+01:03:17 1/7 PCI, firmware and kernel
+01:03:20 2/7 BAR0 display and stolen-access registers (same table as xe-capture.sh)
+01:03:21 3/7 i915 debugfs
+01:03:21 4/7 DPCD over drm_dp_aux (0x000-0x0FF, 0x700-0x7FF eDP, 0x2000-0x20FF)
+01:03:21 5/7 connectors, EDID, backlight, modes
+01:03:21 6/7 ACPI tables
+01:03:22 7/7 checksums
+01:03:22 DONE: /home/USER/captures/20261024-010317-xe-live

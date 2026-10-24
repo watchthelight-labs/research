@@ -1,0 +1,9 @@
+RC6 Enabled: yes
+Render Well Gating Enabled: yes
+Current RC state: RC6
+Multi-threaded Forcewake Request: 0x0
+Render Power Well: Down
+RC6 residency since boot: 2528414387 (3236370416 us)
+user.bypass_count = 0
+render.wake_count = 0
+gt.wake_count = 1

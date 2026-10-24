@@ -1,0 +1,12 @@
+dd: IO error: No such device or address
+dd: IO error: No such device or address
+dd: IO error: No such device or address
+dd: IO error: No such device or address
+dd: IO error: No such device or address
+dd: IO error: No such device or address
+dd: IO error: Device or resource busy
+dd: IO error: Device or resource busy
+dd: IO error: Device or resource busy
+dd: IO error: Device or resource busy
+dd: IO error: Device or resource busy
+dd: IO error: Device or resource busy

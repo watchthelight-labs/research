@@ -1,0 +1,20 @@
+gem object events per phase:
+  exit   create  6500
+  exit   destroy 59500
+  free   create  13
+  free   destroy 4111
+  par    create  6448
+  par    destroy 59024
+  unmap  create  13
+  unmap  destroy 4118
+4 MiB (userptr-sized) objects, create -> destroy:
+  free     1 freed, median 1102.86 ms, p99 1102.86 ms, max 1102.86 ms, destroyed by {'vkhost-linux': 1}
+  unmap    1 freed, median 1122.47 ms, p99 1122.47 ms, max 1122.47 ms, destroyed by {'vkhost-linux': 1}
+  exit   500 freed, median 6.87 ms, p99 8.38 ms, max 9.33 ms, destroyed by {'vkhost-:disk$0': 169, 'kworker/u96:0': 97, 'vkhost:traceq0': 95}
+  par    496 freed, median 7.38 ms, p99 11.00 ms, max 12.57 ms, destroyed by {'vkhost-:disk$0': 313, 'vkhost:traceq0': 117, 'kworker/u96:0': 26}
+  never destroyed within the trace: 0
+all i915_gem_object_destroy events by freeing context:
+  free  {'kworker (free worker)': 4093, "process' own threads": 18}
+  unmap {'kworker (free worker)': 4103, "process' own threads": 15}
+  exit  {'kworker (free worker)': 55807, "process' own threads": 3693}
+  par   {'kworker (free worker)': 51172, "process' own threads": 7852}

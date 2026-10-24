@@ -1,0 +1,9 @@
+vkhost-linux free: runs 500, wrong 0, bad child exits 0, import avg 0.004 ms, submit+wait avg 1.047 ms, total 3.6 s
+free rc 0
+vkhost-linux unmap: runs 500, wrong 0, bad child exits 0, import avg 0.003 ms, submit+wait avg 1.063 ms, total 1.2 s
+unmap rc 0
+vkhost-linux exit: runs 500, wrong 0, bad child exits 0, import avg 0.046 ms, submit+wait avg 1.975 ms, total 40.7 s
+exit rc 0
+vkhost-linux par: runs 496, wrong 0, bad child exits 0, import avg 0.057 ms, submit+wait avg 2.119 ms, total 28.2 s
+par rc 0
+DONE

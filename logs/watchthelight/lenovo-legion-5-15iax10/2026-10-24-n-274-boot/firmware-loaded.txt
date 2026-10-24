@@ -1,0 +1,4 @@
+i915/mtl_dmc.bin
+i915/mtl_gsc_1.bin
+i915/mtl_guc_70.bin
+i915/mtl_huc_gsc.bin

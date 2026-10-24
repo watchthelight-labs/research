@@ -1,0 +1,12 @@
+RC6 Enabled: yes
+Media Well Gating Enabled: yes
+Current RC state: RC0
+Multi-threaded Forcewake Request: 0x0
+Media Power Well: Down
+RC6 residency since boot: 2504420175 (3205657824 us)
+user.bypass_count = 0
+gt.wake_count = 1
+vdbox0.wake_count = 0
+vdbox2.wake_count = 0
+vebox0.wake_count = 0
+gsc.wake_count = 0

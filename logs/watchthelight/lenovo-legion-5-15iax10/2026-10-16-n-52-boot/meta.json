@@ -2,7 +2,7 @@
  "collected": "2026-10-16",
  "component": "native",
  "files": {
-  "00-info.txt": "9bb2799bee552e2d6b51e7fcbcedb90cb283d5db8e6c1385f9bfc0b2fae85eba",
+  "00-info.txt": "6d99fa2044ccaaa73a3ec1a53d9a2774713087cedda5d7f03a78aaa0d81075c7",
   "dmesg-nv.txt": "eacb54fa1f81591f50601469992bb2066c70f8bb1b050bae984b18a4bccd94bb",
   "ioreg-gfx0-20.txt": "9ad506f50004b398aff67d49db0e2a7548cc46575dad934a50621e6eabfcfb58",
   "ioreg-gfx0-300.txt": "952d4f94e3e3be833a746a276720e7f7a4b63f4cdc4f44ef5ff563e6f9f0282c",

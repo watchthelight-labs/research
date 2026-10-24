@@ -1,0 +1,70 @@
+GuC lrc descriptor 4095:
+	HW Context Desc: 0xfed2011d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4096:
+	HW Context Desc: 0xfed1a11d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4097:
+	HW Context Desc: 0xfed1411d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4098:
+	HW Context Desc: 0xfed0e11d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4099:
+	HW Context Desc: 0xfed0911d
+		LRC Head: Internal 3416, Memory 3456
+		LRC Tail: Internal 3456, Memory 3456
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x50
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+

@@ -1,0 +1,12 @@
+	SLPC state: running
+	GTPERF task active: yes
+	DCC enabled: no
+	DCC in: no
+	Balancer enabled: no
+	IBC enabled: no
+	Balancer IA LMT enabled: no
+	Balancer IA LMT active: no
+	Max freq: 1300 MHz
+	Min freq: 100 MHz
+	waitboosts: 1
+	Boosts outstanding: 0

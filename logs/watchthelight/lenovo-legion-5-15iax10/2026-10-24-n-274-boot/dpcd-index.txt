@@ -1,0 +1,5 @@
+drm_dp_aux0 AUX A/DDI A/PHY A
+drm_dp_aux1 AUX USBC1/DDI TC1/PHY TC1
+drm_dp_aux2 AUX USBC2/DDI TC2/PHY TC2
+drm_dp_aux3 eDP-2
+drm_dp_aux4 DP-3

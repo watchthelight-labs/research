@@ -17,9 +17,9 @@
   "kextstat.txt": "fc8d6e3dd053184c706bf4efc27b7e9042b775b06c3ccec023f37a1ddd18fa89",
   "network.txt": "dfd325721f6c69a1decbd206b61a1d23ff965f87ea5867c1eadc990b5acc0526",
   "pci-mediatek.txt": "fd7a8b8c90cedcee0a410e93673a880ea515d0d9ea672e7e01cbbd0cbfc214eb",
-  "system.txt": "7660447692d372cb036ddb530ab8db24c77979b51b874ed5d4158d924b877d30",
+  "system.txt": "19159bb10cc12e328a50c7c85f6acc54f1d031648070907e66ba959ea5cea6a0",
   "wifi-daemons-part00.txt": "30c33086a7b32c322ba7e28ec6c2070bc748f5f010bb0107256224fb357e987f",
-  "wifi-daemons-part01.txt": "14b342ee85160bcd26a0bb71175456333e21421ecedc620aacd318d9104b44d9",
+  "wifi-daemons-part01.txt": "1dc25782ef80d5a8ed8827efd67756cd997805d1db2cc8e60956c3a68b2f6cd3",
   "wifi-daemons-part02.txt": "5d899e7b2e829cadfff9c21dcfd38b9f1a47aba0c2338111c2d10b4631167194"
  },
  "issue_title": "Working report for the MT7925 set on a second AM5 desktop board.",

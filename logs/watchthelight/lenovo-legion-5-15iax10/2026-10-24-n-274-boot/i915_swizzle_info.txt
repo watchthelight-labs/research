@@ -1,0 +1,2 @@
+bit6 swizzle for X-tiling = none
+bit6 swizzle for Y-tiling = none

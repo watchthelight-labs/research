@@ -1,0 +1,1 @@
+cat: /sys/kernel/debug/dri/0000:00:02.0/i915_params: Is a directory

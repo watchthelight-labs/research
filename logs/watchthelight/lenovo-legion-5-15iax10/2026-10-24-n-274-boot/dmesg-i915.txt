@@ -1,0 +1,94 @@
+[    0.000000] [Firmware Bug]: TSC ADJUST: CPU0: -1460792891 force to 0
+[    0.004669] [Firmware Bug]: TSC ADJUST differs within socket(s), fixing all errors
+[    0.899075] ACPI: bus type drm_connector registered
+[    0.920066] simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+[    0.920084] [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+[    0.925850] simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+[    1.143266] i2c_designware i2c_designware.1: [Firmware Bug]: DSDT uses known not-working I2C bus speed 400000, forcing it to 100000
+[    3.180202] systemd[1]: EMAIL-4 - Load Kernel Module drm skipped, unmet condition check ConditionKernelModuleLoaded=!drm
+[    3.186095] systemd[1]: systemd-hibernate-clear.service - Clear Stale Hibernate Storage Info skipped, unmet condition check ConditionPathExists=/sys/firmware/efi/efivars/HibernateLocation-UUID-569
+[    3.729622] intel_vpu 0000:00:0b.0: [drm] Firmware: intel/vpu/vpu_37xx_v1.bin, version: 20260219*MTL_CLIENT_SILICON-NVR+NN-deployment*f693e2c0dc3ce525f34822f263cc12192ff0722f*f693e2c0dc3ce525f34822f263cc12192ff0722f*f693e2c0dc3
+[    3.729626] intel_vpu 0000:00:0b.0: [drm] Scheduler mode: HW
+[    3.863386] [drm] Initialized intel_vpu 1.0.0 for 0000:00:0b.0 on minor 0
+[    4.181776] i915 0000:00:02.0: [drm] Found meteorlake (device ID 7d67) integrated display version 14.00 stepping D0
+[    4.183205] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[    4.213343] i915 0000:00:02.0: vgaarb: deactivate vga console
+[    4.213378] i915 0000:00:02.0: [drm] Using Transparent Hugepages
+[    4.225766] i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io+mem,decodes=none:owns=io+mem
+[    4.234115] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/mtl_dmc.bin (v2.23)
+[    4.264106] i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+[    4.274495] i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+[    4.274497] i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+[    4.274747] i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+[    4.279690] mei_gsc_proxy 0000:80:16.0-UUID-574: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+[    4.280053] i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+[    4.280054] i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+[    4.301801] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+[    4.302182] i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+[    4.302182] i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+[    4.302283] i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+[    4.304317] i915 0000:00:02.0: [drm] Protected Xe Path (PXP) protected content support initialized
+[    4.306178] i915 0000:00:02.0: [drm] Registered 4 planes with drm panic
+[    4.306180] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[    4.308289] snd_hda_intel 0000:80:1f.3: bound 0000:00:02.0 (ops intel_audio_component_bind_ops [i915])
+[    4.351314] mt7925e 0000:82:00.0: WM Firmware Version: ____000000, Build Time: 20260605184805
+[    4.440585] i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+[    4.460739] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+[    5.377928] i915 0000:00:02.0: [drm] PHY A failed to request refclk
+[    5.549362] nouveau 0000:02:00.0: drm: VRAM: 8151 MiB
+[    5.549364] nouveau 0000:02:00.0: drm: GART: 0 MiB
+[    5.590323] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[    5.887897] nouveau 0000:02:00.0: drm: MM: using COPY for buffer copies
+[    5.921359] nouveau 0000:02:00.0: [drm] Registered 4 planes with drm panic
+[    5.921362] [drm] Initialized nouveau 1.4.2 for 0000:02:00.0 on minor 0
+[    5.923961] nouveau 0000:02:00.0: [drm] Cannot find any crtc or sizes
+[    5.930596] nouveau 0000:02:00.0: [drm] Cannot find any crtc or sizes
+[    5.931284] nouveau 0000:02:00.0: [drm] Cannot find any crtc or sizes
+[ 2768.457634] i915 0000:00:02.0: [drm] Invalid mmio detected during user access
+[ 2803.795464] i915 0000:00:02.0: [drm] Invalid mmio detected during user access
+[ 2850.476804] i915 0000:00:02.0: [drm] Found meteorlake (device ID 7d67) integrated display version 14.00 stepping D0
+[ 2850.478853] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[ 2850.478867] i915 0000:00:02.0: vgaarb: deactivate vga console
+[ 2850.478922] i915 0000:00:02.0: [drm] Using Transparent Hugepages
+[ 2850.500126] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/mtl_dmc.bin (v2.23)
+[ 2850.731771] i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+[ 2850.741804] i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+[ 2850.741807] i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+[ 2850.742060] i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+[ 2850.747719] mei_gsc_proxy 0000:80:16.0-UUID-574: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+[ 2850.748066] i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+[ 2850.748067] i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+[ 2850.770929] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+[ 2850.771630] i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+[ 2850.771631] i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+[ 2850.771703] i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+[ 2850.774152] i915 0000:00:02.0: [drm] Protected Xe Path (PXP) protected content support initialized
+[ 2850.776499] i915 0000:00:02.0: [drm] Registered 4 planes with drm panic
+[ 2850.776501] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[ 2850.777336] snd_hda_intel 0000:80:1f.3: bound 0000:00:02.0 (ops intel_audio_component_bind_ops [i915])
+[ 2850.923148] i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+[ 2850.943369] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+[ 2851.216316] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[ 2915.594633] i915 0000:00:02.0: [drm] Found meteorlake (device ID 7d67) integrated display version 14.00 stepping D0
+[ 2915.596868] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[ 2915.596881] i915 0000:00:02.0: vgaarb: deactivate vga console
+[ 2915.596926] i915 0000:00:02.0: [drm] Using Transparent Hugepages
+[ 2915.618006] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/mtl_dmc.bin (v2.23)
+[ 2915.852842] i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+[ 2915.863658] i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+[ 2915.863661] i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+[ 2915.863917] i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+[ 2915.870014] mei_gsc_proxy 0000:80:16.0-UUID-574: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+[ 2915.870351] i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+[ 2915.870354] i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+[ 2915.892985] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+[ 2915.893399] i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+[ 2915.893402] i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+[ 2915.893486] i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+[ 2915.896562] i915 0000:00:02.0: [drm] Protected Xe Path (PXP) protected content support initialized
+[ 2915.899109] i915 0000:00:02.0: [drm] Registered 4 planes with drm panic
+[ 2915.899113] [drm] Initialized i915 1.6.0 for 0000:00:02.0 on minor 1
+[ 2915.901339] snd_hda_intel 0000:80:1f.3: bound 0000:00:02.0 (ops intel_audio_component_bind_ops [i915])
+[ 2916.045899] i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+[ 2916.066098] i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+[ 2916.342970] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device

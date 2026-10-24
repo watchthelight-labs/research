@@ -1,0 +1,42 @@
+GuC lrc descriptor 4095:
+	HW Context Desc: 0xfeded11d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4096:
+	HW Context Desc: 0xfede711d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+
+GuC lrc descriptor 4097:
+	HW Context Desc: 0xfedd511d
+		LRC Head: Internal 0, Memory 0
+		LRC Tail: Internal 0, Memory 0
+		Context Pin Count: 1
+		GuC ID Ref Count: 1
+		Schedule State: 0x40
+		Priority: 2
+		Number Requests (lower index == higher priority)
+		Number requests in priority band[0]: 0
+		Number requests in priority band[1]: 0
+		Number requests in priority band[2]: 0
+		Number requests in priority band[3]: 0
+

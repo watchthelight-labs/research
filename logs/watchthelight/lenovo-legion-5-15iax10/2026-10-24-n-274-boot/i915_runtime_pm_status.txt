@@ -1,0 +1,4 @@
+GPU idle: yes
+IRQs disabled: no
+Usage count: 6
+PCI device power state: D0 [0]
