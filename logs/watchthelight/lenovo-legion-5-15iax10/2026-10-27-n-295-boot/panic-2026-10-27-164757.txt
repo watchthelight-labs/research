@@ -1,0 +1,62 @@
+mp_kdp_enter() timed-out on cpu 3, NMI-ing
+mp_kdp_enter() NMI pending on cpus: 0 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+mp_kdp_enter() timed-out during locked wait after NMI;expected 24 acks but received 1 after 19459922 loops in 1536000000 ticks
+panic(cpu 3 caller 0xffffff80116e0b50): mp_rv_action() entry: 23 of 24 responses, start: 0x31ded85116c, cur: 0x31f5bbb1214 @mp.c:908
+Panicked task 0xffffffa85d2399a0: 308 threads: pid 0: kernel_task
+Backtrace (CPU 3), panicked thread: 0xffffffa3909084f8, Frame : Return Address
+0xffffffee4ad199c0 : 0xffffff8011558d71 mach_kernel : _handle_debugger_trap + 0x421
+0xffffffee4ad19a10 : 0xffffff80116e5982 mach_kernel : _kdp_i386_trap + 0x122
+0xffffffee4ad19a50 : 0xffffff80116d4c38 mach_kernel : _kernel_trap + 0x778
+0xffffffee4ad19b10 : 0xffffff80114eb971 mach_kernel : _return_from_trap + 0xc1
+0xffffffee4ad19b30 : 0xffffff8011559147 mach_kernel : _DebuggerTrapWithState + 0x67
+0xffffffee4ad19c30 : 0xffffff80115587d9 mach_kernel : _panic_trap_to_debugger + 0x269
+0xffffffee4ad19da0 : 0xffffff8011da1ced mach_kernel : _panic + 0x81
+0xffffffee4ad19e90 : 0xffffff80116e0b50 mach_kernel : _mp_safe_spin_lock + 0x3d0
+0xffffffee4ad19ec0 : 0xffffff80116dfe63 mach_kernel : _mp_cpus_call_cpu_init + 0x493
+0xffffffee4ad19f20 : 0xffffff80116df966 mach_kernel : _cpu_signal_handler + 0x256
+0xffffffee4ad19f60 : 0xffffff80116de8fa mach_kernel : _lapic_interrupt + 0x4a
+0xffffffee4ad19f80 : 0xffffff80116d41e1 mach_kernel : _interrupt + 0xc1
+0xffffffee4ad19fe0 : 0xffffff80114eba9a mach_kernel : _hndl_allintrs + 0x9a
+0xffffff8ab6a38fa0 : 0xffffff80114eb19e mach_kernel : _call_continuation + 0x2e
+
+Process name corresponding to current thread (0xffffffa3909084f8): kernel_task
+Boot args: -v keepsyms=1 debug=0x100 -vi2c-force-polling revpatch=sbvmm,cpuname revcpu=1 nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 -nvaccelnoheadless alcid=18 nvrmacpibl=1 nvrmphysctl=1 nvrmnvpcf=1 nv
+
+Mac OS version:
+25G241
+
+Kernel version:
+Darwin Kernel Version 25.6.0: Tue Aug 18 17:46:40 PDT 2026; root:xnu-12377.161.15.700.19~2/RELEASE_X86_64
+Kernel UUID: UUID-305
+roots installed: 0
+KernelCache slide: 0x0000000011200000
+KernelCache base:  0xffffff8011400000
+Kernel slide:      0x00000000112e8000
+Kernel text base:  0xffffff80114e8000
+__HIB  text base: 0xffffff8011300000
+System model name: MacBookPro16,1 (Mac-E1008331FDC96864)
+System shutdown begun: NO
+Panic diags file available: YES (0x0)
+Hibernation exit count: 0
+
+System uptime in nanoseconds: 1103238765023
+Last Sleep:           absolute           base_tsc          base_nano
+  Uptime  : 0x00000100de279b93
+  Sleep   : 0x0000000000000000 0x0000000000000000 0x0000000000000000
+  Wake    : 0x0000000000000000 0x0000000af9d6b467 0x0000000000000000
+Compressor Info: 0% of compressed pages limit (OK) and 0% of segments limit (OK) with 0 swapfiles and OK swap space
+Zone info:
+  Zone map: 0xffffff939055b000 - 0xffffffb39055b000
+  . VM    : 0xffffff939055b000 - 0xffffff985d227000
+  . RO    : 0xffffff985d227000 - 0xffffff99f6bcb000
+  . GEN0  : 0xffffff99f6bcb000 - 0xffffff9ec3897000
+  . GEN1  : 0xffffff9ec3897000 - 0xffffffa390563000
+  . GEN2  : 0xffffffa390563000 - 0xffffffa85d22f000
+  . GEN3  : 0xffffffa85d22f000 - 0xffffffad29efb000
+  . DATA  : 0xffffffad29efb000 - 0xffffffb39055b000
+  Metadata: 0xffffffe54a42c000 - 0xffffffe56a42c000
+  Bitmaps : 0xffffffe56a42c000 - 0xffffffe57042c000
+  Extra   : 0 - 0
+
+
+
