@@ -54,6 +54,8 @@ MAC_RE = re.compile(rf"(?<![0-9A-Fa-f:-]){HEX}{{2}}([:-]){HEX}{{2}}(?:\1{HEX}{{2
 MAC_SHORT_RE = re.compile(rf"(?<![\w:.-])((?:{HEX}{{1,2}}:){{5}}{HEX}{{1,2}})(?![\w:])")
 # Bonjour host names ending in .local (uname prints one); service names start with "_" and are left alone
 LOCAL_HOST_RE = re.compile(r"(?<![\w.-])([A-Za-z0-9][A-Za-z0-9-]{1,62})\.local\b")
+# shell prompt at the start of a pasted line: "user@host ~ % cmd" (zsh) or "user@host:~$ cmd" (bash)
+PROMPT_RE = re.compile(r"(?m)^([A-Za-z0-9][A-Za-z0-9._-]*)@([A-Za-z0-9][A-Za-z0-9._-]*)(?=(?: \S+ |:\S* ?)[%$#](?: |$))")
 # a full stop right after an address ends a sentence; only a digit (or ".digit") means it is part of a longer number
 IPV4_RE = re.compile(r"(?<!\d)(?<!\d\.)((?:25[0-5]|2[0-4]\d|1?\d?\d)(?:\.(?:25[0-5]|2[0-4]\d|1?\d?\d)){3})(?!\d|\.\d)")
 # IPv6 candidates; _is_ipv6 then keeps only "::" forms or the full eight groups, so clock times (12:34:56)
@@ -166,6 +168,14 @@ def _pattern(text: str, regex, kind: str, tok: Tokens, hits: dict, group: int = 
     return regex.sub(sub, text)
 
 
+def _prompt(text: str, tok: Tokens, hits: dict) -> str:
+    def sub(m):
+        hits["USER"] = hits.get("USER", 0) + 1
+        hits["HOST"] = hits.get("HOST", 0) + 1
+        return f"{tok.get('USER', m.group(1))}@{tok.get('HOST', m.group(2))}"
+    return PROMPT_RE.sub(sub, text)
+
+
 def _short_mac(m, tok: Tokens, hits: dict) -> str:
     v = m.group(1)
     if all(len(g) == 2 for g in v.split(":")):
@@ -209,6 +219,7 @@ def redact(text: str, machine: str, mapping: dict):
     text = _pattern(text, UUID_RE, "UUID", tok, hits)
     text = _pattern(text, MAC_RE, "MAC", tok, hits)
     text = MAC_SHORT_RE.sub(lambda m: _short_mac(m, tok, hits), text)
+    text = _prompt(text, tok, hits)
     text = _pattern(text, LOCAL_HOST_RE, "HOST", tok, hits, 1)
     text = _pattern(text, IPV6_RE, "IP", tok, hits, 1)
     text = _pattern(text, IPV4_PORT_RE, "IP", tok, hits, 1)
@@ -239,6 +250,9 @@ def leftovers(text: str, mapping: dict = None):
         for m in MAC_SHORT_RE.finditer(line):
             if not all(len(g) == 2 for g in m.group(1).split(":")):
                 problems.append(f"line {n}: MAC address (short form)")
+        pm = PROMPT_RE.match(line)
+        if pm and not (TOKEN_SHAPE.match(pm.group(1)) and TOKEN_SHAPE.match(pm.group(2))):
+            problems.append(f"line {n}: shell prompt with user and host name")
         if LOCAL_HOST_RE.search(line) and not re.search(r"HOST-\d+\.local", line):
             problems.append(f"line {n}: .local host name")
         # a serial key ("IOPlatformSerialNumber", "Serial Number (system)", "MLB") followed by a serial-shaped value;

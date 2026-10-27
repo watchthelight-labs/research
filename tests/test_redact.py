@@ -41,6 +41,8 @@ OCLOG = '''00:812 00:004 OC: Setting HW_SSN C02ZK1ABCD12
 00:950 00:001 OCB: Path /Users/ikurina/Desktop/EFI and C:\\Users\\bash\\Desktop
 inet 192.168.1.23 netmask 255.255.255.0; inet6 fe80::1c2d:3e4f:5a6b:7c8d%en1; kernel 25.0.0 OC 1.0.8
 mail me at someone.real@example.org
+nova15u@nova15udeMac-Pro ~ % sw_vers
+bob@kubuntu-box:~/src$ ls
 '''
 
 
@@ -50,9 +52,10 @@ def main():
     b, hb = redact(OCLOG, "ikurina/asus-tuf-gaming-b850-plus-wifi", mapping)
     text = a + b
     bad = ["C02ZK1ABCD12", "1A2B3C4D-5E6F", "a4:5e:60", "3c:84:6a", "10:2B:41", "Home Fibre 5G", "NETGEAR-Guest",
-           "C02912345ABCDEFG1", "112233445566", "192.168.1.23", "fe80::1c2d", "ikurina", "bash", "someone.real"]
+           "C02912345ABCDEFG1", "112233445566", "192.168.1.23", "fe80::1c2d", "ikurina", "bash", "someone.real",
+           "nova15u", "kubuntu-box"]
     fails = [s for s in bad if s.lower() in text.lower()]
-    keep = ["Mac-27AD2F918AE68F61", "MacPro7,1", "20260813113236", "intr-in 81 bulk-in 82 bulk-out 02",
+    keep = ["~ % sw_vers", ":~/src$ ls", "Mac-27AD2F918AE68F61", "MacPro7,1", "20260813113236", "intr-in 81 bulk-in 82 bulk-out 02",
             "7C436110-AB2A-4BBB-A880-FE41995C9F82", "255.255.255.0", "25.0.0", "1.0.8", "802.11ac", "Channel: 11"]
     lost = [s for s in keep if s not in text]
     # the same serial must get the same token in both texts
@@ -61,8 +64,10 @@ def main():
     planted = leftovers("token ghp_" + "A" * 30)
     serial_key = leftovers('"IOPlatformSerialNumber" = "C02ZK1ABCD12"')
     serializable = leftovers('"IODeviceMemory" = (({"address"=4093640704}),"not serializable",({"address"=4093640704')
-    ok = not fails and not lost and same and not left and planted and serial_key and not serializable
+    prompt_caught = bool(leftovers("nova15u@nova15udeMac-Pro ~ % sw_vers"))
+    ok = not fails and not lost and same and not left and planted and serial_key and not serializable and prompt_caught
     print("unredacted serial key caught:", bool(serial_key), "| 'not serializable' left alone:", not serializable)
+    print("shell prompt with real names caught:", prompt_caught)
     print(text)
     print("hits:", ha, hb)
     print("still present:", fails)
