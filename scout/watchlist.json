@@ -173,6 +173,16 @@
       "commits",
       "issues"
      ]
+    },
+    {
+     "credited": true,
+     "relation": "same-hardware",
+     "repo": "CENSEDAXIS20025/ASUS-FX608LP-Hackintosh-Multiboot"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "bafcz/Hackintosh_LegionY9000P-IRX8_RaptorLake-HX"
     }
    ],
    "title": "Arrow Lake I2C touchpad (LegionI2CArrowLake)"
@@ -351,6 +361,16 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "pranish-dev/loq_hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-hardware",
+     "repo": "Mountainatic/YaoShi16-Ultra-OpenCore-efi"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "ydd1126/skybreak"
     }
    ],
    "title": "Legion 5 15IAX10 OpenCore EFI"
@@ -625,6 +645,16 @@
      "credited": true,
      "relation": "studied",
      "repo": "DGBooth/AirportRTW89-MT7922"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "JoMei9019-real/AirPort-RTW"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "HungLe17/AirBridgeRTL"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
@@ -742,6 +772,11 @@
      "credited": false,
      "relation": "studied",
      "repo": "MegaMind2566/Lenovo-IdeaPad-S540-15IWL-GTX-OSX86"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "KangweiZhu/ROG-G16-2024-Hackintosh-QEMU-KVM"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
@@ -923,6 +958,11 @@
      "credited": false,
      "relation": "studied",
      "repo": "dssoftx/Hackintosh-X1Carbon-G11-IrisXe-Tahoe"
+    },
+    {
+     "credited": true,
+     "relation": "same-hardware",
+     "repo": "Mountainatic/ArrowWhatever"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"
