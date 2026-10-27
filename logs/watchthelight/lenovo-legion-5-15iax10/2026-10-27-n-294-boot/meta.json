@@ -1,0 +1,26 @@
+{
+ "collected": "2026-10-27",
+ "component": "native",
+ "files": {
+  "README.md": "4dbceedbf7392a2b6dc80aeaa13d4a22cfe87254518b385ae717f5c9dff9fadd",
+  "dmesg-nvidia.txt": "b0cdb99db88f99d9ac83ba5e02e95f99db2010d2aab05a907742e159212d6208",
+  "driver-sums.txt": "1eab67aa57cc3690b43249e2c84e5e7ca675cfe8382b541957a52e77facc6be4",
+  "i117-depthwise-system.txt": "c14e8962e760b7e1960448f5dcf1660686d4d5dca43d7497a292bc0f23449f57",
+  "kextstat.txt": "a020024bcff5937d5023efab26ced8b1d72a919aa87c21dbf1923d78b6864c1e",
+  "opencore-2026-10-27-195238.txt": "0ab687231df449ebf88117f2b009e1f77f673684b1f1de9e9bab080f49048ff7",
+  "sysctl.txt": "6a9f77a4d42ad6d2607f711d3f07cede0281500621aa51eccae2776ff59afc0d"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 142
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "N-294",
+ "username": "watchthelight"
+}

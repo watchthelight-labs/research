@@ -1,0 +1,14 @@
+   68    0 0xffffff8004878000 0x9000     0x9000     org.watchthelight.LegionCpuProbe (1.1.0) UUID-381 <19 9 7 6 3>
+   69    0 0xffffff8004881000 0xd000     0xd000     org.watchthelight.LegionCpuPower (0.4.1) UUID-382 <56 19 17 9 7 6 3 1>
+   71    0 0xffffff8004899000 0x9000     0x9000     org.watchthelight.LegionBtFix (0.2.0) UUID-332 <56 6 3 1>
+   85    0 0xffffff8004942000 0x10000    0x10000    org.watchthelight.IGPUConsoleRange (0.4) UUID-477 <19 17 9 7 6 3 1>
+  107    1 0xffffff8004425000 0x1b1000   0x1b1000   org.watchthelight.MtkWlan (0.12.1) UUID-582 <52 19 7 6 3 1>
+  117    0 0xffffff800491b000 0x27000    0x27000    org.watchthelight.MtkWlanNative (0.4.13) UUID-583 <116 115 107 54 52 7 6 3 1>
+  134    0 0xffffff7f97d57000 0x23c82    0x23c82    com.nullmoth.NVRMFB (0.1) UUID-611 <133 7 6 3 1>
+  146    0 0xffffff7f96dc1000 0x2db2     0x2db2     com.nullmoth.NMIntelFB (0.3) UUID-584 <133 19 7 6 3>
+  147    0 0xffffff7f96de6000 0xe17dec   0xe17dec   com.nullmoth.NVRM (0.1) UUID-565 <19 17 9 7 6 3 1>
+  148    0 0xffffff7f983d9000 0xc42      0xc42      org.watchthelight.XeGfxIntelFB (0.5) UUID-607 <135 133 19 6 3>
+  150    0 0xffffff7f96dc5000 0x14d80    0x14d80    com.nullmoth.NVAccel (2.6.2) UUID-612 <149 133 96 19 7 6 3 1>
+  168    0 0xffffff7f97d52000 0x2edf     0x2edf     com.nullmoth.NVRMAGDC (2.6.2) UUID-335 <144 7 6 3 1>
+  169    0 0xffffff7f983b2000 0x3034     0x3034     org.watchthelight.XeGfxAGDC (0.1) UUID-585 <144 7 6 3 1>
+  178    0 0xffffff80048a2000 0x79000    0x79000    org.watchthelight.MtkBt (0.2.4) UUID-586 <38 7 6 3>
