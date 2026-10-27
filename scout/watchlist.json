@@ -39,6 +39,11 @@
      "watch": [
       "releases"
      ]
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "Sunburst0218/MECHREVO-GM6IX7B-i7-14650HX-RTX4070-Hackintosh"
     }
    ],
    "title": "Legion audio (VoodooHDA-Legion)"
@@ -341,6 +346,11 @@
      "credited": false,
      "relation": "studied",
      "repo": "JungyoKim/Y540-17IRH-TAHOE"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "pranish-dev/loq_hackintosh"
     }
    ],
    "title": "Legion 5 15IAX10 OpenCore EFI"
@@ -522,6 +532,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "Royiii3/r9000p-adr10-hackintosh-notes"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "HackSucks/mtwlm"
     }
    ],
    "title": "MT7925 Wi-Fi driver (MtkWlan)"
@@ -600,6 +615,16 @@
      "credited": false,
      "relation": "studied",
      "repo": "ofonsecavictor/aic-8800d80-macos"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "thanhnndev/mt7925-macos-wifi"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "DGBooth/AirportRTW89-MT7922"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
@@ -870,7 +895,7 @@
      "repo": "pongpan-bk/First-Custom-iGPU-Driver-for-Intel-Core-5-120U-on-macOS"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "same-problem",
      "repo": "samranahmad09/WhateverXe-RaptorLakeP"
     },
@@ -883,6 +908,21 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "kumibrr/oc-tahoe-pavilionplus14-ew0000"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "zep245/IrisXe-macos-driver"
+    },
+    {
+     "credited": true,
+     "relation": "same-hardware",
+     "repo": "CENSEDAXIS20025/ASUS-FX608LP-Hackintosh-Multiboot"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "dssoftx/Hackintosh-X1Carbon-G11-IrisXe-Tahoe"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"
