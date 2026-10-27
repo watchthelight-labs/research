@@ -1,0 +1,19 @@
+{
+ "id": "N-296",
+ "started": 1793135038.9993129,
+ "result": "pass",
+ "reason": "stages 1-7 passed, WindowServer stable 3600 s",
+ "post_rc": 0,
+ "agdc": "1",
+ "results": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "ws_fails_in_a_row": 0
+}

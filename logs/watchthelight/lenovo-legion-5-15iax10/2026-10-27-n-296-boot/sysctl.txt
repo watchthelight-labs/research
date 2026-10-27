@@ -1,0 +1,5 @@
+debug.xegfx_stage: 7
+debug.xegfx_running: 0
+debug.xegfx_progress: 70
+debug.xegfx_env: compat.linuxkpi.i915_disable_display=1 compat.linuxkpi.i915_xegfx_no_display=1 compat.linuxkpi.i915_enable_guc=3 xegfx.nvram_trace=0 xegfx.gtawake=2
+debug.xegfx_wdog: 180
