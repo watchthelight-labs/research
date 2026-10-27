@@ -1,0 +1,39 @@
+Last login: Tue Oct 27 17:32:44 on console
+USER-1@HOST-1 ~ % sw_vers
+csrutil status
+kmutil showloaded --list-only | grep -iE "mtk|lilu|bluetoolfixup|legion"
+networksetup -listallhardwareports
+log show --last 10m --predicate 'eventMessage CONTAINS[c] "Mtk" OR eventMessage CONTAINS[c] "LegionBtFix" OR process == "bluetoothd"' | tail -n 200
+ProductName:		macOS
+ProductVersion:		26.7.2
+BuildVersion:		25G332
+System Integrity Protection status: unknown (Custom Configuration).
+
+Configuration:
+	Apple Internal: disabled
+	Kext Signing: disabled
+	Filesystem Protections: disabled
+	Debugging Restrictions: disabled
+	DTrace Restrictions: disabled
+	NVRAM Protections: disabled
+	BaseSystem Verification: disabled
+
+This is an unsupported configuration, likely to break in the future and leave your machine in an unknown state.
+No variant specified, falling back to release
+   56   10 0xffffff800417a000 0x31000    0x31000    as.vit9696.Lilu (1.7.2) UUID-1 <9 7 6 3 2 1>
+   62    0 0xffffff8004a9f000 0xb000     0xb000     as.acidanthera.BlueToolFixup (2.7.3) UUID-2 <56 9 7 6 3 2 1>
+   63    0 0xffffff8004b23000 0x9000     0x9000     org.watchthelight.LegionBtFix (0.2.0) UUID-3 <56 6 3 1>
+   82    1 0xffffff80048c7000 0x1b1000   0x1b1000   org.watchthelight.MtkWlan (0.12.1) UUID-4 <52 19 7 6 3 1>
+  103    0 0xffffff8004a78000 0x27000    0x27000    org.watchthelight.MtkWlanNative (0.4.13) UUID-5 <102 101 82 54 52 7 6 3 1>
+
+Hardware Port: Ethernet
+Device: en0
+Ethernet Address: MAC-1
+
+Hardware Port: Ethernet
+Device: en1
+Ethernet Address: MAC-2
+
+VLAN Configurations
+===================
+

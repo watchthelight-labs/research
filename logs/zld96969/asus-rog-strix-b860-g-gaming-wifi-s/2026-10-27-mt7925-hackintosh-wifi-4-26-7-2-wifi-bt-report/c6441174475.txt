@@ -1,0 +1,28 @@
+USER-1@HOST-1 ~ % ioreg -r -c MtkWlanNative -l -w0 | grep MtkNativeLast
+ifconfig en1
+ioreg -p IOUSB -l -w0 | grep -E '"USB Product Name"|"idVendor"|"idProduct"'
+ioreg -rc MtkBt -l | grep MtkBt
+en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether MAC-2
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type>
+	status: inactive
+    |     "idProduct" = 21521
+    |     "USB Product Name" = "USB2.1 Hub"
+    |     "idVendor" = 3034
+    |     "idProduct" = 1041
+    |     "USB Product Name" = "USB3.2 Hub"
+    |     "idVendor" = 3034
+    |     "idProduct" = 6575
+    |     "USB Product Name" = "AURA LED Controller"
+    |     "idVendor" = 2821
+      |   "idProduct" = 1544
+      |   "USB Product Name" = "USB2.0 Hub"
+      |   "idVendor" = 1507
+      |     "idProduct" = 179
+      |     "USB Product Name" = "MPMouseNearLink"
+      |     "idVendor" = 13979
+            "idProduct" = 65278
+            "USB Product Name" = "AJAZZ AK980 PRO 2.4G"
+            "idVendor" = 3141

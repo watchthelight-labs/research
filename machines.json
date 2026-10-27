@@ -34,5 +34,16 @@
   ],
   "model": "Lenovo Legion 5 15IAX10 (Core Ultra 9 275HX, RTX 5070 Laptop)",
   "username": "watchthelight"
+ },
+ "zld96969/asus-rog-strix-b860-g-gaming-wifi-s": {
+  "chips": "MT7925 (Wi-Fi + Bluetooth)",
+  "first_seen": "2026-10-27",
+  "last_seen": "2026-10-27",
+  "machine": "asus-rog-strix-b860-g-gaming-wifi-s",
+  "macos_builds": [
+   "25G332"
+  ],
+  "model": "ASUS ROG STRIX B860-G GAMING WIFI S",
+  "username": "zld96969"
  }
 }

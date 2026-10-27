@@ -1,0 +1,27 @@
+{
+ "collected": "2026-10-27",
+ "component": "",
+ "files": {
+  "c6439156814.txt": "2d8a10dfaf6a1b625a73121bbb610111cd746ea1b8e42779e68f469097498921",
+  "c6439195926.txt": "4a91f4b6f11f52e583b368e6dc31c5133d95a50c39c77ed5bb3f94732bf9e00b",
+  "c6441096091.txt": "2740c0d5ce030dbd8a61a69a2df9dfef3347c5f3a3fc6795f5db175c5e7252b0",
+  "c6441174475.txt": "fbc1623b9012bdb3afea2a47e044ee20921e00237dbcbb87c4617c69d5e1ec9c",
+  "c6441296116.txt": "fb169e21b1a0f7c60b1cdcd5eab5d51e757457f4ca2b5ce7e492c9cd71caa5d2"
+ },
+ "kexts": {},
+ "machine": "asus-rog-strix-b860-g-gaming-wifi-s",
+ "macos_build": "25G332",
+ "opencore": "",
+ "project": "mt7925-hackintosh-wifi",
+ "redaction": {
+  "replaced": {
+   "HOST": 7,
+   "MAC": 6,
+   "USER": 7,
+   "UUID": 10
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "mt7925-hackintosh-wifi#4",
+ "username": "zld96969"
+}
