@@ -1,0 +1,517 @@
+arm: debug.nvaccelfb: 1 -> 1
+debug.xegfx_agdc: 1
+old pid 210 new pid 2074
+WindowServer accelerator clients: 12
+frames copied to head 4: 516
+--- counters
+debug.nvaccel_iop: 1
+debug.nvaccel_iop_ok: 534
+debug.nvaccel_iop_fail: 0
+debug.nvaccel_iop_empty: 0
+debug.nvaccel_iop_blank: 43
+debug.nvaccel_iop_copy_skip: 0
+debug.nvaccel_iop_src_surf: 534
+debug.nvaccel_heads_registered: 16
+debug.nvaccel_heads_piped: 16
+debug.nvaccel_vm_alloc: 4
+debug.nvaccel_vm_refused: 0
+debug.nvaccel_map_commit: 7
+debug.nvaccel_scanout_copies: 0
+debug.nvaccel_scanout_self: 0
+debug.nvaccel_scanout_max_us: 0
+debug.xegfx_agdc: 1
+debug.xegfx_agdc_cmds: 71
+debug.xegfx_agdc_refused: 38
+debug.xegfx_agdc_last_refused: 1809
+debug.xegfx_agdc_fbmap: n=0 (left out: noidx 1 range 0 dup 0 gpu 0 hole 0)
+debug.xegfx_agdc_maxfb: 1
+debug.xegfx_agdc_k5_link: 3
+debug.xegfx_agdc_k5_caps: 3
+debug.xegfx_agdc_k5_why: 0
+debug.xegfx_agdc_k5_asked: 1
+debug.xegfx_agdc_fbcapex: 1
+debug.xegfx_agdc_fbcapex_asked: 65814
+debug.xegfx_agdc_fbcapex_served: 278
+debug.xegfx_agdc_client_set: 3
+debug.nvaccel_pipe_init: 4
+debug.nvaccel_pipe_validate: 534
+debug.nvaccel_pipe_complete: 534
+debug.nvaccel_pipe_perform: 534
+debug.xegfx_spin: max_us 138 long 0 panic 1 irqs 5800 handled 5800
+--- accelerator log (iop, scanout)
+2026-10-28 00:40:16.511 Df kernel[0:32cd] (XeGfxAccel) NMXAccel: iop: debug.nvaccel_iop=1 -- capabilities published, transaction hooks OPEN
+2026-10-28 00:40:16.511 Df kernel[0:32cd] (XeGfxAccel) NMXAccel: iop: debug.nvaccel_iop=1 -- capabilities published, transaction hooks OPEN
+2026-10-28 00:40:18.595 Df kernel[0:32ff] (XeGfxAccel) NMXAccel: NVDisplayPipe::initFramebufferResource(index 0): scanout gate CLOSED -- returning NULL, which is the family's own default (sysctl debug.nvaccelfb=3 opens it)
+2026-10-28 00:40:18.595 Df kernel[0:32ff] (XeGfxAccel) NMXAccel: NVDisplayPipe::initFramebufferResource(index 0): scanout gate CLOSED -- returning NULL, which is the family's own default (sysctl debug.nvaccelfb=3 opens it)
+2026-10-28 00:40:18.597 Df kernel[0:3303] (XeGfxAccel) NMXAccel:   level 4: registering any published head that has no pipe yet
+2026-10-28 00:40:18.597 Df kernel[0:3303] (XeGfxAccel) NMXAccel:   level 4: registering any published head that has no pipe yet
+2026-10-28 00:40:18.597 Df kernel[0:3303] (XeGfxAccel) NMXAccel: sysctl debug.nvaccelfb=4: scanout-backed display pipe ENABLED, re-delivering the mode change
+2026-10-28 00:40:18.597 Df kernel[0:3303] (XeGfxAccel) NMXAccel: sysctl debug.nvaccelfb=4: scanout-backed display pipe ENABLED, re-delivering the mode change
+2026-10-28 00:40:18.597 Df kernel[0:3303] (XeGfxAccel) NMXAccel: NVDisplayPipe::initFramebufferResource(head 4, index 0, res <private>) -> vidmem <private> over the LIVE SCANOUT phys 0x70800000 2560 x 1600 pitch 10240 (16384128 bytes)
+2026-10-28 00:40:18.597 Df kernel[0:3303] (XeGfxAccel) NMXAccel: NVDisplayPipe::initFramebufferResource(head 4, index 0, res <private>) -> vidmem <private> over the LIVE SCANOUT phys 0x70800000 2560 x 1600 pitch 10240 (16384128 bytes)
+2026-10-28 00:40:20.255 Df kernel[0:3692] (XeGfxAccel) NMXAccel: NVDisplayPipe::initFramebufferResource(head 4, index 0, res <private>) -> vidmem <private> over the LIVE SCANOUT phys 0x70800000 2560 x 1600 pitch 10240 (16384128 bytes)
+2026-10-28 00:40:20.255 Df kernel[0:3692] (XeGfxAccel) NMXAccel: NVDisplayPipe::initFramebufferResource(head 4, index 0, res <private>) -> vidmem <private> over the LIVE SCANOUT phys 0x70800000 2560 x 1600 pitch 10240 (16384128 bytes)
+2026-10-28 00:40:21.019 Df kernel[0:3692] (XeGfxAccel) NMXAccel: NVDisplayPipe::initFramebufferResource(head 4, index 0, res <private>) -> vidmem <private> over the LIVE SCANOUT phys 0x70800000 2560 x 1600 pitch 10240 (16384128 bytes)
+2026-10-28 00:40:21.019 Df kernel[0:3692] (XeGfxAccel) NMXAccel: NVDisplayPipe::initFramebufferResource(head 4, index 0, res <private>) -> vidmem <private> over the LIVE SCANOUT phys 0x70800000 2560 x 1600 pitch 10240 (16384128 bytes)
+2026-10-28 00:40:22.137 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 plane 0: surface yes id 0x2 2560x1600 row 10240 fmt 0x42475241 | resource NMXResource w 2560 h 1600 +0xb8 1 +0xc0 10240 vidmem 16384000 bytes kva 1 scanout 0
+2026-10-28 00:40:22.137 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 plane 0: surface yes id 0x2 2560x1600 row 10240 fmt 0x42475241 | resource NMXResource w 2560 h 1600 +0xb8 1 +0xc0 10240 vidmem 16384000 bytes kva 1 scanout 0
+2026-10-28 00:40:22.137 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: mapped source surface 0x2 (16384000 bytes) into slot 0
+2026-10-28 00:40:22.137 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: mapped source surface 0x2 (16384000 bytes) into slot 0
+2026-10-28 00:40:22.146 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 transaction #0 (head 4 #0) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory — 64 samples: nonzero 0 varied 0
+2026-10-28 00:40:22.146 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 transaction #0 (head 4 #0) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory — 64 samples: nonzero 0 varied 0
+2026-10-28 00:40:22.146 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 plane 0: surface yes id 0x2 2560x1600 row 10240 fmt 0x42475241 | resource NMXResource w 2560 h 1600 +0xb8 1 +0xc0 10240 vidmem 16384000 bytes kva 1 scanout 0
+2026-10-28 00:40:22.146 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 plane 0: surface yes id 0x2 2560x1600 row 10240 fmt 0x42475241 | resource NMXResource w 2560 h 1600 +0xb8 1 +0xc0 10240 vidmem 16384000 bytes kva 1 scanout 0
+2026-10-28 00:40:22.147 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 transaction #1 (head 4 #1) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory — 64 samples: nonzero 0 varied 0
+2026-10-28 00:40:22.147 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 transaction #1 (head 4 #1) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory — 64 samples: nonzero 0 varied 0
+2026-10-28 00:40:22.149 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 plane 0: surface yes id 0x1 2560x1600 row 10240 fmt 0x42475241 | resource NMXResource w 2560 h 1600 +0xb8 1 +0xc0 10240 vidmem 16384000 bytes kva 1 scanout 0
+2026-10-28 00:40:22.149 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 plane 0: surface yes id 0x1 2560x1600 row 10240 fmt 0x42475241 | resource NMXResource w 2560 h 1600 +0xb8 1 +0xc0 10240 vidmem 16384000 bytes kva 1 scanout 0
+2026-10-28 00:40:22.150 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: mapped source surface 0x1 (16384000 bytes) into slot 1
+2026-10-28 00:40:22.150 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: mapped source surface 0x1 (16384000 bytes) into slot 1
+2026-10-28 00:40:22.155 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 transaction #2 (head 4 #2) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory — 64 samples: nonzero 0 varied 0
+2026-10-28 00:40:22.155 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 transaction #2 (head 4 #2) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory — 64 samples: nonzero 0 varied 0
+2026-10-28 00:40:22.170 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 transaction #3 (head 4 #3) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory — 64 samples: nonzero 0 varied 0
+2026-10-28 00:40:22.170 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: K6 transaction #3 (head 4 #3) on the panel: 2560x1600 pitch 10240 from the IOSurface's memory — 64 samples: nonzero 0 varied 0
+2026-10-28 00:40:23.152 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: mapped source surface 0x3 (16384000 bytes) into slot 2
+2026-10-28 00:40:23.152 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: mapped source surface 0x3 (16384000 bytes) into slot 2
+2026-10-28 00:40:36.213 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: mapped source surface 0x2c (16384000 bytes) into slot 3
+2026-10-28 00:40:36.213 Df kernel[0:37f9] (XeGfxAccel) NMXAccel: iop: mapped source surface 0x2c (16384000 bytes) into slot 3
+--- AGDC log
+Timestamp               Ty Process[PID:TID]
+2026-10-28 00:38:14.526 Df kernel[0:942] (NVRMAGDC) NVRM-agdc: loaded; idle until `sysctl debug.nvrmfb_agdc=1`
+2026-10-28 00:38:14.526 Df kernel[0:942] (XeGfxAGDC) NVRM-agdc: loaded; idle until `sysctl debug.xegfx_agdc=1`
+2026-10-28 00:40:16.521 Df kernel[0:230] (XeGfxAGDC) NVRM-agdc: AGDC scan: framebuffer id 0x1000005da has no IOFBDependentIndex number: left out [1/8]
+2026-10-28 00:40:16.521 Df kernel[0:230] (XeGfxAGDC) NVRM-agdc: AGDC: slot table n=0 (left out: noidx 1 range 0 dup 0 gpu 0 hole 0) (1 framebuffer node(s) seen)
+2026-10-28 00:40:16.521 Df kernel[0:230] (XeGfxAGDC) NVRM-agdc: AGDC scan: framebuffer id 0x1000005da has no IOFBDependentIndex number: left out [1/8]
+2026-10-28 00:40:16.521 Df kernel[0:230] (XeGfxAGDC) NVRM-agdc: AGDC: slot table n=0 (left out: noidx 1 range 0 dup 0 gpu 0 hole 0) (1 framebuffer node(s) seen)
+2026-10-28 00:40:16.521 Df kernel[0:230] (XeGfxAGDC) NVRM-agdc: AGDC: UP on IGPU — 0 framebuffer slot(s), maxFramebuffers 1; vendor calls 2, refused 0 (last 0)
+2026-10-28 00:40:16.521 Df kernel[0:984] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x3 (in 0 bytes) -> Unsupported [1/40]
+2026-10-28 00:40:16.521 Df kernel[0:32de] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x941 (in 48 bytes) -> Unsupported [2/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC scan: framebuffer id 0x1000005da has no IOFBDependentIndex number: left out [1/8]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: slot table n=0 (left out: noidx 1 range 0 dup 0 gpu 0 hole 0) (1 framebuffer node(s) seen)
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x925 (in 12 bytes) -> Unsupported [3/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [4/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [5/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [6/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [7/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [8/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [9/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [10/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [11/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [12/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [13/40]
+2026-10-28 00:40:20.260 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [14/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x925 (in 12 bytes) -> Unsupported [15/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [16/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [17/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [18/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [19/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [20/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [21/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [22/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [23/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [24/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [25/40]
+2026-10-28 00:40:20.262 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [26/40]
+2026-10-28 00:40:21.690 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x925 (in 12 bytes) -> Unsupported [27/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [28/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [29/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [30/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [31/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [32/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [33/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [34/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [35/40]
+2026-10-28 00:40:21.691 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [36/40]
+2026-10-28 00:40:21.692 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [37/40]
+2026-10-28 00:40:21.692 Df kernel[0:3692] (XeGfxAGDC) NVRM-agdc: AGDC: command 0x711 (in 6508 bytes) -> Unsupported [38/40]
+--- WindowServer pipe log
+Timestamp               Ty Process[PID:TID]
+2026-10-28 00:38:16.175 Df WindowServer[210:3f7] [com.apple.GPUWrangler:default] (reg) gpu 0x2dbb flags 0x10 (IG) vid.did=8086.7d67 b:d:f=0:2:0 
+gpu 0x2dbb        pci 0x10000037b IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/IGPU@2
+gpu 0x2dbb       agdc 0x000000000 
+gpu 0x2dbb       gpuc 0x000000000 
+gpu 0x2dbb agdpclient 0x000000000 
+gpu 0x2dbb      accel 0x000000000 
+gpu 0x2dbb     fb0:-1 0x1000005da     /XeGfxIntelFramebuffer
+2026-10-28 00:38:16.196 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - 	
+	0  	    0x7ff8067ca383	std::__1::pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<unsigned long long, CoreDisplay::DisplayPipe>, void*>*>, bool> std::__1::__hash_table<std::__1::__hash_value_type<unsigned long long, CoreDisplay::DisplayPipe>, std::__1::__unordered_map_hasher<unsigned long long, std::__1::pair<unsigned long long const, CoreDisplay::DisplayPipe>, std::__1::hash<unsigned long long>, std::__1::equal_to<unsigned long long>, true>, std::__1::__unordered_map_equal<unsigned long long, std::__1::pair<unsigned long long const, CoreDisplay::DisplayPipe>, std::__1::equal_to<unsigned long long>, std::__1::hash<unsigned long long>, true>, std::__1::allocator<std::__1::pair<unsigned long long const, CoreDisplay::DisplayPipe>>>::__emplace_unique_impl<std::__1::piecewise_construct_t const&, std::__1::tuple<unsigned long long&>, std::__1::tuple<unsigned long long&>>(std::__1::piecewise_construct_t const&, std::__1::tuple<unsigned long long&>&&, std::__1::tuple<unsigned long long&>&&) + 3859
+	1  	    0x7ff8068a5ac0	CoreDisplay::Framebuffer::Framebuffer(unsigned int, unsigned long long, unsigned int, unsigned long long) + 3658
+	2  	    0x7ff806830a70	CoreDisplay::GPU::GPU(__GPUWranglerGPU*, dispatch_queue_s*) + 766
+	3  	    0x7ff806845564	invocation function for block in CoreDisplay::GPUController::GPUController() + 2621
+	4  	    0x7ff816e0c531	GPUWranglerRegisterEventBlock + 1077
+	5  	    0x7ff806868f51	CGXMappedDisplayStart + 4408
+	6  	    0x7ff8068939e4	CGXDisplayDriverInitialize + 972
+	7  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	8  	    0x7ff80aa3ed81	WSInitialize + 3956
+	9  	    0x7ff80a7547bd	SLXServer + 1016
+	10 	       0x10ba746d1	11  WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	11 	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:20.249 Df WindowServer[2074:3692] [com.apple.GPUWrangler:default] (reg) gpu 0x2dbb flags 0x10 (IG) vid.did=8086.7d67 b:d:f=0:2:0 
+gpu 0x2dbb        pci 0x10000037b IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/IGPU@2
+gpu 0x2dbb       agdc 0x100000954     /XeGfxDeviceControl
+gpu 0x2dbb       gpuc 0x000000000 
+gpu 0x2dbb agdpclient 0x000000000 
+gpu 0x2dbb      accel 0x1000008e3     /NMXAccel
+gpu 0x2dbb      fb0:0 0x1000005da     /.Display_boot
+--- WindowServer log
+Timestamp               Ty Process[PID:TID]
+2026-10-28 00:38:15.928 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edd4f	CGXConstructVirtualFramebufferSet + 411
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff80689a37a	displayDidCreateSessionProc + 9
+	5  	    0x7ff80a7edc1d	(anonymous namespace)::ServerNotifier::invoke_callbacks(unsigned int, void*, unsigned long) const + 265
+	6  	    0x7ff80a7ed4ba	WSPostLocalNotification + 46
+	7  	    0x7ff80a8b6432	createSessionWithOwner(__CFDictionary const*, CGXCredentials, void*, unsigned int, bool, unsigned int, unsigned int*) + 938
+	8  	    0x7ff80aa3ebf6	WSInitialize + 3561
+	9  	    0x7ff80a7547bd	SLXServer + 1016
+	10 	       0x10ba746d1	11  WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	11 	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:15.929 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edd4f	CGXConstructVirtualFramebufferSet + 411
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff80689a37a	displayDidCreateSessionProc + 9
+	5  	    0x7ff80a7edc1d	(anonymous namespace)::ServerNotifier::invoke_callbacks(unsigned int, void*, unsigned long) const + 265
+	6  	    0x7ff80a7ed4ba	WSPostLocalNotification + 46
+	7  	    0x7ff80a8b6432	createSessionWithOwner(__CFDictionary const*, CGXCredentials, void*, unsigned int, bool, unsigned int, unsigned int*) + 938
+	8  	    0x7ff80aa3ebf6	WSInitialize + 3561
+	9  	    0x7ff80a7547bd	SLXServer + 1016
+	10 	       0x10ba746d1	11  WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	11 	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.175 Df WindowServer[210:3f7] [com.apple.GPUWrangler:default] (reg) gpu 0x2dbb flags 0x10 (IG) vid.did=8086.7d67 b:d:f=0:2:0 
+gpu 0x2dbb        pci 0x10000037b IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/IGPU@2
+gpu 0x2dbb       agdc 0x000000000 
+gpu 0x2dbb       gpuc 0x000000000 
+gpu 0x2dbb agdpclient 0x000000000 
+gpu 0x2dbb      accel 0x000000000 
+gpu 0x2dbb     fb0:-1 0x1000005da     /XeGfxIntelFramebuffer
+2026-10-28 00:38:16.196 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - 	
+	0  	    0x7ff8067ca383	std::__1::pair<std::__1::__hash_iterator<std::__1::__hash_node<std::__1::__hash_value_type<unsigned long long, CoreDisplay::DisplayPipe>, void*>*>, bool> std::__1::__hash_table<std::__1::__hash_value_type<unsigned long long, CoreDisplay::DisplayPipe>, std::__1::__unordered_map_hasher<unsigned long long, std::__1::pair<unsigned long long const, CoreDisplay::DisplayPipe>, std::__1::hash<unsigned long long>, std::__1::equal_to<unsigned long long>, true>, std::__1::__unordered_map_equal<unsigned long long, std::__1::pair<unsigned long long const, CoreDisplay::DisplayPipe>, std::__1::equal_to<unsigned long long>, std::__1::hash<unsigned long long>, true>, std::__1::allocator<std::__1::pair<unsigned long long const, CoreDisplay::DisplayPipe>>>::__emplace_unique_impl<std::__1::piecewise_construct_t const&, std::__1::tuple<unsigned long long&>, std::__1::tuple<unsigned long long&>>(std::__1::piecewise_construct_t const&, std::__1::tuple<unsigned long long&>&&, std::__1::tuple<unsigned long long&>&&) + 3859
+	1  	    0x7ff8068a5ac0	CoreDisplay::Framebuffer::Framebuffer(unsigned int, unsigned long long, unsigned int, unsigned long long) + 3658
+	2  	    0x7ff806830a70	CoreDisplay::GPU::GPU(__GPUWranglerGPU*, dispatch_queue_s*) + 766
+	3  	    0x7ff806845564	invocation function for block in CoreDisplay::GPUController::GPUController() + 2621
+	4  	    0x7ff816e0c531	GPUWranglerRegisterEventBlock + 1077
+	5  	    0x7ff806868f51	CGXMappedDisplayStart + 4408
+	6  	    0x7ff8068939e4	CGXDisplayDriverInitialize + 972
+	7  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	8  	    0x7ff80aa3ed81	WSInitialize + 3956
+	9  	    0x7ff80a7547bd	SLXServer + 1016
+	10 	       0x10ba746d1	11  WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	11 	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.199 Df WindowServer[210:3f7] [com.apple.CoreDisplay:default] [WARN] - GPU: FB: 1 of 1 opened
+Can't get value for key 'AppleIntelFramebuffer'
+Can't get value for key 'AMDFramebuffer'
+Can't get value for key 'AppleParavirtFramebuffer'
+IOFramebufferUserClient = 1
+No property 'FB_Triage', or property isn't a string
+LER:IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_Busy_2,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_RegTag_0,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_RegTag_1,...) => NULL
+
+Can't get value for key 'Triage'
+2026-10-28 00:38:16.210 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - device_preserves_framebuffer: IOFBNeedsRefresh key not found in IORegistry
+2026-10-28 00:38:16.210 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - device_preserves_framebuffer: needs_refresh = NO
+2026-10-28 00:38:16.288 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.288 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.289 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.289 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.289 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.289 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.289 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.290 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.290 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.290 E  WindowServer[210:3f7] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10ba746d1	9   WindowServer                        0x000000010ba746d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:38:16.381 Df WindowServer[210:3f7] [com.apple.SkyLight:default] Software compositor activated.
+2026-10-28 00:38:16.381 Df WindowServer[210:3f7] [com.apple.SkyLight:default] Software compositor activated.
+2026-10-28 00:40:20.050 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edd4f	CGXConstructVirtualFramebufferSet + 411
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff80689a37a	displayDidCreateSessionProc + 9
+	5  	    0x7ff80a7edc1d	(anonymous namespace)::ServerNotifier::invoke_callbacks(unsigned int, void*, unsigned long) const + 265
+	6  	    0x7ff80a7ed4ba	WSPostLocalNotification + 46
+	7  	    0x7ff80a8b6432	createSessionWithOwner(__CFDictionary const*, CGXCredentials, void*, unsigned int, bool, unsigned int, unsigned int*) + 938
+	8  	    0x7ff80aa3ebf6	WSInitialize + 3561
+	9  	    0x7ff80a7547bd	SLXServer + 1016
+	10 	       0x10aba06d1	11  WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	11 	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:20.050 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edd4f	CGXConstructVirtualFramebufferSet + 411
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff80689a37a	displayDidCreateSessionProc + 9
+	5  	    0x7ff80a7edc1d	(anonymous namespace)::ServerNotifier::invoke_callbacks(unsigned int, void*, unsigned long) const + 265
+	6  	    0x7ff80a7ed4ba	WSPostLocalNotification + 46
+	7  	    0x7ff80a8b6432	createSessionWithOwner(__CFDictionary const*, CGXCredentials, void*, unsigned int, bool, unsigned int, unsigned int*) + 938
+	8  	    0x7ff80aa3ebf6	WSInitialize + 3561
+	9  	    0x7ff80a7547bd	SLXServer + 1016
+	10 	       0x10aba06d1	11  WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	11 	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:20.264 Df WindowServer[2074:3692] [com.apple.CoreDisplay:default] [WARN] - GPU: FB: 1 of 1 opened
+Can't get value for key 'AppleIntelFramebuffer'
+Can't get value for key 'AMDFramebuffer'
+Can't get value for key 'AppleParavirtFramebuffer'
+IOFramebufferUserClient = 1
+No property 'FB_Triage', or property isn't a string
+LER:IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_Busy_2,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_RegTag_0,...) => NULL
+IORegistryEntryCreateCFProperty(...,AAPL,IOGraphics_LER_RegTag_1,...) => NULL
+
+Can't get value for key 'Triage'
+IOResources: IOAFTriage-IGPU = 0102030405060708090a0b0c0d0e0f101112131415161718191a
+2026-10-28 00:40:21.014 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - GetThermalCompensationAttributes: can't get framebuffer red gamma scaling factor on port 83215 (e00002ce)
+2026-10-28 00:40:21.014 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - GetThermalCompensationAttributes: can't get framebuffer green gamma scaling factor on port 83215 (e00002ce)
+2026-10-28 00:40:21.014 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - GetThermalCompensationAttributes: can't get framebuffer blue gamma scaling factor on port 83215 (e00002ce)
+2026-10-28 00:40:21.015 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - device_preserves_framebuffer: needs_refresh = YES
+2026-10-28 00:40:21.016 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.016 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.017 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.017 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.017 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.017 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.017 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.017 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.017 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.017 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.018 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting offline display 0x00000000 main in CGXConstructVirtualFramebuffer 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee650	CGXConstructVirtualFramebuffer + 2080
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.018 E  WindowServer[2074:3692] [com.apple.CoreDisplay:default] [ERROR] - Setting main display 0x00000000 offline 	
+	0  	    0x7ff8067cf7f5	CoreDisplay::AddMainOfflineBreadcrumb(bool, char const*, ...) + 316
+	1  	    0x7ff8067ee4d1	CGXConstructVirtualFramebuffer + 1697
+	2  	    0x7ff8067edcb8	CGXConstructVirtualFramebufferSet + 260
+	3  	    0x7ff806894547	setup_virtual_framebuffers() + 11
+	4  	    0x7ff806893d09	CGXDisplayDriverInitialize + 1777
+	5  	    0x7ff80a973ef9	WS::Displays::CoreDisplayManager::initialize() + 43
+	6  	    0x7ff80aa3ed81	WSInitialize + 3956
+	7  	    0x7ff80a7547bd	SLXServer + 1016
+	8  	       0x10aba06d1	9   WindowServer                        0x000000010aba06d1 WindowServer + 1745
+	9  	    0x7ff803f1e1c8	start + 3240
+2026-10-28 00:40:21.695 Df WindowServer[2074:3692] [com.apple.SkyLight:default] Metal compositor activated.
+2026-10-28 00:40:21.695 Df WindowServer[2074:3692] [com.apple.SkyLight:default] Metal compositor activated.
+2026-10-28 00:40:22.117 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: reflection: GPUPass has no AIR — cannot be reflected
+2026-10-28 00:40:22.117 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: reflection: ViewportToNDC has no AIR — cannot be reflected
+2026-10-28 00:40:23.242 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: reflection: SimpleTextureFragment has no AIR — cannot be reflected
+2026-10-28 00:40:23.243 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: reflection: SimpleVertex has no AIR — cannot be reflected
+2026-10-28 00:40:23.669 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: vk: host-pointer import refused — 0x10bc85000 (+20480) is not all writable memory; that buffer is COPIED
+2026-10-28 00:40:27.882 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: vk: host-pointer import refused — 0x11a56e000 (+937984) is not all writable memory; that buffer is COPIED
+2026-10-28 00:40:29.506 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: vk: host-pointer import refused — 0x17e2f4000 (+1179648) is not all writable memory; that buffer is COPIED
+2026-10-28 00:40:31.053 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: vk: host-pointer import refused — 0x10bcb3000 (+16384) is not all writable memory; that buffer is COPIED
+2026-10-28 00:40:31.056 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: newTiledTextureWithDescriptor: linear view refused -> copied texture (54x54 bpr 256; said once)
+2026-10-28 00:40:32.834 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: reflection: UberResampleLanczosFragmentBGRA has no AIR — cannot be reflected
+2026-10-28 00:40:32.834 Df WindowServer[2074:3692] (NVMTLDriver) NullMoth: reflection: SimpleVertex has no AIR — cannot be reflected
