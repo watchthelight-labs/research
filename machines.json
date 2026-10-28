@@ -1,4 +1,13 @@
 {
+ "Elezorn/dell-latitude-5421": {
+  "first_seen": "2026-10-28",
+  "last_seen": "2026-10-28",
+  "machine": "dell-latitude-5421",
+  "macos_builds": [
+   "24H32"
+  ],
+  "username": "Elezorn"
+ },
  "ikurina/asus-tuf-gaming-b850-plus-wifi": {
   "chips": "MT7925 (Wi-Fi + Bluetooth)",
   "first_seen": "2026-10-22",
