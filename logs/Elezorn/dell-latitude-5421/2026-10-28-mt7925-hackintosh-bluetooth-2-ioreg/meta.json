@@ -1,0 +1,22 @@
+{
+ "collected": "2026-10-28",
+ "component": "",
+ "files": {
+  "issue-1-ioreg.txt": "ea96c3b8e40b3a82543cf17308334453b443b24667ca5f412457317bf81725ca",
+  "issue-2-profile.txt": "461dda3a8721d6623f50c9783dbccc9b55b8ae2413df5424555bb63fcaaafa17"
+ },
+ "issue_title": "Confirmed working on 0x0e8d 0x7925",
+ "kexts": {},
+ "machine": "dell-latitude-5421",
+ "macos_build": "24H32",
+ "opencore": "",
+ "project": "mt7925-hackintosh-bluetooth",
+ "redaction": {
+  "replaced": {
+   "MAC": 3
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "https://github.com/watchthelight-labs/mt7925-hackintosh-bluetooth/issues/2",
+ "username": "Elezorn"
+}
