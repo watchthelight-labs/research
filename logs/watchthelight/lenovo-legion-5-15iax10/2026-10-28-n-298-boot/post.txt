@@ -1,0 +1,273 @@
+xgprobe: /dev/dri/renderD128          ok
+xgprobe: drm version                  ok
+xgprobe: driver                       i915 1.6.0
+xgprobe: getparam chipset             ok
+xgprobe: device                       0x7d67 rev 6 softpin 1
+xgprobe: query engines (size)         ok
+xgprobe: query engines                ok
+xgprobe: engine                       class 0 instance 0
+xgprobe: engine                       class 1 instance 0
+xgprobe: engine                       class 4 instance 0
+xgprobe: context create               ok
+xgprobe: map buffers (render)         ok
+xgprobe: execbuffer (render)          ok
+xgprobe: wait (render)                ok
+xgprobe: readback                     0x58670000, want 0x58670000
+xgprobe: map buffers (copy)           ok
+xgprobe: execbuffer (copy)            ok
+xgprobe: wait (copy)                  ok
+xgprobe: readback                     0x58670001, want 0x58670001
+xgprobe: context destroy              ok
+xgprobe: all rings stored their value
+--- drmdiag (each libdrm enumeration step)
+DRM_DIR_NAME /dev/dri
+/dev/dri/renderD128: mode 020666 rdev 0x22865880 (major 34 minor 0x865880)
+  open /dev/dri/renderD128: fd 4, fstat rdev 0x22865c80 (major 34 minor 0x865c80)
+    GET_PCIINFO (0x40106415): 0 errno 0 -> 0000:00:02.0 8086:7d67 sub 17aa:3e38 rev 06
+    drmGetNodeTypeFromFd: 2
+    drmGetDeviceNameFromFd2: /dev/dri/renderD128
+    drmGetDevice2: 0 bustype 0 nodes 0x5
+/dev/dri/card0: mode 020660 rdev 0x2286a000 (major 34 minor 0x86a000)
+  open /dev/dri/card0: fd 4, fstat rdev 0x2286a400 (major 34 minor 0x86a400)
+    GET_PCIINFO (0x40106415): 0 errno 0 -> 0000:00:02.0 8086:7d67 sub 17aa:3e38 rev 06
+    drmGetNodeTypeFromFd: 0
+    drmGetDeviceNameFromFd2: /dev/dri/card0
+    drmGetDevice2: 0 bustype 0 nodes 0x5
+drmGetDevices2(0): 1
+drmGetDevices2(PCI_REVISION): 1
+--- drmlist (libdrm device enumeration, GET_PCIINFO)
+drmGetDevices2: 1 device(s)
+  [0] pci 0000:00:02.0  8086:7d67  sub 17aa:3e38  rev 06
+      /dev/dri/renderD128: driver "i915" 1.6.0 (Intel Graphics), busid "?"
+--- vkprobe (ANV on the XeGfx node)
+device 0: Intel(R) Graphics (ARL) | vendor 0x8086 device 0x7d67 | API 1.4.363 | driver 0x6802063
+  vkCreateDevice: OK (0)
+  compute pipeline: OK (0)
+vkprobe rc=0
+--- vkdraw (render pass, triangle, readback)
+  vkCreateInstance(&ici, NULL, &inst) 0
+  vkCreateDevice(pd, &dci, NULL, &dev) 0
+  vkCreateImage(dev, &imci, NULL, &img) 0
+  vkAllocateMemory(dev, &mai, NULL, &imem) 0
+  vkBindImageMemory(dev, img, imem, 0) 0
+  vkCreateImageView(dev, &vci, NULL, &view) 0
+  vkCreateBuffer(dev, &bci, NULL, &buf) 0
+  vkAllocateMemory(dev, &bmai, NULL, &bmem) 0
+  vkBindBufferMemory(dev, buf, bmem, 0) 0
+  vkCreateRenderPass(dev, &rpci, NULL, &rp) 0
+  vkCreateFramebuffer(dev, &fci, NULL, &fb) 0
+  vkCreateShaderModule         0
+  vkCreateShaderModule         0
+  vkCreatePipelineLayout(dev, &plci, NULL, &pl) 0
+  vkCreateGraphicsPipelines(dev, VK_NULL_HANDLE, 1, &gpci, NULL, &pipe) 0
+  vkCreateCommandPool(dev, &cpci, NULL, &pool) 0
+  vkAllocateCommandBuffers(dev, &cbai, &cmd) 0
+  vkBeginCommandBuffer(cmd, &cbbi) 0
+  vkEndCommandBuffer(cmd)      0
+  vkCreateFence(dev, &fnci, NULL, &fence) 0
+  vkQueueSubmit(q, 1, &si, fence) 0
+  vkWaitForFences(dev, 1, &fence, VK_TRUE, 2000000000ull) 0
+  vkMapMemory(dev, bmem, 0, W * H * 4, 0, (void **)&px) 0
+centre    0 255   0 255 (want 0 255 0 255)
+corner  255   0   0 255 (want 255 0 0 255)
+green pixels 512 of 4096 (a triangle of half the width and height covers about 512)
+draw: OK
+--- XeGfxAccel
++-o NMXAccel  <class NMXAccel, id 0x1000008c7, registered, matched, active, busy 0 (0 ms), retain 80>
+    {
+      "IOClass" = "NMXAccel"
+--- mtlprobe as ruid 0 / euid 88 (WindowServer's ids)
+Metal devices: 1
+  compute pipeline: OK
+  values: [0]=0x58670000 [1023]=0x58670bfd, 0 of 1024 wrong
+metal compute: OK
+  draw: status 4, centre 0 255 0 255, corner 255 0 0 255, 512 green pixels (about 512 expected)
+metal draw: OK
+mtlprobe88 rc=0
+--- mtlprobe as euid 88 in WindowServer's sandbox profile
+Metal devices: 1
+  compute pipeline: OK
+  values: [0]=0x58670000 [1023]=0x58670bfd, 0 of 1024 wrong
+metal compute: OK
+  draw: status 4, centre 0 255 0 255, corner 255 0 0 255, 512 green pixels (about 512 expected)
+metal draw: OK
+mtlprobews rc=0
+2026-10-27 20:30:07.963 E  kernel[0:2b29] [com.apple.sandbox.reporting:violation] 1 duplicate report for Sandbox: xg-mtlprobe(1482) deny(1) file-write-data /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/C/com.apple.metal/32023/libraries.list
+2026-10-27 20:30:07.963 E  kernel[0:2b29] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-issue-extension target:/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/C/com.apple.metalfe extension-class:com.apple.app-sandbox.re
+2026-10-27 20:30:07.963 E  kernel[0:2b29] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-issue-extension target:/usr/local/bin extension-class:com.apple.app-sandbox.read
+2026-10-27 20:30:07.963 E  kernel[0:2b29] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-issue-extension target:/ extension-class:com.apple.app-sandbox.read
+2026-10-27 20:30:07.963 E  kernel[0:2b29] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-issue-extension target:/private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/C/com.apple.gpuarchiver extension-class:com.apple.app-sandbo
+2026-10-27 20:30:08.325 E  kernel[0:2b28] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-write-create /private/var/empty/Library
+2026-10-27 20:30:08.325 E  kernel[0:2b28] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-write-create /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/T/nvmtl
+2026-10-27 20:30:08.474 E  kernel[0:2b28] [com.apple.sandbox.reporting:violation] 1 duplicate report for Sandbox: xg-mtlprobe(1482) deny(1) file-write-create /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/T/nvmtl
+2026-10-27 20:30:08.474 E  kernel[0:2b28] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-write-create /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/C/xg-mtlprobe
+2026-10-27 20:30:08.474 E  kernel[0:2b28] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-write-create /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/T/nvmtl
+2026-10-27 20:30:08.761 E  kernel[0:2b28] [com.apple.sandbox.reporting:violation] Sandbox: xg-mtlprobe(1482) deny(1) file-write-data /private/var/folders/zz/zyxvpxvq6csfxvn_n00000b000002r/C/com.apple.metal/32023/libraries.list
+2026-10-27 20:30:08.831 Df log[1514:2bae] [com.apple.log:] log run noninteractively, parent: 1404 (bash), args: '/usr/bin/log' 'show' '--last' '1m' '--style' 'compact' '--predicate' 'eventMessage CONTAINS "xg-mtlprobe" OR process == "xg-mtlprobe" OR eventMessa
+--- fd instances: free 7735 lookup 425 opening 0 open 32 peak 457 of 8192 recycled 0; lock free 0 ticks; nowait reserve 64:256 128:512 256:512 512:260 1024:256 2048:259 4096:261, misses 0
+--- mtlprobe (Metal through the NvGfx plugin on ANV)
+Metal devices: 1
+  Intel(R) Graphics (ARL) (NVMTL over Intel(R) Graphics (ARL)) | registryID 0x1000008c7 | lowPower 0 | headless 0
+using Intel(R) Graphics (ARL) (NVMTL over Intel(R) Graphics (ARL))
+  newLibraryWithSource: OK
+  compute pipeline: OK
+  command buffer status 4
+  values: [0]=0x58670000 [1023]=0x58670bfd, 0 of 1024 wrong
+metal compute: OK
+  render pipeline: OK
+  draw: status 4, centre 0 255 0 255, corner 255 0 0 255, 512 green pixels (about 512 expected)
+metal draw: OK
+mtlprobe rc=0
+--- vkhost (IOSurface memory as a Vulkan host pointer)
+device Intel(R) Graphics (ARL), host pointer alignment 4096
+IOSurface 9: base 0x10b3d4000, 4194304 bytes, page aligned yes
+host pointer properties: 0, memory types 0xf
+import 4194304 bytes as memory type 0: 0 (0.02 ms)
+submit/wait 0 (1.26 ms): 0 of 1048576 values wrong, read through the IOSurface base address
+vkhost: OK
+vkhost rc=0
+after vkhost +2 s
+after vkhost +4 s
+after vkhost +6 s
+after vkhost +8 s
+after vkhost +10 s
+after vkhost +12 s
+after vkhost +14 s
+after vkhost +16 s
+after vkhost +18 s
+after vkhost +20 s
+--- mtlbench (2560x1600 IOSurface frames, ms per command buffer)
+using Intel(R) Graphics (ARL) (NVMTL over Intel(R) Graphics (ARL))
+bench clear  n 30  min 2.42  avg 3.90  max 17.01 ms
+check clear: 0 of 64 wrong
+bench blit   n 30  min 0.74  avg 0.85  max 2.04 ms
+check blit (CPU pattern in, GPU copy, read back): 0 of 256 wrong
+bench draw   n 30  min 3.87  avg 4.28  max 10.84 ms
+metal bench: OK
+--- mtlbench on the same plugin, NVMTL_NO_SURFACE_HOST=1 (control)
+using Intel(R) Graphics (ARL) (NVMTL over Intel(R) Graphics (ARL))
+bench clear  n 5  min 4.96  avg 20.18  max 78.27 ms
+check clear: 0 of 64 wrong
+bench blit   n 5  min 5.52  avg 12.43  max 38.49 ms
+check blit (CPU pattern in, GPU copy, read back): 0 of 256 wrong
+bench draw   n 5  min 7.32  avg 21.23  max 75.96 ms
+metal bench: OK
+--- mtlbench on the host-import plugin
+using Intel(R) Graphics (ARL) (NVMTL over Intel(R) Graphics (ARL))
+bench clear  n 30  min 2.41  avg 3.83  max 16.74 ms
+check clear: 0 of 64 wrong
+bench blit   n 30  min 0.73  avg 0.81  max 1.25 ms
+check blit (CPU pattern in, GPU copy, read back): 0 of 256 wrong
+bench draw   n 30  min 3.90  avg 5.17  max 37.58 ms
+metal bench: OK
+pid 2020 NVMTL: vk: VK_EXT_image_drm_format_modifier present - a buffer texture's row pitch is the app's own bytesPerRow (explicit DRM linear layout)
+pid 2020 NVMTL: vk: IOSurface copies go straight to the surface's pages (host import present, NVMTL_NO_SURFACE_HOST=unset)
+pid 2020 NVMTL: buffer texture: 2560x1600 VkFormat 44 pitch 10240 bound at 0 (DRM linear, align 4, size 16384000, storage 0, render 1, view pair 50)
+pid 2020 NVMTL: surface 9 2560x1600 pitch 10240 -> an image in the surface's own pages (no copies)
+pid 2020 NVMTL: buffer texture: 2560x1600 VkFormat 44 pitch 10240 bound at 0 (DRM linear, align 4, size 16384000, storage 0, render 1, view pair 50)
+pid 2020 NVMTL: surface 79 2560x1600 pitch 10240 -> an image in the surface's own pages (no copies)
+--- mtlbench pitch cases (MTLBENCH_PITCH=1, same plugin)
+test plugin /Users/USER/src/NvGfx-build/debug-xe-host/plugin/NVMTLDriver: Intel(R) Graphics (ARL) (NVMTL over Intel(R) Graphics (ARL))
+using Intel(R) Graphics (ARL) (NVMTL over Intel(R) Graphics (ARL))
+pitch-wide: 5632x64 bpe 8  bytesPerRow asked 45056 got 45056 (dst 45056)  row % 32 = 0
+bench pitch-wide n 1  min 5.17  avg 5.17  max 5.17 ms
+pitch-wide: all 64 rows match
+pitch-odd: 642x64 bpe 1  bytesPerRow asked 656 got 656 (dst 656)  row % 32 = 16
+bench pitch-odd n 1  min 58.87  avg 58.87  max 58.87 ms
+pitch-odd: all 64 rows match
+metal bench pitch: OK
+pid 2083 NVMTL: surface 9 5632x64 pitch 45056 -> an image in the surface's own pages (no copies)
+pid 2083 NVMTL: surface 79 5632x64 pitch 45056 -> an image in the surface's own pages (no copies)
+pid 2083 NVMTL: item 7: surface 9 642x64 plane 0 -> a private image, copied in and out (the row is not a multiple of 32 bytes; row 656 bytes, 0 plane(s))
+pid 2083 NVMTL: item 7: surface 79 642x64 plane 0 -> a private image, copied in and out (the row is not a multiple of 32 bytes; row 656 bytes, 0 plane(s))
+--- mtlprobe as the login user (render node permissions)
+Metal devices: 1
+  values: [0]=0x58670000 [1023]=0x58670bfd, 0 of 1024 wrong
+metal compute: OK
+--- mtlprobe on the debug plugin in-process (HOST barrier at command buffer end)
+test plugin /Users/USER/src/NvGfx-build/debug-xe/plugin/NVMTLDriver: Intel(R) Graphics (ARL) (NVMTL over Intel(R) Graphics (ARL))
+  values: [0]=0x58670000 [1023]=0x58670bfd, 0 of 1024 wrong
+metal compute: OK
+debug rc=0
+--- fd instances: free 7591 lookup 569 opening 0 open 32 peak 601 of 8192 recycled 0; lock free 0 ticks; nowait reserve 64:256 128:512 256:512 512:260 1024:256 2048:259 4096:261, misses 2744
+--- plugin and accelerator log
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: cooperative matrix 0, half arithmetic 1, storage16 1/1, Vulkan memory model 1/1, tiles 0x0
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: integer atomic64 buffer 1, shared 0
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: par1 shaderOutputLayer 1, shaderOutputViewportIndex 1
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: descriptor indexing present - bindless textures ON (set 2)
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: robustBufferAccess ON (out-of-range buffer reads return zeros)
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: sampler anisotropy 1 (max 16), mirror-clamp-to-edge 1
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: sel1 wideLines AVAILABLE (range 0..8)
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: par2 dualSrcBlend AVAILABLE
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: alphaToCoverage always, alphaToOne AVAILABLE
+2026-10-27 20:30:46.564 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: tessellation AVAILABLE, vertex-stage stores on
+2026-10-27 20:30:46.584 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: sample locations backend 0; Metal capability pending native qualification
+2026-10-27 20:30:46.584 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: ray tracing AVAILABLE (acceleration structures + ray queries on NVK's software BVH)
+2026-10-27 20:30:46.584 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: newBufferWithBytesNoCopy: imports the caller's pages (VK_EXT_external_memory_host)
+2026-10-27 20:30:46.584 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: G14 primitive topology is dynamic; points/lines on a triangle-class pipeline: yes
+2026-10-27 20:30:46.584 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: provoking vertex dynamic, first or last (Apple GL's setProvokingVertexMode:)
+2026-10-27 20:30:46.584 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: par1 vkCreateRenderPass2 loaded; depth resolve modes 0xf, stencil 0xd, independent 1/1
+2026-10-27 20:30:46.584 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: apps-dyn dynamic vertex strides (vkCmdBindVertexBuffers2): yes
+2026-10-27 20:30:46.584 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: UP in this Metal process — "Intel(R) Graphics (ARL)" api 1.4.363, queue family 0
+2026-10-27 20:30:46.585 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: maxBufferLength -> 4095 MB (NVK maxStorageBufferRange 4095 MB, 3/4 of working set 13868 MB)
+2026-10-27 20:30:46.585 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: limits: -initLimits (featureProfile 10002) -> maxTextureWidth2D 16384, maxComputeTextures 128, maxComputeBuffers 31
+2026-10-27 20:30:46.586 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library index: disk-indexed blobs reference the container bytes (no copy; NVMTL_NO_NOCOPY=1 copies)
+2026-10-27 20:30:46.586 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: lazy air: 1 disk-indexed libraries hold 1 names, 0 texts decoded on first use, 0 failed
+2026-10-27 20:30:46.586 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library index: DISK hit bytes=3904 entries=1 names=1 externs=0
+2026-10-27 20:30:46.586 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library index: stored cost=33732 retained=33732 entries=1 weak=0
+2026-10-27 20:30:46.586 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: newLibraryWithSource: Apple's _MTLLibrary (3904 B container) -> ours
+2026-10-27 20:30:46.586 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: lazy air: 1 texts decoded on first use across 1 disk-indexed libraries holding 1 names (0 failed)
+2026-10-27 20:30:46.613 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: translate: opened UUID-590 /Users/USER/src/NvGfx-build/debug-xe/plugin/libnvmtl_translate.dylib (cache tag sha256-669fc3c511ae044a9b6439d7caeb0112e5d1d807be6e2811b62df8637a23e3de-u2)
+2026-10-27 20:30:46.613 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: translate: in-process AIR->SPIR-V library loaded
+2026-10-27 20:30:46.613 Df mtlprobe[2142:34e9] (NVMTLDriver) NVMTL: spvcache: 0.0 MiB in 4 files (0 unreadable), under the 2048 MiB cap - nothing trimmed
+2026-10-27 20:30:46.624 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library: fill (kernel) -> 1184 bytes of SPIR-V (translated)
+2026-10-27 20:30:46.624 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library entry: spvcache 0 hit, 1 miss, 1 stored
+2026-10-27 20:30:46.625 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: direct machine code: off (this GPU is not a GeForce RTX 50 series card)
+2026-10-27 20:30:46.625 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: G1: address table (binding 640) is a UNIFORM_BUFFER_DYNAMIC - an NVK constant bank, read with ldc (NVMTL_TABLE_SSBO=unset, scalarBlockLayout 1, translator lower_ex yes)
+2026-10-27 20:30:46.625 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: align guard: ON - a misaligned binding runs the SAFE module, as Apple runs it (NVMTL_NO_ALIGN_GUARD=unset, translator reports promises)
+2026-10-27 20:30:46.825 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: framebuffer fetch ON - render passes declare their colour attachments as input attachments
+2026-10-27 20:30:46.826 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: placement-heap memory types: 0x3
+2026-10-27 20:30:46.879 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: shared-in-VRAM off - Shared stays in system RAM at every size (batch 56 default; NVMTL_SHARED_VRAM=1 opts in)
+2026-10-27 20:30:46.879 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: buffer pool: block #1 mapped (32 MiB, system RAM BY DESIGN - Shared is system RAM on a discrete GPU (batch 56; NVMTL_SHARED_VRAM=1 opts in); 0 VRAM blocks, memory type 0); 0 pooled buffers live in 0 bytes of ranges
+2026-10-27 20:30:46.885 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: dummy images ZEROED and transitioned (sampled -> SHADER_READ_ONLY_OPTIMAL, storage -> GENERAL) — a declared-but-unbound texture now reads opaque black, not uninitialised VRAM
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: BINDLESS heap ready - set 2, 131072 sampled images, every slot the dummy until a texture asks for its gpuResourceID
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: descriptor model ready — set 0, 321 bindings (buffers 0-31, textures 32-159, samplers 160-191)
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: + address table at 640, storage textures 480-607 (dummy ok)
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: newComputePipelineStateWithFunction: fill -> 0x7fb3c7008a90 (1184 B of SPIR-V)
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: zero-fill: new buffers are cleared - CPU-mapped by memset, Private by a GPU fill before the next submission (NVMTL_ZERO_FILL=unset)
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: zero-fill census: 1 CPU-mapped buffers (4096 bytes) cleared by memset, 0 Private (0 bytes) by the GPU, 0 tail bytes left (length not a multiple of 4)
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: newBufferWithLength:4096 storage 0 -> 0x7fb3c6707030
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: newCommandQueue -> 0x600003f30c80 (NVK command pool)
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: commit: ASYNC (default) - execution worker, submit ahead, queue capacity enforced (NVMTL_ASYNC_COMMIT=unset)
+2026-10-27 20:30:46.906 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: pool reuse OFF by environment - command pools and address pages are created and destroyed per commit
+2026-10-27 20:30:46.907 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: timing query pools recycled (keep <= 256, NVMTL_TSPOOL_KEEP=unset) - one mapped allocation per pool, not per command buffer
+2026-10-27 20:30:46.908 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: refl cache: miss fill 1284 B 0.80 ms [0 hit, 1 miss, 1 stored]
+2026-10-27 20:30:46.909 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: static sampler: constexpr samplers bind their own state (NVMTL_NO_STATIC_SAMPLERS=unset)
+2026-10-27 20:30:46.909 Df mtlprobe[2142:34e9] (NVMTLDriver) NVMTL: commit: G-SUB submit-ahead ON, at most 16 parts in flight (NVMTL_GSUB_INFLIGHT=unset)
+2026-10-27 20:30:46.909 Df mtlprobe[2142:34e9] (NVMTLDriver) NVMTL: vk: pre-submit prologue ON - managed uploads and zero fills ride the submit they serve (NVMTL_PRESUBMIT_PROLOGUE=unset)
+2026-10-27 20:30:46.910 Df mtlprobe[2142:34e9] (NVMTLDriver) NVMTL: commit: G-SUB 1 parts submitted ahead, peak 1 in flight | NVK G-SUB ABSENT submits 0 acquires 0 cpuwaits 0 slotwaits 0 fifowaits 0 deferred 0 reaped 0 waits 0
+2026-10-27 20:30:46.910 Df mtlprobe[2142:34e9] (NVMTLDriver) NVMTL: vk: commit high-water: 2 descriptor sets = 1 draws in one command buffer (1 pools open)
+2026-10-27 20:30:46.910 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: lazy air: 2 disk-indexed libraries hold 3 names, 1 texts decoded on first use, 0 failed
+2026-10-27 20:30:46.910 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library index: DISK hit bytes=7116 entries=2 names=2 externs=0
+2026-10-27 20:30:46.910 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library index: stored cost=59976 retained=93708 entries=2 weak=0
+2026-10-27 20:30:46.910 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: newLibraryWithSource: Apple's _MTLLibrary (7116 B container) -> ours
+2026-10-27 20:30:46.910 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: lazy air: 2 texts decoded on first use across 2 disk-indexed libraries holding 3 names (0 failed)
+2026-10-27 20:30:46.912 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library: vs (vertex) -> 880 bytes of SPIR-V (translated)
+2026-10-27 20:30:46.912 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library entry: spvcache 0 hit, 2 miss, 2 stored
+2026-10-27 20:30:46.914 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library: fs (fragment) -> 356 bytes of SPIR-V (translated)
+2026-10-27 20:30:46.914 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: library entry: spvcache 0 hit, 3 miss, 3 stored
+2026-10-27 20:30:46.915 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: refl cache: miss fs 983 B 0.41 ms [1 hit, 2 miss, 2 stored]
+2026-10-27 20:30:46.915 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: pipeline: rt slot 0/1 cfmt 37 blend 0 rgb(1,0,op 0) alpha(1,0,op 0) vkmask f
+2026-10-27 20:30:46.915 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: newRenderPipelineStateWithDescriptor: -> 0x7fb3c7008290 (VkPipeline from 880+356 B of SPIR-V)
+2026-10-27 20:30:46.916 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: newTextureWithDescriptor: 64x64 -> 0x7fb3c74062e0
+2026-10-27 20:30:46.916 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: newBufferWithLength:16384 storage 0 -> 0x7fb3c74077a0
+2026-10-27 20:30:46.916 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: residency (res2): LRU page-off/page-on ON (NVMTL_NO_RES2=unset) - cold 600 ticks, hot 120 ticks, margin 256 MB
+2026-10-27 20:30:46.916 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: G14 census: render target 64x64 iosurface=0 (first time in this process)
+2026-10-27 20:30:46.916 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: encoder: dontcare pass shape — colour0 load action 2, depth absent action 2, stencil absent action 2, load bits 0x0 (DontCare keeps, as on Apple)
+2026-10-27 20:30:46.916 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: vk: apps2 pass-shape instrument LIVE (first pass: 1 colour slot(s), depth 0) — a run with no 'MRT PASS' line above therefore MEASURED that every render pass in this process had one colour slot
+2026-10-27 20:30:46.916 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: G14 census: copy texture->buffer 64x64 iosurface=0 (first time in this process)
+2026-10-27 20:30:46.916 Df mtlprobe[2142:34e9] (NVMTLDriver) NVMTL: commit: G-SUB 2 parts submitted ahead, peak 1 in flight | NVK G-SUB ABSENT submits 0 acquires 0 cpuwaits 0 slotwaits 0 fifowaits 0 deferred 0 reaped 0 waits 0
+2026-10-27 20:30:46.917 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: psofree: 1 pipeline state(s) freed after their last command buffer completed
+2026-10-27 20:30:46.917 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: psofree: 2 pipeline state(s) freed after their last command buffer completed
+2026-10-27 20:30:46.917 Df mtlprobe[2142:34e7] (NVMTLDriver) NVMTL: buffer park: a dead MTLBuffer's memory is reused by the next create of its exact size and placement (NVMTL_NO_BUFREUSE=unset)
+2026-10-27 20:30:47.031 Df log[2168:3579] [com.apple.log:] log run noninteractively, parent: 1404 (bash), args: '/usr/bin/log' 'show' '--last' '3m' '--style' 'compact' '--predicate' 'eventMessage CONTAINS "NMXAccel" OR process == "mtlprobe"'

@@ -1,0 +1,29 @@
+{
+ "collected": "2026-10-28",
+ "component": "native",
+ "files": {
+  "N-298.json": "96a4e0c844957c7f332b293aaaca4814b75f5b6d89eda4751781906393483871",
+  "README.md": "f01cd9f89db775ce12ac8fb3432b9bdd08c3e9a88198b1463e1361be9302858c",
+  "ioreg.txt": "afcc3812ab03bdc1289355dac34c32c10039cccf0df3fb77423226ab59e2ffe3",
+  "load.txt": "223b51bf1f5e1f08806cdf5978c272fec7ea9fbe825db4a341599412de2a1fdf",
+  "opencore-2026-10-28-002835.txt": "28e22c7e655e3c2657a41a078a546e52dd8d3b111223af765e95b7f2e604e2ee",
+  "post.txt": "7e7db6ff75e7d258b35588446f04ed6b489eba50c555cf1a042dd2ce62468dea",
+  "ws-progress.txt": "4e6927eace3e572980adb079a9030cbe843cc9127a2d64641ba3f98bc7103d01",
+  "ws-xegfx-log.txt": "0c54b28676b42c173c7250ede0067a69c0b28d27a2a1d6e87c18f01934289c83",
+  "ws.txt": "c5df4449a0a9cf6246913fe28a5e6bd93206709ab832076d4a76221e67b6b744",
+  "xegfx-log.txt": "8b4267d38b450210ee7c271955504b7dc006446d14e284a12d4c49200466418f"
+ },
+ "kexts": {},
+ "machine": "lenovo-legion-5-15iax10",
+ "macos_build": "",
+ "opencore": "",
+ "project": "project-legion",
+ "redaction": {
+  "replaced": {
+   "UUID": 129
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "N-298",
+ "username": "watchthelight"
+}
