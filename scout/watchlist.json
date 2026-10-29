@@ -562,6 +562,16 @@
      "credited": false,
      "relation": "README-only MT7922 driver claim, no source yet",
      "repo": "qiqco/MT7922-macOS-Driver"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "Arxusion/AirportMtkWlan"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "chenhggu6475/MT7922-itlmt7922-Hackintosh"
     }
    ],
    "title": "MT7925 Wi-Fi driver (MtkWlan)"
@@ -973,6 +983,11 @@
      "credited": true,
      "relation": "same-hardware",
      "repo": "Mountainatic/ArrowWhatever"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "sulthonuladib/victus-15-fa0xxx-hackintosh"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"

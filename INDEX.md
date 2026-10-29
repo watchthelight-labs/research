@@ -257,6 +257,8 @@
 
 ## Upstream scout reports
 
+- [2026-10-29](scout/reports/2026-10-29.md)
+- [2026-10-28](scout/reports/2026-10-28.md)
 - [2026-10-27](scout/reports/2026-10-27.md)
 - [2026-10-24](scout/reports/2026-10-24.md)
 - [2026-10-23](scout/reports/2026-10-23.md)
