@@ -371,6 +371,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "ydd1126/skybreak"
+    },
+    {
+     "credited": false,
+     "relation": "same-generation Legion EFI (275HX, RTX 5070), ships LegionCbmrFix with credit",
+     "repo": "ctrl64/Legion-Y9000X-IAX10-Hackintosh"
     }
    ],
    "title": "Legion 5 15IAX10 OpenCore EFI"
@@ -572,6 +577,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "chenhggu6475/MT7922-itlmt7922-Hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "redistributes our MT7925 kexts with credit",
+     "repo": "Borders-Q/MT7925-macOS26-package"
     }
    ],
    "title": "MT7925 Wi-Fi driver (MtkWlan)"
@@ -797,6 +807,11 @@
      "credited": false,
      "relation": "studied",
      "repo": "KangweiZhu/ROG-G16-2024-Hackintosh-QEMU-KVM"
+    },
+    {
+     "credited": false,
+     "relation": "VirtualSMC NVIDIA sensor plugin for NullMoth builds",
+     "repo": "zzzyy678/SMCNvidiaGPU"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
