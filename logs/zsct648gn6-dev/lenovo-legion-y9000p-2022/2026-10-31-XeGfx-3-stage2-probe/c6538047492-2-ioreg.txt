@@ -1,0 +1,13 @@
++-o XeGfxResident <class XeGfxResident, id 0x100000935, registered, matched, active, busy 0 (0 ms), retain 5>
+    {
+      "IOProbeScore" = 0
+      "CFBundleIdentifier" = "org.watchthelight.XeGfx"
+      "IOMatchCategory" = "XeGfxArmed"
+      "IOClass" = "XeGfxResident"
+      "IOPersonalityPublisher" = "org.watchthelight.XeGfx"
+      "IOProviderClass" = "IOResources"
+      "CFBundleIdentifierKernel" = "org.watchthelight.XeGfx"
+      "XeGfxProbe" = {"plane-surf-1-a"=0,"pipe-a-lit"=1,"pipe-frmcount-a"=22717,"tco-ctl"=257,"tco2-sts"=0,"bar2-size"=268435456,"tco1-cnt"=6144,"gmd-id-graphics"=0,"tco2-cnt"=8,"revision"=12,"subsystem"=988616618,"bar0-base"=275146342400,"boot-fb-size"=16384000,"transconf-a"=18446744072635809792,"bar2-base"=274877906944,"dsm-base-lo"=1283457025,"device-id"=18086,"plane-size-1-a"=104794623,"ggtt-pte-surf"=1283457025,"tco-base"=1024,"tco-rld"=4,"dsm-base-hi"=0,"tco-tmr"=4,"command"=7,"ggc"=65217,"gmd-id-display"=0,"pcode-stolen-access"=0,"plane-stride-1-a"=160,"tco1-sts"=0,"result"=1,"plane-ctl-1-a"=18446744071897612296,"bar0-size"=16777216}
+      "IOResourceMatch" = "XeGfxArm"
+      "XeGfxStage" = 2
+    }

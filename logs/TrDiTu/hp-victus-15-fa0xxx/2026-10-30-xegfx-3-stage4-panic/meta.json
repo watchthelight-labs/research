@@ -1,0 +1,18 @@
+{
+ "collected": "2026-10-30",
+ "component": "xegfx",
+ "files": {
+  "stage4-panic-report.md": "ff2e78d5928535e44a6ab93e6d00f974ddf89b95d7cf203a451b1f2fda5973c9"
+ },
+ "kexts": {},
+ "machine": "hp-victus-15-fa0xxx",
+ "macos_build": "25G241",
+ "opencore": "",
+ "project": "XeGfx",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v2"
+ },
+ "source": "XeGfx-3",
+ "username": "TrDiTu"
+}

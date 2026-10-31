@@ -1,0 +1,3 @@
+sudo kmutil load -b org.watchthelight.XeGfx
+sudo sysctl debug.xegfx_stage=2
+debug.xegfx_stage: 0 -> 2

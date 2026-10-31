@@ -8,6 +8,18 @@
   ],
   "username": "Elezorn"
  },
+ "TrDiTu/hp-victus-15-fa0xxx": {
+  "cpu": "i7-12650H",
+  "first_seen": "2026-10-31",
+  "gpu": "Intel 8086:46A3, RTX 3050 Ti",
+  "last_seen": "2026-10-31",
+  "machine": "hp-victus-15-fa0xxx",
+  "macos_builds": [
+   "25G241"
+  ],
+  "model": "HP Victus 15-fa0xxx",
+  "username": "TrDiTu"
+ },
  "ikurina/asus-tuf-gaming-b850-plus-wifi": {
   "chips": "MT7925 (Wi-Fi + Bluetooth)",
   "first_seen": "2026-10-22",
@@ -54,5 +66,17 @@
   ],
   "model": "ASUS ROG STRIX B860-G GAMING WIFI S",
   "username": "zld96969"
+ },
+ "zsct648gn6-dev/lenovo-legion-y9000p-2022": {
+  "cpu": "i7-12700H",
+  "first_seen": "2026-10-31",
+  "gpu": "Intel 8086:46A6, RTX 3070",
+  "last_seen": "2026-10-31",
+  "machine": "lenovo-legion-y9000p-2022",
+  "macos_builds": [
+   "25G241"
+  ],
+  "model": "Lenovo Legion Y9000P 2022 (82RF)",
+  "username": "zsct648gn6-dev"
  }
 }

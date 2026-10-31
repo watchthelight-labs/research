@@ -1,4 +1,5 @@
 {
+ "https://github.com/watchthelight-labs/XeGfx/issues/3#issuecomment-6538047492": "logs/zsct648gn6-dev/lenovo-legion-y9000p-2022/2026-10-31-XeGfx-3-stage2-probe",
  "https://github.com/watchthelight-labs/mt7925-hackintosh-bluetooth/issues/1": "logs/ikurina/asus-tuf-gaming-b850-plus-wifi/2026-10-21-mt7925-hackintosh-bluetooth-1-ioreg",
  "https://github.com/watchthelight-labs/mt7925-hackintosh-bluetooth/issues/2": "logs/Elezorn/dell-latitude-5421/2026-10-28-mt7925-hackintosh-bluetooth-2-ioreg",
  "sha256:000bb4b27c33d36d77f12db7aac443b78b6c5e54bedd5a528ce55df4c3ce59ef": "logs/watchthelight/lenovo-legion-5-15iax10/2026-10-18-n-145-boot",
@@ -1184,5 +1185,6 @@
  "sha256:fe763b011afaa9b93daf734dd380dbd67faf4234c7cfe7bc1ef04b28b58c9c0e": "logs/watchthelight/lenovo-legion-5-15iax10/2026-10-17-n-112-boot",
  "sha256:fe81ec8b29c8e58a01b7f52123557804dd80996af8619ff3e6da760d7401ae08": "logs/watchthelight/lenovo-legion-5-15iax10/2026-10-20-n-191-boot",
  "sha256:fed3157f3da8abb77c6c1270da36aa230fff186c842770003968434eca29c849": "logs/watchthelight/lenovo-legion-5-15iax10/2026-10-27-n-296-boot",
+ "sha256:ff2e78d5928535e44a6ab93e6d00f974ddf89b95d7cf203a451b1f2fda5973c9": "logs/TrDiTu/hp-victus-15-fa0xxx/2026-10-30-xegfx-3-stage4-panic",
  "sha256:ff54e55d07550fad3e251066e943c4d2c88b5288c36540c8073be1926ae76ad7": "logs/watchthelight/lenovo-legion-5-15iax10/2026-10-19-n-177-boot"
 }

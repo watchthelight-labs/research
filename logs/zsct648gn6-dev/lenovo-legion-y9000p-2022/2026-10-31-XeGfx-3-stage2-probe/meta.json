@@ -1,0 +1,20 @@
+{
+ "collected": "2026-10-31",
+ "component": "xegfx",
+ "files": {
+  "c6538047492-1-kext.txt": "fba5ccbedbe29289c1ea5f3742b070451f0b9840fff8ec685538f48ca43f5653",
+  "c6538047492-2-ioreg.txt": "85ca1b441c80fde9168235b10418d16911b55dc3b5a78c0c1639371e633b1d1a"
+ },
+ "issue_title": "Probe reports wanted from other Intel Xe machines (stage 2, read-only)",
+ "kexts": {},
+ "machine": "lenovo-legion-y9000p-2022",
+ "macos_build": "25G241",
+ "opencore": "",
+ "project": "XeGfx",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v2"
+ },
+ "source": "https://github.com/watchthelight-labs/XeGfx/issues/3#issuecomment-6538047492",
+ "username": "zsct648gn6-dev"
+}
