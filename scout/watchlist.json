@@ -406,7 +406,23 @@
     "0717",
     "e111",
     "sleep protection",
-    "wmt"
+    "wmt",
+    "AWDL",
+    "awdl0",
+    "AirDrop",
+    "Continuity",
+    "Wi-Fi Aware",
+    "NAN",
+    "MT7921",
+    "MT7922",
+    "MT7927",
+    "RZ616",
+    "RZ738",
+    "mt792x",
+    "WPA3",
+    "SAE",
+    "802.11ax",
+    "roaming"
    ],
    "labs_repo": "watchthelight-labs/mt7925-hackintosh-bluetooth",
    "related": [
@@ -484,7 +500,18 @@
     "skywalk",
     "airportitlwm",
     "warm reboot",
-    "firmware"
+    "firmware",
+    "AWDL",
+    "awdl0",
+    "AirDrop",
+    "Continuity",
+    "Wi-Fi Aware",
+    "NAN",
+    "MT7927",
+    "RZ738",
+    "mt792x",
+    "802.11ax",
+    "roaming"
    ],
    "labs_repo": "watchthelight-labs/mt7925-hackintosh-wifi",
    "related": [
@@ -565,7 +592,7 @@
     },
     {
      "credited": false,
-     "relation": "README-only MT7922 driver claim, no source yet",
+     "relation": "same-problem",
      "repo": "qiqco/MT7922-macOS-Driver"
     },
     {
@@ -608,7 +635,20 @@
     "wifi menu",
     "tahoe",
     "25g241",
-    "channel width"
+    "channel width",
+    "awdl0",
+    "Wi-Fi Aware",
+    "NAN",
+    "MT7921",
+    "MT7922",
+    "MT7927",
+    "RZ616",
+    "RZ738",
+    "mt792x",
+    "WPA3",
+    "SAE",
+    "802.11ax",
+    "roaming"
    ],
    "labs_repo": "watchthelight-labs/mt7925-hackintosh-wifi-native",
    "related": [
@@ -685,6 +725,25 @@
      "credited": true,
      "relation": "peer: native IO80211/Skywalk front end with per-build vtable dumps",
      "repo": "DrogaBox/RTL8814Native"
+    },
+    {
+     "credited": true,
+     "relation": "studied",
+     "repo": "t4t5/owly",
+     "watch": [
+      "releases",
+      "commits"
+     ]
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "s-iwaki-d/ESP32Drop"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "raph559/winawdl"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
@@ -889,6 +948,15 @@
      "credited": true,
      "relation": "studied",
      "repo": "sgiammori/NootedGreen"
+    },
+    {
+     "credited": true,
+     "relation": "fork with Raptor Lake-HX work (branch raptor-lake-hx), owner reports Metal on a G814JI",
+     "repo": "victorwitkamp/NootedGreen",
+     "watch": [
+      "releases",
+      "commits"
+     ]
     },
     {
      "credited": true,
