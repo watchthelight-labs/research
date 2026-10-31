@@ -21,7 +21,7 @@
 
 | Date | Source | Project | Topic | Files |
 |---|---|---|---|---|
-| 2026-10-28 | [watchthelight-labs/mt7925-hackintosh-bluetooth#2](https://github.com/watchthelight-labs/mt7925-hackintosh-bluetooth/issues/2) | mt7925-hackintosh-bluetooth | ioreg | [2 file(s)](logs/Elezorn/dell-latitude-5421/2026-10-28-mt7925-hackintosh-bluetooth-2-ioreg) |
+| 2026-10-28 | [watchthelight-labs/mt7925-hackintosh-bluetooth#2](https://github.com/watchthelight-labs/WTLMtkBluetooth/issues/2) | mt7925-hackintosh-bluetooth | ioreg | [2 file(s)](logs/Elezorn/dell-latitude-5421/2026-10-28-mt7925-hackintosh-bluetooth-2-ioreg) |
 
 ## TrDiTu
 
@@ -37,7 +37,7 @@
 
 | Date | Source | Project | Topic | Files |
 |---|---|---|---|---|
-| 2026-10-21 | [watchthelight-labs/mt7925-hackintosh-bluetooth#1](https://github.com/watchthelight-labs/mt7925-hackintosh-bluetooth/issues/1) | mt7925-hackintosh-bluetooth | ioreg | [1 file(s)](logs/ikurina/asus-tuf-gaming-b850-plus-wifi/2026-10-21-mt7925-hackintosh-bluetooth-1-ioreg) |
+| 2026-10-21 | [watchthelight-labs/mt7925-hackintosh-bluetooth#1](https://github.com/watchthelight-labs/WTLMtkBluetooth/issues/1) | mt7925-hackintosh-bluetooth | ioreg | [1 file(s)](logs/ikurina/asus-tuf-gaming-b850-plus-wifi/2026-10-21-mt7925-hackintosh-bluetooth-1-ioreg) |
 
 ## oliverchu
 
@@ -45,7 +45,7 @@
 
 | Date | Source | Project | Topic | Files |
 |---|---|---|---|---|
-| 2026-10-24 | [watchthelight-labs/mt7925-hackintosh-wifi-native#3](https://github.com/watchthelight-labs/mt7925-hackintosh-wifi-native/issues/3) | mt7925-hackintosh-wifi-native | report | [13 file(s)](logs/oliverchu/colorful-battle-ax-b850m-plus-s-wifi7/2026-10-24-mt7925-hackintosh-wifi-native-3-mtk-report) |
+| 2026-10-24 | [watchthelight-labs/mt7925-hackintosh-wifi-native#3](https://github.com/watchthelight-labs/WTLWifiMenu/issues/3) | mt7925-hackintosh-wifi-native | report | [13 file(s)](logs/oliverchu/colorful-battle-ax-b850m-plus-s-wifi7/2026-10-24-mt7925-hackintosh-wifi-native-3-mtk-report) |
 
 ## watchthelight
 
@@ -271,7 +271,7 @@
 
 | Date | Source | Project | Topic | Files |
 |---|---|---|---|---|
-| 2026-10-31 | [watchthelight-labs/XeGfx#3](https://github.com/watchthelight-labs/XeGfx/issues/3#issuecomment-6538047492) | XeGfx | probe | [2 file(s)](logs/zsct648gn6-dev/lenovo-legion-y9000p-2022/2026-10-31-XeGfx-3-stage2-probe) |
+| 2026-10-31 | [watchthelight-labs/XeGfx#3](https://github.com/watchthelight-labs/WTLIntelGfx/issues/3#issuecomment-6538047492) | XeGfx | probe | [2 file(s)](logs/zsct648gn6-dev/lenovo-legion-y9000p-2022/2026-10-31-XeGfx-3-stage2-probe) |
 
 ## Upstream scout reports
 

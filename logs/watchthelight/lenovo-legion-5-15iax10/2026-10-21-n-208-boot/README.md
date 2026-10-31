@@ -1,7 +1,7 @@
 <!-- <wtl> project: legion-hackintosh | file: evidence/native/N-208/README.md | author: watchthelight </wtl> -->
 # N-208: XeGfx 0.0.1 in the auxiliary collection, idle; shim start by sysctl (staged 2026-10-21 ~03:25 EDT)
 
-XeGfx (github.com/watchthelight-labs/XeGfx a36e0b4): FreeBSD drm-kmod (Linux i915 6.14 level) + LinuxKPI + the
+XeGfx (github.com/watchthelight-labs/WTLIntelGfx a36e0b4): FreeBSD drm-kmod (Linux i915 6.14 level) + LinuxKPI + the
 XeGfx shim, 423 objects, 4.0 MB, every symbol resolved from declared public KPI libraries (tools/kpi_check.py), no
 kpi.private, no direct map. Installed with tools/install.sh into /Library/KernelCollections/AuxiliaryKernelExtensions.kc
 (backup /Library/XeGfx/backup-20261021-032158; NVRM, NVRMFB, NVRMAGDC, NVAccel still in it). BIOS Hybrid, OCEFI config

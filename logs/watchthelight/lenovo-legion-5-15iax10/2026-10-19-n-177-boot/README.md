@@ -1,7 +1,7 @@
 <!-- <wtl> project: legion-hackintosh | file: evidence/native/N-177/README.md | author: watchthelight </wtl> -->
 # N-177: MT7925 gone after a warm restart (I-081)
 
-Public issue: https://github.com/watchthelight-labs/mt7925-hackintosh-wifi/issues/1
+Public issue: https://github.com/watchthelight-labs/WTLMtkWireless/issues/1
 
 Read on 2026-10-19 from Windows, read-only: the Tahoe Data volume via `scripts/diag/apfs-read.py` (bootdumps 20261019-150015Z = N-176 and 20261019-152509Z = N-177, DiagnosticReports), and the Windows System event log and PnP device properties. Times UTC unless marked local (EDT).
 
