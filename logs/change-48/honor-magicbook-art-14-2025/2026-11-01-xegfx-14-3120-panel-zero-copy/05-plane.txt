@@ -1,0 +1,16 @@
+magic            0x5845
+switched         0
+gtt_mapped       1
+gtt_entries      1048576
+live_pte         0x800003
+plan_offset      0x1000000
+SURF             0xfd000000
+SURFLIVE         0xfd000000
+PS_CTRL          0x00000200
+PIPESRC          0x0c2f081f
+PLANE_SIZE       0x081f0c2f
+PLANE_STRIDE     195
+PLANE_CTL        0x84000008
+SURF_before      0xfe600000
+phys_base        0x71800000
+FRMCOUNT         1749304

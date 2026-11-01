@@ -1,0 +1,6 @@
+iop = 1
+iop_ok = 978
+iop_fail = 0
+iop_xe_flips = 0
+iop_copy_sum_us = 4071120
+iop_copy_max_us = 24729

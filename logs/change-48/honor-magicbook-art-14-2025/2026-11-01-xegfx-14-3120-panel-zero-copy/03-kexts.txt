@@ -1,0 +1,7 @@
+  142    0 0xffffff7f968f9000 0x1e62     0x1e62     org.watchthelight.IGPUConsoleRange (0.4) UUID-1 <19 17 9 7 6 3 1>
+  144    0 0xffffff7f96f1c000 0x2d05     0x2d05     org.watchthelight.XeGfxIntelFB (0.8) UUID-2 <127 125 19 6 3 1>
+  161    0 0xffffff7f96ec9000 0x35c4     0x35c4     org.watchthelight.XeGfxAGDC (0.1.1) UUID-3 <136 7 6 3 1>
+  162    0 0xffffff7f96f20000 0x6e0f     0x6e0f     org.xenative.XeNative (0.14) UUID-4 <9 7 6 3 1>
+  179    0 0xffffff7f96903000 0x31d03e   0x31d03e   org.watchthelight.XeGfx (0.0.46) UUID-5 <20 19 9 7 6 3 1>
+  180    0 0xffffff7f96f0b000 0xd844     0xd844     org.watchthelight.XeGfxDisplay (0.5) UUID-6 <125 19 7 6 3 1>
+  182    0 0xffffff7f96ecf000 0x1c65d    0x1c65d    org.watchthelight.XeGfxAccel (0.1) UUID-7 <181 125 108 19 7 6 3 1>
