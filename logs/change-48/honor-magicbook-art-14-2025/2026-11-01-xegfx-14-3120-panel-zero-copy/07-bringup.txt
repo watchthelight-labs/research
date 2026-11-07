@@ -1,0 +1,30 @@
+2026-11-01 19:18:09 accel already loaded
+2026-11-01 19:18:14 bootArm is driving (debug.xegfxaccel_boot=1) -- not touching accelfb/iop, waiting for its steps
+2026-11-01 19:20:21 boot_steps=0 (bit32 iop, bit64 flip)
+2026-11-01 19:20:43 bootArm armed but no frames yet -- restarting WindowServer once
+2026-11-01 19:21:37 === bringup start (boot=2026-11-01 19:21:30) ===
+2026-11-01 19:22:05 console user=change48 (uid 501) after 25s
+2026-11-01 19:22:07 GUI session + WindowServer up after 2s
+2026-11-01 19:22:35 core loaded (debug.xegfx_stage present, attempt 1)
+2026-11-01 19:22:36 stages ok: 0 1 1 1 1 1 1 1 (after 1s)
+2026-11-01 19:22:37 accel already loaded
+2026-11-01 19:22:41 bootArm is driving (debug.xegfxaccel_boot=1) -- not touching accelfb/iop, waiting for its steps
+2026-11-01 19:24:48 boot_steps=0 (bit32 iop, bit64 flip)
+2026-11-01 19:25:10 bootArm armed but no frames yet -- restarting WindowServer once
+2026-11-01 19:25:27 WindowServer back (pid 2086)
+2026-11-01 19:27:34 iop=1  iop_ok=0 (fail=0 empty=0)
+2026-11-01 19:27:34 WARN: iop_ok did not advance (panel keeps the firmware frame)
+2026-11-01 19:30:45 === bringup start (boot=2026-11-01 19:30:39) ===
+2026-11-01 19:31:10 console user=change48 (uid 501) after 22s
+2026-11-01 19:31:13 GUI session + WindowServer up after 2s
+2026-11-01 19:31:54 core loaded (debug.xegfx_stage present, attempt 1)
+2026-11-01 19:31:55 stages ok: 0 1 1 1 1 1 1 1 (after 1s)
+2026-11-01 19:31:57 accel already loaded
+2026-11-01 19:32:01 already live (debug.xegfxaccel_iop=1) -- skipping pipe + hooks, not re-delivering the mode change
+2026-11-01 19:32:01 bootArm is driving (debug.xegfxaccel_boot=2) -- not touching accelfb/iop, waiting for its steps
+2026-11-01 19:32:01 boot_steps=123 (bit32 iop, bit64 flip)
+2026-11-01 19:32:23 bootArm armed but no frames yet -- restarting WindowServer once
+2026-11-01 19:32:38 WindowServer back (pid 1425)
+2026-11-01 19:32:42   sample 1: iop_ok 3 -> 10
+2026-11-01 19:32:42 iop=1  iop_ok=10 (fail=0 empty=0)
+2026-11-01 19:32:42 OK: frames are reaching the panel

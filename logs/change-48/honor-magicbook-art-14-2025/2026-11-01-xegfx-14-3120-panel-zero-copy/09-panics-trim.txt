@@ -1,0 +1,17 @@
+panic(cpu 4 caller 0xffffff80100d459a): Kernel trap at 0xffffff7fa6ae015e, type = 14=page fault, registers:
+Panicked task 0xffffff952b6469a0: 275 threads: pid 0: kernel_task
+Backtrace (CPU 4), panicked thread: 0xffffff905ecc94f8, Frame : Return Address
+0xffffffe5706cccd0 : 0xffffff7fa6ae015e org.watchthelight.XeGfxAccel : __ZL19nvAccelResidentCallPKcPvS1_S1_S1_ + 0x7e
+0xffffffe5706cce00 : 0xffffff7fa6adfebe org.watchthelight.XeGfxAccel : __ZL16nvAccelXeFlipArmP9IOSurfacejjjb + 0x2ae
+0xffffffe5706cce60 : 0xffffff7fa6adfac4 org.watchthelight.XeGfxAccel : __ZL21nvAccelXeFlipDeferRunPvS_ + 0xc4
+      Kernel Extensions in backtrace:
+         org.watchthelight.XeGfxAccel(0.1)[UUID-9]@0xffffff7fa6acf000->0xffffff7fa6aebfff
+            dependency: com.apple.iokit.IOAcceleratorFamily2(487.4.3)[UUID-10]@0xffffff7fa5023000->0xffffff7fa508cfff
+            dependency: com.apple.iokit.IOGraphicsFamily(600)[UUID-11]@0xffffff7fa51a2000->0xffffff7fa51d0fff
+            dependency: com.apple.iokit.IOPCIFamily(2.9)[UUID-12]@0xffffff80125d8000->0xffffff801262bfff
+            dependency: com.apple.iokit.IOSurface(393.5.7)[UUID-13]@0xffffff80127b0000->0xffffff80127dcfff
+Boot args: -v keepsyms=1 -vi2c-force-polling -amfipassbeta amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 itlwm_cc=CN gfxrst=4 msgbuf=1048576 xegfxaccelboot=1
+Mac OS version:
+System model name: MacBookPro16,2 (Mac-5F9802EFE386AA28)
+last started kext at 68237311319: org.watchthelight.XeGfxAccel	0.1 (addr 0xffffff7fa6acf000, size 118784)
+org.watchthelight.XeGfxAccel	0.1

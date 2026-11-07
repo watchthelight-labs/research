@@ -1,0 +1,11 @@
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2026-11-01 19:40:29.810131+0800 0x26d4     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: iop: trace surf 0x5 frame 72410 copy 3959 vblank 7277 txn 10830
+2026-11-01 19:40:29.810141+0800 0x26d4     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: iop: trace surf 0x5 frame 72410 copy 3959 vblank 7277 txn 10830
+2026-11-01 19:42:20.750904+0800 0x59f5     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: getStampMemory(<private>) -> descriptor <private> (4096 stamps, 16 KB)
+2026-11-01 19:42:20.750915+0800 0x59f5     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: getStampMemory(<private>) -> descriptor <private> (4096 stamps, 16 KB)
+2026-11-01 19:42:20.751162+0800 0x59f5     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: createUserGPUTask -> <private> init=1
+2026-11-01 19:42:20.751166+0800 0x59f5     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: createUserGPUTask -> <private> init=1
+2026-11-01 19:42:33.007393+0800 0x5aa7     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: getStampMemory(<private>) -> descriptor <private> (4096 stamps, 16 KB)
+2026-11-01 19:42:33.007403+0800 0x5aa7     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: getStampMemory(<private>) -> descriptor <private> (4096 stamps, 16 KB)
+2026-11-01 19:42:33.007750+0800 0x5aa7     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: createUserGPUTask -> <private> init=1
+2026-11-01 19:42:33.007754+0800 0x5aa7     Default     0x0                  0      0    kernel: (XeGfxAccel) NMXAccel: createUserGPUTask -> <private> init=1

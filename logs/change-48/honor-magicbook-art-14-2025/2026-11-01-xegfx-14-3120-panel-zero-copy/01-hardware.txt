@@ -1,0 +1,40 @@
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro16,2
+      Processor Name: Intel(R) Core(TM) Ultra 7 255H
+      Processor Speed: 3.68 GHz
+      Number of Processors: 1
+      Total Number of Cores: 16
+      L2 Cache (per Core): 3 MB
+      L3 Cache: 27.4 MB
+      Memory: 32 GB
+      System Firmware Version: 2094.80.5.0.0
+      OS Loader Version: 583~5707
+      Serial Number (system): REDACTED
+      Hardware UUID: REDACTED
+      Provisioning UDID: REDACTED
+
+Graphics/Displays:
+
+    Intel Arrow Lake Xe-LPG+:
+
+      Chipset Model: Intel Arrow Lake Xe-LPG+
+      Type: GPU
+      Bus: Built-In
+      VRAM (Dynamic, Max): 24576 MB
+      Vendor: Intel
+      Device ID: 0x7d51
+      Revision ID: 0x0003
+      Metal Support: Metal 3
+      Displays:
+        EDO14.55:
+          Resolution: 3120 x 2080
+          UI Looks like: 1560 x 1040 @ 120.00Hz
+          Framebuffer Depth: 24-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+

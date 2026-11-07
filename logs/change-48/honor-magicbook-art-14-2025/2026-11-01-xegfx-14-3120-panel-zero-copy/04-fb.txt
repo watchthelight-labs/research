@@ -1,0 +1,144 @@
++-o .Display_boot  <class XeGfxIntelFramebuffer, id 0x100000500, registered, matched, active, busy 0 (24 ms), retain 25>
+  | {
+  |   "IOPMStrictTreeOrder" = Yes
+  |   "IOFBMemorySize" = 25958400
+  |   "boot-gamma-restored" = <00000000>
+  |   "IOFBDependentIndex" = 0
+  |   "IOFBUIScale" = <02000000>
+  |   "IOFBGammaHeaderSize" = 12
+  |   "IOFBGammaCount" = 256
+  |   "IOFBCurrentPixelCount" = 7507200
+  |   "IOFramebufferOpenGLIndex" = 0
+  |   "IONameMatched" = "display"
+  |   "XeGfxL0Ready" = Yes
+  |   "IODisplayParameters" = "IOFramebufferParameterHandler is not serializable"
+  |   "startup-timing" = <0000000000000080000000000000000000000000000000000000000000000000300c000020080000000000000000000080cdaf350000000080cdaf350000000080cdaf3500000000300c000018010000d40000000400000020080000800000007a0000000100000000000000000000000000000000000000000000000000000000000000000000000100000000000000010001000100010000000000000000000000000000000000>
+  |   "IOAccelTypes" = "IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/IGPU@2/NMXAccel"
+  |   "IOPersonalityPublisher" = "org.watchthelight.XeGfxIntelFB"
+  |   "IOPowerManagement" = {"ChildrenPowerState"=2,"MaxPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=32784,"ChildProxyPowerState"=2,"DriverPowerState"=1}
+  |   "IOFBCurrentPixelClock" = 900721363
+  |   "IOFBGammaWidth" = 8
+  |   "IOFBDependentID" = 6360568414703976449
+  |   "graphic-options" = 0
+  |   "IOFBConfig" = {"IOFBModes"=({"ID"=100,"DM"=<300c00002008000022fb770000000000030080003601d200000000000000000000000000>,"DF"=8388611,"TM"=<64000000000000000000000000000000000000000000000000000000000000000000000000000000d3eaaf3500000000d3eaaf3500000000d3eaaf3500000000300c000018010000d40000000400000020080000800000007a0000000100000000000000000000000000000000000000000000000000000000000000000000000100000000000000010001000100010000000000000000000000000000000000>}),"dims"=<ffffffffffffffff0002000007000000>}
+  |   "IOFBWaitCursorFrames" = 29
+  |   "IOAccelIndex" = 0
+  |   "IOFBIntegrated" = Yes
+  |   "IOFBProbeOptions" = 1
+  |   "IOFBNeedsRefresh" = Yes
+  |   "IOFBWaitCursorPeriod" = 33333333
+  |   "IOFBTransform" = 0
+  |   "CFBundleIdentifier" = "org.watchthelight.XeGfxIntelFB"
+  |   "IOFBDetailedTimings" = (<000000000000000000000000000000000000000000000000300c0000200800000000000000000000d3eaaf3500000000d3eaaf3500000000d3eaaf3500000000300c000018010000d40000000400000020080000800000007a0000000100000000000000000000000000000000000000000000000000000000000000000000000100000000000000010001000100010000000000000000000000000000000000>)
+  |   "IOFBCursorInfo" = ()
+  |   "IOProviderClass" = "IOPCIDevice"
+  |   "IOCFPlugInTypes" = {"UUID-8"="IOAccelerator2D.plugin"}
+  |   "IOAccelRevision" = 2
+  |   "IONameMatch" = "display"
+  |   "IOClass" = "XeGfxIntelFramebuffer"
+  |   "CFBundleIdentifierKernel" = "org.watchthelight.XeGfxIntelFB"
+  |   "IOFBCurrentPixelCountReal" = 7507200
+  |   "IOGeneralInterest" = "IOCommand is not serializable"
+  |   "IOPCIMatch" = "0x7d518086 0x7d678086 0x7d418086 0x7dd18086"
+  |   "IOMatchCategory" = "IOFramebuffer"
+  |   "IOProbeScore" = 20001
+  |   "IONDRVFramebufferGeneration" = <0100000001000000>
+  | }
+  | 
+  +-o AGPM  <class AGPM, id 0x10000055e, registered, matched, active, busy 0 (7 ms), retain 9>
+  | | {
+  | |   "max-value" = 15
+  | |   "min-value" = 0
+  | |   "IOReportLegendPublic" = Yes
+  | |   "GPUInternalSingleSlice" = {"max-value"=15,"min-value"=0}
+  | |   "IOPowerManagement" = {"CapabilityFlags"=0,"CurrentPowerState"=0}
+  | |   "Heuristic-ID" = <02000000>
+  | |   "IOReportLegend" = ({"IOReportChannels"=((5795122739160566084,6442450945,"PlimitNS"),(6008203707511294276,6442450945,"PlimitSampleTimeNS")),"IOReportGroupName"="AGPMStatistics","IOReportChannelInfo"={"IOReportChannelUnit"=0}})
+  | | }
+  | | 
+  | +-o AGPMClient  <class AGPMClient, id 0x1000005f2, !registered, !matched, active, busy 0, retain 5>
+  |     {
+  |       "IOUserClientCreator" = "pid 111, powerd"
+  |       "IOUserClientDefaultLocking" = Yes
+  |     }
+  |     
+  +-o AppleMCCSControlModule  <class AppleMCCSControlModule, id 0x100000560, registered, matched, active, busy 0 (1 ms), retain 7>
+  | | {
+  | |   "IOProbeScore" = 0
+  | |   "CFBundleIdentifier" = "com.apple.driver.AppleMCCSControl"
+  | |   "IOMatchCategory" = "AppleMCCSControlFamily"
+  | |   "IOClass" = "AppleMCCSControlModule"
+  | |   "IOPersonalityPublisher" = "com.apple.driver.AppleMCCSControl"
+  | |   "IOKitDebug" = 0
+  | |   "IOProviderClass" = "IOFramebuffer"
+  | |   "CFBundleIdentifierKernel" = "com.apple.driver.AppleMCCSControl"
+  | |   "IOUserClientClass" = "AppleMCCSUserClient"
+  | |   "IOResourceMatch" = "IOKit"
+  | | }
+  | | 
+  | +-o AppleMCCSParameterHandler  <class AppleMCCSParameterHandler, id 0x100000562, registered, matched, active, busy 0 (0 ms), retain 5>
+  |     {
+  |       "IOProbeScore" = 0
+  |       "CFBundleIdentifier" = "com.apple.driver.AppleMCCSControl"
+  |       "IOMatchCategory" = "IODisplayParameters"
+  |       "IOClass" = "AppleMCCSParameterHandler"
+  |       "IOPersonalityPublisher" = "com.apple.driver.AppleMCCSControl"
+  |       "IOKitDebug" = 0
+  |       "AppleMCCSFeatures" = 1
+  |       "IOProviderClass" = "AppleMCCSControlFamily"
+  |       "CFBundleIdentifierKernel" = "com.apple.driver.AppleMCCSControl"
+  |       "IOResourceMatch" = "IOKit"
+  |     }
+  |     
+  +-o AppleUpstreamUserClientDriver  <class AppleUpstreamUserClientDriver, id 0x100000561, registered, matched, active, busy 0 (1 ms), retain 5>
+  |   {
+  |     "IOProbeScore" = 0
+  |     "CFBundleIdentifier" = "com.apple.driver.AppleUpstreamUserClient"
+  |     "IOMatchCategory" = "AppleUpstreamUserClientDriver"
+  |     "IOClass" = "AppleUpstreamUserClientDriver"
+  |     "IOPersonalityPublisher" = "com.apple.driver.AppleUpstreamUserClient"
+  |     "IOProviderClass" = "IOFramebuffer"
+  |     "CFBundleIdentifierKernel" = "com.apple.driver.AppleUpstreamUserClient"
+  |     "IOUserClientClass" = "AppleUpstreamUserClient"
+  |     "IOResourceMatch" = "IOKit"
+  |   }
+  |   
+  +-o display0  <class IODisplayConnect, id 0x1000005c1, registered, matched, active, busy 0 (2 ms), retain 6>
+  | | {
+  | | }
+  | | 
+  | +-o AppleDisplay  <class AppleDisplay, id 0x1000005c3, registered, matched, active, busy 0 (1 ms), retain 8>
+  |     {
+  |       "IOClass" = "AppleDisplay"
+  |       "CFBundleIdentifier" = "com.apple.iokit.IOGraphicsFamily"
+  |       "IOProviderClass" = "IODisplayConnect"
+  |       "DisplayProductID" = 16761
+  |       "IODisplayEDID" = <00ffffffffffff00148f79410000000003220104b51f15780008b5af513eba230a505400000001010101010101010101010101010101000000100000000000000000000000000000000000fe0051515151515151515151515151000000fc0045444f31342e35350a2020202000000010000000000000000000000000000001f1702079020020000c940bd502450000000001180021001d030cfd07300c200880f1ea50e713ba39c20a0235547861406600402378260009070000000000400000220028ffbe0d802f0c1701d30003001f087f0079000000ffbe0d002f0c1701d30003001f081f091909000081000be3058000e6060501a07a070000000000aa90>
+  |       "IODisplayPrefsKeyOld" = "IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/IGPU@2/.Display_boot/display0/AppleDisplay-148f-4179"
+  |       "IODisplayPrefsKey" = "IOService:/AppleACPIPlatformExpert/PC00/AppleACPIPCI/IGPU@2-148f-4179-df95d6daaa7c17af"
+  |       "IOProbeScore" = 2000
+  |       "IOPowerManagement" = {"CapabilityFlags"=49152,"MaxPowerState"=3,"CurrentPowerState"=3}
+  |       "IODisplayParameters" = {"bgsc"={"min"=0,"max"=65536,"value"=65536},"rgsc"={"min"=0,"max"=65536,"value"=65536},"vblm"={"min"=0,"max"=196608,"value"=65536},"ownr"=4294968576,"ggsc"={"min"=0,"max"=65536,"value"=65536}}
+  |       "IOMatchCategory" = "IODefaultMatchCategory"
+  |       "IOPersonalityPublisher" = "com.apple.iokit.IOGraphicsFamily"
+  |       "IODisplayConnectFlags" = <00000000>
+  |       "CFBundleIdentifierKernel" = "com.apple.iokit.IOGraphicsFamily"
+  |       "IODisplayAttributes" = {"IODisplayAttributes"=<676174760000000073676c6600000000726c6f630100000063706220040000006364670080808000676c666400000000>}
+  |       "DisplayVendorID" = 5263
+  |       "DisplaySerialNumber" = SERIAL-1
+  |     }
+  |     
+  +-o IOFramebufferSharedUserClient  <class IOFramebufferSharedUserClient, id 0x100000687, !registered, !matched, active, busy 0, retain 4>
+  |   {
+  |     "IOUserClientDefaultLocking" = Yes
+  |     "IOUserClientSharedInstance" = Yes
+  |     "IOUserClientCreator" = "pid 1956, nsattributedstri"
+  |   }
+  |   
+  +-o IOFramebufferUserClient  <class IOFramebufferUserClient, id 0x1000008fa, !registered, !matched, active, busy 0, retain 5>
+      {
+        "IOUserClientCreator" = "pid 1425, WindowServer"
+        "IOUserClientDefaultLocking" = Yes
+      }
+      
+

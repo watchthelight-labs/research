@@ -20,6 +20,18 @@
   "model": "HP Victus 15-fa0xxx",
   "username": "TrDiTu"
  },
+ "change-48/honor-magicbook-art-14-2025": {
+  "cpu": "Core Ultra 7 255H",
+  "first_seen": "2026-11-06",
+  "gpu": "Intel Xe-LPG+ 8086:7D51",
+  "last_seen": "2026-11-06",
+  "machine": "honor-magicbook-art-14-2025",
+  "macos_builds": [
+   "25F84"
+  ],
+  "model": "HONOR MagicBook Art 14 2025",
+  "username": "change-48"
+ },
  "ikurina/asus-tuf-gaming-b850-plus-wifi": {
   "chips": "MT7925 (Wi-Fi + Bluetooth)",
   "first_seen": "2026-10-22",

@@ -1,0 +1,34 @@
+{
+ "collected": "2026-11-01",
+ "component": "xegfx",
+ "files": {
+  "01-hardware.txt": "e11b4ee39d59ce2c447fa97fa4f08642fc8a0797e285cf3c1ebd2922f447370e",
+  "02-macos.txt": "768b8f9007d8f6bea2e0e60db59dd0d1efa2714920e406cbe9b4c1191b6c2488",
+  "03-kexts.txt": "e05c13d99162b2618f43024131b85fc25c1059f189f99414c1cb48d0cf4e19aa",
+  "04-fb.txt": "9c167cafe9effcbf779a93ee609917e2449f6a5357c0c05f761a1bdc73312a10",
+  "05-plane.txt": "47d14fbdc32c181499b88a3f060b1688eed1935475cfd9810d73b7420c2e4281",
+  "06-counters.txt": "86b9131d801b19c5bd9304b4db0b89412cb6218cfd8cb4e4c885de116aca43fc",
+  "07-bringup.txt": "24acf3906672a8029a55ef1512af4ff11d0a3ebb2aaec79974f73d608293be30",
+  "08-accel-log.txt": "2ea080e4e6c81a0977018fdcfb9d92453076422615e236aaa0c663d82375e88a",
+  "09-panics-trim.txt": "49f9cb5b6d67e9f654e941b4f283551562902ff7e5b249f5b20b81cb6331b430"
+ },
+ "kexts": {
+  "org.watchthelight.IGPUConsoleRange": "0.4",
+  "org.watchthelight.XeGfx": "0.0.46",
+  "org.watchthelight.XeGfxAGDC": "0.1.1",
+  "org.watchthelight.XeGfxAccel": "0.1",
+  "org.watchthelight.XeGfxDisplay": "0.5",
+  "org.watchthelight.XeGfxIntelFB": "0.8",
+  "org.xenative.XeNative": "0.14"
+ },
+ "machine": "honor-magicbook-art-14-2025",
+ "macos_build": "25F84",
+ "opencore": "DBG-108-2026-09-27",
+ "project": "XeGfx",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v2"
+ },
+ "source": "XeGfx-14",
+ "username": "change-48"
+}
