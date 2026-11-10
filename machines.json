@@ -58,12 +58,13 @@
   "cpu": "Intel Core Ultra 9 275HX (Arrow Lake-HX)",
   "first_seen": "2026-10-22",
   "gpu": "NVIDIA RTX 5070 Laptop (GB206) + Intel Xe (7D67)",
-  "last_seen": "2026-10-28",
+  "last_seen": "2026-11-10",
   "machine": "lenovo-legion-5-15iax10",
   "macos_builds": [
    "24E263",
    "24H32",
-   "25G241"
+   "25G241",
+   "25G416"
   ],
   "model": "Lenovo Legion 5 15IAX10 (Core Ultra 9 275HX, RTX 5070 Laptop)",
   "username": "watchthelight"

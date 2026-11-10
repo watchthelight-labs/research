@@ -1,0 +1,11 @@
+"MtkFrontEndBoundMs" = 79
+"MtkFrontEndClaimMs" = 1
+"MtkFrontEndActive" = "native"
+"MtkFrontEnd" = "ethernet"
+"MtkFrontEndWanted" = "native"
+"MtkNativeAbiBuild" = "25G416"
+"MtkNativeVersion" = "0.4.15"
+"MtkNativeRx" = "rx 171981 delivered 171981 dropped 0 ringfull 0 oversize 0 peak 197"
+"MtkNativeScan" = "requests 19 delivered 19 results 1699 (last 93 of 96 cached)"
+"MtkNativeJoin" = "requests 1 ok 1 failed 0 leaves 0 linkdowns 0 linkup 1 beaconreports 0"
+"MtkNativeTx" = "tx 42276 dropped 0 stalled 100 completed 42276 pending 0"
