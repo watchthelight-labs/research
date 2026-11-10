@@ -1,0 +1,7 @@
+en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+    ether xx:xx:xx:xx:xx:xx
+    inet IP-1 netmask 0xffffff00
+    status: active
+
+default gateway IP-2, interface en1
+ping IP-3 -> 2/2 received, avg 76 ms

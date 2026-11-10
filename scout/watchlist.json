@@ -25,7 +25,7 @@
     "smart amp",
     "tas2781"
    ],
-   "labs_repo": "watchthelight-labs/VoodooHDA-Legion",
+   "labs_repo": "watchthelight-labs/WTLAudio",
    "related": [
     {
      "credited": true,
@@ -60,7 +60,7 @@
     "boot option",
     "nvram"
    ],
-   "labs_repo": "watchthelight-labs/LegionCbmrFix",
+   "labs_repo": "watchthelight-labs/WTLLegionCbmrFix",
    "related": [
     {
      "credited": true,
@@ -98,7 +98,7 @@
     "e-core",
     "thread director"
    ],
-   "labs_repo": "watchthelight-labs/LegionCpuPower",
+   "labs_repo": "watchthelight-labs/WTLLegionCpuPower",
    "related": [
     {
      "credited": false,
@@ -142,7 +142,7 @@
     "gpio",
     "ptp"
    ],
-   "labs_repo": "watchthelight-labs/LegionI2CArrowLake",
+   "labs_repo": "watchthelight-labs/WTLI2CArrowLake",
    "related": [
     {
      "credited": true,
@@ -205,7 +205,7 @@
     "hid",
     "backlight"
    ],
-   "labs_repo": "watchthelight-labs/LegionITEKbdFix",
+   "labs_repo": "watchthelight-labs/WTLLegionITEKbdFix",
    "related": [
     {
      "credited": true,
@@ -245,7 +245,7 @@
     "ec",
     "battery"
    ],
-   "labs_repo": "watchthelight-labs/Legion-5-15IAX10-OpenCore",
+   "labs_repo": "watchthelight-labs/WTLLegionOpenCore",
    "related": [
     {
      "credited": true,
@@ -376,6 +376,16 @@
      "credited": false,
      "relation": "same-generation Legion EFI (275HX, RTX 5070), ships LegionCbmrFix with credit",
      "repo": "ctrl64/Legion-Y9000X-IAX10-Hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same CPU (275HX) with NullMoth 1401, OpenCore notes",
+     "repo": "Kiyora0219/mechrevo-yaoshi16-ultra-1401"
+    },
+    {
+     "credited": false,
+     "relation": "Arrow Lake HDA audio through VoodooHDA",
+     "repo": "change-48/ALC256-ARROWLAKE-HDA"
     }
    ],
    "title": "Legion 5 15IAX10 OpenCore EFI"
@@ -424,7 +434,7 @@
     "802.11ax",
     "roaming"
    ],
-   "labs_repo": "watchthelight-labs/mt7925-hackintosh-bluetooth",
+   "labs_repo": "watchthelight-labs/WTLMtkBluetooth",
    "related": [
     {
      "credited": true,
@@ -513,7 +523,7 @@
     "802.11ax",
     "roaming"
    ],
-   "labs_repo": "watchthelight-labs/mt7925-hackintosh-wifi",
+   "labs_repo": "watchthelight-labs/WTLMtkWireless",
    "related": [
     {
      "credited": true,
@@ -609,6 +619,21 @@
      "credited": false,
      "relation": "redistributes our MT7925 kexts with credit",
      "repo": "Borders-Q/MT7925-macOS26-package"
+    },
+    {
+     "credited": false,
+     "relation": "MT7927 port of our three MediaTek kexts (HE160, roaming, Bluetooth); prepared patches for us",
+     "repo": "qqwqtzd/mt7927-hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "cao5555/mt7925-awdl"
+    },
+    {
+     "credited": true,
+     "relation": "uses our MT7925 kexts with credit; WiFi Menu app for 26.0 linked from our README",
+     "repo": "xiaoyizpast/Hackintosh-OMEN-8f06"
     }
    ],
    "title": "MT7925 Wi-Fi driver (MtkWlan)"
@@ -650,7 +675,7 @@
     "802.11ax",
     "roaming"
    ],
-   "labs_repo": "watchthelight-labs/mt7925-hackintosh-wifi-native",
+   "labs_repo": "watchthelight-labs/WTLWifiMenu",
    "related": [
     {
      "credited": true,
@@ -744,6 +769,11 @@
      "credited": false,
      "relation": "studied",
      "repo": "raph559/winawdl"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "retropineaple/ForbiddenItlwm"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
@@ -787,7 +817,7 @@
     "frame rate boost",
     "ddc"
    ],
-   "labs_repo": "watchthelight-labs/NvGfx",
+   "labs_repo": "watchthelight-labs/WTLNvidiaGfx",
    "related": [
     {
      "credited": true,
@@ -923,7 +953,7 @@
     "tahoe",
     "sequoia"
    ],
-   "labs_repo": "watchthelight-labs/XeGfx",
+   "labs_repo": "watchthelight-labs/WTLIntelGfx",
    "related": [
     {
      "credited": true,

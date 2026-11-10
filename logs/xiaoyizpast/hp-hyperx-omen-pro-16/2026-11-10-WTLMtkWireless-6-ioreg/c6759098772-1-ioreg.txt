@@ -1,0 +1,1 @@
+ioreg -r -c MtkWlan -l -w0 | grep -E 'MtkFrontEnd|MtkCountry'

@@ -1,0 +1,24 @@
+{
+ "collected": "2026-11-09",
+ "component": "",
+ "files": {
+  "issue-1-log.txt": "398096513a61ecd9abbb54aaa09d99e51e1a449146f38317787d68dd7ae666aa",
+  "issue-2-ioreg.txt": "e3d2fd86ef4aae4ed51d9e66e8cf5a9b739ce18e3dc13f52ad987f8099de1c1a",
+  "issue-3-kernel-log.txt": "7006e59757c2632e3746f7bf4495c009d43cc0a964c6f06bc3c7367072a7461d"
+ },
+ "issue_title": "MT7925 (103c:8f06) on macOS 26.0 (25A354): Ethernet front end works (en1), no native Wi-Fi UI — is 26.0 supported?",
+ "kexts": {},
+ "machine": "hp-hyperx-omen-pro-16",
+ "macos_build": "25A354",
+ "opencore": "",
+ "project": "WTLMtkWireless",
+ "redaction": {
+  "replaced": {
+   "HOST": 13,
+   "IP": 3
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "https://github.com/watchthelight-labs/WTLMtkWireless/issues/6",
+ "username": "xiaoyizpast"
+}

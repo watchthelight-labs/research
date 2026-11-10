@@ -1,0 +1,14 @@
+kmutil showloaded | grep -i mtk
+# org.watchthelight.MtkWlan (0.12.1)
+# org.watchthelight.MtkBt (0.2.4)
+
+ioreg -l -w0 | grep -A6 'pci14c3,7925'
+# "compatible" = "pci103c,8c38","pci14c3,7925","pciclass,028000","WLAN"
+
+ioreg -n MtkWlan -r -d 1
+# "MtkFwVersion" = "____000000-20260813113118"
+# "MtkCountry"   = "US, 36 channels (11 at 2.4 GHz), rc 0"
+# "MtkPower" = Yes, "MtkRxBa" = Yes, "MtkTxBa" = Yes
+
+ifconfig -l
+# lo0 gif0 stf0 XHC128 XHC96 XHC0 en0 en1 utun0..3   (no en2)

@@ -1,0 +1,25 @@
+2026-11-09 23:51:40.549 Df launchd[1:2a4] [system/HOST-1.local.mtkwifi-autojoin [297]:] Requesting first run LWCR update
+2026-11-09 23:51:40.550 Df backgroundtaskmanagementd[288:6a5] [com.apple.backgroundtaskmanagement:main] effectiveItemDisposition: appURL=(null), type=legacy daemon, url=file:///Library/LaunchDaemons/HOST-1.local.mtkwifi-autojoin.plist, config={
+        "/Users/USER/bin/mtkwifi",
+    BTMConfigExecutablePath = "/Users/USER/bin/mtkwifi";
+    BTMConfigLabel = "HOST-1.local.mtkwifi-autojoin";
+2026-11-09 23:51:40.551 Df launchd[1:30c] [system/HOST-1.local.mtkwifi-autojoin [297]:] Updated BTM identifiers: 00000000-0000-0000-0000-000000000000 New LWCR needed: 1
+2026-11-09 23:51:40.551 Df xpcproxy[297:6bf] Launch constraint set on 00000000-0000-0000-0000-000000000000 /Library/LaunchDaemons/HOST-1.local.mtkwifi-autojoin.plist
+2026-11-09 23:51:40.551 Df launchd[1:2a4] [system/HOST-1.local.mtkwifi-autojoin [297]:] service state: running
+2026-11-09 23:51:40.551 Df launchd[1:2a4] [system/HOST-1.local.mtkwifi-autojoin [297]:] internal event: INIT, code = 0
+2026-11-09 23:51:40.551 Df launchd[1:2a4] [system/HOST-1.local.mtkwifi-autojoin [297]:] Successfully spawned mtkwifi[297] because speculative
+2026-11-09 23:51:40.892 Df launchd[1:2a4] [pid/297 [mtkwifi]:] uncorking exec source upfront
+2026-11-09 23:51:40.892 Df launchd[1:2a4] [pid/297 [mtkwifi]:] created
+2026-11-09 23:51:41.486 Df kernel[0:896] (IOPCIFamily) [PCIe:0 6921943984 ns] [childPublished()] child MtkBt(0x100000506) published
+2026-11-09 23:51:41.894 Df kernelmanagerd[126:87f] Received kext load notification: org.watchthelight.MtkWlan
+2026-11-09 23:51:41.894 E  kernelmanager_helper[365:8f8] Could not process load notification in helper: Could not find: Did not find identifier (org.watchthelight.MtkWlan) in helper to process load notification
+2026-11-09 23:51:47.741 Df launchd[1:30c] [system/HOST-1.local.mtkwifi-autojoin [297]:] exited due to exit(1), ran for 7194ms
+2026-11-09 23:51:47.741 Df launchd[1:30c] [system/HOST-1.local.mtkwifi-autojoin [297]:] service state: exited
+2026-11-09 23:51:47.741 Df launchd[1:30c] [system/HOST-1.local.mtkwifi-autojoin [297]:] internal event: EXITED, code = 0
+2026-11-09 23:51:47.741 Df launchd[1:30c] [system:] service inactive: HOST-1.local.mtkwifi-autojoin
+2026-11-09 23:51:47.741 Df launchd[1:30c] [system/HOST-1.local.mtkwifi-autojoin [297]:] service state: not running
+2026-11-09 23:51:47.741 Df launchd[1:30c] [pid/297 [mtkwifi]:] shutting down
+2026-11-09 23:51:47.741 Df launchd[1:30c] [pid/297 [mtkwifi]:] cleaning up
+  path = IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/GPP6@1,7/IOPP/WLAN@0/MtkWlan/MtkWlanEth/IOEthernetInterface
+2026-11-09 23:52:18.835 A  mtkwifi[893:1b47] (libsystem_info.dylib) Retrieve User by ID
+2026-11-10 00:57:15.263 Df sudo[22977:1ffe8]    macos : a password is required ; PWD=/Users/USER/Documents/deepseek-harness/default-workspace ; USER=root ; COMMAND=/Users/USER/bin/mtkwifi status

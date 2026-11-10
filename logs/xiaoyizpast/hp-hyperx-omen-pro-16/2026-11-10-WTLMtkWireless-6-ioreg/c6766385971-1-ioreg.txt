@@ -1,0 +1,12 @@
+$ system_profiler SPAirPortDataType
+  en1:
+    Card Type: Third-Party Wireless Card
+    Firmware Version: MtkWlanNative 0.4.15
+    MAC Address: MAC-1
+    Country Code: CN
+    Supported PHY Modes: 802.11 a/b/g/n/ac
+    Status: Connected
+
+$ ioreg -r -c MtkWlan -l -w0 | grep -E 'MtkFrontEnd|MtkCountry'
+    "MtkCountry" = "US, 36 channels (11 at 2.4 GHz), rc 0"
+    "MtkFrontEnd" = "ethernet"
