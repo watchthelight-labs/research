@@ -1,0 +1,25 @@
+# N-362 state, taken 2026-11-10 18:30 EST (boot 18:28:01)
+ProductName:		macOS ProductVersion:		26.7.3 BuildVersion:		25G416 
+Darwin Kernel Version 25.6.0: Fri Oct 30 17:30:02 PDT 2026; root:xnu-12377.161.15.702.13~1
+FB: 0x70800000 (Hybrid)
+wifi-guard: stage E pass, lease on en1, gateway answers
+"MtkFrontEndActive" = "native"
+"MtkFrontEndWanted" = "native"
+"MtkNativeAbiBuild" = "25G416"
+"MtkNativeVersion" = "0.4.16"
+RSSI                 : -38 dBm
+Tx Rate              : 866.0 Mbps
+Security             : WPA2 Personal
+PHY Mode             : 11ac
+Channel              : 5g44/80
+Country Code         : US
+debug.legioncpu.status: cpu arrow lake, xcpm hwp flag 0, hwp 1 (rewrites 24), pl 1 (guard 1, cap 0 W, steps 0), epp 0, pkg 102 C 38 W, mchbar mapped, fan mode 1, power mode 0xff, full speed on (5900 / 6000 rpm), sched 1 (ok, favoured 0x400400, avoid 0x3fc3fc)
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.1)
+org.watchthelight.LegionBtFix (0.3.0)
+org.watchthelight.MtkWlan (0.12.1)
+org.watchthelight.MtkWlanNative (0.4.16)
+org.watchthelight.XeGfxIntelFB (0.9)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.MtkBt (0.2.4)
+panic files: none; crash reports since boot: bluetoothd ExcUserFault 18:28:33 (one per boot, also on N-361 and before the update)
