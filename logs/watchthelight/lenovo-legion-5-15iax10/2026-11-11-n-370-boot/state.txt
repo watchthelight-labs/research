@@ -1,0 +1,72 @@
+# N-370 state, taken 2026-11-11 18:30 EST (boot 18:25:12)
+ProductName:		macOS ProductVersion:		26.7.3 BuildVersion:		25G416 
+FB: 0x70800000 (Hybrid)
+boot-args (Wi-Fi tokens): mtkfe=native mtknativeif=1
+wifi-guard log (no attempt was staged through the guard):
+2026-11-11 18:25:17 guard start: attempt=N-369 stage=E iface=en1 boot=1794439512 started_boot=1794360287 result=pass auto_reboots=0 dry=0
+2026-11-11 18:25:17 attempt already finished (pass); nothing to do
+OpenCore injection lines:
+Prelinked injection WTLWireless.kext v0.14.0
+Prelinked injection WTLWireless.kext\Contents\PlugIns\WTLWirelessBt.kext v0.14.0
+Prelinked injection WTLWireless.kext\Contents\PlugIns\WTLWirelessNativ
+Prelinked injection WTLWireless.kext\Contents\PlugIns\WTLWirelessNative.kext v0.14.0
+Kernel > Add: 30 entries, 1 disabled; none names MtkWlan, MtkBt or MtkWlanNative
+EFI/OC/Kexts (MT7925 names): MtkBt.kext.0.2.0.bak MtkWlanNative.kext.0.4.13.bak WTLWireless.kext 
+kmutil showloaded (watchthelight, Mtk):
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.1)
+org.watchthelight.LegionBtFix (0.3.0)
+org.watchthelight.IGPUConsoleRange (0.4)
+org.watchthelight.WTLWireless (0.14.0)
+org.watchthelight.WTLWireless.Native (0.14.0)
+org.watchthelight.XeGfxIntelFB (0.9)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.WTLWireless.Bt (0.14.0)
+ioreg WTLWireless:
+ | "MtkChipName" = "MT7925"
+ | "MtkState" = "W6 pass: en1 passing traffic"
+ | "MtkMilestone" = "W6"
+ | "MtkFrontEndActive" = "native"
+ | | "MtkNativeCoreOps" = 6
+ | | "MtkNativeVersion" = "0.14.0"
+ | | | "MtkNativeJoin" = "requests 1 ok 1 failed 0 leaves 0 linkdowns 0 linkup 1 beaconreports 0"
+ioreg WTLWirelessBt:
+ "MtkBtElapsedMs" = 1522
+ "MtkBtSectionsSent" = 1
+ "MtkBtTries" = 1
+ "MtkBtState" = "ready"
+ "MtkBtFwVersion" = 16896
+ "MtkBtVersion" = "0.14.0"
+ "MtkBtStep" = "done"
+ "MtkBtFirmwareBuild" = "20260813113236"
+ "MtkBtChipId" = 31013
+ "MtkBtSectionsSkipped" = 2
+ "MtkBtLog" = "chip 7925 fw_ver 00004200 flavor 0;slpprot before download: 18100006 -> 18100006;section 0: already loaded;section 1: already loaded;section 2: 41472 bytes in 166 blocks;slpprot after activation: 18100006 -> 18100006;bluetooth function on (flag 0 status ffff);ready in 1522 ms, 0 interrupt packets dropped;"
+System Information, Bluetooth controller:
+ State: On
+ Chipset: THIRD_PARTY_DONGLE
+ Transport: UART
+ Firmware Version: v9480 c277
+ known devices listed: 2, connected: 0
+System Information, Wi-Fi: card type, PHY modes and channel list equal to ../N-364/baseline-n363.txt; other networks listed: 37
+wdutil info (network name and addresses left out):
+ Interface Name : en1
+ Power : On [On]
+ Op Mode : STA
+ RSSI : -43 dBm
+ Noise : 0 dBm
+ Tx Rate : 866.0 Mbps
+ Security : WPA2 Personal
+ PHY Mode : 11ac
+ MCS Index : 9
+ NSS : 2
+ Channel : 5g157/80
+ Country Code : US
+en1: status active, lease IP-210, default route on en1, gateway IP-211 answers 3 of 3
+mtkwifi status:
+state:      connected
+link:       associated, port open
+last join:  ok
+counters:   bss 97 scans 33 joins 1 failures 0 rejoins 0
+handshake:  m1 1 m2 1 m3 1 m4 1 g1 0 g2 0 bad mic 0 replays 0
+crash reports since boot: ExcUserFault_bluetoothd (the usual one, also in N-367 to N-369); kernel panics: none
