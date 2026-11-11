@@ -21,7 +21,7 @@ VERSION = "2"
 
 # Map values that are also published defaults, so they appear in every user's logs: MtkWlan's shipped
 # MtkAutoOpenSsids list (Info.plist, README). They stay tokens in our own logs but do not block anyone else's.
-PUBLIC_VALUES = {"boingo 5ghz", "boingo"}
+PUBLIC_VALUES = {"boingo 5ghz", "boingo", "192.0.2.1"}   # 192.0.2.1: RFC 5737 documentation address
 # our own tokens; an old run stored a few of them as values, and they must not block a log that uses the same token
 TOKEN_SHAPE = re.compile(r"(?i)^(?:SERIAL|MLB|ROM|UUID|SSID|MAC|HOST|IP|EMAIL|USER)-\d+$")
 
