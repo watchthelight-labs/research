@@ -1,0 +1,38 @@
+# N-366 state, taken 2026-11-10 19:54 EST (boot 19:52:58)
+ProductName:		macOS ProductVersion:		26.7.3 BuildVersion:		25G416 
+FB: 0x70800000 (Hybrid)
+boot-args (Wi-Fi tokens): mtkfe=native mtknativeif=1 
+wifi-guard: stage E pass, lease on en1, gateway answers
+"IO80211HardwareVersion" = "MediaTek MT7925"
+"IOMatchCategory" = "MtkFrontEnd"
+"MtkBadAccess" = 0
+"MtkChipName" = "MT7925"
+"MtkFrontEnd" = "native"
+"MtkFrontEndActive" = "native"
+"MtkFwVersion" = "____000000-20260813113118"
+"MtkNativeAbiBuild" = "25G416"
+"MtkNativeChip" = "MT7925, bands 3, 2 streams, width 2, core ops v6"
+"MtkNativeCoreOps" = 6
+"MtkNativeVersion" = "0.4.17"
+"MtkState" = "W6 pass: en1 passing traffic"
+"MtkW8Mode" = "VHT, 80 MHz, 2 streams"
+Tx Rate              : 866.0 Mbps
+Security             : WPA2 Personal
+PHY Mode             : 11ac
+MCS Index            : 9
+NSS                  : 2
+Channel              : 5g44/80
+Country Code         : US
+Master Channel         : n/a
+Supported Channels (system_profiler and wdutil), PHY modes and IO80211HardwareVersion: identical to ../N-364/baseline-n363.txt
+wifi-lastgood on OCEFI: MtkWlan 0.13.0, MtkWlanNative 0.4.17, boot-args tokens mtkfe=native mtknativeif=1
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.1)
+org.watchthelight.LegionBtFix (0.3.0)
+org.watchthelight.IGPUConsoleRange (0.4)
+org.watchthelight.MtkWlan (0.13.0)
+org.watchthelight.MtkWlanNative (0.4.17)
+org.watchthelight.XeGfxIntelFB (0.9)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.MtkBt (0.2.4)
+panic files: none; crash reports since boot: bluetoothd ExcUserFault 19:53:29 (one per boot, known)
