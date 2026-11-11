@@ -1,0 +1,41 @@
+# N-363 state, taken 2026-11-10 19:16 EST (boot 19:14:06)
+ProductName:		macOS ProductVersion:		26.7.3 BuildVersion:		25G416 
+Darwin Kernel Version 25.6.0: Fri Oct 30 17:30:02 PDT 2026; root:xnu-12377.161.15.702.13~1/RELEASE_X86_64
+FB: 0x70800000 (Hybrid)
+wifi-guard: stage E pass, lease on en1, gateway answers
+"MtkChipName" = "MT7925"
+"MtkNativeAbiBuild" = "25G416"
+"MtkFrontEnd" = "native"
+"MtkChipBands" = 7
+"MtkFrontEndWanted" = "native"
+"MtkChipId" = 31013
+"MtkFwVersion" = "____000000-20260813113118"
+"MtkState" = "W6 pass: en1 passing traffic"
+"MtkBadAccess" = 0
+"MtkChipMaxBw" = 3
+"MtkPciDevice" = 31013
+"MtkFrontEndActive" = "native"
+"MtkChipNss" = 2
+"IOMatchCategory" = "MtkFrontEnd"
+"MtkNativeVersion" = "0.4.16"
+RSSI                 : -33 dBm
+Tx Rate              : 866.0 Mbps
+Security             : WPA2 Personal
+PHY Mode             : 11ac
+Channel              : 5g44/80
+Country Code         : US
+Master Channel         : n/a
+"MtkW8Mode" = "VHT, 80 MHz, 2 streams"
+"MtkBtState" = "ready"
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.1)
+org.watchthelight.LegionBtFix (0.3.0)
+org.watchthelight.IGPUConsoleRange (0.4)
+org.watchthelight.MtkWlan (0.12.2)
+org.watchthelight.MtkWlanNative (0.4.16)
+com.nullmoth.NMIntelFB (0.3)
+org.watchthelight.XeGfxIntelFB (0.9)
+com.nullmoth.NVRMAGDC (2.6.2)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.MtkBt (0.2.4)
+panic files: none; crash reports since boot: bluetoothd ExcUserFault 19:14:37 (one per boot, known); shutdown_stall report from the restart itself (one per restart since 2026-11-09, seven so far)
