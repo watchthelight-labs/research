@@ -434,7 +434,7 @@
     "802.11ax",
     "roaming"
    ],
-   "labs_repo": "watchthelight-labs/WTLMtkBluetooth",
+   "labs_repo": "watchthelight-labs/WTLWireless",
    "related": [
     {
      "credited": true,
@@ -475,7 +475,7 @@
      "repo": "flxxxxddd/SimpleMtkBtFw"
     }
    ],
-   "title": "MT7925 Bluetooth (MtkBt + LegionBtFix)"
+   "title": "MT7925 Bluetooth (WTLWireless Bluetooth part + LegionBtFix)"
   },
   "mt7925-wifi": {
    "discovery": {
@@ -523,7 +523,7 @@
     "802.11ax",
     "roaming"
    ],
-   "labs_repo": "watchthelight-labs/WTLMtkWireless",
+   "labs_repo": "watchthelight-labs/WTLWireless",
    "related": [
     {
      "credited": true,
@@ -636,7 +636,7 @@
      "repo": "xiaoyizpast/Hackintosh-OMEN-8f06"
     }
    ],
-   "title": "MT7925 Wi-Fi driver (MtkWlan)"
+   "title": "MT7925 Wi-Fi driver (WTLWireless core)"
   },
   "mt7925-wifi-native": {
    "discovery": {
@@ -675,7 +675,7 @@
     "802.11ax",
     "roaming"
    ],
-   "labs_repo": "watchthelight-labs/WTLWifiMenu",
+   "labs_repo": "watchthelight-labs/WTLWireless",
    "related": [
     {
      "credited": true,
@@ -776,7 +776,7 @@
      "repo": "retropineaple/ForbiddenItlwm"
     }
    ],
-   "title": "MT7925 native Wi-Fi front end (MtkWlanNative)"
+   "title": "MT7925 native Wi-Fi front end (WTLWireless Wi-Fi menu part)"
   },
   "nvgfx": {
    "discovery": {
