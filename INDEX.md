@@ -304,6 +304,7 @@
 
 ## Upstream scout reports
 
+- [2026-11-11](scout/reports/2026-11-11.md)
 - [2026-11-10](scout/reports/2026-11-10.md)
 - [2026-10-31](scout/reports/2026-10-31.md)
 - [2026-10-30](scout/reports/2026-10-30.md)

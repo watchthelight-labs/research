@@ -211,6 +211,16 @@
      "credited": true,
      "relation": "built-on",
      "repo": "Ammarrrrrrr/legion-pro5-hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "yusufcanyavic/YYavic-Control-Center"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "NumanLUAU/LOQ-15IAX9-Hackintosh"
     }
    ],
    "title": "ITE keyboard fix (LegionITEKbdFix)"
@@ -473,6 +483,11 @@
      "credited": true,
      "relation": "studied",
      "repo": "flxxxxddd/SimpleMtkBtFw"
+    },
+    {
+     "credited": false,
+     "relation": "same-hardware",
+     "repo": "thanhnndev/mt7925-macos"
     }
    ],
    "title": "MT7925 Bluetooth (WTLWireless Bluetooth part + LegionBtFix)"
@@ -901,6 +916,16 @@
      "credited": false,
      "relation": "VirtualSMC NVIDIA sensor plugin for NullMoth builds",
      "repo": "zzzyy678/SMCNvidiaGPU"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "rodgod-rr/Dell-G15-5530-Hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "yes-man-Guo/Lenovo-Legion-Y9000X-IAH7---hackintosh"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
@@ -1101,6 +1126,26 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "sulthonuladib/victus-15-fa0xxx-hackintosh"
+    },
+    {
+     "credited": true,
+     "relation": "fork-of-ours",
+     "repo": "hepengfei00/XeMac"
+    },
+    {
+     "credited": true,
+     "relation": "fork-of-ours",
+     "repo": "taqieallah/ThinkPad-E16-ArrowLake-macOS"
+    },
+    {
+     "credited": true,
+     "relation": "uses-our-kext",
+     "repo": "change-48/XEGFX-MIGRATE"
+    },
+    {
+     "credited": false,
+     "relation": "uses-our-kext",
+     "repo": "saeckl/ROG-Strix-SCAR18-G835LXG-macOS"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"
