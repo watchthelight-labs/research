@@ -1,0 +1,45 @@
+# N-368 state, taken 2026-11-10 20:19 EST (boot 20:17:31)
+ProductName:		macOS ProductVersion:		26.7.3 BuildVersion:		25G416 
+FB: 0x70800000 (Hybrid)
+boot-args (Wi-Fi tokens): mtkfe=native mtknativeif=1 
+wifi-guard log:
+2026-11-10 20:17:35 guard start: attempt=N-368 stage=E iface=en1 boot=1794359851 started_boot=none result=none auto_reboots=0 dry=0
+2026-11-10 20:18:08 PASS N-368 stage E: lease on en1, gateway answers
+2026-11-10 20:18:24 captured pass -> /Users/USER/.cache/legion/wifi/N-368-pass
+2026-11-10 20:18:24 lastgood refreshed from the passing set: WTLWireless.kext
+OpenCore: Prelinked injection WTLWireless.kext v0.14.0, MtkBt.kext v0.2.4, WTLWireless.kext/Contents/PlugIns/WTLWirelessNative.kext v0.14.0: Success
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.1)
+org.watchthelight.LegionBtFix (0.3.0)
+org.watchthelight.IGPUConsoleRange (0.4)
+org.watchthelight.WTLWireless (0.14.0)
+org.watchthelight.WTLWireless.Native (0.14.0)
+org.watchthelight.XeGfxIntelFB (0.9)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.MtkBt (0.2.4)
+"IO80211HardwareVersion" = "MediaTek MT7925"
+"MtkBadAccess" = 0
+"MtkChipName" = "MT7925"
+"MtkFrontEndActive" = "native"
+"MtkNativeChip" = "MT7925, bands 3, 2 streams, width 2, core ops v6"
+"MtkNativeCoreOps" = 6
+"MtkNativeVersion" = "0.14.0"
+"MtkState" = "W6 pass: en1 passing traffic"
+MtkConflict in the registry: none; classes MtkWlan and MtkWlanNative: none
+"MtkBtState" = "ready"
+"MtkBtVersion" = "0.2.4"
+"MtkBtStep" = "done"
+Tx Rate              : 866.0 Mbps
+Security             : WPA2 Personal
+PHY Mode             : 11ac
+MCS Index            : 9
+NSS                  : 2
+Channel              : 5g44/80
+Country Code         : US
+Master Channel         : n/a
+Firmware Version: WTLWirelessNative 0.14.0
+capture files: airport-profile.txt arp.txt configd-en1.txt dmesg.txt ifconfig.txt ioreg-wtlwireless.txt ioreg-wtlwirelessnative.txt kextstat.txt netstat-rn.txt wdutil-info.txt wifi-daemons.txt 
+wifi-lastgood on OCEFI: WTLWireless.kext only (equal to the live folder), config.plist equal to the live one, no .new leftovers
+abi-check 20:17:36: native_kext WTLWireless.kext/Contents/PlugIns/WTLWirelessNative.kext, allow-listed
+mtkwifi status: connected, ch 44, wpa2-psk, associated, port open
+panic files: none
