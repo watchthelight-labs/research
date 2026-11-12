@@ -1,0 +1,22 @@
+# kernel log, stage 4 (N-372)
+2026-11-11 19:21:11.277 Df kernel[0:27e3] (XeGfx) XeGfx: stage 4 boot framebuffer move: status 0, surf 0xff000000 -> 0x0, size 0xfa0000, pages 4000
+# ioreg
++-o XeGfxResident  <class XeGfxResident, id 0x10000088f, registered, matched, active, busy 0 (0 ms), retain 7>
+      "IOClass" = "XeGfxResident"
+      "CFBundleIdentifier" = "org.watchthelight.XeGfx"
+      "XeGfxGt" = {"wedged"=0,"guc-fw-status"=10,"render-minor"=128,"result"=1,"huc-fw-status"=18446744073709551615,"gts"=1,"guc-version"=4601088,"guc-submission"=1,"gtawake-gts"=1,"engines"=3,"gsc-fw
+      "XeGfxExec" = {"result"=1,"rcs0-ns"=120272,"bcs0-err"=0,"ccs0-ns"=277154,"bcs0-ns"=307719,"irqs"=3,"ccs0-err"=0,"engines"=3,"done"=3,"rcs0-err"=0}
+      "IOResourceMatch" = "XeGfxArm"
+      "XeGfxStore" = {"ccs0-got"=1483145732,"bcs0-err"=0,"ok"=3,"rcs0-got"=1483145216,"result"=1,"bcs0-got"=1483145473,"ccs0-err"=0,"engines"=3,"rcs0-err"=0}
+      "IOMatchCategory" = "XeGfxArmed"
+      "IOPersonalityPublisher" = "org.watchthelight.XeGfx"
+      "XeGfxProbe" = {"plane-surf-1-a"=18446744073692774400,"pipe-a-lit"=1,"pipe-frmcount-a"=13703,"tco-ctl"=256,"tco2-sts"=0,"bar2-size"=268435456,"tco1-cnt"=6144,"gmd-id-graphics"=51478532,"tco2-cnt
+      "CFBundleIdentifierKernel" = "org.watchthelight.XeGfx"
+      "XeGfxStage" = 7
+      "XeGfxPost" = {"ggtt-pte-surf"=8388611,"result"=1,"frmcount-delta"=17,"plane-surf-1-a"=18446744073692774400}
+# sysctl
+debug.xegfx_stage: 7
+debug.xegfx_running: 0
+debug.xegfx_progress: 70
+debug.xegfx_env: compat.linuxkpi.i915_disable_display=1 compat.linuxkpi.i915_xegfx_no_display=1 compat.linuxkpi.i915_enable_guc=3 xegfx.nvram_trace=0 xegfx.gtawake=2
+debug.xegfx_wdog: 180

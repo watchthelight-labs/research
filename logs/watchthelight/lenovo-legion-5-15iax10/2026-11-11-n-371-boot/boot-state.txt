@@ -1,0 +1,132 @@
+# captured 2026-11-11 19:18:37 EST, boot 19:17:36, uptime 1 min
+## kmutil showloaded (watchthelight)
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.1)
+org.watchthelight.LegionBtFix (0.3.0)
+org.watchthelight.IGPUConsoleRange (0.4)
+org.watchthelight.WTLWireless (0.15.0)
+org.watchthelight.WTLWireless.Native (0.15.0)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.XeGfxIntelFB (0.9)
+org.watchthelight.WTLWireless.Bt (0.15.0)
+## ioreg WTLWireless (selected keys)
+      "MtkChipName" = "MT7925"
+      "MtkW4Rts" = 0
+      "MtkW9TxFreeAttempts" = 5278
+      "MtkW3PatchInit1" = 0
+      "MtkW3RamResult" = 0
+      "MtkW2GtkInstall" = 0
+      "MtkW4BssInfo" = 0
+      "MtkW6RxFrames" = 6196
+      "MtkW4RfcrAfterFilter" = 1368074
+      "MtkW1Scan" = "scans 9 fails 0 bss 94 running 1 wanted 0 userpending 1"
+      "MtkW6RxTrans" = 27
+      "MtkW6Keepalives" = 0
+      "MtkW6Ticks" = 55000
+      "MtkW8Ap" = "ht 1 cap 086f ampdu 17 mcs ffff op 05 vht 1 cap 0f8b6832 rx ffaa tx ffaa bw 80 ctr 155"
+      "MtkW6TxCapped" = 507
+      "MtkW5Roc" = 0
+      "MtkW6TxFreeEvents" = 1650
+      "MtkW2MsiIndex" = 1
+      "MtkW6RxPackets" = 4463
+      "MtkW2Cmd" = "indispatch 0 timeouts 0 fails 0 dead 0"
+      "MtkW8AddbaDeclined" = 0
+      "MtkW3DrvOwnTries" = 1
+      "MtkW3FwStart" = 0
+      "MtkW5AuthResp" = 512
+      "MtkW3RamRegions" = 5
+      "MtkW8RxAmsdu" = 9
+      "MtkChipBands" = 7
+      "MtkW2Sec" = "m1 1 m2 1 m3 1 m4 1 g1 0 g2 0 badmic 0 replays 0 reinst 0 pnreplay 0 nopn 0 icv 0 mismatch 0 unprot 0 portdrop 0 trans 27 eapol rx 2 tx 2 qdrop 0 installs 2/0"
+      "MtkW9TxFreeHeaders" = 4942
+      "MtkW5StaAssoc" = 0
+      "MtkW3PatchSemRelease" = 3
+      "MtkW6Deauths" = 0
+      "MtkChipId" = 31013
+      "MtkFwVersion" = "____000000-20260813113118"
+      "MtkW6Link" = 15
+      "MtkW6TxInFlightPeak" = 128
+      "MtkW3PatchFinish" = 0
+      "MtkW2IrqRegister" = 0
+      "MtkW3FwOwnTries" = 1
+      "MtkW6TxLostFree" = 0
+      "MtkW9EepromHwType" = 0
+      "MtkW6TxDrop" = 0
+      "MtkW9ClcFailed" = 0
+      "MtkBadAccess" = 0
+      "MtkW5BssAdd" = 0
+      "MtkChipMaxBw" = 3
+      "MtkW5BssUp" = 0
+      "MtkW6RxDropped" = 0
+      "MtkW9ClcSent" = 16
+      "MtkW6Rejoins" = 0
+      "MtkW3PatchInit0" = 0
+      "MtkW6TxStall" = 74
+      "MtkW4ScanReq" = 0
+      "MtkW2BssSec" = 0
+      "MtkW4DmaDcr0" = 41365504
+      "MtkW2GloCfg" = 1345370229
+      "MtkW5StaNone" = 0
+      "MtkW9Power" = "clc 0, sku 2g failed 0, sku 5g failed 0"
+      "MtkW2PtkInstall" = 0
+      "MtkW6TxFailed" = 0
+      "MtkW9TxFreeStatErr" = 0
+      "MtkW6TxFreed" = 4942
+      "MtkW2RxMcuPhys" = 834113536
+      "MtkWfsysSwRst" = 17
+      "MtkW4ScanDone" = 6652
+      "MtkW5Aid" = 8
+      "MtkW5AssocTx" = 1
+      "MtkW4NicCap" = 0
+      "MtkW5ApRates" = 65301
+      "MtkW6LastDeauth" = 0
+      "MtkW4Eeprom" = 0
+      "MtkW6RxBad" = 5
+      "MtkW6RxTypes" = "0:105 2:4507 6:1650 7:1807"
+      "MtkW3PatchSections" = 2
+      "MtkW1Bss" = 94
+      "MtkW2RxMcuIova" = 834113536
+      "MtkW6TxPackets" = 4912
+      "MtkW1Join" = "state 5 joins 1 fails 0 last 0 rejoins 0 authtx 1 assoctx 1 tries 1"
+      "MtkW3PatchSemGet" = 2
+      "MtkW6RxOwn" = 0
+      "MtkW8AssocHtStatus" = 0
+      "MtkW4DmaDcr0Before" = 41366528
+      "MtkW6TxFreeBadVer" = 0
+      "MtkW6RxPartial" = 0
+      "MtkW6EventIds" = "01:98 0e:9 12:1 27:1 29:116 43:1 48:1"
+      "MtkW6TxRingFull" = 0
+      "MtkW8Mode" = "VHT, 80 MHz, 2 streams"
+      "MtkW4DevInfo" = 0
+      "MtkW4Rfcr" = 1896218
+      "MtkW9Ba" = "rx sessions 25 buffered 21 dup 0 timeout 8 bar 0 delba 0 | tx state 2 req 1 status 0 win 64 ssn 0 | rc 0"
+      "MtkW4NicCapElements" = 24
+      "MtkW4RxFilter" = 0
+      "MtkW3FwBytes" = 1275712
+      "MtkW5AssocStatus" = 0
+      "MtkW2ConnOnMiscAfterReset" = 0
+      "MtkW6RxNonSnap" = 0
+      "MtkW3PatchResult" = 0
+      "MtkHwRev" = 35328
+      "MtkChipNss" = 2
+      "MtkW4Domain" = 0
+      "MtkW5AuthTx" = 1
+## ioreg WTLWirelessBt
+      "MtkBtState" = "ready"
+      "MtkBtFwVersion" = 16896
+      "MtkBtVersion" = "0.15.0"
+      "MtkBtFwFlavor" = 0
+## ioreg WTLWirelessNative
+      "MtkNativeCoreOps" = 6
+      "MtkNativeVersion" = "0.15.0"
+## link
+  InterfaceType : WiFi
+  LinkStatusActive : TRUE
+  Security : WPA2_PSK
+## wifi-guard log
+2026-11-11 19:17:40 guard start: attempt=N-371 stage=E iface=en1 boot=1794442656 started_boot=none result=none auto_reboots=0 dry=0
+2026-11-11 19:17:41 no stale Ethernet service for en1 (ok)
+2026-11-11 19:18:01 join request '<saved network>' on en1: Could not find network <name>.
+2026-11-11 19:18:14 PASS N-371 stage E: lease IP, gateway IP answers
+2026-11-11 19:18:29 captured pass -> /Users/USER/.cache/legion/wifi/N-371-pass
+2026-11-11 19:18:30 lastgood refreshed from the passing set: WTLWireless.kext

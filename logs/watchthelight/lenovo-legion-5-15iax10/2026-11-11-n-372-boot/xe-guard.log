@@ -1,0 +1,23 @@
+2026-11-11 19:19:33 N-372: pre rc=0 xe-pre-after-wifi: wifi N-371 pass after 0 s, installing
+xegfx-pkg: XeGfx 0.0.48 installed (backup /Library/XeGfx/backup-xegfx-20261111-191930, kept: 12 kexts); restart to apply
+2026-11-11 19:19:33 N-372: pre done; restarting so it takes effect, the entry runs on the next boot
+2026-11-11 19:21:02 N-372: running {"id": "N-372", "stages": 7, "env": "compat.linuxkpi.i915_disable_display=1 compat.linuxkpi.i915_xegfx_no_display=1 compat.linuxkpi.i915_enable_guc=3 xegfx.nvram_trace=0 xegfx.gtawake=2", "wdog": 180, "settle": 120, "post": "/usr/local/bin/xe-post", "post_timeout": 400, "reboot_on_fail": 1, "reboot_after": 1}
+2026-11-11 19:21:03 N-372: kmutil load rc=0 
+2026-11-11 19:21:03 N-372: stage 1 start
+2026-11-11 19:21:06 N-372: stage 1 rc=0 result=1 progress=10
+2026-11-11 19:21:06 N-372: stage 2 start
+2026-11-11 19:21:08 N-372: stage 2 rc=0 result=1 progress=23
+2026-11-11 19:21:08 N-372: stage 3 start
+2026-11-11 19:21:11 N-372: stage 3 rc=0 result=1 progress=30
+2026-11-11 19:21:11 N-372: stage 4 start
+2026-11-11 19:21:13 N-372: stage 4 rc=0 result=1 progress=1551
+2026-11-11 19:21:13 N-372: stage 5 start
+2026-11-11 19:21:15 N-372: stage 5 rc=0 result=1 progress=50
+2026-11-11 19:21:15 N-372: stage 6 start
+2026-11-11 19:21:18 N-372: stage 6 rc=0 result=1 progress=60
+2026-11-11 19:21:18 N-372: stage 7 start
+2026-11-11 19:21:20 N-372: stage 7 rc=0 result=1 progress=70
+2026-11-11 19:21:20 N-372: post /usr/local/bin/xe-post
+2026-11-11 19:22:04 N-372: post rc=0
+2026-11-11 19:24:06 N-372: pass: stages 1-7 passed, WindowServer stable 120 s
+2026-11-11 19:24:06 N-372: reboot requested by the entry
