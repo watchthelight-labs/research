@@ -44,6 +44,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "Sunburst0218/MECHREVO-GM6IX7B-i7-14650HX-RTX4070-Hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "jigyanshu-codes/ASUS-X1504ZA-AlderLake-Hackintosh"
     }
    ],
    "title": "Legion audio (VoodooHDA-Legion)"
@@ -649,6 +654,16 @@
      "credited": true,
      "relation": "uses our MT7925 kexts with credit; WiFi Menu app for 26.0 linked from our README",
      "repo": "xiaoyizpast/Hackintosh-OMEN-8f06"
+    },
+    {
+     "credited": false,
+     "relation": "peer driver, ideas only",
+     "repo": "seaurching/mt76wm"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "sl520987456/MT7921-Bluetooth-Tahoe"
     }
    ],
    "title": "MT7925 Wi-Fi driver (WTLWireless core)"
@@ -789,6 +804,11 @@
      "credited": false,
      "relation": "studied",
      "repo": "retropineaple/ForbiddenItlwm"
+    },
+    {
+     "credited": false,
+     "relation": "studied",
+     "repo": "dfdfwff/ForbiddenItlwm-Sequoia-AX210"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (WTLWireless Wi-Fi menu part)"
@@ -926,6 +946,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "yes-man-Guo/Lenovo-Legion-Y9000X-IAH7---hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "user of upstream",
+     "repo": "findbaicha/victus16-2023-r0445tx-1401-macos15-sequoia-efi"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
@@ -1146,6 +1171,21 @@
      "credited": false,
      "relation": "uses-our-kext",
      "repo": "saeckl/ROG-Strix-SCAR18-G835LXG-macOS"
+    },
+    {
+     "credited": false,
+     "relation": "same-architecture",
+     "repo": "yusufklncc/intel-gpu-macos-driver"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "mohamedt1996/claw8-xe2-macos"
+    },
+    {
+     "credited": false,
+     "relation": "studied-family",
+     "repo": "Minorli/WhateverXe-Next"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"
