@@ -53,6 +53,16 @@
   "model": "COLORFUL BATTLE-AX B850M-PLUS S WIFI7",
   "username": "oliverchu"
  },
+ "seaurching/lenovo-mt7921-17aa-e0bc": {
+  "chips": "MT7921 14c3:7961",
+  "first_seen": "2026-11-13",
+  "last_seen": "2026-11-13",
+  "machine": "lenovo-mt7921-17aa-e0bc",
+  "macos_builds": [
+   "24H232"
+  ],
+  "username": "seaurching"
+ },
  "watchthelight/lenovo-legion-5-15iax10": {
   "chips": "MediaTek MT7925",
   "cpu": "Intel Core Ultra 9 275HX (Arrow Lake-HX)",

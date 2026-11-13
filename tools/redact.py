@@ -253,7 +253,7 @@ def leftovers(text: str, mapping: dict = None):
         pm = PROMPT_RE.match(line)
         if pm and not (TOKEN_SHAPE.match(pm.group(1)) and TOKEN_SHAPE.match(pm.group(2))):
             problems.append(f"line {n}: shell prompt with user and host name")
-        if LOCAL_HOST_RE.search(line) and not re.search(r"HOST-\d+\.local", line):
+        if LOCAL_HOST_RE.search(line) and not re.search(r"(?i)\bHOST-\d+\.local", line):
             problems.append(f"line {n}: .local host name")
         # a serial key ("IOPlatformSerialNumber", "Serial Number (system)", "MLB") followed by a serial-shaped value;
         # "serial" must end the word, so ioreg's "not serializable" next to an address is not a hit

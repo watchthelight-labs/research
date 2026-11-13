@@ -1,0 +1,1 @@
+3 MAC addresses, 8 IPv6 addresses, 1 host names and 0 SSIDs replaced by placeholders (same placeholder for the same value throughout).

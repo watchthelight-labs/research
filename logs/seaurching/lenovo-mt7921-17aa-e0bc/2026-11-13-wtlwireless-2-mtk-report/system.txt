@@ -1,0 +1,5 @@
+ProductName:		macOS
+ProductVersion:		15.8.2
+BuildVersion:		24H232
+Darwin host-1.local 24.6.0 Darwin Kernel Version 24.6.0: Sun Oct 11 23:36:58 PDT 2026; root:xnu-11417.140.69.713.47~2/RELEASE_X86_64 x86_64
+vsmcgen=1 swd_panic=1 -revsbvmm igfxonln=1 igfxfw=2 -lilubetaall alcverbs=1

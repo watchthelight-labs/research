@@ -1,0 +1,27 @@
+{
+ "collected": "2026-11-13",
+ "component": "",
+ "files": {
+  "REDACTED.txt": "97b8e26e2ff7f56b37a1a5e36477f98d9fee1cb648622a25c77e81dfc4d5659d",
+  "airport-profile.txt": "480fb30f98744c43372b6c9b5fdf936c043be9900aae0b287bb1a5e1cf83a4ea",
+  "kextstat.txt": "c9c459f52f03e8180a96b9632230ee6df7c7fc6d059f885c6181c7e7b9e3ceb5",
+  "network.txt": "10fa1cee6701164c672b93ac525fb218393d66818f76c09aca6112e7b5cfdf57",
+  "pci-mediatek.txt": "37f70f208f94073d4e4ca4b6d067131cc29c340a005cdf52b6ee7bb0ace06f30",
+  "system.txt": "1545d1566a6f5e053e242b5564c3ea2c92e39d80ed94ad17d97b857f03411994"
+ },
+ "kexts": {},
+ "machine": "lenovo-mt7921-17aa-e0bc",
+ "macos_build": "24H232",
+ "opencore": "",
+ "project": "WTLWireless",
+ "redaction": {
+  "replaced": {
+   "HOST": 1,
+   "IP": 128,
+   "UUID": 1
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "wtlwireless-2",
+ "username": "seaurching"
+}
