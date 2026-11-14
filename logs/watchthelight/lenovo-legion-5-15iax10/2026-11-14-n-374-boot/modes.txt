@@ -1,0 +1,87 @@
+  640x480   pixels   640x480   @ 60 1x    listed cgs 69
+  640x480   pixels   640x480   @165 1x    listed cgs 43
+  720x450   pixels  1440x900   @ 60 HiDPI hidden cgs 25
+  720x450   pixels  1440x900   @165 HiDPI hidden cgs 9
+  800x500   pixels   800x500   @ 60 1x    listed cgs 71
+  800x500   pixels   800x500   @165 1x    listed cgs 45
+  800x500   pixels  1600x1000  @ 60 HiDPI listed cgs 28
+  800x500   pixels  1600x1000  @165 HiDPI listed cgs 12
+  840x525   pixels  1680x1050  @ 60 HiDPI hidden cgs 26
+  840x525   pixels  1680x1050  @165 HiDPI hidden cgs 10
+  800x600   pixels   800x600   @ 60 1x    listed cgs 70
+  800x600   pixels   800x600   @165 1x    listed cgs 44
+  800x600   pixels  1600x1200  @ 60 HiDPI listed cgs 27
+  800x600   pixels  1600x1200  @165 HiDPI listed cgs 11
+  960x540   pixels  1920x1080  @ 60 HiDPI hidden cgs 29
+  960x540   pixels  1920x1080  @165 HiDPI hidden cgs 13
+  960x600   pixels  1920x1200  @ 60 HiDPI hidden cgs 30
+  960x600   pixels  1920x1200  @165 HiDPI hidden cgs 14
+ 1024x640   pixels  1024x640   @ 60 1x    listed cgs 73
+ 1024x640   pixels  1024x640   @165 1x    listed cgs 47
+ 1024x640   pixels  2048x1280  @ 60 HiDPI listed cgs 31
+ 1024x640   pixels  2048x1280  @165 HiDPI listed cgs 15
+ 1024x768   pixels  1024x768   @ 60 1x    listed cgs 72
+ 1024x768   pixels  1024x768   @165 1x    listed cgs 46
+ 1280x720   pixels  1280x720   @ 60 1x    listed cgs 74
+ 1280x720   pixels  1280x720   @165 1x    listed cgs 48
+ 1280x720   pixels  2560x1440  @ 60 HiDPI hidden cgs 32
+ 1280x720   pixels  2560x1440  @165 HiDPI hidden cgs 16
+ 1280x800   pixels  1280x800   @ 60 1x    listed cgs 60
+ 1280x800   pixels  1280x800   @165 1x    listed cgs 34
+ 1280x800   pixels  2560x1600  @ 60 HiDPI listed cgs 17
+ 1280x800   pixels  2560x1600  @165 HiDPI listed cgs 0
+ 1280x800   pixels  2560x1600  @165 HiDPI listed cgs 1
+ 1344x840   pixels  1344x840   @ 60 1x    listed cgs 77
+ 1344x840   pixels  1344x840   @165 1x    listed cgs 51
+ 1280x960   pixels  1280x960   @ 60 1x    listed cgs 75
+ 1280x960   pixels  1280x960   @165 1x    listed cgs 49
+ 1440x900   pixels  1440x900   @ 60 1x    hidden cgs 78
+ 1440x900   pixels  1440x900   @165 1x    hidden cgs 52
+ 1440x900   pixels  2880x1800  @ 60 HiDPI listed cgs 18
+ 1440x900   pixels  2880x1800  @165 HiDPI listed cgs 2
+ 1344x1008  pixels  1344x1008  @ 60 1x    listed cgs 76
+ 1344x1008  pixels  1344x1008  @165 1x    listed cgs 50
+ 1512x945   pixels  3024x1890  @ 60 HiDPI listed cgs 19
+ 1512x945   pixels  3024x1890  @165 HiDPI listed cgs 3
+ 1600x1000  pixels  1600x1000  @ 60 1x    listed cgs 81
+ 1600x1000  pixels  1600x1000  @165 1x    listed cgs 55
+ 1600x1000  pixels  3200x2000  @ 60 HiDPI listed cgs 20
+ 1600x1000  pixels  3200x2000  @165 HiDPI listed cgs 4
+ 1680x1050  pixels  1680x1050  @ 60 1x    hidden cgs 79
+ 1680x1050  pixels  1680x1050  @165 1x    hidden cgs 53
+ 1680x1050  pixels  3360x2100  @ 60 HiDPI listed cgs 21
+ 1680x1050  pixels  3360x2100  @165 HiDPI listed cgs 5
+ 1600x1200  pixels  1600x1200  @ 60 1x    listed cgs 80
+ 1600x1200  pixels  1600x1200  @165 1x    listed cgs 54
+ 1800x1125  pixels  3600x2250  @ 60 HiDPI listed cgs 22
+ 1800x1125  pixels  3600x2250  @165 HiDPI listed cgs 6
+ 1920x1080  pixels  1920x1080  @ 60 1x    hidden cgs 82
+ 1920x1080  pixels  1920x1080  @165 1x    hidden cgs 56
+ 1920x1200  pixels  1920x1200  @ 60 1x    hidden cgs 83
+ 1920x1200  pixels  1920x1200  @165 1x    hidden cgs 57
+ 1920x1200  pixels  3840x2400  @ 60 HiDPI listed cgs 23
+ 1920x1200  pixels  3840x2400  @165 HiDPI listed cgs 7
+ 2048x1280  pixels  2048x1280  @ 60 1x    listed cgs 84
+ 2048x1280  pixels  2048x1280  @165 1x    listed cgs 58
+ 2048x1280  pixels  4096x2560  @ 60 HiDPI listed cgs 24
+ 2048x1280  pixels  4096x2560  @165 HiDPI listed cgs 8
+ 2560x1440  pixels  2560x1440  @ 60 1x    hidden cgs 85
+ 2560x1440  pixels  2560x1440  @165 1x    hidden cgs 59
+ 2560x1600  pixels  2560x1600  @ 60 1x    listed cgs 61
+ 2560x1600  pixels  2560x1600  @165 1x    listed cgs 33
+ 2560x1600  pixels  2560x1600  @165 1x    listed cgs 35
+ 2880x1800  pixels  2880x1800  @ 60 1x    listed cgs 62
+ 2880x1800  pixels  2880x1800  @165 1x    listed cgs 36
+ 3024x1890  pixels  3024x1890  @ 60 1x    listed cgs 63
+ 3024x1890  pixels  3024x1890  @165 1x    listed cgs 37
+ 3200x2000  pixels  3200x2000  @ 60 1x    listed cgs 64
+ 3200x2000  pixels  3200x2000  @165 1x    listed cgs 38
+ 3360x2100  pixels  3360x2100  @ 60 1x    listed cgs 65
+ 3360x2100  pixels  3360x2100  @165 1x    listed cgs 39
+ 3600x2250  pixels  3600x2250  @ 60 1x    listed cgs 66
+ 3600x2250  pixels  3600x2250  @165 1x    listed cgs 40
+ 3840x2400  pixels  3840x2400  @ 60 1x    listed cgs 67
+ 3840x2400  pixels  3840x2400  @165 1x    listed cgs 41
+ 4096x2560  pixels  4096x2560  @ 60 1x    listed cgs 68
+ 4096x2560  pixels  4096x2560  @165 1x    listed cgs 42
+current:  1512x945   pixels  3024x1890  @165 HiDPI listed cgs 3 io -2147479549

@@ -1,0 +1,390 @@
+[   92.842703]: NVRM-xnu: map fd 103: sysmem +0x0 len 0x10000 cache 0
+[   92.842732]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   92.842748]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x607d86000
+[   92.842784]: NVRM-xnu: map fd 96: sysmem +0x0 len 0x10000 cache 0
+[   92.842819]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   92.842824]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x607d84000
+[   92.842859]: NVRM-xnu: map fd 101: sysmem +0x0 len 0x1000 cache 0
+[   92.842866]: NVRM-xnu: >nv_alloc_pages count=128 page_size=0x1000 contig=0 cache=0 zeroed=1 (512 KB)
+[   92.842977]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x608544000
+[   92.843027]: NVRM-xnu: map fd 102: sysmem +0x0 len 0x80000 cache 0
+[   92.843037]: NVRM-xnu: >nv_alloc_pages count=64 page_size=0x1000 contig=0 cache=0 zeroed=1 (256 KB)
+[   92.843090]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x60883f000
+[   92.843157]: NVRM-xnu: map fd 103: sysmem +0x0 len 0x40000 cache 0
+[   92.843166]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   92.843183]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x606faa000
+[   92.843222]: NVRM-xnu: map fd 96: sysmem +0x0 len 0x10000 cache 0
+[   92.843230]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   92.843233]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x608066000
+[   92.843268]: NVRM-xnu: map fd 101: sysmem +0x0 len 0x1000 cache 0
+[   92.845271]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   92.845280]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x412d5000
+[   92.845282]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   92.845288]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x412d9000
+[   92.854180]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   92.854205]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x607c07000
+[   92.854246]: NVRM-xnu: map fd 102: sysmem +0x0 len 0x10000 cache 0
+[   92.861454]: NVRM-xnu: armwatch: 92860 ms WIN    +0x1314 0x00000001 -> 0x00000000
+[   92.861536]: NVRM-xnu: armwatch: 92860 ms WIN    +0x1394 0x00000002 -> 0x00000000
+[   92.865505]: NVRM-xnu: client fd 104 opened (ctl)
+[   92.865509]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   92.865559]: NVRM-xnu: client 104 bound to pid 879 fd 3
+[   92.865626]: NVRM-xnu: client fd 105 opened (ctl)
+[   92.865627]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   92.865644]: NVRM-xnu: client 105 bound to pid 879 fd 4
+[   92.865679]: NVRM-xnu: client fd 106 opened (device)
+[   92.865679]: NVRM-xnu: bridge client created for the accelerator (rm type 1)
+[   92.865693]: NVRM-xnu: client 106 bound to pid 879 fd 5
+[   92.997830]: NVRM-xnu: client fd 107 opened (ctl)
+[   92.997835]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   92.997887]: NVRM-xnu: client 107 bound to pid 877 fd 3
+[   92.997961]: NVRM-xnu: client fd 108 opened (ctl)
+[   92.997962]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   92.997984]: NVRM-xnu: client 108 bound to pid 877 fd 4
+[   92.998008]: NVRM-xnu: client fd 109 opened (device)
+[   92.998009]: NVRM-xnu: bridge client created for the accelerator (rm type 1)
+[   92.998022]: NVRM-xnu: client 109 bound to pid 877 fd 5
+[   93.124266]: Sandbox apply: doubleagentd[951] <bytes>Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/6385a1672393526a3b1ecc783a151a28745474b680042ebffe512ce0dc1898ca.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvrtrequest_common_locked: route already exists: IP-8->link#0->lo0NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.204867]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6053bb000
+[   93.205284]: NVRM-xnu: map fd 29: sysmem +0x0 len 0x1000 cache 0
+[   93.205940]: NVRM-xnu: client fd 110 opened (device)
+[   93.205943]: NVRM-xnu: bridge client created for the accelerator (rm type 1)
+[   93.205990]: NVRM-xnu: client 110 bound to pid 877 fd 6
+[   93.206145]: NVRM-xnu: client 110 bound to pid 877 fd -2
+[   93.206168]: NVRM-xnu: client 110 bound to pid 877 fd 6
+[   93.219870]: Sandbox apply: CacheDeleteExtension[952] <bytes>NVRM-xnu: >nv_alloc_pages count=256 page_size=0x1000 contig=0 cache=0 zeroed=1 (1024 KB)
+[   93.236399]: NVRM-xnu: map fd 110: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[   93.236591]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6046bb000
+[   93.237684]: NVRM-xnu: map fd 30: sysmem +0x0 len 0x100000 cache 0
+[   93.238001]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.238009]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x60276f000
+[   93.238075]: NVRM-xnu: client fd 111 opened (device)
+[   93.238077]: NVRM-xnu: bridge client created for the accelerator (rm type 1)
+[   93.238118]: NVRM-xnu: client 111 bound to pid 879 fd 6
+[   93.238278]: NVRM-xnu: client 111 bound to pid 879 fd -2
+[   93.238296]: NVRM-xnu: client 111 bound to pid 879 fd 6
+[   93.238563]: NVRM-xnu: map fd 31: sysmem +0x0 len 0x1000 cache 0
+[   93.238585]: NVRM-xnu: map fd 111: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[   93.239242]: NVRM-xnu: client 107 bound to pid 877 fd -2
+[   93.239525]: NVRM-xnu: client fd 112 opened (device)
+[   93.239526]: NVRM-xnu: bridge client created for the accelerator (rm type 1)
+[   93.239559]: NVRM-xnu: client 112 bound to pid 877 fd 3
+[   93.240009]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.240017]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x603d49000
+[   93.240120]: NVRM-xnu: client 107 bound to pid 877 fd 7
+[   93.240130]: NVRM-xnu: map fd 107: sysmem +0x0 len 0x1000 cache 0
+[   93.240160]: NVRM-xnu: >nv_alloc_pages count=128 page_size=0x1000 contig=0 cache=0 zeroed=1 (512 KB)
+[   93.240271]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602347000
+[   93.240339]: NVRM-xnu: client fd 113 opened (ctl)
+[   93.240340]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   93.240352]: NVRM-xnu: client 104 bound to pid 879 fd -2
+[   93.240363]: NVRM-xnu: client 113 bound to pid 877 fd 8
+[   93.240372]: NVRM-xnu: map fd 113: sysmem +0x0 len 0x80000 cache 0
+[   93.240393]: NVRM-xnu: >nv_alloc_pages count=64 page_size=0x1000 contig=0 cache=0 zeroed=1 (256 KB)
+[   93.240456]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602186000
+[   93.240522]: NVRM-xnu: client fd 114 opened (ctl)
+[   93.240522]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   93.240540]: NVRM-xnu: client 114 bound to pid 877 fd 9
+[   93.240548]: NVRM-xnu: map fd 114: sysmem +0x0 len 0x40000 cache 0
+[   93.240557]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.240575]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x601d34000
+[   93.240600]: NVRM-xnu: client fd 115 opened (device)
+[   93.240601]: NVRM-xnu: bridge client created for the accelerator (rm type 1)
+[   93.240625]: NVRM-xnu: client 115 bound to pid 879 fd 3
+[   93.240636]: NVRM-xnu: client fd 116 opened (ctl)
+[   93.240637]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   93.240655]: NVRM-xnu: client 116 bound to pid 877 fd 10
+[   93.240885]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.240889]: NVRM-xnu: map fd 116: sysmem +0x0 len 0x10000 cache 0
+[   93.240895]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602ce4000
+[   93.240957]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.240964]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x60332c000
+[   93.241022]: NVRM-xnu: client 104 bound to pid 879 fd 7
+[   93.241075]: NVRM-xnu: map fd 107: sysmem +0x0 len 0x1000 cache 0
+[   93.241080]: NVRM-xnu: map fd 104: sysmem +0x0 len 0x1000 cache 0
+[   93.241120]: NVRM-xnu: >nv_alloc_pages count=128 page_size=0x1000 contig=0 cache=0 zeroed=1 (512 KB)
+[   93.241239]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6013a9000
+[   93.241452]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   93.241463]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x412dd000
+[   93.241465]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   93.241471]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x412e1000
+[   93.242716]: NVRM-xnu: client fd 117 opened (ctl)
+[   93.242719]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   93.242750]: NVRM-xnu: client 117 bound to pid 879 fd 8
+[   93.242901]: NVRM-xnu: map fd 117: sysmem +0x0 len 0x80000 cache 0
+[   93.243233]: NVRM-xnu: >nv_alloc_pages count=64 page_size=0x1000 contig=0 cache=0 zeroed=1 (256 KB)
+[   93.243299]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602ae7000
+[   93.243314]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.243319]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602558000
+[   93.243395]: NVRM-xnu: map fd 113: sysmem +0x0 len 0x1000 cache 0
+[   93.243418]: NVRM-xnu: client fd 118 opened (ctl)
+[   93.243419]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   93.243453]: NVRM-xnu: client 118 bound to pid 879 fd 9
+[   93.243715]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.243716]: NVRM-xnu: map fd 118: sysmem +0x0 len 0x40000 cache 0
+[   93.243733]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6001c1000
+[   93.243741]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.243760]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602dd7000
+[   93.243827]: NVRM-xnu: map fd 114: sysmem +0x0 len 0x10000 cache 0
+[   93.243855]: NVRM-xnu: client fd 119 opened (ctl)
+[   93.243856]: NVRM-xnu: bridge client created for the accelerator (rm type 0)
+[   93.243864]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.243874]: NVRM-xnu: client 119 bound to pid 879 fd 10
+[   93.243882]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6029ae000
+[   93.243893]: NVRM-xnu: map fd 119: sysmem +0x0 len 0x10000 cache 0
+[   93.243905]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.243910]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602dd4000
+[   93.243942]: NVRM-xnu: map fd 116: sysmem +0x0 len 0x10000 cache 0
+[   93.243969]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.243969]: NVRM-xnu: map fd 104: sysmem +0x0 len 0x1000 cache 0
+[   93.243988]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x60245b000
+[   93.244028]: NVRM-xnu: map fd 107: sysmem +0x0 len 0x10000 cache 0
+[   93.244261]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   93.244270]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x412e5000
+[   93.244271]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   93.244277]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x412e9000
+[   93.245471]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.245476]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602584000
+[   93.246069]: NVRM-xnu: map fd 113: sysmem +0x0 len 0x1000 cache 0
+[   93.246069]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.246077]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6023c6000
+[   93.246086]: NVRM-xnu: >nv_alloc_pages count=128 page_size=0x1000 contig=0 cache=0 zeroed=1 (512 KB)
+[   93.246206]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x5ff940000
+[   93.246280]: NVRM-xnu: map fd 117: sysmem +0x0 len 0x1000 cache 0
+[   93.246282]: NVRM-xnu: map fd 114: sysmem +0x0 len 0x80000 cache 0
+[   93.246294]: NVRM-xnu: >nv_alloc_pages count=64 page_size=0x1000 contig=0 cache=0 zeroed=1 (256 KB)
+[   93.246351]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x602f3d000
+[   93.246713]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.246731]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6026ae000
+[   93.246744]: NVRM-xnu: map fd 116: sysmem +0x0 len 0x40000 cache 0
+[   93.246754]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.246770]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x60122a000
+[   93.246810]: NVRM-xnu: map fd 118: sysmem +0x0 len 0x10000 cache 0
+[   93.246842]: NVRM-xnu: map fd 107: sysmem +0x0 len 0x10000 cache 0
+[   93.246853]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.246857]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6025a5000
+[   93.246865]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.246881]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6024de000
+[   93.246938]: NVRM-xnu: map fd 113: sysmem +0x0 len 0x1000 cache 0
+[   93.246942]: NVRM-xnu: map fd 119: sysmem +0x0 len 0x10000 cache 0
+[   93.247184]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   93.247192]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x412ed000
+[   93.247193]: NVRM-xnu: >nv_alloc_pages count=4 page_size=0x1000 contig=1 cache=0 zeroed=1 (16 KB)
+[   93.247199]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x412f1000
+[   93.247751]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.247769]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x60460e000
+[   93.248963]: NVRM-xnu: map fd 104: sysmem +0x0 len 0x10000 cache 0
+[   93.249205]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.249209]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x603e8a000
+[   93.252000]: NVRM-xnu: map fd 117: sysmem +0x0 len 0x1000 cache 0
+[   93.252172]: NVRM-xnu: >nv_alloc_pages count=128 page_size=0x1000 contig=0 cache=0 zeroed=1 (512 KB)
+[   93.252289]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x6e239c000
+[   93.253003]: NVRM-xnu: map fd 118: sysmem +0x0 len 0x80000 cache 0
+[   93.253049]: NVRM-xnu: >nv_alloc_pages count=64 page_size=0x1000 contig=0 cache=0 zeroed=1 (256 KB)
+[   93.253106]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x73449a000
+[   93.253481]: NVRM-xnu: map fd 119: sysmem +0x0 len 0x40000 cache 0
+[   93.253494]: NVRM-xnu: >nv_alloc_pages count=16 page_size=0x1000 contig=0 cache=0 zeroed=1 (64 KB)
+[   93.253511]: NVRM-xnu:   pages ok va=0x<ptr> pte[0]=0x734806000
+[   93.253558]: NVRM-xnu: map fd 104: sysmem +0x0 len 0x10000 cache 0
+[   93.253567]: NVRM-xnu: >nv_alloc_pages count=1 page_size=0x1000 contig=0 cache=0 zeroed=1 (4 KB)
+[   93.479198]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/c9a73449bc4dcc3c472de504f3a3ff51e688c8cfc613ea45b7155f1f895fb0b9.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/bed05851974387c3963ec99f197412d7baf3c5cc9dae0883a2f245f0dde54ce2.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvktrace: changing state from 0 to 2, owned by tailspind[930]NVRM-xnu: armwatch: 93491 ms WIN    +0x1314 0x00000000 -> 0x00000001
+[   93.491644]: NVRM-xnu: armwatch: 93491 ms WIN    +0x1394 0x00000000 -> 0x00000002
+[   93.497092]: NVRM-fb: switchMode 0x80001003: COMMIT 2560x1600 -> raster 2560x1600 @165000 mHz pclk 782708000 rotation 0x0 -> 1 (flipResult 0)
+[   93.497096]: NVRM-fb: switchMode 0x80001003: COMMIT 2560x1600 -> raster 2560x1600 @165000 mHz pclk 782708000 rotation 0x0 -> 1 (flipResult 0)
+[   93.497299]: NVRM-xnu: >os_map_kernel_space start=0x3fc04200000 size=0x90000 mode=2
+[   93.497321]: NVRM-xnu:   mapped -> 0x<ptr> (slot 25, high water 41/8192)
+[   93.497448]: NVAccel: DM displayModeDidChange -> true
+[   93.497449]: NVAccel: DM displayModeDidChange -> true
+[   93.497450]: NVAccel: enableAccelerator() from displayModeDidChange (call #6)
+[   93.497451]: NVAccel: enableAccelerator() from displayModeDidChange (call #6)
+[   93.497459]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 2560 x 1600 pitch 10240 (16384000 bytes)
+[   93.497460]: NVAccel: NVDisplayPipe::initFramebufferResource(head 0, index 0, res <ptr>) -> vidmem <ptr> over the LIVE SCANOUT phys 0x3fc00200000 2560 x 1600 pitch 10240 (16384000 bytes)
+[   93.497652]: NVRM-gpuva: va alloc 16384000 bytes align 0 -> gpuva 0x120000000 (hVirt 0xcaf00008)
+[   93.497653]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00008)
+[   93.497654]: NVAccel: gpuVaAlloc: 16384000 bytes -> gpuVA 0x120000000 (hVirt 0xcaf00008)
+[   93.497655]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (16384000 bytes) -- already backed, nothing allocated
+[   93.497656]: NVAccel: NVVidMemory::allocPhysical(<ptr>): SCANOUT phys 0x3fc00200000 (16384000 bytes) -- already backed, nothing allocated
+[   93.497658]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[   93.497659]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[   93.497663]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[   93.497664]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[   93.500877]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[   93.500881]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[   93.501043]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[   93.501044]: NVAccel: MM commit: NOT MAPPED -- hVirt 0xcaf00008 kapiMem 0 len 16384000 (mem <ptr>)
+[   93.501046]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[   93.501046]: NVAccel: NVVidMemory::deallocPhysical(<ptr>): SCANOUT -- not ours to free, only forgetting it
+[   93.501102]: NVRM-xnu: >os_map_kernel_space start=0x3fc0c600000 size=0xfa0000 mode=2
+[   93.501244]: NVRM-xnu:   mapped -> 0x<ptr> (slot 41, high water 42/8192)
+[   93.503709]: NVRM-gpuva: MAPPED hVirt 0xcaf00008 <- hMem 0x10027  16384000 bytes vidmem  dmaOffset 0x120000000
+[   93.503711]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10027  *** the GPU can reach these bytes ***
+[   93.503712]: NVAccel: MM commit: MAPPED gpuVA 0x120000000 len 16384000 <- hMem 0x10027  *** the GPU can reach these bytes ***
+[   93.503743]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   93.503744]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   93.503751]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   93.503752]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   93.505110]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   93.505114]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   93.506972]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[   93.506975]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[   93.506981]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[   93.506981]: NVAccel: NVResource::rebuildPagingBuffer -- nothing to rebuild until there are page tables (rung 5)
+[   93.510211]: NVRM-xnu: >os_map_kernel_space start=0x3fc04290000 size=0xc0000 mode=2
+[   93.510231]: NVRM-xnu:   mapped -> 0x<ptr> (slot 42, high water 43/8192)
+[   93.975379]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/c48867014cd138bfd49592a4da51c518697ff10b098b1d008cfa647744eba9ff.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/0f544b02e53bb0b152075a6944b90af56e59f3518c4f26e8062242f6c549ac79.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvrtrequest_common_locked: route already exists: IP-8->link#0->lo0NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   94.164156]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   94.165482]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   94.165485]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   94.166805]: NVRM-xnu: >os_map_kernel_space start=0x3fc0d600000 size=0x1650000 mode=2
+[   94.167017]: NVRM-xnu:   mapped -> 0x<ptr> (slot 29, high water 43/8192)
+[   94.199973]: NVAccel: MM commit: MAPPED gpuVA 0x121000000 len 16384000 <- hMem 0x10009  *** the GPU can reach these bytes ***
+[   94.199979]: NVAccel: MM commit: MAPPED gpuVA 0x121000000 len 16384000 <- hMem 0x10009  *** the GPU can reach these bytes ***
+[   94.213892]: NVAccel: MM commit: MAPPED gpuVA 0x122000000 len 16384000 <- hMem 0x1000b  *** the GPU can reach these bytes ***
+[   94.213895]: NVAccel: MM commit: MAPPED gpuVA 0x122000000 len 16384000 <- hMem 0x1000b  *** the GPU can reach these bytes ***
+[   94.237606]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   94.237612]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   94.238947]: process_is_plugin_host: running binary "login" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validationNVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   94.239013]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   94.256237]: process_is_plugin_host: running binary "com.apple.audio.SandboxHelper" in keys-off mode due to entitlement: com.apple.security.cs.disable-library-validationNVRM-xnu: >os_map_kernel_space start=0x3fc04400000 size=0x1650000 mode=2
+[   94.258969]: NVRM-xnu:   mapped -> 0x<ptr> (slot 26, high water 43/8192)
+[   94.303753]: NVRM-xnu: >os_map_kernel_space start=0x3fc05c00000 size=0xc0000 mode=2
+[   94.303777]: NVRM-xnu:   mapped -> 0x<ptr> (slot 39, high water 43/8192)
+[   94.305802]: NVRM-xnu: >os_map_kernel_space start=0x3fc04350000 size=0xb0000 mode=2
+[   94.305839]: NVRM-xnu:   mapped -> 0x<ptr> (slot 43, high water 44/8192)
+[   94.309975]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/2cc46ece5246594add3179bb3a248cb96c78eae47ff0ed80f705780c48240a66.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b4fe904b8e50003933495299169d934bd22e0cc1937af38ab83bcf7b5107b502.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc05cc0000 size=0x90000 mode=2
+[   94.331145]: NVRM-xnu:   mapped -> 0x<ptr> (slot 33, high water 44/8192)
+[   94.332198]: NVRM-xnu: >os_map_kernel_space start=0x3fc05d50000 size=0x90000 mode=2
+[   94.332223]: NVRM-xnu:   mapped -> 0x<ptr> (slot 35, high water 44/8192)
+[   94.333127]: NVRM-xnu: >os_map_kernel_space start=0x3fc05de0000 size=0x90000 mode=2
+[   94.333144]: NVRM-xnu:   mapped -> 0x<ptr> (slot 44, high water 45/8192)
+[   94.348929]: Sandbox: systemsoundserverd(733) deny(1) file-read-metadata /privateSandbox: systemsoundserverd(733) deny(1) file-read-metadata /private/varSandbox: systemsoundserverd(733) deny(1) file-read-metadata /private/var/dbSandbox: systemsoundserverd(733) deny(1) mach-lookup com.apple.analyticsdSandbox: systemsoundserverd(733) deny(1) mach-lookup com.apple.trustdNVAccel: createUserGPUTask -> <ptr> init=1
+[   94.352387]: NVAccel: createUserGPUTask -> <ptr> init=1
+[   94.356514]: Sandbox: nesessionmanager(154) deny(1) system-fsctl (_IO "h" 47)NVAccel: createUserGPUTask -> <ptr> init=1
+[   94.376736]: NVAccel: createUserGPUTask -> <ptr> init=1
+[   94.444272]: 1 duplicate report for Sandbox: nesessionmanager(154) deny(1) system-fsctl (_IO "h" 47)Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/68f92f4e0c95970fb894165b8d122d3f42322b1d81c784cf54e906e5f7c71234.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc05e70000 size=0x90000 mode=2
+[   94.452068]: NVRM-xnu:   mapped -> 0x<ptr> (slot 45, high water 46/8192)
+[   94.471864]: Sandbox: lsof(976) deny(1) process-info-listpidsSandbox: lsof(977) deny(1) process-info-listpidsNVRM-xnu: os_lock_user_pages(0x379a5d000, 3 pages) prepare -> 0x2
+[   94.479805]: NVRM-xnu: os_lock_user_pages(0x379a60000, 4 pages) prepare -> 0x2
+[   94.480243]: NVRM-xnu: os_lock_user_pages(0x379a5b000, 2 pages) prepare -> 0x2
+[   94.480916]: Sandbox: lsof(978) deny(1) process-info-listpidsSandbox: parsecd(792) deny(1) mach-lookup com.apple.apsdSandbox: lsof(979) deny(1) process-info-listpidsSandbox: lsof(980) deny(1) process-info-listpidsNVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   94.490214]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   94.498467]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   94.498472]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   94.500363]: NVRM-xnu: map fd 123: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[   94.522760]: Sandbox: lsof(986) deny(1) process-info-listpidsSandbox: lsof(987) deny(1) process-info-listpidsSandbox: lsof(988) deny(1) process-info-listpidsSandbox: lsof(991) deny(1) process-info-listpidsSandbox: lsof(992) deny(1) process-info-listpidsSandbox: lsof(993) deny(1) process-info-listpidsSandbox: lsof(994) deny(1) process-info-listpidsNVAccel: createUserGPUTask -> <ptr> init=1
+[   94.574645]: NVAccel: createUserGPUTask -> <ptr> init=1
+[   94.684043]: NVRM-xnu: >os_map_kernel_space start=0x3fc05f00000 size=0x40000 mode=2
+[   94.684064]: NVRM-xnu:   mapped -> 0x<ptr> (slot 36, high water 46/8192)
+[   94.713044]: Sandbox: audioaccessoryd(813) deny(1) system-fsctl (_IO "h" 47)Sandbox: audioaccessoryd(813) deny(1) mach-lookup com.apple.metadata.mdsNVRM-xnu: map fd 131: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[   94.761982]: Sandbox: UARPUpdaterServiceDisplay(492) deny(1) file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: UARPUpdaterServiceDisplay(492) deny(1) file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.readSandbox: UARPUpdaterServiceDisplay(492) deny(1) file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/com.apple.SoftwareUpdate.plist extension-class:com.apple.cfprefsd.readNVRM-xnu: map fd 139: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[   94.774409]: NVRM-xnu: WATCHPAGE ALLOC t=94.774s page 0x4132b000 in alloc 0x41329000+16384 cache 0 contig 1
+[   94.833157]: Sandbox: accessoryupdaterd(114) allow file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/com.apple.SoftwareUpdate.plist extension-class:com.apple.cfprefsd.readSandbox: accessoryupdaterd(114) allow mach-lookup com.apple.softwareupdated.OSUpdateNVRM-xnu: os_lock_user_pages(0x11b2b3000, 1 pages) prepare -> 0x2
+[   95.316518]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   95.316523]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   95.318247]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   95.318250]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   95.403120]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/8e6412c013174227757ccb3472d866a62f60a8312514501954529b9bde0e0f5b.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/786a912043b0c01bb9c1e91f1b174dbeac4fa4604f501a3442a530ea99d04ef6.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox apply: appstoreagent[942] <bytes>Sandbox: searchpartyuseragent(842) deny(1) mach-lookup com.apple.CoreLocation.agentNVRM-xnu: >os_map_kernel_space start=0x3fc05f40000 size=0x10000 mode=2
+[   95.478867]: NVRM-xnu:   mapped -> 0x<ptr> (slot 46, high water 47/8192)
+[   95.479266]: NVRM-xnu: >os_map_kernel_space start=0x3fc05f50000 size=0x10000 mode=2
+[   95.479276]: NVRM-xnu:   mapped -> 0x<ptr> (slot 47, high water 48/8192)
+[   95.490475]: NVRM-xnu: os_lock_user_pages(0x379ad8000, 2 pages) prepare -> 0x2
+[   95.512137]: NVRM-xnu: headwatch: done
+[   95.538155]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   95.538162]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   95.538576]: Sandbox apply: mstreamd[1003] <bytes>NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   95.539991]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   95.545163]: Sandbox apply: mediaanalysisd[1002] <bytes>Sandbox apply: photoanalysisd[1004] <bytes>Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/73f3fad82eb4d9f80403527af496b9e2ccbab9373999d21d8e77c6162e2a4aca.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc05f60000 size=0x60000 mode=2
+[   95.602344]: NVRM-xnu:   mapped -> 0x<ptr> (slot 48, high water 49/8192)
+[   95.629738]: Sandbox apply: SubmitDiagInfo[989] <bytes>NVRM-xnu: os_lock_user_pages(0x379a93000, 2 pages) prepare -> 0x2
+[   95.718948]: NVRM-xnu: >os_map_kernel_space start=0x3fc05fc0000 size=0x90000 mode=2
+[   95.718972]: NVRM-xnu:   mapped -> 0x<ptr> (slot 49, high water 50/8192)
+[   95.769403]: NVRM-xnu: >os_map_kernel_space start=0x3fc06050000 size=0x30000 mode=2
+[   95.769425]: NVRM-xnu:   mapped -> 0x<ptr> (slot 50, high water 51/8192)
+[   95.778303]: Sandbox: WeatherMenu(877) deny(1) file-read-xattr /Users/USER/Library/Mobile Documents1 duplicate report for Sandbox: WeatherMenu(877) deny(1) file-read-xattr /Users/USER/Library/Mobile DocumentsSystem Policy: Spotlight(887) allow file-write-create /Library/GPUBundles/nvmtl/aircache/.probe-887NVRM-xnu: >os_map_kernel_space start=0x3fc06080000 size=0x10000 mode=2
+[   95.858350]: NVRM-xnu:   mapped -> 0x<ptr> (slot 51, high water 52/8192)
+[   95.889352]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/243eb8f1bb73de4753ff8d320bf6c97ccfc4b38f53e29b4ad21fb18351f98046.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox apply: TrialArchivingService[999] <bytes>Sandbox: audioaccessoryd(813) deny(1) system-fsctl (_IO "h" 47)Sandbox: audioaccessoryd(813) deny(1) mach-lookup com.apple.metadata.mdsSandbox: WeatherMenu(877) deny(1) file-read-data /Library/Preferences/com.apple.networkextension.uuidcache.plistSandbox: UARPUpdaterServiceLegacyAudio(494) allow file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/.GlobalPreferences.plist extension-class:com.apple.cfprefsd.readSandbox: UARPUpdaterServiceLegacyAudio(494) allow file-issue-extension target:/private/var/db/accessoryupdater/Library/Preferences/.GlobalPreferences_m.plist extension-class:com.apple.cfprefsd.readSandbox: WeatherMenu(877) deny(1) file-read-data /Library/Preferences/com.apple.networkextension.uuidcache.plistSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/60633d7707239538021f8eb8d58c77de9e902d4af76e912b770244e0ff6b283d.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox apply: CoreRoutineHelperService[1007] <bytes>Sandbox: heard(863) deny(1) user-preference-read com.apple.cloudkit1 duplicate report for Sandbox: heard(863) deny(1) user-preference-read com.apple.cloudkitSandbox: TrialArchivingService(999) deny(1) user-preference-read kcfpreferencesanyapplicationSandbox apply: commerce[1005] <bytes>rtrequest_common_locked: route already exists: IP-8->link#0->lo0NVRM-xnu: os_lock_user_pages(0x379c35000, 12 pages) prepare -> 0x2
+[   96.100782]: NVRM-xnu: os_lock_user_pages(0x381ec1000, 288 pages) prepare -> 0x2
+[   96.804947]: NVRM-xnu: >os_map_kernel_space start=0x3fc06090000 size=0x60000 mode=2
+[   96.804966]: NVRM-xnu:   mapped -> 0x<ptr> (slot 52, high water 53/8192)
+[   96.806108]: NVRM-xnu: >os_map_kernel_space start=0x3fc060f0000 size=0x60000 mode=2
+[   96.806124]: NVRM-xnu:   mapped -> 0x<ptr> (slot 53, high water 54/8192)
+[   96.841309]: NVRM-xnu: >os_map_kernel_space start=0x3fc06150000 size=0x10000 mode=2
+[   96.841325]: NVRM-xnu:   mapped -> 0x<ptr> (slot 54, high water 55/8192)
+[   96.841847]: NVRM-xnu: >os_map_kernel_space start=0x3fc06160000 size=0x20000 mode=2
+[   96.841860]: NVRM-xnu:   mapped -> 0x<ptr> (slot 55, high water 56/8192)
+[   96.842451]: NVRM-xnu: >os_map_kernel_space start=0x3fc06180000 size=0x10000 mode=2
+[   96.842463]: NVRM-xnu:   mapped -> 0x<ptr> (slot 56, high water 57/8192)
+[   96.842773]: NVRM-xnu: >os_map_kernel_space start=0x3fc06190000 size=0x10000 mode=2
+[   96.842783]: NVRM-xnu:   mapped -> 0x<ptr> (slot 57, high water 58/8192)
+[   96.844097]: Sandbox: parsecd(792) deny(1) mach-lookup com.apple.apsdNVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   96.847711]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   96.849150]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   96.849153]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   96.855972]: NVRM-xnu: >os_map_kernel_space start=0x3fc061a0000 size=0x60000 mode=2
+[   96.855991]: NVRM-xnu:   mapped -> 0x<ptr> (slot 58, high water 59/8192)
+[   96.863574]: NVRM-xnu: >os_map_kernel_space start=0x3fc08200000 size=0x80000 mode=2
+[   96.863591]: NVRM-xnu:   mapped -> 0x<ptr> (slot 59, high water 60/8192)
+[   97.191752]: rtrequest_common_locked: route already exists: IP-8->link#0->lo0Sandbox apply: IntelligencePlatformComputeServi[996] <bytes>Sandbox: parsecd(792) deny(1) mach-lookup com.apple.backupd.sandbox.xpcSandbox: TrialArchivingService(999) deny(1) mach-lookup com.apple.ap.promotedcontent.trialbucketidSandbox: TrialArchivingService(999) deny(1) user-preference-read kcfpreferencesanyapplicationSandbox apply: gamecontrollerd[689] <bytes>Sandbox apply: AssetCacheTetheratorService[907] <bytes>Sandbox apply: parsec-fbf[820] <bytes>Sandbox apply: modelmanagerd[936] <bytes>1 duplicate report for Sandbox: TrialArchivingService(999) deny(1) user-preference-read kcfpreferencesanyapplicationSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/54211f619db852d20dd1884d4799a605d41aee08fda3abb1e9fec3a30e46d044.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/3d526bba31ba6961ab10bad24e69989dcb6461230755622e2fd9f7bd3bbc51b1.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc08280000 size=0x80000 mode=2
+[   97.434679]: NVRM-xnu:   mapped -> 0x<ptr> (slot 60, high water 61/8192)
+[   97.435687]: NVRM-xnu: >os_map_kernel_space start=0x3fc08300000 size=0x80000 mode=2
+[   97.435704]: NVRM-xnu:   mapped -> 0x<ptr> (slot 61, high water 62/8192)
+[   97.437517]: NVRM-xnu: >os_map_kernel_space start=0x3fc08380000 size=0x80000 mode=2
+[   97.437532]: NVRM-xnu:   mapped -> 0x<ptr> (slot 62, high water 63/8192)
+[   97.930664]: Sandbox apply: KonaSynthesizer[1021] <bytes>Sandbox apply: installcoordinationd[1022] <bytes>NVRM-xnu: >os_map_kernel_space start=0x3fc001f0000 size=0x10000 mode=2
+[   97.962780]: NVRM-xnu:   mapped -> 0x<ptr> (slot 32, high water 63/8192)
+[   98.140571]: 29 duplicate reports for Sandbox: sharingd(741) deny(1) syscall-unix 545Sandbox: mdbulkimport(1014) deny(1) mach-lookup com.apple.FileProvider1 duplicate report for Sandbox: mdbulkimport(1014) deny(1) mach-lookup com.apple.FileProviderSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/bb1175a1759d1722fae2b0d1f882858fe9375020885ad607f1571a5d280bf82b.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   98.247687]: NVRM-fb: backlight: user request logical=65535/65535 user-target=65535/65535
+[   98.249328]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   98.249332]: NVRM-fb: backlight: applied logical=65535/65535 hardware=100% user-target=65535/65535
+[   98.265646]: NVRM-xnu: >os_map_kernel_space start=0x3fc08400000 size=0x90000 mode=2
+[   98.265669]: NVRM-xnu:   mapped -> 0x<ptr> (slot 37, high water 63/8192)
+[   98.266789]: NVRM-xnu: >os_map_kernel_space start=0x3fc08490000 size=0x10000 mode=2
+[   98.266800]: NVRM-xnu:   mapped -> 0x<ptr> (slot 38, high water 63/8192)
+[   98.267094]: NVRM-xnu: >os_map_kernel_space start=0x3fc084a0000 size=0x10000 mode=2
+[   98.267104]: NVRM-xnu:   mapped -> 0x<ptr> (slot 63, high water 64/8192)
+[   98.267383]: NVRM-xnu: >os_map_kernel_space start=0x3fc084b0000 size=0x10000 mode=2
+[   98.267392]: NVRM-xnu:   mapped -> 0x<ptr> (slot 64, high water 65/8192)
+[   98.267677]: NVRM-xnu: >os_map_kernel_space start=0x3fc084c0000 size=0x10000 mode=2
+[   98.267689]: NVRM-xnu:   mapped -> 0x<ptr> (slot 65, high water 66/8192)
+[   98.290438]: NVRM-xnu: os_lock_user_pages(0x379a6d000, 1 pages) prepare -> 0x2
+[   98.332095]: Sandbox: apsd(147) deny(1) user-preference-write com.apple.apsdSandbox apply: amsengagementd[1026] <bytes>Sandbox: amsengagementd(1026) deny(1) process-info-listpids1 duplicate report for Sandbox: amsengagementd(1026) deny(1) process-info-listpidsSandbox: siriactionsd(769) deny(1) mach-lookup com.apple.ProgressReportingSandbox: amsengagementd(1026) deny(1) mach-lookup com.apple.coreservices.launchservicesdSandbox: amsengagementd(1026) deny(1) process-info-listpids3 duplicate reports for Sandbox: amsengagementd(1026) deny(1) process-info-listpidsSandbox: amsengagementd(1026) deny(1) file-read-data /Library/Preferences/com.apple.networkd.plistNVRM-xnu: >os_map_kernel_space start=0x3fc05f00000 size=0x20000 mode=2
+[   98.377003]: NVRM-xnu:   mapped -> 0x<ptr> (slot 36, high water 66/8192)
+[   98.615952]: NVRM-xnu: >os_map_kernel_space start=0x3fc05f20000 size=0x20000 mode=2
+[   98.615967]: NVRM-xnu:   mapped -> 0x<ptr> (slot 40, high water 66/8192)
+[   98.618390]: NVRM-xnu: >os_map_kernel_space start=0x3fc08200000 size=0x80000 mode=2
+[   98.618407]: NVRM-xnu:   mapped -> 0x<ptr> (slot 50, high water 66/8192)
+[   98.637049]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/cd5484fac441bb863bec4dc727204bfab55b49c5fbf608212d1195ee214940a6.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/abe066d8638517174898120e0aacf4eb93d2d7e26d945fff93966e06eb8842ef.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc061a0000 size=0x40000 mode=2
+[   98.640505]: NVRM-xnu:   mapped -> 0x<ptr> (slot 32, high water 66/8192)
+[   98.665139]: NVAccel: createUserGPUTask -> <ptr> init=1
+[   98.665144]: NVAccel: createUserGPUTask -> <ptr> init=1
+[   98.805150]: Sandbox apply: ModelCatalogAgent[1035] <bytes>Sandbox: ModelCatalogAgent(1035) deny(1) process-info-listpids1 duplicate report for Sandbox: ModelCatalogAgent(1035) deny(1) process-info-listpidsSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/816301a4087f69bc45a87133004bf31aff9a9f638923998c5b1627ce8071289d.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: map fd 11: device 1 range(s) first 0x80bb0000+0x10000 caching 1
+[   98.954759]: process_is_plugin_host: running binary "login" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validationprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshprocess_is_plugin_host: running binary "zsh" in keys-off mode due to identity: com.apple.zshNVRM-xnu: os_lock_user_pages(0x11b394000, 4 pages) prepare -> 0x2
+[   99.092100]: NVRM-xnu: >os_map_kernel_space start=0x3fc084d0000 size=0x40000 mode=2
+[   99.092121]: NVRM-xnu:   mapped -> 0x<ptr> (slot 36, high water 66/8192)
+[   99.094512]: NVRM-xnu: >os_map_kernel_space start=0x3fc08510000 size=0x100000 mode=2
+[   99.094538]: NVRM-xnu:   mapped -> 0x<ptr> (slot 58, high water 66/8192)
+[   99.159820]: Sandbox: audioaccessoryd(813) deny(1) system-fsctl (_IO "h" 47)Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/7311924749396d2996048620e5c6958360379e4a71667f4c382e81aaa71b79cc.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: audioaccessoryd(813) deny(1) mach-lookup com.apple.metadata.mdsSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/32c8fb472bd57018fd48ff9a4abfd20796d98c62b333be139cf972ce4f3cd5d4.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/c88b17551db57bb6b3746f14a8488f01012bcc3768f358a76b1a2b5bda7d3497.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc08610000 size=0x100000 mode=2
+[   99.218060]: NVRM-xnu:   mapped -> 0x<ptr> (slot 59, high water 66/8192)
+[   99.261032]: NVRM-xnu: >os_map_kernel_space start=0x3fc001f0000 size=0x10000 mode=2
+[   99.261050]: NVRM-xnu:   mapped -> 0x<ptr> (slot 66, high water 67/8192)
+[   99.456584]: Sandbox: imagent(764) deny(1) mach-lookup com.apple.contactsd.persistenceNVRM-xnu: >os_map_kernel_space start=0x3fc08710000 size=0x80000 mode=2
+[   99.484984]: NVRM-xnu:   mapped -> 0x<ptr> (slot 67, high water 68/8192)
+[   99.739215]: NVRM-xnu: nv_post_event #16384 hEvent 0xcaf00004 index 12 -> connection woken | matched 16384, waits 2443, slept 1213
+[   99.763084]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/bc66680d75de3cf41fc18d24c59911a95d6f55018eaf99869a5ecb50510b58cb.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc05f00000 size=0x10000 mode=2
+[   99.818108]: NVRM-xnu:   mapped -> 0x<ptr> (slot 68, high water 69/8192)
+[   99.885055]: NVAccel: surfvram: surface 50 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (65536 B) -> client 0xc1d0000f mem 0x1003f status 0 (ok 1024, refused 0)
+[   99.885061]: NVAccel: surfvram: surface 50 plane 0 -> cache <ptr> res <ptr> vidmem <ptr> (65536 B) -> client 0xc1d0000f mem 0x1003f status 0 (ok 1024, refused 0)
+[  100.013755]: NVRM-xnu: >os_map_kernel_space start=0x3fc08790000 size=0x100000 mode=2
+[  100.013780]: NVRM-xnu:   mapped -> 0x<ptr> (slot 69, high water 70/8192)
+[  100.016911]: NVRM-xnu: >os_map_kernel_space start=0x3fc08890000 size=0x100000 mode=2
+[  100.016931]: NVRM-xnu:   mapped -> 0x<ptr> (slot 70, high water 71/8192)
+[  100.029147]: rtrequest_common_locked: route already exists: IP-8->link#0->lo02 duplicate reports for Sandbox: WeatherMenu(877) deny(1) file-read-data /Library/Preferences/com.apple.networkextension.uuidcache.plistSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/0b216a44f04f2b9a24e412017f60a61dccedb48d377d41525dc5d6939fae5cdc.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc05f10000 size=0x10000 mode=2
+[  100.079925]: NVRM-xnu:   mapped -> 0x<ptr> (slot 71, high water 72/8192)
+[  100.080214]: NVRM-xnu: >os_map_kernel_space start=0x3fc06050000 size=0x10000 mode=2
+[  100.080223]: NVRM-xnu:   mapped -> 0x<ptr> (slot 72, high water 73/8192)
+[  100.346168]: NVRM-xnu: >os_map_kernel_space start=0x3fc08990000 size=0x90000 mode=2
+[  100.346189]: NVRM-xnu:   mapped -> 0x<ptr> (slot 73, high water 74/8192)
+[  100.476454]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b5ea5e04fb98c0455bb30c57f28b0e31aae17a098cd7d62b3780bfae1991f276.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/b53ee1b7a9243185c68335ff36a9bbd4e5c9e002b009bf5bde8e5da28afca56e.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvNVRM-xnu: >os_map_kernel_space start=0x3fc08a20000 size=0x40000 mode=2
+[  100.478877]: NVRM-xnu:   mapped -> 0x<ptr> (slot 74, high water 75/8192)
+[  101.429954]: Sandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/64065c05c1c16c50b45def0d075b1802404025793515393e2053379eab0a22d5.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox: iconservicesagent(754) deny(1) file-write-times /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.iconservicesagent/nvmtl/spvcache/5d77d19b812a3c0d492e9c0c827306ae1d03d95c7343a150e1e123679b6276e1.refl1.sha256-ad5c7fc7acd371ae143167f8685890f8e5fc097f3635b87cdcca9de318fff3c1-u2-td1.c3.spvSandbox apply: BackgroundShortcutRunner[1027] <bytes>Sandbox: BackgroundShortcutRunner(1027) deny(1) file-read-data /private/var/folders/xy/28c2lw252f978g3kcg7pk5880000gn/C/com.apple.WorkflowKit.BackgroundShortcutRunner.ShortcutsSandboxCacheSystem Policy: mobileassetd(258) allow file-read-metadata /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAsset2 duplicate reports for System Policy: mobileassetd(258) allow file-read-metadata /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSystem Policy: mobileassetd(258) allow file-read-data /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSystem Policy: mobileassetd(258) allow file-read-metadata /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAsset2 duplicate reports for System Policy: mobileassetd(258) allow file-read-metadata /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSystem Policy: mobileassetd(258) allow file-read-data /System/Library/AssetsV2/com_apple_MobileAsset_DuetExpertCenterAssetSandbox apply: StocksKitService[1064] <bytes>Sandbox: searchpartyuseragent(842) deny(1) mach-register com.apple.findmy.push.com.apple.findmy.localfindableSandbox apply: assetsubscriptiond[1065] <bytes>process_is_plugin_host: running binary "perl" in keys-off mode due to identity: com.apple.perlNVRM-xnu: >os_map_kernel_space start=0x3fc06090000 size=0x90000 mode=2
+[  101.594334]: NVRM-xnu:   mapped -> 0x<ptr> (slot 48, high water 75/8192)

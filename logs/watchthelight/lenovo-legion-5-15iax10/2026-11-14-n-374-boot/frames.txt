@@ -1,0 +1,22 @@
+== ws-early.txt (  150393 lines)
+  create_fragment_shader: 478
+  newFunctionWithDescriptor: 478
+  nvmtl_translate_with_fc_cached: 464
+  translate_one: 437
+  metal2vulkan: 437
+  nak_: 0
+  writeToFile: 0
+  fsync: 1
+  utimes: 0
+  coreanimation.pipelines: 0
+== ws-late.txt (  152624 lines)
+  create_fragment_shader: 0
+  newFunctionWithDescriptor: 0
+  nvmtl_translate_with_fc_cached: 0
+  translate_one: 0
+  metal2vulkan: 0
+  nak_: 0
+  writeToFile: 0
+  fsync: 0
+  utimes: 0
+  coreanimation.pipelines: 0

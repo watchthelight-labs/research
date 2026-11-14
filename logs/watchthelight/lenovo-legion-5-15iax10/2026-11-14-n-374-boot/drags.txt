@@ -1,0 +1,17 @@
+login 2026-11-14 09:10:22, now +163s
+late start: the early spindump will not be inside the slow phase
++164s N-374 flips/s=81 presents/s=81 load 2.21
++173s N-374 flips/s=91 presents/s=91 load 2.28
++182s N-374 flips/s=92 presents/s=92 load 2.08
++191s N-374 flips/s=88 presents/s=88 load 2.30
++200s N-374 flips/s=91 presents/s=91 load 2.26
++208s N-374 flips/s=92 presents/s=92 load 2.48
++217s N-374 flips/s=92 presents/s=92 load 2.41
++226s N-374 flips/s=92 presents/s=92 load 2.19
++235s N-374 flips/s=91 presents/s=92 load 2.01
++244s N-374 flips/s=91 presents/s=92 load 2.01
+spindumps started at +164s and +244s
+N-374-steady flips/s=87 presents/s=87
+N-374-steady flips/s=91 presents/s=91
+N-374-1680x1050 flips/s=89 presents/s=89
+N-374-1512x945 flips/s=89 presents/s=90
