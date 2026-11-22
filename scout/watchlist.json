@@ -188,6 +188,11 @@
      "credited": true,
      "relation": "same-problem",
      "repo": "bafcz/Hackintosh_LegionY9000P-IRX8_RaptorLake-HX"
+    },
+    {
+     "credited": true,
+     "relation": "uses-our-kext",
+     "repo": "saeckl/ROG-Strix-SCAR18-G835LXG-macOS27"
     }
    ],
    "title": "Arrow Lake I2C touchpad (LegionI2CArrowLake)"
@@ -226,6 +231,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "NumanLUAU/LOQ-15IAX9-Hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "xavierbe278/legion-y7000p-irx10-usb-receiver-freeze"
     }
    ],
    "title": "ITE keyboard fix (LegionITEKbdFix)"
@@ -664,6 +674,21 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "sl520987456/MT7921-Bluetooth-Tahoe"
+    },
+    {
+     "credited": true,
+     "relation": "uses-our-kext",
+     "repo": "Cube-geometric/Hackintosh-Legion-Y7000P-IRX10-EFI-with-MT7925-and-Trackpad"
+    },
+    {
+     "credited": true,
+     "relation": "uses-our-kext",
+     "repo": "Yangcheng811/ThinkBook-16p-2025-G6-ADR-Hackintosh"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "xavierbe278/legion-y7000p-irx10-83nn-hackintosh"
     }
    ],
    "title": "MT7925 Wi-Fi driver (WTLWireless core)"
@@ -951,6 +976,11 @@
      "credited": false,
      "relation": "user of upstream",
      "repo": "findbaicha/victus16-2023-r0445tx-1401-macos15-sequoia-efi"
+    },
+    {
+     "credited": false,
+     "relation": "fork-sibling",
+     "repo": "HighDelay/nvidia-macos-driver-nvk"
     }
    ],
    "title": "NVIDIA RTX 50 driver (NvGfx, a NullMoth fork)"
@@ -1186,6 +1216,26 @@
      "credited": false,
      "relation": "studied-family",
      "repo": "Minorli/WhateverXe-Next"
+    },
+    {
+     "credited": true,
+     "relation": "uses-our-kext",
+     "repo": "RUI-JACK/e16-consolerange-build"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "cuadra8998/MeowXE3"
+    },
+    {
+     "credited": false,
+     "relation": "uses-our-kext",
+     "repo": "lems-hardware/lhl-hackintosh-docs"
+    },
+    {
+     "credited": false,
+     "relation": "uses-our-kext",
+     "repo": "yangyishuo1124/Mubai-s-Hackintosh-Logs"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"
