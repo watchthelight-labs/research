@@ -1,0 +1,24 @@
+N-380 boot state, 2026-11-26 12:46 EST (8 minutes after boot). Addresses and the network name are left out.
+org.watchthelight.WTLWireless (0.15.3)
+org.watchthelight.WTLWireless.Native (0.15.3)
+org.watchthelight.WTLWireless.Bt (0.15.3)
+"MtkChipName" = "MT7925"
+"MtkW6RxTrans" = 681
+"MtkW6RxPackets" = 1066494
+"MtkW6RxTransInfo" = "ok 681 undecrypted 0 amsdu 0 nogroup4 0 last 01310104"
+"MtkW8RxAmsdu" = 0
+"MtkW2Sec" = "m1 1 m2 1 m3 1 m4 1 g1 0 g2 0 badmic 0 replays 0 reinst 0 pnreplay 0 nopn 0 icv 0 mismatch 0 unprot 0 portdrop 0 trans 0 eapol rx 2 tx 2 qdrop 0 installs 2/0"
+"MtkW6Deauths" = 0
+"MtkState" = "W6 pass: en1 passing traffic"
+"MtkW6RxDropped" = 0
+"MtkW6Rejoins" = 0
+"MtkW6LastDeauth" = 0
+"MtkW6RxBad" = 2
+"MtkW6TxPackets" = 754414
+"MtkW6RxOwn" = 0
+"MtkMacChanges" = 2
+"MtkW9Ba" = "rx sessions 2 buffered 521751 dup 454 timeout 41 bar 0 delba 0 | tx state 2 req 1 status 0 win 64 ssn 0 | rc 0"
+"MtkW6RxNonSnap" = 0
+2026-11-26 12:38:58 guard start: attempt=N-380 stage=E iface=en1 boot=1795714734 started_boot=none result=none auto_reboots=0 dry=0
+2026-11-26 12:39:36 PASS N-380 stage E: lease and gateway answers
+2026-11-26 12:39:53 lastgood refreshed from the passing set: WTLWireless.kext
