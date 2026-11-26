@@ -1,0 +1,5 @@
+debug.nvaccel_surface_gpu: 1
+debug.nvaccel_surface_gpu_marks: 0
+debug.nvaccel_surface_gpu_waits: 0
+debug.nvaccel_surface_gpu_timeouts: 0
+debug.nvaccel_surface_gpu_wait_max_us: 0

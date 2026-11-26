@@ -1,0 +1,34 @@
+N-384 post-boot record, 2026-11-26 14:33:37 EST
+boot: Thu Nov 26 14:24:43 2026  build 25G416
+--- kexts
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.2)
+org.watchthelight.WTLWireless (0.15.4)
+org.watchthelight.WTLWireless.Native (0.15.4)
+org.watchthelight.XeGfxIntelFB (0.10)
+com.nullmoth.NVRMAGDC (2.9)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.WTLWireless.Bt (0.15.4)
+org.watchthelight.XeGfx (0.0.48)
+org.watchthelight.XeGfxAccel (0.9)
+--- WindowServer
+  PID ELAPSED  %CPU    RSS
+ 2031   06:42   5.9 1543800
+--- software desktop, 150 s at idle, boot of 14:10 (14:17)
+n 150 temp min/avg/max 71 93.5 104 W min/avg/max 29 50.6 57; share at 100 C or more 0.35; WindowServer 70 to 220 % CPU (219.7 % at 14:25:50 in this boot before the ws step)
+--- accelerated desktop, 150 s at idle, 14:28:30 to 14:31:00 (inside the guard's settle)
+n 150 temp min/avg/max 49 56.4 87 W min/avg/max 14 17.0 39; share at 100 C or more 0.00
+WindowServer %CPU, 15 samples 10 s apart: 5.2 1.2 0.5 0.6 0.6 1.5 0.5 14.6 1.4 0.5 0.5 1.5 0.5 0.5 1.0 (avg 2.0)
+--- now
+pl 1 (guard 1, cap 0 W, steps 0), epp 0, pkg 52 C 21 W
+--- crash reports since boot
+corespotlightd_2026-11-26-142629_HOST-3.diag
+ExcUserFault_bluetoothd-2026-11-26-142517.ips
+shutdown_stall_2026-11-26-142423_HOST-3.shutdownStall
+fileproviderd_2026-11-26-142247_HOST-3.diag
+corespotlightd_2026-11-26-141646_HOST-3.diag
+--- accelerator
+      "IOClass" = "NMXAccel"
+      "MetalPluginName" = "../../../Library/GPUBundles/NVMTLDriver"
+      "PerformanceStatisticsAccum" = {"orphanedReusableVidMemoryHitRate"=0,"texturePageOutBytes"=0,"swapCompleteVideoWaitTime"=0,"orphanedReusableSysMemoryHitRate"=0,"dataBufferCount"=0,"oolTexturePageInBytes"=0,"texture
+      "PerformanceStatistics" = {"orphanedReusableVidMemoryHitRate"=0,"texturePageOutBytes"=0,"swapCompleteVideoWaitTime"=0,"orphanedReusableSysMemoryHitRate"=0,"dataBufferCount"=0,"oolTexturePageInBytes"=0,"textureCount

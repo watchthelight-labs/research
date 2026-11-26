@@ -1,0 +1,24 @@
+2026-11-26 14:25:52 N-384: running {"id": "N-384", "stages": 7, "env": "compat.linuxkpi.i915_disable_display=1 compat.linuxkpi.i915_xegfx_no_display=1 compat.linuxkpi.i915_enable_guc=3 xegfx.nvram_trace=0 xegfx.gtawake=2", "wdog": 180, "settle": 300, "post": "/usr/local/bin/xe-post", "post_timeout": 400, "ws": 1, "reboot_on_fail": 1, "reboot_after": 0, "fbcapex": 1, "ws_wait": 120}
+2026-11-26 14:25:53 N-384: kmutil load rc=0 
+2026-11-26 14:25:53 N-384: stage 1 start
+2026-11-26 14:25:55 N-384: stage 1 rc=0 result=1 progress=10
+2026-11-26 14:25:55 N-384: stage 2 start
+2026-11-26 14:25:57 N-384: stage 2 rc=0 result=1 progress=23
+2026-11-26 14:25:57 N-384: stage 3 start
+2026-11-26 14:25:58 N-384: stage 3 rc=0 result=1 progress=30
+2026-11-26 14:25:58 N-384: stage 4 start
+2026-11-26 14:26:00 N-384: stage 4 rc=0 result=1 progress=1551
+2026-11-26 14:26:00 N-384: stage 5 start
+2026-11-26 14:26:02 N-384: stage 5 rc=0 result=1 progress=50
+2026-11-26 14:26:02 N-384: stage 6 start
+2026-11-26 14:26:04 N-384: stage 6 rc=0 result=1 progress=60
+2026-11-26 14:26:04 N-384: stage 7 start
+2026-11-26 14:26:07 N-384: stage 7 rc=0 result=1 progress=70
+2026-11-26 14:26:07 N-384: post /usr/local/bin/xe-post
+2026-11-26 14:26:51 N-384: post rc=0
+2026-11-26 14:26:51 N-384: ws: arming iop, AGDC and debug.nvaccelfb=4, then restarting WindowServer
+2026-11-26 14:26:54 N-384: kernel/WindowServer log streaming to bash-ec2:legion-logs/N-384-20261126-142654.log
+2026-11-26 14:27:41 N-384: ws: sampled 45 s after the restart
+2026-11-26 14:27:47 N-384: ws: new pid 2031, 12 accelerator clients, 289 frames to head 4
+2026-11-26 14:32:51 N-384: pass: stages 1-7 passed, WindowServer stable 300 s
+2026-11-26 14:32:51 N-384: ws run passed; later entries wait for the next boot
