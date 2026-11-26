@@ -1,0 +1,28 @@
+{
+ "collected": "2026-11-26",
+ "component": "xegfx",
+ "files": {
+  "Kernel-2026-11-20-231623.panic": "1a26048bd8066f1e89b6974e00c3356d97b98cfc92995db222897750e825c791",
+  "Kernel-2026-11-21-095029.panic": "cb996fc8bfdb7b19b719435ea78119ef33cf5a333eb3ef7acff2f65adf67979d",
+  "Kernel-2026-11-21-172829.panic": "24d0b2ead95f9a4a16e8ccd094c5a9feab2cc85b7cab3232f56985574ad7f215",
+  "WindowServer-2026-11-20-232858.ips": "371d35c76be8347d984b260c394a2f64fa14197b2d8ef86db6c8f4caff165955",
+  "WindowServer-2026-11-20-232903.ips": "6ab5ff707a453199d4f9a0b2375b05a3eb86557b3790f698855d3b33773658a4",
+  "WindowServer-2026-11-21-094559.ips": "49b2cee1bc6d426d71203517ceca5405e11d299781b1768e9dd0b2959117d5e8",
+  "WindowServer-2026-11-21-130926.ips": "a798e5dd09b8692332bdaa930d10ea782a831638cd9b9f2849d20f743ac91c9f",
+  "WindowServer-2026-11-21-145436.ips": "4d0ea94fce3690176e887dad37fc2b435e2636748c519613c6d566abb2fd6952",
+  "WindowServer-2026-11-21-185525.ips": "891bdf7deccae1242840120229a1776843a25ee243252eed82237553da4682e5"
+ },
+ "kexts": {},
+ "machine": "lenovo-thinkbook-16-g7-plus-iah",
+ "macos_build": "25G72",
+ "opencore": "",
+ "project": "WTLIntelGfx",
+ "redaction": {
+  "replaced": {
+   "UUID": 552
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "issue19",
+ "username": "ChariskRichy"
+}
