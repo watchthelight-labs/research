@@ -1,0 +1,8 @@
+const uint32_t surf = rd(XIFB_P1_SURF);
+const uint64_t fbSpan = 0x1c00000ull;   // 28 MB > 3200*2000*4
+const uint64_t curEnd = (uint64_t)XIFB_CUR_GGTT + (uint64_t)XIFB_CUR_DIM * XIFB_CUR_DIM * 4;
+if (rd(XIFB_CUR_CTL))                    why = "CUR_CTL is not 0";
+else if (!surf || (surf & 0xfff))        why = "PLANE_SURF is not a page-aligned GGTT offset";
+else if ((uint64_t)surf < curEnd && (uint64_t)surf + fbSpan > (uint64_t)XIFB_CUR_GGTT)
+                                         why = "the boot framebuffer still covers the cursor's 64 GGTT pages";
+else if (rd(XIFB_P1_BUF) != 0x07ff0000u) why = "PLANE_BUF_CFG is not the GOP's 0x07ff0000";

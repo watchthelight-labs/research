@@ -1,0 +1,20 @@
+{
+ "collected": "2026-11-23",
+ "component": "",
+ "files": {
+  "c7102593916-1-kext.txt": "fba5ccbedbe29289c1ea5f3742b070451f0b9840fff8ec685538f48ca43f5653",
+  "c7102593916-2-ioreg.txt": "5558b43f441cf6eece134716fb5ce87c7adb63c9a6088adfbaea9c5cecaedd9a"
+ },
+ "issue_title": "Probe reports wanted from other Intel Xe machines (stage 2, read-only)",
+ "kexts": {},
+ "machine": "dell-latitude-7430",
+ "macos_build": "24H32",
+ "opencore": "",
+ "project": "WTLIntelGfx",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v2"
+ },
+ "source": "https://github.com/watchthelight-labs/WTLIntelGfx/issues/3#issuecomment-7102593916",
+ "username": "iqsanfm"
+}

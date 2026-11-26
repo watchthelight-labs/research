@@ -1,0 +1,18 @@
+USER-1@HOST-1 ~ % ioreg -l -w0 -r -c XeGfxResident
++-o XeGfxResident  <class XeGfxResident, id 0x100000da5, registered, matched, active, busy 0 (0 ms), retain 5>
+    {
+      "IOProbeScore" = 0
+      "CFBundleIdentifier" = "org.watchthelight.XeGfx"
+      "IOMatchCategory" = "XeGfxArmed"
+      "IOClass" = "XeGfxResident"
+      "IOPersonalityPublisher" = "org.watchthelight.XeGfx"
+      "IOProviderClass" = "IOResources"
+      "CFBundleIdentifierKernel" = "org.watchthelight.XeGfx"
+      "XeGfxProbe" = {"plane-surf-1-a"=0,"pipe-a-lit"=0,"pipe-frmcount-a"=0,"tco-ctl"=256,"tco2-sts"=0,"bar2-size"=268435456,"tco1-cnt"=6144,"gmd-id-graphics"=51478532,"tco2-cnt"=8,"revision"=6,"subsystem"=18446744072904250456,"bar0-base"=687698083840,"transconf-a"=0,"bar2-base"=687194767360,"dsm-base-lo"=1350565888,"device-id"=32103,"plane-size-1-a"=0,"ggtt-pte-surf"=14956810900701248645,"tco-base"=36352,"tco-rld"=4,"dsm-base-hi"=0,"tco-tmr"=4,"command"=6,"ggc"=1222,"gmd-id-display"=58720268,"pcode-stolen-access"=1,"plane-stride-1-a"=0,"tco1-sts"=0,"result"=1,"plane-ctl-1-a"=8,"bar0-size"=16777216}
+      "IOResourceMatch" = "XeGfxArm"
+      "XeGfxStage" = 2
+    }
+    
+
+USER-1@HOST-1 ~ % sysctl -b debug.xegfx_log
+xegfx: vm: vmap selftest 0

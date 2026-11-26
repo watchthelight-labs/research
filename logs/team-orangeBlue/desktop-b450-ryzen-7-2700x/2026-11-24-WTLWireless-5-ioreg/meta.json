@@ -1,0 +1,21 @@
+{
+ "collected": "2026-11-24",
+ "component": "",
+ "files": {
+  "c7144344338-1-ioreg.txt": "aee0c0b55c3868207bc8b7f7575306c646cfc571891653e4a4da02569a8f07d7"
+ },
+ "issue_title": "Does this support macOS 12.7? Or anything pre-15?",
+ "kexts": {},
+ "machine": "desktop-b450-ryzen-7-2700x",
+ "macos_build": "",
+ "opencore": "",
+ "project": "WTLWireless",
+ "redaction": {
+  "replaced": {
+   "UUID": 2
+  },
+  "tool": "tools/redact.py v2"
+ },
+ "source": "https://github.com/watchthelight-labs/WTLWireless/issues/5#issuecomment-7144344338",
+ "username": "team-orangeBlue"
+}

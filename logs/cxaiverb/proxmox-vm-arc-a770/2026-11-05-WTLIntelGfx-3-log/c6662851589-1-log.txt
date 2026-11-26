@@ -1,0 +1,50 @@
+xegfx: vm: vmap selftest 0
+xegfx: no IOMMU, DMA addresses are physical
+xegfx: newbus root0 state 30 driver root
+xegfx: newbus   pcib0 state 30 driver pcib
+xegfx: newbus     pci0 state 30 driver pci
+xegfx: newbus       hostb0 state 30 driver hostb pci 8086:29c0 class 060000
+xegfx: newbus       ? state 10 driver - pci 15ad:0405 class 030000
+xegfx: newbus       ? state 10 driver - pci 1b36:000d class 0c0330
+xegfx: newbus       ? state 10 driver - pci 8086:2937 class 0c0300
+xegfx: newbus       ? state 10 driver - pci 8086:2938 class 0c0300
+xegfx: newbus       ? state 10 driver - pci 8086:2939 class 0c0300
+xegfx: newbus       ? state 10 driver - pci 8086:293c class 0c0320
+xegfx: newbus       ? state 10 driver - pci 8086:293e class 040300
+xegfx: newbus       pcib1 state 30 driver pcib pci 1b36:000c class 060400
+xegfx: newbus         pci1 state 30 driver pci
+xegfx: newbus           vgapci0 state 30 driver vgapci pci 8086:56a0 class 030000
+xegfx: newbus             drmn0 state 10 driver -
+xegfx: newbus       pcib2 state 30 driver pcib pci 1b36:000c class 060400
+xegfx: newbus         pci2 state 30 driver pci
+xegfx: newbus       pcib3 state 30 driver pcib pci 1b36:000c class 060400
+xegfx: newbus         pci3 state 30 driver pci
+xegfx: newbus       pcib4 state 30 driver pcib pci 1b36:000c class 060400
+xegfx: newbus         pci4 state 30 driver pci
+xegfx: newbus       ? state 10 driver - pci 8086:2934 class 0c0300
+xegfx: newbus       ? state 10 driver - pci 8086:2935 class 0c0300
+xegfx: newbus       ? state 10 driver - pci 8086:2936 class 0c0300
+xegfx: newbus       ? state 10 driver - pci 8086:293a class 0c0320
+xegfx: newbus       pcib5 state 30 driver pcib pci 8086:244e class 060401
+xegfx: newbus         pci5 state 30 driver pci
+xegfx: newbus           pcib6 state 30 driver pcib pci 1b36:0001 class 060400
+xegfx: newbus             pci6 state 30 driver pci
+xegfx: newbus               ? state 10 driver - pci 8086:2922 class 010601
+xegfx: newbus               ? state 10 driver - pci 1af4:1003 class 078000
+xegfx: newbus               ? state 10 driver - pci 1af4:1001 class 010000
+xegfx: newbus               ? state 10 driver - pci 15ad:07b0 class 020000
+xegfx: newbus           pcib7 state 30 driver pcib pci 1b36:0001 class 060400
+xegfx: newbus             pci7 state 30 driver pci
+xegfx: newbus           pcib8 state 30 driver pcib pci 1b36:0001 class 060400
+xegfx: newbus             pci8 state 30 driver pci
+xegfx: newbus           pcib9 state 30 driver pcib pci 1b36:0001 class 060400
+xegfx: newbus             pci9 state 30 driver pci
+xegfx: newbus       ? state 10 driver - pci 8086:2918 class 060100
+xegfx: newbus       ? state 10 driver - pci 8086:2922 class 010601
+xegfx: newbus       ? state 10 driver - pci 8086:2930 class 0c0500
+xegfx: devclass root:
+xegfx: devclass pcib:
+xegfx: devclass pci:
+xegfx: devclass hostb:
+xegfx: devclass vgapci:
+xegfx: devclass drmn:

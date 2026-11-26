@@ -1,4 +1,22 @@
 {
+ "7HE-W0R1D/gigabyte-z890m-aorus-elite": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26",
+  "machine": "gigabyte-z890m-aorus-elite",
+  "macos_builds": [
+   "25G241"
+  ],
+  "username": "7HE-W0R1D"
+ },
+ "ChariskRichy/lenovo-thinkbook-16-g7-plus-iah": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26",
+  "machine": "lenovo-thinkbook-16-g7-plus-iah",
+  "macos_builds": [
+   "25G72"
+  ],
+  "username": "ChariskRichy"
+ },
  "Elezorn/dell-latitude-5421": {
   "first_seen": "2026-10-28",
   "last_seen": "2026-10-28",
@@ -20,6 +38,15 @@
   "model": "HP Victus 15-fa0xxx",
   "username": "TrDiTu"
  },
+ "WilliamAlexanda/xiaomi-redmibook-pro-15-2021": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26",
+  "machine": "xiaomi-redmibook-pro-15-2021",
+  "macos_builds": [
+   "25G241"
+  ],
+  "username": "WilliamAlexanda"
+ },
  "change-48/honor-magicbook-art-14-2025": {
   "cpu": "Core Ultra 7 255H",
   "first_seen": "2026-11-06",
@@ -32,6 +59,15 @@
   "model": "HONOR MagicBook Art 14 2025",
   "username": "change-48"
  },
+ "cxaiverb/proxmox-vm-arc-a770": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26",
+  "machine": "proxmox-vm-arc-a770",
+  "macos_builds": [
+   "25G241"
+  ],
+  "username": "cxaiverb"
+ },
  "ikurina/asus-tuf-gaming-b850-plus-wifi": {
   "chips": "MT7925 (Wi-Fi + Bluetooth)",
   "first_seen": "2026-10-22",
@@ -42,6 +78,15 @@
   ],
   "model": "ASUS TUF Gaming B850-Plus WiFi",
   "username": "ikurina"
+ },
+ "iqsanfm/dell-latitude-7430": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26",
+  "machine": "dell-latitude-7430",
+  "macos_builds": [
+   "24H32"
+  ],
+  "username": "iqsanfm"
  },
  "oliverchu/colorful-battle-ax-b850m-plus-s-wifi7": {
   "first_seen": "2026-10-23",
@@ -62,6 +107,12 @@
    "24H232"
   ],
   "username": "seaurching"
+ },
+ "team-orangeBlue/desktop-b450-ryzen-7-2700x": {
+  "first_seen": "2026-11-26",
+  "last_seen": "2026-11-26",
+  "machine": "desktop-b450-ryzen-7-2700x",
+  "username": "team-orangeBlue"
  },
  "watchthelight/lenovo-legion-5-15iax10": {
   "chips": "MediaTek MT7925",

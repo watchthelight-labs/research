@@ -1,0 +1,19 @@
+{
+ "collected": "2026-11-22",
+ "component": "",
+ "files": {
+  "issue-1-log.txt": "7fd4ca6b064e905ac17a8f356100c56cbb0078e56ccb6e531fe7603602dca42b"
+ },
+ "issue_title": "U5-225H Arc 130T (7D51): accelerated desktop works; rendering faults",
+ "kexts": {},
+ "machine": "lenovo-thinkbook-16-g7-plus-iah",
+ "macos_build": "25G72",
+ "opencore": "",
+ "project": "WTLIntelGfx",
+ "redaction": {
+  "replaced": {},
+  "tool": "tools/redact.py v2"
+ },
+ "source": "https://github.com/watchthelight-labs/WTLIntelGfx/issues/19",
+ "username": "ChariskRichy"
+}
