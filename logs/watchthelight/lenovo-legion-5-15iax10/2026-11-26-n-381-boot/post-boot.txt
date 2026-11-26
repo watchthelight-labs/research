@@ -1,0 +1,33 @@
+== 2026-11-26 13:36:06 EST uptime 1 min
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.2)
+org.watchthelight.WTLWireless (0.15.4)
+org.watchthelight.WTLWireless.Native (0.15.4)
+org.watchthelight.XeGfxIntelFB (0.9)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.WTLWireless.Bt (0.15.4)
+== legioncpu
+debug.legioncpu.status: cpu arrow lake, xcpm hwp flag 0, hwp 1 (rewrites 24, passes 11, check 60 s), pl 1 (guard 1, cap 0 W, steps 0), epp 0, pkg 102 C 53 W, mchbar mapped, fan mode 1, power mode 0xff, full speed on (5500 / 5600 rpm), sched 1 (ok, favoured 0x400400, avoid 0x3fc3fc)
+debug.legioncpu.hwpcheck: 60
+debug.legioncpu.hwp: 1
+debug.legioncpu.epp: 0
+== native
+"MtkNativeCoreOps" = 6
+"MtkNativeAbiGeneration" = "tahoe"
+"MtkNativeVersion" = "0.15.4"
+== core
+"MtkChipName" = "MT7925"
+"MtkW6RxTransInfo" = "ok 55 undecrypted 0 amsdu 0 nogroup4 0 last 01310104"
+"MtkState" = "W6 pass: en1 passing traffic"
+"MtkW1Join" = "state 5 joins 1 fails 0 last 0 rejoins 0 authtx 1 assoctx 1 tries 1"
+== bt
+"MtkBtState" = "ready"
+"MtkBtVersion" = "0.15.4"
+State: On
+Chipset: THIRD_PARTY_DONGLE
+Firmware Version: v9736 c4881
+Transport: UART
+== link
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.355/446.807/1235.651/558.013 ms
+2
