@@ -49,6 +49,21 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "jigyanshu-codes/ASUS-X1504ZA-AlderLake-Hackintosh"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "new-green/VoodooHDA-SOF"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "chxnathanaels/RaptorLake_IntelDSP_Hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "pandariayu/ThinkBook16p-Gen4-macOS-Speakers"
     }
    ],
    "title": "Legion audio (VoodooHDA-Legion)"
@@ -193,6 +208,11 @@
      "credited": true,
      "relation": "uses-our-kext",
      "repo": "saeckl/ROG-Strix-SCAR18-G835LXG-macOS27"
+    },
+    {
+     "credited": false,
+     "relation": "uses-our-kext",
+     "repo": "sortedcord/MotoBook60Pro-Hackintosh-EFI"
     }
    ],
    "title": "Arrow Lake I2C touchpad (LegionI2CArrowLake)"
@@ -236,6 +256,11 @@
      "credited": false,
      "relation": "same-problem",
      "repo": "xavierbe278/legion-y7000p-irx10-usb-receiver-freeze"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "TejasLamba2006/Legion-RGB-macOS"
     }
    ],
    "title": "ITE keyboard fix (LegionITEKbdFix)"
@@ -411,6 +436,16 @@
      "credited": false,
      "relation": "Arrow Lake HDA audio through VoodooHDA",
      "repo": "change-48/ALC256-ARROWLAKE-HDA"
+    },
+    {
+     "credited": false,
+     "relation": "uses-our-kext",
+     "repo": "KSLengYu/Legion5Pro-2025-Hackintosh"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "KSLengYu/LegionECMode-kext"
     }
    ],
    "title": "Legion 5 15IAX10 OpenCore EFI"
@@ -490,7 +525,7 @@
      "repo": "BelikPePe-UA/legion5-15irx10-hackintosh"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "same-problem",
      "repo": "Game-5040/hackintosh-hp-8f06-macos26"
     },
@@ -500,7 +535,7 @@
      "repo": "flxxxxddd/SimpleMtkBtFw"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "same-hardware",
      "repo": "thanhnndev/mt7925-macos"
     }
@@ -616,7 +651,7 @@
      "repo": "eiyuumiru/SimpleMtkWlan"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "uses-ours",
      "repo": "Game-5040/hackintosh-hp-8f06-macos26"
     },
@@ -689,6 +724,11 @@
      "credited": true,
      "relation": "same-problem",
      "repo": "xavierbe278/legion-y7000p-irx10-83nn-hackintosh"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "minhvmware/mtk-macos-driver"
     }
    ],
    "title": "MT7925 Wi-Fi driver (WTLWireless core)"
@@ -826,7 +866,7 @@
      "repo": "raph559/winawdl"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "studied",
      "repo": "retropineaple/ForbiddenItlwm"
     },
@@ -834,6 +874,16 @@
      "credited": false,
      "relation": "studied",
      "repo": "dfdfwff/ForbiddenItlwm-Sequoia-AX210"
+    },
+    {
+     "credited": true,
+     "relation": "same-problem",
+     "repo": "thanhnndev/mt7925-macos"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "jacksproject/MT7902-WiFi-Kext"
     }
    ],
    "title": "MT7925 native Wi-Fi front end (WTLWireless Wi-Fi menu part)"
@@ -963,7 +1013,7 @@
      "repo": "zzzyy678/SMCNvidiaGPU"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "same-problem",
      "repo": "rodgod-rr/Dell-G15-5530-Hackintosh"
     },
@@ -1203,7 +1253,7 @@
      "repo": "saeckl/ROG-Strix-SCAR18-G835LXG-macOS"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "same-architecture",
      "repo": "yusufklncc/intel-gpu-macos-driver"
     },
@@ -1223,19 +1273,34 @@
      "repo": "RUI-JACK/e16-consolerange-build"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "same-problem",
      "repo": "cuadra8998/MeowXE3"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "uses-our-kext",
      "repo": "lems-hardware/lhl-hackintosh-docs"
     },
     {
-     "credited": false,
+     "credited": true,
      "relation": "uses-our-kext",
      "repo": "yangyishuo1124/Mubai-s-Hackintosh-Logs"
+    },
+    {
+     "credited": true,
+     "relation": "uses-our-kext",
+     "repo": "sortedcord/MotoBook60Pro-Hackintosh-EFI"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "zep245/IrisXeMetal-Driver-macOS"
+    },
+    {
+     "credited": false,
+     "relation": "same-problem",
+     "repo": "vikenzo196/S0ixSleep"
     }
    ],
    "title": "Intel Xe iGPU driver (XeGfx, NvGfx branch xe)"
