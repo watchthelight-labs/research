@@ -1,0 +1,58 @@
+== 2026-11-26 14:12:45 EST uptime 3 mins
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.2)
+org.watchthelight.WTLWireless (0.15.4)
+org.watchthelight.WTLWireless.Native (0.15.4)
+org.watchthelight.XeGfxIntelFB (0.10)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.WTLWireless.Bt (0.15.4)
+org.watchthelight.XeGfx (0.0.48)
+== framebuffer
+xeintelfb-starts	%00
++-o .Display_boot  <class XeGfxIntelFramebuffer
++-o XeGfxAGDCLoader  <class XeGfxAGDCLoader
++-o XeGfxResident  <class XeGfxResident
+2026-11-26 14:10:12.728 XeGfxIntelFB: boot guard: start 1 without WindowServer so far (off after 2)
+2026-11-26 14:10:12.728 XeGfxIntelFB: VRAM,totalMB 24576
+2026-11-26 14:10:12.733 XeGfxIntelFB: EDID 256 B, maker 148f product 4245, 320x200 mm
+2026-11-26 14:10:13.239 XeGfxIntelFB: refresh measured 165.17 Hz, reported 165.17 Hz
+2026-11-26 14:10:13.239 XeGfxIntelFB: hw cursor ready: 256x256 ARGB at GGTT fffa0000, firmware framebuffer ff000000-fffa0000
+2026-11-26 14:10:14.262 XeGfxIntelFB: hw cursor image 1: ok 8x8
+2026-11-26 14:10:14.270 XeGfxIntelFB: hw cursor state 1: -4,-4 hidden
+2026-11-26 14:10:14.271 XeGfxIntelFB: hw cursor state 2: 12,12 shown
+2026-11-26 14:10:14.271 XeGfxIntelFB: hw cursor state 3: 12,12 hidden
+2026-11-26 14:10:14.280 XeGfxIntelFB: hw cursor image 2: ok 8x8
+2026-11-26 14:10:14.340 XeGfxIntelFB: hw cursor image 3: ok 32x64
+2026-11-26 14:10:17.708 XeGfxIntelFB: hw cursor image 4: ok 32x64
+2026-11-26 14:12:14.419 XeGfxIntelFB: boot guard cleared: still up 120 s after start
+== boot A (0.9), same lines
+2026-11-26 14:08:40.897 XeGfxIntelFB: boot guard: start 1 without WindowServer so far (off after 2)
+2026-11-26 14:08:41.412 XeGfxIntelFB: hw cursor ready: 256x256 ARGB at GGTT fffa0000
+== xe-guard
+2026-11-26 14:09:47 N-383: pre rc=0 xeintelfb: install done (backup /Library/XeGfx/backup-xeintelfb-20261126-140945); reboot to apply
+2026-11-26 14:09:47 N-383: pre done; restarting so it takes effect, the entry runs on the next boot
+2026-11-26 14:11:20 N-383: running {"id": "N-383", "stages": 1}
+2026-11-26 14:11:20 N-383: kmutil load rc=0 
+2026-11-26 14:11:20 N-383: stage 1 start
+2026-11-26 14:11:23 N-383: stage 1 rc=0 result=1 progress=10
+
+== legioncpu
+debug.legioncpu.status: cpu arrow lake, xcpm hwp flag 0, hwp 1 (rewrites 24, passes 12, check 60 s), pl 1 (guard 1, cap 0 W, steps 0), epp 0, pkg 99 C 60 W, mchbar mapped, fan mode 1, power mode 0xff, full speed on (5500 / 5600 rpm), sched 1 (ok, favoured 0x400400, avoid 0x3fc3fc)
+== wifi
+"MtkW6RxTransInfo" = "ok 250 undecrypted 0 amsdu 0 nogroup4 0 last 01310104"
+"MtkState" = "W6 pass: en1 passing traffic"
+"MtkW6RxDropped" = 0
+"MtkW1Join" = "state 5 joins 1 fails 0 last 0 rejoins 0 authtx 1 assoctx 1 tries 1"
+== bt
+"MtkBtState" = "ready"
+"MtkBtVersion" = "0.15.4"
+== reports since 14:04
+ExcUserFault_bluetoothd-2026-11-26-140909.ips
+ExcUserFault_bluetoothd-2026-11-26-141040.ips
+shutdown_stall_2026-11-26-140951_HOST-3.shutdownStall
+WindowServer_2026-11-26-141219_HOST-3.cpu_resource.diag
+== link
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.439/36.698/38.955/2.361 ms
+== xe-guard verdict
+{"id":"N-383","started":1795720280.257068,"result":"pass","reason":"stages1-1passed,WindowServerstable120s","results":[0,1,0,0,0,0,0,0]}
