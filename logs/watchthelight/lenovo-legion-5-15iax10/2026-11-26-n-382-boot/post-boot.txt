@@ -1,0 +1,41 @@
+== 2026-11-26 13:57:11 EST uptime 2 mins
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.2)
+org.watchthelight.WTLWireless (0.15.4)
+org.watchthelight.WTLWireless.Native (0.15.4)
+org.watchthelight.XeGfxIntelFB (0.9)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.WTLWireless.Bt (0.15.4)
+== framebuffer
+xeintelfb-starts	%01
++-o .Display_boot  <class XeGfxIntelFramebuffer
++-o XeGfxAGDCLoader  <class XeGfxAGDCLoader
+"IOClass" = "XeGfxIntelFramebuffer"
+"IOFBConfig" = {"dims"=<ffffffffffffffff0002000007000000>,"IOFBModes"=({"ID"=100,"AID"=18446744072277895850,"DM"=<000a000040060000801fa50000000000030090004001c800000000000000000000000000>,"DF"=8388611
+Chipset Model: Intel Arrow Lake Xe-LPG
+VRAM (Dynamic, Max): 24576 MB
+Vendor: Intel
+Resolution: 2560 x 1600
+== legioncpu
+debug.legioncpu.status: cpu arrow lake, xcpm hwp flag 0, hwp 1 (rewrites 24, passes 11, check 60 s), pl 1 (guard 1, cap 0 W, steps 0), epp 0, pkg 98 C 44 W, mchbar mapped, fan mode 1, power mode 0xff, full speed on (5500 / 5600 rpm), sched 1 (ok, favoured 0x400400, avoid 0x3fc3fc)
+== wifi
+mtkfe=native mtknativeif=1 mtknativelqmsnr=1 mtkrxdrop=1 
+"MtkNativeCoreOps" = 6
+"MtkNativeAbiGeneration" = "tahoe"
+"MtkNativeVersion" = "0.15.4"
+"MtkW6RxDropDataNoPayload" = 0
+"MtkW6RxDropCtrlOther" = 0
+"MtkW6RxTransInfo" = "ok 138 undecrypted 0 amsdu 0 nogroup4 0 last 01310104"
+"MtkW6RxDropMgmtUnused" = 1
+"MtkState" = "W6 pass: en1 passing traffic"
+"MtkW6RxDropDataOtherBss" = 0
+"MtkW6RxDropped" = 0
+"MtkW1Join" = "state 5 joins 1 fails 0 last 0 rejoins 0 authtx 1 assoctx 1 tries 1"
+"MtkW6RxDropDataUnicastOther" = 0
+== bt
+"MtkBtState" = "ready"
+"MtkBtVersion" = "0.15.4"
+ExcUserFault_bluetoothd-2026-11-26-135544.ips
+== link
+3 packets transmitted, 3 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 33.724/117.455/202.467/68.895 ms
