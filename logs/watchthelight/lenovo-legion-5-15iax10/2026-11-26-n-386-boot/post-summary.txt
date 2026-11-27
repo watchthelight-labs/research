@@ -1,0 +1,62 @@
+--- drmdiag (each libdrm enumeration step)
+--- drmlist (libdrm device enumeration, GET_PCIINFO)
+--- vkprobe (ANV on the XeGfx node)
+  vkCreateDevice: OK (0)
+  compute pipeline: OK (0)
+vkprobe rc=0
+--- vkdraw (render pass, triangle, readback)
+draw: OK
+--- XeGfxAccel
+--- mtlprobe as ruid 0 / euid 88 (WindowServer's ids)
+  compute pipeline: OK
+metal compute: OK
+metal draw: OK
+mtlprobe88 rc=0
+--- mtlprobe as euid 88 in WindowServer's sandbox profile
+  compute pipeline: OK
+metal compute: OK
+metal draw: OK
+mtlprobews rc=0
+--- fd instances: free 7755 lookup 407 opening 0 open 30 peak 437 of 8192 recycled 0; lock free 0 ticks; nowait reserve 64:256 128:512 256:512 512:260 1024:256 2048:258 4096:261, misses 0
+--- mtlprobe (Metal through the NvGfx plugin on ANV)
+  newLibraryWithSource: OK
+  compute pipeline: OK
+metal compute: OK
+  render pipeline: OK
+metal draw: OK
+mtlprobe rc=0
+--- vkhost (IOSurface memory as a Vulkan host pointer)
+vkhost: OK
+vkhost rc=0
+--- mtlbench (2560x1600 IOSurface frames, ms per command buffer)
+bench clear  n 30  min 2.40  avg 3.95  max 18.98 ms
+check clear: 0 of 64 wrong
+bench blit   n 30  min 0.75  avg 0.90  max 2.41 ms
+check blit (CPU pattern in, GPU copy, read back): 0 of 256 wrong
+bench draw   n 30  min 3.95  avg 6.12  max 65.20 ms
+metal bench: OK
+--- mtlbench on the same plugin, NVMTL_NO_SURFACE_HOST=1 (control)
+bench clear  n 5  min 4.88  avg 20.05  max 79.69 ms
+check clear: 0 of 64 wrong
+bench blit   n 5  min 5.38  avg 12.42  max 39.46 ms
+check blit (CPU pattern in, GPU copy, read back): 0 of 256 wrong
+bench draw   n 5  min 9.24  avg 52.96  max 226.45 ms
+metal bench: OK
+--- mtlbench on the host-import plugin
+bench clear  n 30  min 2.67  avg 5.55  max 18.62 ms
+check clear: 0 of 64 wrong
+bench blit   n 30  min 0.77  avg 0.86  max 1.80 ms
+check blit (CPU pattern in, GPU copy, read back): 0 of 256 wrong
+bench draw   n 30  min 3.87  avg 5.21  max 38.61 ms
+metal bench: OK
+--- mtlbench pitch cases (MTLBENCH_PITCH=1, same plugin)
+bench pitch-wide n 1  min 5.12  avg 5.12  max 5.12 ms
+bench pitch-odd n 1  min 62.70  avg 62.70  max 62.70 ms
+metal bench pitch: OK
+--- mtlprobe as the login user (render node permissions)
+metal compute: OK
+--- mtlprobe on the debug plugin in-process (HOST barrier at command buffer end)
+metal compute: OK
+debug rc=0
+--- fd instances: free 7611 lookup 551 opening 0 open 30 peak 581 of 8192 recycled 0; lock free 0 ticks; nowait reserve 64:256 128:512 256:512 512:260 1024:256 2048:259 4096:261, misses 151
+--- plugin and accelerator log

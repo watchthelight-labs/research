@@ -1,0 +1,25 @@
+2026-11-26 23:12:30 N-386: wait rc=0 xe-pre-after-wifi: wifi N-385 pass after 0 s, installing
+2026-11-26 23:12:30 N-386: running {"id": "N-386", "stages": 7, "env": "compat.linuxkpi.i915_disable_display=1 compat.linuxkpi.i915_xegfx_no_display=1 compat.linuxkpi.i915_enable_guc=3 xegfx.nvram_trace=0 xegfx.gtawake=2", "wdog": 180, "settle": 300, "post": "/usr/local/bin/xe-post", "post_timeout": 400, "ws": 1, "reboot_on_fail": 1, "reboot_after": 0, "fbcapex": 1, "ws_wait": 120, "wait": "/usr/local/bin/xe-pre-after-wifi N-385 /usr/bin/true", "wait_timeout": 900}
+2026-11-26 23:12:30 N-386: kmutil load rc=0 
+2026-11-26 23:12:30 N-386: stage 1 start
+2026-11-26 23:12:32 N-386: stage 1 rc=0 result=1 progress=10
+2026-11-26 23:12:32 N-386: stage 2 start
+2026-11-26 23:12:34 N-386: stage 2 rc=0 result=1 progress=23
+2026-11-26 23:12:34 N-386: stage 3 start
+2026-11-26 23:12:36 N-386: stage 3 rc=0 result=1 progress=30
+2026-11-26 23:12:36 N-386: stage 4 start
+2026-11-26 23:12:37 N-386: stage 4 rc=0 result=1 progress=1551
+2026-11-26 23:12:37 N-386: stage 5 start
+2026-11-26 23:12:39 N-386: stage 5 rc=0 result=1 progress=50
+2026-11-26 23:12:39 N-386: stage 6 start
+2026-11-26 23:12:41 N-386: stage 6 rc=0 result=1 progress=60
+2026-11-26 23:12:41 N-386: stage 7 start
+2026-11-26 23:12:42 N-386: stage 7 rc=0 result=1 progress=70
+2026-11-26 23:12:42 N-386: post /usr/local/bin/xe-post
+2026-11-26 23:13:28 N-386: post rc=0
+2026-11-26 23:13:28 N-386: ws: arming iop, AGDC and debug.nvaccelfb=4, then restarting WindowServer
+2026-11-26 23:13:30 N-386: kernel/WindowServer log streaming to bash-ec2:legion-logs/N-386-20261126-231330.log
+2026-11-26 23:14:17 N-386: ws: sampled 45 s after the restart
+2026-11-26 23:14:23 N-386: ws: new pid 2345, 12 accelerator clients, 506 frames to head 4
+2026-11-26 23:19:26 N-386: pass: stages 1-7 passed, WindowServer stable 300 s
+2026-11-26 23:19:26 N-386: ws run passed; later entries wait for the next boot

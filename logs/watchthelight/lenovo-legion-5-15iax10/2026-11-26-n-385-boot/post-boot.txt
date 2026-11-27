@@ -1,0 +1,31 @@
+== 2026-11-26 23:15:30 EST uptime 5 mins
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.2)
+org.watchthelight.LegionBtFix (0.3.0)
+org.watchthelight.WTLWireless (0.15.5)
+org.watchthelight.WTLWireless.Native (0.15.5)
+org.watchthelight.XeGfxIntelFB (0.10)
+com.nullmoth.NVRMAGDC (2.9)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.WTLWireless.Bt (0.15.5)
+org.watchthelight.XeGfx (0.0.48)
+org.watchthelight.XeGfxAccel (0.9)
+== wifi (guard capture at 23:11, then live)
+mtknativelqmsnr=1 mtkrxdrop=1 mtkfe=native mtknativeif=1 
+"MtkNativeCoreOps" = 6
+"MtkNativeAbiGeneration" = "tahoe"
+"MtkNativeVersion" = "0.15.5"
+"MtkW2Cmd" = "indispatch 0 timeouts 0 fails 0 dead 0, status seen 20 odd 0 refused 0 (last cid 0x00 status 0x0)"
+"MtkW6RxTransInfo" = "ok 559 undecrypted 0 amsdu 0 nogroup4 0 last 01310104"
+"MtkState" = "W6 pass: en1 passing traffic"
+"MtkW6RxDropped" = 0
+"MtkW9Power" = "clc 0, sku 2g failed 0, sku 5g failed 0"
+"MtkW1Join" = "state 5 joins 1 fails 0 last 0 rejoins 0 authtx 1 assoctx 1 tries 1"
+== bt
+"MtkBtState" = "ready"
+"MtkBtVersion" = "0.15.5"
+ExcUserFault_bluetoothd-2026-11-26-231109.ips
+== link (after the WindowServer restart of N-386)
+3 packets transmitted, 3 packets received, 0.0% packet loss
+== refusals in the kernel log
+0
