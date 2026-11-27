@@ -1,0 +1,20 @@
+2026-11-26 23:56:49
+"MtkW6CsaFail" = 0
+"MtkW6CsaState" = "state 0 ch 0 bw 0 centre 0 count 0 mode 0 quiet 0 in 0 ms, last beacon loss reason 10"
+"MtkW2Cmd" = "indispatch 0 timeouts 0 fails 0 dead 0, status seen 172 odd 0 refused 0 (last cid 0x00 status 0x0)"
+"MtkW6CsaBeacons" = 1798
+"MtkW2Sec" = "m1 1 m2 1 m3 1 m4 1 g1 0 g2 0 badmic 0 replays 0 reinst 0 pnreplay 0 nopn 0 icv 0 mismatch 0 unprot 0 portdrop 0 trans 3 eapol rx 28 tx 28 qdrop 0 installs 28/0"
+"MtkW6Deauths" = 0
+"MtkW6CsaSeen" = 0
+"MtkW6Csa" = "on, no announcement heard yet"
+"MtkW6RxDropped" = 0
+"MtkW6CsaDone" = 0
+"MtkW9Power" = "clc 0, sku 2g failed 0, sku 5g failed 0"
+"MtkW6CsaOther" = "frames 0 last ch 0 count 0, 0 ticks ago"
+"MtkW6CsaTxQuiet" = 0
+"MtkW2Gkey" = "id 1 prev -1 frames cur 10 old 0 odd 0 (last odd id 0)"
+"MtkW1Join" = "state 5 joins 14 fails 0 last 0 rejoins 0 authtx 21 assoctx 14 tries 1"
+"MtkW6EventIds" = "01:396 0c:13 0e:98 12:14 27:14 29:1891 43:1 48:1"
+"MtkW6CsaBcnLoss" = 13
+"MtkW6CsaCancel" = 0
+"MtkNativeJoin" = "requests 14 ok 14 failed 0 leaves 13 linkdowns 13 linkup 1 beaconreports 351"

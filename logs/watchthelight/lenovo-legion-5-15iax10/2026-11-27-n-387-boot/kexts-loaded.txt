@@ -1,0 +1,8 @@
+org.watchthelight.LegionCpuProbe (1.1.0)
+org.watchthelight.LegionCpuPower (0.4.2)
+org.watchthelight.LegionBtFix (0.3.0)
+org.watchthelight.WTLWireless (0.15.6)
+org.watchthelight.WTLWireless.Native (0.15.6)
+org.watchthelight.XeGfxIntelFB (0.10)
+org.watchthelight.XeGfxAGDC (0.1.1)
+org.watchthelight.WTLWireless.Bt (0.15.6)
